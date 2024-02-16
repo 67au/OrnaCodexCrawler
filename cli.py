@@ -24,7 +24,7 @@ def main() -> None:
     output = args.output
     generate = args.generate
 
-    mod = importlib.import_module(f'crawler.cli.{module}')
+    mod = importlib.import_module(f'crawler.cmd.{module}')
     mod.run(data_dir, output, generate)
     
 

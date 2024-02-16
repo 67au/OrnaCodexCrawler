@@ -27,8 +27,3 @@ class HrefPipeline:
                     if href:
                         item[key][i] = parse_codex_id(href)
         return item
-
-class RaidPipeline:
-
-    async def process_item(self, item: ItemAdapter, spider):
-        pass

@@ -32,7 +32,24 @@ TRANSLATION = {
         'drops': '掉落',
         'summons': '召唤物',
         'celestial_classes':'天辉职业',
-    }
+    },
+        'zh-hant': {
+        'causes': '造成',
+        'gives': '賦予',
+        'cures': '治療',
+        'immunities': '免疫',
+        'dropped_by': '掉落來源',
+        'upgrade_materials': '升級素材',
+        'skills': '技能',
+        'abilities': '能力',
+        'hp': '血量',
+        'bestial_bond': '野獸羈絆',
+        'learned_by':'學習自',
+        'requirements': '職業需求',
+        'drops': '掉落',
+        'summons': '召喚獸',
+        'celestial_classes':'星天職業',
+    },
 }
 
 langs = TRANSLATION.keys()

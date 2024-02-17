@@ -3,6 +3,8 @@ from urllib.parse import urlparse
 
 from .translations import TRANSLATION
 
+split_pattern = re.compile(r':|：')
+
 def reflect_trans(lang: str) -> dict:
     return dict(zip(TRANSLATION[lang].values(), TRANSLATION[lang].keys()))
 
@@ -12,7 +14,7 @@ def parse_drop(drop) -> dict:
     drop_struct = {}
     bond = drop.xpath('./span[@class="emph"]')
     if any(bond):
-        drop_struct['name'] = bond.xpath('string()').get().strip(':')
+        drop_struct['name'] = split_pattern.split(bond.xpath('string()').get())[0]
         drop_struct['description'] = ''.join(bond.xpath('../text()').getall()).strip()
         return drop_struct
     name = drop.xpath('.//span').xpath('string()').get().strip()

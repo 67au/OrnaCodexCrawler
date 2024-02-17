@@ -1,7 +1,7 @@
 from scrapy.http.response import Response
 
 from ..items import ClassesItem, Drop
-from ..utils import parse_drop, parse_static_url
+from ..utils import parse_drop, parse_static_url, split_pattern
 
 from ._base import BaseSpider
 
@@ -27,16 +27,16 @@ class CodexSpider(BaseSpider):
 
         meta = response.xpath("//div[@class='codex-page-meta']")
 
-        tier = meta[0].xpath('string()').get().split(':')[-1].strip()[1:]
+        tier = split_pattern.split(meta[0].xpath('string()').get())[-1].strip()[1:]
         struct['tier'] = tier
 
         if len(meta) == 2:
-            price = meta[1].xpath('string()').get().split(':')[-1].strip().split()[0].replace(',', '')
+            price = split_pattern.split(meta[1].xpath('string()').get())[-1].strip().split()[0].replace(',', '')
             struct['price'] = price
 
         drops = response.xpath("//div[@class='codex-page'][1]/h4")
         for drop in drops:
-            drop_name = drop.xpath('string()').get().split(':')[0].strip()
+            drop_name = split_pattern.split(drop.xpath('string()').get())[0].strip()
             d = drop.xpath("./following-sibling::*[1]")
             drop_list = []
             while any(d):

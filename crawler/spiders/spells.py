@@ -1,7 +1,7 @@
 from scrapy.http.response import Response
 
 from ..items import SpellsItem, Drop
-from ..utils import parse_drop, parse_static_url
+from ..utils import parse_drop, parse_static_url, split_pattern
 
 from ._base import BaseSpider
 
@@ -31,15 +31,15 @@ class CodexSpider(BaseSpider):
         struct['tier'] = tier[1:]
         struct['spell_type'] = ''.join(spell_type)
 
-        target = meta[1].get().strip().split(':')[-1].strip()
+        target = split_pattern.split(meta[1].get().strip())[-1].strip()
         struct['target'] = target
 
         if len(meta) > 2:
-            costs = meta[-1].get().strip().split(':')[-1].strip()
+            costs = split_pattern.split(meta[-1].get().strip())[-1].strip()
             struct['costs'] = costs
 
         if len(meta) == 4:
-            power = (': '.join(meta[2].get().strip().split(':')[1:])).strip()
+            power = (': '.join(split_pattern.split(meta[2].get().strip())[1:])).strip()
             struct['power'] = power
 
         tags = response.xpath("//div[@class='codex-page-tag']").xpath('string()')
@@ -48,7 +48,7 @@ class CodexSpider(BaseSpider):
 
         drops = response.xpath("//div[@class='codex-page'][1]/h4")
         for drop in drops:
-            drop_name = drop.xpath('string()').get().split(':')[0].strip()
+            drop_name = split_pattern.split(drop.xpath('string()').get())[0].strip()
             d = drop.xpath("./following-sibling::*[1]")
             drop_list = []
             while any(d):

@@ -1,7 +1,7 @@
 from scrapy.http.response import Response
 
 from ..items import RaidsItem, Drop
-from ..utils import parse_drop, parse_static_url
+from ..utils import parse_drop, parse_static_url, split_pattern
 
 from ._base import BaseSpider
 
@@ -31,14 +31,14 @@ class CodexSpider(BaseSpider):
 
         event = response.xpath('//div[@class="codex-page-description codex-page-description-highlight"]').xpath('string()')
         if any(event):
-            struct['event'] = sorted(e.strip() for e in event.get().strip().split(':')[-1].split('/'))
+            struct['event'] = sorted(e.strip() for e in split_pattern.split(event.get().strip())[-1].split('/'))
 
         meta = response.xpath("//div[@class='codex-page-meta']").xpath('string()')
 
-        tier = meta[0].get().split(':')[-1].strip()[1:]
+        tier = split_pattern.split(meta[0].get())[-1].strip()[1:]
         struct['tier'] = tier
 
-        hp = meta[1].get().strip().split(':')[-1].strip()
+        hp = split_pattern.split(meta[1].get().strip())[-1].strip()
         struct['hp'] = ''.join(hp.split(','))
 
         tags = response.xpath("//div[@class='codex-page-tag']").xpath('string()')
@@ -47,7 +47,7 @@ class CodexSpider(BaseSpider):
 
         drops = response.xpath("//div[@class='codex-page'][1]/h4")
         for drop in drops:
-            drop_name = drop.xpath('string()').get().split(':')[0].strip()
+            drop_name = split_pattern.split(drop.xpath('string()').get())[0].strip()
             d = drop.xpath("./following-sibling::*[1]")
             drop_list = []
             while any(d):

@@ -56,7 +56,14 @@ class BaseSpider(scrapy.Spider):
     async def parse_page(self, response: Response):
         self.event.set()
         for elem in response.xpath('//div[@class="codex-entries"]/a'):
-            yield response.follow(elem.attrib['href'], self.parse_item)
+            # yield response.follow(elem.attrib['href'], self.parse_item)
+            yield scrapy.FormRequest(
+                    f"{BASE_URL}{elem.attrib['href']}",
+                    method='GET',
+                    formdata={'lang': self.lang},
+                    dont_filter=True,
+                    callback=self.parse_item,
+                )
 
     async def parse_page_404(self, response: Response):
         self.stop_request = True

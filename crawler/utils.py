@@ -3,6 +3,8 @@ from urllib.parse import urlparse
 
 from .translations import TRANSLATION
 
+href_keys = ['dropped_by', 'upgrade_materials', 'skills', 'learned_by', 'requirements', 'drops', 'celestial_classes']
+
 split_pattern = re.compile(r':|：')
 
 def reflect_trans(lang: str) -> dict:

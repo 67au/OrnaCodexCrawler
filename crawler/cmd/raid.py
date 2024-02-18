@@ -10,12 +10,13 @@ from crawler.translations import langs
 
 def run(data_dir: Path, output: str = None, generate: bool = False):
     output = Path(output) if output else Path('raid-hp.json')
+    index_dir = data_dir.joinpath('index')
     if not generate:
         from twisted.internet import reactor, defer
         configure_logging()
         settings = get_project_settings()
         settings['FEEDS'] = {
-            f'{data_dir}/%(lang)s/%(name)s.json': {
+            f'{index_dir}/%(lang)s/%(name)s.json': {
                 'format': 'json',
                 'encoding': 'utf8',
                 'store_empty': False,
@@ -28,7 +29,7 @@ def run(data_dir: Path, output: str = None, generate: bool = False):
             runner = CrawlerRunner(settings=settings)
             yield runner.crawl(items.CodexSpider, lang='en')
             raid = set()
-            with open(data_dir.joinpath('en', 'items.json')) as f:
+            with open(index_dir.joinpath('en', 'items.json')) as f:
                 item = json.load(f)
                 for i in item:
                     for d in i.get('dropped_by', []):
@@ -43,7 +44,7 @@ def run(data_dir: Path, output: str = None, generate: bool = False):
 
     raid = dict()
     for lang in langs:
-        with open(data_dir.joinpath(f'{lang}/raids.json'), 'r') as fp:
+        with open(index_dir.joinpath(lang, 'raids.json'), 'r') as fp:
             d = json.load(fp)
             for item in d:
                 if raid.get(item['id']) is None:

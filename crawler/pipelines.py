@@ -7,7 +7,7 @@
 # useful for handling different item types with a single interface
 from itemadapter import ItemAdapter
 
-from .utils import parse_codex_id
+from .utils import parse_codex_id, href_keys
 
 class CrawlerPipeline:
 
@@ -16,10 +16,8 @@ class CrawlerPipeline:
 
 class HrefPipeline:
 
-    href_keys = ['causes', 'gives', 'cures', 'immunities', 'dropped_by', 'upgrade_materials', 'skills', 'abilities', 'learned_by', 'requirements', 'drops', 'summons', 'celestial_classes']
-
     async def process_item(self, item: ItemAdapter, spider):
-        for key in self.href_keys:
+        for key in href_keys:
             match = item.get(key)
             if match:
                 for i, m in enumerate(match):

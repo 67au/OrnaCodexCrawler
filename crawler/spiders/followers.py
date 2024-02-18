@@ -1,7 +1,7 @@
 from scrapy.http.response import Response
 
 from ..items import FollowersItem, Drop
-from ..utils import parse_drop, parse_static_url, split_pattern
+from ..utils import parse_drop, parse_static_url, extract_kv
 
 from ._base import BaseSpider
 
@@ -31,15 +31,15 @@ class CodexSpider(BaseSpider):
 
         event = response.xpath('//div[@class="codex-page-description codex-page-description-highlight"]').xpath('string()')
         if any(event):
-            struct['event'] = sorted(e.strip() for e in split_pattern.split(event.get().strip())[-1].split('/'))
+            struct['event'] = sorted(e.strip() for e in extract_kv(event.get().strip())[-1].split('/'))
 
-        family = split_pattern.split(description[1].get().strip())[-1].strip()
+        family = extract_kv(description[1].get().strip())[-1].strip()
         struct['family'] = family
 
-        rarity = split_pattern.split(description[2].get().strip())[-1].strip()
+        rarity = extract_kv(description[2].get().strip())[-1].strip()
         struct['rarity'] = rarity
 
-        tier = split_pattern.split(response.xpath("//div[@class='codex-page-meta']").xpath('string()').get())[-1].strip()[1:]
+        tier = extract_kv(response.xpath("//div[@class='codex-page-meta']").xpath('string()').get())[-1].strip()[1:]
         struct['tier'] = tier
 
         stats = response.xpath("//dl[@class='stats']")
@@ -48,7 +48,7 @@ class CodexSpider(BaseSpider):
 
         drops = response.xpath("//div[@class='codex-page'][1]/h4")
         for drop in drops:
-            drop_name = split_pattern.split(drop.xpath('string()').get())[0].strip()
+            drop_name = extract_kv(drop.xpath('string()').get())[0].strip()
             d = drop.xpath("./following-sibling::*[1]")
             drop_list = []
             while any(d):

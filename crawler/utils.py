@@ -7,6 +7,9 @@ href_keys = ['dropped_by', 'upgrade_materials', 'skills', 'learned_by', 'require
 
 split_pattern = re.compile(r':|：')
 
+def extract_kv(text: str) -> list:
+    return split_pattern.split(text, maxsplit=1)
+
 def reflect_trans(lang: str) -> dict:
     return dict(zip(TRANSLATION[lang].values(), TRANSLATION[lang].keys()))
 

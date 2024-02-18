@@ -94,16 +94,17 @@ def run(data_dir: Path, output: str = None, generate: bool = False):
                 else:
                     yield runner.join()
 
-                for crawler in crawlers:
-                    key = crawler.CodexSpider.name
-                    if not miss_dir.joinpath(base_lang, f'{key}.json').exists():
-                        continue
-                    with open(index_dir.joinpath(base_lang, f'{key}.json'), 'r+') as f_index, open(miss_dir.joinpath(base_lang, f'{key}.json'), 'r') as f_miss:
-                        index, miss = json.load(f_index), json.load(f_miss)
-                        merged = merge_and_sort(index, miss)
-                        f_index.seek(0)
-                        f_index.truncate()
-                        json.dump(merged, f_index, ensure_ascii=True, indent=4)
+                for lang in langs:
+                    for crawler in crawlers:
+                        key = crawler.CodexSpider.name
+                        if not miss_dir.joinpath(lang, f'{key}.json').exists():
+                            continue
+                        with open(index_dir.joinpath(lang, f'{key}.json'), 'r+') as f_index, open(miss_dir.joinpath(lang, f'{key}.json'), 'r') as f_miss:
+                            index, miss = json.load(f_index), json.load(f_miss)
+                            merged = merge_and_sort(index, miss)
+                            f_index.seek(0)
+                            f_index.truncate()
+                            json.dump(merged, f_index, ensure_ascii=True, indent=4)
             reactor.callFromThread(reactor.stop)
 
         crawl()
@@ -137,7 +138,7 @@ def run(data_dir: Path, output: str = None, generate: bool = False):
                                         
 
     index = {
-        'codex': codex,
+        'codex': {},
         'translation': TRANSLATION,
         'upgrade_materials': upgrade_materials,
         'skills': dict(skills),
@@ -145,3 +146,10 @@ def run(data_dir: Path, output: str = None, generate: bool = False):
 
     with open(output, 'w') as f:
         json.dump(index, f, ensure_ascii=False)
+        print('output:', output)
+
+    for lang in langs:
+        output_lang = output.parent.joinpath(f'{output.stem}.{lang}.json')
+        with open(output_lang, 'w') as f:
+            json.dump(codex[lang], f, ensure_ascii=False)
+            print('output:', output_lang)

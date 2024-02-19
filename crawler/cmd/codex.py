@@ -128,7 +128,7 @@ def run(data_dir: Path, output: str = None, generate: bool = False):
                             if match:
                                 for _, id in match:
                                     upgrade_materials[id].append(item['id'])
-                        if key in ('monsters', 'raids', 'follwers', 'bosses'):
+                        if key in ('monsters', 'raids', 'followers', 'bosses'):
                             match = item.get('skills')
                             if match:
                                 for _, id in match:

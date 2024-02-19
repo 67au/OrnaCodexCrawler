@@ -51,7 +51,7 @@ class CodexSpider(BaseSpider):
         if any(tags):
             struct['tags'] = [s.get().strip()[2:] for s in tags]
 
-        stats = response.xpath("//div[@class='codex-stats']/div[@class='codex-stat']").xpath("string()")
+        stats = response.xpath("//div[@class='codex-stats']/div[contains(@class,'codex-stat')]").xpath("string()")
         if any(stats):
             struct['stats'] = [[i.strip() for i in extract_kv(s.get().strip())] for s in stats]
 

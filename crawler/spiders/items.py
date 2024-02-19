@@ -53,7 +53,7 @@ class CodexSpider(BaseSpider):
 
         stats = response.xpath("//div[@class='codex-stats']/div[@class='codex-stat']").xpath("string()")
         if any(stats):
-            struct['stats'] = [s.get().strip() for s in stats]
+            struct['stats'] = [[i.strip() for i in extract_kv(s.get().strip())] for s in stats]
 
         ability = response.xpath("//div[@class='codex-page-description']/preceding-sibling::div[1] | //div[@class='codex-page-description']").xpath("string()")
         if len(ability) == 2:

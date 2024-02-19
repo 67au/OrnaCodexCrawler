@@ -44,7 +44,7 @@ class CodexSpider(BaseSpider):
 
         stats = response.xpath("//dl[@class='stats']")
         stats_iter = zip(stats.xpath("./dt/text()").getall(), stats.xpath("./dd/text()").getall())
-        struct['stats'] = [': '.join(m) for m in stats_iter]
+        struct['stats'] = list(stats_iter)
 
         drops = response.xpath("//div[@class='codex-page'][1]/h4")
         for drop in drops:

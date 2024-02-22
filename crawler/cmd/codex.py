@@ -59,56 +59,56 @@ def run(data_dir: Path, output: str = None, generate: bool = False):
                     }
                 }
             runner.settings = settings
-            for _ in range(5):
-                index_codex = {}
-                scan_codex = {}
-                for crawler in crawlers:
-                    with open(index_dir.joinpath(base_lang, f'{crawler.CodexSpider.name}.json')) as f:
-                        items = json.load(f)
-                        index_codex[crawler.CodexSpider.name] = set()
-                        for item in items:
-                            index_codex[crawler.CodexSpider.name].add(item['id'])
-                            for key in href_keys:
-                                match = item.get(key)
-                                if match:
-                                    for m in match:
-                                        category, id = m
-                                        if category not in scan_codex:
-                                            scan_codex[category] = set()
-                                        scan_codex[category].add(id)
+            stop_flag = True
+            index_codex = {}
+            scan_codex = {}
+            for crawler in crawlers:
+                with open(index_dir.joinpath(base_lang, f'{crawler.CodexSpider.name}.json')) as f:
+                    items = json.load(f)
+                    index_codex[crawler.CodexSpider.name] = set()
+                    for item in items:
+                        index_codex[crawler.CodexSpider.name].add(item['id'])
+                        for key in href_keys:
+                            match = item.get(key)
+                            if match:
+                                for m in match:
+                                    category, id = m
+                                    if category not in scan_codex:
+                                        scan_codex[category] = set()
+                                    scan_codex[category].add(id)
 
-                stop_flag = True
-                for crawler in crawlers:
-                    key = crawler.CodexSpider.name
-                    diff_set = scan_codex.get(
-                        key, set()) - index_codex.get(key, set())
-                    if len(diff_set) == 0:
-                        continue
-                    stop_flag = False
-                    start_ids = list(diff_set)
-                    for lang in langs:
-                        runner.crawl(crawler.CodexSpider,
-                                    lang=lang, start_ids=start_ids)
-                if stop_flag:
-                    break
-                else:
-                    yield runner.join()
-
+            stop_flag = True
+            for crawler in crawlers:
+                key = crawler.CodexSpider.name
+                diff_set = scan_codex.get(
+                    key, set()) - index_codex.get(key, set())
+                if len(diff_set) == 0:
+                    continue
+                stop_flag = False
+                start_ids = list(diff_set)
                 for lang in langs:
-                    for crawler in crawlers:
-                        key = crawler.CodexSpider.name
-                        if not miss_dir.joinpath(lang, f'{key}.json').exists():
-                            continue
-                        with open(index_dir.joinpath(lang, f'{key}.json'), 'r+') as f_index, open(miss_dir.joinpath(lang, f'{key}.json'), 'r') as f_miss:
-                            index, miss = json.load(f_index), json.load(f_miss)
-                            merged = merge_and_sort(index, miss)
-                            f_index.seek(0)
-                            f_index.truncate()
-                            json.dump(merged, f_index, ensure_ascii=True, indent=4)
+                    runner.crawl(crawler.CodexSpider,
+                                lang=lang, start_ids=start_ids)
+            if stop_flag:
+                return
+            else:
+                yield runner.join()
+
             reactor.callFromThread(reactor.stop)
 
         crawl()
         reactor.run()
+        for lang in langs:
+            for crawler in crawlers:
+                key = crawler.CodexSpider.name
+                if not miss_dir.joinpath(lang, f'{key}.json').exists():
+                    continue
+                with open(index_dir.joinpath(lang, f'{key}.json'), 'r+') as f_index, open(miss_dir.joinpath(lang, f'{key}.json'), 'r') as f_miss:
+                    index, miss = json.load(f_index), json.load(f_miss)
+                    merged = merge_and_sort(index, miss)
+                    f_index.seek(0)
+                    f_index.truncate()
+                    json.dump(merged, f_index, ensure_ascii=True, indent=4)
 
     codex = {}
     upgrade_materials = defaultdict(list)
@@ -135,7 +135,6 @@ def run(data_dir: Path, output: str = None, generate: bool = False):
                                     if skills[id].get(key) is None:
                                         skills[id][key] = []
                                     skills[id][key].append(item['id'])
-                                        
 
     index = {
         'codex': {},

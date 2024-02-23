@@ -8,13 +8,12 @@ parser = argparse.ArgumentParser(
 
 parser.add_argument('module', help='use crawler module')
 parser.add_argument('-d', '--dir', action='store', default='tmp', help='use download directory, default: tmp')
-parser.add_argument('-o', '--output', action='store', help='output file')
+parser.add_argument('-o', '--output', action='store', help='output file, pass generate if not set')
 parser.add_argument('-g', '--generate', action='store_true', help='generate only')
 parser.add_argument('-v', '--verbose', action='store_true')
 
 def main() -> None:
     args = parser.parse_args()
-
     module = args.module
 
     data_dir = Path(args.dir)

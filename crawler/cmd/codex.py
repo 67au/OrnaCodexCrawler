@@ -26,7 +26,7 @@ def merge_and_sort(iter1: Iterator[Any], iter2: Iterator[Any]) -> Iterator[Any]:
     return list(merged_iter)
 
 def run(data_dir: Path, output: str = None, generate: bool = False):
-    output = Path(output) if output else Path('index.json')
+    output = Path(output) if output else None
     index_dir = data_dir.joinpath('index')
     miss_dir = data_dir.joinpath('miss')
     if not generate:
@@ -110,62 +110,62 @@ def run(data_dir: Path, output: str = None, generate: bool = False):
                     f_index.seek(0)
                     f_index.truncate()
                     json.dump(merged, f_index, ensure_ascii=True, indent=4)
+    if output:
+        # Analysis
+        codex = {}
+        upgrade_materials = defaultdict(list)
+        skills = defaultdict(dict)
+        ability_items = defaultdict(list)
+        offhand_skills = dict()
+        for lang in langs:
+            codex[lang] = {}
+            for crawler in crawlers:
+                key = crawler.CodexSpider.name
+                codex[lang][key] = {}
+                with open(index_dir.joinpath(lang, f'{key}.json'), ) as f:
+                    items = json.load(f)
+                    for item in items:
+                        codex[lang][key][item['id']] = item
+                        if lang == base_lang:
+                            if key in ('items'):
+                                match = item.get('upgrade_materials')
+                                if match:
+                                    for _, id in match:
+                                        upgrade_materials[id].append(item['id'])
+                                # Must: Items first, spells second
+                                match = item.get('ability')
+                                if match:
+                                    ability_items[match[0]].append(item['id'])
+                            if key in ('spells'):
+                                # spells second
+                                match = item['name'].endswith(' (Off-hand)')
+                                if match:
+                                    name = item['name'][:-11]
+                                    if name in ability_items:
+                                        offhand_skills[item['id']] = ability_items[name]
+                            if key in ('monsters', 'raids', 'followers', 'bosses'):
+                                match = item.get('skills')
+                                if match:
+                                    for _, id in match:
+                                        if skills[id].get(key) is None:
+                                            skills[id][key] = []
+                                        skills[id][key].append(item['id'])
+        
+        index = {
+            'codex': {},
+            'translation': TRANSLATION,
+            'upgrade_materials': upgrade_materials,
+            'skills': dict(skills),
+            'offhand_skills': dict(offhand_skills),
+            'offhand_items': {item: spell  for spell, items in offhand_skills.items() for item in items},
+        }
 
-    # Analysis
-    codex = {}
-    upgrade_materials = defaultdict(list)
-    skills = defaultdict(dict)
-    ability_items = defaultdict(list)
-    offhand_skills = dict()
-    for lang in langs:
-        codex[lang] = {}
-        for crawler in crawlers:
-            key = crawler.CodexSpider.name
-            codex[lang][key] = {}
-            with open(index_dir.joinpath(lang, f'{key}.json'), ) as f:
-                items = json.load(f)
-                for item in items:
-                    codex[lang][key][item['id']] = item
-                    if lang == base_lang:
-                        if key in ('items'):
-                            match = item.get('upgrade_materials')
-                            if match:
-                                for _, id in match:
-                                    upgrade_materials[id].append(item['id'])
-                            # Must: Items first, spells second
-                            match = item.get('ability')
-                            if match:
-                                ability_items[match[0]].append(item['id'])
-                        if key in ('spells'):
-                            # spells second
-                            match = item['name'].endswith(' (Off-hand)')
-                            if match:
-                                name = item['name'][:-11]
-                                if name in ability_items:
-                                    offhand_skills[item['id']] = ability_items[name]
-                        if key in ('monsters', 'raids', 'followers', 'bosses'):
-                            match = item.get('skills')
-                            if match:
-                                for _, id in match:
-                                    if skills[id].get(key) is None:
-                                        skills[id][key] = []
-                                    skills[id][key].append(item['id'])
-    
-    index = {
-        'codex': {},
-        'translation': TRANSLATION,
-        'upgrade_materials': upgrade_materials,
-        'skills': dict(skills),
-        'offhand_skills': dict(offhand_skills),
-        'offhand_items': {item: spell  for spell, items in offhand_skills.items() for item in items},
-    }
+        with open(output, 'w') as f:
+            json.dump(index, f, ensure_ascii=False)
+            print('output:', output)
 
-    with open(output, 'w') as f:
-        json.dump(index, f, ensure_ascii=False)
-        print('output:', output)
-
-    for lang in langs:
-        output_lang = output.parent.joinpath(f'{output.stem}.{lang}.json')
-        with open(output_lang, 'w') as f:
-            json.dump(codex[lang], f, ensure_ascii=False)
-            print('output:', output_lang)
+        for lang in langs:
+            output_lang = output.parent.joinpath(f'{output.stem}.{lang}.json')
+            with open(output_lang, 'w') as f:
+                json.dump(codex[lang], f, ensure_ascii=False)
+                print('output:', output_lang)

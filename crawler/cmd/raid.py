@@ -9,7 +9,7 @@ from crawler.spiders import raids, items
 from crawler.translations import langs
 
 def run(data_dir: Path, output: str = None, generate: bool = False):
-    output = Path(output) if output else Path('raid-hp.json')
+    output = Path(output) if output else None
     index_dir = data_dir.joinpath('index')
     if not generate:
         from twisted.internet import reactor, defer
@@ -41,19 +41,20 @@ def run(data_dir: Path, output: str = None, generate: bool = False):
             reactor.stop()
         crawl()
         reactor.run()
+        
+    if output:
+        raid = dict()
+        for lang in langs:
+            with open(index_dir.joinpath(lang, 'raids.json'), 'r') as fp:
+                d = json.load(fp)
+                for item in d:
+                    if raid.get(item['id']) is None:
+                        raid[item['id']] = {'name': {}}
+                    raid[item['id']]['name'][lang] = item['name']
+                    if raid[item['id']].get('hp') is None:
+                        raid[item['id']]['tier'] = int(item['tier'])
+                        raid[item['id']]['hp'] = int(item['hp'])
+                        raid[item['id']]['icon'] = item['icon']
 
-    raid = dict()
-    for lang in langs:
-        with open(index_dir.joinpath(lang, 'raids.json'), 'r') as fp:
-            d = json.load(fp)
-            for item in d:
-                if raid.get(item['id']) is None:
-                    raid[item['id']] = {'name': {}}
-                raid[item['id']]['name'][lang] = item['name']
-                if raid[item['id']].get('hp') is None:
-                    raid[item['id']]['tier'] = int(item['tier'])
-                    raid[item['id']]['hp'] = int(item['hp'])
-                    raid[item['id']]['icon'] = item['icon']
-
-    with open(output, 'w', encoding='utf-8') as fp:
-        json.dump(raid, fp, indent=4, ensure_ascii=False, sort_keys=True)
+        with open(output, 'w', encoding='utf-8') as fp:
+            json.dump(raid, fp, indent=4, ensure_ascii=False, sort_keys=True)

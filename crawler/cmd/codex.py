@@ -25,7 +25,8 @@ def merge_and_sort(iter1: Iterator[Any], iter2: Iterator[Any]) -> Iterator[Any]:
     merged_iter = heapq.merge(iter1, iter2, key=lambda x: x['id'])
     return list(merged_iter)
 
-def run(data_dir: Path, output: str = None, generate: bool = False):
+
+def run(data_dir: Path, output: str = None, generate: bool = False, target: str = None):
     output = Path(output) if output else None
     index_dir = data_dir.joinpath('index')
     miss_dir = data_dir.joinpath('miss')
@@ -48,17 +49,17 @@ def run(data_dir: Path, output: str = None, generate: bool = False):
             runner = CrawlerRunner(settings=settings)
             for lang in langs:
                 for crawler in crawlers:
-                    runner.crawl(crawler.CodexSpider, lang=lang)
+                    runner.crawl(crawler.CodexSpider, lang=lang, target=target)
             yield runner.join()
 
             settings['FEEDS'] = {
-                    f'{miss_dir}/%(lang)s/%(name)s.json': {
-                        'format': 'json',
-                        'encoding': 'utf8',
-                        'store_empty': False,
-                        'overwrite': True,
-                    }
+                f'{miss_dir}/%(lang)s/%(name)s.json': {
+                    'format': 'json',
+                    'encoding': 'utf8',
+                    'store_empty': False,
+                    'overwrite': True,
                 }
+            }
             runner.settings = settings
             stop_flag = True
             index_codex = {}
@@ -89,7 +90,7 @@ def run(data_dir: Path, output: str = None, generate: bool = False):
                 start_ids = list(diff_set)
                 for lang in langs:
                     runner.crawl(crawler.CodexSpider,
-                                lang=lang, start_ids=start_ids)
+                                 lang=lang, start_ids=start_ids, target=target)
             if stop_flag:
                 return
             else:
@@ -131,7 +132,8 @@ def run(data_dir: Path, output: str = None, generate: bool = False):
                                 match = item.get('upgrade_materials')
                                 if match:
                                     for _, id in match:
-                                        upgrade_materials[id].append(item['id'])
+                                        upgrade_materials[id].append(
+                                            item['id'])
                                 # Must: Items first, spells second
                                 match = item.get('ability')
                                 if match:
@@ -142,7 +144,8 @@ def run(data_dir: Path, output: str = None, generate: bool = False):
                                 if match:
                                     name = item['name'][:-11]
                                     if name in ability_items:
-                                        offhand_skills[item['id']] = ability_items[name]
+                                        offhand_skills[item['id']
+                                                       ] = ability_items[name]
                             if key in ('monsters', 'raids', 'followers', 'bosses'):
                                 match = item.get('skills')
                                 if match:
@@ -150,14 +153,13 @@ def run(data_dir: Path, output: str = None, generate: bool = False):
                                         if skills[id].get(key) is None:
                                             skills[id][key] = []
                                         skills[id][key].append(item['id'])
-        
+
         index = {
-            'codex': {},
             'translation': TRANSLATION,
             'upgrade_materials': upgrade_materials,
             'skills': dict(skills),
             'offhand_skills': dict(offhand_skills),
-            'offhand_items': {item: spell  for spell, items in offhand_skills.items() for item in items},
+            'offhand_items': {item: spell for spell, items in offhand_skills.items() for item in items},
         }
 
         with open(output, 'w') as f:

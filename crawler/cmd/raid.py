@@ -8,7 +8,7 @@ from scrapy.utils.project import get_project_settings
 from crawler.spiders import raids, items
 from crawler.translations import langs
 
-def run(data_dir: Path, output: str = None, generate: bool = False):
+def run(data_dir: Path, output: str = None, generate: bool = False, target: str = None):
     output = Path(output) if output else None
     index_dir = data_dir.joinpath('index')
     if not generate:
@@ -27,7 +27,7 @@ def run(data_dir: Path, output: str = None, generate: bool = False):
         @defer.inlineCallbacks
         def crawl():
             runner = CrawlerRunner(settings=settings)
-            yield runner.crawl(items.CodexSpider, lang='en')
+            yield runner.crawl(items.CodexSpider, lang='en', target=target)
             raid = set()
             with open(index_dir.joinpath('en', 'items.json')) as f:
                 item = json.load(f)
@@ -36,7 +36,7 @@ def run(data_dir: Path, output: str = None, generate: bool = False):
                         if d[0] == 'raids':
                             raid.add(d[1])
             for lang in langs:
-                runner.crawl(raids.CodexSpider, lang=lang, start_ids=list(raid))
+                runner.crawl(raids.CodexSpider, lang=lang, start_ids=list(raid), target=target)
             yield runner.join()
             reactor.stop()
         crawl()

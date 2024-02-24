@@ -32,4 +32,5 @@ jobs:
         with:
           name: codex-data
           path: ./data
+          overwrite: true
       

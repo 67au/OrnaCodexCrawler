@@ -1,0 +1,35 @@
+name: Upload Codex
+
+on:
+  # push:
+  #   branches:
+  #     # - main 
+      
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  upload-data:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python environment
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: |
+          pip install scrapy
+      - name: Start crawler for codex
+        run: |
+          python cli.py codex --dir data
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: codex-data
+          path: ./data
+      

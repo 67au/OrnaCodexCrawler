@@ -50,7 +50,7 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
             for lang in langs:
                 for crawler in crawlers:
                     runner.crawl(crawler.CodexSpider, lang=lang, target=target)
-            yield runner.join()
+                yield runner.join()
 
             settings['FEEDS'] = {
                 f'{miss_dir}/%(lang)s/%(name)s.json': {

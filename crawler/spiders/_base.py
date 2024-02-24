@@ -1,14 +1,16 @@
+from ..utils import reflect_trans
 from typing import Any, Iterable
 import asyncio
 from urllib.parse import urlparse
 import scrapy
 from scrapy.http import Request
 from scrapy.http.response import Response
-scrapy.utils.reactor.install_reactor('twisted.internet.asyncioreactor.AsyncioSelectorReactor')
+scrapy.utils.reactor.install_reactor(
+    'twisted.internet.asyncioreactor.AsyncioSelectorReactor')
 
-from ..utils import reflect_trans
 
 TARGET_URL = 'https://playorna.com'
+
 
 class BaseSpider(scrapy.Spider):
     allowed_domains = []

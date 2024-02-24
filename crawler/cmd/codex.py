@@ -10,7 +10,7 @@ from scrapy.utils.project import get_project_settings
 
 from crawler.spiders import bosses, classes, followers, items, monsters, raids, spells
 from crawler.translations import langs, TRANSLATION
-from crawler.utils import href_keys
+from crawler.utils import href_keys, parse_codex_id
 
 # Must: Items first, spells second
 crawlers = [
@@ -74,7 +74,7 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                             match = item.get(key)
                             if match:
                                 for m in match:
-                                    category, id = m
+                                    category, id = parse_codex_id(m['href'])
                                     if category not in scan_codex:
                                         scan_codex[category] = set()
                                     scan_codex[category].add(id)
@@ -111,13 +111,11 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                     f_index.seek(0)
                     f_index.truncate()
                     json.dump(merged, f_index, ensure_ascii=True, indent=4)
+
     if output:
         # Analysis
+        # Load Items
         codex = {}
-        upgrade_materials = defaultdict(list)
-        skills = defaultdict(dict)
-        ability_items = defaultdict(list)
-        offhand_skills = dict()
         for lang in langs:
             codex[lang] = {}
             for crawler in crawlers:
@@ -127,35 +125,58 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                     items = json.load(f)
                     for item in items:
                         codex[lang][key][item['id']] = item
-                        if lang == base_lang:
-                            if key in ('items'):
-                                match = item.get('upgrade_materials')
-                                if match:
-                                    for _, id in match:
-                                        upgrade_materials[id].append(
-                                            item['id'])
-                                # Must: Items first, spells second
-                                match = item.get('ability')
-                                if match:
-                                    ability_items[match[0]].append(item['id'])
-                            if key in ('spells'):
-                                # spells second
-                                match = item['name'].endswith(' (Off-hand)')
-                                if match:
-                                    name = item['name'][:-11]
-                                    if name in ability_items:
-                                        offhand_skills[item['id']
-                                                       ] = ability_items[name]
-                            if key in ('monsters', 'raids', 'followers', 'bosses'):
-                                match = item.get('skills')
-                                if match:
-                                    for _, id in match:
-                                        if skills[id].get(key) is None:
-                                            skills[id][key] = []
-                                        skills[id][key].append(item['id'])
+        
+        miss_entries = {}
+        for lang in langs:
+            for crawler in crawlers:
+                category = crawler.CodexSpider.name
+                used = codex[lang][category]
+                for used_id, item in used.items():
+                    for key in href_keys:
+                        match = item.get(key)
+                        if match:
+                            for i, m in enumerate(match):
+                                href = m.get('href')
+                                if href:
+                                    cate, cid = parse_codex_id(href)
+                                    if not (cid in codex[lang][cate]):
+                                        miss_entries[f'{lang}/{cate}/{cid}'] = m
+                                    used[used_id][key][i] = [cate, cid]
+
+        upgrade_materials = defaultdict(list)
+        skills = defaultdict(dict)
+        ability_items = defaultdict(list)
+        offhand_skills = dict()
+        for crawler in crawlers:
+            key = crawler.CodexSpider.name
+            for item in codex[base_lang][key].values():
+                if key in ('items'):
+                    match = item.get('upgrade_materials')
+                    if match:
+                        for _, id in match:
+                            upgrade_materials[id].append(item['id'])
+                    # Must: Items first, spells second
+                    match = item.get('ability')
+                    if match:
+                        ability_items[match[0]].append(item['id'])
+                if key in ('spells'):
+                    # spells second
+                    match = item['name'].endswith(' (Off-hand)')
+                    if match:
+                        name = item['name'][:-11]
+                        if name in ability_items:
+                            offhand_skills[item['id']] = ability_items[name]
+                if key in ('monsters', 'raids', 'followers', 'bosses'):
+                    match = item.get('skills')
+                    if match:
+                        for _, id in match:
+                            if skills[id].get(key) is None:
+                                skills[id][key] = []
+                            skills[id][key].append(item['id'])
 
         index = {
             'translation': TRANSLATION,
+            'miss_entries': miss_entries,
             'upgrade_materials': upgrade_materials,
             'skills': dict(skills),
             'offhand_skills': dict(offhand_skills),

@@ -7,6 +7,7 @@ from scrapy.utils.project import get_project_settings
 
 from crawler.spiders import raids, items
 from crawler.translations import langs
+from crawler.utils import parse_codex_id
 
 def run(data_dir: Path, output: str = None, generate: bool = False, target: str = None):
     output = Path(output) if output else None
@@ -33,8 +34,9 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                 item = json.load(f)
                 for i in item:
                     for d in i.get('dropped_by', []):
-                        if d[0] == 'raids':
-                            raid.add(d[1])
+                        category, id = parse_codex_id(d)
+                        if category == 'raids':
+                            raid.add(id)
             for lang in langs:
                 runner.crawl(raids.CodexSpider, lang=lang, start_ids=list(raid), target=target)
             yield runner.join()

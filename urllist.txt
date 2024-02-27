@@ -336,6 +336,8 @@
 /codex/followers/bashe-hungry-one/
 /codex/followers/basilisk/
 /codex/followers/bat/
+/codex/followers/bat/
+/codex/followers/bear/
 /codex/followers/bear/
 /codex/followers/big-cactus/
 /codex/followers/bloodwarg/
@@ -415,8 +417,6 @@
 /codex/followers/harpy/
 /codex/followers/hellhound/
 /codex/followers/hengreon/
-/codex/followers/horse/
-/codex/followers/ice-dragon/
 /codex/followers/illuyanka-made-of-stone/
 /codex/followers/imp/
 /codex/followers/kerberos/
@@ -455,6 +455,10 @@
 /codex/followers/pegasus/
 /codex/followers/phoenix/
 /codex/followers/pollux/
+/codex/followers/pumpkinhead/
+/codex/followers/pumpkinhead/
+/codex/followers/quetzalcoatl-feathered-one/
+/codex/followers/quetzalcoatl-feathered-one/
 /codex/followers/raging-cerus/
 /codex/followers/reaper/
 /codex/followers/red-nosed-chimera/
@@ -476,6 +480,8 @@
 /codex/followers/sluagh/
 /codex/followers/snake/
 /codex/followers/spawn-of-anguish/
+/codex/followers/sphinx-cub/
+/codex/followers/sphinx-kit/
 /codex/followers/spiritgarm/
 /codex/followers/spooky-ghost/
 /codex/followers/steward-cactus/
@@ -492,12 +498,8 @@
 /codex/followers/traveled-wolpertinger/
 /codex/followers/triton/
 /codex/followers/turul/
-/codex/followers/turul/
-/codex/followers/twilight-wisp/
 /codex/followers/twilight-wisp/
 /codex/followers/undead-golem/
-/codex/followers/undead-golem/
-/codex/followers/untamed-cerus/
 /codex/followers/untamed-cerus/
 /codex/followers/very-scary-skeleton/
 /codex/followers/vritra-the-steadfast/

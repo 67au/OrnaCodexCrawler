@@ -102,10 +102,10 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
         reactor.run()
         for lang in langs:
             for crawler in crawlers:
-                key = crawler.CodexSpider.name
-                if not miss_dir.joinpath(lang, f'{key}.json').exists():
+                category = crawler.CodexSpider.name
+                if not miss_dir.joinpath(lang, f'{category}.json').exists():
                     continue
-                with open(index_dir.joinpath(lang, f'{key}.json'), 'r+') as f_index, open(miss_dir.joinpath(lang, f'{key}.json'), 'r') as f_miss:
+                with open(index_dir.joinpath(lang, f'{category}.json'), 'r+') as f_index, open(miss_dir.joinpath(lang, f'{category}.json'), 'r') as f_miss:
                     index, miss = json.load(f_index), json.load(f_miss)
                     merged = merge_and_sort(index, miss)
                     f_index.seek(0)
@@ -119,15 +119,18 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
         for lang in langs:
             codex[lang] = {}
             for crawler in crawlers:
-                key = crawler.CodexSpider.name
-                codex[lang][key] = {}
-                with open(index_dir.joinpath(lang, f'{key}.json'), ) as f:
+                category = crawler.CodexSpider.name
+                codex[lang][category] = {}
+                with open(index_dir.joinpath(lang, f'{category}.json'), ) as f:
                     items = json.load(f)
                     for item in items:
-                        codex[lang][key][item['id']] = item
+                        codex[lang][category][item['id']] = item
         
+        # scan miss entries and transform href
         miss_entries = {}
+        stats_translation = dict()
         for lang in langs:
+            stats_translation[lang] = {'stat_key':{}}
             for crawler in crawlers:
                 category = crawler.CodexSpider.name
                 used = codex[lang][category]
@@ -142,15 +145,50 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                                     if not (cid in codex[lang][cate]):
                                         miss_entries[f'{lang}/{cate}/{cid}'] = m
                                     used[used_id][key][i] = [cate, cid]
+                if category == 'items':
+                    for used_id, item in used.items():
+                        match = item.get('stats')
+                        if match:
+                            for n, stat in enumerate(match):
+                                if len(stat) == 2:
+                                    stats_translation[lang]['stat_key'][codex[base_lang][category][used_id]['stats'][n][0].lower().replace(' ', '_')] = stat[0]
+                                if len(stat) == 1:
+                                    stats_translation[lang]['stat_key'][codex[base_lang][category][used_id]['stats'][n][0].lower().replace(' ', '_')] = stat[0]
+        
+        for lang in langs:
+            for crawler in crawlers:
+                category = crawler.CodexSpider.name
+                used = codex[lang][category]
+                if category == 'items':
+                    if lang == base_lang:
+                        for used_id, item in used.items():
+                            match = item.get('stats')
+                            if match:
+                                stat_dict = dict()
+                                for n, stat in enumerate(match):
+                                    stat_key = codex[base_lang][category][used_id]['stats'][n][0].lower().replace(' ', '_')
+                                    if len(stat) == 2:
+                                        stat_dict[stat_key] = stat[1]
+                                    if len(stat) == 1:
+                                        if stat_key == 'two_handed':
+                                            stat_dict[stat_key] = True
+                                        else:
+                                            stat_dict['element'] = stat[0].lower()
+                                codex[base_lang][category][used_id]['stats'] = stat_dict
+                    else:
+                        for used_id, item in used.items():
+                            match = item.get('stats')
+                            if match:
+                                codex[lang][category][used_id]['stats'] = codex[base_lang][category][used_id]['stats']
 
         upgrade_materials = defaultdict(list)
         skills = defaultdict(dict)
         ability_items = defaultdict(list)
         offhand_skills = dict()
         for crawler in crawlers:
-            key = crawler.CodexSpider.name
-            for item in codex[base_lang][key].values():
-                if key in ('items'):
+            category = crawler.CodexSpider.name
+            for item in codex[base_lang][category].values():
+                if category in ('items'):
                     match = item.get('upgrade_materials')
                     if match:
                         for _, id in match:
@@ -159,23 +197,24 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                     match = item.get('ability')
                     if match:
                         ability_items[match[0]].append(item['id'])
-                if key in ('spells'):
+                if category in ('spells'):
                     # spells second
                     match = item['name'].endswith(' (Off-hand)')
                     if match:
                         name = item['name'][:-11]
                         if name in ability_items:
                             offhand_skills[item['id']] = ability_items[name]
-                if key in ('monsters', 'raids', 'followers', 'bosses'):
+                if category in ('monsters', 'raids', 'followers', 'bosses'):
                     match = item.get('skills')
                     if match:
                         for _, id in match:
-                            if skills[id].get(key) is None:
-                                skills[id][key] = []
-                            skills[id][key].append(item['id'])
+                            if skills[id].get(category) is None:
+                                skills[id][category] = []
+                            skills[id][category].append(item['id'])
 
         index = {
             'translation': TRANSLATION,
+            'stats_translation': stats_translation,
             'miss_entries': miss_entries,
             'upgrade_materials': upgrade_materials,
             'skills': dict(skills),

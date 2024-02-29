@@ -297,7 +297,6 @@
 /codex/classes/84/
 /codex/classes/85/
 /codex/classes/9/
-/codex/followers/aaru-viper/
 /codex/followers/aegir/
 /codex/followers/agathodaemon/
 /codex/followers/age-old-mimic/
@@ -336,6 +335,8 @@
 /codex/followers/banshee/
 /codex/followers/bashe-hungry-one/
 /codex/followers/basilisk/
+/codex/followers/bat/
+/codex/followers/bear/
 /codex/followers/big-cactus/
 /codex/followers/bloodwarg/
 /codex/followers/breathing-armor/
@@ -477,8 +478,6 @@
 /codex/followers/sluagh/
 /codex/followers/snake/
 /codex/followers/spawn-of-anguish/
-/codex/followers/sphinx-cub/
-/codex/followers/sphinx-kit/
 /codex/followers/spiritgarm/
 /codex/followers/spooky-ghost/
 /codex/followers/steward-cactus/

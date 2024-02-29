@@ -1,5 +1,3 @@
-
-
 import heapq
 import json
 from pathlib import Path
@@ -21,7 +19,10 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
             key = crawler.CodexSpider.name
             with open(index_dir.joinpath(base_lang, f'{key}.json')) as f:
                 items = json.load(f)
+                item_id_set = set()
                 for item in items:
-                    heapq.heappush(urls, f'/codex/{item["category"]}/{item["id"]}/')
+                    if item['id'] not in item_id_set:
+                        item_id_set.add(item['id'])
+                        heapq.heappush(urls, f'/codex/{item["category"]}/{item["id"]}/')
         with open(output, 'w') as f:
             f.writelines(f'{heapq.heappop(urls)}\n' for _ in range(len(urls)))

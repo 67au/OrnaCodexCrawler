@@ -31,7 +31,7 @@ jobs:
           pip install scrapy
       - name: Start crawler for codex
         run: |
-          python cli.py codex --dir tmp
+          python cli.py codex --dir tmp --target '${{ vars.TARGET }}'
       - name: Gen Url List
         run: |
           python cli.py urllist -o ./data/urllist.txt

@@ -297,6 +297,8 @@
 /codex/classes/84/
 /codex/classes/85/
 /codex/classes/9/
+/codex/followers/aaru-cobra/
+/codex/followers/aaru-viper/
 /codex/followers/aegir/
 /codex/followers/agathodaemon/
 /codex/followers/age-old-mimic/
@@ -478,6 +480,8 @@
 /codex/followers/sluagh/
 /codex/followers/snake/
 /codex/followers/spawn-of-anguish/
+/codex/followers/sphinx-cub/
+/codex/followers/sphinx-kit/
 /codex/followers/spiritgarm/
 /codex/followers/spooky-ghost/
 /codex/followers/steward-cactus/
@@ -511,6 +515,15 @@
 /codex/followers/yokai/
 /codex/followers/zaltys-friendly-one/
 /codex/followers/zu/
+/codex/items/aaru-armor/
+/codex/items/aaru-boots/
+/codex/items/aaru-garb/
+/codex/items/aaru-headwrap/
+/codex/items/aaru-helmet/
+/codex/items/aaru-hood/
+/codex/items/aaru-leggings/
+/codex/items/aaru-robe/
+/codex/items/aaru-skirt/
 /codex/items/abyssal-armor/
 /codex/items/abyssal-axe/
 /codex/items/abyssal-greaves/
@@ -611,6 +624,15 @@
 /codex/items/aries-hood/
 /codex/items/aries-horns/
 /codex/items/aries-legs/
+/codex/items/arisen-aaru-armor/
+/codex/items/arisen-aaru-boots/
+/codex/items/arisen-aaru-garb/
+/codex/items/arisen-aaru-headwrap/
+/codex/items/arisen-aaru-helmet/
+/codex/items/arisen-aaru-hood/
+/codex/items/arisen-aaru-leggings/
+/codex/items/arisen-aaru-robe/
+/codex/items/arisen-aaru-skirt/
 /codex/items/arisen-ankh/
 /codex/items/arisen-arch-gadget/
 /codex/items/arisen-arch-gizmo/
@@ -751,6 +773,7 @@
 /codex/items/arisen-kerberos-hood/
 /codex/items/arisen-kerberos-staff/
 /codex/items/arisen-kerberos-sword/
+/codex/items/arisen-khopesh/
 /codex/items/arisen-kings-crown/
 /codex/items/arisen-kings-sceptre/
 /codex/items/arisen-labrys/
@@ -819,6 +842,7 @@
 /codex/items/arisen-riftsword/
 /codex/items/arisen-ring/
 /codex/items/arisen-robe/
+/codex/items/arisen-satis/
 /codex/items/arisen-sea-axe/
 /codex/items/arisen-shadeblades/
 /codex/items/arisen-shield/
@@ -1108,6 +1132,7 @@
 /codex/items/charons-grimoire/
 /codex/items/charons-shade-staff/
 /codex/items/charons-shadow-staff/
+/codex/items/chestguard-of-dynasty/
 /codex/items/chimera-armor/
 /codex/items/chimera-greaves/
 /codex/items/chimera-helmet/
@@ -1115,6 +1140,7 @@
 /codex/items/chiroptera-remains/
 /codex/items/claymore/
 /codex/items/cliffside-cuirass/
+/codex/items/clogs-of-dynasty/
 /codex/items/clotas-garb/
 /codex/items/clurichaun-arrows/
 /codex/items/clurichaun-soul-blade/
@@ -1153,6 +1179,7 @@
 /codex/items/cowards-boots/
 /codex/items/cowards-cloak/
 /codex/items/cowards-cowl/
+/codex/items/cowl-of-dynasty/
 /codex/items/cracked-mirror/
 /codex/items/crest-of-autumna/
 /codex/items/crest-of-avalon/
@@ -1166,6 +1193,7 @@
 /codex/items/crimson-summoning-scroll-aries/
 /codex/items/crimson-summoning-scroll-cerus/
 /codex/items/crimson-summoning-scroll-perseus/
+/codex/items/crook-and-flail/
 /codex/items/crooked-shotel/
 /codex/items/crossbow/
 /codex/items/crows-feathers/
@@ -1178,6 +1206,7 @@
 /codex/items/crystal-halberd/
 /codex/items/crystal-staff/
 /codex/items/crystalis/
+/codex/items/cuirass-of-dynasty/
 /codex/items/cure-all/
 /codex/items/cursed-aengus-ogs-lute/
 /codex/items/cursed-artios-hide/
@@ -1663,6 +1692,7 @@
 /codex/items/fomors-crown-d8f79592/
 /codex/items/fomors-crown-faad302c/
 /codex/items/fomors-crown/
+/codex/items/footpads-of-dynasty/
 /codex/items/forest-goat-panflute/
 /codex/items/forest-goat-staff/
 /codex/items/forest-goats-hood/
@@ -1787,6 +1817,7 @@
 /codex/items/greater-soul/
 /codex/items/greater-wisp-staff/
 /codex/items/greatsword/
+/codex/items/greaves-of-dynasty/
 /codex/items/green-crystal/
 /codex/items/green-eye-of-kerberos/
 /codex/items/green-feather/
@@ -1837,6 +1868,7 @@
 /codex/items/hellfire-leggings/
 /codex/items/hellfire-robe/
 /codex/items/hellfire-shoes/
+/codex/items/helmet-of-dynasty/
 /codex/items/hels-boots/
 /codex/items/hels-feathers/
 /codex/items/hels-garb/
@@ -1878,6 +1910,7 @@
 /codex/items/historic-monster-aspect/
 /codex/items/hobgoblin-armor/
 /codex/items/hobgoblin-boots/
+/codex/items/hood-of-dynasty/
 /codex/items/hood-of-wolves/
 /codex/items/hood/
 /codex/items/horned-armor/
@@ -1885,6 +1918,7 @@
 /codex/items/horned-hood/
 /codex/items/horror/
 /codex/items/horuss-robe/
+/codex/items/houserobe-of-dynasty/
 /codex/items/huge-empty-bottle/
 /codex/items/hurricane-arc/
 /codex/items/hydra-staff/
@@ -1960,6 +1994,7 @@
 /codex/items/kerberos-sword-fa67ff37/
 /codex/items/kerberos-sword/
 /codex/items/kerberos-veil/
+/codex/items/khopesh/
 /codex/items/kings-boots/
 /codex/items/kings-hood/
 /codex/items/kings-robe/
@@ -2225,6 +2260,9 @@
 /codex/items/old-olympia-mantle/
 /codex/items/old-olympia-robe/
 /codex/items/old-olympia-shoes/
+/codex/items/old-seal-of-annwn/
+/codex/items/old-seal-of-avalon/
+/codex/items/old-seal-of-lyonesse/
 /codex/items/old-spear/
 /codex/items/olympia-mnemonic/
 /codex/items/olympia-tower-key/
@@ -2436,6 +2474,7 @@
 /codex/items/sanguine-staff/
 /codex/items/sanguine-sword/
 /codex/items/satis-antlers/
+/codex/items/satis/
 /codex/items/saturns-eye/
 /codex/items/scalestone/
 /codex/items/scimitar/
@@ -3175,6 +3214,8 @@
 /codex/monsters/snow-elf-mage/
 /codex/monsters/snow-elf-rogue/
 /codex/monsters/snow-elf/
+/codex/monsters/sphinx-cub/
+/codex/monsters/sphinx-kit/
 /codex/monsters/spider/
 /codex/monsters/spiritgarm-732978de/
 /codex/monsters/spiritgarm/
@@ -3252,6 +3293,9 @@
 /codex/raids/arisen-quetzalcoatl/
 /codex/raids/arisen-rift-judgement/
 /codex/raids/arisen-surtr/
+/codex/raids/arisen-thronemaker-neith/
+/codex/raids/arisen-thronemaker-ptah/
+/codex/raids/arisen-thronemaker-sekhmet/
 /codex/raids/arisen-warlock-trevelyan/
 /codex/raids/arisen-yggdrasil/
 /codex/raids/ashen-phoenix/
@@ -3286,6 +3330,7 @@
 /codex/raids/gerd/
 /codex/raids/grand-knight-lugus/
 /codex/raids/great-anguish/
+/codex/raids/great-sphinx/
 /codex/raids/havel/
 /codex/raids/hel/
 /codex/raids/ingenious-cade/
@@ -3322,6 +3367,9 @@
 /codex/raids/the-mightiest-mimic/
 /codex/raids/the-morrigan/
 /codex/raids/third-horseman/
+/codex/raids/thronemaker-neith/
+/codex/raids/thronemaker-ptah/
+/codex/raids/thronemaker-sekhmet/
 /codex/raids/tricky-aries/
 /codex/raids/turned-king-lyncus/
 /codex/raids/untarnished-perseus/
@@ -4061,6 +4109,7 @@
 /codex/spells/summon-phaethon/
 /codex/spells/summon-scarecrow/
 /codex/spells/summon-slime/
+/codex/spells/summon-sphinx-kit/
 /codex/spells/summon-spiritgarm/
 /codex/spells/summon-stonewarg/
 /codex/spells/summon-tower-guardian/

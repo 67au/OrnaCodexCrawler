@@ -35,7 +35,7 @@ class CodexSpider(BaseSpider):
         struct['target'] = target
 
         if len(meta) > 2:
-            costs = extract_kv(meta[-1].get().strip())[-1].strip()
+            costs = extract_kv(meta[-1].get().strip())[-1].strip().split(' ')[0]
             struct['costs'] = costs
 
         if len(meta) == 4:

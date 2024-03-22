@@ -4119,6 +4119,7 @@
 /codex/spells/summon-tower-guardian/
 /codex/spells/summon-troll-2/
 /codex/spells/summon-troll/
+/codex/spells/summon-very-scary-skeleton/
 /codex/spells/summon-warg/
 /codex/spells/summon-wyvern/
 /codex/spells/super-bomb/

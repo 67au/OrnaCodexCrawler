@@ -1,3 +1,4 @@
+import re
 from scrapy.http.response import Response
 
 from ..items import SpellsItem, Drop
@@ -35,12 +36,14 @@ class CodexSpider(BaseSpider):
         struct['target'] = target
 
         if len(meta) > 2:
-            costs = extract_kv(meta[-1].get().strip())[-1].strip().split(' ')[0]
-            struct['costs'] = costs
-
-        if len(meta) == 4:
-            power = (': '.join(extract_kv(meta[2].get().strip())[1:])).strip()
-            struct['power'] = power
+            for m in meta[2:]:
+                s = m.get().strip()
+                if re.match(r'\)|\d', s[-1], re.IGNORECASE):
+                    power = (': '.join(extract_kv(s)[1:])).strip()
+                    struct['power'] = power
+                else:
+                    costs = extract_kv(s)[-1].strip().split(' ')[0]
+                    struct['costs'] = costs
 
         tags = response.xpath("//div[@class='codex-page-tag']").xpath('string()')
         if any(tags):

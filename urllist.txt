@@ -3521,6 +3521,7 @@
 /codex/spells/cure-frozen/
 /codex/spells/cure-paralysis/
 /codex/spells/cure-poison/
+/codex/spells/curse-of-sekhmet/
 /codex/spells/curse/
 /codex/spells/cursed-glare/
 /codex/spells/cyclone/

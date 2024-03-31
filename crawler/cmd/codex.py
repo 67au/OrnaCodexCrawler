@@ -146,8 +146,10 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
             return new_key
 
         miss_entries = {}
+        event_conflict = {}
         translations = dict()
         for lang in langs:
+            event_conflict[lang] = {}
             translations[lang] = defaultdict(dict)
             for crawler in crawlers:
                 category = crawler.CodexSpider.name
@@ -210,8 +212,15 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                             match = item.get(key)
                             if match:
                                 for n, m in enumerate(match):
-                                    translations[lang][key][convert_key(
-                                        codex[base_lang][category][used_id][key][n])] = m
+                                    k = convert_key(codex[base_lang][category][used_id][key][n])
+                                    # fix random order
+                                    if key == 'event':
+                                        if event_conflict[lang].get(k, False):
+                                            continue
+                                        else:
+                                            if len(match) == 1:
+                                                event_conflict[lang][k] = True
+                                    translations[lang][key][k] = m
 
         codex_base = defaultdict(dict)
         not_trans_keys = {'name', 'description', 'bestial_bond', 'abilities'}

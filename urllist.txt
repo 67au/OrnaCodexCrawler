@@ -1474,6 +1474,7 @@
 /codex/items/elite-nothren-shield/
 /codex/items/elite-nothren-shoes/
 /codex/items/elixir/
+/codex/items/elm-essence/
 /codex/items/elstone/
 /codex/items/elven-katana/
 /codex/items/elven-staff/
@@ -1714,6 +1715,7 @@
 /codex/items/furious-cuirass/
 /codex/items/furious-helmet/
 /codex/items/gadget/
+/codex/items/gaia-apple/
 /codex/items/gaia-robe/
 /codex/items/galars-hammer/
 /codex/items/gales-spear/
@@ -1782,6 +1784,7 @@
 /codex/items/grand-sword/
 /codex/items/great-antlers/
 /codex/items/great-bearskin/
+/codex/items/great-dowsing-rod/
 /codex/items/great-empty-bottle/
 /codex/items/great-fishing-hat/
 /codex/items/great-fishing-line/
@@ -1987,7 +1990,7 @@
 /codex/items/jotunheim-mnemonic/
 /codex/items/kaladanda/
 /codex/items/kerberos-archistaff/
-/codex/items/kerberos-claws-81b67c8d/
+/codex/items/kerberos-claws-e7f61ea1/
 /codex/items/kerberos-claws/
 /codex/items/kerberos-fur/
 /codex/items/kerberos-greatsword/
@@ -3136,6 +3139,7 @@
 /codex/monsters/mollusc/
 /codex/monsters/monoceros/
 /codex/monsters/mummy/
+/codex/monsters/murk/
 /codex/monsters/mythril-armor/
 /codex/monsters/naga-mage/
 /codex/monsters/naga-warrior/
@@ -3334,6 +3338,7 @@
 /codex/raids/gerd/
 /codex/raids/grand-knight-lugus/
 /codex/raids/great-anguish/
+/codex/raids/great-murk/
 /codex/raids/great-sphinx/
 /codex/raids/havel/
 /codex/raids/hel/

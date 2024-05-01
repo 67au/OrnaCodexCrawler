@@ -1041,7 +1041,7 @@
 /codex/items/beguiled-lute/
 /codex/items/beguiled-mystic-katar-x/
 /codex/items/beguiled-mystic-katar/
-/codex/items/beguiled-quarterstaff-8644bf1e/
+/codex/items/beguiled-quarterstaff-x/
 /codex/items/beguiled-quarterstaff/
 /codex/items/beguiled-robe-x/
 /codex/items/beguiled-robe/
@@ -1255,8 +1255,8 @@
 /codex/items/cursed-damonas-shield/
 /codex/items/cursed-eostres-circlet/
 /codex/items/cursed-esuss-pillar/
+/codex/items/cursed-fomoria-plated-boots-0ebf6063/
 /codex/items/cursed-fomoria-plated-boots-7a9f5efc/
-/codex/items/cursed-fomoria-plated-boots-c6787dd8/
 /codex/items/cursed-fomoria-plated-boots-e03e2c7a/
 /codex/items/cursed-fomoria-plated-boots/
 /codex/items/cursed-fomoria-plated-robe-5d09a4d7/

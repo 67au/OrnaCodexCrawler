@@ -5,6 +5,11 @@
 
 import scrapy
 
+class ItemTypes(scrapy.Item):
+    type = scrapy.Field()
+    name = scrapy.Field()
+    items = scrapy.Field()
+
 class Drop(scrapy.Item):
     name = scrapy.Field()
     href = scrapy.Field()

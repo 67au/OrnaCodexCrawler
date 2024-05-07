@@ -8,7 +8,7 @@ from scrapy.crawler import CrawlerRunner
 from scrapy.utils.log import configure_logging
 from scrapy.utils.project import get_project_settings
 
-from crawler.spiders import bosses, classes, followers, items, monsters, raids, spells
+from crawler.spiders import bosses, classes, followers, item_types, items, monsters, raids, spells
 from crawler.translations import langs, TRANSLATION
 from crawler.utils import href_keys, parse_codex_id
 
@@ -35,6 +35,7 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
     output = Path(output) if output else None
     index_dir = data_dir.joinpath('index')
     miss_dir = data_dir.joinpath('miss')
+    item_types_dir = data_dir.joinpath('item_types')
     if not generate:
         from twisted.internet import reactor, defer
         configure_logging()
@@ -58,6 +59,20 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                 yield runner.join()
 
             settings['FEEDS'] = {
+                f'{item_types_dir}/%(lang)s/%(name)s.json': {
+                    'format': 'json',
+                    'encoding': 'utf8',
+                    'store_empty': False,
+                    'overwrite': True,
+                }
+            }
+            runner.settings = settings
+            for lang in langs:
+                runner.crawl(item_types.ItemTypesSpider, lang=lang,
+                             target=target, name_only=(lang != base_lang))
+            yield runner.join()
+
+            settings['FEEDS'] = {
                 f'{miss_dir}/%(lang)s/%(name)s.json': {
                     'format': 'json',
                     'encoding': 'utf8',
@@ -74,12 +89,14 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                         items = json.load(f)
                         index_codex[crawler.CodexSpider.name] = set()
                         for item in items:
-                            index_codex[crawler.CodexSpider.name].add(item['id'])
+                            index_codex[crawler.CodexSpider.name].add(
+                                item['id'])
                             for key in href_keys:
                                 match = item.get(key)
                                 if match:
                                     for m in match:
-                                        category, id = parse_codex_id(m['href'])
+                                        category, id = parse_codex_id(
+                                            m['href'])
                                         if category not in scan_codex:
                                             scan_codex[category] = set()
                                         scan_codex[category].add(id)
@@ -95,12 +112,12 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                     start_ids = list(diff_set)
                     for lang in langs:
                         runner.crawl(crawler.CodexSpider,
-                                    lang=lang, start_ids=start_ids, target=target)
+                                     lang=lang, start_ids=start_ids, target=target)
                 if stop_flag:
                     yield runner.stop()
                 else:
                     yield runner.join()
-                
+
                 for lang in langs:
                     for crawler in crawlers:
                         category = crawler.CodexSpider.name
@@ -111,13 +128,13 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                             merged = merge_and_sort(index, miss)
                             f_index.seek(0)
                             f_index.truncate()
-                            json.dump(merged, f_index, ensure_ascii=True, indent=4)
-        
+                            json.dump(merged, f_index,
+                                      ensure_ascii=True, indent=4)
+
             reactor.callFromThread(reactor.stop)
 
         crawl()
         reactor.run()
-        
 
     if output:
         # Analysis
@@ -128,7 +145,7 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
             for crawler in crawlers:
                 category = crawler.CodexSpider.name
                 codex[lang][category] = {}
-                with open(index_dir.joinpath(lang, f'{category}.json'), ) as f:
+                with open(index_dir.joinpath(lang, f'{category}.json'), 'r') as f:
                     items = json.load(f)
                     for item in items:
                         codex[lang][category][item['id']] = item
@@ -192,7 +209,8 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                                 for n, status in enumerate(match):
                                     status_name = convert_key(
                                         codex[base_lang][category][used_id][key][n]['name'])
-                                    status_name = check_conflict_key(status_name, status['icon'])
+                                    status_name = check_conflict_key(
+                                        status_name, status['icon'])
                                     translations[lang]['status'][status_name] = status['name']
                 if category in {'spells'}:
                     for used_id, item in used.items():
@@ -212,7 +230,8 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                             match = item.get(key)
                             if match:
                                 for n, m in enumerate(match):
-                                    k = convert_key(codex[base_lang][category][used_id][key][n])
+                                    k = convert_key(
+                                        codex[base_lang][category][used_id][key][n])
                                     # fix random order
                                     if key == 'event':
                                         if event_conflict[lang].get(k, False):
@@ -286,6 +305,16 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                     if key in not_trans_keys:
                         if key != 'name':
                             del based[used_id][key]
+        
+        for lang in langs:
+            with open(item_types_dir.joinpath(lang, 'item_types.json'), 'r') as f:
+                item_types_list = json.load(f)
+                translations[lang]['item_type'] = { item_type['type']: item_type['name'] for item_type in item_types_list}
+                if lang == base_lang:
+                    for item_type in item_types_list:
+                        for id in item_type['items']:
+                            item = codex_base['items'].get(id, {})
+                            item['item_type'] = item_type['type']
 
         upgrade_materials = defaultdict(list)
         skills = defaultdict(dict)

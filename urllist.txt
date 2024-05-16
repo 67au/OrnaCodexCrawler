@@ -348,7 +348,6 @@
 /codex/followers/cactus/
 /codex/followers/camazotz/
 /codex/followers/carman/
-/codex/followers/castor/
 /codex/followers/cerberus/
 /codex/followers/cernunnos/
 /codex/followers/cerus/
@@ -456,7 +455,6 @@
 /codex/followers/pale-dragon/
 /codex/followers/pegasus/
 /codex/followers/phoenix/
-/codex/followers/pollux/
 /codex/followers/pumpkinhead/
 /codex/followers/quetzalcoatl-feathered-one/
 /codex/followers/raging-cerus/
@@ -4152,11 +4150,13 @@
 /codex/spells/summon-hydra/
 /codex/spells/summon-kelpie/
 /codex/spells/summon-mighty-griffin/
+/codex/spells/summon-onryo/
 /codex/spells/summon-phaethon/
 /codex/spells/summon-scarecrow/
 /codex/spells/summon-slime/
 /codex/spells/summon-sphinx-kit/
 /codex/spells/summon-spiritgarm/
+/codex/spells/summon-spooky-ghost/
 /codex/spells/summon-stonewarg/
 /codex/spells/summon-tower-guardian/
 /codex/spells/summon-troll-2/

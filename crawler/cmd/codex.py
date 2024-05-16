@@ -195,11 +195,24 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                         if match:
                             for n, stat in enumerate(match):
                                 if len(stat) == 2:
-                                    translations[lang]['stats'][codex[base_lang][category][used_id]['stats'][n][0].lower(
-                                    ).replace(' ', '_')] = stat[0]
+                                    if stat[0] == 'element':
+                                        translations[lang]['stats'][
+                                            codex[base_lang][category][used_id]['stats'][n][1] \
+                                            .lower() \
+                                            .replace(' ', '_')
+                                        ] = stat[1]
+                                    else:
+                                        translations[lang]['stats'][
+                                            codex[base_lang][category][used_id]['stats'][n][0] \
+                                            .lower() \
+                                            .replace(' ', '_')
+                                        ] = stat[0]
                                 if len(stat) == 1:
-                                    translations[lang]['stats'][codex[base_lang][category][used_id]['stats'][n][0].lower(
-                                    ).replace(' ', '_')] = stat[0]
+                                    translations[lang]['stats'][
+                                        codex[base_lang][category][used_id]['stats'][n][0] \
+                                        .lower() \
+                                        .replace(' ', '_')
+                                    ] = stat[0]
                 # status
                 if category in {'items', 'spells'}:
                     for used_id, item in used.items():
@@ -242,6 +255,8 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                                     translations[lang][key][k] = m
 
         codex_base = defaultdict(dict)
+        stat_percent_keys = set()
+        sort_keys = set()
         not_trans_keys = {'name', 'description', 'bestial_bond', 'abilities'}
         for crawler in crawlers:
             category = crawler.CodexSpider.name
@@ -264,12 +279,17 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                             for stat in match:
                                 stat_key = convert_key(stat[0])
                                 if len(stat) == 2:
-                                    stat_dict[stat_key] = stat[1]
-                                if len(stat) == 1:
-                                    if stat_key == 'two_handed':
-                                        stat_dict[stat_key] = True
+                                    if stat_key == 'element':
+                                        stat_dict[stat_key] = convert_key(stat[1])
                                     else:
-                                        stat_dict['element'] = stat[0].lower()
+                                        stat_dict[stat_key] = stat[1]
+                                        if category == 'items':
+                                            sort_keys.add(stat_key)
+                                        if (stat[1].endswith('%')):
+                                            stat_percent_keys.add(stat_key)
+                                if len(stat) == 1:
+                                    sort_keys.add(stat_key)
+                                    stat_dict[stat_key] = True
                             based[used_id]['stats'] = stat_dict
 
                     if category in {'items', 'spells'}:
@@ -357,6 +377,8 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                 'skills': dict(skills),
                 'offhand_skills': dict(offhand_skills),
                 'offhand_items': {item: spell for spell, items in offhand_skills.items() for item in items},
+                'stat_percent_keys': list(stat_percent_keys),
+                'sort_keys': list(sort_keys)
             },
         }
 

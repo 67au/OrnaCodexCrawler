@@ -51,9 +51,22 @@ class CodexSpider(BaseSpider):
         if any(tags):
             struct['tags'] = [s.get().strip()[2:] for s in tags]
 
-        stats = response.xpath("//div[@class='codex-stats']/div[contains(@class,'codex-stat')]").xpath("string()")
+        stats = response.xpath("//div[@class='codex-stats']/div[contains(@class,'codex-stat')]")
         if any(stats):
-            struct['stats'] = [[i.strip() for i in extract_kv(s.get().strip())] for s in stats]
+            # struct['stats'] = [[i.strip() for i in extract_kv(s.get().strip())] for s in stats]
+            tmp = []
+            for s in stats:
+                t = s.xpath("string()").get().strip()
+                if len(s.xpath('@class').get().split()) > 1:
+                    tmp.append(['element', t])
+                    continue
+                if '/' in t:
+                    for u in t.split('/'):
+                        tmp.append([i.strip() for i in extract_kv(u.strip())])
+                else:
+                    tmp.append([i.strip() for i in extract_kv(t)])
+
+            struct['stats'] = tmp
 
         ability = response.xpath("//div[@class='codex-page-description']/preceding-sibling::div[1] | //div[@class='codex-page-description']").xpath("string()")
         if len(ability) == 2:

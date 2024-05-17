@@ -180,7 +180,8 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                                 if href:
                                     cate, cid = parse_codex_id(href)
                                     if not (cid in codex[lang][cate]):
-                                        miss_entries[f'{lang}/{cate}/{cid}'] = m
+                                        miss_entries[f'{
+                                            lang}/{cate}/{cid}'] = m
                                     used[used_id][key][i] = [cate, cid]
 
                     for key in ['rarity', 'useable_by', 'place', 'family', 'spell_type', 'target']:
@@ -194,25 +195,18 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                         match = item.get('stats')
                         if match:
                             for n, stat in enumerate(match):
+                                stat_base = codex[base_lang][category][used_id]['stats'][n]
                                 if len(stat) == 2:
                                     if stat[0] == 'element':
-                                        translations[lang]['stats'][
-                                            codex[base_lang][category][used_id]['stats'][n][1] \
-                                            .lower() \
-                                            .replace(' ', '_')
-                                        ] = stat[1]
+                                        translations[lang]['stats'][stat_base[1].lower().replace(' ', '_')] = stat[1]
                                     else:
-                                        translations[lang]['stats'][
-                                            codex[base_lang][category][used_id]['stats'][n][0] \
-                                            .lower() \
-                                            .replace(' ', '_')
-                                        ] = stat[0]
+                                        translations[lang]['stats'][stat_base[0].lower().replace(' ', '_')] = stat[0]
+                                        # patch for /codex/items/fallen-sky-armor/
+                                        if stat_base[0] == 'Ward' and stat_base[1].startswith('+'):
+                                            translations[lang]['stats']['ward_'] = stat[0]
+                                        ###
                                 if len(stat) == 1:
-                                    translations[lang]['stats'][
-                                        codex[base_lang][category][used_id]['stats'][n][0] \
-                                        .lower() \
-                                        .replace(' ', '_')
-                                    ] = stat[0]
+                                    translations[lang]['stats'][stat_base[0].lower().replace(' ', '_')] = stat[0]
                 # status
                 if category in {'items', 'spells'}:
                     for used_id, item in used.items():
@@ -282,6 +276,10 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                                     if stat_key == 'element':
                                         stat_dict[stat_key] = convert_key(stat[1])
                                     else:
+                                        # patch for /codex/items/fallen-sky-armor/
+                                        if stat_key == 'ward' and stat[1].startswith('+'):
+                                            stat_key = 'ward_'
+                                        ###
                                         stat_dict[stat_key] = stat[1]
                                         if category == 'items':
                                             sort_keys.add(stat_key)

@@ -251,7 +251,7 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
         codex_base = defaultdict(dict)
         stat_percent_keys = set()
         sort_keys = set()
-        not_trans_keys = {'name', 'description', 'bestial_bond', 'abilities'}
+        not_trans_keys = {'name', 'description', 'bestial_bond', 'abilities', 'ability'}
         for crawler in crawlers:
             category = crawler.CodexSpider.name
             used = codex[base_lang][category]
@@ -356,6 +356,8 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                     if match:
                         name = item['name'][:-11]
                         if name in ability_items:
+                            for id in ability_items[name]:
+                                codex_base['items'][id]['ability'] = ['spells', item['id']]
                             offhand_skills[item['id']] = ability_items[name]
                 if category in ('monsters', 'raids', 'followers', 'bosses'):
                     match = item.get('skills')
@@ -374,7 +376,7 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                 'upgrade_materials': upgrade_materials,
                 'skills': dict(skills),
                 'offhand_skills': dict(offhand_skills),
-                'offhand_items': {item: spell for spell, items in offhand_skills.items() for item in items},
+                # 'offhand_items': {item: spell for spell, items in offhand_skills.items() for item in items},
                 'stat_percent_keys': list(stat_percent_keys),
                 'sort_keys': list(sort_keys)
             },

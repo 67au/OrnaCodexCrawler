@@ -229,6 +229,7 @@
 /codex/classes/19/
 /codex/classes/2/
 /codex/classes/20/
+/codex/classes/21/
 /codex/classes/22/
 /codex/classes/23/
 /codex/classes/24/

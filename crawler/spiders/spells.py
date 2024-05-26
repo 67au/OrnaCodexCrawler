@@ -58,7 +58,12 @@ class CodexSpider(BaseSpider):
                 if any(d.xpath('self::hr | self::h4')):
                     struct[self.reflect_trans[drop_name]] = drop_list
                     break
-                drop_list.append(Drop(parse_drop(d)))
+                if self.reflect_trans[drop_name] == 'summons':
+                    for in_line in d:
+                        for drop_in_line in in_line.xpath("./*[@class='drop']"):
+                            drop_list.append(Drop(parse_drop(drop_in_line)))
+                else:
+                    drop_list.append(Drop(parse_drop(d)))
                 d = d.xpath("./following-sibling::*[1]")
             struct[self.reflect_trans[drop_name]] = drop_list 
 

@@ -362,6 +362,7 @@
 /codex/followers/breathing-sword/
 /codex/followers/cactus/
 /codex/followers/camazotz/
+/codex/followers/carman/
 /codex/followers/cerberus/
 /codex/followers/cernunnos/
 /codex/followers/cerus/
@@ -406,6 +407,7 @@
 /codex/followers/ghost/
 /codex/followers/giant-basilisk/
 /codex/followers/glashtyn/
+/codex/followers/glatisant/
 /codex/followers/gnome/
 /codex/followers/gorynych-son-of-mountains/
 /codex/followers/great-bear/
@@ -415,6 +417,7 @@
 /codex/followers/great-jinn/
 /codex/followers/great-lizarr-warrior/
 /codex/followers/great-monoceros/
+/codex/followers/great-pegasus/
 /codex/followers/great-questing-beast/
 /codex/followers/great-reaper/
 /codex/followers/great-yeti/
@@ -423,9 +426,11 @@
 /codex/followers/griffin/
 /codex/followers/guivre/
 /codex/followers/gullinkambi/
+/codex/followers/gwyllgi/
 /codex/followers/gymir/
 /codex/followers/harpy/
 /codex/followers/hellhound/
+/codex/followers/hengreon/
 /codex/followers/horse/
 /codex/followers/ice-dragon/
 /codex/followers/illuyanka-made-of-stone/
@@ -443,6 +448,7 @@
 /codex/followers/living-hammer/
 /codex/followers/living-sword/
 /codex/followers/lizarr/
+/codex/followers/llamrai/
 /codex/followers/lobster/
 /codex/followers/lotan-coiled-one/
 /codex/followers/mammon-acolyte/
@@ -495,6 +501,10 @@
 /codex/followers/steward-dragon/
 /codex/followers/steward-gazer/
 /codex/followers/steward-golem/
+/codex/followers/steward-gwyllgi/
+/codex/followers/steward-hengreon/
+/codex/followers/steward-llamrai/
+/codex/followers/steward-pegasus/
 /codex/followers/steward-wolf/
 /codex/followers/stonewarg/
 /codex/followers/storm-dragon/
@@ -614,6 +624,8 @@
 /codex/items/arch-blessed-rune-armor/
 /codex/items/arch-blessed-rune-helmet/
 /codex/items/arch-blessed-rune-leggings/
+/codex/items/arch-gadget/
+/codex/items/arch-gizmo/
 /codex/items/arch-rune-armor/
 /codex/items/arch-rune-helmet/
 /codex/items/arch-rune-leggings/
@@ -639,6 +651,8 @@
 /codex/items/arisen-aaru-robe/
 /codex/items/arisen-aaru-skirt/
 /codex/items/arisen-ankh/
+/codex/items/arisen-arch-gadget/
+/codex/items/arisen-arch-gizmo/
 /codex/items/arisen-armor/
 /codex/items/arisen-askr-armor/
 /codex/items/arisen-askr-boots/
@@ -646,6 +660,9 @@
 /codex/items/arisen-askr-garb/
 /codex/items/arisen-askr-helmet/
 /codex/items/arisen-askr-leggings/
+/codex/items/arisen-avalon-armor/
+/codex/items/arisen-avalon-helmet/
+/codex/items/arisen-avalon-leggings/
 /codex/items/arisen-axe-of-tiamat/
 /codex/items/arisen-axe-of-typhon/
 /codex/items/arisen-badb-catha/
@@ -666,6 +683,8 @@
 /codex/items/arisen-caroling-lute/
 /codex/items/arisen-charons-staff/
 /codex/items/arisen-clurichaun-blade/
+/codex/items/arisen-colada/
+/codex/items/arisen-contraption/
 /codex/items/arisen-cowl/
 /codex/items/arisen-crowsong/
 /codex/items/arisen-cursed-aengus-ogs-lute/
@@ -744,6 +763,7 @@
 /codex/items/arisen-gandring/
 /codex/items/arisen-garb/
 /codex/items/arisen-gazing-staff/
+/codex/items/arisen-genius/
 /codex/items/arisen-gerds-bullwhip/
 /codex/items/arisen-gerds-chestguard/
 /codex/items/arisen-gerds-headdress/
@@ -861,6 +881,7 @@
 /codex/items/arisen-terror/
 /codex/items/arisen-thors-arc/
 /codex/items/arisen-thors-hammer/
+/codex/items/arisen-tizona/
 /codex/items/arisen-top-hat/
 /codex/items/arisen-treecutter/
 /codex/items/arisen-trevelyans-archistaff/
@@ -933,6 +954,9 @@
 /codex/items/avalon-armor/
 /codex/items/avalon-crown/
 /codex/items/avalon-helmet/
+/codex/items/avalon-knight-armor/
+/codex/items/avalon-knight-helmet/
+/codex/items/avalon-knight-leggings/
 /codex/items/avalon-leggings/
 /codex/items/avalon-melody/
 /codex/items/avalon-ore/
@@ -1174,10 +1198,12 @@
 /codex/items/coffee/
 /codex/items/coiled-shield/
 /codex/items/coin-purse/
+/codex/items/colada/
 /codex/items/colossal-armor/
 /codex/items/colossal-helmet/
 /codex/items/colossal-leggings/
 /codex/items/conalls-wand/
+/codex/items/contraption/
 /codex/items/coral-armor/
 /codex/items/coral-boots/
 /codex/items/coral-cowl/
@@ -1738,6 +1764,7 @@
 /codex/items/furious-bulls-eye/
 /codex/items/furious-cuirass/
 /codex/items/furious-helmet/
+/codex/items/gadget/
 /codex/items/gaia-apple/
 /codex/items/gaia-robe/
 /codex/items/galars-hammer/
@@ -1763,12 +1790,14 @@
 /codex/items/gandring/
 /codex/items/gargouilles-dagger/
 /codex/items/gazing-staff/
+/codex/items/genius/
 /codex/items/gerds-bullwhip/
 /codex/items/gerds-chestguard/
 /codex/items/gerds-headdress/
 /codex/items/gerds-horsewhip/
 /codex/items/gerds-legwraps/
 /codex/items/giant-monster-aspect/
+/codex/items/gizmo/
 /codex/items/glacial-staff/
 /codex/items/gladiators-shotel/
 /codex/items/gladiators-sword/
@@ -1935,6 +1964,10 @@
 /codex/items/high-phoenician-shoes/
 /codex/items/high-phoenixsong/
 /codex/items/hiltless/
+/codex/items/hippogriff-eye/
+/codex/items/hippogriff-quill/
+/codex/items/hippogriff-tail/
+/codex/items/hippogriff-talon/
 /codex/items/historic-monster-aspect/
 /codex/items/hobgoblin-armor/
 /codex/items/hobgoblin-boots/
@@ -2483,6 +2516,8 @@
 /codex/items/royalty/
 /codex/items/ruby-wand/
 /codex/items/ruby/
+/codex/items/ruggieros-armor/
+/codex/items/ruggieros-helmet/
 /codex/items/rune-armor/
 /codex/items/rune-helmet/
 /codex/items/rune-leggings/
@@ -2734,6 +2769,7 @@
 /codex/items/titan-helmet/
 /codex/items/titan-leggings/
 /codex/items/titanium/
+/codex/items/tizona/
 /codex/items/top-hat/
 /codex/items/toque-blanche/
 /codex/items/torch/
@@ -2814,6 +2850,11 @@
 /codex/items/whetstone/
 /codex/items/whisper/
 /codex/items/willow-tree-branch/
+/codex/items/windtamer-hood/
+/codex/items/windtamer-lance/
+/codex/items/windtamer-robe/
+/codex/items/windtamer-shield/
+/codex/items/windtamer-shoes/
 /codex/items/windtamers-summoning-scroll/
 /codex/items/wintara-crested-shield/
 /codex/items/wisp-staff/
@@ -3099,6 +3140,7 @@
 /codex/monsters/great-monoceros/
 /codex/monsters/great-orc-marauder/
 /codex/monsters/great-orc/
+/codex/monsters/great-pegasus/
 /codex/monsters/great-phoenix-pledge-19c34e4d/
 /codex/monsters/great-phoenix-pledge/
 /codex/monsters/great-reaper/
@@ -3119,11 +3161,13 @@
 /codex/monsters/grey-wolfman/
 /codex/monsters/guivre/
 /codex/monsters/gull/
+/codex/monsters/gwyllgi/
 /codex/monsters/harpy/
 /codex/monsters/hati/
 /codex/monsters/hawk/
 /codex/monsters/headless/
 /codex/monsters/hellhound/
+/codex/monsters/hengreon/
 /codex/monsters/high-draconian-mage/
 /codex/monsters/high-draconian-mystic/
 /codex/monsters/high-draconian-warrior/
@@ -3154,6 +3198,7 @@
 /codex/monsters/ljosalfar-knight/
 /codex/monsters/ljosalfar-mage/
 /codex/monsters/ljosalfar/
+/codex/monsters/llamrai/
 /codex/monsters/lobster/
 /codex/monsters/lord-of-wolves/
 /codex/monsters/lost-memory-567cc985/
@@ -3310,11 +3355,14 @@
 /codex/monsters/yokai/
 /codex/monsters/zu/
 /codex/raids/age-old-mimic/
+/codex/raids/almighty-balin/
 /codex/raids/aloof-aries/
 /codex/raids/apollyon/
 /codex/raids/aries/
 /codex/raids/arisen-asteria-of-olympia/
 /codex/raids/arisen-atlas-of-olympia/
+/codex/raids/arisen-balin/
+/codex/raids/arisen-cade/
 /codex/raids/arisen-covyn/
 /codex/raids/arisen-ebon-scruug/
 /codex/raids/arisen-fenja/
@@ -3377,6 +3425,7 @@
 /codex/raids/great-sphinx/
 /codex/raids/havel/
 /codex/raids/hel/
+/codex/raids/ingenious-cade/
 /codex/raids/jormungandr/
 /codex/raids/kerberos/
 /codex/raids/king-of-ljosalfar/
@@ -3409,6 +3458,7 @@
 /codex/raids/the-dioscuri/
 /codex/raids/the-fool-ef1c6cb2/
 /codex/raids/the-fool/
+/codex/raids/the-last-hippogriff/
 /codex/raids/the-mightiest-mimic/
 /codex/raids/the-morrigan/
 /codex/raids/third-horseman/

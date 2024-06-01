@@ -362,7 +362,6 @@
 /codex/followers/breathing-sword/
 /codex/followers/cactus/
 /codex/followers/camazotz/
-/codex/followers/carman/
 /codex/followers/cerberus/
 /codex/followers/cernunnos/
 /codex/followers/cerus/
@@ -407,7 +406,6 @@
 /codex/followers/ghost/
 /codex/followers/giant-basilisk/
 /codex/followers/glashtyn/
-/codex/followers/glatisant/
 /codex/followers/gnome/
 /codex/followers/gorynych-son-of-mountains/
 /codex/followers/great-bear/
@@ -417,7 +415,6 @@
 /codex/followers/great-jinn/
 /codex/followers/great-lizarr-warrior/
 /codex/followers/great-monoceros/
-/codex/followers/great-pegasus/
 /codex/followers/great-questing-beast/
 /codex/followers/great-reaper/
 /codex/followers/great-yeti/
@@ -426,11 +423,9 @@
 /codex/followers/griffin/
 /codex/followers/guivre/
 /codex/followers/gullinkambi/
-/codex/followers/gwyllgi/
 /codex/followers/gymir/
 /codex/followers/harpy/
 /codex/followers/hellhound/
-/codex/followers/hengreon/
 /codex/followers/horse/
 /codex/followers/ice-dragon/
 /codex/followers/illuyanka-made-of-stone/
@@ -448,7 +443,6 @@
 /codex/followers/living-hammer/
 /codex/followers/living-sword/
 /codex/followers/lizarr/
-/codex/followers/llamrai/
 /codex/followers/lobster/
 /codex/followers/lotan-coiled-one/
 /codex/followers/mammon-acolyte/
@@ -620,8 +614,6 @@
 /codex/items/arch-blessed-rune-armor/
 /codex/items/arch-blessed-rune-helmet/
 /codex/items/arch-blessed-rune-leggings/
-/codex/items/arch-gadget/
-/codex/items/arch-gizmo/
 /codex/items/arch-rune-armor/
 /codex/items/arch-rune-helmet/
 /codex/items/arch-rune-leggings/
@@ -647,8 +639,6 @@
 /codex/items/arisen-aaru-robe/
 /codex/items/arisen-aaru-skirt/
 /codex/items/arisen-ankh/
-/codex/items/arisen-arch-gadget/
-/codex/items/arisen-arch-gizmo/
 /codex/items/arisen-armor/
 /codex/items/arisen-askr-armor/
 /codex/items/arisen-askr-boots/
@@ -656,9 +646,6 @@
 /codex/items/arisen-askr-garb/
 /codex/items/arisen-askr-helmet/
 /codex/items/arisen-askr-leggings/
-/codex/items/arisen-avalon-armor/
-/codex/items/arisen-avalon-helmet/
-/codex/items/arisen-avalon-leggings/
 /codex/items/arisen-axe-of-tiamat/
 /codex/items/arisen-axe-of-typhon/
 /codex/items/arisen-badb-catha/
@@ -679,8 +666,6 @@
 /codex/items/arisen-caroling-lute/
 /codex/items/arisen-charons-staff/
 /codex/items/arisen-clurichaun-blade/
-/codex/items/arisen-colada/
-/codex/items/arisen-contraption/
 /codex/items/arisen-cowl/
 /codex/items/arisen-crowsong/
 /codex/items/arisen-cursed-aengus-ogs-lute/
@@ -695,17 +680,17 @@
 /codex/items/arisen-cursed-damonas-shield/
 /codex/items/arisen-cursed-eostres-circlet/
 /codex/items/arisen-cursed-esuss-pillar/
-/codex/items/arisen-cursed-fomoria-plated-boots-4de3e61d/
 /codex/items/arisen-cursed-fomoria-plated-boots-56e4841c/
+/codex/items/arisen-cursed-fomoria-plated-boots-7aefba00/
 /codex/items/arisen-cursed-fomoria-plated-boots-b2c283ff/
 /codex/items/arisen-cursed-fomoria-plated-boots/
-/codex/items/arisen-cursed-fomoria-plated-robe-954d6525/
 /codex/items/arisen-cursed-fomoria-plated-robe-9a5a1cdd/
+/codex/items/arisen-cursed-fomoria-plated-robe-ca4ddba5/
 /codex/items/arisen-cursed-fomoria-plated-robe-d5d338d8/
 /codex/items/arisen-cursed-fomoria-plated-robe/
+/codex/items/arisen-cursed-fomors-crown-276564a1/
 /codex/items/arisen-cursed-fomors-crown-2cb9b4e6/
 /codex/items/arisen-cursed-fomors-crown-3a4a918b/
-/codex/items/arisen-cursed-fomors-crown-612a024c/
 /codex/items/arisen-cursed-fomors-crown/
 /codex/items/arisen-cursed-gobannos-heavy-boots/
 /codex/items/arisen-cursed-goibhniu-armguard/
@@ -759,7 +744,6 @@
 /codex/items/arisen-gandring/
 /codex/items/arisen-garb/
 /codex/items/arisen-gazing-staff/
-/codex/items/arisen-genius/
 /codex/items/arisen-gerds-bullwhip/
 /codex/items/arisen-gerds-chestguard/
 /codex/items/arisen-gerds-headdress/
@@ -877,7 +861,6 @@
 /codex/items/arisen-terror/
 /codex/items/arisen-thors-arc/
 /codex/items/arisen-thors-hammer/
-/codex/items/arisen-tizona/
 /codex/items/arisen-top-hat/
 /codex/items/arisen-treecutter/
 /codex/items/arisen-trevelyans-archistaff/
@@ -950,9 +933,6 @@
 /codex/items/avalon-armor/
 /codex/items/avalon-crown/
 /codex/items/avalon-helmet/
-/codex/items/avalon-knight-armor/
-/codex/items/avalon-knight-helmet/
-/codex/items/avalon-knight-leggings/
 /codex/items/avalon-leggings/
 /codex/items/avalon-melody/
 /codex/items/avalon-ore/
@@ -1137,6 +1117,7 @@
 /codex/items/brilliant-feathers/
 /codex/items/briny-pendant/
 /codex/items/broadsword/
+/codex/items/broceliande-candle/
 /codex/items/broken-statue/
 /codex/items/buckler/
 /codex/items/bulls-eye/
@@ -1193,12 +1174,10 @@
 /codex/items/coffee/
 /codex/items/coiled-shield/
 /codex/items/coin-purse/
-/codex/items/colada/
 /codex/items/colossal-armor/
 /codex/items/colossal-helmet/
 /codex/items/colossal-leggings/
 /codex/items/conalls-wand/
-/codex/items/contraption/
 /codex/items/coral-armor/
 /codex/items/coral-boots/
 /codex/items/coral-cowl/
@@ -1759,7 +1738,6 @@
 /codex/items/furious-bulls-eye/
 /codex/items/furious-cuirass/
 /codex/items/furious-helmet/
-/codex/items/gadget/
 /codex/items/gaia-apple/
 /codex/items/gaia-robe/
 /codex/items/galars-hammer/
@@ -1785,14 +1763,12 @@
 /codex/items/gandring/
 /codex/items/gargouilles-dagger/
 /codex/items/gazing-staff/
-/codex/items/genius/
 /codex/items/gerds-bullwhip/
 /codex/items/gerds-chestguard/
 /codex/items/gerds-headdress/
 /codex/items/gerds-horsewhip/
 /codex/items/gerds-legwraps/
 /codex/items/giant-monster-aspect/
-/codex/items/gizmo/
 /codex/items/glacial-staff/
 /codex/items/gladiators-shotel/
 /codex/items/gladiators-sword/
@@ -2035,7 +2011,7 @@
 /codex/items/jotunheim-mnemonic/
 /codex/items/kaladanda/
 /codex/items/kerberos-archistaff/
-/codex/items/kerberos-claws-e7f61ea1/
+/codex/items/kerberos-claws-81b67c8d/
 /codex/items/kerberos-claws/
 /codex/items/kerberos-fur/
 /codex/items/kerberos-greatsword/
@@ -2758,7 +2734,6 @@
 /codex/items/titan-helmet/
 /codex/items/titan-leggings/
 /codex/items/titanium/
-/codex/items/tizona/
 /codex/items/top-hat/
 /codex/items/toque-blanche/
 /codex/items/torch/
@@ -2839,6 +2814,7 @@
 /codex/items/whetstone/
 /codex/items/whisper/
 /codex/items/willow-tree-branch/
+/codex/items/windtamers-summoning-scroll/
 /codex/items/wintara-crested-shield/
 /codex/items/wisp-staff/
 /codex/items/witchs-archistaff/
@@ -3334,14 +3310,11 @@
 /codex/monsters/yokai/
 /codex/monsters/zu/
 /codex/raids/age-old-mimic/
-/codex/raids/almighty-balin/
 /codex/raids/aloof-aries/
 /codex/raids/apollyon/
 /codex/raids/aries/
 /codex/raids/arisen-asteria-of-olympia/
 /codex/raids/arisen-atlas-of-olympia/
-/codex/raids/arisen-balin/
-/codex/raids/arisen-cade/
 /codex/raids/arisen-covyn/
 /codex/raids/arisen-ebon-scruug/
 /codex/raids/arisen-fenja/
@@ -3404,7 +3377,6 @@
 /codex/raids/great-sphinx/
 /codex/raids/havel/
 /codex/raids/hel/
-/codex/raids/ingenious-cade/
 /codex/raids/jormungandr/
 /codex/raids/kerberos/
 /codex/raids/king-of-ljosalfar/
@@ -3533,6 +3505,7 @@
 /codex/spells/blood-pact-ii/
 /codex/spells/blood-pact-iii/
 /codex/spells/blood-pact/
+/codex/spells/bloodlust-ii/
 /codex/spells/bloodlust/
 /codex/spells/bloodshift/
 /codex/spells/bolt-ii/
@@ -4166,6 +4139,7 @@
 /codex/spells/storm/
 /codex/spells/storma-eventualus-ii/
 /codex/spells/storma-eventualus/
+/codex/spells/storming-tempest/
 /codex/spells/strikes-of-ursa/
 /codex/spells/stun-dart/
 /codex/spells/summon-alfar/
@@ -4199,12 +4173,16 @@
 /codex/spells/summon-great-golem/
 /codex/spells/summon-great-hydra/
 /codex/spells/summon-great-monoceros/
+/codex/spells/summon-great-pegasus/
 /codex/spells/summon-great-phoenix-pledge/
 /codex/spells/summon-guivre/
+/codex/spells/summon-gwyllgi/
 /codex/spells/summon-harpy/
 /codex/spells/summon-hati/
+/codex/spells/summon-hengreon/
 /codex/spells/summon-hydra/
 /codex/spells/summon-kelpie/
+/codex/spells/summon-llamrai/
 /codex/spells/summon-mighty-griffin/
 /codex/spells/summon-onryo/
 /codex/spells/summon-phaethon/

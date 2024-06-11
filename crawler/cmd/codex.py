@@ -31,7 +31,7 @@ def merge_and_sort(iter1: Iterator[Any], iter2: Iterator[Any]) -> Iterator[Any]:
     return list(merged_iter)
 
 
-def run(data_dir: Path, output: str = None, generate: bool = False, target: str = None):
+def run(data_dir: Path, output: str = None, generate: bool = False, target: str = None, **kwargs):
     output = Path(output) if output else None
     index_dir = data_dir.joinpath('index')
     miss_dir = data_dir.joinpath('miss')
@@ -383,7 +383,7 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
         }
 
         with open(output, 'w') as f:
-            json.dump(meta, f, ensure_ascii=False, indent=4)
+            json.dump(meta, f)
             print('output:', output)
 
         for lang in langs:
@@ -404,5 +404,5 @@ def run(data_dir: Path, output: str = None, generate: bool = False, target: str 
                     'meta': translations[lang],
                     'key': TRANSLATION[lang],
                 }
-                json.dump(codex_lang, f, ensure_ascii=False, indent=4)
+                json.dump(codex_lang, f)
                 print('output:', output_lang)

@@ -11,7 +11,7 @@ crawlers = [
 
 base_lang = 'en'
 
-def run(data_dir: Path, output: str = None, generate: bool = False, target: str = None):
+def run(data_dir: Path, output: str = None, generate: bool = False, target: str = None, **kwargs):
     index_dir = data_dir.joinpath('index')
     if output:
         urls = []

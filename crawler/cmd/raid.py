@@ -9,7 +9,7 @@ from crawler.spiders import raids, items
 from crawler.translations import langs
 from crawler.utils import parse_codex_id
 
-def run(data_dir: Path, output: str = None, generate: bool = False, target: str = None):
+def run(data_dir: Path, output: str = None, generate: bool = False, target: str = None, **kwargs):
     output = Path(output) if output else None
     index_dir = data_dir.joinpath('index')
     if not generate:

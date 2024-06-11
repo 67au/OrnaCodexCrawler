@@ -11,7 +11,7 @@ parser.add_argument('-d', '--dir', action='store', default='tmp', help='use down
 parser.add_argument('-t', '--target', action='store', help='set target url, default: playorna.com')
 parser.add_argument('-o', '--output', action='store', help='output file, pass generate if not set')
 parser.add_argument('-g', '--generate', action='store_true', help='generate only')
-parser.add_argument('-v', '--verbose', action='store_true')
+parser.add_argument('-a', '--append', nargs='+', help='additional args')
 
 def main() -> None:
     args = parser.parse_args()
@@ -20,10 +20,16 @@ def main() -> None:
     data_dir = Path(args.dir)
     if not data_dir.exists():
         data_dir.mkdir()
-    
+
     output = args.output
     generate = args.generate
     target = args.target
+    append = args.append or []
+    kwargs = {}
+    for i in append:
+        kv = i.split('=')
+        if len(kv) == 2:
+            kwargs[kv[0]] = kv[1]
 
     mod = importlib.import_module(f'crawler.cmd.{module}')
 
@@ -32,6 +38,7 @@ def main() -> None:
         output=output, 
         generate=generate,
         target=target,
+        **kwargs
     )
     
 

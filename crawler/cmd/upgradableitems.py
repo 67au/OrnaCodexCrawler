@@ -5,7 +5,7 @@ from pathlib import Path
 base_lang = 'en'
 
 
-def run(data_dir: Path, output: str = None, generate: bool = False, target: str = None):
+def run(data_dir: Path, output: str = None, generate: bool = False, target: str = None, **kwargs):
     index_dir = data_dir.joinpath('index')
     item_types_dir = data_dir.joinpath('item_types')
     if output:

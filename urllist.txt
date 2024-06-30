@@ -2724,6 +2724,7 @@
 /codex/items/surtrs-helmet/
 /codex/items/surtrs-shield/
 /codex/items/surtrs-sword/
+/codex/items/svargan-fishing-line/
 /codex/items/swansong/
 /codex/items/sword-and-shield/
 /codex/items/symbol-of-doom/

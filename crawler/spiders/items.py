@@ -53,7 +53,6 @@ class CodexSpider(BaseSpider):
 
         stats = response.xpath("//div[@class='codex-stats']/div[contains(@class,'codex-stat')]")
         if any(stats):
-            # struct['stats'] = [[i.strip() for i in extract_kv(s.get().strip())] for s in stats]
             tmp = []
             for s in stats:
                 t = s.xpath("string()").get().strip()
@@ -65,15 +64,17 @@ class CodexSpider(BaseSpider):
                         tmp.append([i.strip() for i in extract_kv(u.strip())])
                 else:
                     tmp.append([i.strip() for i in extract_kv(t)])
+                if len(tmp[-1]) == 1:
+                    tmp[-1].append(True)
 
             struct['stats'] = tmp
 
         ability = response.xpath("//div[@class='codex-page-description']/preceding-sibling::div[1] | //div[@class='codex-page-description']").xpath("string()")
         if len(ability) == 2:
-            struct['ability'] = [
-                extract_kv(ability[0].get())[-1].strip(),
-                ability[1].get().strip()
-            ]
+            struct['ability'] = {
+                'name': extract_kv(ability[0].get())[-1].strip(),
+                'description': ability[1].get().strip()
+            }
 
         drops = response.xpath("//div[@class='codex-page'][1]/h4")
         for drop in drops:

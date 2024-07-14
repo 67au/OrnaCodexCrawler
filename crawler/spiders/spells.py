@@ -6,6 +6,27 @@ from ..utils import parse_drop, parse_static_url, extract_kv
 
 from ._base import BaseSpider
 
+power_pattern = re.compile(r'\)|\d', re.IGNORECASE)
+
+def match_power(s: str) -> bool:
+    return power_pattern.match(s) is not None
+
+multiple_pattern = re.compile(r'(?P<POWER>.+) \(x(?P<MULTI>\d+)\)$')
+
+def extract_power(s: str):
+    power = {}
+    m = multiple_pattern.match(s)
+    p = s
+    if m:
+        p = m.group('POWER')
+        power['multi'] = m.group('MULTI')
+    pp = p.split('-')
+    if len(pp) == 1:
+        power['value'] = pp[0]
+    else:
+        power['range'] = pp
+    return power
+
 class CodexSpider(BaseSpider):
     name = "spells"
 
@@ -38,8 +59,14 @@ class CodexSpider(BaseSpider):
         if len(meta) > 2:
             for m in meta[2:]:
                 s = m.get().strip()
-                if re.match(r'\)|\d', s[-1], re.IGNORECASE):
+                if match_power(s[-1]):
                     power = (': '.join(extract_kv(s)[1:])).strip()
+                    p = tuple(i.strip() for i in power.split('|'))
+                    power = {
+                        'pve': extract_power(p[0])
+                    }
+                    if len(p) == 2:
+                        power['pvp'] = extract_power(p[1][5:])
                     struct['power'] = power
                 else:
                     costs = extract_kv(s)[-1].strip().split(' ')[0]

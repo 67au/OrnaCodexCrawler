@@ -7,13 +7,21 @@ href_keys = ['dropped_by', 'upgrade_materials', 'skills', 'learned_by', 'require
 
 split_pattern = re.compile(r':|：')
 
-def extract_kv(text: str) -> list:
-    return split_pattern.split(text, maxsplit=1)
+def extract_kv(text: str) -> tuple[str, str] | tuple[str]:
+    return tuple(s.strip() for s in split_pattern.split(text, maxsplit=1))
 
 def reflect_trans(lang: str) -> dict:
     return dict(zip(TRANSLATION[lang].values(), TRANSLATION[lang].keys()))
 
-chance_pattern = re.compile(r'(?P<name>.+) \((?P<chance>\d+\%)\)$')
+chance_pattern = re.compile(r'(?P<NAME>.+) \((?P<VALUE>\d+(\.\d+)?\%)\)$')
+
+def extract_chance(s: str) -> tuple[str, str] | None:
+    match = chance_pattern.search(s.strip())
+    if match:
+        name = match.group('NAME')
+        chance = match.group('VALUE')
+        return name, chance
+    return None
 
 def parse_drop(drop) -> dict:
     drop_struct = {}
@@ -23,10 +31,9 @@ def parse_drop(drop) -> dict:
         drop_struct['description'] = ''.join(bond.xpath('../text()').getall()).strip()
         return drop_struct
     name = drop.xpath('.//span').xpath('string()').get().strip()
-    match = chance_pattern.search(name)
+    match = extract_chance(name)
     if match:
-        name = match.group('name')
-        chance = match.group('chance')
+        name, chance = match
         drop_struct['chance'] = chance
     drop_struct['name'] = name
     icon = drop.xpath('.//img/@src').get()

@@ -1,9 +1,17 @@
+from enum import Enum
+
 from scrapy.http.response import Response
 
 from ..items import FollowersItem, Drop
-from ..utils import parse_drop, parse_static_url, extract_kv
+from ..utils import parse_drop, parse_static_url, extract_kv, extract_chance
 
 from ._base import BaseSpider
+
+class BondType(Enum):
+    BOND = 'bond'
+    ABILITY = 'ability'
+    BUFF = 'buff'
+    BONUS = 'bonus'
 
 class CodexSpider(BaseSpider):
     name = "followers"
@@ -58,5 +66,41 @@ class CodexSpider(BaseSpider):
                 drop_list.append(Drop(parse_drop(d)))
                 d = d.xpath("./following-sibling::*[1]")
             struct[self.reflect_trans[drop_name]] = drop_list
+
+        bestial_bond = struct.get('bestial_bond', [])
+        if any(bestial_bond):
+            bonds = []
+            for b in bestial_bond:
+                bond = {
+                    'name': b['name'],
+                    'values': [],
+                }
+                for s in b['description'].split(','):
+                    m = extract_chance(s)
+                    if m:
+                        bond_type = BondType.BOND.value
+                        name, value = m
+                        bond['values'].append({
+                            'name': name,
+                            'value': value,
+                            'type': bond_type
+                        })
+                    else:
+                        m = extract_kv(s)
+                        name, *value = m
+                        tmp = {
+                            'name': name,
+                            'type': BondType.BONUS.value
+                        }
+                        if len(value) > 0:
+                            if name.startswith('+'):
+                                tmp['type'] = BondType.ABILITY.value
+                                tmp['name'] = value[0]
+                            else:
+                                tmp['value'] = value[0]
+                        bond['values'].append(tmp)
+                            
+                bonds.append(bond)
+            struct['bestial_bond'] = bonds
 
         yield FollowersItem(struct)

@@ -1,4 +1,7 @@
 from collections import defaultdict
+from dataclasses import dataclass, field
+from functools import cache
+from itertools import product
 import heapq
 import json
 from pathlib import Path
@@ -21,6 +24,7 @@ crawlers = [
 base_lang = 'en'
 
 
+@cache
 def convert_key(key: str) -> str:
     return key.lower().replace(' ', '_').replace('.', '_').replace(':', '_') \
         .replace('↓', 'd').replace('↑', 'u').replace('/', '_').replace('\'', '_')
@@ -31,378 +35,479 @@ def merge_and_sort(iter1: Iterator[Any], iter2: Iterator[Any]) -> Iterator[Any]:
     return list(merged_iter)
 
 
-def run(data_dir: Path, output: str = None, generate: bool = False, target: str = None, **kwargs):
-    output = Path(output) if output else None
-    index_dir = data_dir.joinpath('index')
+json_feed = {
+    'format': 'json',
+    'encoding': 'utf8',
+    'store_empty': False,
+    'overwrite': True,
+}
+
+
+def crawl_codex(target: str, data_dir: Path):
+    entries_dir = data_dir.joinpath('entries')
     miss_dir = data_dir.joinpath('miss')
     item_types_dir = data_dir.joinpath('item_types')
-    if not generate:
-        from twisted.internet import reactor, defer
-        configure_logging()
-        settings = get_project_settings()
-        settings['LOG_LEVEL'] = 'INFO'
+
+    from twisted.internet import reactor, defer
+    configure_logging()
+    settings = get_project_settings()
+    settings['LOG_LEVEL'] = 'INFO'
+
+    @defer.inlineCallbacks
+    def crawl():
+        runner = CrawlerRunner(settings=settings)
+
+        # all
         settings['FEEDS'] = {
-            f'{index_dir}/%(lang)s/%(name)s.json': {
-                'format': 'json',
-                'encoding': 'utf8',
-                'store_empty': False,
-                'overwrite': True,
-            }
+            f'{entries_dir}/%(lang)s/%(name)s.json': json_feed
         }
-
-        @defer.inlineCallbacks
-        def crawl():
-            runner = CrawlerRunner(settings=settings)
-            for lang in langs:
-                for crawler in crawlers:
-                    runner.crawl(crawler.CodexSpider, lang=lang, target=target)
-                yield runner.join()
-
-            settings['FEEDS'] = {
-                f'{item_types_dir}/%(lang)s/%(name)s.json': {
-                    'format': 'json',
-                    'encoding': 'utf8',
-                    'store_empty': False,
-                    'overwrite': True,
-                }
-            }
-            runner.settings = settings
-            for lang in langs:
-                runner.crawl(item_types.ItemTypesSpider, lang=lang,
-                             target=target, name_only=(lang != base_lang))
+        runner.settings = settings
+        for (lang, crawler) in product(langs, crawlers):
+            runner.crawl(crawler.CodexSpider, lang=lang, target=target)
             yield runner.join()
 
-            settings['FEEDS'] = {
-                f'{miss_dir}/%(lang)s/%(name)s.json': {
-                    'format': 'json',
-                    'encoding': 'utf8',
-                    'store_empty': False,
-                    'overwrite': True,
-                }
-            }
-            runner.settings = settings
-            for _ in range(3):
-                index_codex = {}
-                scan_codex = {}
-                for crawler in crawlers:
-                    with open(index_dir.joinpath(base_lang, f'{crawler.CodexSpider.name}.json')) as f:
-                        items = json.load(f)
-                        index_codex[crawler.CodexSpider.name] = set()
-                        for item in items:
-                            index_codex[crawler.CodexSpider.name].add(
-                                item['id'])
-                            for key in href_keys:
-                                match = item.get(key)
-                                if match:
-                                    for m in match:
-                                        category, id = parse_codex_id(
-                                            m['href'])
-                                        if category not in scan_codex:
-                                            scan_codex[category] = set()
-                                        scan_codex[category].add(id)
+        # item_type
+        settings['FEEDS'] = {
+            f'{item_types_dir}/%(lang)s/%(name)s.json': json_feed
+        }
+        runner.settings = settings
+        for lang in langs:
+            runner.crawl(item_types.ItemTypesSpider, lang=lang,
+                         target=target, name_only=(lang != base_lang))
+        yield runner.join()
 
-                stop_flag = True
-                for crawler in crawlers:
-                    key = crawler.CodexSpider.name
-                    diff_set = scan_codex.get(
-                        key, set()) - index_codex.get(key, set())
-                    if len(diff_set) == 0:
-                        continue
-                    stop_flag = False
-                    start_ids = list(diff_set)
-                    for lang in langs:
-                        runner.crawl(crawler.CodexSpider,
-                                     lang=lang, start_ids=start_ids, target=target)
-                if stop_flag:
-                    yield runner.stop()
-                else:
-                    yield runner.join()
+        # miss
+        settings['FEEDS'] = {
+            f'{miss_dir}/%(lang)s/%(name)s.json': json_feed
+        }
+        runner.settings = settings
+        for _ in range(3):
+            index_codex = {}
+            scan_codex = {}
+            for crawler in crawlers:
+                name = crawler.CodexSpider.name
+                with open(entries_dir.joinpath(base_lang, f'{name}.json')) as f:
+                    items = json.load(f)
+                    index_codex[name] = set()
+                    for item in items:
+                        index_codex[name].add(item['id'])
+                        for key in href_keys:
+                            match = item.get(key)
+                            if match:
+                                for m in match:
+                                    category, id = parse_codex_id(m['href'])
+                                    if category not in scan_codex:
+                                        scan_codex[category] = set()
+                                    scan_codex[category].add(id)
 
+            stop_flag = True
+            for crawler in crawlers:
+                key = crawler.CodexSpider.name
+                diff_set = scan_codex.get(
+                    key, set()) - index_codex.get(key, set())
+                if len(diff_set) == 0:
+                    continue
+                stop_flag = False
+                start_ids = list(diff_set)
                 for lang in langs:
-                    for crawler in crawlers:
-                        category = crawler.CodexSpider.name
-                        if not miss_dir.joinpath(lang, f'{category}.json').exists():
-                            continue
-                        with open(index_dir.joinpath(lang, f'{category}.json'), 'r+') as f_index, open(miss_dir.joinpath(lang, f'{category}.json'), 'r') as f_miss:
-                            index, miss = json.load(f_index), json.load(f_miss)
-                            merged = merge_and_sort(index, miss)
-                            f_index.seek(0)
-                            f_index.truncate()
-                            json.dump(merged, f_index,
-                                      ensure_ascii=True, indent=4)
+                    runner.crawl(crawler.CodexSpider, lang=lang,
+                                 start_ids=start_ids, target=target)
+            if stop_flag:
+                yield runner.stop()
+            else:
+                yield runner.join()
 
-            reactor.callFromThread(reactor.stop)
+            for (lang, crawler) in product(langs, crawlers):
+                category = crawler.CodexSpider.name
+                if not miss_dir.joinpath(lang, f'{category}.json').exists():
+                    continue
+                with open(entries_dir.joinpath(lang, f'{category}.json'), 'r+') as f_index, open(miss_dir.joinpath(lang, f'{category}.json'), 'r') as f_miss:
+                    index, miss = json.load(f_index), json.load(f_miss)
+                    merged = merge_and_sort(index, miss)
+                    f_index.seek(0)
+                    f_index.truncate()
+                    json.dump(merged, f_index, ensure_ascii=True)
 
-        crawl()
-        reactor.run()
+        reactor.callFromThread(reactor.stop)
+
+    crawl()
+    reactor.run()
+
+
+Entries = dict[str, dict[str, dict[str, dict]]]
+
+
+def load(entries_dir: Path) -> Entries:
+    entries: Entries = {lang: {} for lang in langs}
+    for (lang, crawler) in product(langs, crawlers):
+        category = crawler.CodexSpider.name
+        with open(entries_dir.joinpath(lang, f'{category}.json'), 'r') as f:
+            items = json.load(f)
+            entries[lang][category] = {item['id']: item for item in items}
+    return entries
+
+
+def load_item_type(item_types_dir: Path):
+    item_types = {}
+    for lang in langs:
+        with open(item_types_dir.joinpath(lang, 'item_types.json'), 'r') as f:
+            item_types[lang] = json.load(f)
+    return item_types
+
+
+translate_keys = {'rarity', 'useable_by',
+                  'place', 'family', 'spell_type', 'target'}
+
+href_keys = {'dropped_by', 'upgrade_materials', 'skills',
+             'learned_by', 'requirements', 'drops', 'celestial_classes'}
+
+status_keys = {'immunities', 'causes', 'cures', 'gives'}
+
+not_trans_keys = {'name', 'description'}
+
+
+@dataclass
+class ScanResult:
+    translations: dict
+    miss: dict
+    abilities: dict
+    icons: dict = field(default_factory=lambda: {})
+
+    spells: dict = field(default_factory=lambda: {})
+    materials: dict = field(default_factory=lambda: defaultdict(list))
+    offhand_items: dict = field(default_factory=lambda: defaultdict(list))
+    offhand_skills: dict = field(default_factory=lambda: {})
+    skills: dict = field(default_factory=lambda: defaultdict(list))
+
+    def check_conflict_key(self, key: str, icon: str) -> str:
+        new_key = key
+        for ic in iter(lambda: self.icons.get(new_key), None):
+            if ic == icon:
+                return new_key
+            new_key = f'{new_key}_'
+        self.icons[new_key] = icon
+        return new_key
+
+    def check_conflict_ability(self, key: str, ability: dict) -> str:
+        new_key = key
+        for ab in iter(lambda: self.abilities[base_lang].get(new_key), None):
+            if ab.get('description') == ability.get('description'):
+                return new_key
+            new_key = f'{new_key}_'
+        return new_key        
+
+    def get_spells_id(self, name: str):
+        return self.spells.get(name)
+
+
+def scan(entries: Entries):
+    result = ScanResult(
+        translations={lang: defaultdict(dict) for lang in langs},
+        miss={lang: defaultdict(dict) for lang in langs},
+        abilities={lang: {} for lang in langs},
+    )
+
+    event_conflict = {lang: {} for lang in langs}
+
+    entries_base = entries[base_lang]
+    for (lang, crawler) in product(langs, crawlers):
+        category = crawler.CodexSpider.name
+        tl = result.translations[lang]
+        used = entries[lang][category]
+        base = entries_base[category]
+        for uid, entry in used.items():
+
+            # check miss
+            for key in href_keys:
+                m = entry.get(key, [])
+                for index, drop in enumerate(m):
+                    href = drop.get('href')
+                    if href:
+                        drop_category, drop_id = parse_codex_id(href)
+                        if drop_id not in entries[lang][drop_category]:
+                            if result.miss[lang][drop_category].get(drop_id) is None:
+                                result.miss[lang][drop_category][drop_id] = drop
+
+            # translate
+            # default
+            for key in translate_keys:
+                m = entry.get(key)
+                if m:
+                    tl[key][convert_key(base[uid][key])] = m
+
+            # stats
+            if category in {'items', 'followers'}:
+                m = entry.get('stats', [])
+                for index, stat in enumerate(m):
+                    stat_base = base[uid]['stats'][index]
+                    if stat_base[0] == 'element':
+                        tl['stats'][convert_key(stat_base[1])] = stat[1]
+                    else:
+                        tl['stats'][convert_key(stat_base[0])] = stat[0]
+
+            # status
+            if category in {'items', 'spells'}:
+                for key in status_keys:
+                    m = entry.get(key, [])
+                    for index, status in enumerate(m):
+                        status_name = convert_key(
+                            base[uid][key][index]['name'])
+                        status_name = result.check_conflict_key(
+                            status_name, status['icon'])
+                        tl['status'][status_name] = status['name']
+
+            if category in {'spells'}:
+                key = 'summons'
+                m = entry.get(key, [])
+                for index, summon in enumerate(m):
+                    summon_name = convert_key(base[uid][key][index]['name'])
+                    summon_name = result.check_conflict_key(
+                        summon_name, summon['icon'])
+                    tl['summon'][summon_name] = summon['name']
+
+            if category in {'bosses', 'monsters', 'raids', 'followers', 'items', 'spells'}:
+                for key in ['tags', 'event']:
+                    m = entry.get(key, [])
+                    for index, tag in enumerate(m):
+                        tag_key = convert_key(base[uid][key][index])
+                        if key == 'event':
+                            if event_conflict[lang].get(tag_key, False):
+                                continue
+                            else:
+                                if len(m) == 1:
+                                    event_conflict[lang][tag_key] = True
+                        tl[key][tag_key] = tag
+
+            if category in {'followers'}:
+                key = 'bestial_bond'
+                m = entry.get(key, [])
+                for index, bond in enumerate(m):
+                    tl['levels'][index+1] = bond['name']
+                    for i, b in enumerate(bond['values']):
+                        b_base = base[uid][key][index]['values'][i]
+                        if b_base['type'] == 'bonus':
+                            b_key = convert_key(b_base['name'])
+                            tl['stats'][b_key] = b['name']
+                        if b_base['type'] == 'bond':
+                            b_key = convert_key(b_base['name'])
+                            tl['bonds'][b_key] = b['name']
+
+            if category in {'raids', 'bosses', 'monsters', 'classes'}:
+                key = 'abilities'
+                m = entry.get(key, [])
+                for index, ability in enumerate(m):
+                    a_base = base[uid][key][index]
+                    a_key = convert_key(a_base['name'])
+                    a_key = result.check_conflict_ability(a_key, a_base)
+                    result.abilities[lang][a_key] = ability
+
+
+    for crawler in crawlers:
+        category = crawler.CodexSpider.name
+        for uid, entry in entries_base[category].items():
+            if category in {'items'}:
+                m = entry.get('upgrade_materials', [])
+                for t in m:
+                    _, id = parse_codex_id(t['href'])
+                    result.materials[id].append(entry['id'])
+                m = entry.get('ability')
+                if m:
+                    result.offhand_items[m['name']].append(entry['id'])
+            if category in {'spells'}:
+                if entry['name'].endswith(' (Off-hand)'):
+                    result.offhand_skills[entry['name'][:-11]] = uid
+                else:
+                    result.spells[entry['name']] = uid
+            if category in {'monsters', 'raids', 'followers', 'bosses'}:
+                m = entry.get('skills', [])
+                for t in m:
+                    _, id = parse_codex_id(t['href'])
+                    result.skills[id].append([category, entry['id']])
+
+    return result
+
+
+def convert(entries: Entries, scanned: ScanResult, item_types: dict):
+    entries_meta = defaultdict(dict)
+    for crawler in crawlers:
+        category = crawler.CodexSpider.name
+        base = entries[base_lang][category]
+        entries_meta[category] = {}
+        for bid, entry in base.items():
+            entries_meta[category][bid] = defaultdict(dict)
+            meta = entries_meta[category][bid]
+            for key in entry.keys():
+                tmp = entry[key]
+
+                if key in href_keys:
+                    m = entry.get(key, [])
+                    drop_list = []
+                    for drop in m:
+                        href = drop.get('href')
+                        if href:
+                            d_category, d_id = parse_codex_id(href)
+                            drop_list.append([d_category, d_id])
+                    tmp = drop_list
+
+                if key != 'name' and key in not_trans_keys:
+                    tmp = None
+
+                if key in translate_keys:
+                    m = entry.get(key)
+                    if m:
+                        tmp = convert_key(m)
+
+                if key == 'ability' and category in {'items'}:
+                    m = entry.get(key)
+                    if m:
+                        tmp = ['spells', scanned.offhand_skills.get(m['name'])]
+
+                if key == 'abilities' and category in {'raids', 'bosses', 'monsters', 'classes'}:
+                    m = entry.get(key)
+                    if m:
+                        tmp = [scanned.check_conflict_ability(convert_key(ab['name']), ab) for ab in m]
+
+                if key == 'name' and category in {'spells'}:
+                    m = entry['name'].endswith(' (Off-hand)')
+                    if m:
+                        name = entry['name'][:-11]
+                        ents = scanned.offhand_items.get(name)
+                        if ents:
+                            meta['items'] = ents
+
+                if key == 'stats' and category in {'items', 'followers'}:
+                    m = entry.get(key, [])
+                    stats_struct = {}
+                    for k, v in m:
+                        stat_key = convert_key(k)
+                        if stat_key == 'element':
+                            stats_struct[stat_key] = convert_key(v)
+                        else:
+                            stats_struct[stat_key] = v
+                    tmp = stats_struct
+
+                if key in status_keys and category in {'items', 'spells'}:
+                    m = entry.get(key, [])
+                    status_list = []
+                    for status in m:
+                        status_name = convert_key(status['name'])
+                        status_name = scanned.check_conflict_key(
+                            status_name, status['icon'])
+                        status_struct = {
+                            'name': status_name,
+                        }
+                        if 'chance' in status:
+                            status_struct['chance'] = status['chance']
+                        status_list.append(status_struct)
+                    tmp = status_list
+
+                if key == 'summons' and category in {'spells'}:
+                    m = entry.get(key, [])
+                    summons_list = []
+                    for summon in m:
+                        summon_name = convert_key(summon['name'])
+                        summon_name = scanned.check_conflict_key(
+                            summon_name, summon['icon'])
+                        summons_list.append({
+                            'name': summon_name,
+                            'chance': summon['chance']
+                        })
+                    tmp = summons_list
+
+                if key in {'tags', 'event'} and category in {'bosses', 'monsters', 'raids', 'followers', 'items', 'spells'}:
+                    m = entry.get(key, [])
+                    tmp = [convert_key(tag) for tag in m]
+
+                if key in {'bestial_bond'} and category in {'followers'}:
+                    m = entry.get(key, [])
+                    bonds_struct = {}
+                    for index, bb in enumerate(m, 1):
+                        bb_list = []
+                        for b in bb['values']:
+                            b_tmp = None
+                            if b['type'] == 'bond':
+                                b_key = convert_key(b['name'])
+                                if b_key in scanned.translations[base_lang]['status']:
+                                    b_tmp = ['buff', b_key, b['value']]
+                                else:
+                                    b_tmp = [b['type'], b_key, b['value']]
+                            elif b['type'] == 'ability':
+                                spell_id = scanned.get_spells_id(b['name'])
+                                if spell_id:
+                                    b_tmp = [b['type'], spell_id]
+                            elif b['type'] == 'bonus':
+                                if 'value' in b:
+                                    b_tmp = [b['type'], convert_key(
+                                        b['name']), b['value']]
+                                else:
+                                    b_tmp = [b['type'], convert_key(b['name'])]
+                            if b_tmp is None:
+                                b_tmp = [b['type'], b['name'], b['value']]
+                            bb_list.append(b_tmp)
+                        bonds_struct[index] = bb_list
+                    tmp = bonds_struct
+
+                if tmp is not None:
+                    meta[key] = tmp
+
+    for lang in langs:
+        scanned.translations[lang]['item_type'] = {
+            item_type['type']: item_type['name'] for item_type in item_types[lang]
+        }
+        if lang == base_lang:
+            for item_type in item_types[lang]:
+                for id in item_type['items']:
+                    entries_meta['items'][id]['item_type'] = item_type['type']
+
+            for id, ents in scanned.skills.items():
+                entries_meta['spells'][id]['users'] = ents
+
+            for id, ents in scanned.materials.items():
+                entries_meta['items'][id]['source'] = ents
+
+    return entries_meta
+
+
+def save_translations(entries: Entries, scanned: ScanResult, output: Path):
+    for lang in langs:
+        output_path = output.joinpath(f'codex.{lang}.json')
+        with open(output_path, 'w') as f:
+            base = defaultdict(dict)
+            for category, ents in entries[lang].items():
+                for id, entry in ents.items():
+                    entry_struct = {}
+                    for key in not_trans_keys:
+                        value = entry.get(key)
+                        if value:
+                            entry_struct[key] = value
+                    base[category][id] = entry_struct
+            json.dump({
+                'base': base,
+                'meta': {**scanned.translations[lang], **TRANSLATION[lang]},
+                'abilities': scanned.abilities[lang],
+                'miss': scanned.miss[lang],
+            }, f, ensure_ascii=False)
+            print('output:', output_path)
+
+
+def run(data_dir: Path, output: str = None, generate: bool = False, target: str = None, **kwargs):
+    output_dir = Path(output) if output else None
+
+    if not generate:
+        crawl_codex(target=target, data_dir=data_dir)
 
     if output:
-        # Analysis
-        # Load Items
-        codex = {}
-        for lang in langs:
-            codex[lang] = {}
-            for crawler in crawlers:
-                category = crawler.CodexSpider.name
-                codex[lang][category] = {}
-                with open(index_dir.joinpath(lang, f'{category}.json'), 'r') as f:
-                    items = json.load(f)
-                    for item in items:
-                        codex[lang][category][item['id']] = item
-
-        # scan miss entries and transform href
-        icons = {}
-
-        def check_conflict_key(key: str, icon: str) -> str:
-            new_key = key
-            for ic in iter(lambda: icons.get(new_key), None):
-                if ic == icon:
-                    return new_key
-                new_key = f'{new_key}_'
-            icons[new_key] = icon
-            return new_key
-
-        miss_entries = {}
-        event_conflict = {}
-        translations = dict()
-        for lang in langs:
-            event_conflict[lang] = {}
-            translations[lang] = defaultdict(dict)
-            for crawler in crawlers:
-                category = crawler.CodexSpider.name
-                used = codex[lang][category]
-                for used_id, item in used.items():
-                    for key in href_keys:
-                        match = item.get(key)
-                        if match:
-                            for i, m in enumerate(match):
-                                href = m.get('href')
-                                if href:
-                                    cate, cid = parse_codex_id(href)
-                                    if not (cid in codex[lang][cate]):
-                                        miss_entries[f'{
-                                            lang}/{cate}/{cid}'] = m
-                                    used[used_id][key][i] = [cate, cid]
-
-                    for key in ['rarity', 'useable_by', 'place', 'family', 'spell_type', 'target']:
-                        match = item.get(key)
-                        if match:
-                            translations[lang][key][convert_key(
-                                codex[base_lang][category][used_id][key])] = match
-                # stats
-                if category in {'items', 'followers'}:
-                    for used_id, item in used.items():
-                        match = item.get('stats')
-                        if match:
-                            for n, stat in enumerate(match):
-                                stat_base = codex[base_lang][category][used_id]['stats'][n]
-                                if len(stat) == 2:
-                                    if stat[0] == 'element':
-                                        translations[lang]['stats'][stat_base[1].lower().replace(' ', '_')] = stat[1]
-                                    else:
-                                        translations[lang]['stats'][stat_base[0].lower().replace(' ', '_')] = stat[0]
-                                        # patch for /codex/items/fallen-sky-armor/
-                                        if stat_base[0] == 'Ward' and stat_base[1].startswith('+'):
-                                            translations[lang]['stats']['ward_'] = stat[0]
-                                        ###
-                                if len(stat) == 1:
-                                    translations[lang]['stats'][stat_base[0].lower().replace(' ', '_')] = stat[0]
-                # status
-                if category in {'items', 'spells'}:
-                    for used_id, item in used.items():
-                        for key in ['immunities', 'causes', 'cures', 'gives']:
-                            match = item.get(key)
-                            if match:
-                                for n, status in enumerate(match):
-                                    status_name = convert_key(
-                                        codex[base_lang][category][used_id][key][n]['name'])
-                                    status_name = check_conflict_key(
-                                        status_name, status['icon'])
-                                    translations[lang]['status'][status_name] = status['name']
-                if category in {'spells'}:
-                    for used_id, item in used.items():
-                        for key in ['summons']:
-                            match = item.get(key)
-                            if match:
-                                for n, summon in enumerate(match):
-                                    summon_name = convert_key(
-                                        codex[base_lang][category][used_id][key][n]['name'])
-                                    summon_name = check_conflict_key(
-                                        summon_name, summon['icon'])
-                                    translations[lang]['summons'][summon_name] = summon['name']
-                # list
-                if category in {'bosses', 'monsters', 'raids', 'followers', 'items', 'spells'}:
-                    for used_id, item in used.items():
-                        for key in ['tags', 'event']:
-                            match = item.get(key)
-                            if match:
-                                for n, m in enumerate(match):
-                                    k = convert_key(
-                                        codex[base_lang][category][used_id][key][n])
-                                    # fix random order
-                                    if key == 'event':
-                                        if event_conflict[lang].get(k, False):
-                                            continue
-                                        else:
-                                            if len(match) == 1:
-                                                event_conflict[lang][k] = True
-                                    translations[lang][key][k] = m
-
-        codex_base = defaultdict(dict)
-        stat_percent_keys = set()
-        sort_keys = set()
-        not_trans_keys = {'name', 'description', 'bestial_bond', 'abilities', 'ability'}
-        for crawler in crawlers:
-            category = crawler.CodexSpider.name
-            used = codex[base_lang][category]
-            based = codex_base[category]
-            for used_id, item in used.items():
-                based[used_id] = {}
-                for key in item.keys():
-                    based[used_id][key] = used[used_id][key]
-
-                    if key in {'rarity', 'useable_by', 'place', 'family', 'spell_type', 'target'}:
-                        match = item.get(key)
-                        if match:
-                            based[used_id][key] = convert_key(match)
-
-                    if category in {'items', 'followers'}:
-                        if key == 'stats':
-                            match = item.get('stats')
-                            stat_dict = dict()
-                            for stat in match:
-                                stat_key = convert_key(stat[0])
-                                if len(stat) == 2:
-                                    if stat_key == 'element':
-                                        stat_dict[stat_key] = convert_key(stat[1])
-                                    else:
-                                        # patch for /codex/items/fallen-sky-armor/
-                                        if stat_key == 'ward' and stat[1].startswith('+'):
-                                            stat_key = 'ward_'
-                                        ###
-                                        stat_dict[stat_key] = stat[1]
-                                        if category == 'items':
-                                            sort_keys.add(stat_key)
-                                        if (stat[1].endswith('%')):
-                                            stat_percent_keys.add(stat_key)
-                                if len(stat) == 1:
-                                    sort_keys.add(stat_key)
-                                    stat_dict[stat_key] = True
-                            based[used_id]['stats'] = stat_dict
-
-                    if category in {'items', 'spells'}:
-                        if key in {'immunities', 'causes', 'cures', 'gives'}:
-                            match = item.get(key)
-                            based[used_id][key] = list()
-                            for status in match:
-                                status_name = convert_key(status['name'])
-                                status_name = check_conflict_key(
-                                    status_name, status['icon'])
-                                if 'chance' in status:
-                                    based[used_id][key].append(
-                                        {'name': status_name, 'chance': status['chance']})
-                                else:
-                                    based[used_id][key].append(
-                                        {'name': status_name})
-                        if key in {'summons'}:
-                            match = item.get(key)
-                            based[used_id][key] = list()
-                            for summon in match:
-                                summon_name = convert_key(summon['name'])
-                                summon_name = check_conflict_key(
-                                    summon_name, summon['icon'])
-                                based[used_id][key].append(
-                                    {'name': summon_name, 'chance': summon['chance']})
-                    if category in {'bosses', 'monsters', 'raids', 'followers', 'items', 'spells'}:
-                        if key in {'tags', 'event'}:
-                            match = item.get(key)
-                            based[used_id][key] = list()
-                            for m in match:
-                                based[used_id][key].append(convert_key(m))
-
-                    if key in not_trans_keys:
-                        if key != 'name':
-                            del based[used_id][key]
-        
-        for lang in langs:
-            with open(item_types_dir.joinpath(lang, 'item_types.json'), 'r') as f:
-                item_types_list = json.load(f)
-                translations[lang]['item_type'] = { item_type['type']: item_type['name'] for item_type in item_types_list}
-                if lang == base_lang:
-                    for item_type in item_types_list:
-                        for id in item_type['items']:
-                            item = codex_base['items'].get(id, {})
-                            item['item_type'] = item_type['type']
-
-        upgrade_materials = defaultdict(list)
-        skills = defaultdict(dict)
-        ability_items = defaultdict(list)
-        offhand_skills = dict()
-        for crawler in crawlers:
-            category = crawler.CodexSpider.name
-            for id, item in codex[base_lang][category].items():
-                if category in ('items'):
-                    match = item.get('upgrade_materials')
-                    if match:
-                        for _, id in match:
-                            upgrade_materials[id].append(item['id'])
-                    # Must: Items first, spells second
-                    match = item.get('ability')
-                    if match:
-                        ability_items[match[0]].append(item['id'])
-                if category in ('spells'):
-                    # spells second
-                    match = item['name'].endswith(' (Off-hand)')
-                    if match:
-                        name = item['name'][:-11]
-                        if name in ability_items:
-                            for id in ability_items[name]:
-                                codex_base['items'][id]['ability'] = ['spells', item['id']]
-                            offhand_skills[item['id']] = ability_items[name]
-                if category in ('monsters', 'raids', 'followers', 'bosses'):
-                    match = item.get('skills')
-                    if match:
-                        for _, id in match:
-                            if skills[id].get(category) is None:
-                                skills[id][category] = []
-                            skills[id][category].append(item['id'])
-
-        meta = {
-            'base': codex_base,
-            'extra': {
-                'not_trans_keys': list(not_trans_keys),
-                'icons': icons,
-                'miss_entries': miss_entries,
-                'upgrade_materials': upgrade_materials,
-                'skills': dict(skills),
-                'offhand_skills': dict(offhand_skills),
-                # 'offhand_items': {item: spell for spell, items in offhand_skills.items() for item in items},
-                'stat_percent_keys': list(stat_percent_keys),
-                'sort_keys': list(sort_keys)
-            },
-        }
-
-        with open(output, 'w') as f:
-            json.dump(meta, f)
-            print('output:', output)
-
-        for lang in langs:
-            output_lang = output.parent.joinpath(f'{output.stem}.{lang}.json')
-            with open(output_lang, 'w') as f:
-                base = {}
-                for category, c in codex[lang].items():
-                    base[category] = {}
-                    for id, item in c.items():
-                        item_lang = {}
-                        for key in not_trans_keys:
-                            value = item.get(key)
-                            if value:
-                                item_lang[key] = value
-                        base[category][id] = item_lang
-                codex_lang = {
-                    'base': base,
-                    'meta': translations[lang],
-                    'key': TRANSLATION[lang],
-                }
-                json.dump(codex_lang, f)
-                print('output:', output_lang)
+        entries = load(data_dir.joinpath('entries'))
+        item_types = load_item_type(data_dir.joinpath('item_types'))
+        scanned = scan(entries)
+        converted = convert(entries, scanned, item_types)
+        save_translations(entries, scanned, output_dir)
+        output_path = output_dir.joinpath('codex.json')
+        with open(output_path, 'w') as f:
+            json.dump({
+                'meta': converted,
+                'extra': {
+                    'icons': scanned.icons
+                },
+            }, f)
+        print('output:', output_path)

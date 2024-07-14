@@ -178,3 +178,4 @@ pyrightconfig.json
 # Custom
 tmp
 data
+crawler/cmd/dumpguide.py

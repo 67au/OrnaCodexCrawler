@@ -1275,8 +1275,8 @@
 /codex/items/cursed-damonas-shield/
 /codex/items/cursed-eostres-circlet/
 /codex/items/cursed-esuss-pillar/
-/codex/items/cursed-fomoria-plated-boots-0ebf6063/
 /codex/items/cursed-fomoria-plated-boots-7a9f5efc/
+/codex/items/cursed-fomoria-plated-boots-c6787dd8/
 /codex/items/cursed-fomoria-plated-boots-e03e2c7a/
 /codex/items/cursed-fomoria-plated-boots/
 /codex/items/cursed-fomoria-plated-robe-5d09a4d7/
@@ -3120,7 +3120,7 @@
 /codex/monsters/garm/
 /codex/monsters/gazer/
 /codex/monsters/gheist/
-/codex/monsters/ghost-c0b0b1c2/
+/codex/monsters/ghost-6719abf3/
 /codex/monsters/ghost/
 /codex/monsters/glashtyn/
 /codex/monsters/gnat/
@@ -3317,12 +3317,12 @@
 /codex/monsters/storm-knight/
 /codex/monsters/stray-tatzelwurm/
 /codex/monsters/succubus/
+/codex/monsters/swordbearer-of-finesse-0a53d84d/
 /codex/monsters/swordbearer-of-finesse-3574bce3/
 /codex/monsters/swordbearer-of-finesse-612600e2/
 /codex/monsters/swordbearer-of-finesse-82f67d6f/
 /codex/monsters/swordbearer-of-finesse-91560eaf/
 /codex/monsters/swordbearer-of-finesse-beba34a7/
-/codex/monsters/swordbearer-of-finesse-de62c6bd/
 /codex/monsters/swordbearer-of-finesse/
 /codex/monsters/third-stable-keeper/
 /codex/monsters/tiamat-316a9861/

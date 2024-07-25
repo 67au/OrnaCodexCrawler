@@ -1371,7 +1371,6 @@
 /codex/items/delta-myrddin/
 /codex/items/delta-olympia-archistaff/
 /codex/items/delta-olympia-boots/
-/codex/items/delta-olympia-cowl/
 /codex/items/delta-olympia-cuirass/
 /codex/items/delta-olympia-garb/
 /codex/items/delta-olympia-greaves/
@@ -2410,8 +2409,6 @@
 /codex/items/presents/
 /codex/items/proof-of-anguish/
 /codex/items/proof-of-avarice/
-/codex/items/proof-of-distance/
-/codex/items/proof-of-effort/
 /codex/items/proof-of-felling/
 /codex/items/proof-of-great-effort/
 /codex/items/proof-of-magnificent-effort/

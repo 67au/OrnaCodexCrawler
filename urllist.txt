@@ -198,6 +198,18 @@
 /codex/bosses/shadow-of-rhada-the-great-shield/
 /codex/bosses/sluagh-a557fcc4/
 /codex/bosses/spooky-ghost/
+/codex/bosses/sumner-aphrodite/
+/codex/bosses/sumner-apollo/
+/codex/bosses/sumner-ares/
+/codex/bosses/sumner-artemis/
+/codex/bosses/sumner-athena/
+/codex/bosses/sumner-demeter/
+/codex/bosses/sumner-dionysus/
+/codex/bosses/sumner-hades/
+/codex/bosses/sumner-hephaestus/
+/codex/bosses/sumner-hera/
+/codex/bosses/sumner-poseidon/
+/codex/bosses/sumner-zeus/
 /codex/bosses/terrifying-ghost/
 /codex/bosses/tiamat/
 /codex/bosses/titan-eos/
@@ -1143,6 +1155,7 @@
 /codex/items/broadsword/
 /codex/items/broceliande-candle/
 /codex/items/broken-statue/
+/codex/items/bronze-medal/
 /codex/items/buckler/
 /codex/items/bulls-eye/
 /codex/items/bulwark/
@@ -1371,6 +1384,7 @@
 /codex/items/delta-myrddin/
 /codex/items/delta-olympia-archistaff/
 /codex/items/delta-olympia-boots/
+/codex/items/delta-olympia-cowl/
 /codex/items/delta-olympia-cuirass/
 /codex/items/delta-olympia-garb/
 /codex/items/delta-olympia-greaves/
@@ -1812,6 +1826,7 @@
 /codex/items/goblin-boots/
 /codex/items/goblin-lords-staff/
 /codex/items/goibhniu-armguard/
+/codex/items/gold-medal/
 /codex/items/gold-pinion/
 /codex/items/golden-crystal/
 /codex/items/gorgons-eye/
@@ -2409,6 +2424,8 @@
 /codex/items/presents/
 /codex/items/proof-of-anguish/
 /codex/items/proof-of-avarice/
+/codex/items/proof-of-distance/
+/codex/items/proof-of-effort/
 /codex/items/proof-of-felling/
 /codex/items/proof-of-great-effort/
 /codex/items/proof-of-magnificent-effort/
@@ -2604,6 +2621,7 @@
 /codex/items/silver-crossbow/
 /codex/items/silver-dagger/
 /codex/items/silver-kris/
+/codex/items/silver-medal/
 /codex/items/silver/
 /codex/items/simple-hood/
 /codex/items/simple-robe/

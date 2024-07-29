@@ -11,7 +11,7 @@ from crawler.utils import parse_codex_id
 
 def run(data_dir: Path, output: str = None, generate: bool = False, target: str = None, **kwargs):
     output = Path(output) if output else None
-    index_dir = data_dir.joinpath('index')
+    index_dir = data_dir.joinpath('entries')
     if not generate:
         from twisted.internet import reactor, defer
         configure_logging()

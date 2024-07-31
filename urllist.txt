@@ -1455,6 +1455,7 @@
 /codex/items/draconite/
 /codex/items/dragon-crested-shield/
 /codex/items/dragon-dagger/
+/codex/items/dragon-remains/
 /codex/items/dragon-scroll/
 /codex/items/dragon-sword/
 /codex/items/dragonite/

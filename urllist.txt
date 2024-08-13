@@ -1828,6 +1828,7 @@
 /codex/items/goblin-lords-staff/
 /codex/items/goibhniu-armguard/
 /codex/items/gold-medal/
+/codex/items/gold-mushroom/
 /codex/items/gold-pinion/
 /codex/items/golden-crystal/
 /codex/items/gorgons-eye/

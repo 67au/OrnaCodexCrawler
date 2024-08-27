@@ -1543,6 +1543,7 @@
 /codex/items/elven-katana/
 /codex/items/elven-staff/
 /codex/items/elven-sword/
+/codex/items/elysian-candle/
 /codex/items/ember-plumed-boots/
 /codex/items/ember-plumed-cowl/
 /codex/items/ember-plumed-cuirass/
@@ -2755,6 +2756,7 @@
 /codex/items/tempest-boots/
 /codex/items/templar-shield/
 /codex/items/terra-boots/
+/codex/items/terras-bracer/
 /codex/items/tethra/
 /codex/items/theta-achlys-riftlock/
 /codex/items/theta-charon-riftlock/

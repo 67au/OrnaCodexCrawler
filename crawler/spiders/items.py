@@ -59,7 +59,7 @@ class CodexSpider(BaseSpider):
                 if len(s.xpath('@class').get().split()) > 1:
                     tmp.append(['element', t])
                     continue
-                if '/' in t:
+                if ' / ' in t:
                     for u in t.split('/'):
                         tmp.append([i.strip() for i in extract_kv(u.strip())])
                 else:

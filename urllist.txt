@@ -524,6 +524,7 @@
 /codex/followers/surtrs-flame/
 /codex/followers/surtrs-mighty-flame/
 /codex/followers/the-mightiest-mimic/
+/codex/followers/the-mightiest-murk/
 /codex/followers/traveled-wolpertinger/
 /codex/followers/triton/
 /codex/followers/turul/

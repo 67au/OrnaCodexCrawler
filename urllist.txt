@@ -494,7 +494,6 @@
 /codex/followers/replica-themis/
 /codex/followers/ruby-nosed-chimera/
 /codex/followers/scarecrow/
-/codex/followers/scary-skeleton/
 /codex/followers/scruug/
 /codex/followers/seer/
 /codex/followers/shade-of-achlys-the-red-dagger/
@@ -508,7 +507,6 @@
 /codex/followers/sphinx-cub/
 /codex/followers/sphinx-kit/
 /codex/followers/spiritgarm/
-/codex/followers/spooky-ghost/
 /codex/followers/steward-cactus/
 /codex/followers/steward-dragon/
 /codex/followers/steward-gazer/
@@ -531,7 +529,6 @@
 /codex/followers/twilight-wisp/
 /codex/followers/undead-golem/
 /codex/followers/untamed-cerus/
-/codex/followers/very-scary-skeleton/
 /codex/followers/vritra-the-steadfast/
 /codex/followers/war-horse/
 /codex/followers/warg/
@@ -838,6 +835,7 @@
 /codex/items/arisen-plagued-cuirass/
 /codex/items/arisen-plagued-greaves/
 /codex/items/arisen-plagued-helmet/
+/codex/items/arisen-pumpkin/
 /codex/items/arisen-pumpkinless-armor/
 /codex/items/arisen-pumpkinless-leggings/
 /codex/items/arisen-qatvanga/
@@ -1289,8 +1287,8 @@
 /codex/items/cursed-damonas-shield/
 /codex/items/cursed-eostres-circlet/
 /codex/items/cursed-esuss-pillar/
+/codex/items/cursed-fomoria-plated-boots-0ebf6063/
 /codex/items/cursed-fomoria-plated-boots-7a9f5efc/
-/codex/items/cursed-fomoria-plated-boots-c6787dd8/
 /codex/items/cursed-fomoria-plated-boots-e03e2c7a/
 /codex/items/cursed-fomoria-plated-boots/
 /codex/items/cursed-fomoria-plated-robe-5d09a4d7/
@@ -2449,6 +2447,7 @@
 /codex/items/psi-olympia-vestment/
 /codex/items/psi-olympia-warbow/
 /codex/items/psi-olympia-warsword/
+/codex/items/pumpkin/
 /codex/items/pumpkinless-armor/
 /codex/items/pumpkinless-leggings/
 /codex/items/pure-darkstone/

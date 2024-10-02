@@ -494,6 +494,7 @@
 /codex/followers/replica-themis/
 /codex/followers/ruby-nosed-chimera/
 /codex/followers/scarecrow/
+/codex/followers/scary-skeleton/
 /codex/followers/scruug/
 /codex/followers/seer/
 /codex/followers/shade-of-achlys-the-red-dagger/
@@ -507,6 +508,7 @@
 /codex/followers/sphinx-cub/
 /codex/followers/sphinx-kit/
 /codex/followers/spiritgarm/
+/codex/followers/spooky-ghost/
 /codex/followers/steward-cactus/
 /codex/followers/steward-dragon/
 /codex/followers/steward-gazer/
@@ -529,6 +531,7 @@
 /codex/followers/twilight-wisp/
 /codex/followers/undead-golem/
 /codex/followers/untamed-cerus/
+/codex/followers/very-scary-skeleton/
 /codex/followers/vritra-the-steadfast/
 /codex/followers/war-horse/
 /codex/followers/warg/

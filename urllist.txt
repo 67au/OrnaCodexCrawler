@@ -332,6 +332,7 @@
 /codex/followers/alfar-mage/
 /codex/followers/alfar/
 /codex/followers/amadan/
+/codex/followers/amarok/
 /codex/followers/ancient-jinn/
 /codex/followers/anubis/
 /codex/followers/apollyons-apprentice-91d096c2/
@@ -422,6 +423,7 @@
 /codex/followers/glatisant/
 /codex/followers/gnome/
 /codex/followers/gorynych-son-of-mountains/
+/codex/followers/great-amarok/
 /codex/followers/great-bear/
 /codex/followers/great-cockatrice/
 /codex/followers/great-elysian-memories/
@@ -429,6 +431,7 @@
 /codex/followers/great-jinn/
 /codex/followers/great-lizarr-warrior/
 /codex/followers/great-monoceros/
+/codex/followers/great-oslo/
 /codex/followers/great-pegasus/
 /codex/followers/great-questing-beast/
 /codex/followers/great-reaper/
@@ -479,6 +482,7 @@
 /codex/followers/orichalcum-golem/
 /codex/followers/ortanite-golem/
 /codex/followers/orthrus/
+/codex/followers/oslo/
 /codex/followers/pale-dragon/
 /codex/followers/pegasus/
 /codex/followers/phoenix/
@@ -545,6 +549,7 @@
 /codex/followers/yokai/
 /codex/followers/zaltys-friendly-one/
 /codex/followers/zu/
+/codex/items/aaru-anvil/
 /codex/items/aaru-armor/
 /codex/items/aaru-boots/
 /codex/items/aaru-garb/
@@ -1173,6 +1178,7 @@
 /codex/items/carls-ring/
 /codex/items/carnwennan/
 /codex/items/caroling-lute/
+/codex/items/carving-stone/
 /codex/items/castors-archistaff/
 /codex/items/caticatona-cuirass/
 /codex/items/caturixs-robe/
@@ -1218,6 +1224,7 @@
 /codex/items/colossal-helmet/
 /codex/items/colossal-leggings/
 /codex/items/conalls-wand/
+/codex/items/conquerors-crownguard/
 /codex/items/contraption/
 /codex/items/coral-armor/
 /codex/items/coral-boots/
@@ -1290,8 +1297,8 @@
 /codex/items/cursed-damonas-shield/
 /codex/items/cursed-eostres-circlet/
 /codex/items/cursed-esuss-pillar/
-/codex/items/cursed-fomoria-plated-boots-0ebf6063/
 /codex/items/cursed-fomoria-plated-boots-7a9f5efc/
+/codex/items/cursed-fomoria-plated-boots-c6787dd8/
 /codex/items/cursed-fomoria-plated-boots-e03e2c7a/
 /codex/items/cursed-fomoria-plated-boots/
 /codex/items/cursed-fomoria-plated-robe-5d09a4d7/
@@ -1561,6 +1568,7 @@
 /codex/items/embla-shoes/
 /codex/items/emerald-pinion/
 /codex/items/emerald-trout/
+/codex/items/emperors-crownguard/
 /codex/items/enchanted-skull/
 /codex/items/endbringer/
 /codex/items/eostres-circlet/
@@ -1570,7 +1578,7 @@
 /codex/items/estoc/
 /codex/items/esuss-pillar/
 /codex/items/everlasting-torch/
-/codex/items/excalibur-eec7bf3e/
+/codex/items/excalibur-32be53bc/
 /codex/items/excalibur/
 /codex/items/exp-potion/
 /codex/items/explorers-waystone/
@@ -2429,6 +2437,8 @@
 /codex/items/presents/
 /codex/items/proof-of-anguish/
 /codex/items/proof-of-avarice/
+/codex/items/proof-of-conquering/
+/codex/items/proof-of-crownship/
 /codex/items/proof-of-distance/
 /codex/items/proof-of-effort/
 /codex/items/proof-of-felling/
@@ -2457,6 +2467,7 @@
 /codex/items/pure-draconite/
 /codex/items/pure-lightstone/
 /codex/items/pure-waterstone/
+/codex/items/purification-stone/
 /codex/items/purrlys-favourite-staff/
 /codex/items/purrlys-hood/
 /codex/items/purrlys-legguards/
@@ -2594,6 +2605,7 @@
 /codex/items/serpentslayers-chestplate/
 /codex/items/serpentslayers-cowl/
 /codex/items/serpentslayers-legwear/
+/codex/items/settlers-crownguard/
 /codex/items/shadow-boots/
 /codex/items/shadow-garb/
 /codex/items/shadow-hood/
@@ -2957,6 +2969,7 @@
 /codex/monsters/alfar-mage-fe8adf12/
 /codex/monsters/alfar-mage/
 /codex/monsters/alfar/
+/codex/monsters/amarok/
 /codex/monsters/amergin/
 /codex/monsters/ancient-cyclops/
 /codex/monsters/ancient-draugr-mage/
@@ -3268,6 +3281,7 @@
 /codex/monsters/orichalcum-knight/
 /codex/monsters/ortanite-golem/
 /codex/monsters/orthrus/
+/codex/monsters/oslo/
 /codex/monsters/pegasus/
 /codex/monsters/perseus-acolyte-f1d8afb3/
 /codex/monsters/perseus-acolyte-ff80be87/
@@ -3344,7 +3358,7 @@
 /codex/monsters/swordbearer-of-finesse-612600e2/
 /codex/monsters/swordbearer-of-finesse-82f67d6f/
 /codex/monsters/swordbearer-of-finesse-91560eaf/
-/codex/monsters/swordbearer-of-finesse-beba34a7/
+/codex/monsters/swordbearer-of-finesse-de62c6bd/
 /codex/monsters/swordbearer-of-finesse/
 /codex/monsters/third-stable-keeper/
 /codex/monsters/tiamat-316a9861/
@@ -3640,6 +3654,8 @@
 /codex/spells/counterattack/
 /codex/spells/coup-de-grace-2/
 /codex/spells/coup-de-grace-ii/
+/codex/spells/crown-feller-ii/
+/codex/spells/crown-feller/
 /codex/spells/crush/
 /codex/spells/crux-sigil/
 /codex/spells/cure-bleeding/
@@ -4216,6 +4232,7 @@
 /codex/spells/strikes-of-ursa/
 /codex/spells/stun-dart/
 /codex/spells/summon-alfar/
+/codex/spells/summon-amarok/
 /codex/spells/summon-ancient-dragon/
 /codex/spells/summon-ancient-jinn/
 /codex/spells/summon-animal/
@@ -4258,6 +4275,7 @@
 /codex/spells/summon-llamrai/
 /codex/spells/summon-mighty-griffin/
 /codex/spells/summon-onryo/
+/codex/spells/summon-oslo/
 /codex/spells/summon-phaethon/
 /codex/spells/summon-scarecrow/
 /codex/spells/summon-slime/

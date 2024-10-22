@@ -379,6 +379,7 @@
 /codex/followers/cerberus/
 /codex/followers/cernunnos/
 /codex/followers/cerus/
+/codex/followers/chat-noir/
 /codex/followers/chimera/
 /codex/followers/cockatrice/
 /codex/followers/colossus/

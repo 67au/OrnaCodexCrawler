@@ -688,8 +688,11 @@
 /codex/items/arisen-badb-catha/
 /codex/items/arisen-balor-crown/
 /codex/items/arisen-balor-dagger/
+/codex/items/arisen-banshee-boots-diabolus/
 /codex/items/arisen-banshee-boots/
+/codex/items/arisen-banshee-robe-diabolus/
 /codex/items/arisen-banshee-robe/
+/codex/items/arisen-banshee-veil-diabolus/
 /codex/items/arisen-banshee-veil/
 /codex/items/arisen-batwing-bow/
 /codex/items/arisen-bloodwarg-grimoire/
@@ -842,15 +845,21 @@
 /codex/items/arisen-ophion-banner/
 /codex/items/arisen-oxen-axe/
 /codex/items/arisen-palm-branch/
+/codex/items/arisen-plagued-cuirass-diabolus/
 /codex/items/arisen-plagued-cuirass/
+/codex/items/arisen-plagued-greaves-diabolus/
 /codex/items/arisen-plagued-greaves/
+/codex/items/arisen-plagued-helmet-diabolus/
 /codex/items/arisen-plagued-helmet/
 /codex/items/arisen-pumpkin/
 /codex/items/arisen-pumpkinless-armor/
 /codex/items/arisen-pumpkinless-leggings/
 /codex/items/arisen-qatvanga/
+/codex/items/arisen-raven-boots-diabolus/
 /codex/items/arisen-raven-boots/
+/codex/items/arisen-raven-garb-diabolus/
 /codex/items/arisen-raven-garb/
+/codex/items/arisen-raven-veil-diabolus/
 /codex/items/arisen-raven-veil/
 /codex/items/arisen-realm-katar/
 /codex/items/arisen-reinbow/
@@ -1264,6 +1273,7 @@
 /codex/items/crest-of-nocturna/
 /codex/items/crest-of-sumner/
 /codex/items/crest-of-the-dragon-slayer/
+/codex/items/crest-of-the-felling/
 /codex/items/crest-of-wintara/
 /codex/items/crimson-eye/
 /codex/items/crimson-pinion/
@@ -2059,6 +2069,7 @@
 /codex/items/jewel-of-celestria/
 /codex/items/jewel-of-creation/
 /codex/items/jewel-of-defense/
+/codex/items/jewel-of-destruction/
 /codex/items/jewel-of-draconia/
 /codex/items/jewel-of-erosion/
 /codex/items/jewel-of-fira/
@@ -2131,6 +2142,7 @@
 /codex/items/last-martyrs-skirt/
 /codex/items/last-martyrs-sword/
 /codex/items/lasting-lantern/
+/codex/items/latchstone/
 /codex/items/leach/
 /codex/items/leaches/
 /codex/items/leather-belt/

@@ -190,7 +190,7 @@
 /codex/bosses/ronin/
 /codex/bosses/sabrina-of-fomoria/
 /codex/bosses/sequana-of-fomoria/
-/codex/bosses/shade-of-achlys-the-red-dagger/
+/codex/bosses/shade-of-achlys-the-red-dagger-88eec645/
 /codex/bosses/shade-of-charon-grand-summoner-a33af9a0/
 /codex/bosses/shade-of-rhada-the-great-shield/
 /codex/bosses/shadow-of-achlys-the-red-dagger/
@@ -3354,7 +3354,7 @@
 /codex/monsters/seaweed/
 /codex/monsters/second-stable-keeper/
 /codex/monsters/seer/
-/codex/monsters/shade-of-achlys-the-red-dagger-d6882ed8/
+/codex/monsters/shade-of-achlys-the-red-dagger/
 /codex/monsters/shade-of-charon-grand-summoner/
 /codex/monsters/shade-of-rhada-the-great-shield-70e460f3/
 /codex/monsters/skeleton-96a555cc/

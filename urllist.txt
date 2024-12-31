@@ -47,6 +47,7 @@
 /codex/bosses/ascended-pledge/
 /codex/bosses/atepomarus-of-fomoria/
 /codex/bosses/baldr/
+/codex/bosses/balor-dread-biter/
 /codex/bosses/balor-king/
 /codex/bosses/balor-worm/
 /codex/bosses/bandit-lord/
@@ -102,7 +103,6 @@
 /codex/bosses/draconian-lord-4938a8df668fd665508d59b6b053a26d/
 /codex/bosses/draugr-lord/
 /codex/bosses/eistla/
-/codex/bosses/elite-balor-worm/
 /codex/bosses/elite-kobold-lord/
 /codex/bosses/elite-orc-lord/
 /codex/bosses/enlightened-king/
@@ -377,6 +377,7 @@
 /codex/followers/cactus/
 /codex/followers/camazotz/
 /codex/followers/carman/
+/codex/followers/castor/
 /codex/followers/cerberus/
 /codex/followers/cernunnos/
 /codex/followers/cerus/
@@ -488,6 +489,7 @@
 /codex/followers/pale-dragon/
 /codex/followers/pegasus/
 /codex/followers/phoenix/
+/codex/followers/pollux/
 /codex/followers/pumpkinhead/
 /codex/followers/quetzalcoatl-feathered-one/
 /codex/followers/raging-cerus/

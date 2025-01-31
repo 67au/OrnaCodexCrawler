@@ -394,6 +394,7 @@
 /codex/followers/dark-pegasus/
 /codex/followers/dark-slime/
 /codex/followers/death-worm/
+/codex/followers/demeters-lotan/
 /codex/followers/dire-wolf/
 /codex/followers/dog/
 /codex/followers/drake/

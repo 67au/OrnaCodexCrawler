@@ -3557,6 +3557,8 @@
 /codex/spells/achlys-pact/
 /codex/spells/aegir-stance/
 /codex/spells/aerial-barrage/
+/codex/spells/aglostrike-ii/
+/codex/spells/aglostrike/
 /codex/spells/alpha-dart/
 /codex/spells/annihilation/
 /codex/spells/annwn-fury/
@@ -3647,7 +3649,7 @@
 /codex/spells/break/
 /codex/spells/bright-star-ii/
 /codex/spells/bright-star/
-/codex/spells/brilliant-lights-2/
+/codex/spells/brilliant-lights-ii/
 /codex/spells/brilliant-lights/
 /codex/spells/brittle-break/
 /codex/spells/build-tower/
@@ -3684,6 +3686,7 @@
 /codex/spells/chimeras-song/
 /codex/spells/cleanse/
 /codex/spells/cleansing-strikes/
+/codex/spells/cleave-2/
 /codex/spells/cleave/
 /codex/spells/cockatrice-breath/
 /codex/spells/comet-ii/

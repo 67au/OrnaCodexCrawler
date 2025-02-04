@@ -5,6 +5,7 @@
 /codex/bosses/amadan/
 /codex/bosses/ancient-draugr-lord/
 /codex/bosses/ankou-eef994e0/
+/codex/bosses/anteros/
 /codex/bosses/anubis/
 /codex/bosses/arachne/
 /codex/bosses/arisen-aegir/
@@ -1012,6 +1013,7 @@
 /codex/items/badbs-feathers/
 /codex/items/bag-of-treats/
 /codex/items/bag-of-tricks/
+/codex/items/baguette-de-clarent/
 /codex/items/balanced-epee/
 /codex/items/baldr-battlerobe/
 /codex/items/baldr-boots/
@@ -1175,6 +1177,7 @@
 /codex/items/briny-pendant/
 /codex/items/broadsword/
 /codex/items/broceliande-candle/
+/codex/items/broken-heart/
 /codex/items/broken-statue/
 /codex/items/bronze-medal/
 /codex/items/buckler/
@@ -2249,6 +2252,7 @@
 /codex/items/manticore-heart/
 /codex/items/manticore-hood/
 /codex/items/manticore-robe/
+/codex/items/maras-band/
 /codex/items/maras-blessing/
 /codex/items/marketing-plans/
 /codex/items/masamune/
@@ -3009,6 +3013,11 @@
 /codex/monsters/ancient-jinn/
 /codex/monsters/ancient-mimic/
 /codex/monsters/ankou/
+/codex/monsters/anteros-brute/
+/codex/monsters/anteros-guard/
+/codex/monsters/anteros-knave/
+/codex/monsters/anteros-ruffian/
+/codex/monsters/anteros-warrior/
 /codex/monsters/apollyons-apprentice-x/
 /codex/monsters/apollyons-apprentice/
 /codex/monsters/apollyons-pupil-55495ffd/

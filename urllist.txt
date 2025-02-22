@@ -382,6 +382,8 @@
 /codex/followers/cerberus/
 /codex/followers/cernunnos/
 /codex/followers/cerus/
+/codex/followers/charmed-deathadder/
+/codex/followers/charmed-mamba/
 /codex/followers/chat-noir/
 /codex/followers/chimera/
 /codex/followers/cockatrice/

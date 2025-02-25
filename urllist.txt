@@ -3561,6 +3561,7 @@
 /codex/spells/aerial-barrage/
 /codex/spells/aglostrike-ii/
 /codex/spells/aglostrike/
+/codex/spells/aligned-sigilflask/
 /codex/spells/alpha-dart/
 /codex/spells/annihilation/
 /codex/spells/annwn-fury/
@@ -3602,6 +3603,7 @@
 /codex/spells/ballad-of-rand/
 /codex/spells/ballad-of-skadi/
 /codex/spells/bandage/
+/codex/spells/banishment-flask/
 /codex/spells/barrier-ii/
 /codex/spells/barrier/
 /codex/spells/bastion-ii/
@@ -3637,6 +3639,9 @@
 /codex/spells/blood-pact-ii/
 /codex/spells/blood-pact-iii/
 /codex/spells/blood-pact/
+/codex/spells/blood-ray-flask/
+/codex/spells/bloodflask-infusion/
+/codex/spells/bloodloss-flask/
 /codex/spells/bloodlust-ii/
 /codex/spells/bloodlust/
 /codex/spells/bloodshift/
@@ -3774,6 +3779,7 @@
 /codex/spells/earthstrike-iii/
 /codex/spells/earthstrike/
 /codex/spells/eistla-stance/
+/codex/spells/elemental-stormflask/
 /codex/spells/elementless/
 /codex/spells/elysian-judgment/
 /codex/spells/emberseal-ii/
@@ -3968,6 +3974,7 @@
 /codex/spells/inferno-iii/
 /codex/spells/inferno-ward/
 /codex/spells/inferno/
+/codex/spells/inflection-flask/
 /codex/spells/inquest/
 /codex/spells/iron-greaves/
 /codex/spells/iron-pauldrons/
@@ -4043,6 +4050,10 @@
 /codex/spells/mana-burn-2/
 /codex/spells/mana-burn-ii/
 /codex/spells/mana-burn/
+/codex/spells/mana-ray-flask/
+/codex/spells/mana-surge-flask/
+/codex/spells/manaflask-infusion/
+/codex/spells/manaseep-flask/
 /codex/spells/medusa-stare/
 /codex/spells/mend-wall-ii/
 /codex/spells/mend-wall-iii/
@@ -4081,6 +4092,8 @@
 /codex/spells/natura-ii/
 /codex/spells/natura-iii/
 /codex/spells/natura/
+/codex/spells/nature-call-flask/
+/codex/spells/nekromancer-flask/
 /codex/spells/nekrosis-ii/
 /codex/spells/nekrosis-iii/
 /codex/spells/nekrosis/
@@ -4175,6 +4188,7 @@
 /codex/spells/rend-epee/
 /codex/spells/rend-heavy-blade/
 /codex/spells/rend-thin-blade/
+/codex/spells/repetition-flask/
 /codex/spells/replicate-beithir/
 /codex/spells/requiem-ii/
 /codex/spells/requiem-iii/
@@ -4224,6 +4238,7 @@
 /codex/spells/shock/
 /codex/spells/shooting-star/
 /codex/spells/sidesteps/
+/codex/spells/sigil-stormflask/
 /codex/spells/slash/
 /codex/spells/sleep-dart/
 /codex/spells/sleep/
@@ -4324,6 +4339,7 @@
 /codex/spells/summon-oslo/
 /codex/spells/summon-phaethon/
 /codex/spells/summon-scarecrow/
+/codex/spells/summon-skeleton/
 /codex/spells/summon-slime/
 /codex/spells/summon-sphinx-kit/
 /codex/spells/summon-spiritgarm/
@@ -4431,6 +4447,7 @@
 /codex/spells/wallop/
 /codex/spells/walls-of-aaru/
 /codex/spells/warcry/
+/codex/spells/ward-flask-infusion/
 /codex/spells/ward-of-annwn/
 /codex/spells/ward-of-balor-ii/
 /codex/spells/ward-of-balor-iii/

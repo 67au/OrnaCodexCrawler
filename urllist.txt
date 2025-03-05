@@ -3878,6 +3878,7 @@
 /codex/spells/gait-of-kara/
 /codex/spells/gait-of-snotra/
 /codex/spells/gait-of-thrud/
+/codex/spells/gale-volcanis/
 /codex/spells/galeseal-ii/
 /codex/spells/galeseal-iii/
 /codex/spells/galeseal/
@@ -3974,6 +3975,7 @@
 /codex/spells/inferno-iii/
 /codex/spells/inferno-ward/
 /codex/spells/inferno/
+/codex/spells/infernus-mire/
 /codex/spells/inflection-flask/
 /codex/spells/inquest/
 /codex/spells/iron-greaves/
@@ -4108,6 +4110,7 @@
 /codex/spells/omniblast/
 /codex/spells/omniblasta-ii/
 /codex/spells/omniblasta/
+/codex/spells/omniflask/
 /codex/spells/omnistrike-ii/
 /codex/spells/omnistrike-iii/
 /codex/spells/omnistrike/
@@ -4369,6 +4372,7 @@
 /codex/spells/tempest/
 /codex/spells/terra-facade-ii/
 /codex/spells/terra-facade/
+/codex/spells/terra-stormtide/
 /codex/spells/terra-ward/
 /codex/spells/terraseal-ii/
 /codex/spells/terraseal-iii/
@@ -4381,6 +4385,7 @@
 /codex/spells/tiamats-breath/
 /codex/spells/tidal-facade-ii/
 /codex/spells/tidal-facade/
+/codex/spells/tidal-stormflare/
 /codex/spells/tidal-ward/
 /codex/spells/tidalseal-ii/
 /codex/spells/tidalseal-iii/

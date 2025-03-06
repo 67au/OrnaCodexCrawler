@@ -93,6 +93,7 @@ class SpellsItem(BaseItem):
     target = scrapy.Field()
     power = scrapy.Field()
     costs = scrapy.Field()
+    crit_chance = scrapy.Field()
 
     tags = scrapy.Field()
 

@@ -69,8 +69,12 @@ class CodexSpider(BaseSpider):
                         power['pvp'] = extract_power(p[1][5:])
                     struct['power'] = power
                 else:
-                    costs = extract_kv(s)[-1].strip().split(' ')[0]
-                    struct['costs'] = costs
+                    if s.endswith('%'):
+                        crit_chance = extract_kv(s)[-1].strip()
+                        struct['crit_chance'] = crit_chance
+                    else:
+                        costs = extract_kv(s)[-1].strip().split(' ')[0]
+                        struct['costs'] = costs
 
         tags = response.xpath("//div[@class='codex-page-tag']").xpath('string()')
         if any(tags):

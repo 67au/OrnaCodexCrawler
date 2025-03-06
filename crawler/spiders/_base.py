@@ -15,14 +15,17 @@ TARGET_URL = 'https://playorna.com'
 class BaseSpider(scrapy.Spider):
     allowed_domains = []
 
-    def __init__(self, name: str | None = None, lang: str = 'en', start_ids: list = None, target: str = None, **kwargs: Any):
+    def __init__(self, name: str | None = None, lang: str = 'en', start_ids: list | str = None, target: str = None, **kwargs: Any):
         super().__init__(name, **kwargs)
         self.lang = lang
         self.event = asyncio.Event()
         self.reflect_trans = reflect_trans(self.lang)
         self.target_url = target or TARGET_URL
         self.stop_request = False
-        self.start_ids = start_ids or []
+        if isinstance(start_ids, str):
+            self.start_ids = [start_ids]
+        else:
+            self.start_ids = start_ids or []
         self.allowed_domains.append(urlparse(self.target_url).netloc)
 
     def start_requests(self) -> Iterable[Request]:

@@ -80,7 +80,11 @@ class CodexSpider(BaseSpider):
                     stats.append([stat[0], stat[1].split()[0]])
 
         if elem:
-            stats.append(['element', elem.strip()])
+            e = extract_kv(elem)
+            if len(e) == 1:
+                stats.append(['element', list(e)])
+            else:
+                stats.append(['element', [a.strip() for a in e[1].split(',')]])
         
         if any(stats):
             struct['stats'] = stats

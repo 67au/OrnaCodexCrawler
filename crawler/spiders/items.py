@@ -57,7 +57,7 @@ class CodexSpider(BaseSpider):
             for s in stats:
                 t = s.xpath("string()").get().strip()
                 if len(s.xpath('@class').get().split()) > 1:
-                    tmp.append(['element', t])
+                    tmp.append(['element', [t]])
                     continue
                 if ' / ' in t:
                     for u in t.split('/'):

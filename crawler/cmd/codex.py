@@ -241,7 +241,8 @@ def scan(entries: Entries):
                 for index, stat in enumerate(m):
                     stat_base = base[uid]['stats'][index]
                     if stat_base[0] == 'element':
-                        tl['stats'][convert_key(stat_base[1])] = stat[1]
+                        for e_base, e in zip(stat_base[1], stat[1]):
+                            tl['stats'][convert_key(e_base)] = e
                     else:
                         tl['stats'][convert_key(stat_base[0])] = stat[0]
 
@@ -381,7 +382,7 @@ def convert(entries: Entries, scanned: ScanResult, item_types: dict):
                     for k, v in m:
                         stat_key = convert_key(k)
                         if stat_key == 'element':
-                            stats_struct[stat_key] = convert_key(v)
+                            stats_struct[stat_key] = [convert_key(e) for e in v]
                         else:
                             stats_struct[stat_key] = v
                     tmp = stats_struct

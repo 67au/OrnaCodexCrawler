@@ -7,9 +7,13 @@ from ..utils import parse_drop, parse_static_url, extract_kv
 from ._base import BaseSpider
 
 power_pattern = re.compile(r'\)|\d', re.IGNORECASE)
+costs_pattern = re.compile(r'\d+ \W+')
 
 def match_power(s: str) -> bool:
     return power_pattern.match(s) is not None
+
+def match_costs(s: str) -> bool:
+    return costs_pattern.match(s) is not None
 
 multiple_pattern = re.compile(r'(?P<POWER>.+) \(x(?P<MULTI>\d+)\)$')
 
@@ -50,8 +54,6 @@ class CodexSpider(BaseSpider):
         meta = response.xpath("//div[@class='codex-page-meta' and not(span[@class='exotic'])]").xpath('string()')
 
         elem = response.xpath("//div[contains(@class,'codex-stat')]").xpath('string()').get()
-        if elem:
-            struct['element'] = elem.strip()
 
         tier, *spell_type = meta[0].get().strip().split()
         struct['tier'] = tier[1:]
@@ -60,6 +62,7 @@ class CodexSpider(BaseSpider):
         target = extract_kv(meta[1].get().strip())[-1].strip()
         struct['target'] = target
 
+        stats = []
         if len(meta) > 2:
             for m in meta[2:]:
                 s = m.get().strip()
@@ -73,12 +76,14 @@ class CodexSpider(BaseSpider):
                         power['pvp'] = extract_power(p[1][5:])
                     struct['power'] = power
                 else:
-                    if s.endswith('%'):
-                        crit_chance = extract_kv(s)[-1].strip()
-                        struct['crit_chance'] = crit_chance
-                    else:
-                        costs = extract_kv(s)[-1].strip().split(' ')[0]
-                        struct['costs'] = costs
+                    stat = extract_kv(s)
+                    stats.append([stat[0], stat[1].split()[0]])
+
+        if elem:
+            stats.append(['element', elem.strip()])
+        
+        if any(stats):
+            struct['stats'] = stats
 
         tags = response.xpath("//div[@class='codex-page-tag']").xpath('string()')
         if any(tags):

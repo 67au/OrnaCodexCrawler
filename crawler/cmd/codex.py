@@ -236,7 +236,7 @@ def scan(entries: Entries):
                     tl[key][convert_key(base[uid][key])] = m
 
             # stats
-            if category in {'items', 'followers'}:
+            if category in {'items', 'followers', 'spells'}:
                 m = entry.get('stats', [])
                 for index, stat in enumerate(m):
                     stat_base = base[uid]['stats'][index]
@@ -375,7 +375,7 @@ def convert(entries: Entries, scanned: ScanResult, item_types: dict):
                         if ents:
                             meta['items'] = ents
 
-                if key == 'stats' and category in {'items', 'followers'}:
+                if key == 'stats' and category in {'items', 'followers', 'spells'}:
                     m = entry.get(key, [])
                     stats_struct = {}
                     for k, v in m:

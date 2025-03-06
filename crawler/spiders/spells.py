@@ -49,6 +49,10 @@ class CodexSpider(BaseSpider):
 
         meta = response.xpath("//div[@class='codex-page-meta' and not(span[@class='exotic'])]").xpath('string()')
 
+        elem = response.xpath("//div[contains(@class,'codex-stat')]").xpath('string()').get()
+        if elem:
+            struct['element'] = elem.strip()
+
         tier, *spell_type = meta[0].get().strip().split()
         struct['tier'] = tier[1:]
         struct['spell_type'] = ''.join(spell_type)

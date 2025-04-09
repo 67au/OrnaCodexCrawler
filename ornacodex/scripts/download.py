@@ -129,4 +129,5 @@ def crawl_codex(settings: Settings):
 
 def run(settings: Settings):
     settings = get_project_settings()
+    settings['LOG_LEVEL'] = 'INFO'
     crawl_codex(settings)

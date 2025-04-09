@@ -346,12 +346,12 @@ icon = "/img/effects/hybrid.png"
 name = "混血魔物 III"
 
 [abilities.hydrus]
-description = "在戰鬥中被擊敗時，你的跟隨者有機率犧牲自己來救你。"
+description = "若你的小夥伴在戰鬥中被殺死，你將會吸收牠們的靈魂並且變得更加強大。"
 icon = "/img/effects/hydrus.png"
 name = "水蛇座"
 
 [abilities.hydrus_1]
-description = "若你的小夥伴在戰鬥中被殺死，你將會吸收牠們的靈魂並且變得更加強大。"
+description = "在戰鬥中被擊敗時，你的跟隨者有機率犧牲自己來救你。"
 icon = "/img/effects/hydrus.png"
 name = "水蛇座"
 

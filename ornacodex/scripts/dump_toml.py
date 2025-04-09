@@ -16,11 +16,11 @@ def run(settings: Settings):
     with open(input_dir.joinpath(index['data_files']['codex'])) as f:
         codex = json.load(f)
     with open(dump_dir.joinpath('codex.toml'), 'w') as f:
-        tomlkit.dump(codex, f)
+        tomlkit.dump(codex, f, sort_keys=True)
 
     dump_dir.joinpath('i18n').mkdir(exist_ok=True)
     for language in index['languages']:
         with open(input_dir.joinpath('i18n', f'{language}.json')) as f:
             translation = json.load(f)
         with open(dump_dir.joinpath('i18n', f'{language}.toml'), 'w') as f:
-            tomlkit.dump(translation, f)
+            tomlkit.dump(translation, f,sort_keys=True)

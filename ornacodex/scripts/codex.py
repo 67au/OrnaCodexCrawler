@@ -30,7 +30,7 @@ def load(entries_dir: Path):
     for (language, crawler) in product(languages, crawlers):
         name = crawler.Spider.name
         with open(entries_dir.joinpath(language, f'{name}.json')) as f:
-            entries[language][name] = {i['id']: i for i in json.load(f)}
+            entries[language][name] = {i['id']: i for i in sorted(json.load(f), key=lambda k: k['id'])}
     return entries
 
 
@@ -302,8 +302,7 @@ def generate_options(codex: dict):
             # exotic
             options['exotic'] = set([True, False])
 
-    return {k: list(v) for k, v in options.items()}
-
+    return {k: sorted(v) for k, v in options.items()}
 
 def save_codex(output_dir: Path, codex: dict):
     with open(output_dir.joinpath('codex.json'), 'w') as f:

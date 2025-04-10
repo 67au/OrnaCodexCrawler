@@ -346,12 +346,12 @@ icon = "/img/effects/hybrid.png"
 name = "Hybrid Monster III"
 
 [abilities.hydrus]
-description = "As your summons are defeated in battle, you will absorb their souls and become more powerful."
+description = "When falling in battle, there is a chance that your follower will be sacrificed to save you."
 icon = "/img/effects/hydrus.png"
 name = "Hydrus"
 
 [abilities.hydrus_1]
-description = "When falling in battle, there is a chance that your follower will be sacrificed to save you."
+description = "As your summons are defeated in battle, you will absorb their souls and become more powerful."
 icon = "/img/effects/hydrus.png"
 name = "Hydrus"
 

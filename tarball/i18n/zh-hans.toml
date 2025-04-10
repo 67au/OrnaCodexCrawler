@@ -346,12 +346,12 @@ icon = "/img/effects/hybrid.png"
 name = "混血魔物 III"
 
 [abilities.hydrus]
-description = "当召唤物在战斗中被击败时，你会吸收它们的灵魂并变得更加强大。"
+description = "在战斗中被击败时，你的追随者有机率牺牲自身来救你。"
 icon = "/img/effects/hydrus.png"
 name = "水蛇座"
 
 [abilities.hydrus_1]
-description = "在战斗中被击败时，你的追随者有机率牺牲自身来救你。"
+description = "当召唤物在战斗中被击败时，你会吸收它们的灵魂并变得更加强大。"
 icon = "/img/effects/hydrus.png"
 name = "水蛇座"
 

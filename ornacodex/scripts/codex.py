@@ -30,7 +30,8 @@ def load(entries_dir: Path):
     for (language, crawler) in product(languages, crawlers):
         name = crawler.Spider.name
         with open(entries_dir.joinpath(language, f'{name}.json')) as f:
-            entries[language][name] = {i['id']: i for i in sorted(json.load(f), key=lambda k: k['id'])}
+            entries[language][name] = {i['id']: i for i in sorted(
+                json.load(f), key=lambda k: k['id'])}
     return entries
 
 
@@ -98,7 +99,7 @@ def scan(entries, itemtypes):
                     if key == 'tier':
                         cm_tmp[id][key] = int(m[1].strip('★'))
                     elif key == 'hp':
-                        cm_tmp[id][key] = m[1]
+                        cm_tmp[id][key] = int(m[1].replace(',', ''))
                     else:
                         value = Converter.convert_key(
                             base[id]['meta'][i][1])
@@ -195,10 +196,6 @@ def scan(entries, itemtypes):
             if tier:
                 cm_tmp[id]['tier'] = int(tier)
 
-            hp = entry.get('hp')
-            if hp:
-                cm_tmp[id]['hp'] = int(hp)
-
             spell_type = entry.get('spell_type')
             if spell_type:
                 key = Converter.convert_key(base[id]['spell_type'])
@@ -258,7 +255,7 @@ def scan(entries, itemtypes):
         for _, id in item.get('upgrade_materials', []):
             materials[id].append(['items', item['id']])
     for id in materials.keys():
-        cm['items'][id]['source'] = materials[id]
+        cm['items'][id]['sources'] = materials[id]
 
     for language in languages:
         for its in itemtypes[language]:
@@ -270,22 +267,19 @@ def scan(entries, itemtypes):
 
 def generate_options(codex: dict):
     options = defaultdict(set)
-    # single = ['category', 'tier', 'family', 'rarity', 'useable_by',
-    #           'place', 'type', 'spell_type', 'item_type', 'targets']
-    # manual = ['exotic', 'element']
-    # multiple = ['immunities', 'causes', 'gives',
-    #             'cures', 'tags', 'events', 'abilities']
-    option_keys = [
-        # single
-        'category', 'tier', 'family', 'rarity', 'useable_by', 'place', 'type', 'spell_type', 'item_type', 'targets',
-        # multiple
-        'immunities', 'causes', 'gives', 'cures', 'tags', 'events', 'abilities'
-    ]
+
+    disabled_option_keys = set([
+        'id', 'drops', 'skills', 'celestial_classes', 'stats',
+        'bestial_bond', 'hp', 'learned_by', 'off-hands', 'used_by',
+        'dropped_by', 'upgrade_materials', 'sources'
+    ])
 
     for crawler in crawlers:
         category = crawler.Spider.name
         for entry in codex[category].values():
-            for key in option_keys:
+            for key in entry.keys():
+                if key in disabled_option_keys:
+                    continue
                 m = entry.get(key)
                 if m:
                     if isinstance(m, list):
@@ -304,6 +298,42 @@ def generate_options(codex: dict):
 
     return {k: sorted(v) for k, v in options.items()}
 
+
+def generate_sorts(codex: dict):
+    stats_key = ['items', 'followers', 'spells']
+
+    sorts = {key: defaultdict(dict) for key in stats_key}
+    for name in stats_key:
+        for entry in codex[name].values():
+            stats = entry.get('stats')
+            if stats:
+                for k in stats.keys():
+                    if k in {'power', 'element'}:
+                        continue
+                    v = stats[k]
+                    stat_key = f'stats.{k}'
+                    if isinstance(v, bool):
+                        sorts[name][stat_key] = 'BOOL'
+                    elif isinstance(v, str):
+                        segments = []
+                        if v.startswith('+'):
+                            segments.append('SIGNED')
+                        if v.endswith('%'):
+                            segments.append('PERCENT')
+                        if v.endswith('turns'):
+                            segments.append('TURNS')
+                        if any(segments):
+                            sorts[name][stat_key] = '_'.join(segments)
+                        else:
+                            sorts[name][stat_key] = 'NUMBER'
+                    else:
+                        sorts[name][stat_key] = 'UNKNOWN'
+
+    sorts['raids'] = {'hp': 'NUMBER'}
+
+    return sorts
+
+
 def save_codex(output_dir: Path, codex: dict):
     with open(output_dir.joinpath('codex.json'), 'w') as f:
         json.dump(codex, f, ensure_ascii=False)
@@ -319,6 +349,7 @@ def save_translations(output_dir: Path, translations: dict):
 
     return [f'i18n/{language}.json' for language in languages]
 
+
 def run(settings: Settings):
     tmp_dir_config = TmpPathConfig(settings.get('TMP_DIR'))
     output_dir = Path(settings.get('OUTPUT_DIR'))
@@ -328,13 +359,15 @@ def run(settings: Settings):
     entries = load(tmp_dir_config.entries)
     codex, icons, translations = scan(entries, itemtypes)
     options = generate_options(codex)
+    sorts = generate_sorts(codex)
 
     codex_files = save_codex(
         output_dir,
         {
             'main': codex,
             'icons': icons,
-            'options': options
+            'options': options,
+            'sorts': sorts
         })
     translations_files = save_translations(output_dir, translations)
 

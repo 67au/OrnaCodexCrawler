@@ -4850,7 +4850,7 @@ spell_rate = "20"
 [main.followers.arisen-cernunnos]
 bestial_bond = [[{name = "accuracy", value = "+7%", type = "BONUS"}], [{name = "bonded_attack", chance = "12%", type = "BOND"}, {name = "bonded_dexterity", chance = "7%", type = "BOND"}], [{name = "bonded_attack", chance = "12%", type = "BOND"}, {name = "bonded_dexterity", chance = "15%", type = "BOND"}]]
 category = "followers"
-events = ["paths_of_fomoria__house_of_nocturna"]
+events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
 family = "animal"
 id = "arisen-cernunnos"
 rarity = "cryptid"
@@ -4864,7 +4864,7 @@ spell_rate = "7"
 [main.followers.arisen-glashtyn]
 bestial_bond = [[{name = "elemental_weaknesses", value = "+15%", type = "BONUS"}], [{name = "t__mag_u", chance = "7%", type = "BOND"}, {name = "t__mag_uu", chance = "2%", type = "BOND"}], [{name = "bonded_mana", chance = "12%", type = "BOND"}, {name = "bonded_magic", chance = "20%", type = "BOND"}, {name = "bolt-volley", type = "ABILITY"}]]
 category = "followers"
-events = ["paths_of_fomoria__house_of_nocturna"]
+events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
 family = "animal"
 id = "arisen-glashtyn"
 rarity = "cryptid"
@@ -5302,7 +5302,7 @@ spell_rate = "12"
 [main.followers.cernunnos]
 bestial_bond = [[{name = "accuracy", value = "+7%", type = "BONUS"}], [{name = "bonded_attack", chance = "12%", type = "BOND"}, {name = "bonded_dexterity", chance = "7%", type = "BOND"}], [{name = "bonded_attack", chance = "12%", type = "BOND"}, {name = "bonded_dexterity", chance = "15%", type = "BOND"}]]
 category = "followers"
-events = ["paths_of_fomoria__house_of_nocturna"]
+events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
 family = "animal"
 id = "cernunnos"
 rarity = "cryptid"
@@ -5931,7 +5931,7 @@ spell_rate = "5"
 [main.followers.glashtyn]
 bestial_bond = [[{name = "elemental_weaknesses", value = "+15%", type = "BONUS"}], [{name = "t__mag_u", chance = "7%", type = "BOND"}, {name = "t__mag_uu", chance = "2%", type = "BOND"}], [{name = "bonded_mana", chance = "12%", type = "BOND"}, {name = "bonded_magic", chance = "20%", type = "BOND"}, {name = "bolt-volley", type = "ABILITY"}]]
 category = "followers"
-events = ["paths_of_fomoria__house_of_nocturna"]
+events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
 family = "animal"
 id = "glashtyn"
 rarity = "cryptid"
@@ -55151,7 +55151,7 @@ tier = 6
 
 [main.monsters.buggane]
 category = "monsters"
-events = ["paths_of_fomoria__house_of_nocturna"]
+events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
 family = "orc_horde"
 id = "buggane"
 rarity = "cryptid"
@@ -55249,7 +55249,7 @@ tier = 7
 
 [main.monsters.cernunnos]
 category = "monsters"
-events = ["paths_of_fomoria__house_of_nocturna"]
+events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
 family = "animal"
 id = "cernunnos"
 rarity = "rare"
@@ -56497,7 +56497,7 @@ name = "second_chance"
 
 [main.monsters.glashtyn]
 category = "monsters"
-events = ["paths_of_fomoria__house_of_nocturna"]
+events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
 family = "animal"
 id = "glashtyn"
 rarity = "rare"

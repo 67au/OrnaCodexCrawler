@@ -14,6 +14,28 @@ from ..utils.path_config import TmpPathConfig
 
 from ..spiders import bosses, classes, followers, items, monsters, raids, spells
 
+BASE_STATS = [
+    'attack',
+    'magic',
+    'defense',
+    'resistance',
+    'dexterity',
+    'crit',
+    'hp',
+    'mana',
+    'ward',
+    'foresight',
+    'orn_bonus',
+    'exp_bonus',
+    'luck_bonus',
+    'gold_bonus',
+    'follower_stats',
+    'follower_act',
+    'summon_stats',
+    'view_distance',
+    'adornment_slots',
+    'two_handed'
+]
 
 crawlers = [
     bosses, classes, followers, items,
@@ -45,9 +67,13 @@ def load_itemtypes(itemtypes_dir: Path):
 
 def scan(entries, itemtypes):
 
-    translations = {language: defaultdict(dict) for language in languages}
+    translations = {language: {
+        'msg': defaultdict(dict),
+        'abilities': defaultdict(dict),
+        'language': language,
+        'main': defaultdict(dict)
+    } for language in languages}
     cm = {}
-    ct = {language: defaultdict(dict) for language in languages}
     icons = {}
 
     events_conflict = {language: {} for language in languages}
@@ -63,12 +89,15 @@ def scan(entries, itemtypes):
         for id, entry in used.items():
 
             cm_tmp[id]['category'] = category
-            translations[language]['category'][category] = entry['category']
+            translations[language]['msg']['category'][category] = entry['category']
 
             exotic = entry.get('exotic')
             if exotic:
-                translations[language]['exotic'] = exotic
+                translations[language]['msg']['meta']['exotic'] = exotic
                 cm_tmp[id]['exotic'] = True
+            else:
+                if category == 'items':
+                    cm_tmp[id]['exotic'] = False
 
             events = entry.get('events')
             if events:
@@ -81,7 +110,7 @@ def scan(entries, itemtypes):
                     else:
                         if len(events) == 1:
                             events_conflict[language][key] = True
-                    translations[language]['events'][key] = event
+                    translations[language]['msg']['events'][key] = event
 
             tags = entry.get('tags')
             if tags:
@@ -89,13 +118,13 @@ def scan(entries, itemtypes):
                 for i, tag in enumerate(tags):
                     key = Converter.convert_key(base[id]['tags'][i])
                     cm_tmp[id]['tags'].append(key)
-                    translations[language]['tags'][key] = tag
+                    translations[language]['msg']['tags'][key] = tag
 
             meta = entry.get('meta')
             if meta:
                 for i, m in enumerate(meta):
                     key = Converter.convert_key(base[id]['meta'][i][0])
-                    translations[language]['meta'][key] = m[0]
+                    translations[language]['msg']['meta'][key] = m[0]
                     if key == 'tier':
                         cm_tmp[id][key] = int(m[1].strip('★'))
                     elif key == 'hp':
@@ -104,7 +133,7 @@ def scan(entries, itemtypes):
                         value = Converter.convert_key(
                             base[id]['meta'][i][1])
                         cm_tmp[id][key] = value
-                        translations[language][key][value] = m[1]
+                        translations[language]['msg'][key][value] = m[1]
 
             stats = entry.get('stats')
             if stats:
@@ -115,8 +144,8 @@ def scan(entries, itemtypes):
                     if key == 'targets':
                         value = Converter.convert_key(
                             base[id]['stats'][i][1])
-                        translations[language]['meta'][key] = m[0]
-                        translations[language][key][value] = m[1]
+                        translations[language]['msg']['meta'][key] = m[0]
+                        translations[language]['msg'][key][value] = m[1]
                         cm_tmp[id][key] = value
                     ###
                     elif key == 'element':
@@ -124,14 +153,14 @@ def scan(entries, itemtypes):
                         for ii, e in enumerate(m[1]):
                             value = Converter.convert_key(
                                 key=base[id]['stats'][i][1][ii])
-                            translations[language][key][value] = e
+                            translations[language]['msg'][key][value] = e
                             cm_tmp[id]['stats'][key].append(value)
                     elif key == 'costs':
-                        translations[language]['stats'][key] = m[0]
+                        translations[language]['msg']['stats'][key] = m[0]
                         cm_tmp[id]['stats'][key] = base[id]['stats'][i][1].split()[
                             0]
                     else:
-                        translations[language]['stats'][key] = m[0]
+                        translations[language]['msg']['stats'][key] = m[0]
                         if len(m) > 1:
                             cm_tmp[id]['stats'][key] = base[id]['stats'][i][1]
                         else:
@@ -141,7 +170,7 @@ def scan(entries, itemtypes):
             if drops:
                 for i, m in enumerate(drops):
                     key = Converter.convert_key(base[id]['drops'][i][0])
-                    translations[language]['meta'][key] = m[0]
+                    translations[language]['msg']['meta'][key] = m[0]
                     d_list = []
                     for ii, d in enumerate(m[1]):
                         href = d.get('href')
@@ -159,14 +188,14 @@ def scan(entries, itemtypes):
                             tmp = {
                                 'name': unique_key,
                             }
-                            if description:
+                            if key == 'abilities':
                                 abilities_key = abilities_key_generator.generate_unique_key(
-                                    (icon_key, hashlib.md5(base[id]['drops'][i][1][ii]['description'].encode()).digest()))
+                                    (icon_key, hashlib.md5(base[id]['drops'][i][1][ii].get('description', '').encode()).digest()))
                                 # abilities
                                 translations[language]['abilities'][abilities_key] = d
                                 tmp['name'] = abilities_key
                             else:
-                                translations[language]['status'][unique_key] = d['name']
+                                translations[language]['msg']['status'][unique_key] = d['name']
                             if chance:
                                 tmp['chance'] = chance
                             d_list.append(tmp)
@@ -182,7 +211,7 @@ def scan(entries, itemtypes):
                                         continue
                                     bb_key = Converter.convert_key(bbb['name'])
                                     tmp.append({**bbb, 'name': bb_key})
-                                    translations[language]['bestial_bond'][bb_key] = bb[iii]['name']
+                                    translations[language]['msg']['bestial_bond'][bb_key] = bb[iii]['name']
                                 d_list.append(tmp)
                             else:
                                 # dummy
@@ -190,7 +219,9 @@ def scan(entries, itemtypes):
                     if any(d_list):
                         cm_tmp[id][key] = d_list
 
+            # default keys
             cm_tmp[id]['id'] = entry['id']
+            cm_tmp[id]['icon'] = entry['icon']
 
             tier = entry.get('tier')
             if tier:
@@ -199,13 +230,13 @@ def scan(entries, itemtypes):
             spell_type = entry.get('spell_type')
             if spell_type:
                 key = Converter.convert_key(base[id]['spell_type'])
-                translations[language]['spell_type'][key] = spell_type
+                translations[language]['msg']['spell_type'][key] = spell_type
                 cm_tmp[id]['spell_type'] = key
 
-            ct[language][id]['name'] = entry['name']
+            translations[language]['main'][id]['name'] = entry['name']
             description = entry.get('description')
             if description:
-                ct[language][id]['description'] = description
+                translations[language]['main'][id]['description'] = description
 
             ability = entry.get('ability')
             if ability:
@@ -259,8 +290,8 @@ def scan(entries, itemtypes):
 
     for language in languages:
         for its in itemtypes[language]:
-            translations[language]['item_type'][its['type']] = its['name']
-        translations[language]['main'] = ct[language]
+            translations[language]['msg']['item_type'][its['type']
+                                                       ] = its['name']
 
     return (cm, icons, translations)
 
@@ -269,9 +300,9 @@ def generate_options(codex: dict):
     options = defaultdict(set)
 
     disabled_option_keys = set([
-        'id', 'drops', 'skills', 'celestial_classes', 'stats',
+        'id', 'icon', 'drops', 'skills', 'celestial_classes', 'stats',
         'bestial_bond', 'hp', 'learned_by', 'off-hands', 'used_by',
-        'dropped_by', 'upgrade_materials', 'sources'
+        'dropped_by', 'upgrade_materials', 'sources', 'ability'
     ])
 
     for crawler in crawlers:
@@ -347,7 +378,7 @@ def save_translations(output_dir: Path, translations: dict):
         with open(i18n_dir.joinpath(f'{language}.json'), 'w') as f:
             json.dump(translations[language], f, ensure_ascii=False)
 
-    return [f'i18n/{language}.json' for language in languages]
+    return {language: f'i18n/{language}.json' for language in languages}
 
 
 def run(settings: Settings):
@@ -361,24 +392,22 @@ def run(settings: Settings):
     options = generate_options(codex)
     sorts = generate_sorts(codex)
 
-    codex_files = save_codex(
+    codex_file = save_codex(
         output_dir,
         {
             'main': codex,
             'icons': icons,
             'options': options,
-            'sorts': sorts
+            'sorts': sorts,
+            'base_stats': BASE_STATS
         })
     translations_files = save_translations(output_dir, translations)
 
     index = {
         'version': settings.get('VERSION'),
         'updated_at': datetime.now(timezone.utc).isoformat(),
-        'languages': languages,
-        'data_files': {
-            'codex': codex_files,
-            'i18n': translations_files
-        }
+        'codex': codex_file,
+        'i18n': translations_files
     }
     with open(output_dir.joinpath('index.json'), 'w') as f:
         json.dump(index, f)

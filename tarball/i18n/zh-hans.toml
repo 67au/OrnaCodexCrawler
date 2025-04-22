@@ -16551,7 +16551,7 @@ description = "同时用两把武器攻击，有机率降低对手的物防。"
 name = "双重打击"
 
 [main.twin-blast]
-description = "同时用两把法杖施展法术，有机率降低对上的魔防。"
+description = "同时用两把法杖施展法术，有机率降低对手的魔防。"
 name = "双重炸裂 (副手)"
 
 [main.twofold-blast]
@@ -17649,7 +17649,7 @@ skills = "技能"
 summons = "召唤物"
 targets = "目标"
 tier = "阶级"
-type = "Type"
+type = "类型"
 upgrade_materials = "升级素材"
 useable_by = "适用于"
 

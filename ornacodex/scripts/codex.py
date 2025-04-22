@@ -227,6 +227,10 @@ def scan(entries, itemtypes):
             if tier:
                 cm_tmp[id]['tier'] = int(tier)
 
+            aura = entry.get('aura')
+            if aura:
+                cm_tmp[id]['aura'] = aura
+
             spell_type = entry.get('spell_type')
             if spell_type:
                 key = Converter.convert_key(base[id]['spell_type'])
@@ -300,7 +304,7 @@ def generate_options(codex: dict):
     options = defaultdict(set)
 
     disabled_option_keys = set([
-        'id', 'icon', 'drops', 'skills', 'celestial_classes', 'stats',
+        'id', 'icon', 'drops', 'aura', 'skills', 'celestial_classes', 'stats',
         'bestial_bond', 'hp', 'learned_by', 'off-hands', 'used_by',
         'dropped_by', 'upgrade_materials', 'sources', 'ability'
     ])

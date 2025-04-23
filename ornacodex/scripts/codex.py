@@ -231,6 +231,12 @@ def scan(entries, itemtypes):
             if aura:
                 cm_tmp[id]['aura'] = aura
 
+            _type = entry.get('type')
+            if _type:
+                key = Converter.convert_key(base[id]['type'])
+                translations[language]['msg']['type'][key] = _type
+                cm_tmp[id]['type'] = _type
+
             spell_type = entry.get('spell_type')
             if spell_type:
                 key = Converter.convert_key(base[id]['spell_type'])

@@ -27,7 +27,7 @@ class Spider(scrapy.Spider):
         self.language = language or settings.get('BASE_LANGUAGE')
         self.name_only = name_only
         self.category_url = UrlBuilder.category('items')
-        # self.event = asyncio.Event()
+        self.event = asyncio.Event()
 
     def start_requests(self) -> Iterable[Request]:
         yield scrapy.FormRequest(
@@ -51,6 +51,8 @@ class Spider(scrapy.Spider):
             response.meta.update({'c': value})
             if not self.name_only:
                 yield self.parse_page(response, items_set)
+                await self.event.wait()
+                self.event.clear()
             struct['items'] = items_set
             yield ItemTypes(struct)
 
@@ -73,4 +75,4 @@ class Spider(scrapy.Spider):
         yield self.parse_page(response, output)
 
     async def parse_err(self, response: Response):
-        pass
+        self.event.set()

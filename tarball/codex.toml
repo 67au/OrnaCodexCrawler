@@ -1450,7 +1450,7 @@ name = "wintara_house"
 [main.bosses.cursed-king-fomor-autumna]
 aura = "superboss"
 category = "bosses"
-drops = [["items", "cursed-autumna-crested-shield"], ["items", "cursed-fomors-crown"], ["items", "cursed-fomoria-plated-boots"], ["items", "cursed-fomoria-plated-boots-e03e2c7a"], ["items", "cursed-fomoria-plated-robe-62b00ff5"], ["items", "cursed-fomoria-plated-robe-858bfe6c"]]
+drops = [["items", "cursed-autumna-crested-shield"], ["items", "cursed-fomors-crown"], ["items", "cursed-fomoria-plated-boots-0ebf6063"], ["items", "cursed-fomoria-plated-boots-e03e2c7a"], ["items", "cursed-fomoria-plated-robe-62b00ff5"], ["items", "cursed-fomoria-plated-robe-858bfe6c"]]
 events = ["paths_of_fomoria__house_of_autumna"]
 family = "human"
 icon = "/img/bosses/fomoria/fomor_autumna_cursed.png"
@@ -1474,7 +1474,7 @@ tier = 8
 [main.bosses.cursed-king-fomor-sumner]
 aura = "superboss"
 category = "bosses"
-drops = [["items", "cursed-fomors-crown-440afac8"], ["items", "cursed-fomoria-plated-boots-c6787dd8"], ["items", "cursed-fomoria-plated-boots-e03e2c7a"], ["items", "cursed-fomoria-plated-robe-5d09a4d7"], ["items", "cursed-fomoria-plated-robe-858bfe6c"], ["items", "cursed-sumner-crested-shield"]]
+drops = [["items", "cursed-fomors-crown-440afac8"], ["items", "cursed-fomoria-plated-boots"], ["items", "cursed-fomoria-plated-boots-e03e2c7a"], ["items", "cursed-fomoria-plated-robe-5d09a4d7"], ["items", "cursed-fomoria-plated-robe-858bfe6c"], ["items", "cursed-sumner-crested-shield"]]
 events = ["paths_of_fomoria__house_of_sumner"]
 family = "human"
 icon = "/img/bosses/fomoria/fomor_sumner_cursed.png"
@@ -17931,7 +17931,7 @@ useable_by = "all_classes"
 [main.items.arms-of-selene.stats]
 attack = "25"
 crit = "1%"
-hybrid_damage = "+10%"
+hybrid_damage = "+15%"
 magic = "25"
 
 [main.items.arms-of-themis]
@@ -19329,7 +19329,7 @@ icon = "/img/materials/avalon_ore.png"
 id = "avalon-ore"
 item_type = "material"
 rarity = "rare"
-sources = [["items", "arisen-avalon-armor"], ["items", "arisen-avalon-helmet"], ["items", "arisen-avalon-leggings"], ["items", "arisen-colada"], ["items", "arisen-genius"], ["items", "arisen-tizona"], ["items", "avalon-armor"], ["items", "avalon-crown"], ["items", "avalon-helmet"], ["items", "avalon-knight-armor"], ["items", "avalon-knight-helmet"], ["items", "avalon-knight-leggings"], ["items", "avalon-leggings"], ["items", "avalon-melody"], ["items", "banhammer"], ["items", "beastfelled-boots"], ["items", "beastfelled-cowl"], ["items", "beastfelled-cuirass"], ["items", "beastfelled-garb"], ["items", "beastfelled-helmet"], ["items", "beastfelled-hood"], ["items", "beastfelled-leggings"], ["items", "beastfelled-robe"], ["items", "beastfelled-shoes"], ["items", "chestguard-of-dynasty"], ["items", "clogs-of-dynasty"], ["items", "colada"], ["items", "covyns-dark-mask"], ["items", "covyns-hood"], ["items", "covyns-wolven-hood"], ["items", "cowards-blade"], ["items", "cowards-boots"], ["items", "cowards-cloak"], ["items", "cowards-cowl"], ["items", "cowl-of-dynasty"], ["items", "crest-of-avalon"], ["items", "cuirass-of-dynasty"], ["items", "eastern-regalia"], ["items", "excalibur-32be53bc"], ["items", "fey-macha-boots"], ["items", "fey-macha-robe"], ["items", "fey-macha-veil"], ["items", "fey-macha-warstaff"], ["items", "finesses-enchanted-epee"], ["items", "finesses-greatsword"], ["items", "finesses-katana"], ["items", "finesses-shotel"], ["items", "flax44s-monocle"], ["items", "flax44s-staff"], ["items", "footpads-of-dynasty"], ["items", "gamma-myrddin"], ["items", "gamma-myrddin-cloak"], ["items", "gamma-myrddin-cowl"], ["items", "gamma-myrddin-hood"], ["items", "gamma-myrddin-robe"], ["items", "gamma-myrddin-shield"], ["items", "greaves-of-dynasty"], ["items", "havels-leggings"], ["items", "helmet-of-dynasty"], ["items", "hood-of-dynasty"], ["items", "houserobe-of-dynasty"], ["items", "kings-boots"], ["items", "kings-hood"], ["items", "kings-robe"], ["items", "lynx-labrys"], ["items", "macha-boots"], ["items", "macha-robe"], ["items", "macha-veil"], ["items", "macha-warstaff"], ["items", "myrddin-harp"], ["items", "omega-myrddin"], ["items", "omega-myrddin-cloak"], ["items", "omega-myrddin-cowl"], ["items", "omega-myrddin-harp"], ["items", "omega-myrddin-hood"], ["items", "omega-myrddin-robe"], ["items", "omega-myrddin-shield"], ["items", "rhongomiant"], ["items", "ruggieros-armor"], ["items", "ruggieros-helmet"], ["items", "tizona"], ["items", "windtamer-hood"], ["items", "windtamer-lance"], ["items", "windtamer-robe"], ["items", "windtamer-shield"], ["items", "windtamer-shoes"], ["items", "zeta-myrddin"], ["items", "zeta-myrddin-cloak"], ["items", "zeta-myrddin-cowl"], ["items", "zeta-myrddin-hood"], ["items", "zeta-myrddin-robe"], ["items", "zeta-myrddin-shield"]]
+sources = [["items", "arisen-avalon-armor"], ["items", "arisen-avalon-helmet"], ["items", "arisen-avalon-leggings"], ["items", "arisen-colada"], ["items", "arisen-genius"], ["items", "arisen-tizona"], ["items", "avalon-armor"], ["items", "avalon-crown"], ["items", "avalon-helmet"], ["items", "avalon-knight-armor"], ["items", "avalon-knight-helmet"], ["items", "avalon-knight-leggings"], ["items", "avalon-leggings"], ["items", "avalon-melody"], ["items", "banhammer"], ["items", "beastfelled-boots"], ["items", "beastfelled-cowl"], ["items", "beastfelled-cuirass"], ["items", "beastfelled-garb"], ["items", "beastfelled-helmet"], ["items", "beastfelled-hood"], ["items", "beastfelled-leggings"], ["items", "beastfelled-robe"], ["items", "beastfelled-shoes"], ["items", "chestguard-of-dynasty"], ["items", "clogs-of-dynasty"], ["items", "colada"], ["items", "covyns-dark-mask"], ["items", "covyns-hood"], ["items", "covyns-wolven-hood"], ["items", "cowards-blade"], ["items", "cowards-boots"], ["items", "cowards-cloak"], ["items", "cowards-cowl"], ["items", "cowl-of-dynasty"], ["items", "crest-of-avalon"], ["items", "cuirass-of-dynasty"], ["items", "eastern-regalia"], ["items", "excalibur"], ["items", "fey-macha-boots"], ["items", "fey-macha-robe"], ["items", "fey-macha-veil"], ["items", "fey-macha-warstaff"], ["items", "finesses-enchanted-epee"], ["items", "finesses-greatsword"], ["items", "finesses-katana"], ["items", "finesses-shotel"], ["items", "flax44s-monocle"], ["items", "flax44s-staff"], ["items", "footpads-of-dynasty"], ["items", "gamma-myrddin"], ["items", "gamma-myrddin-cloak"], ["items", "gamma-myrddin-cowl"], ["items", "gamma-myrddin-hood"], ["items", "gamma-myrddin-robe"], ["items", "gamma-myrddin-shield"], ["items", "greaves-of-dynasty"], ["items", "havels-leggings"], ["items", "helmet-of-dynasty"], ["items", "hood-of-dynasty"], ["items", "houserobe-of-dynasty"], ["items", "kings-boots"], ["items", "kings-hood"], ["items", "kings-robe"], ["items", "lynx-labrys"], ["items", "macha-boots"], ["items", "macha-robe"], ["items", "macha-veil"], ["items", "macha-warstaff"], ["items", "myrddin-harp"], ["items", "omega-myrddin"], ["items", "omega-myrddin-cloak"], ["items", "omega-myrddin-cowl"], ["items", "omega-myrddin-harp"], ["items", "omega-myrddin-hood"], ["items", "omega-myrddin-robe"], ["items", "omega-myrddin-shield"], ["items", "rhongomiant"], ["items", "ruggieros-armor"], ["items", "ruggieros-helmet"], ["items", "tizona"], ["items", "windtamer-hood"], ["items", "windtamer-lance"], ["items", "windtamer-robe"], ["items", "windtamer-shield"], ["items", "windtamer-shoes"], ["items", "zeta-myrddin"], ["items", "zeta-myrddin-cloak"], ["items", "zeta-myrddin-cowl"], ["items", "zeta-myrddin-hood"], ["items", "zeta-myrddin-robe"], ["items", "zeta-myrddin-shield"]]
 tier = 8
 useable_by = "all_classes"
 
@@ -21004,6 +21004,30 @@ foresight = "30"
 hp = "505"
 ward = "-8%"
 
+[main.items.beguiled-armor-y]
+aura = "rare"
+category = "items"
+dropped_by = [["raids", "beguiled-apollyon-y"]]
+exotic = true
+icon = "/img/armor/spectral_armor_green.png"
+id = "beguiled-armor-y"
+item_type = "armor"
+place = "torso"
+rarity = "rare"
+tier = 10
+upgrade_materials = [["items", "hide"], ["items", "runestone"], ["items", "silk"]]
+useable_by = "warrior_classes"
+
+[[main.items.beguiled-armor-y.immunities]]
+name = "doom"
+
+[main.items.beguiled-armor-y.stats]
+adornment_slots = "6"
+defense = "-280"
+dexterity = "200"
+mana = "200"
+ward = "5%"
+
 [main.items.beguiled-axe]
 aura = "famed"
 category = "items"
@@ -21056,6 +21080,32 @@ dragon_damage = "-50%"
 faction_damage = "+25%"
 holy_damage = "-50%"
 hp = "60"
+ward = "11%"
+
+[main.items.beguiled-axe-y]
+aura = "famed"
+category = "items"
+dropped_by = [["raids", "beguiled-apollyon-y"]]
+exotic = true
+icon = "/img/weapons/beguiled_axe_green.png"
+id = "beguiled-axe-y"
+item_type = "weapon"
+place = "weapon"
+rarity = "famed"
+tier = 10
+type = "axes_&_hammers"
+upgrade_materials = [["items", "hide"], ["items", "runestone"], ["items", "silk"]]
+useable_by = "warrior_classes"
+
+[main.items.beguiled-axe-y.stats]
+adornment_slots = "6"
+arcane_damage = "-50%"
+attack = "220"
+dark_damage = "-50%"
+dexterity = "160"
+dragon_damage = "-50%"
+faction_damage = "+25%"
+holy_damage = "-50%"
 ward = "11%"
 
 [main.items.beguiled-blade]
@@ -21118,6 +21168,35 @@ faction_damage = "+25%"
 holy_damage = "-50%"
 mana = "90"
 
+[main.items.beguiled-blade-y]
+aura = "famed"
+category = "items"
+dropped_by = [["raids", "beguiled-apollyon-y"]]
+exotic = true
+icon = "/img/weapons/beguiled_blade_green.png"
+id = "beguiled-blade-y"
+item_type = "weapon"
+place = "weapon"
+rarity = "famed"
+tier = 10
+type = "curved_swords"
+upgrade_materials = [["items", "hide"], ["items", "runestone"], ["items", "silk"]]
+useable_by = "thief_classes"
+
+[[main.items.beguiled-blade-y.causes]]
+name = "bleeding"
+
+[main.items.beguiled-blade-y.stats]
+adornment_slots = "6"
+arcane_damage = "-50%"
+attack = "270"
+dark_damage = "-50%"
+dexterity = "220"
+dragon_damage = "-50%"
+faction_damage = "+25%"
+holy_damage = "-50%"
+mana = "40"
+
 [main.items.beguiled-boots]
 aura = "rare"
 category = "items"
@@ -21169,6 +21248,31 @@ foresight = "24"
 hp = "355"
 resistance = "110"
 ward = "-8%"
+
+[main.items.beguiled-boots-y]
+aura = "rare"
+category = "items"
+dropped_by = [["raids", "beguiled-apollyon-y"]]
+exotic = true
+icon = "/img/armor/spectral_boots_green.png"
+id = "beguiled-boots-y"
+item_type = "armor"
+place = "legs"
+rarity = "rare"
+tier = 10
+upgrade_materials = [["items", "hide"], ["items", "runestone"], ["items", "silk"]]
+useable_by = "thief_classes"
+
+[[main.items.beguiled-boots-y.immunities]]
+name = "doom"
+
+[main.items.beguiled-boots-y.stats]
+adornment_slots = "6"
+defense = "-120"
+dexterity = "200"
+mana = "375"
+resistance = "-120"
+ward = "4%"
 
 [main.items.beguiled-cowl]
 aura = "rare"
@@ -21222,6 +21326,31 @@ hp = "355"
 resistance = "110"
 ward = "-8%"
 
+[main.items.beguiled-cowl-y]
+aura = "rare"
+category = "items"
+dropped_by = [["raids", "beguiled-apollyon-y"]]
+exotic = true
+icon = "/img/armor/spectral_cowl_green.png"
+id = "beguiled-cowl-y"
+item_type = "armor"
+place = "head"
+rarity = "rare"
+tier = 10
+upgrade_materials = [["items", "hide"], ["items", "runestone"], ["items", "silk"]]
+useable_by = "thief_classes"
+
+[[main.items.beguiled-cowl-y.immunities]]
+name = "doom"
+
+[main.items.beguiled-cowl-y.stats]
+adornment_slots = "6"
+defense = "-120"
+dexterity = "200"
+mana = "375"
+resistance = "-120"
+ward = "4%"
+
 [main.items.beguiled-garb]
 aura = "rare"
 category = "items"
@@ -21274,6 +21403,31 @@ hp = "355"
 resistance = "110"
 ward = "-8%"
 
+[main.items.beguiled-garb-y]
+aura = "rare"
+category = "items"
+dropped_by = [["raids", "beguiled-apollyon-y"]]
+exotic = true
+icon = "/img/armor/spectral_garb_green.png"
+id = "beguiled-garb-y"
+item_type = "armor"
+place = "torso"
+rarity = "rare"
+tier = 10
+upgrade_materials = [["items", "hide"], ["items", "runestone"], ["items", "silk"]]
+useable_by = "thief_classes"
+
+[[main.items.beguiled-garb-y.immunities]]
+name = "doom"
+
+[main.items.beguiled-garb-y.stats]
+adornment_slots = "6"
+defense = "-120"
+dexterity = "200"
+mana = "375"
+resistance = "-120"
+ward = "4%"
+
 [main.items.beguiled-heavy-boots]
 aura = "rare"
 category = "items"
@@ -21322,6 +21476,30 @@ foresight = "24"
 hp = "505"
 ward = "-8%"
 
+[main.items.beguiled-heavy-boots-y]
+aura = "rare"
+category = "items"
+dropped_by = [["raids", "beguiled-apollyon-y"]]
+exotic = true
+icon = "/img/armor/spectral_heavy_boots_green.png"
+id = "beguiled-heavy-boots-y"
+item_type = "armor"
+place = "legs"
+rarity = "rare"
+tier = 10
+upgrade_materials = [["items", "hide"], ["items", "runestone"], ["items", "silk"]]
+useable_by = "warrior_classes"
+
+[[main.items.beguiled-heavy-boots-y.immunities]]
+name = "doom"
+
+[main.items.beguiled-heavy-boots-y.stats]
+adornment_slots = "6"
+defense = "-280"
+dexterity = "200"
+mana = "200"
+ward = "5%"
+
 [main.items.beguiled-helmet]
 aura = "rare"
 category = "items"
@@ -21369,6 +21547,30 @@ defense = "280"
 foresight = "24"
 hp = "505"
 ward = "-8%"
+
+[main.items.beguiled-helmet-y]
+aura = "rare"
+category = "items"
+dropped_by = [["raids", "beguiled-apollyon-y"]]
+exotic = true
+icon = "/img/armor/spectral_helm_green.png"
+id = "beguiled-helmet-y"
+item_type = "armor"
+place = "head"
+rarity = "rare"
+tier = 10
+upgrade_materials = [["items", "hide"], ["items", "runestone"], ["items", "silk"]]
+useable_by = "warrior_classes"
+
+[[main.items.beguiled-helmet-y.immunities]]
+name = "doom"
+
+[main.items.beguiled-helmet-y.stats]
+adornment_slots = "6"
+defense = "-280"
+dexterity = "200"
+mana = "200"
+ward = "5%"
 
 [main.items.beguiled-hood]
 aura = "rare"
@@ -21419,8 +21621,35 @@ defense = "110"
 dexterity = "30"
 foresight = "24"
 hp = "352"
+manaflask_charge = "+10%"
 resistance = "240"
 ward = "-8%"
+
+[main.items.beguiled-hood-y]
+aura = "rare"
+category = "items"
+dropped_by = [["raids", "beguiled-apollyon-y"]]
+exotic = true
+icon = "/img/armor/spectral_hood_green.png"
+id = "beguiled-hood-y"
+item_type = "armor"
+place = "head"
+rarity = "rare"
+tier = 10
+upgrade_materials = [["items", "hide"], ["items", "runestone"], ["items", "silk"]]
+useable_by = "magic_users"
+
+[[main.items.beguiled-hood-y.immunities]]
+name = "doom"
+
+[main.items.beguiled-hood-y.stats]
+adornment_slots = "6"
+dexterity = "200"
+foresight = "48"
+mana = "350"
+manaflask_charge = "+12%"
+resistance = "-240"
+ward = "4%"
 
 [main.items.beguiled-lute]
 aura = "famed"
@@ -21474,6 +21703,34 @@ faction_damage = "+25%"
 follower_stats = "+4%"
 holy_damage = "-50%"
 magic = "285"
+ward = "6%"
+
+[main.items.beguiled-lute-y]
+aura = "famed"
+category = "items"
+dropped_by = [["raids", "beguiled-apollyon-y"]]
+exotic = true
+icon = "/img/weapons/beguiled_lute_green.png"
+id = "beguiled-lute-y"
+item_type = "weapon"
+place = "weapon"
+rarity = "famed"
+tier = 10
+type = "instruments"
+upgrade_materials = [["items", "hide"], ["items", "runestone"], ["items", "silk"]]
+useable_by = "valhallan_summoner_classes"
+
+[main.items.beguiled-lute-y.stats]
+adornment_slots = "5"
+arcane_damage = "-50%"
+attack = "245"
+dark_damage = "-50%"
+dexterity = "160"
+dragon_damage = "-50%"
+faction_damage = "+25%"
+follower_stats = "+4%"
+holy_damage = "-50%"
+magic = "245"
 ward = "6%"
 
 [main.items.beguiled-mystic-katar]
@@ -21560,6 +21817,47 @@ dexterity = "90"
 foresight = "20"
 ward = "31%"
 
+[main.items.beguiled-mystic-katar-y]
+ability = ["spells", "counterattack-ii-2"]
+aura = "famed"
+category = "items"
+dropped_by = [["raids", "beguiled-apollyon-y"]]
+exotic = true
+icon = "/img/wards/spectral_katar_green.png"
+id = "beguiled-mystic-katar-y"
+item_type = "armor"
+place = "off-hand"
+rarity = "famed"
+tier = 10
+upgrade_materials = [["items", "hide"], ["items", "runestone"], ["items", "silk"]]
+useable_by = "all_classes"
+
+[[main.items.beguiled-mystic-katar-y.gives]]
+chance = "5%"
+name = "t__att_u"
+
+[[main.items.beguiled-mystic-katar-y.gives]]
+chance = "5%"
+name = "t__mag_u"
+
+[[main.items.beguiled-mystic-katar-y.immunities]]
+name = "burning"
+
+[[main.items.beguiled-mystic-katar-y.immunities]]
+name = "frozen"
+
+[[main.items.beguiled-mystic-katar-y.immunities]]
+name = "paralyzed"
+
+[[main.items.beguiled-mystic-katar-y.immunities]]
+name = "rot"
+
+[main.items.beguiled-mystic-katar-y.stats]
+adornment_slots = "5"
+crit = "4%"
+dexterity = "180"
+ward = "30%"
+
 [main.items.beguiled-quarterstaff]
 aura = "famed"
 category = "items"
@@ -21614,6 +21912,34 @@ magic = "240"
 summon_stats = "+30%"
 ward = "4%"
 
+[main.items.beguiled-quarterstaff-y]
+aura = "famed"
+category = "items"
+dropped_by = [["raids", "beguiled-apollyon-y"]]
+exotic = true
+icon = "/img/weapons/beguiled_staff_green.png"
+id = "beguiled-quarterstaff-y"
+item_type = "weapon"
+place = "weapon"
+rarity = "famed"
+tier = 10
+type = "staffs"
+upgrade_materials = [["items", "hide"], ["items", "runestone"], ["items", "silk"]]
+useable_by = "valhallan_summoner_classes"
+
+[main.items.beguiled-quarterstaff-y.stats]
+adornment_slots = "6"
+arcane_damage = "-50%"
+dark_damage = "-50%"
+dexterity = "200"
+dragon_damage = "-50%"
+faction_damage = "+25%"
+foresight = "-220"
+holy_damage = "-50%"
+magic = "170"
+summon_stats = "+30%"
+ward = "4%"
+
 [main.items.beguiled-robe]
 aura = "rare"
 category = "items"
@@ -21663,8 +21989,35 @@ defense = "110"
 dexterity = "24"
 foresight = "24"
 hp = "355"
+manaflask_charge = "+10%"
 resistance = "240"
 ward = "-8%"
+
+[main.items.beguiled-robe-y]
+aura = "rare"
+category = "items"
+dropped_by = [["raids", "beguiled-apollyon-y"]]
+exotic = true
+icon = "/img/armor/spectral_robe_green.png"
+id = "beguiled-robe-y"
+item_type = "armor"
+place = "torso"
+rarity = "rare"
+tier = 10
+upgrade_materials = [["items", "hide"], ["items", "runestone"], ["items", "silk"]]
+useable_by = "magic_users"
+
+[[main.items.beguiled-robe-y.immunities]]
+name = "doom"
+
+[main.items.beguiled-robe-y.stats]
+adornment_slots = "6"
+dexterity = "200"
+foresight = "48"
+mana = "350"
+manaflask_charge = "+12%"
+resistance = "-240"
+ward = "4%"
 
 [main.items.beguiled-shoes]
 aura = "rare"
@@ -21715,8 +22068,35 @@ defense = "110"
 dexterity = "24"
 foresight = "24"
 hp = "355"
+manaflask_charge = "+10%"
 resistance = "240"
 ward = "-10%"
+
+[main.items.beguiled-shoes-y]
+aura = "rare"
+category = "items"
+dropped_by = [["raids", "beguiled-apollyon-y"]]
+exotic = true
+icon = "/img/armor/spectral_shoes_green.png"
+id = "beguiled-shoes-y"
+item_type = "armor"
+place = "legs"
+rarity = "rare"
+tier = 10
+upgrade_materials = [["items", "hide"], ["items", "runestone"], ["items", "silk"]]
+useable_by = "magic_users"
+
+[[main.items.beguiled-shoes-y.immunities]]
+name = "doom"
+
+[main.items.beguiled-shoes-y.stats]
+adornment_slots = "6"
+dexterity = "200"
+foresight = "48"
+mana = "350"
+manaflask_charge = "+12%"
+resistance = "-240"
+ward = "4%"
 
 [main.items.beguiled-staff]
 aura = "famed"
@@ -21770,6 +22150,34 @@ faction_damage = "+25%"
 holy_damage = "-50%"
 magic = "270"
 mana = "180"
+ward = "6%"
+
+[main.items.beguiled-staff-y]
+aura = "famed"
+category = "items"
+dropped_by = [["raids", "beguiled-apollyon-y"]]
+exotic = true
+icon = "/img/weapons/beguiled_staff_green.png"
+id = "beguiled-staff-y"
+item_type = "weapon"
+place = "weapon"
+rarity = "famed"
+tier = 10
+type = "staffs"
+upgrade_materials = [["items", "hide"], ["items", "runestone"], ["items", "silk"]]
+useable_by = "magic_users"
+
+[main.items.beguiled-staff-y.stats]
+adornment_slots = "6"
+arcane_damage = "-50%"
+crit = "3%"
+dark_damage = "-50%"
+dexterity = "160"
+dragon_damage = "-50%"
+faction_damage = "+25%"
+holy_damage = "-50%"
+magic = "240"
+mana = "80"
 ward = "6%"
 
 [main.items.beithirs-staff]
@@ -22522,7 +22930,7 @@ icon = "/img/materials/bone.png"
 id = "bone"
 item_type = "material"
 rarity = "common"
-sources = [["items", "aengus-ogs-lute"], ["items", "age-old-mimic-head"], ["items", "ancient-mimic-head"], ["items", "antlers"], ["items", "argos"], ["items", "aries-hood"], ["items", "aries-horns"], ["items", "aries-legs"], ["items", "arisen-cursed-aengus-ogs-lute"], ["items", "arisen-cursed-artios-hide"], ["items", "arisen-cursed-atepomarus-mail"], ["items", "arisen-cursed-autumna-crested-shield"], ["items", "arisen-cursed-belenuss-boots"], ["items", "arisen-cursed-bormanas-mantle"], ["items", "arisen-cursed-caticatona-cuirass"], ["items", "arisen-cursed-caturixs-robe"], ["items", "arisen-cursed-clotas-garb"], ["items", "arisen-cursed-damonas-shield"], ["items", "arisen-cursed-eostres-circlet"], ["items", "arisen-cursed-esuss-pillar"], ["items", "arisen-cursed-fomoria-plated-boots"], ["items", "arisen-cursed-fomoria-plated-boots-4de3e61d"], ["items", "arisen-cursed-fomoria-plated-boots-56e4841c"], ["items", "arisen-cursed-fomoria-plated-boots-b2c283ff"], ["items", "arisen-cursed-fomoria-plated-robe"], ["items", "arisen-cursed-fomoria-plated-robe-954d6525"], ["items", "arisen-cursed-fomoria-plated-robe-9a5a1cdd"], ["items", "arisen-cursed-fomoria-plated-robe-d5d338d8"], ["items", "arisen-cursed-fomors-crown"], ["items", "arisen-cursed-fomors-crown-2cb9b4e6"], ["items", "arisen-cursed-fomors-crown-3a4a918b"], ["items", "arisen-cursed-fomors-crown-612a024c"], ["items", "arisen-cursed-gobannos-heavy-boots"], ["items", "arisen-cursed-goibhniu-armguard"], ["items", "arisen-cursed-imonas-slippers"], ["items", "arisen-cursed-leros-hood"], ["items", "arisen-cursed-mullos-blinders"], ["items", "arisen-cursed-niskus-boots"], ["items", "arisen-cursed-nocturna-crested-shield"], ["items", "arisen-cursed-ogmios-satin-robe"], ["items", "arisen-cursed-sabrinas-cowl"], ["items", "arisen-cursed-sequanas-chestpiece"], ["items", "arisen-cursed-sumner-crested-shield"], ["items", "arisen-cursed-wintara-crested-shield"], ["items", "artios-hide"], ["items", "atepomarus-mail"], ["items", "autumna-crested-shield"], ["items", "balor-armor"], ["items", "balor-helmet"], ["items", "balor-leggings"], ["items", "balor-robe"], ["items", "balor-shield"], ["items", "bearclaw"], ["items", "belenuss-boots"], ["items", "bormanas-mantle"], ["items", "caticatona-cuirass"], ["items", "caturixs-robe"], ["items", "clotas-garb"], ["items", "coral-armor"], ["items", "coral-boots"], ["items", "coral-cowl"], ["items", "coral-garb"], ["items", "coral-helmet"], ["items", "coral-hood"], ["items", "coral-robe"], ["items", "cursed-aengus-ogs-lute"], ["items", "cursed-artios-hide"], ["items", "cursed-atepomarus-mail"], ["items", "cursed-autumna-crested-shield"], ["items", "cursed-belenuss-boots"], ["items", "cursed-bormanas-mantle"], ["items", "cursed-caticatona-cuirass"], ["items", "cursed-caturixs-robe"], ["items", "cursed-clotas-garb"], ["items", "cursed-damonas-shield"], ["items", "cursed-eostres-circlet"], ["items", "cursed-esuss-pillar"], ["items", "cursed-fomoria-plated-boots"], ["items", "cursed-fomoria-plated-boots-7a9f5efc"], ["items", "cursed-fomoria-plated-boots-c6787dd8"], ["items", "cursed-fomoria-plated-boots-e03e2c7a"], ["items", "cursed-fomoria-plated-robe"], ["items", "cursed-fomoria-plated-robe-5d09a4d7"], ["items", "cursed-fomoria-plated-robe-62b00ff5"], ["items", "cursed-fomoria-plated-robe-858bfe6c"], ["items", "cursed-fomors-crown"], ["items", "cursed-fomors-crown-440afac8"], ["items", "cursed-fomors-crown-af8c4b7d"], ["items", "cursed-fomors-crown-e4efc526"], ["items", "cursed-gobannos-heavy-boots"], ["items", "cursed-goibhniu-armguard"], ["items", "cursed-imonas-slippers"], ["items", "cursed-leros-hood"], ["items", "cursed-mullos-blinders"], ["items", "cursed-niskus-boots"], ["items", "cursed-nocturna-crested-shield"], ["items", "cursed-ogmios-satin-robe"], ["items", "cursed-sabrinas-cowl"], ["items", "cursed-sequanas-chestpiece"], ["items", "cursed-sumner-crested-shield"], ["items", "cursed-wintara-crested-shield"], ["items", "damonas-shield"], ["items", "elite-balor-armor"], ["items", "elite-balor-helmet"], ["items", "elite-balor-leggings"], ["items", "elite-balor-robe"], ["items", "elite-balor-shield"], ["items", "elite-fomorian-armor"], ["items", "elite-fomorian-boots"], ["items", "elite-fomorian-cowl"], ["items", "elite-fomorian-garb"], ["items", "elite-fomorian-hood"], ["items", "elite-fomorian-leggings"], ["items", "elite-fomorian-robe"], ["items", "eostres-circlet"], ["items", "esuss-pillar"], ["items", "eye-of-the-feyger"], ["items", "fey-yeti-horns"], ["items", "fomoria-plated-boots"], ["items", "fomoria-plated-boots-12aa0ab8"], ["items", "fomoria-plated-boots-8a5bd211"], ["items", "fomoria-plated-boots-b9357c84"], ["items", "fomoria-plated-robe"], ["items", "fomoria-plated-robe-272802ec"], ["items", "fomoria-plated-robe-427f8b42"], ["items", "fomoria-plated-robe-fb3188b6"], ["items", "fomorian-armor"], ["items", "fomorian-boots"], ["items", "fomorian-garb"], ["items", "fomorian-hood"], ["items", "fomorian-leggings"], ["items", "fomorian-robe"], ["items", "fomors-crown"], ["items", "fomors-crown-2cca9537"], ["items", "fomors-crown-d8f79592"], ["items", "fomors-crown-faad302c"], ["items", "forest-goats-hood"], ["items", "forest-goats-horns"], ["items", "forest-goats-legs"], ["items", "frilled-naga-halberd"], ["items", "frilled-naga-staff"], ["items", "goats-hood"], ["items", "goats-horns"], ["items", "goats-legs"], ["items", "gobannos-heavy-boots"], ["items", "goibhniu-armguard"], ["items", "gorgons-head"], ["items", "great-antlers"], ["items", "great-mimic-head"], ["items", "great-orcish-axe"], ["items", "great-orcish-blade"], ["items", "high-fomorian-armor"], ["items", "high-fomorian-boots"], ["items", "high-fomorian-cowl"], ["items", "high-fomorian-garb"], ["items", "high-fomorian-hood"], ["items", "high-fomorian-leggings"], ["items", "high-fomorian-robe"], ["items", "imonas-slippers"], ["items", "leros-hood"], ["items", "mightiest-mimic-head"], ["items", "mighty-mimic-head"], ["items", "mimic-head"], ["items", "mimic-king-head"], ["items", "mimic-king-of-kings-head"], ["items", "mullos-blinders"], ["items", "naga-halberd"], ["items", "naga-staff"], ["items", "niskus-boots"], ["items", "nocturna-crested-shield"], ["items", "ogma"], ["items", "ogmios-satin-robe"], ["items", "oisin-crown"], ["items", "purrlys-hood"], ["items", "purrlys-less-favourite-staff"], ["items", "purrlys-old-hat"], ["items", "purrlys-old-staff"], ["items", "sabrinas-cowl"], ["items", "satis-antlers"], ["items", "sequanas-chestpiece"], ["items", "sumner-crested-shield"], ["items", "wintara-crested-shield"]]
+sources = [["items", "aengus-ogs-lute"], ["items", "age-old-mimic-head"], ["items", "ancient-mimic-head"], ["items", "antlers"], ["items", "argos"], ["items", "aries-hood"], ["items", "aries-horns"], ["items", "aries-legs"], ["items", "arisen-cursed-aengus-ogs-lute"], ["items", "arisen-cursed-artios-hide"], ["items", "arisen-cursed-atepomarus-mail"], ["items", "arisen-cursed-autumna-crested-shield"], ["items", "arisen-cursed-belenuss-boots"], ["items", "arisen-cursed-bormanas-mantle"], ["items", "arisen-cursed-caticatona-cuirass"], ["items", "arisen-cursed-caturixs-robe"], ["items", "arisen-cursed-clotas-garb"], ["items", "arisen-cursed-damonas-shield"], ["items", "arisen-cursed-eostres-circlet"], ["items", "arisen-cursed-esuss-pillar"], ["items", "arisen-cursed-fomoria-plated-boots"], ["items", "arisen-cursed-fomoria-plated-boots-4de3e61d"], ["items", "arisen-cursed-fomoria-plated-boots-56e4841c"], ["items", "arisen-cursed-fomoria-plated-boots-b2c283ff"], ["items", "arisen-cursed-fomoria-plated-robe"], ["items", "arisen-cursed-fomoria-plated-robe-954d6525"], ["items", "arisen-cursed-fomoria-plated-robe-9a5a1cdd"], ["items", "arisen-cursed-fomoria-plated-robe-d5d338d8"], ["items", "arisen-cursed-fomors-crown"], ["items", "arisen-cursed-fomors-crown-2cb9b4e6"], ["items", "arisen-cursed-fomors-crown-3a4a918b"], ["items", "arisen-cursed-fomors-crown-612a024c"], ["items", "arisen-cursed-gobannos-heavy-boots"], ["items", "arisen-cursed-goibhniu-armguard"], ["items", "arisen-cursed-imonas-slippers"], ["items", "arisen-cursed-leros-hood"], ["items", "arisen-cursed-mullos-blinders"], ["items", "arisen-cursed-niskus-boots"], ["items", "arisen-cursed-nocturna-crested-shield"], ["items", "arisen-cursed-ogmios-satin-robe"], ["items", "arisen-cursed-sabrinas-cowl"], ["items", "arisen-cursed-sequanas-chestpiece"], ["items", "arisen-cursed-sumner-crested-shield"], ["items", "arisen-cursed-wintara-crested-shield"], ["items", "artios-hide"], ["items", "atepomarus-mail"], ["items", "autumna-crested-shield"], ["items", "balor-armor"], ["items", "balor-helmet"], ["items", "balor-leggings"], ["items", "balor-robe"], ["items", "balor-shield"], ["items", "bearclaw"], ["items", "belenuss-boots"], ["items", "bormanas-mantle"], ["items", "caticatona-cuirass"], ["items", "caturixs-robe"], ["items", "clotas-garb"], ["items", "coral-armor"], ["items", "coral-boots"], ["items", "coral-cowl"], ["items", "coral-garb"], ["items", "coral-helmet"], ["items", "coral-hood"], ["items", "coral-robe"], ["items", "cursed-aengus-ogs-lute"], ["items", "cursed-artios-hide"], ["items", "cursed-atepomarus-mail"], ["items", "cursed-autumna-crested-shield"], ["items", "cursed-belenuss-boots"], ["items", "cursed-bormanas-mantle"], ["items", "cursed-caticatona-cuirass"], ["items", "cursed-caturixs-robe"], ["items", "cursed-clotas-garb"], ["items", "cursed-damonas-shield"], ["items", "cursed-eostres-circlet"], ["items", "cursed-esuss-pillar"], ["items", "cursed-fomoria-plated-boots"], ["items", "cursed-fomoria-plated-boots-0ebf6063"], ["items", "cursed-fomoria-plated-boots-7a9f5efc"], ["items", "cursed-fomoria-plated-boots-e03e2c7a"], ["items", "cursed-fomoria-plated-robe"], ["items", "cursed-fomoria-plated-robe-5d09a4d7"], ["items", "cursed-fomoria-plated-robe-62b00ff5"], ["items", "cursed-fomoria-plated-robe-858bfe6c"], ["items", "cursed-fomors-crown"], ["items", "cursed-fomors-crown-440afac8"], ["items", "cursed-fomors-crown-af8c4b7d"], ["items", "cursed-fomors-crown-e4efc526"], ["items", "cursed-gobannos-heavy-boots"], ["items", "cursed-goibhniu-armguard"], ["items", "cursed-imonas-slippers"], ["items", "cursed-leros-hood"], ["items", "cursed-mullos-blinders"], ["items", "cursed-niskus-boots"], ["items", "cursed-nocturna-crested-shield"], ["items", "cursed-ogmios-satin-robe"], ["items", "cursed-sabrinas-cowl"], ["items", "cursed-sequanas-chestpiece"], ["items", "cursed-sumner-crested-shield"], ["items", "cursed-wintara-crested-shield"], ["items", "damonas-shield"], ["items", "elite-balor-armor"], ["items", "elite-balor-helmet"], ["items", "elite-balor-leggings"], ["items", "elite-balor-robe"], ["items", "elite-balor-shield"], ["items", "elite-fomorian-armor"], ["items", "elite-fomorian-boots"], ["items", "elite-fomorian-cowl"], ["items", "elite-fomorian-garb"], ["items", "elite-fomorian-hood"], ["items", "elite-fomorian-leggings"], ["items", "elite-fomorian-robe"], ["items", "eostres-circlet"], ["items", "esuss-pillar"], ["items", "eye-of-the-feyger"], ["items", "fey-yeti-horns"], ["items", "fomoria-plated-boots"], ["items", "fomoria-plated-boots-12aa0ab8"], ["items", "fomoria-plated-boots-8a5bd211"], ["items", "fomoria-plated-boots-b9357c84"], ["items", "fomoria-plated-robe"], ["items", "fomoria-plated-robe-272802ec"], ["items", "fomoria-plated-robe-427f8b42"], ["items", "fomoria-plated-robe-fb3188b6"], ["items", "fomorian-armor"], ["items", "fomorian-boots"], ["items", "fomorian-garb"], ["items", "fomorian-hood"], ["items", "fomorian-leggings"], ["items", "fomorian-robe"], ["items", "fomors-crown"], ["items", "fomors-crown-2cca9537"], ["items", "fomors-crown-d8f79592"], ["items", "fomors-crown-faad302c"], ["items", "forest-goats-hood"], ["items", "forest-goats-horns"], ["items", "forest-goats-legs"], ["items", "frilled-naga-halberd"], ["items", "frilled-naga-staff"], ["items", "goats-hood"], ["items", "goats-horns"], ["items", "goats-legs"], ["items", "gobannos-heavy-boots"], ["items", "goibhniu-armguard"], ["items", "gorgons-head"], ["items", "great-antlers"], ["items", "great-mimic-head"], ["items", "great-orcish-axe"], ["items", "great-orcish-blade"], ["items", "high-fomorian-armor"], ["items", "high-fomorian-boots"], ["items", "high-fomorian-cowl"], ["items", "high-fomorian-garb"], ["items", "high-fomorian-hood"], ["items", "high-fomorian-leggings"], ["items", "high-fomorian-robe"], ["items", "imonas-slippers"], ["items", "leros-hood"], ["items", "mightiest-mimic-head"], ["items", "mighty-mimic-head"], ["items", "mimic-head"], ["items", "mimic-king-head"], ["items", "mimic-king-of-kings-head"], ["items", "mullos-blinders"], ["items", "naga-halberd"], ["items", "naga-staff"], ["items", "niskus-boots"], ["items", "nocturna-crested-shield"], ["items", "ogma"], ["items", "ogmios-satin-robe"], ["items", "oisin-crown"], ["items", "purrlys-hood"], ["items", "purrlys-less-favourite-staff"], ["items", "purrlys-old-hat"], ["items", "purrlys-old-staff"], ["items", "sabrinas-cowl"], ["items", "satis-antlers"], ["items", "sequanas-chestpiece"], ["items", "sumner-crested-shield"], ["items", "wintara-crested-shield"]]
 tags = ["found_in_shops", "found_in_chests"]
 tier = 1
 useable_by = "all_classes"
@@ -26386,10 +26794,38 @@ ward = "16%"
 [main.items.cursed-fomoria-plated-boots]
 aura = "rare"
 category = "items"
+dropped_by = [["bosses", "cursed-king-fomor-sumner"]]
+exotic = true
+icon = "/img/armor/fomor_boots_sumner.png"
+id = "cursed-fomoria-plated-boots"
+item_type = "armor"
+place = "legs"
+rarity = "rare"
+tier = 8
+upgrade_materials = [["items", "silver"], ["items", "mythril"], ["items", "bone"], ["items", "silk"]]
+useable_by = "warrior_classes"
+
+[main.items.cursed-fomoria-plated-boots.stats]
+adornment_slots = "4"
+ally_effect_chance = "+5%"
+assassin = "+21%"
+beast_taming = "+10%"
+buff_duration = "+5%"
+chain_damage_chance = "+5%"
+defense = "190"
+effect_damage = "+25%"
+follower_stats = "+8%"
+multi-target_damage = "+5%"
+resistance = "-160"
+summon_stats = "+8%"
+
+[main.items.cursed-fomoria-plated-boots-0ebf6063]
+aura = "rare"
+category = "items"
 dropped_by = [["bosses", "cursed-king-fomor-autumna"]]
 exotic = true
 icon = "/img/armor/fomor_boots_autumna.png"
-id = "cursed-fomoria-plated-boots"
+id = "cursed-fomoria-plated-boots-0ebf6063"
 item_type = "armor"
 place = "legs"
 rarity = "rare"
@@ -26397,7 +26833,7 @@ tier = 8
 upgrade_materials = [["items", "silver"], ["items", "mythril"], ["items", "bone"], ["items", "silk"]]
 useable_by = "thief_classes"
 
-[main.items.cursed-fomoria-plated-boots.stats]
+[main.items.cursed-fomoria-plated-boots-0ebf6063.stats]
 adornment_slots = "4"
 ally_effect_chance = "+5%"
 assassin = "+21%"
@@ -26437,34 +26873,6 @@ effect_damage = "+25%"
 follower_stats = "+8%"
 multi-target_damage = "+5%"
 resistance = "190"
-summon_stats = "+8%"
-
-[main.items.cursed-fomoria-plated-boots-c6787dd8]
-aura = "rare"
-category = "items"
-dropped_by = [["bosses", "cursed-king-fomor-sumner"]]
-exotic = true
-icon = "/img/armor/fomor_boots_sumner.png"
-id = "cursed-fomoria-plated-boots-c6787dd8"
-item_type = "armor"
-place = "legs"
-rarity = "rare"
-tier = 8
-upgrade_materials = [["items", "silver"], ["items", "mythril"], ["items", "bone"], ["items", "silk"]]
-useable_by = "warrior_classes"
-
-[main.items.cursed-fomoria-plated-boots-c6787dd8.stats]
-adornment_slots = "4"
-ally_effect_chance = "+5%"
-assassin = "+21%"
-beast_taming = "+10%"
-buff_duration = "+5%"
-chain_damage_chance = "+5%"
-defense = "190"
-effect_damage = "+25%"
-follower_stats = "+8%"
-multi-target_damage = "+5%"
-resistance = "-160"
 summon_stats = "+8%"
 
 [main.items.cursed-fomoria-plated-boots-e03e2c7a]
@@ -31562,7 +31970,7 @@ resistance = "19"
 [main.items.elite-fomorian-boots]
 aura = "rare"
 category = "items"
-dropped_by = [["monsters", "elite-fomorian"]]
+dropped_by = [["monsters", "elite-fomorian"], ["monsters", "elite-fomorian-mage"]]
 exotic = false
 icon = "/img/armor/elite_fomorian_boots.png"
 id = "elite-fomorian-boots"
@@ -32628,33 +33036,10 @@ ward = "2%"
 [main.items.excalibur]
 aura = "rare"
 category = "items"
-dropped_by = [["raids", "age-old-mimic"], ["raids", "the-fool"], ["raids", "the-fool-ef1c6cb2"]]
-exotic = true
-icon = "/img/weapons/ljosalfar_sword.png"
-id = "excalibur"
-item_type = "weapon"
-place = "weapon"
-rarity = "rare"
-tier = 5
-type = "swords"
-upgrade_materials = [["items", "silver"], ["items", "mythril"]]
-useable_by = "melee_classes"
-
-[[main.items.excalibur.causes]]
-name = "asleep"
-
-[main.items.excalibur.stats]
-adornment_slots = "2"
-attack = "121"
-crit = "1%"
-
-[main.items.excalibur-32be53bc]
-aura = "rare"
-category = "items"
 dropped_by = [["raids", "fallen-king-arthus"]]
 exotic = false
 icon = "/img/weapons/excalibur.png"
-id = "excalibur-32be53bc"
+id = "excalibur"
 item_type = "weapon"
 place = "weapon"
 rarity = "rare"
@@ -32663,15 +33048,38 @@ type = "swords"
 upgrade_materials = [["items", "avalon-ore"]]
 useable_by = "warrior_classes"
 
-[[main.items.excalibur-32be53bc.immunities]]
+[[main.items.excalibur.immunities]]
 name = "bleeding"
 
-[main.items.excalibur-32be53bc.stats]
+[main.items.excalibur.stats]
 adornment_slots = "2"
 attack = "190"
 hp = "25"
 magic = "77"
 mana = "25"
+
+[main.items.excalibur-eec7bf3e]
+aura = "rare"
+category = "items"
+dropped_by = [["raids", "age-old-mimic"], ["raids", "the-fool"], ["raids", "the-fool-ef1c6cb2"]]
+exotic = true
+icon = "/img/weapons/ljosalfar_sword.png"
+id = "excalibur-eec7bf3e"
+item_type = "weapon"
+place = "weapon"
+rarity = "rare"
+tier = 5
+type = "swords"
+upgrade_materials = [["items", "silver"], ["items", "mythril"]]
+useable_by = "melee_classes"
+
+[[main.items.excalibur-eec7bf3e.causes]]
+name = "asleep"
+
+[main.items.excalibur-eec7bf3e.stats]
+adornment_slots = "2"
+attack = "121"
+crit = "1%"
 
 [main.items.exp-potion]
 aura = "common"
@@ -36863,6 +37271,7 @@ resistance = "15"
 [main.items.fomorian-boots]
 aura = "rare"
 category = "items"
+dropped_by = [["monsters", "fomorian-mage"]]
 exotic = false
 icon = "/img/armor/fomorian_boots.png"
 id = "fomorian-boots"
@@ -41232,7 +41641,7 @@ icon = "/img/materials/hide.png"
 id = "hide"
 item_type = "material"
 rarity = "common"
-sources = [["items", "antlers"], ["items", "apprentice-hood"], ["items", "apprentice-robe"], ["items", "apprentice-shoes"], ["items", "aries-hood"], ["items", "aries-horns"], ["items", "aries-legs"], ["items", "arisen-bloodwarg-grimoire"], ["items", "arisen-hels-feathers"], ["items", "arisen-jolly-stockings"], ["items", "arisen-palm-branch"], ["items", "arisen-pumpkin"], ["items", "arisen-pumpkinless-armor"], ["items", "arisen-pumpkinless-leggings"], ["items", "arisen-spiritgarm-grimoire"], ["items", "arisen-stonewarg-grimoire"], ["items", "arisen-top-hat"], ["items", "arisen-treecutter"], ["items", "arisen-willow-branch"], ["items", "arisen-witchs-hat"], ["items", "bandits-cloak"], ["items", "bandits-hood"], ["items", "bearskin"], ["items", "beastfelled-boots"], ["items", "beastfelled-cowl"], ["items", "beastfelled-cuirass"], ["items", "beastfelled-garb"], ["items", "beastfelled-helmet"], ["items", "beastfelled-hood"], ["items", "beastfelled-leggings"], ["items", "beastfelled-robe"], ["items", "beastfelled-shoes"], ["items", "bedsheet"], ["items", "beguiled-armor"], ["items", "beguiled-armor-x"], ["items", "beguiled-boots"], ["items", "beguiled-boots-x"], ["items", "beguiled-cowl"], ["items", "beguiled-cowl-x"], ["items", "beguiled-garb"], ["items", "beguiled-garb-x"], ["items", "beguiled-heavy-boots"], ["items", "beguiled-heavy-boots-x"], ["items", "beguiled-helmet"], ["items", "beguiled-helmet-x"], ["items", "beguiled-hood"], ["items", "beguiled-hood-x"], ["items", "beguiled-robe"], ["items", "beguiled-robe-x"], ["items", "beguiled-shoes"], ["items", "beguiled-shoes-x"], ["items", "bloodwarg-grimoire"], ["items", "boots-of-wolves"], ["items", "bow-of-diana"], ["items", "brilliant-feathers"], ["items", "bulwark"], ["items", "chimera-armor"], ["items", "chimera-greaves"], ["items", "chimera-helmet"], ["items", "clurichaun-arrows"], ["items", "cockatrice-mail"], ["items", "covyns-dark-armor"], ["items", "covyns-dark-leggings"], ["items", "covyns-hemmed-robe"], ["items", "covyns-hemmed-skirt"], ["items", "covyns-robe"], ["items", "covyns-skirt"], ["items", "crows-feathers"], ["items", "dalans-hood"], ["items", "dalans-robe"], ["items", "dangys-fancy-t-shirt"], ["items", "dark-elf-boots"], ["items", "dark-elf-cowl"], ["items", "dark-elf-garb"], ["items", "dark-elf-hood"], ["items", "dark-elf-robe"], ["items", "dingy-robe"], ["items", "ebon-jolly-stockings"], ["items", "ebon-top-hat"], ["items", "fallen-sky-armor"], ["items", "fallen-sky-boots"], ["items", "fallen-sky-cowl"], ["items", "fallen-sky-garb"], ["items", "fallen-sky-headdress"], ["items", "fallen-sky-helmet"], ["items", "fallen-sky-hood"], ["items", "fallen-sky-leggings"], ["items", "fallen-sky-legwraps"], ["items", "fallen-sky-mail"], ["items", "fallen-sky-robe"], ["items", "fallen-sky-shoes"], ["items", "fey-bloodwarg-grimoire"], ["items", "fey-chimera-armor"], ["items", "fey-chimera-greaves"], ["items", "fey-chimera-helmet"], ["items", "fey-hels-feathers"], ["items", "fey-spiritgarm-grimoire"], ["items", "fey-stonewarg-grimoire"], ["items", "fey-yeti-coat"], ["items", "fey-yeti-horns"], ["items", "fjalar-mantle"], ["items", "forest-goats-hood"], ["items", "forest-goats-horns"], ["items", "forest-goats-legs"], ["items", "fur-coat"], ["items", "gnomes-hat"], ["items", "goats-hood"], ["items", "goats-horns"], ["items", "goats-legs"], ["items", "gorgons-head"], ["items", "great-antlers"], ["items", "great-bearskin"], ["items", "great-lizarr-armor"], ["items", "great-lizarr-boots"], ["items", "great-lizarr-leggings"], ["items", "great-monoceros-cowl"], ["items", "great-monoceros-garb"], ["items", "great-monoceros-hoofs"], ["items", "hallowed-witchs-hat"], ["items", "harpys-feathers"], ["items", "hels-feathers"], ["items", "hiltless"], ["items", "hood"], ["items", "hood-of-wolves"], ["items", "horuss-robe"], ["items", "ifrits-feet"], ["items", "immortal-boots"], ["items", "immortal-garb"], ["items", "immortal-hat"], ["items", "immortal-hood"], ["items", "immortal-robe"], ["items", "jolly-stockings"], ["items", "leach"], ["items", "lizarr-armor"], ["items", "lizarr-boots"], ["items", "lizarr-leggings"], ["items", "lynx-labrys"], ["items", "manticore-boots"], ["items", "manticore-hood"], ["items", "manticore-robe"], ["items", "medusas-bow"], ["items", "medusas-chestplate"], ["items", "might"], ["items", "monoceros-cowl"], ["items", "monoceros-garb"], ["items", "monoceros-hoofs"], ["items", "oisin-crown"], ["items", "palm-tree-branch"], ["items", "poison-arrows"], ["items", "pumpkin"], ["items", "pumpkinless-armor"], ["items", "pumpkinless-leggings"], ["items", "ravens-feathers"], ["items", "robe-of-the-north"], ["items", "robe-of-wolves"], ["items", "salas-hood"], ["items", "salas-robe"], ["items", "satis-antlers"], ["items", "serpent-arrows"], ["items", "simple-hood"], ["items", "simple-robe"], ["items", "ski-helmet"], ["items", "ski-pole"], ["items", "smelly-shoes"], ["items", "spectral-armor"], ["items", "spectral-boots"], ["items", "spectral-cowl"], ["items", "spectral-garb"], ["items", "spectral-heavy-boots"], ["items", "spectral-helmet"], ["items", "spectral-hood"], ["items", "spectral-robe"], ["items", "spectral-shoes"], ["items", "spiritgarm-grimoire"], ["items", "stonewarg-grimoire"], ["items", "succubus-mantle"], ["items", "taranis-hood"], ["items", "top-hat"], ["items", "treecutter"], ["items", "trialing-axe"], ["items", "trialing-bow"], ["items", "trialing-staff"], ["items", "willow-tree-branch"], ["items", "witchs-hat"], ["items", "wolfskin"], ["items", "yeti-coat"], ["items", "yeti-mightycoat"], ["items", "yeti-overcoat"], ["items", "ymir-brilliant-feathers"]]
+sources = [["items", "antlers"], ["items", "apprentice-hood"], ["items", "apprentice-robe"], ["items", "apprentice-shoes"], ["items", "aries-hood"], ["items", "aries-horns"], ["items", "aries-legs"], ["items", "arisen-bloodwarg-grimoire"], ["items", "arisen-hels-feathers"], ["items", "arisen-jolly-stockings"], ["items", "arisen-palm-branch"], ["items", "arisen-pumpkin"], ["items", "arisen-pumpkinless-armor"], ["items", "arisen-pumpkinless-leggings"], ["items", "arisen-spiritgarm-grimoire"], ["items", "arisen-stonewarg-grimoire"], ["items", "arisen-top-hat"], ["items", "arisen-treecutter"], ["items", "arisen-willow-branch"], ["items", "arisen-witchs-hat"], ["items", "bandits-cloak"], ["items", "bandits-hood"], ["items", "bearskin"], ["items", "beastfelled-boots"], ["items", "beastfelled-cowl"], ["items", "beastfelled-cuirass"], ["items", "beastfelled-garb"], ["items", "beastfelled-helmet"], ["items", "beastfelled-hood"], ["items", "beastfelled-leggings"], ["items", "beastfelled-robe"], ["items", "beastfelled-shoes"], ["items", "bedsheet"], ["items", "beguiled-armor"], ["items", "beguiled-armor-x"], ["items", "beguiled-armor-y"], ["items", "beguiled-axe-y"], ["items", "beguiled-blade-y"], ["items", "beguiled-boots"], ["items", "beguiled-boots-x"], ["items", "beguiled-boots-y"], ["items", "beguiled-cowl"], ["items", "beguiled-cowl-x"], ["items", "beguiled-cowl-y"], ["items", "beguiled-garb"], ["items", "beguiled-garb-x"], ["items", "beguiled-garb-y"], ["items", "beguiled-heavy-boots"], ["items", "beguiled-heavy-boots-x"], ["items", "beguiled-heavy-boots-y"], ["items", "beguiled-helmet"], ["items", "beguiled-helmet-x"], ["items", "beguiled-helmet-y"], ["items", "beguiled-hood"], ["items", "beguiled-hood-x"], ["items", "beguiled-hood-y"], ["items", "beguiled-lute-y"], ["items", "beguiled-mystic-katar-y"], ["items", "beguiled-quarterstaff-y"], ["items", "beguiled-robe"], ["items", "beguiled-robe-x"], ["items", "beguiled-robe-y"], ["items", "beguiled-shoes"], ["items", "beguiled-shoes-x"], ["items", "beguiled-shoes-y"], ["items", "beguiled-staff-y"], ["items", "bloodwarg-grimoire"], ["items", "boots-of-wolves"], ["items", "bow-of-diana"], ["items", "brilliant-feathers"], ["items", "bulwark"], ["items", "chimera-armor"], ["items", "chimera-greaves"], ["items", "chimera-helmet"], ["items", "clurichaun-arrows"], ["items", "cockatrice-mail"], ["items", "covyns-dark-armor"], ["items", "covyns-dark-leggings"], ["items", "covyns-hemmed-robe"], ["items", "covyns-hemmed-skirt"], ["items", "covyns-robe"], ["items", "covyns-skirt"], ["items", "crows-feathers"], ["items", "dalans-hood"], ["items", "dalans-robe"], ["items", "dangys-fancy-t-shirt"], ["items", "dark-elf-boots"], ["items", "dark-elf-cowl"], ["items", "dark-elf-garb"], ["items", "dark-elf-hood"], ["items", "dark-elf-robe"], ["items", "dingy-robe"], ["items", "ebon-jolly-stockings"], ["items", "ebon-top-hat"], ["items", "fallen-sky-armor"], ["items", "fallen-sky-boots"], ["items", "fallen-sky-cowl"], ["items", "fallen-sky-garb"], ["items", "fallen-sky-headdress"], ["items", "fallen-sky-helmet"], ["items", "fallen-sky-hood"], ["items", "fallen-sky-leggings"], ["items", "fallen-sky-legwraps"], ["items", "fallen-sky-mail"], ["items", "fallen-sky-robe"], ["items", "fallen-sky-shoes"], ["items", "fey-bloodwarg-grimoire"], ["items", "fey-chimera-armor"], ["items", "fey-chimera-greaves"], ["items", "fey-chimera-helmet"], ["items", "fey-hels-feathers"], ["items", "fey-spiritgarm-grimoire"], ["items", "fey-stonewarg-grimoire"], ["items", "fey-yeti-coat"], ["items", "fey-yeti-horns"], ["items", "fjalar-mantle"], ["items", "forest-goats-hood"], ["items", "forest-goats-horns"], ["items", "forest-goats-legs"], ["items", "fur-coat"], ["items", "gnomes-hat"], ["items", "goats-hood"], ["items", "goats-horns"], ["items", "goats-legs"], ["items", "gorgons-head"], ["items", "great-antlers"], ["items", "great-bearskin"], ["items", "great-lizarr-armor"], ["items", "great-lizarr-boots"], ["items", "great-lizarr-leggings"], ["items", "great-monoceros-cowl"], ["items", "great-monoceros-garb"], ["items", "great-monoceros-hoofs"], ["items", "hallowed-witchs-hat"], ["items", "harpys-feathers"], ["items", "hels-feathers"], ["items", "hiltless"], ["items", "hood"], ["items", "hood-of-wolves"], ["items", "horuss-robe"], ["items", "ifrits-feet"], ["items", "immortal-boots"], ["items", "immortal-garb"], ["items", "immortal-hat"], ["items", "immortal-hood"], ["items", "immortal-robe"], ["items", "jolly-stockings"], ["items", "leach"], ["items", "lizarr-armor"], ["items", "lizarr-boots"], ["items", "lizarr-leggings"], ["items", "lynx-labrys"], ["items", "manticore-boots"], ["items", "manticore-hood"], ["items", "manticore-robe"], ["items", "medusas-bow"], ["items", "medusas-chestplate"], ["items", "might"], ["items", "monoceros-cowl"], ["items", "monoceros-garb"], ["items", "monoceros-hoofs"], ["items", "oisin-crown"], ["items", "palm-tree-branch"], ["items", "poison-arrows"], ["items", "pumpkin"], ["items", "pumpkinless-armor"], ["items", "pumpkinless-leggings"], ["items", "ravens-feathers"], ["items", "robe-of-the-north"], ["items", "robe-of-wolves"], ["items", "salas-hood"], ["items", "salas-robe"], ["items", "satis-antlers"], ["items", "serpent-arrows"], ["items", "simple-hood"], ["items", "simple-robe"], ["items", "ski-helmet"], ["items", "ski-pole"], ["items", "smelly-shoes"], ["items", "spectral-armor"], ["items", "spectral-boots"], ["items", "spectral-cowl"], ["items", "spectral-garb"], ["items", "spectral-heavy-boots"], ["items", "spectral-helmet"], ["items", "spectral-hood"], ["items", "spectral-robe"], ["items", "spectral-shoes"], ["items", "spiritgarm-grimoire"], ["items", "stonewarg-grimoire"], ["items", "succubus-mantle"], ["items", "taranis-hood"], ["items", "top-hat"], ["items", "treecutter"], ["items", "trialing-axe"], ["items", "trialing-bow"], ["items", "trialing-staff"], ["items", "willow-tree-branch"], ["items", "witchs-hat"], ["items", "wolfskin"], ["items", "yeti-coat"], ["items", "yeti-mightycoat"], ["items", "yeti-overcoat"], ["items", "ymir-brilliant-feathers"]]
 tags = ["found_in_shops", "found_in_chests"]
 tier = 1
 useable_by = "all_classes"
@@ -41429,7 +41838,7 @@ resistance = "15"
 [main.items.high-fomorian-boots]
 aura = "rare"
 category = "items"
-dropped_by = [["monsters", "high-fomorian"]]
+dropped_by = [["monsters", "high-fomorian"], ["monsters", "high-fomorian-mage"]]
 exotic = false
 icon = "/img/armor/high_fomorian_boots.png"
 id = "high-fomorian-boots"
@@ -43997,16 +44406,16 @@ mana = "40"
 ward = "3%"
 
 [main.items.kerberos-claws]
+ability = ["spells", "slice"]
 aura = "rare"
 category = "items"
-dropped_by = [["monsters", "follower-of-kerberos"], ["monsters", "follower-of-kerberos-ac5dc474"]]
-exotic = true
+exotic = false
 icon = "/img/weapons/kerberos_claws.png"
 id = "kerberos-claws"
 item_type = "weapon"
 place = "weapon"
 rarity = "rare"
-tier = 5
+tier = 6
 type = "daggers"
 upgrade_materials = [["items", "wolfs-blood"]]
 useable_by = "thief_classes"
@@ -44019,36 +44428,36 @@ name = "frozen"
 
 [main.items.kerberos-claws.stats]
 adornment_slots = "8"
-attack = "122"
+attack = "155"
 defense = "-10"
 dexterity = "20"
 two_handed = true
 ward = "11%"
 
-[main.items.kerberos-claws-e7f61ea1]
-ability = ["spells", "slice"]
+[main.items.kerberos-claws-81b67c8d]
 aura = "rare"
 category = "items"
-exotic = false
+dropped_by = [["monsters", "follower-of-kerberos"], ["monsters", "follower-of-kerberos-ac5dc474"]]
+exotic = true
 icon = "/img/weapons/kerberos_claws.png"
-id = "kerberos-claws-e7f61ea1"
+id = "kerberos-claws-81b67c8d"
 item_type = "weapon"
 place = "weapon"
 rarity = "rare"
-tier = 6
+tier = 5
 type = "daggers"
 upgrade_materials = [["items", "wolfs-blood"]]
 useable_by = "thief_classes"
 
-[[main.items.kerberos-claws-e7f61ea1.causes]]
+[[main.items.kerberos-claws-81b67c8d.causes]]
 name = "bleeding"
 
-[[main.items.kerberos-claws-e7f61ea1.causes]]
+[[main.items.kerberos-claws-81b67c8d.causes]]
 name = "frozen"
 
-[main.items.kerberos-claws-e7f61ea1.stats]
+[main.items.kerberos-claws-81b67c8d.stats]
 adornment_slots = "8"
-attack = "155"
+attack = "122"
 defense = "-10"
 dexterity = "20"
 two_handed = true
@@ -48111,7 +48520,7 @@ icon = "/img/materials/mythril.png"
 id = "mythril"
 item_type = "material"
 rarity = "common"
-sources = [["items", "achlys-razor"], ["items", "aengus-ogs-lute"], ["items", "annwn-shotel"], ["items", "argos"], ["items", "arisen-cursed-aengus-ogs-lute"], ["items", "arisen-cursed-artios-hide"], ["items", "arisen-cursed-atepomarus-mail"], ["items", "arisen-cursed-autumna-crested-shield"], ["items", "arisen-cursed-belenuss-boots"], ["items", "arisen-cursed-bormanas-mantle"], ["items", "arisen-cursed-caticatona-cuirass"], ["items", "arisen-cursed-caturixs-robe"], ["items", "arisen-cursed-clotas-garb"], ["items", "arisen-cursed-damonas-shield"], ["items", "arisen-cursed-eostres-circlet"], ["items", "arisen-cursed-esuss-pillar"], ["items", "arisen-cursed-fomoria-plated-boots"], ["items", "arisen-cursed-fomoria-plated-boots-4de3e61d"], ["items", "arisen-cursed-fomoria-plated-boots-56e4841c"], ["items", "arisen-cursed-fomoria-plated-boots-b2c283ff"], ["items", "arisen-cursed-fomoria-plated-robe"], ["items", "arisen-cursed-fomoria-plated-robe-954d6525"], ["items", "arisen-cursed-fomoria-plated-robe-9a5a1cdd"], ["items", "arisen-cursed-fomoria-plated-robe-d5d338d8"], ["items", "arisen-cursed-fomors-crown"], ["items", "arisen-cursed-fomors-crown-2cb9b4e6"], ["items", "arisen-cursed-fomors-crown-3a4a918b"], ["items", "arisen-cursed-fomors-crown-612a024c"], ["items", "arisen-cursed-gobannos-heavy-boots"], ["items", "arisen-cursed-goibhniu-armguard"], ["items", "arisen-cursed-imonas-slippers"], ["items", "arisen-cursed-leros-hood"], ["items", "arisen-cursed-mullos-blinders"], ["items", "arisen-cursed-niskus-boots"], ["items", "arisen-cursed-nocturna-crested-shield"], ["items", "arisen-cursed-ogmios-satin-robe"], ["items", "arisen-cursed-sabrinas-cowl"], ["items", "arisen-cursed-sequanas-chestpiece"], ["items", "arisen-cursed-sumner-crested-shield"], ["items", "arisen-cursed-wintara-crested-shield"], ["items", "arisen-fairys-tanto"], ["items", "arisen-genius"], ["items", "arisen-gerds-bullwhip"], ["items", "arisen-gerds-chestguard"], ["items", "arisen-gerds-headdress"], ["items", "arisen-gerds-horsewhip"], ["items", "arisen-gerds-legwraps"], ["items", "arisen-globe-holder"], ["items", "arisen-helhest"], ["items", "arisen-hels-boots"], ["items", "arisen-hels-feathers"], ["items", "arisen-hels-garb"], ["items", "arisen-hels-veil"], ["items", "arisen-menjas-battlerobe"], ["items", "arisen-menjas-hood"], ["items", "arisen-menjas-shield"], ["items", "arisen-menjas-warstaff"], ["items", "arisen-nagamaki"], ["items", "arisen-olympia-armor"], ["items", "arisen-olympia-headdress"], ["items", "arisen-olympia-helmet"], ["items", "arisen-olympia-hood"], ["items", "arisen-olympia-leggings"], ["items", "arisen-olympia-legwraps"], ["items", "arisen-olympia-mantle"], ["items", "arisen-olympia-robe"], ["items", "arisen-olympia-shoes"], ["items", "arisen-olympian-joist"], ["items", "arisen-ophion-banner"], ["items", "arisen-riftrazor"], ["items", "arisen-riftshield"], ["items", "arisen-riftsword"], ["items", "arisen-surtrs-boots"], ["items", "arisen-surtrs-cuirass"], ["items", "arisen-surtrs-helmet"], ["items", "arisen-surtrs-shield"], ["items", "arisen-surtrs-sword"], ["items", "arisen-top-hat"], ["items", "arisen-wolven-tower-shield"], ["items", "artios-hide"], ["items", "atepomarus-mail"], ["items", "autumna-crested-shield"], ["items", "axe-of-gilgamesh"], ["items", "balanced-epee"], ["items", "balor-armor"], ["items", "balor-helmet"], ["items", "balor-katana"], ["items", "balor-leggings"], ["items", "balor-shield"], ["items", "belenuss-boots"], ["items", "bident"], ["items", "bolt"], ["items", "bormanas-mantle"], ["items", "caladbolg"], ["items", "caticatona-cuirass"], ["items", "caturixs-robe"], ["items", "clotas-garb"], ["items", "covyns-great-scythe"], ["items", "covyns-soul-hunt-scythe"], ["items", "crooked-shotel"], ["items", "crucifix"], ["items", "crystalis"], ["items", "cursed-aengus-ogs-lute"], ["items", "cursed-artios-hide"], ["items", "cursed-atepomarus-mail"], ["items", "cursed-autumna-crested-shield"], ["items", "cursed-belenuss-boots"], ["items", "cursed-bormanas-mantle"], ["items", "cursed-caticatona-cuirass"], ["items", "cursed-caturixs-robe"], ["items", "cursed-clotas-garb"], ["items", "cursed-damonas-shield"], ["items", "cursed-eostres-circlet"], ["items", "cursed-esuss-pillar"], ["items", "cursed-fomoria-plated-boots"], ["items", "cursed-fomoria-plated-boots-7a9f5efc"], ["items", "cursed-fomoria-plated-boots-c6787dd8"], ["items", "cursed-fomoria-plated-boots-e03e2c7a"], ["items", "cursed-fomoria-plated-robe"], ["items", "cursed-fomoria-plated-robe-5d09a4d7"], ["items", "cursed-fomoria-plated-robe-62b00ff5"], ["items", "cursed-fomoria-plated-robe-858bfe6c"], ["items", "cursed-fomors-crown"], ["items", "cursed-fomors-crown-440afac8"], ["items", "cursed-fomors-crown-af8c4b7d"], ["items", "cursed-fomors-crown-e4efc526"], ["items", "cursed-gobannos-heavy-boots"], ["items", "cursed-goibhniu-armguard"], ["items", "cursed-imonas-slippers"], ["items", "cursed-leros-hood"], ["items", "cursed-mullos-blinders"], ["items", "cursed-niskus-boots"], ["items", "cursed-nocturna-crested-shield"], ["items", "cursed-ogmios-satin-robe"], ["items", "cursed-sabrinas-cowl"], ["items", "cursed-sequanas-chestpiece"], ["items", "cursed-sumner-crested-shield"], ["items", "cursed-wintara-crested-shield"], ["items", "damonas-shield"], ["items", "dangys-laptop"], ["items", "distorted-riftshield"], ["items", "distorted-riftsword"], ["items", "dudleys-hammer"], ["items", "earthen-pike"], ["items", "ebon-top-hat"], ["items", "elite-balor-armor"], ["items", "elite-balor-helmet"], ["items", "elite-balor-katana"], ["items", "elite-balor-leggings"], ["items", "elite-balor-shield"], ["items", "elite-draconian-armor"], ["items", "elite-draconian-boots"], ["items", "elite-draconian-cowl"], ["items", "elite-draconian-garb"], ["items", "elite-draconian-hood"], ["items", "elite-draconian-leggings"], ["items", "elite-draconian-robe"], ["items", "elite-draconian-sword"], ["items", "elite-fomorian-staff"], ["items", "elite-fomorian-sword"], ["items", "eostres-circlet"], ["items", "estoc"], ["items", "esuss-pillar"], ["items", "excalibur"], ["items", "fail-not"], ["items", "fairys-tanto"], ["items", "fallen-mystics-staff"], ["items", "fallen-wanderers-dagger"], ["items", "fey-gerds-bullwhip"], ["items", "fey-gerds-chestguard"], ["items", "fey-gerds-headdress"], ["items", "fey-gerds-horsewhip"], ["items", "fey-gerds-legwraps"], ["items", "fey-helhest"], ["items", "fey-hels-boots"], ["items", "fey-hels-feathers"], ["items", "fey-hels-garb"], ["items", "fey-hels-veil"], ["items", "fey-menjas-battlerobe"], ["items", "fey-menjas-hood"], ["items", "fey-menjas-shield"], ["items", "fey-menjas-warstaff"], ["items", "fey-surtrs-boots"], ["items", "fey-surtrs-cuirass"], ["items", "fey-surtrs-helmet"], ["items", "fey-surtrs-shield"], ["items", "fey-surtrs-sword"], ["items", "fine-greatsword"], ["items", "finesse-katana"], ["items", "fomor-katana"], ["items", "fomor-shield"], ["items", "fomor-staff"], ["items", "fomor-sword"], ["items", "fomoria-plated-boots"], ["items", "fomoria-plated-boots-12aa0ab8"], ["items", "fomoria-plated-boots-8a5bd211"], ["items", "fomoria-plated-boots-b9357c84"], ["items", "fomoria-plated-robe"], ["items", "fomoria-plated-robe-272802ec"], ["items", "fomoria-plated-robe-427f8b42"], ["items", "fomoria-plated-robe-fb3188b6"], ["items", "fomorian-bow"], ["items", "fomorian-dagger"], ["items", "fomorian-staff"], ["items", "fomorian-sword"], ["items", "fomors-crown"], ["items", "fomors-crown-2cca9537"], ["items", "fomors-crown-d8f79592"], ["items", "fomors-crown-faad302c"], ["items", "forest-goat-panflute"], ["items", "forest-goat-staff"], ["items", "genius"], ["items", "gerds-bullwhip"], ["items", "gerds-chestguard"], ["items", "gerds-headdress"], ["items", "gerds-horsewhip"], ["items", "gerds-legwraps"], ["items", "glacial-staff"], ["items", "gladiators-shotel"], ["items", "gladiators-sword"], ["items", "globe-holder"], ["items", "gobannos-heavy-boots"], ["items", "goibhniu-armguard"], ["items", "gradlons-archistaff"], ["items", "grand-armor"], ["items", "grand-helmet"], ["items", "grand-leggings"], ["items", "grand-sword"], ["items", "gungnir"], ["items", "havels-cuirass"], ["items", "havels-old-cuirass"], ["items", "helhest"], ["items", "hels-boots"], ["items", "hels-feathers"], ["items", "hels-garb"], ["items", "hels-veil"], ["items", "high-fomorian-staff"], ["items", "high-fomorian-sword"], ["items", "hiltless"], ["items", "immortal-boots"], ["items", "immortal-garb"], ["items", "immortal-hat"], ["items", "immortal-hood"], ["items", "immortal-katana"], ["items", "immortal-robe"], ["items", "imonas-slippers"], ["items", "kobold-armor"], ["items", "kobold-boots"], ["items", "kobold-cloak"], ["items", "kobold-hood"], ["items", "lady-of-the-lake"], ["items", "lass-of-the-lake"], ["items", "leros-hood"], ["items", "leviathan-cuirass"], ["items", "lost-helmet"], ["items", "magh-meall"], ["items", "menjas-battlerobe"], ["items", "menjas-hood"], ["items", "menjas-shield"], ["items", "menjas-warstaff"], ["items", "mighty-ensemble"], ["items", "mullos-blinders"], ["items", "mythril-armor"], ["items", "mythril-bow"], ["items", "mythril-dagger"], ["items", "mythril-hammer"], ["items", "mythril-helmet"], ["items", "mythril-leggings"], ["items", "mythril-sword"], ["items", "nagamaki"], ["items", "niskus-boots"], ["items", "nocturna-crested-shield"], ["items", "ogma"], ["items", "ogmios-satin-robe"], ["items", "old-hallowed-blade"], ["items", "old-olympia-armor"], ["items", "old-olympia-headdress"], ["items", "old-olympia-helmet"], ["items", "old-olympia-hood"], ["items", "old-olympia-leggings"], ["items", "old-olympia-legwraps"], ["items", "old-olympia-mantle"], ["items", "old-olympia-robe"], ["items", "old-olympia-shoes"], ["items", "olympian-tower-joist"], ["items", "ophion-banner"], ["items", "parrying-dagger"], ["items", "purrlys-favourite-staff"], ["items", "purrlys-hood"], ["items", "purrlys-less-favourite-staff"], ["items", "purrlys-old-hat"], ["items", "purrlys-old-robe"], ["items", "purrlys-old-staff"], ["items", "purrlys-robe"], ["items", "rapier"], ["items", "realmspikes"], ["items", "reapers-scythe"], ["items", "reaping-sickle"], ["items", "rhada-shade-greatshield"], ["items", "rhada-shade-greatsword"], ["items", "rhada-shadow-greatshield"], ["items", "rhada-shadow-greatsword"], ["items", "royalty"], ["items", "sabrinas-cowl"], ["items", "sanguine-archistaff"], ["items", "sanguine-staff"], ["items", "sanguine-sword"], ["items", "scorcher"], ["items", "sequanas-chestpiece"], ["items", "shivas-bow"], ["items", "ski-helmet"], ["items", "ski-pole"], ["items", "ski-stick"], ["items", "ski-suit"], ["items", "spiked-greatshield"], ["items", "spirit-of-the-wood"], ["items", "stilettos"], ["items", "sumner-crested-shield"], ["items", "surtrs-boots"], ["items", "surtrs-cuirass"], ["items", "surtrs-helmet"], ["items", "surtrs-shield"], ["items", "surtrs-sword"], ["items", "templar-shield"], ["items", "top-hat"], ["items", "tower-shield"], ["items", "vulcan-boots"], ["items", "vulcan-buckler"], ["items", "vulcan-cuirass"], ["items", "vulcan-helmet"], ["items", "wintara-crested-shield"], ["items", "wolven-tower-shield"], ["items", "world-eater"], ["items", "ymir-world-eater"]]
+sources = [["items", "achlys-razor"], ["items", "aengus-ogs-lute"], ["items", "annwn-shotel"], ["items", "argos"], ["items", "arisen-cursed-aengus-ogs-lute"], ["items", "arisen-cursed-artios-hide"], ["items", "arisen-cursed-atepomarus-mail"], ["items", "arisen-cursed-autumna-crested-shield"], ["items", "arisen-cursed-belenuss-boots"], ["items", "arisen-cursed-bormanas-mantle"], ["items", "arisen-cursed-caticatona-cuirass"], ["items", "arisen-cursed-caturixs-robe"], ["items", "arisen-cursed-clotas-garb"], ["items", "arisen-cursed-damonas-shield"], ["items", "arisen-cursed-eostres-circlet"], ["items", "arisen-cursed-esuss-pillar"], ["items", "arisen-cursed-fomoria-plated-boots"], ["items", "arisen-cursed-fomoria-plated-boots-4de3e61d"], ["items", "arisen-cursed-fomoria-plated-boots-56e4841c"], ["items", "arisen-cursed-fomoria-plated-boots-b2c283ff"], ["items", "arisen-cursed-fomoria-plated-robe"], ["items", "arisen-cursed-fomoria-plated-robe-954d6525"], ["items", "arisen-cursed-fomoria-plated-robe-9a5a1cdd"], ["items", "arisen-cursed-fomoria-plated-robe-d5d338d8"], ["items", "arisen-cursed-fomors-crown"], ["items", "arisen-cursed-fomors-crown-2cb9b4e6"], ["items", "arisen-cursed-fomors-crown-3a4a918b"], ["items", "arisen-cursed-fomors-crown-612a024c"], ["items", "arisen-cursed-gobannos-heavy-boots"], ["items", "arisen-cursed-goibhniu-armguard"], ["items", "arisen-cursed-imonas-slippers"], ["items", "arisen-cursed-leros-hood"], ["items", "arisen-cursed-mullos-blinders"], ["items", "arisen-cursed-niskus-boots"], ["items", "arisen-cursed-nocturna-crested-shield"], ["items", "arisen-cursed-ogmios-satin-robe"], ["items", "arisen-cursed-sabrinas-cowl"], ["items", "arisen-cursed-sequanas-chestpiece"], ["items", "arisen-cursed-sumner-crested-shield"], ["items", "arisen-cursed-wintara-crested-shield"], ["items", "arisen-fairys-tanto"], ["items", "arisen-genius"], ["items", "arisen-gerds-bullwhip"], ["items", "arisen-gerds-chestguard"], ["items", "arisen-gerds-headdress"], ["items", "arisen-gerds-horsewhip"], ["items", "arisen-gerds-legwraps"], ["items", "arisen-globe-holder"], ["items", "arisen-helhest"], ["items", "arisen-hels-boots"], ["items", "arisen-hels-feathers"], ["items", "arisen-hels-garb"], ["items", "arisen-hels-veil"], ["items", "arisen-menjas-battlerobe"], ["items", "arisen-menjas-hood"], ["items", "arisen-menjas-shield"], ["items", "arisen-menjas-warstaff"], ["items", "arisen-nagamaki"], ["items", "arisen-olympia-armor"], ["items", "arisen-olympia-headdress"], ["items", "arisen-olympia-helmet"], ["items", "arisen-olympia-hood"], ["items", "arisen-olympia-leggings"], ["items", "arisen-olympia-legwraps"], ["items", "arisen-olympia-mantle"], ["items", "arisen-olympia-robe"], ["items", "arisen-olympia-shoes"], ["items", "arisen-olympian-joist"], ["items", "arisen-ophion-banner"], ["items", "arisen-riftrazor"], ["items", "arisen-riftshield"], ["items", "arisen-riftsword"], ["items", "arisen-surtrs-boots"], ["items", "arisen-surtrs-cuirass"], ["items", "arisen-surtrs-helmet"], ["items", "arisen-surtrs-shield"], ["items", "arisen-surtrs-sword"], ["items", "arisen-top-hat"], ["items", "arisen-wolven-tower-shield"], ["items", "artios-hide"], ["items", "atepomarus-mail"], ["items", "autumna-crested-shield"], ["items", "axe-of-gilgamesh"], ["items", "balanced-epee"], ["items", "balor-armor"], ["items", "balor-helmet"], ["items", "balor-katana"], ["items", "balor-leggings"], ["items", "balor-shield"], ["items", "belenuss-boots"], ["items", "bident"], ["items", "bolt"], ["items", "bormanas-mantle"], ["items", "caladbolg"], ["items", "caticatona-cuirass"], ["items", "caturixs-robe"], ["items", "clotas-garb"], ["items", "covyns-great-scythe"], ["items", "covyns-soul-hunt-scythe"], ["items", "crooked-shotel"], ["items", "crucifix"], ["items", "crystalis"], ["items", "cursed-aengus-ogs-lute"], ["items", "cursed-artios-hide"], ["items", "cursed-atepomarus-mail"], ["items", "cursed-autumna-crested-shield"], ["items", "cursed-belenuss-boots"], ["items", "cursed-bormanas-mantle"], ["items", "cursed-caticatona-cuirass"], ["items", "cursed-caturixs-robe"], ["items", "cursed-clotas-garb"], ["items", "cursed-damonas-shield"], ["items", "cursed-eostres-circlet"], ["items", "cursed-esuss-pillar"], ["items", "cursed-fomoria-plated-boots"], ["items", "cursed-fomoria-plated-boots-0ebf6063"], ["items", "cursed-fomoria-plated-boots-7a9f5efc"], ["items", "cursed-fomoria-plated-boots-e03e2c7a"], ["items", "cursed-fomoria-plated-robe"], ["items", "cursed-fomoria-plated-robe-5d09a4d7"], ["items", "cursed-fomoria-plated-robe-62b00ff5"], ["items", "cursed-fomoria-plated-robe-858bfe6c"], ["items", "cursed-fomors-crown"], ["items", "cursed-fomors-crown-440afac8"], ["items", "cursed-fomors-crown-af8c4b7d"], ["items", "cursed-fomors-crown-e4efc526"], ["items", "cursed-gobannos-heavy-boots"], ["items", "cursed-goibhniu-armguard"], ["items", "cursed-imonas-slippers"], ["items", "cursed-leros-hood"], ["items", "cursed-mullos-blinders"], ["items", "cursed-niskus-boots"], ["items", "cursed-nocturna-crested-shield"], ["items", "cursed-ogmios-satin-robe"], ["items", "cursed-sabrinas-cowl"], ["items", "cursed-sequanas-chestpiece"], ["items", "cursed-sumner-crested-shield"], ["items", "cursed-wintara-crested-shield"], ["items", "damonas-shield"], ["items", "dangys-laptop"], ["items", "distorted-riftshield"], ["items", "distorted-riftsword"], ["items", "dudleys-hammer"], ["items", "earthen-pike"], ["items", "ebon-top-hat"], ["items", "elite-balor-armor"], ["items", "elite-balor-helmet"], ["items", "elite-balor-katana"], ["items", "elite-balor-leggings"], ["items", "elite-balor-shield"], ["items", "elite-draconian-armor"], ["items", "elite-draconian-boots"], ["items", "elite-draconian-cowl"], ["items", "elite-draconian-garb"], ["items", "elite-draconian-hood"], ["items", "elite-draconian-leggings"], ["items", "elite-draconian-robe"], ["items", "elite-draconian-sword"], ["items", "elite-fomorian-staff"], ["items", "elite-fomorian-sword"], ["items", "eostres-circlet"], ["items", "estoc"], ["items", "esuss-pillar"], ["items", "excalibur-eec7bf3e"], ["items", "fail-not"], ["items", "fairys-tanto"], ["items", "fallen-mystics-staff"], ["items", "fallen-wanderers-dagger"], ["items", "fey-gerds-bullwhip"], ["items", "fey-gerds-chestguard"], ["items", "fey-gerds-headdress"], ["items", "fey-gerds-horsewhip"], ["items", "fey-gerds-legwraps"], ["items", "fey-helhest"], ["items", "fey-hels-boots"], ["items", "fey-hels-feathers"], ["items", "fey-hels-garb"], ["items", "fey-hels-veil"], ["items", "fey-menjas-battlerobe"], ["items", "fey-menjas-hood"], ["items", "fey-menjas-shield"], ["items", "fey-menjas-warstaff"], ["items", "fey-surtrs-boots"], ["items", "fey-surtrs-cuirass"], ["items", "fey-surtrs-helmet"], ["items", "fey-surtrs-shield"], ["items", "fey-surtrs-sword"], ["items", "fine-greatsword"], ["items", "finesse-katana"], ["items", "fomor-katana"], ["items", "fomor-shield"], ["items", "fomor-staff"], ["items", "fomor-sword"], ["items", "fomoria-plated-boots"], ["items", "fomoria-plated-boots-12aa0ab8"], ["items", "fomoria-plated-boots-8a5bd211"], ["items", "fomoria-plated-boots-b9357c84"], ["items", "fomoria-plated-robe"], ["items", "fomoria-plated-robe-272802ec"], ["items", "fomoria-plated-robe-427f8b42"], ["items", "fomoria-plated-robe-fb3188b6"], ["items", "fomorian-bow"], ["items", "fomorian-dagger"], ["items", "fomorian-staff"], ["items", "fomorian-sword"], ["items", "fomors-crown"], ["items", "fomors-crown-2cca9537"], ["items", "fomors-crown-d8f79592"], ["items", "fomors-crown-faad302c"], ["items", "forest-goat-panflute"], ["items", "forest-goat-staff"], ["items", "genius"], ["items", "gerds-bullwhip"], ["items", "gerds-chestguard"], ["items", "gerds-headdress"], ["items", "gerds-horsewhip"], ["items", "gerds-legwraps"], ["items", "glacial-staff"], ["items", "gladiators-shotel"], ["items", "gladiators-sword"], ["items", "globe-holder"], ["items", "gobannos-heavy-boots"], ["items", "goibhniu-armguard"], ["items", "gradlons-archistaff"], ["items", "grand-armor"], ["items", "grand-helmet"], ["items", "grand-leggings"], ["items", "grand-sword"], ["items", "gungnir"], ["items", "havels-cuirass"], ["items", "havels-old-cuirass"], ["items", "helhest"], ["items", "hels-boots"], ["items", "hels-feathers"], ["items", "hels-garb"], ["items", "hels-veil"], ["items", "high-fomorian-staff"], ["items", "high-fomorian-sword"], ["items", "hiltless"], ["items", "immortal-boots"], ["items", "immortal-garb"], ["items", "immortal-hat"], ["items", "immortal-hood"], ["items", "immortal-katana"], ["items", "immortal-robe"], ["items", "imonas-slippers"], ["items", "kobold-armor"], ["items", "kobold-boots"], ["items", "kobold-cloak"], ["items", "kobold-hood"], ["items", "lady-of-the-lake"], ["items", "lass-of-the-lake"], ["items", "leros-hood"], ["items", "leviathan-cuirass"], ["items", "lost-helmet"], ["items", "magh-meall"], ["items", "menjas-battlerobe"], ["items", "menjas-hood"], ["items", "menjas-shield"], ["items", "menjas-warstaff"], ["items", "mighty-ensemble"], ["items", "mullos-blinders"], ["items", "mythril-armor"], ["items", "mythril-bow"], ["items", "mythril-dagger"], ["items", "mythril-hammer"], ["items", "mythril-helmet"], ["items", "mythril-leggings"], ["items", "mythril-sword"], ["items", "nagamaki"], ["items", "niskus-boots"], ["items", "nocturna-crested-shield"], ["items", "ogma"], ["items", "ogmios-satin-robe"], ["items", "old-hallowed-blade"], ["items", "old-olympia-armor"], ["items", "old-olympia-headdress"], ["items", "old-olympia-helmet"], ["items", "old-olympia-hood"], ["items", "old-olympia-leggings"], ["items", "old-olympia-legwraps"], ["items", "old-olympia-mantle"], ["items", "old-olympia-robe"], ["items", "old-olympia-shoes"], ["items", "olympian-tower-joist"], ["items", "ophion-banner"], ["items", "parrying-dagger"], ["items", "purrlys-favourite-staff"], ["items", "purrlys-hood"], ["items", "purrlys-less-favourite-staff"], ["items", "purrlys-old-hat"], ["items", "purrlys-old-robe"], ["items", "purrlys-old-staff"], ["items", "purrlys-robe"], ["items", "rapier"], ["items", "realmspikes"], ["items", "reapers-scythe"], ["items", "reaping-sickle"], ["items", "rhada-shade-greatshield"], ["items", "rhada-shade-greatsword"], ["items", "rhada-shadow-greatshield"], ["items", "rhada-shadow-greatsword"], ["items", "royalty"], ["items", "sabrinas-cowl"], ["items", "sanguine-archistaff"], ["items", "sanguine-staff"], ["items", "sanguine-sword"], ["items", "scorcher"], ["items", "sequanas-chestpiece"], ["items", "shivas-bow"], ["items", "ski-helmet"], ["items", "ski-pole"], ["items", "ski-stick"], ["items", "ski-suit"], ["items", "spiked-greatshield"], ["items", "spirit-of-the-wood"], ["items", "stilettos"], ["items", "sumner-crested-shield"], ["items", "surtrs-boots"], ["items", "surtrs-cuirass"], ["items", "surtrs-helmet"], ["items", "surtrs-shield"], ["items", "surtrs-sword"], ["items", "templar-shield"], ["items", "top-hat"], ["items", "tower-shield"], ["items", "vulcan-boots"], ["items", "vulcan-buckler"], ["items", "vulcan-cuirass"], ["items", "vulcan-helmet"], ["items", "wintara-crested-shield"], ["items", "wolven-tower-shield"], ["items", "world-eater"], ["items", "ymir-world-eater"]]
 tags = ["found_in_shops", "found_in_chests"]
 tier = 1
 useable_by = "all_classes"
@@ -53298,6 +53707,7 @@ resistance = "122"
 [main.items.ravens-feathers]
 aura = "rare"
 category = "items"
+dropped_by = [["monsters", "raven"]]
 exotic = false
 icon = "/img/armor/harpy_feathers.png"
 id = "ravens-feathers"
@@ -54729,7 +55139,7 @@ icon = "/img/materials/runestone.png"
 id = "runestone"
 item_type = "material"
 rarity = "rare"
-sources = [["items", "acolyte-hood"], ["items", "acolyte-robe"], ["items", "acolyte-shoes"], ["items", "acolyte-staff"], ["items", "ancient-jinn-staff"], ["items", "arc"], ["items", "arcane-arrows"], ["items", "arcane-boots"], ["items", "arcane-hat"], ["items", "arcane-robe"], ["items", "arcane-wand"], ["items", "arch-rune-armor"], ["items", "arch-rune-helmet"], ["items", "arch-rune-leggings"], ["items", "arch-rune-shield"], ["items", "arch-rune-sword"], ["items", "archmages-scroll"], ["items", "argent-armor"], ["items", "argent-helmet"], ["items", "argent-leggings"], ["items", "argent-shield"], ["items", "arisen-candy-cane"], ["items", "arisen-caroling-lute"], ["items", "arisen-fairys-wand"], ["items", "arisen-genius"], ["items", "arisen-jolly-stockings"], ["items", "arisen-north-pole"], ["items", "arisen-north-star"], ["items", "arisen-reinbow"], ["items", "arisen-sleighblade"], ["items", "balor-archistaff"], ["items", "baneblade"], ["items", "battlemage-armor"], ["items", "battlemage-boots"], ["items", "battlemage-helmet"], ["items", "beatrices-staff"], ["items", "beguiled-armor"], ["items", "beguiled-armor-x"], ["items", "beguiled-axe"], ["items", "beguiled-axe-x"], ["items", "beguiled-blade"], ["items", "beguiled-blade-x"], ["items", "beguiled-boots"], ["items", "beguiled-boots-x"], ["items", "beguiled-cowl"], ["items", "beguiled-cowl-x"], ["items", "beguiled-garb"], ["items", "beguiled-garb-x"], ["items", "beguiled-heavy-boots"], ["items", "beguiled-heavy-boots-x"], ["items", "beguiled-helmet"], ["items", "beguiled-helmet-x"], ["items", "beguiled-hood"], ["items", "beguiled-hood-x"], ["items", "beguiled-lute"], ["items", "beguiled-lute-x"], ["items", "beguiled-quarterstaff"], ["items", "beguiled-quarterstaff-x"], ["items", "beguiled-robe"], ["items", "beguiled-robe-x"], ["items", "beguiled-shoes"], ["items", "beguiled-shoes-x"], ["items", "beguiled-staff"], ["items", "beguiled-staff-x"], ["items", "candle-pike"], ["items", "candle-staff"], ["items", "candy-cane"], ["items", "caroling-lute"], ["items", "cockatrice-mail"], ["items", "colossal-armor"], ["items", "colossal-helmet"], ["items", "colossal-leggings"], ["items", "court-staff"], ["items", "covyns-hemmed-robe"], ["items", "covyns-hemmed-skirt"], ["items", "covyns-robe"], ["items", "covyns-skirt"], ["items", "crusading-armor"], ["items", "crusading-boots"], ["items", "crusading-helmet"], ["items", "crystal-halberd"], ["items", "crystal-staff"], ["items", "crystalis"], ["items", "dalans-robe"], ["items", "dark-elven-katana"], ["items", "dragon-scroll"], ["items", "dukes-shield"], ["items", "ebon-candy-cane"], ["items", "ebon-caroling-lute"], ["items", "ebon-jolly-stockings"], ["items", "ebon-north-star"], ["items", "ebon-reinbow"], ["items", "ebon-sleighblade"], ["items", "elite-balor-archistaff"], ["items", "fairys-wand"], ["items", "fallen-archistaff"], ["items", "fallen-druids-staff"], ["items", "fallen-mystics-staff"], ["items", "fey-arrows"], ["items", "fey-hellfire-armor"], ["items", "fey-hellfire-boots"], ["items", "fey-hellfire-cowl"], ["items", "fey-hellfire-garb"], ["items", "fey-hellfire-helmet"], ["items", "fey-hellfire-hood"], ["items", "fey-hellfire-leggings"], ["items", "fey-hellfire-robe"], ["items", "fey-hellfire-shoes"], ["items", "flute"], ["items", "frilled-naga-staff"], ["items", "genius"], ["items", "gorgons-staff"], ["items", "gorgonslayers-chestplate"], ["items", "gorgonslayers-cowl"], ["items", "gorgonslayers-legwear"], ["items", "great-monoceros-cowl"], ["items", "great-monoceros-garb"], ["items", "great-monoceros-hoofs"], ["items", "greater-wisp-staff"], ["items", "grioarvolr"], ["items", "havels-old-leggings"], ["items", "havels-old-sword"], ["items", "havels-sword"], ["items", "hellfire-armor"], ["items", "hellfire-boots"], ["items", "hellfire-cowl"], ["items", "hellfire-garb"], ["items", "hellfire-helmet"], ["items", "hellfire-hood"], ["items", "hellfire-leggings"], ["items", "hellfire-robe"], ["items", "hellfire-shoes"], ["items", "heretics-robe"], ["items", "jinn-staff"], ["items", "jolly-stockings"], ["items", "lost-art"], ["items", "mages-boots"], ["items", "mages-scroll"], ["items", "mana-bow"], ["items", "monoceros-cowl"], ["items", "monoceros-garb"], ["items", "monoceros-hoofs"], ["items", "naga-staff"], ["items", "nolans-staff"], ["items", "north-pole"], ["items", "north-star"], ["items", "perseus-chestplate"], ["items", "perseus-cowl"], ["items", "perseus-legwear"], ["items", "reinbow"], ["items", "rosewood-lute"], ["items", "rune-armor"], ["items", "rune-helmet"], ["items", "rune-leggings"], ["items", "rune-shield"], ["items", "rune-staff"], ["items", "rune-sword"], ["items", "salas-robe"], ["items", "sanguine-archistaff"], ["items", "sanguine-staff"], ["items", "scroll"], ["items", "serpentslayers-chestplate"], ["items", "serpentslayers-cowl"], ["items", "serpentslayers-legwear"], ["items", "sleighblade"], ["items", "sorcerers-scroll"], ["items", "soul-blade"], ["items", "spectral-armor"], ["items", "spectral-boots"], ["items", "spectral-cowl"], ["items", "spectral-garb"], ["items", "spectral-heavy-boots"], ["items", "spectral-helmet"], ["items", "spectral-hood"], ["items", "spectral-robe"], ["items", "spectral-shoes"], ["items", "staff-of-zaltys"], ["items", "vipersong"], ["items", "war-mage-armor"], ["items", "war-mage-boots"], ["items", "war-mage-helmet"], ["items", "was"], ["items", "ymir-staff-of-zaltys"]]
+sources = [["items", "acolyte-hood"], ["items", "acolyte-robe"], ["items", "acolyte-shoes"], ["items", "acolyte-staff"], ["items", "ancient-jinn-staff"], ["items", "arc"], ["items", "arcane-arrows"], ["items", "arcane-boots"], ["items", "arcane-hat"], ["items", "arcane-robe"], ["items", "arcane-wand"], ["items", "arch-rune-armor"], ["items", "arch-rune-helmet"], ["items", "arch-rune-leggings"], ["items", "arch-rune-shield"], ["items", "arch-rune-sword"], ["items", "archmages-scroll"], ["items", "argent-armor"], ["items", "argent-helmet"], ["items", "argent-leggings"], ["items", "argent-shield"], ["items", "arisen-candy-cane"], ["items", "arisen-caroling-lute"], ["items", "arisen-fairys-wand"], ["items", "arisen-genius"], ["items", "arisen-jolly-stockings"], ["items", "arisen-north-pole"], ["items", "arisen-north-star"], ["items", "arisen-reinbow"], ["items", "arisen-sleighblade"], ["items", "balor-archistaff"], ["items", "baneblade"], ["items", "battlemage-armor"], ["items", "battlemage-boots"], ["items", "battlemage-helmet"], ["items", "beatrices-staff"], ["items", "beguiled-armor"], ["items", "beguiled-armor-x"], ["items", "beguiled-armor-y"], ["items", "beguiled-axe"], ["items", "beguiled-axe-x"], ["items", "beguiled-axe-y"], ["items", "beguiled-blade"], ["items", "beguiled-blade-x"], ["items", "beguiled-blade-y"], ["items", "beguiled-boots"], ["items", "beguiled-boots-x"], ["items", "beguiled-boots-y"], ["items", "beguiled-cowl"], ["items", "beguiled-cowl-x"], ["items", "beguiled-cowl-y"], ["items", "beguiled-garb"], ["items", "beguiled-garb-x"], ["items", "beguiled-garb-y"], ["items", "beguiled-heavy-boots"], ["items", "beguiled-heavy-boots-x"], ["items", "beguiled-heavy-boots-y"], ["items", "beguiled-helmet"], ["items", "beguiled-helmet-x"], ["items", "beguiled-helmet-y"], ["items", "beguiled-hood"], ["items", "beguiled-hood-x"], ["items", "beguiled-hood-y"], ["items", "beguiled-lute"], ["items", "beguiled-lute-x"], ["items", "beguiled-lute-y"], ["items", "beguiled-mystic-katar-y"], ["items", "beguiled-quarterstaff"], ["items", "beguiled-quarterstaff-x"], ["items", "beguiled-quarterstaff-y"], ["items", "beguiled-robe"], ["items", "beguiled-robe-x"], ["items", "beguiled-robe-y"], ["items", "beguiled-shoes"], ["items", "beguiled-shoes-x"], ["items", "beguiled-shoes-y"], ["items", "beguiled-staff"], ["items", "beguiled-staff-x"], ["items", "beguiled-staff-y"], ["items", "candle-pike"], ["items", "candle-staff"], ["items", "candy-cane"], ["items", "caroling-lute"], ["items", "cockatrice-mail"], ["items", "colossal-armor"], ["items", "colossal-helmet"], ["items", "colossal-leggings"], ["items", "court-staff"], ["items", "covyns-hemmed-robe"], ["items", "covyns-hemmed-skirt"], ["items", "covyns-robe"], ["items", "covyns-skirt"], ["items", "crusading-armor"], ["items", "crusading-boots"], ["items", "crusading-helmet"], ["items", "crystal-halberd"], ["items", "crystal-staff"], ["items", "crystalis"], ["items", "dalans-robe"], ["items", "dark-elven-katana"], ["items", "dragon-scroll"], ["items", "dukes-shield"], ["items", "ebon-candy-cane"], ["items", "ebon-caroling-lute"], ["items", "ebon-jolly-stockings"], ["items", "ebon-north-star"], ["items", "ebon-reinbow"], ["items", "ebon-sleighblade"], ["items", "elite-balor-archistaff"], ["items", "fairys-wand"], ["items", "fallen-archistaff"], ["items", "fallen-druids-staff"], ["items", "fallen-mystics-staff"], ["items", "fey-arrows"], ["items", "fey-hellfire-armor"], ["items", "fey-hellfire-boots"], ["items", "fey-hellfire-cowl"], ["items", "fey-hellfire-garb"], ["items", "fey-hellfire-helmet"], ["items", "fey-hellfire-hood"], ["items", "fey-hellfire-leggings"], ["items", "fey-hellfire-robe"], ["items", "fey-hellfire-shoes"], ["items", "flute"], ["items", "frilled-naga-staff"], ["items", "genius"], ["items", "gorgons-staff"], ["items", "gorgonslayers-chestplate"], ["items", "gorgonslayers-cowl"], ["items", "gorgonslayers-legwear"], ["items", "great-monoceros-cowl"], ["items", "great-monoceros-garb"], ["items", "great-monoceros-hoofs"], ["items", "greater-wisp-staff"], ["items", "grioarvolr"], ["items", "havels-old-leggings"], ["items", "havels-old-sword"], ["items", "havels-sword"], ["items", "hellfire-armor"], ["items", "hellfire-boots"], ["items", "hellfire-cowl"], ["items", "hellfire-garb"], ["items", "hellfire-helmet"], ["items", "hellfire-hood"], ["items", "hellfire-leggings"], ["items", "hellfire-robe"], ["items", "hellfire-shoes"], ["items", "heretics-robe"], ["items", "jinn-staff"], ["items", "jolly-stockings"], ["items", "lost-art"], ["items", "mages-boots"], ["items", "mages-scroll"], ["items", "mana-bow"], ["items", "monoceros-cowl"], ["items", "monoceros-garb"], ["items", "monoceros-hoofs"], ["items", "naga-staff"], ["items", "nolans-staff"], ["items", "north-pole"], ["items", "north-star"], ["items", "perseus-chestplate"], ["items", "perseus-cowl"], ["items", "perseus-legwear"], ["items", "reinbow"], ["items", "rosewood-lute"], ["items", "rune-armor"], ["items", "rune-helmet"], ["items", "rune-leggings"], ["items", "rune-shield"], ["items", "rune-staff"], ["items", "rune-sword"], ["items", "salas-robe"], ["items", "sanguine-archistaff"], ["items", "sanguine-staff"], ["items", "scroll"], ["items", "serpentslayers-chestplate"], ["items", "serpentslayers-cowl"], ["items", "serpentslayers-legwear"], ["items", "sleighblade"], ["items", "sorcerers-scroll"], ["items", "soul-blade"], ["items", "spectral-armor"], ["items", "spectral-boots"], ["items", "spectral-cowl"], ["items", "spectral-garb"], ["items", "spectral-heavy-boots"], ["items", "spectral-helmet"], ["items", "spectral-hood"], ["items", "spectral-robe"], ["items", "spectral-shoes"], ["items", "staff-of-zaltys"], ["items", "vipersong"], ["items", "war-mage-armor"], ["items", "war-mage-boots"], ["items", "war-mage-helmet"], ["items", "was"], ["items", "ymir-staff-of-zaltys"]]
 tags = ["found_in_shops", "found_in_chests"]
 tier = 1
 useable_by = "all_classes"
@@ -56455,7 +56865,7 @@ icon = "/img/materials/silk.png"
 id = "silk"
 item_type = "material"
 rarity = "common"
-sources = [["items", "aaru-armor"], ["items", "aaru-boots"], ["items", "aaru-garb"], ["items", "aaru-headwrap"], ["items", "aaru-helmet"], ["items", "aaru-hood"], ["items", "aaru-leggings"], ["items", "aaru-robe"], ["items", "aaru-skirt"], ["items", "achlys-razor"], ["items", "aengus-ogs-lute"], ["items", "argos"], ["items", "arisen-aaru-armor"], ["items", "arisen-aaru-boots"], ["items", "arisen-aaru-garb"], ["items", "arisen-aaru-headwrap"], ["items", "arisen-aaru-helmet"], ["items", "arisen-aaru-hood"], ["items", "arisen-aaru-leggings"], ["items", "arisen-aaru-robe"], ["items", "arisen-aaru-skirt"], ["items", "arisen-cursed-aengus-ogs-lute"], ["items", "arisen-cursed-artios-hide"], ["items", "arisen-cursed-atepomarus-mail"], ["items", "arisen-cursed-autumna-crested-shield"], ["items", "arisen-cursed-belenuss-boots"], ["items", "arisen-cursed-bormanas-mantle"], ["items", "arisen-cursed-caticatona-cuirass"], ["items", "arisen-cursed-caturixs-robe"], ["items", "arisen-cursed-clotas-garb"], ["items", "arisen-cursed-damonas-shield"], ["items", "arisen-cursed-eostres-circlet"], ["items", "arisen-cursed-esuss-pillar"], ["items", "arisen-cursed-fomoria-plated-boots"], ["items", "arisen-cursed-fomoria-plated-boots-4de3e61d"], ["items", "arisen-cursed-fomoria-plated-boots-56e4841c"], ["items", "arisen-cursed-fomoria-plated-boots-b2c283ff"], ["items", "arisen-cursed-fomoria-plated-robe"], ["items", "arisen-cursed-fomoria-plated-robe-954d6525"], ["items", "arisen-cursed-fomoria-plated-robe-9a5a1cdd"], ["items", "arisen-cursed-fomoria-plated-robe-d5d338d8"], ["items", "arisen-cursed-fomors-crown"], ["items", "arisen-cursed-fomors-crown-2cb9b4e6"], ["items", "arisen-cursed-fomors-crown-3a4a918b"], ["items", "arisen-cursed-fomors-crown-612a024c"], ["items", "arisen-cursed-gobannos-heavy-boots"], ["items", "arisen-cursed-goibhniu-armguard"], ["items", "arisen-cursed-imonas-slippers"], ["items", "arisen-cursed-leros-hood"], ["items", "arisen-cursed-mullos-blinders"], ["items", "arisen-cursed-niskus-boots"], ["items", "arisen-cursed-nocturna-crested-shield"], ["items", "arisen-cursed-ogmios-satin-robe"], ["items", "arisen-cursed-sabrinas-cowl"], ["items", "arisen-cursed-sequanas-chestpiece"], ["items", "arisen-cursed-sumner-crested-shield"], ["items", "arisen-cursed-wintara-crested-shield"], ["items", "arisen-khopesh"], ["items", "arisen-nagamaki"], ["items", "arisen-riftrazor"], ["items", "arisen-satis"], ["items", "arisen-silk-crossbow"], ["items", "artios-hide"], ["items", "ash-plumed-boots"], ["items", "ash-plumed-cowl"], ["items", "ash-plumed-cuirass"], ["items", "ash-plumed-garb"], ["items", "ash-plumed-greaves"], ["items", "ash-plumed-helmet"], ["items", "ash-plumed-hood"], ["items", "ash-plumed-robe"], ["items", "ash-plumed-shoes"], ["items", "ashen-phoenician-boots"], ["items", "ashen-phoenician-cowl"], ["items", "ashen-phoenician-cuirass"], ["items", "ashen-phoenician-garb"], ["items", "ashen-phoenician-greaves"], ["items", "ashen-phoenician-helmet"], ["items", "ashen-phoenician-hood"], ["items", "ashen-phoenician-robe"], ["items", "ashen-phoenician-shield"], ["items", "ashen-phoenician-shoes"], ["items", "atepomarus-mail"], ["items", "autumna-crested-shield"], ["items", "beguiled-armor"], ["items", "beguiled-armor-x"], ["items", "beguiled-axe"], ["items", "beguiled-axe-x"], ["items", "beguiled-blade"], ["items", "beguiled-blade-x"], ["items", "beguiled-boots"], ["items", "beguiled-boots-x"], ["items", "beguiled-cowl"], ["items", "beguiled-cowl-x"], ["items", "beguiled-garb"], ["items", "beguiled-garb-x"], ["items", "beguiled-heavy-boots"], ["items", "beguiled-heavy-boots-x"], ["items", "beguiled-helmet"], ["items", "beguiled-helmet-x"], ["items", "beguiled-hood"], ["items", "beguiled-hood-x"], ["items", "beguiled-lute"], ["items", "beguiled-lute-x"], ["items", "beguiled-quarterstaff"], ["items", "beguiled-quarterstaff-x"], ["items", "beguiled-robe"], ["items", "beguiled-robe-x"], ["items", "beguiled-shoes"], ["items", "beguiled-shoes-x"], ["items", "beguiled-staff"], ["items", "beguiled-staff-x"], ["items", "belenuss-boots"], ["items", "bormanas-mantle"], ["items", "caticatona-cuirass"], ["items", "caturixs-robe"], ["items", "charons-grimoire"], ["items", "chef-pants"], ["items", "chestguard-of-dynasty"], ["items", "clogs-of-dynasty"], ["items", "clotas-garb"], ["items", "covyns-hemmed-robe"], ["items", "covyns-hemmed-skirt"], ["items", "covyns-robe"], ["items", "covyns-skirt"], ["items", "covyns-soul-hunt-scythe"], ["items", "cowl-of-dynasty"], ["items", "cuirass-of-dynasty"], ["items", "cursed-aengus-ogs-lute"], ["items", "cursed-artios-hide"], ["items", "cursed-atepomarus-mail"], ["items", "cursed-autumna-crested-shield"], ["items", "cursed-belenuss-boots"], ["items", "cursed-bormanas-mantle"], ["items", "cursed-caticatona-cuirass"], ["items", "cursed-caturixs-robe"], ["items", "cursed-clotas-garb"], ["items", "cursed-damonas-shield"], ["items", "cursed-eostres-circlet"], ["items", "cursed-esuss-pillar"], ["items", "cursed-fomoria-plated-boots"], ["items", "cursed-fomoria-plated-boots-7a9f5efc"], ["items", "cursed-fomoria-plated-boots-c6787dd8"], ["items", "cursed-fomoria-plated-boots-e03e2c7a"], ["items", "cursed-fomoria-plated-robe"], ["items", "cursed-fomoria-plated-robe-5d09a4d7"], ["items", "cursed-fomoria-plated-robe-62b00ff5"], ["items", "cursed-fomoria-plated-robe-858bfe6c"], ["items", "cursed-fomors-crown"], ["items", "cursed-fomors-crown-440afac8"], ["items", "cursed-fomors-crown-af8c4b7d"], ["items", "cursed-fomors-crown-e4efc526"], ["items", "cursed-gobannos-heavy-boots"], ["items", "cursed-goibhniu-armguard"], ["items", "cursed-imonas-slippers"], ["items", "cursed-leros-hood"], ["items", "cursed-mullos-blinders"], ["items", "cursed-niskus-boots"], ["items", "cursed-nocturna-crested-shield"], ["items", "cursed-ogmios-satin-robe"], ["items", "cursed-sabrinas-cowl"], ["items", "cursed-sequanas-chestpiece"], ["items", "cursed-sumner-crested-shield"], ["items", "cursed-wintara-crested-shield"], ["items", "damonas-shield"], ["items", "eastern-regalia"], ["items", "ember-plumed-boots"], ["items", "ember-plumed-cowl"], ["items", "ember-plumed-cuirass"], ["items", "ember-plumed-garb"], ["items", "ember-plumed-greaves"], ["items", "ember-plumed-helmet"], ["items", "ember-plumed-hood"], ["items", "ember-plumed-robe"], ["items", "ember-plumed-shoes"], ["items", "eostres-circlet"], ["items", "esuss-pillar"], ["items", "eye-of-the-feyger"], ["items", "fjalar-mantle"], ["items", "fomoria-plated-boots"], ["items", "fomoria-plated-boots-12aa0ab8"], ["items", "fomoria-plated-boots-8a5bd211"], ["items", "fomoria-plated-boots-b9357c84"], ["items", "fomoria-plated-robe"], ["items", "fomoria-plated-robe-272802ec"], ["items", "fomoria-plated-robe-427f8b42"], ["items", "fomoria-plated-robe-fb3188b6"], ["items", "fomors-crown"], ["items", "fomors-crown-2cca9537"], ["items", "fomors-crown-d8f79592"], ["items", "fomors-crown-faad302c"], ["items", "footpads-of-dynasty"], ["items", "forest-goat-panflute"], ["items", "forest-goat-staff"], ["items", "gobannos-heavy-boots"], ["items", "goibhniu-armguard"], ["items", "great-phoenician-boots"], ["items", "great-phoenician-cowl"], ["items", "great-phoenician-cuirass"], ["items", "great-phoenician-garb"], ["items", "great-phoenician-greaves"], ["items", "great-phoenician-helmet"], ["items", "great-phoenician-hood"], ["items", "great-phoenician-robe"], ["items", "great-phoenician-shield"], ["items", "great-phoenician-shoes"], ["items", "great-phoenixsong"], ["items", "greaves-of-dynasty"], ["items", "helmet-of-dynasty"], ["items", "high-phoenician-boots"], ["items", "high-phoenician-cowl"], ["items", "high-phoenician-cuirass"], ["items", "high-phoenician-garb"], ["items", "high-phoenician-greaves"], ["items", "high-phoenician-helmet"], ["items", "high-phoenician-hood"], ["items", "high-phoenician-robe"], ["items", "high-phoenician-shield"], ["items", "high-phoenician-shoes"], ["items", "high-phoenixsong"], ["items", "hood-of-dynasty"], ["items", "houserobe-of-dynasty"], ["items", "imonas-slippers"], ["items", "khopesh"], ["items", "leros-hood"], ["items", "lynx-labrys"], ["items", "manticore-boots"], ["items", "manticore-hood"], ["items", "manticore-robe"], ["items", "mullos-blinders"], ["items", "nagamaki"], ["items", "naggeneens-song"], ["items", "niskus-boots"], ["items", "nocturna-crested-shield"], ["items", "ogma"], ["items", "ogmios-satin-robe"], ["items", "phoenician-boots"], ["items", "phoenician-cowl"], ["items", "phoenician-cuirass"], ["items", "phoenician-garb"], ["items", "phoenician-greaves"], ["items", "phoenician-helmet"], ["items", "phoenician-hood"], ["items", "phoenician-robe"], ["items", "phoenician-shield"], ["items", "phoenician-shoes"], ["items", "phoenixsong"], ["items", "pizza-stained-apron"], ["items", "purrlys-favourite-staff"], ["items", "purrlys-hood"], ["items", "purrlys-less-favourite-staff"], ["items", "purrlys-old-hat"], ["items", "purrlys-old-staff"], ["items", "sabrinas-cowl"], ["items", "satis"], ["items", "sequanas-chestpiece"], ["items", "silk-crossbow"], ["items", "spectral-armor"], ["items", "spectral-boots"], ["items", "spectral-cowl"], ["items", "spectral-garb"], ["items", "spectral-heavy-boots"], ["items", "spectral-helmet"], ["items", "spectral-hood"], ["items", "spectral-robe"], ["items", "spectral-shoes"], ["items", "sumner-crested-shield"], ["items", "wintara-crested-shield"]]
+sources = [["items", "aaru-armor"], ["items", "aaru-boots"], ["items", "aaru-garb"], ["items", "aaru-headwrap"], ["items", "aaru-helmet"], ["items", "aaru-hood"], ["items", "aaru-leggings"], ["items", "aaru-robe"], ["items", "aaru-skirt"], ["items", "achlys-razor"], ["items", "aengus-ogs-lute"], ["items", "argos"], ["items", "arisen-aaru-armor"], ["items", "arisen-aaru-boots"], ["items", "arisen-aaru-garb"], ["items", "arisen-aaru-headwrap"], ["items", "arisen-aaru-helmet"], ["items", "arisen-aaru-hood"], ["items", "arisen-aaru-leggings"], ["items", "arisen-aaru-robe"], ["items", "arisen-aaru-skirt"], ["items", "arisen-cursed-aengus-ogs-lute"], ["items", "arisen-cursed-artios-hide"], ["items", "arisen-cursed-atepomarus-mail"], ["items", "arisen-cursed-autumna-crested-shield"], ["items", "arisen-cursed-belenuss-boots"], ["items", "arisen-cursed-bormanas-mantle"], ["items", "arisen-cursed-caticatona-cuirass"], ["items", "arisen-cursed-caturixs-robe"], ["items", "arisen-cursed-clotas-garb"], ["items", "arisen-cursed-damonas-shield"], ["items", "arisen-cursed-eostres-circlet"], ["items", "arisen-cursed-esuss-pillar"], ["items", "arisen-cursed-fomoria-plated-boots"], ["items", "arisen-cursed-fomoria-plated-boots-4de3e61d"], ["items", "arisen-cursed-fomoria-plated-boots-56e4841c"], ["items", "arisen-cursed-fomoria-plated-boots-b2c283ff"], ["items", "arisen-cursed-fomoria-plated-robe"], ["items", "arisen-cursed-fomoria-plated-robe-954d6525"], ["items", "arisen-cursed-fomoria-plated-robe-9a5a1cdd"], ["items", "arisen-cursed-fomoria-plated-robe-d5d338d8"], ["items", "arisen-cursed-fomors-crown"], ["items", "arisen-cursed-fomors-crown-2cb9b4e6"], ["items", "arisen-cursed-fomors-crown-3a4a918b"], ["items", "arisen-cursed-fomors-crown-612a024c"], ["items", "arisen-cursed-gobannos-heavy-boots"], ["items", "arisen-cursed-goibhniu-armguard"], ["items", "arisen-cursed-imonas-slippers"], ["items", "arisen-cursed-leros-hood"], ["items", "arisen-cursed-mullos-blinders"], ["items", "arisen-cursed-niskus-boots"], ["items", "arisen-cursed-nocturna-crested-shield"], ["items", "arisen-cursed-ogmios-satin-robe"], ["items", "arisen-cursed-sabrinas-cowl"], ["items", "arisen-cursed-sequanas-chestpiece"], ["items", "arisen-cursed-sumner-crested-shield"], ["items", "arisen-cursed-wintara-crested-shield"], ["items", "arisen-khopesh"], ["items", "arisen-nagamaki"], ["items", "arisen-riftrazor"], ["items", "arisen-satis"], ["items", "arisen-silk-crossbow"], ["items", "artios-hide"], ["items", "ash-plumed-boots"], ["items", "ash-plumed-cowl"], ["items", "ash-plumed-cuirass"], ["items", "ash-plumed-garb"], ["items", "ash-plumed-greaves"], ["items", "ash-plumed-helmet"], ["items", "ash-plumed-hood"], ["items", "ash-plumed-robe"], ["items", "ash-plumed-shoes"], ["items", "ashen-phoenician-boots"], ["items", "ashen-phoenician-cowl"], ["items", "ashen-phoenician-cuirass"], ["items", "ashen-phoenician-garb"], ["items", "ashen-phoenician-greaves"], ["items", "ashen-phoenician-helmet"], ["items", "ashen-phoenician-hood"], ["items", "ashen-phoenician-robe"], ["items", "ashen-phoenician-shield"], ["items", "ashen-phoenician-shoes"], ["items", "atepomarus-mail"], ["items", "autumna-crested-shield"], ["items", "beguiled-armor"], ["items", "beguiled-armor-x"], ["items", "beguiled-armor-y"], ["items", "beguiled-axe"], ["items", "beguiled-axe-x"], ["items", "beguiled-axe-y"], ["items", "beguiled-blade"], ["items", "beguiled-blade-x"], ["items", "beguiled-blade-y"], ["items", "beguiled-boots"], ["items", "beguiled-boots-x"], ["items", "beguiled-boots-y"], ["items", "beguiled-cowl"], ["items", "beguiled-cowl-x"], ["items", "beguiled-cowl-y"], ["items", "beguiled-garb"], ["items", "beguiled-garb-x"], ["items", "beguiled-garb-y"], ["items", "beguiled-heavy-boots"], ["items", "beguiled-heavy-boots-x"], ["items", "beguiled-heavy-boots-y"], ["items", "beguiled-helmet"], ["items", "beguiled-helmet-x"], ["items", "beguiled-helmet-y"], ["items", "beguiled-hood"], ["items", "beguiled-hood-x"], ["items", "beguiled-hood-y"], ["items", "beguiled-lute"], ["items", "beguiled-lute-x"], ["items", "beguiled-lute-y"], ["items", "beguiled-mystic-katar-y"], ["items", "beguiled-quarterstaff"], ["items", "beguiled-quarterstaff-x"], ["items", "beguiled-quarterstaff-y"], ["items", "beguiled-robe"], ["items", "beguiled-robe-x"], ["items", "beguiled-robe-y"], ["items", "beguiled-shoes"], ["items", "beguiled-shoes-x"], ["items", "beguiled-shoes-y"], ["items", "beguiled-staff"], ["items", "beguiled-staff-x"], ["items", "beguiled-staff-y"], ["items", "belenuss-boots"], ["items", "bormanas-mantle"], ["items", "caticatona-cuirass"], ["items", "caturixs-robe"], ["items", "charons-grimoire"], ["items", "chef-pants"], ["items", "chestguard-of-dynasty"], ["items", "clogs-of-dynasty"], ["items", "clotas-garb"], ["items", "covyns-hemmed-robe"], ["items", "covyns-hemmed-skirt"], ["items", "covyns-robe"], ["items", "covyns-skirt"], ["items", "covyns-soul-hunt-scythe"], ["items", "cowl-of-dynasty"], ["items", "cuirass-of-dynasty"], ["items", "cursed-aengus-ogs-lute"], ["items", "cursed-artios-hide"], ["items", "cursed-atepomarus-mail"], ["items", "cursed-autumna-crested-shield"], ["items", "cursed-belenuss-boots"], ["items", "cursed-bormanas-mantle"], ["items", "cursed-caticatona-cuirass"], ["items", "cursed-caturixs-robe"], ["items", "cursed-clotas-garb"], ["items", "cursed-damonas-shield"], ["items", "cursed-eostres-circlet"], ["items", "cursed-esuss-pillar"], ["items", "cursed-fomoria-plated-boots"], ["items", "cursed-fomoria-plated-boots-0ebf6063"], ["items", "cursed-fomoria-plated-boots-7a9f5efc"], ["items", "cursed-fomoria-plated-boots-e03e2c7a"], ["items", "cursed-fomoria-plated-robe"], ["items", "cursed-fomoria-plated-robe-5d09a4d7"], ["items", "cursed-fomoria-plated-robe-62b00ff5"], ["items", "cursed-fomoria-plated-robe-858bfe6c"], ["items", "cursed-fomors-crown"], ["items", "cursed-fomors-crown-440afac8"], ["items", "cursed-fomors-crown-af8c4b7d"], ["items", "cursed-fomors-crown-e4efc526"], ["items", "cursed-gobannos-heavy-boots"], ["items", "cursed-goibhniu-armguard"], ["items", "cursed-imonas-slippers"], ["items", "cursed-leros-hood"], ["items", "cursed-mullos-blinders"], ["items", "cursed-niskus-boots"], ["items", "cursed-nocturna-crested-shield"], ["items", "cursed-ogmios-satin-robe"], ["items", "cursed-sabrinas-cowl"], ["items", "cursed-sequanas-chestpiece"], ["items", "cursed-sumner-crested-shield"], ["items", "cursed-wintara-crested-shield"], ["items", "damonas-shield"], ["items", "eastern-regalia"], ["items", "ember-plumed-boots"], ["items", "ember-plumed-cowl"], ["items", "ember-plumed-cuirass"], ["items", "ember-plumed-garb"], ["items", "ember-plumed-greaves"], ["items", "ember-plumed-helmet"], ["items", "ember-plumed-hood"], ["items", "ember-plumed-robe"], ["items", "ember-plumed-shoes"], ["items", "eostres-circlet"], ["items", "esuss-pillar"], ["items", "eye-of-the-feyger"], ["items", "fjalar-mantle"], ["items", "fomoria-plated-boots"], ["items", "fomoria-plated-boots-12aa0ab8"], ["items", "fomoria-plated-boots-8a5bd211"], ["items", "fomoria-plated-boots-b9357c84"], ["items", "fomoria-plated-robe"], ["items", "fomoria-plated-robe-272802ec"], ["items", "fomoria-plated-robe-427f8b42"], ["items", "fomoria-plated-robe-fb3188b6"], ["items", "fomors-crown"], ["items", "fomors-crown-2cca9537"], ["items", "fomors-crown-d8f79592"], ["items", "fomors-crown-faad302c"], ["items", "footpads-of-dynasty"], ["items", "forest-goat-panflute"], ["items", "forest-goat-staff"], ["items", "gobannos-heavy-boots"], ["items", "goibhniu-armguard"], ["items", "great-phoenician-boots"], ["items", "great-phoenician-cowl"], ["items", "great-phoenician-cuirass"], ["items", "great-phoenician-garb"], ["items", "great-phoenician-greaves"], ["items", "great-phoenician-helmet"], ["items", "great-phoenician-hood"], ["items", "great-phoenician-robe"], ["items", "great-phoenician-shield"], ["items", "great-phoenician-shoes"], ["items", "great-phoenixsong"], ["items", "greaves-of-dynasty"], ["items", "helmet-of-dynasty"], ["items", "high-phoenician-boots"], ["items", "high-phoenician-cowl"], ["items", "high-phoenician-cuirass"], ["items", "high-phoenician-garb"], ["items", "high-phoenician-greaves"], ["items", "high-phoenician-helmet"], ["items", "high-phoenician-hood"], ["items", "high-phoenician-robe"], ["items", "high-phoenician-shield"], ["items", "high-phoenician-shoes"], ["items", "high-phoenixsong"], ["items", "hood-of-dynasty"], ["items", "houserobe-of-dynasty"], ["items", "imonas-slippers"], ["items", "khopesh"], ["items", "leros-hood"], ["items", "lynx-labrys"], ["items", "manticore-boots"], ["items", "manticore-hood"], ["items", "manticore-robe"], ["items", "mullos-blinders"], ["items", "nagamaki"], ["items", "naggeneens-song"], ["items", "niskus-boots"], ["items", "nocturna-crested-shield"], ["items", "ogma"], ["items", "ogmios-satin-robe"], ["items", "phoenician-boots"], ["items", "phoenician-cowl"], ["items", "phoenician-cuirass"], ["items", "phoenician-garb"], ["items", "phoenician-greaves"], ["items", "phoenician-helmet"], ["items", "phoenician-hood"], ["items", "phoenician-robe"], ["items", "phoenician-shield"], ["items", "phoenician-shoes"], ["items", "phoenixsong"], ["items", "pizza-stained-apron"], ["items", "purrlys-favourite-staff"], ["items", "purrlys-hood"], ["items", "purrlys-less-favourite-staff"], ["items", "purrlys-old-hat"], ["items", "purrlys-old-staff"], ["items", "sabrinas-cowl"], ["items", "satis"], ["items", "sequanas-chestpiece"], ["items", "silk-crossbow"], ["items", "spectral-armor"], ["items", "spectral-boots"], ["items", "spectral-cowl"], ["items", "spectral-garb"], ["items", "spectral-heavy-boots"], ["items", "spectral-helmet"], ["items", "spectral-hood"], ["items", "spectral-robe"], ["items", "spectral-shoes"], ["items", "sumner-crested-shield"], ["items", "wintara-crested-shield"]]
 tier = 1
 useable_by = "all_classes"
 
@@ -56501,7 +56911,7 @@ icon = "/img/materials/silver.png"
 id = "silver"
 item_type = "material"
 rarity = "common"
-sources = [["items", "aaru-armor"], ["items", "aaru-boots"], ["items", "aaru-garb"], ["items", "aaru-headwrap"], ["items", "aaru-helmet"], ["items", "aaru-hood"], ["items", "aaru-leggings"], ["items", "aaru-robe"], ["items", "aaru-skirt"], ["items", "acolyte-hood"], ["items", "acolyte-robe"], ["items", "acolyte-shoes"], ["items", "acolyte-staff"], ["items", "aengus-ogs-lute"], ["items", "alpha-myrddin-cloak"], ["items", "alpha-myrddin-cowl"], ["items", "alpha-myrddin-hood"], ["items", "alpha-myrddin-robe"], ["items", "alpha-olympia-archistaff"], ["items", "alpha-olympia-boots"], ["items", "alpha-olympia-cowl"], ["items", "alpha-olympia-cuirass"], ["items", "alpha-olympia-garb"], ["items", "alpha-olympia-greaves"], ["items", "alpha-olympia-helmet"], ["items", "alpha-olympia-hood"], ["items", "alpha-olympia-shoes"], ["items", "alpha-olympia-vestment"], ["items", "alpha-olympia-warbow"], ["items", "alpha-olympia-warsword"], ["items", "arcane-arrows"], ["items", "arcane-boots"], ["items", "arcane-hat"], ["items", "arcane-robe"], ["items", "arcane-wand"], ["items", "argos"], ["items", "arisen-aaru-armor"], ["items", "arisen-aaru-boots"], ["items", "arisen-aaru-garb"], ["items", "arisen-aaru-headwrap"], ["items", "arisen-aaru-helmet"], ["items", "arisen-aaru-hood"], ["items", "arisen-aaru-leggings"], ["items", "arisen-aaru-robe"], ["items", "arisen-aaru-skirt"], ["items", "arisen-bloodwarg-grimoire"], ["items", "arisen-cursed-aengus-ogs-lute"], ["items", "arisen-cursed-artios-hide"], ["items", "arisen-cursed-atepomarus-mail"], ["items", "arisen-cursed-autumna-crested-shield"], ["items", "arisen-cursed-belenuss-boots"], ["items", "arisen-cursed-bormanas-mantle"], ["items", "arisen-cursed-caticatona-cuirass"], ["items", "arisen-cursed-caturixs-robe"], ["items", "arisen-cursed-clotas-garb"], ["items", "arisen-cursed-damonas-shield"], ["items", "arisen-cursed-eostres-circlet"], ["items", "arisen-cursed-esuss-pillar"], ["items", "arisen-cursed-fomoria-plated-boots"], ["items", "arisen-cursed-fomoria-plated-boots-4de3e61d"], ["items", "arisen-cursed-fomoria-plated-boots-56e4841c"], ["items", "arisen-cursed-fomoria-plated-boots-b2c283ff"], ["items", "arisen-cursed-fomoria-plated-robe"], ["items", "arisen-cursed-fomoria-plated-robe-954d6525"], ["items", "arisen-cursed-fomoria-plated-robe-9a5a1cdd"], ["items", "arisen-cursed-fomoria-plated-robe-d5d338d8"], ["items", "arisen-cursed-fomors-crown"], ["items", "arisen-cursed-fomors-crown-2cb9b4e6"], ["items", "arisen-cursed-fomors-crown-3a4a918b"], ["items", "arisen-cursed-fomors-crown-612a024c"], ["items", "arisen-cursed-gobannos-heavy-boots"], ["items", "arisen-cursed-goibhniu-armguard"], ["items", "arisen-cursed-imonas-slippers"], ["items", "arisen-cursed-leros-hood"], ["items", "arisen-cursed-mullos-blinders"], ["items", "arisen-cursed-niskus-boots"], ["items", "arisen-cursed-nocturna-crested-shield"], ["items", "arisen-cursed-ogmios-satin-robe"], ["items", "arisen-cursed-sabrinas-cowl"], ["items", "arisen-cursed-sequanas-chestpiece"], ["items", "arisen-cursed-sumner-crested-shield"], ["items", "arisen-cursed-wintara-crested-shield"], ["items", "arisen-gerds-chestguard"], ["items", "arisen-gerds-headdress"], ["items", "arisen-gerds-legwraps"], ["items", "arisen-imagination"], ["items", "arisen-khopesh"], ["items", "arisen-manablades"], ["items", "arisen-menjas-battlerobe"], ["items", "arisen-nagamaki"], ["items", "arisen-north-star"], ["items", "arisen-satis"], ["items", "arisen-shadeblades"], ["items", "arisen-spiritgarm-grimoire"], ["items", "arisen-stonewarg-grimoire"], ["items", "arisen-surtrs-boots"], ["items", "arisen-surtrs-cuirass"], ["items", "arisen-surtrs-helmet"], ["items", "arisen-top-hat"], ["items", "artios-hide"], ["items", "ash-plumed-boots"], ["items", "ash-plumed-cowl"], ["items", "ash-plumed-cuirass"], ["items", "ash-plumed-garb"], ["items", "ash-plumed-greaves"], ["items", "ash-plumed-helmet"], ["items", "ash-plumed-hood"], ["items", "ash-plumed-robe"], ["items", "ash-plumed-shoes"], ["items", "ashen-phoenician-boots"], ["items", "ashen-phoenician-cowl"], ["items", "ashen-phoenician-cuirass"], ["items", "ashen-phoenician-garb"], ["items", "ashen-phoenician-greaves"], ["items", "ashen-phoenician-helmet"], ["items", "ashen-phoenician-hood"], ["items", "ashen-phoenician-robe"], ["items", "ashen-phoenician-shield"], ["items", "ashen-phoenician-shoes"], ["items", "atepomarus-mail"], ["items", "attuning-hood"], ["items", "attuning-robe"], ["items", "attuning-shoes"], ["items", "autumna-crested-shield"], ["items", "balor-robe"], ["items", "belenuss-boots"], ["items", "beta-myrddin-cloak"], ["items", "beta-myrddin-cowl"], ["items", "beta-myrddin-hood"], ["items", "beta-myrddin-robe"], ["items", "bloodwarg-grimoire"], ["items", "bormanas-mantle"], ["items", "bow-of-diana"], ["items", "caladbolg"], ["items", "candle-pike"], ["items", "candle-staff"], ["items", "caticatona-cuirass"], ["items", "caturixs-robe"], ["items", "chained-shadeblades"], ["items", "chained-shadowblades"], ["items", "chef-pants"], ["items", "chestguard-of-dynasty"], ["items", "chimera-stacatto"], ["items", "clogs-of-dynasty"], ["items", "clotas-garb"], ["items", "cockatrice-mail"], ["items", "counts-garment"], ["items", "counts-hood"], ["items", "court-jesters-outfit"], ["items", "covyns-soul-hunt-scythe"], ["items", "cowl-of-dynasty"], ["items", "crook-and-flail"], ["items", "cuirass-of-dynasty"], ["items", "cursed-aengus-ogs-lute"], ["items", "cursed-artios-hide"], ["items", "cursed-atepomarus-mail"], ["items", "cursed-autumna-crested-shield"], ["items", "cursed-belenuss-boots"], ["items", "cursed-bormanas-mantle"], ["items", "cursed-caticatona-cuirass"], ["items", "cursed-caturixs-robe"], ["items", "cursed-clotas-garb"], ["items", "cursed-damonas-shield"], ["items", "cursed-eostres-circlet"], ["items", "cursed-esuss-pillar"], ["items", "cursed-fomoria-plated-boots"], ["items", "cursed-fomoria-plated-boots-7a9f5efc"], ["items", "cursed-fomoria-plated-boots-c6787dd8"], ["items", "cursed-fomoria-plated-boots-e03e2c7a"], ["items", "cursed-fomoria-plated-robe"], ["items", "cursed-fomoria-plated-robe-5d09a4d7"], ["items", "cursed-fomoria-plated-robe-62b00ff5"], ["items", "cursed-fomoria-plated-robe-858bfe6c"], ["items", "cursed-fomors-crown"], ["items", "cursed-fomors-crown-440afac8"], ["items", "cursed-fomors-crown-af8c4b7d"], ["items", "cursed-fomors-crown-e4efc526"], ["items", "cursed-gobannos-heavy-boots"], ["items", "cursed-goibhniu-armguard"], ["items", "cursed-imonas-slippers"], ["items", "cursed-leros-hood"], ["items", "cursed-mullos-blinders"], ["items", "cursed-niskus-boots"], ["items", "cursed-nocturna-crested-shield"], ["items", "cursed-ogmios-satin-robe"], ["items", "cursed-sabrinas-cowl"], ["items", "cursed-sequanas-chestpiece"], ["items", "cursed-sumner-crested-shield"], ["items", "cursed-wintara-crested-shield"], ["items", "dalans-hood"], ["items", "damonas-shield"], ["items", "dangys-arisen-glasses"], ["items", "dangys-fancy-t-shirt"], ["items", "delta-myrddin-cloak"], ["items", "delta-myrddin-cowl"], ["items", "delta-myrddin-hood"], ["items", "delta-myrddin-robe"], ["items", "delta-olympia-archistaff"], ["items", "delta-olympia-boots"], ["items", "delta-olympia-cowl"], ["items", "delta-olympia-cuirass"], ["items", "delta-olympia-garb"], ["items", "delta-olympia-greaves"], ["items", "delta-olympia-helmet"], ["items", "delta-olympia-hood"], ["items", "delta-olympia-shoes"], ["items", "delta-olympia-vestment"], ["items", "delta-olympia-warbow"], ["items", "delta-olympia-warsword"], ["items", "distorted-manablades"], ["items", "eastern-regalia"], ["items", "ebon-north-star"], ["items", "ebon-top-hat"], ["items", "elite-balor-robe"], ["items", "elite-fomorian-armor"], ["items", "elite-fomorian-boots"], ["items", "elite-fomorian-cowl"], ["items", "elite-fomorian-garb"], ["items", "elite-fomorian-hood"], ["items", "elite-fomorian-leggings"], ["items", "elite-fomorian-robe"], ["items", "ember-plumed-boots"], ["items", "ember-plumed-cowl"], ["items", "ember-plumed-cuirass"], ["items", "ember-plumed-garb"], ["items", "ember-plumed-greaves"], ["items", "ember-plumed-helmet"], ["items", "ember-plumed-hood"], ["items", "ember-plumed-robe"], ["items", "ember-plumed-shoes"], ["items", "eostres-circlet"], ["items", "esuss-pillar"], ["items", "excalibur"], ["items", "fey-arrows"], ["items", "fey-bloodwarg-grimoire"], ["items", "fey-dragon-armor"], ["items", "fey-dragon-boots"], ["items", "fey-dragon-chestmail"], ["items", "fey-dragon-cowl"], ["items", "fey-dragon-helmet"], ["items", "fey-dragon-hood"], ["items", "fey-dragon-leggings"], ["items", "fey-dragon-mages-boots"], ["items", "fey-dragon-robe"], ["items", "fey-gerds-chestguard"], ["items", "fey-gerds-headdress"], ["items", "fey-gerds-legwraps"], ["items", "fey-menjas-battlerobe"], ["items", "fey-spiritgarm-grimoire"], ["items", "fey-stonewarg-grimoire"], ["items", "fey-surtrs-boots"], ["items", "fey-surtrs-cuirass"], ["items", "fey-surtrs-helmet"], ["items", "fey-yeti-coat"], ["items", "final-horsemans-armor"], ["items", "final-horsemans-boots"], ["items", "final-horsemans-cloak"], ["items", "final-horsemans-hood"], ["items", "final-horsemans-scythe"], ["items", "first-horsemans-armor"], ["items", "first-horsemans-boots"], ["items", "first-horsemans-cloak"], ["items", "first-horsemans-hood"], ["items", "first-horsemans-spear"], ["items", "fjalar-mantle"], ["items", "flax44s-monocle"], ["items", "flax44s-shoes"], ["items", "fomoria-plated-boots"], ["items", "fomoria-plated-boots-12aa0ab8"], ["items", "fomoria-plated-boots-8a5bd211"], ["items", "fomoria-plated-boots-b9357c84"], ["items", "fomoria-plated-robe"], ["items", "fomoria-plated-robe-272802ec"], ["items", "fomoria-plated-robe-427f8b42"], ["items", "fomoria-plated-robe-fb3188b6"], ["items", "fomorian-armor"], ["items", "fomorian-boots"], ["items", "fomorian-garb"], ["items", "fomorian-hood"], ["items", "fomorian-leggings"], ["items", "fomorian-robe"], ["items", "fomors-crown"], ["items", "fomors-crown-2cca9537"], ["items", "fomors-crown-d8f79592"], ["items", "fomors-crown-faad302c"], ["items", "footpads-of-dynasty"], ["items", "forest-goat-panflute"], ["items", "forest-goat-staff"], ["items", "gaia-robe"], ["items", "gamma-myrddin-cloak"], ["items", "gamma-myrddin-cowl"], ["items", "gamma-myrddin-hood"], ["items", "gamma-myrddin-robe"], ["items", "gamma-olympia-archistaff"], ["items", "gamma-olympia-boots"], ["items", "gamma-olympia-cowl"], ["items", "gamma-olympia-cuirass"], ["items", "gamma-olympia-garb"], ["items", "gamma-olympia-greaves"], ["items", "gamma-olympia-helmet"], ["items", "gamma-olympia-hood"], ["items", "gamma-olympia-shoes"], ["items", "gamma-olympia-vestment"], ["items", "gamma-olympia-warbow"], ["items", "gamma-olympia-warsword"], ["items", "gerds-chestguard"], ["items", "gerds-headdress"], ["items", "gerds-legwraps"], ["items", "gobannos-heavy-boots"], ["items", "goibhniu-armguard"], ["items", "gradlons-archistaff"], ["items", "grand-attuning-hood"], ["items", "grand-attuning-robe"], ["items", "grand-attuning-shoes"], ["items", "grand-summoners-hood"], ["items", "grand-summoners-robe"], ["items", "grand-summoners-shoes"], ["items", "great-phoenician-boots"], ["items", "great-phoenician-cowl"], ["items", "great-phoenician-cuirass"], ["items", "great-phoenician-garb"], ["items", "great-phoenician-greaves"], ["items", "great-phoenician-helmet"], ["items", "great-phoenician-hood"], ["items", "great-phoenician-robe"], ["items", "great-phoenician-shield"], ["items", "great-phoenician-shoes"], ["items", "greaves-of-dynasty"], ["items", "havels-cuirass"], ["items", "havels-old-cuirass"], ["items", "helmet-of-dynasty"], ["items", "hels-garb"], ["items", "heretics-robe"], ["items", "high-fomorian-armor"], ["items", "high-fomorian-boots"], ["items", "high-fomorian-cowl"], ["items", "high-fomorian-garb"], ["items", "high-fomorian-hood"], ["items", "high-fomorian-leggings"], ["items", "high-fomorian-robe"], ["items", "high-phoenician-boots"], ["items", "high-phoenician-cowl"], ["items", "high-phoenician-cuirass"], ["items", "high-phoenician-garb"], ["items", "high-phoenician-greaves"], ["items", "high-phoenician-helmet"], ["items", "high-phoenician-hood"], ["items", "high-phoenician-robe"], ["items", "high-phoenician-shield"], ["items", "high-phoenician-shoes"], ["items", "hood-of-dynasty"], ["items", "horuss-robe"], ["items", "houserobe-of-dynasty"], ["items", "imagination"], ["items", "imonas-slippers"], ["items", "jesters-outfit"], ["items", "khopesh"], ["items", "leros-hood"], ["items", "magh-meall"], ["items", "menjas-battlerobe"], ["items", "mullos-blinders"], ["items", "nagamaki"], ["items", "niskus-boots"], ["items", "nocturna-crested-shield"], ["items", "north-star"], ["items", "nu-olympia-archistaff"], ["items", "nu-olympia-boots"], ["items", "nu-olympia-cowl"], ["items", "nu-olympia-cuirass"], ["items", "nu-olympia-garb"], ["items", "nu-olympia-greaves"], ["items", "nu-olympia-helmet"], ["items", "nu-olympia-hood"], ["items", "nu-olympia-shoes"], ["items", "nu-olympia-vestment"], ["items", "nu-olympia-warbow"], ["items", "nu-olympia-warsword"], ["items", "ogma"], ["items", "ogmios-satin-robe"], ["items", "omega-myrddin-cloak"], ["items", "omega-myrddin-cowl"], ["items", "omega-myrddin-hood"], ["items", "omega-myrddin-robe"], ["items", "omega-olympia-archistaff"], ["items", "omega-olympia-boots"], ["items", "omega-olympia-cowl"], ["items", "omega-olympia-cuirass"], ["items", "omega-olympia-garb"], ["items", "omega-olympia-greaves"], ["items", "omega-olympia-helmet"], ["items", "omega-olympia-hood"], ["items", "omega-olympia-shoes"], ["items", "omega-olympia-vestment"], ["items", "omega-olympia-warbow"], ["items", "omega-olympia-warsword"], ["items", "phoenician-boots"], ["items", "phoenician-cowl"], ["items", "phoenician-cuirass"], ["items", "phoenician-garb"], ["items", "phoenician-greaves"], ["items", "phoenician-helmet"], ["items", "phoenician-hood"], ["items", "phoenician-robe"], ["items", "phoenician-shield"], ["items", "phoenician-shoes"], ["items", "pizza-stained-apron"], ["items", "psi-olympia-archistaff"], ["items", "psi-olympia-boots"], ["items", "psi-olympia-cowl"], ["items", "psi-olympia-cuirass"], ["items", "psi-olympia-garb"], ["items", "psi-olympia-greaves"], ["items", "psi-olympia-helmet"], ["items", "psi-olympia-hood"], ["items", "psi-olympia-shoes"], ["items", "psi-olympia-vestment"], ["items", "psi-olympia-warbow"], ["items", "psi-olympia-warsword"], ["items", "purrlys-favourite-staff"], ["items", "purrlys-hood"], ["items", "purrlys-less-favourite-staff"], ["items", "purrlys-old-hat"], ["items", "purrlys-old-staff"], ["items", "realmspikes"], ["items", "royal-boots"], ["items", "royal-chestplate"], ["items", "royal-dagger"], ["items", "royal-hood"], ["items", "royal-longbow"], ["items", "royal-shield"], ["items", "runic-boots"], ["items", "runic-hat"], ["items", "runic-robe"], ["items", "sabrinas-cowl"], ["items", "salas-hood"], ["items", "satis"], ["items", "second-horsemans-armor"], ["items", "second-horsemans-boots"], ["items", "second-horsemans-cloak"], ["items", "second-horsemans-hood"], ["items", "second-horsemans-staff"], ["items", "sequanas-chestpiece"], ["items", "sigma-olympia-archistaff"], ["items", "sigma-olympia-boots"], ["items", "sigma-olympia-cowl"], ["items", "sigma-olympia-cuirass"], ["items", "sigma-olympia-garb"], ["items", "sigma-olympia-greaves"], ["items", "sigma-olympia-helmet"], ["items", "sigma-olympia-hood"], ["items", "sigma-olympia-shoes"], ["items", "sigma-olympia-vestment"], ["items", "sigma-olympia-warbow"], ["items", "sigma-olympia-warsword"], ["items", "silver-crossbow"], ["items", "silver-dagger"], ["items", "silver-kris"], ["items", "ski-boots"], ["items", "ski-helmet"], ["items", "ski-suit"], ["items", "spirit-of-the-wood"], ["items", "spiritgarm-grimoire"], ["items", "stonewarg-grimoire"], ["items", "succubus-mantle"], ["items", "summoners-hood"], ["items", "summoners-robe"], ["items", "summoners-shoes"], ["items", "sumner-crested-shield"], ["items", "surtrs-boots"], ["items", "surtrs-cuirass"], ["items", "surtrs-helmet"], ["items", "theta-olympia-archistaff"], ["items", "theta-olympia-boots"], ["items", "theta-olympia-cowl"], ["items", "theta-olympia-cuirass"], ["items", "theta-olympia-garb"], ["items", "theta-olympia-greaves"], ["items", "theta-olympia-helmet"], ["items", "theta-olympia-hood"], ["items", "theta-olympia-shoes"], ["items", "theta-olympia-vestment"], ["items", "theta-olympia-warbow"], ["items", "theta-olympia-warsword"], ["items", "third-horsemans-armor"], ["items", "third-horsemans-boots"], ["items", "third-horsemans-cloak"], ["items", "third-horsemans-gada"], ["items", "third-horsemans-hood"], ["items", "top-hat"], ["items", "toque-blanche"], ["items", "vulcan-boots"], ["items", "vulcan-buckler"], ["items", "vulcan-cuirass"], ["items", "vulcan-helmet"], ["items", "wintara-crested-shield"], ["items", "xi-olympia-archistaff"], ["items", "xi-olympia-boots"], ["items", "xi-olympia-cowl"], ["items", "xi-olympia-cuirass"], ["items", "xi-olympia-garb"], ["items", "xi-olympia-greaves"], ["items", "xi-olympia-helmet"], ["items", "xi-olympia-hood"], ["items", "xi-olympia-shoes"], ["items", "xi-olympia-vestment"], ["items", "xi-olympia-warbow"], ["items", "xi-olympia-warsword"], ["items", "yeti-mightycoat"], ["items", "zeta-myrddin-cloak"], ["items", "zeta-myrddin-cowl"], ["items", "zeta-myrddin-hood"], ["items", "zeta-myrddin-robe"], ["items", "zeta-olympia-archistaff"], ["items", "zeta-olympia-boots"], ["items", "zeta-olympia-cowl"], ["items", "zeta-olympia-cuirass"], ["items", "zeta-olympia-garb"], ["items", "zeta-olympia-greaves"], ["items", "zeta-olympia-helmet"], ["items", "zeta-olympia-hood"], ["items", "zeta-olympia-shoes"], ["items", "zeta-olympia-vestment"], ["items", "zeta-olympia-warbow"], ["items", "zeta-olympia-warsword"]]
+sources = [["items", "aaru-armor"], ["items", "aaru-boots"], ["items", "aaru-garb"], ["items", "aaru-headwrap"], ["items", "aaru-helmet"], ["items", "aaru-hood"], ["items", "aaru-leggings"], ["items", "aaru-robe"], ["items", "aaru-skirt"], ["items", "acolyte-hood"], ["items", "acolyte-robe"], ["items", "acolyte-shoes"], ["items", "acolyte-staff"], ["items", "aengus-ogs-lute"], ["items", "alpha-myrddin-cloak"], ["items", "alpha-myrddin-cowl"], ["items", "alpha-myrddin-hood"], ["items", "alpha-myrddin-robe"], ["items", "alpha-olympia-archistaff"], ["items", "alpha-olympia-boots"], ["items", "alpha-olympia-cowl"], ["items", "alpha-olympia-cuirass"], ["items", "alpha-olympia-garb"], ["items", "alpha-olympia-greaves"], ["items", "alpha-olympia-helmet"], ["items", "alpha-olympia-hood"], ["items", "alpha-olympia-shoes"], ["items", "alpha-olympia-vestment"], ["items", "alpha-olympia-warbow"], ["items", "alpha-olympia-warsword"], ["items", "arcane-arrows"], ["items", "arcane-boots"], ["items", "arcane-hat"], ["items", "arcane-robe"], ["items", "arcane-wand"], ["items", "argos"], ["items", "arisen-aaru-armor"], ["items", "arisen-aaru-boots"], ["items", "arisen-aaru-garb"], ["items", "arisen-aaru-headwrap"], ["items", "arisen-aaru-helmet"], ["items", "arisen-aaru-hood"], ["items", "arisen-aaru-leggings"], ["items", "arisen-aaru-robe"], ["items", "arisen-aaru-skirt"], ["items", "arisen-bloodwarg-grimoire"], ["items", "arisen-cursed-aengus-ogs-lute"], ["items", "arisen-cursed-artios-hide"], ["items", "arisen-cursed-atepomarus-mail"], ["items", "arisen-cursed-autumna-crested-shield"], ["items", "arisen-cursed-belenuss-boots"], ["items", "arisen-cursed-bormanas-mantle"], ["items", "arisen-cursed-caticatona-cuirass"], ["items", "arisen-cursed-caturixs-robe"], ["items", "arisen-cursed-clotas-garb"], ["items", "arisen-cursed-damonas-shield"], ["items", "arisen-cursed-eostres-circlet"], ["items", "arisen-cursed-esuss-pillar"], ["items", "arisen-cursed-fomoria-plated-boots"], ["items", "arisen-cursed-fomoria-plated-boots-4de3e61d"], ["items", "arisen-cursed-fomoria-plated-boots-56e4841c"], ["items", "arisen-cursed-fomoria-plated-boots-b2c283ff"], ["items", "arisen-cursed-fomoria-plated-robe"], ["items", "arisen-cursed-fomoria-plated-robe-954d6525"], ["items", "arisen-cursed-fomoria-plated-robe-9a5a1cdd"], ["items", "arisen-cursed-fomoria-plated-robe-d5d338d8"], ["items", "arisen-cursed-fomors-crown"], ["items", "arisen-cursed-fomors-crown-2cb9b4e6"], ["items", "arisen-cursed-fomors-crown-3a4a918b"], ["items", "arisen-cursed-fomors-crown-612a024c"], ["items", "arisen-cursed-gobannos-heavy-boots"], ["items", "arisen-cursed-goibhniu-armguard"], ["items", "arisen-cursed-imonas-slippers"], ["items", "arisen-cursed-leros-hood"], ["items", "arisen-cursed-mullos-blinders"], ["items", "arisen-cursed-niskus-boots"], ["items", "arisen-cursed-nocturna-crested-shield"], ["items", "arisen-cursed-ogmios-satin-robe"], ["items", "arisen-cursed-sabrinas-cowl"], ["items", "arisen-cursed-sequanas-chestpiece"], ["items", "arisen-cursed-sumner-crested-shield"], ["items", "arisen-cursed-wintara-crested-shield"], ["items", "arisen-gerds-chestguard"], ["items", "arisen-gerds-headdress"], ["items", "arisen-gerds-legwraps"], ["items", "arisen-imagination"], ["items", "arisen-khopesh"], ["items", "arisen-manablades"], ["items", "arisen-menjas-battlerobe"], ["items", "arisen-nagamaki"], ["items", "arisen-north-star"], ["items", "arisen-satis"], ["items", "arisen-shadeblades"], ["items", "arisen-spiritgarm-grimoire"], ["items", "arisen-stonewarg-grimoire"], ["items", "arisen-surtrs-boots"], ["items", "arisen-surtrs-cuirass"], ["items", "arisen-surtrs-helmet"], ["items", "arisen-top-hat"], ["items", "artios-hide"], ["items", "ash-plumed-boots"], ["items", "ash-plumed-cowl"], ["items", "ash-plumed-cuirass"], ["items", "ash-plumed-garb"], ["items", "ash-plumed-greaves"], ["items", "ash-plumed-helmet"], ["items", "ash-plumed-hood"], ["items", "ash-plumed-robe"], ["items", "ash-plumed-shoes"], ["items", "ashen-phoenician-boots"], ["items", "ashen-phoenician-cowl"], ["items", "ashen-phoenician-cuirass"], ["items", "ashen-phoenician-garb"], ["items", "ashen-phoenician-greaves"], ["items", "ashen-phoenician-helmet"], ["items", "ashen-phoenician-hood"], ["items", "ashen-phoenician-robe"], ["items", "ashen-phoenician-shield"], ["items", "ashen-phoenician-shoes"], ["items", "atepomarus-mail"], ["items", "attuning-hood"], ["items", "attuning-robe"], ["items", "attuning-shoes"], ["items", "autumna-crested-shield"], ["items", "balor-robe"], ["items", "belenuss-boots"], ["items", "beta-myrddin-cloak"], ["items", "beta-myrddin-cowl"], ["items", "beta-myrddin-hood"], ["items", "beta-myrddin-robe"], ["items", "bloodwarg-grimoire"], ["items", "bormanas-mantle"], ["items", "bow-of-diana"], ["items", "caladbolg"], ["items", "candle-pike"], ["items", "candle-staff"], ["items", "caticatona-cuirass"], ["items", "caturixs-robe"], ["items", "chained-shadeblades"], ["items", "chained-shadowblades"], ["items", "chef-pants"], ["items", "chestguard-of-dynasty"], ["items", "chimera-stacatto"], ["items", "clogs-of-dynasty"], ["items", "clotas-garb"], ["items", "cockatrice-mail"], ["items", "counts-garment"], ["items", "counts-hood"], ["items", "court-jesters-outfit"], ["items", "covyns-soul-hunt-scythe"], ["items", "cowl-of-dynasty"], ["items", "crook-and-flail"], ["items", "cuirass-of-dynasty"], ["items", "cursed-aengus-ogs-lute"], ["items", "cursed-artios-hide"], ["items", "cursed-atepomarus-mail"], ["items", "cursed-autumna-crested-shield"], ["items", "cursed-belenuss-boots"], ["items", "cursed-bormanas-mantle"], ["items", "cursed-caticatona-cuirass"], ["items", "cursed-caturixs-robe"], ["items", "cursed-clotas-garb"], ["items", "cursed-damonas-shield"], ["items", "cursed-eostres-circlet"], ["items", "cursed-esuss-pillar"], ["items", "cursed-fomoria-plated-boots"], ["items", "cursed-fomoria-plated-boots-0ebf6063"], ["items", "cursed-fomoria-plated-boots-7a9f5efc"], ["items", "cursed-fomoria-plated-boots-e03e2c7a"], ["items", "cursed-fomoria-plated-robe"], ["items", "cursed-fomoria-plated-robe-5d09a4d7"], ["items", "cursed-fomoria-plated-robe-62b00ff5"], ["items", "cursed-fomoria-plated-robe-858bfe6c"], ["items", "cursed-fomors-crown"], ["items", "cursed-fomors-crown-440afac8"], ["items", "cursed-fomors-crown-af8c4b7d"], ["items", "cursed-fomors-crown-e4efc526"], ["items", "cursed-gobannos-heavy-boots"], ["items", "cursed-goibhniu-armguard"], ["items", "cursed-imonas-slippers"], ["items", "cursed-leros-hood"], ["items", "cursed-mullos-blinders"], ["items", "cursed-niskus-boots"], ["items", "cursed-nocturna-crested-shield"], ["items", "cursed-ogmios-satin-robe"], ["items", "cursed-sabrinas-cowl"], ["items", "cursed-sequanas-chestpiece"], ["items", "cursed-sumner-crested-shield"], ["items", "cursed-wintara-crested-shield"], ["items", "dalans-hood"], ["items", "damonas-shield"], ["items", "dangys-arisen-glasses"], ["items", "dangys-fancy-t-shirt"], ["items", "delta-myrddin-cloak"], ["items", "delta-myrddin-cowl"], ["items", "delta-myrddin-hood"], ["items", "delta-myrddin-robe"], ["items", "delta-olympia-archistaff"], ["items", "delta-olympia-boots"], ["items", "delta-olympia-cowl"], ["items", "delta-olympia-cuirass"], ["items", "delta-olympia-garb"], ["items", "delta-olympia-greaves"], ["items", "delta-olympia-helmet"], ["items", "delta-olympia-hood"], ["items", "delta-olympia-shoes"], ["items", "delta-olympia-vestment"], ["items", "delta-olympia-warbow"], ["items", "delta-olympia-warsword"], ["items", "distorted-manablades"], ["items", "eastern-regalia"], ["items", "ebon-north-star"], ["items", "ebon-top-hat"], ["items", "elite-balor-robe"], ["items", "elite-fomorian-armor"], ["items", "elite-fomorian-boots"], ["items", "elite-fomorian-cowl"], ["items", "elite-fomorian-garb"], ["items", "elite-fomorian-hood"], ["items", "elite-fomorian-leggings"], ["items", "elite-fomorian-robe"], ["items", "ember-plumed-boots"], ["items", "ember-plumed-cowl"], ["items", "ember-plumed-cuirass"], ["items", "ember-plumed-garb"], ["items", "ember-plumed-greaves"], ["items", "ember-plumed-helmet"], ["items", "ember-plumed-hood"], ["items", "ember-plumed-robe"], ["items", "ember-plumed-shoes"], ["items", "eostres-circlet"], ["items", "esuss-pillar"], ["items", "excalibur-eec7bf3e"], ["items", "fey-arrows"], ["items", "fey-bloodwarg-grimoire"], ["items", "fey-dragon-armor"], ["items", "fey-dragon-boots"], ["items", "fey-dragon-chestmail"], ["items", "fey-dragon-cowl"], ["items", "fey-dragon-helmet"], ["items", "fey-dragon-hood"], ["items", "fey-dragon-leggings"], ["items", "fey-dragon-mages-boots"], ["items", "fey-dragon-robe"], ["items", "fey-gerds-chestguard"], ["items", "fey-gerds-headdress"], ["items", "fey-gerds-legwraps"], ["items", "fey-menjas-battlerobe"], ["items", "fey-spiritgarm-grimoire"], ["items", "fey-stonewarg-grimoire"], ["items", "fey-surtrs-boots"], ["items", "fey-surtrs-cuirass"], ["items", "fey-surtrs-helmet"], ["items", "fey-yeti-coat"], ["items", "final-horsemans-armor"], ["items", "final-horsemans-boots"], ["items", "final-horsemans-cloak"], ["items", "final-horsemans-hood"], ["items", "final-horsemans-scythe"], ["items", "first-horsemans-armor"], ["items", "first-horsemans-boots"], ["items", "first-horsemans-cloak"], ["items", "first-horsemans-hood"], ["items", "first-horsemans-spear"], ["items", "fjalar-mantle"], ["items", "flax44s-monocle"], ["items", "flax44s-shoes"], ["items", "fomoria-plated-boots"], ["items", "fomoria-plated-boots-12aa0ab8"], ["items", "fomoria-plated-boots-8a5bd211"], ["items", "fomoria-plated-boots-b9357c84"], ["items", "fomoria-plated-robe"], ["items", "fomoria-plated-robe-272802ec"], ["items", "fomoria-plated-robe-427f8b42"], ["items", "fomoria-plated-robe-fb3188b6"], ["items", "fomorian-armor"], ["items", "fomorian-boots"], ["items", "fomorian-garb"], ["items", "fomorian-hood"], ["items", "fomorian-leggings"], ["items", "fomorian-robe"], ["items", "fomors-crown"], ["items", "fomors-crown-2cca9537"], ["items", "fomors-crown-d8f79592"], ["items", "fomors-crown-faad302c"], ["items", "footpads-of-dynasty"], ["items", "forest-goat-panflute"], ["items", "forest-goat-staff"], ["items", "gaia-robe"], ["items", "gamma-myrddin-cloak"], ["items", "gamma-myrddin-cowl"], ["items", "gamma-myrddin-hood"], ["items", "gamma-myrddin-robe"], ["items", "gamma-olympia-archistaff"], ["items", "gamma-olympia-boots"], ["items", "gamma-olympia-cowl"], ["items", "gamma-olympia-cuirass"], ["items", "gamma-olympia-garb"], ["items", "gamma-olympia-greaves"], ["items", "gamma-olympia-helmet"], ["items", "gamma-olympia-hood"], ["items", "gamma-olympia-shoes"], ["items", "gamma-olympia-vestment"], ["items", "gamma-olympia-warbow"], ["items", "gamma-olympia-warsword"], ["items", "gerds-chestguard"], ["items", "gerds-headdress"], ["items", "gerds-legwraps"], ["items", "gobannos-heavy-boots"], ["items", "goibhniu-armguard"], ["items", "gradlons-archistaff"], ["items", "grand-attuning-hood"], ["items", "grand-attuning-robe"], ["items", "grand-attuning-shoes"], ["items", "grand-summoners-hood"], ["items", "grand-summoners-robe"], ["items", "grand-summoners-shoes"], ["items", "great-phoenician-boots"], ["items", "great-phoenician-cowl"], ["items", "great-phoenician-cuirass"], ["items", "great-phoenician-garb"], ["items", "great-phoenician-greaves"], ["items", "great-phoenician-helmet"], ["items", "great-phoenician-hood"], ["items", "great-phoenician-robe"], ["items", "great-phoenician-shield"], ["items", "great-phoenician-shoes"], ["items", "greaves-of-dynasty"], ["items", "havels-cuirass"], ["items", "havels-old-cuirass"], ["items", "helmet-of-dynasty"], ["items", "hels-garb"], ["items", "heretics-robe"], ["items", "high-fomorian-armor"], ["items", "high-fomorian-boots"], ["items", "high-fomorian-cowl"], ["items", "high-fomorian-garb"], ["items", "high-fomorian-hood"], ["items", "high-fomorian-leggings"], ["items", "high-fomorian-robe"], ["items", "high-phoenician-boots"], ["items", "high-phoenician-cowl"], ["items", "high-phoenician-cuirass"], ["items", "high-phoenician-garb"], ["items", "high-phoenician-greaves"], ["items", "high-phoenician-helmet"], ["items", "high-phoenician-hood"], ["items", "high-phoenician-robe"], ["items", "high-phoenician-shield"], ["items", "high-phoenician-shoes"], ["items", "hood-of-dynasty"], ["items", "horuss-robe"], ["items", "houserobe-of-dynasty"], ["items", "imagination"], ["items", "imonas-slippers"], ["items", "jesters-outfit"], ["items", "khopesh"], ["items", "leros-hood"], ["items", "magh-meall"], ["items", "menjas-battlerobe"], ["items", "mullos-blinders"], ["items", "nagamaki"], ["items", "niskus-boots"], ["items", "nocturna-crested-shield"], ["items", "north-star"], ["items", "nu-olympia-archistaff"], ["items", "nu-olympia-boots"], ["items", "nu-olympia-cowl"], ["items", "nu-olympia-cuirass"], ["items", "nu-olympia-garb"], ["items", "nu-olympia-greaves"], ["items", "nu-olympia-helmet"], ["items", "nu-olympia-hood"], ["items", "nu-olympia-shoes"], ["items", "nu-olympia-vestment"], ["items", "nu-olympia-warbow"], ["items", "nu-olympia-warsword"], ["items", "ogma"], ["items", "ogmios-satin-robe"], ["items", "omega-myrddin-cloak"], ["items", "omega-myrddin-cowl"], ["items", "omega-myrddin-hood"], ["items", "omega-myrddin-robe"], ["items", "omega-olympia-archistaff"], ["items", "omega-olympia-boots"], ["items", "omega-olympia-cowl"], ["items", "omega-olympia-cuirass"], ["items", "omega-olympia-garb"], ["items", "omega-olympia-greaves"], ["items", "omega-olympia-helmet"], ["items", "omega-olympia-hood"], ["items", "omega-olympia-shoes"], ["items", "omega-olympia-vestment"], ["items", "omega-olympia-warbow"], ["items", "omega-olympia-warsword"], ["items", "phoenician-boots"], ["items", "phoenician-cowl"], ["items", "phoenician-cuirass"], ["items", "phoenician-garb"], ["items", "phoenician-greaves"], ["items", "phoenician-helmet"], ["items", "phoenician-hood"], ["items", "phoenician-robe"], ["items", "phoenician-shield"], ["items", "phoenician-shoes"], ["items", "pizza-stained-apron"], ["items", "psi-olympia-archistaff"], ["items", "psi-olympia-boots"], ["items", "psi-olympia-cowl"], ["items", "psi-olympia-cuirass"], ["items", "psi-olympia-garb"], ["items", "psi-olympia-greaves"], ["items", "psi-olympia-helmet"], ["items", "psi-olympia-hood"], ["items", "psi-olympia-shoes"], ["items", "psi-olympia-vestment"], ["items", "psi-olympia-warbow"], ["items", "psi-olympia-warsword"], ["items", "purrlys-favourite-staff"], ["items", "purrlys-hood"], ["items", "purrlys-less-favourite-staff"], ["items", "purrlys-old-hat"], ["items", "purrlys-old-staff"], ["items", "realmspikes"], ["items", "royal-boots"], ["items", "royal-chestplate"], ["items", "royal-dagger"], ["items", "royal-hood"], ["items", "royal-longbow"], ["items", "royal-shield"], ["items", "runic-boots"], ["items", "runic-hat"], ["items", "runic-robe"], ["items", "sabrinas-cowl"], ["items", "salas-hood"], ["items", "satis"], ["items", "second-horsemans-armor"], ["items", "second-horsemans-boots"], ["items", "second-horsemans-cloak"], ["items", "second-horsemans-hood"], ["items", "second-horsemans-staff"], ["items", "sequanas-chestpiece"], ["items", "sigma-olympia-archistaff"], ["items", "sigma-olympia-boots"], ["items", "sigma-olympia-cowl"], ["items", "sigma-olympia-cuirass"], ["items", "sigma-olympia-garb"], ["items", "sigma-olympia-greaves"], ["items", "sigma-olympia-helmet"], ["items", "sigma-olympia-hood"], ["items", "sigma-olympia-shoes"], ["items", "sigma-olympia-vestment"], ["items", "sigma-olympia-warbow"], ["items", "sigma-olympia-warsword"], ["items", "silver-crossbow"], ["items", "silver-dagger"], ["items", "silver-kris"], ["items", "ski-boots"], ["items", "ski-helmet"], ["items", "ski-suit"], ["items", "spirit-of-the-wood"], ["items", "spiritgarm-grimoire"], ["items", "stonewarg-grimoire"], ["items", "succubus-mantle"], ["items", "summoners-hood"], ["items", "summoners-robe"], ["items", "summoners-shoes"], ["items", "sumner-crested-shield"], ["items", "surtrs-boots"], ["items", "surtrs-cuirass"], ["items", "surtrs-helmet"], ["items", "theta-olympia-archistaff"], ["items", "theta-olympia-boots"], ["items", "theta-olympia-cowl"], ["items", "theta-olympia-cuirass"], ["items", "theta-olympia-garb"], ["items", "theta-olympia-greaves"], ["items", "theta-olympia-helmet"], ["items", "theta-olympia-hood"], ["items", "theta-olympia-shoes"], ["items", "theta-olympia-vestment"], ["items", "theta-olympia-warbow"], ["items", "theta-olympia-warsword"], ["items", "third-horsemans-armor"], ["items", "third-horsemans-boots"], ["items", "third-horsemans-cloak"], ["items", "third-horsemans-gada"], ["items", "third-horsemans-hood"], ["items", "top-hat"], ["items", "toque-blanche"], ["items", "vulcan-boots"], ["items", "vulcan-buckler"], ["items", "vulcan-cuirass"], ["items", "vulcan-helmet"], ["items", "wintara-crested-shield"], ["items", "xi-olympia-archistaff"], ["items", "xi-olympia-boots"], ["items", "xi-olympia-cowl"], ["items", "xi-olympia-cuirass"], ["items", "xi-olympia-garb"], ["items", "xi-olympia-greaves"], ["items", "xi-olympia-helmet"], ["items", "xi-olympia-hood"], ["items", "xi-olympia-shoes"], ["items", "xi-olympia-vestment"], ["items", "xi-olympia-warbow"], ["items", "xi-olympia-warsword"], ["items", "yeti-mightycoat"], ["items", "zeta-myrddin-cloak"], ["items", "zeta-myrddin-cowl"], ["items", "zeta-myrddin-hood"], ["items", "zeta-myrddin-robe"], ["items", "zeta-olympia-archistaff"], ["items", "zeta-olympia-boots"], ["items", "zeta-olympia-cowl"], ["items", "zeta-olympia-cuirass"], ["items", "zeta-olympia-garb"], ["items", "zeta-olympia-greaves"], ["items", "zeta-olympia-helmet"], ["items", "zeta-olympia-hood"], ["items", "zeta-olympia-shoes"], ["items", "zeta-olympia-vestment"], ["items", "zeta-olympia-warbow"], ["items", "zeta-olympia-warsword"]]
 tags = ["found_in_shops", "found_in_chests"]
 tier = 1
 useable_by = "all_classes"
@@ -62080,7 +62490,7 @@ icon = "/img/materials/wolf_blood.png"
 id = "wolfs-blood"
 item_type = "material"
 rarity = "rare"
-sources = [["items", "arisen-feral-archistaff"], ["items", "arisen-feral-claws"], ["items", "arisen-feral-hood"], ["items", "arisen-feral-warsword"], ["items", "arisen-kerberos-claws"], ["items", "arisen-kerberos-hood"], ["items", "arisen-kerberos-staff"], ["items", "arisen-kerberos-sword"], ["items", "arisen-staff-of-wolves"], ["items", "arisen-wolfbane"], ["items", "arisen-wolven-tower-shield"], ["items", "chimera-stacatto"], ["items", "feral-archistaff"], ["items", "feral-claws"], ["items", "feral-hood"], ["items", "feral-warsword"], ["items", "hiltless"], ["items", "kerberos-archistaff"], ["items", "kerberos-claws"], ["items", "kerberos-claws-e7f61ea1"], ["items", "kerberos-greatsword"], ["items", "kerberos-hood"], ["items", "kerberos-hood-a1f843d0"], ["items", "kerberos-staff"], ["items", "kerberos-staff-23282b8f"], ["items", "kerberos-sword"], ["items", "kerberos-sword-fa67ff37"], ["items", "kerberos-veil"], ["items", "sharpened-kerberos-claws"], ["items", "staff-of-wolves"], ["items", "wolfbane"], ["items", "wolven-tower-shield"]]
+sources = [["items", "arisen-feral-archistaff"], ["items", "arisen-feral-claws"], ["items", "arisen-feral-hood"], ["items", "arisen-feral-warsword"], ["items", "arisen-kerberos-claws"], ["items", "arisen-kerberos-hood"], ["items", "arisen-kerberos-staff"], ["items", "arisen-kerberos-sword"], ["items", "arisen-staff-of-wolves"], ["items", "arisen-wolfbane"], ["items", "arisen-wolven-tower-shield"], ["items", "chimera-stacatto"], ["items", "feral-archistaff"], ["items", "feral-claws"], ["items", "feral-hood"], ["items", "feral-warsword"], ["items", "hiltless"], ["items", "kerberos-archistaff"], ["items", "kerberos-claws"], ["items", "kerberos-claws-81b67c8d"], ["items", "kerberos-greatsword"], ["items", "kerberos-hood"], ["items", "kerberos-hood-a1f843d0"], ["items", "kerberos-staff"], ["items", "kerberos-staff-23282b8f"], ["items", "kerberos-sword"], ["items", "kerberos-sword-fa67ff37"], ["items", "kerberos-veil"], ["items", "sharpened-kerberos-claws"], ["items", "staff-of-wolves"], ["items", "wolfbane"], ["items", "wolven-tower-shield"]]
 tier = 3
 useable_by = "all_classes"
 
@@ -65108,7 +65518,7 @@ tier = 9
 
 [main.monsters.elite-fomorian-mage]
 category = "monsters"
-drops = [["items", "elite-fomorian-hood"], ["items", "elite-fomorian-robe"], ["items", "elite-fomorian-staff"]]
+drops = [["items", "elite-fomorian-boots"], ["items", "elite-fomorian-hood"], ["items", "elite-fomorian-robe"], ["items", "elite-fomorian-staff"]]
 family = "balor_forces"
 icon = "/img/monsters/elite_fomorian_mage.png"
 id = "elite-fomorian-mage"
@@ -65722,7 +66132,7 @@ tier = 4
 
 [main.monsters.follower-of-kerberos]
 category = "monsters"
-drops = [["items", "kerberos-claws"], ["items", "kerberos-sword-fa67ff37"], ["items", "red-eye-of-kerberos"]]
+drops = [["items", "kerberos-claws-81b67c8d"], ["items", "kerberos-sword-fa67ff37"], ["items", "red-eye-of-kerberos"]]
 events = ["beastfelled"]
 family = "animal"
 icon = "/img/packs/kerberos/3_f.png"
@@ -65744,7 +66154,7 @@ tier = 9
 
 [main.monsters.follower-of-kerberos-ac5dc474]
 category = "monsters"
-drops = [["items", "blue-eye-of-kerberos"], ["items", "kerberos-claws"], ["items", "kerberos-sword-fa67ff37"]]
+drops = [["items", "blue-eye-of-kerberos"], ["items", "kerberos-claws-81b67c8d"], ["items", "kerberos-sword-fa67ff37"]]
 events = ["beastfelled"]
 family = "animal"
 icon = "/img/packs/kerberos/2_m.png"
@@ -65820,7 +66230,7 @@ tier = 6
 
 [main.monsters.fomorian-mage]
 category = "monsters"
-drops = [["items", "fomorian-hood"], ["items", "fomorian-robe"], ["items", "fomorian-staff"], ["items", "great-monster-tome"]]
+drops = [["items", "fomorian-boots"], ["items", "fomorian-hood"], ["items", "fomorian-robe"], ["items", "fomorian-staff"], ["items", "great-monster-tome"]]
 family = "balor_forces"
 icon = "/img/monsters/fomorian_mage.png"
 id = "fomorian-mage"
@@ -66486,12 +66896,12 @@ tier = 7
 
 [main.monsters.high-fomorian-mage]
 category = "monsters"
-drops = [["items", "mythril"], ["items", "high-fomorian-hood"], ["items", "high-fomorian-robe"], ["items", "high-fomorian-staff"]]
+drops = [["items", "mythril"], ["items", "high-fomorian-boots"], ["items", "high-fomorian-hood"], ["items", "high-fomorian-robe"], ["items", "high-fomorian-staff"]]
 family = "balor_forces"
 icon = "/img/monsters/high_fomorian_mage.png"
 id = "high-fomorian-mage"
 rarity = "common"
-skills = [["spells", "meteor"], ["spells", "blizzard"], ["spells", "storm"], ["spells", "quake"], ["spells", "blast-ii"], ["spells", "flare"]]
+skills = [["spells", "blizzard"], ["spells", "meteor"], ["spells", "quake"], ["spells", "storm"], ["spells", "blast-ii"], ["spells", "flare"]]
 tier = 7
 
 [main.monsters.hobgoblin]
@@ -67412,7 +67822,7 @@ tier = 8
 
 [main.monsters.raven]
 category = "monsters"
-drops = [["items", "hide"]]
+drops = [["items", "hide"], ["items", "ravens-feathers"]]
 family = "animal"
 icon = "/img/monsters/raven.png"
 id = "raven"
@@ -68463,7 +68873,7 @@ tier = 3
 
 [main.raids.age-old-mimic]
 category = "raids"
-drops = [["items", "occult-candle"], ["items", "skeleton-key"], ["items", "berserk-mushroom"], ["items", "everlasting-torch"], ["items", "affinity-candle"], ["items", "age-old-mimic-head"], ["items", "arch-gadget"], ["items", "arch-gizmo"], ["items", "contraption"], ["items", "dawnbreaker"], ["items", "dawnbreaker-29962248"], ["items", "dawnbreaker-93ca602e"], ["items", "excalibur"], ["items", "ring-of-dawn"], ["items", "ring-of-day"]]
+drops = [["items", "occult-candle"], ["items", "skeleton-key"], ["items", "berserk-mushroom"], ["items", "everlasting-torch"], ["items", "affinity-candle"], ["items", "age-old-mimic-head"], ["items", "arch-gadget"], ["items", "arch-gizmo"], ["items", "contraption"], ["items", "dawnbreaker"], ["items", "dawnbreaker-29962248"], ["items", "dawnbreaker-93ca602e"], ["items", "excalibur-eec7bf3e"], ["items", "ring-of-dawn"], ["items", "ring-of-day"]]
 events = ["the_mimics_are_loose"]
 hp = 3000000
 icon = "/img/monsters/ancient_mimic.png"
@@ -68884,6 +69294,16 @@ id = "beguiled-apollyon-x"
 skills = [["spells", "annihilation"], ["spells", "arcane-strikes-iii"], ["spells", "refract"], ["spells", "swordplay-iii"], ["spells", "magic-dagger-iv"], ["spells", "magic-hammer-iv"], ["spells", "magic-strikes-iv"], ["spells", "magic-sword-iv"], ["spells", "omnistrikes-ii"], ["spells", "verse-iii"]]
 tier = 10
 
+[main.raids.beguiled-apollyon-y]
+category = "raids"
+drops = [["items", "beguiled-armor-y"], ["items", "beguiled-axe-y"], ["items", "beguiled-blade-y"], ["items", "beguiled-boots-y"], ["items", "beguiled-cowl-y"], ["items", "beguiled-garb-y"], ["items", "beguiled-heavy-boots-y"], ["items", "beguiled-helmet-y"], ["items", "beguiled-hood-y"], ["items", "beguiled-lute-y"], ["items", "beguiled-mystic-katar-y"], ["items", "beguiled-quarterstaff-y"], ["items", "beguiled-robe-y"], ["items", "beguiled-shoes-y"], ["items", "beguiled-staff-y"]]
+events = ["the_plight_of_apollyon"]
+hp = 11925000
+icon = "/img/bosses/apollyon_spirit_green.png"
+id = "beguiled-apollyon-y"
+skills = [["spells", "annihilation"], ["spells", "arcane-strikes-iii"], ["spells", "refract"], ["spells", "swordplay-iii"], ["spells", "magic-dagger-iv"], ["spells", "magic-hammer-iv"], ["spells", "magic-strikes-iv"], ["spells", "magic-sword-iv"], ["spells", "omnistrikes-ii"], ["spells", "verse-iii"]]
+tier = 10
+
 [main.raids.cerus]
 category = "raids"
 drops = [["items", "arena-token"], ["items", "exp-potion"], ["items", "attack-tonic"], ["items", "monster-remains"], ["items", "skeleton-key"], ["items", "greater-attack-tonic"], ["items", "greater-magic-tonic"], ["items", "affinity-candle"], ["items", "belt-of-cerus"], ["items", "bulls-eye"], ["items", "horned-armor"], ["items", "horned-helmet"], ["items", "horned-hood"], ["items", "raging-bull"], ["items", "untamed-bull"]]
@@ -68971,7 +69391,7 @@ tier = 7
 
 [main.raids.fallen-king-arthus]
 category = "raids"
-drops = [["items", "exp-potion"], ["items", "affinity-candle"], ["items", "avalon-armor"], ["items", "avalon-crown"], ["items", "avalon-helmet"], ["items", "avalon-leggings"], ["items", "avalon-melody"], ["items", "avalon-ore"], ["items", "cowards-blade"], ["items", "cowards-boots"], ["items", "cowards-cloak"], ["items", "cowards-cowl"], ["items", "crest-of-avalon"], ["items", "excalibur-32be53bc"], ["items", "jewel-of-avalon"], ["items", "kings-boots"], ["items", "kings-hood"], ["items", "kings-robe"], ["items", "rhongomiant"]]
+drops = [["items", "exp-potion"], ["items", "affinity-candle"], ["items", "avalon-armor"], ["items", "avalon-crown"], ["items", "avalon-helmet"], ["items", "avalon-leggings"], ["items", "avalon-melody"], ["items", "avalon-ore"], ["items", "cowards-blade"], ["items", "cowards-boots"], ["items", "cowards-cloak"], ["items", "cowards-cowl"], ["items", "crest-of-avalon"], ["items", "excalibur"], ["items", "jewel-of-avalon"], ["items", "kings-boots"], ["items", "kings-hood"], ["items", "kings-robe"], ["items", "rhongomiant"]]
 hp = 4860000
 icon = "/img/bosses/king_arthus.png"
 id = "fallen-king-arthus"
@@ -69561,7 +69981,7 @@ tier = 9
 
 [main.raids.the-fool]
 category = "raids"
-drops = [["items", "arena-token"], ["items", "attack-tonic"], ["items", "defense-tonic"], ["items", "magic-defense-tonic"], ["items", "ring-of-restraint"], ["items", "dioscuri-mead"], ["items", "skeleton-key"], ["items", "speed-tonic"], ["items", "strangers-gift"], ["items", "affinity-candle"], ["items", "arch-gadget"], ["items", "arch-gizmo"], ["items", "bag-of-treats"], ["items", "bag-of-tricks"], ["items", "candy-cane"], ["items", "caroling-lute"], ["items", "dioscuri-magic-ring"], ["items", "dioscuri-ring"], ["items", "excalibur"], ["items", "north-star"], ["items", "presents"], ["items", "ring-of-dawn"], ["items", "ring-of-day"], ["items", "ring-of-night"], ["items", "surtrs-sword"], ["items", "top-hat"], ["items", "arisen-fairys-ring"], ["items", "vulcans-brew"], ["items", "clurichaun-arrows"], ["items", "high-phoenixsong"], ["items", "lady-of-the-lake"], ["items", "ring-of-dusk"], ["items", "vulcan-buckler"], ["items", "vulcan-charm"], ["items", "arisen-kings-crown"], ["items", "ortanite"], ["items", "finesses-enchanted-epee"], ["items", "finesses-greatsword"], ["items", "finesses-katana"], ["items", "finesses-shotel"], ["items", "old-hallowed-blade"]]
+drops = [["items", "arena-token"], ["items", "attack-tonic"], ["items", "defense-tonic"], ["items", "magic-defense-tonic"], ["items", "ring-of-restraint"], ["items", "dioscuri-mead"], ["items", "skeleton-key"], ["items", "speed-tonic"], ["items", "strangers-gift"], ["items", "affinity-candle"], ["items", "arch-gadget"], ["items", "arch-gizmo"], ["items", "bag-of-treats"], ["items", "bag-of-tricks"], ["items", "candy-cane"], ["items", "caroling-lute"], ["items", "dioscuri-magic-ring"], ["items", "dioscuri-ring"], ["items", "excalibur-eec7bf3e"], ["items", "north-star"], ["items", "presents"], ["items", "ring-of-dawn"], ["items", "ring-of-day"], ["items", "ring-of-night"], ["items", "surtrs-sword"], ["items", "top-hat"], ["items", "arisen-fairys-ring"], ["items", "vulcans-brew"], ["items", "clurichaun-arrows"], ["items", "high-phoenixsong"], ["items", "lady-of-the-lake"], ["items", "ring-of-dusk"], ["items", "vulcan-buckler"], ["items", "vulcan-charm"], ["items", "arisen-kings-crown"], ["items", "ortanite"], ["items", "finesses-enchanted-epee"], ["items", "finesses-greatsword"], ["items", "finesses-katana"], ["items", "finesses-shotel"], ["items", "old-hallowed-blade"]]
 events = ["fool_of_april"]
 hp = 8160000
 icon = "/img/packs/fools/1_m.png"
@@ -69572,7 +69992,7 @@ tier = 6
 
 [main.raids.the-fool-ef1c6cb2]
 category = "raids"
-drops = [["items", "arena-token"], ["items", "attack-tonic"], ["items", "defense-tonic"], ["items", "magic-defense-tonic"], ["items", "ring-of-restraint"], ["items", "dioscuri-mead"], ["items", "skeleton-key"], ["items", "speed-tonic"], ["items", "autumna-crested-shield"], ["items", "belenuss-boots"], ["items", "caticatona-cuirass"], ["items", "damonas-shield"], ["items", "imonas-slippers"], ["items", "scroll-of-chaos"], ["items", "strangers-gift"], ["items", "affinity-candle"], ["items", "arch-gadget"], ["items", "arch-gizmo"], ["items", "bag-of-treats"], ["items", "bag-of-tricks"], ["items", "candy-cane"], ["items", "caroling-lute"], ["items", "dioscuri-magic-ring"], ["items", "dioscuri-ring"], ["items", "excalibur"], ["items", "north-star"], ["items", "presents"], ["items", "ring-of-dawn"], ["items", "ring-of-day"], ["items", "ring-of-night"], ["items", "surtrs-sword"], ["items", "top-hat"], ["items", "arisen-fairys-ring"], ["items", "vulcans-brew"], ["items", "balins-left"], ["items", "balins-left-b2db2fdb"], ["items", "clurichaun-arrows"], ["items", "high-phoenixsong"], ["items", "lady-of-the-lake"], ["items", "summoning-scroll"], ["items", "ring-of-dusk"], ["items", "vulcan-buckler"], ["items", "vulcan-charm"], ["items", "arisen-kings-crown"], ["items", "ebon-caroling-lute"], ["items", "mightiest-mimic-head"], ["items", "ortanite"], ["items", "arisen-cursed-autumna-crested-shield"], ["items", "arisen-cursed-belenuss-boots"], ["items", "arisen-cursed-caticatona-cuirass"], ["items", "arisen-cursed-damonas-shield"], ["items", "arisen-cursed-imonas-slippers"], ["items", "arisen-gerds-chestguard"], ["items", "arisen-menjas-battlerobe"], ["items", "arisen-surtrs-cuirass"], ["items", "fallen-sky-cowl"], ["items", "fallen-sky-headdress"], ["items", "fallen-sky-helmet"], ["items", "fallen-sky-hood"], ["items", "finesses-enchanted-epee"], ["items", "finesses-greatsword"], ["items", "finesses-katana"], ["items", "finesses-shotel"], ["items", "old-hallowed-blade"], ["items", "omega-olympia-cowl"], ["items", "omega-olympia-helmet"], ["items", "omega-olympia-hood"]]
+drops = [["items", "arena-token"], ["items", "attack-tonic"], ["items", "defense-tonic"], ["items", "magic-defense-tonic"], ["items", "ring-of-restraint"], ["items", "dioscuri-mead"], ["items", "skeleton-key"], ["items", "speed-tonic"], ["items", "autumna-crested-shield"], ["items", "belenuss-boots"], ["items", "caticatona-cuirass"], ["items", "damonas-shield"], ["items", "imonas-slippers"], ["items", "scroll-of-chaos"], ["items", "strangers-gift"], ["items", "affinity-candle"], ["items", "arch-gadget"], ["items", "arch-gizmo"], ["items", "bag-of-treats"], ["items", "bag-of-tricks"], ["items", "candy-cane"], ["items", "caroling-lute"], ["items", "dioscuri-magic-ring"], ["items", "dioscuri-ring"], ["items", "excalibur-eec7bf3e"], ["items", "north-star"], ["items", "presents"], ["items", "ring-of-dawn"], ["items", "ring-of-day"], ["items", "ring-of-night"], ["items", "surtrs-sword"], ["items", "top-hat"], ["items", "arisen-fairys-ring"], ["items", "vulcans-brew"], ["items", "balins-left"], ["items", "balins-left-b2db2fdb"], ["items", "clurichaun-arrows"], ["items", "high-phoenixsong"], ["items", "lady-of-the-lake"], ["items", "summoning-scroll"], ["items", "ring-of-dusk"], ["items", "vulcan-buckler"], ["items", "vulcan-charm"], ["items", "arisen-kings-crown"], ["items", "ebon-caroling-lute"], ["items", "mightiest-mimic-head"], ["items", "ortanite"], ["items", "arisen-cursed-autumna-crested-shield"], ["items", "arisen-cursed-belenuss-boots"], ["items", "arisen-cursed-caticatona-cuirass"], ["items", "arisen-cursed-damonas-shield"], ["items", "arisen-cursed-imonas-slippers"], ["items", "arisen-gerds-chestguard"], ["items", "arisen-menjas-battlerobe"], ["items", "arisen-surtrs-cuirass"], ["items", "fallen-sky-cowl"], ["items", "fallen-sky-headdress"], ["items", "fallen-sky-helmet"], ["items", "fallen-sky-hood"], ["items", "finesses-enchanted-epee"], ["items", "finesses-greatsword"], ["items", "finesses-katana"], ["items", "finesses-shotel"], ["items", "old-hallowed-blade"], ["items", "omega-olympia-cowl"], ["items", "omega-olympia-helmet"], ["items", "omega-olympia-hood"]]
 events = ["fool_of_april"]
 hp = 11940000
 icon = "/img/packs/fools/3_f.png"
@@ -69949,7 +70369,7 @@ id = "annihilation"
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 6
-used_by = [["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"], ["raids", "grand-knight-lugus"], ["raids", "maelor"], ["raids", "the-fool"], ["raids", "the-fool-ef1c6cb2"], ["raids", "young-apollyon"]]
+used_by = [["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"], ["raids", "beguiled-apollyon-y"], ["raids", "grand-knight-lugus"], ["raids", "maelor"], ["raids", "the-fool"], ["raids", "the-fool-ef1c6cb2"], ["raids", "young-apollyon"]]
 
 [[main.spells.annihilation.causes]]
 chance = "100%"
@@ -70609,7 +71029,7 @@ learned_by = [["classes", "38"]]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 8
-used_by = [["raids", "arisen-thronemaker-sekhmet"], ["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"], ["raids", "fey-chimera"], ["raids", "final-horseman"], ["raids", "thronemaker-sekhmet"], ["monsters", "fallen-arcanic"], ["monsters", "swordbearer-of-finesse"]]
+used_by = [["raids", "arisen-thronemaker-sekhmet"], ["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"], ["raids", "beguiled-apollyon-y"], ["raids", "fey-chimera"], ["raids", "final-horseman"], ["raids", "thronemaker-sekhmet"], ["monsters", "fallen-arcanic"], ["monsters", "swordbearer-of-finesse"]]
 
 [[main.spells.arcane-strikes-iii.causes]]
 chance = "25%"
@@ -72704,7 +73124,7 @@ costs = "100"
 category = "spells"
 icon = "/img/spells/bleed.png"
 id = "counterattack-ii-2"
-off-hands = [["items", "beguiled-mystic-katar"], ["items", "beguiled-mystic-katar-x"]]
+off-hands = [["items", "beguiled-mystic-katar"], ["items", "beguiled-mystic-katar-x"], ["items", "beguiled-mystic-katar-y"]]
 spell_type = "skill"
 tags = ["off-hand_ability"]
 targets = "yourself"
@@ -79533,7 +79953,7 @@ learned_by = [["classes", "77"]]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 10
-used_by = [["followers", "living-arsenal"], ["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"], ["bosses", "elite-kobold-lord"]]
+used_by = [["followers", "living-arsenal"], ["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"], ["raids", "beguiled-apollyon-y"], ["bosses", "elite-kobold-lord"]]
 
 [[main.spells.magic-dagger-iv.causes]]
 chance = "10%"
@@ -79613,7 +80033,7 @@ learned_by = [["classes", "77"]]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 10
-used_by = [["followers", "living-arsenal"], ["followers", "worldly-wolpertinger"], ["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"], ["raids", "yggdrasil"], ["bosses", "elite-kobold-lord"], ["bosses", "fallen-heretic"]]
+used_by = [["followers", "living-arsenal"], ["followers", "worldly-wolpertinger"], ["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"], ["raids", "beguiled-apollyon-y"], ["raids", "yggdrasil"], ["bosses", "elite-kobold-lord"], ["bosses", "fallen-heretic"]]
 
 [[main.spells.magic-hammer-iv.causes]]
 chance = "5%"
@@ -79732,7 +80152,7 @@ learned_by = [["classes", "55"]]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 10
-used_by = [["followers", "living-arsenal"], ["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"], ["bosses", "elite-kobold-lord"], ["bosses", "fallen-heretic"], ["monsters", "scarecrow"]]
+used_by = [["followers", "living-arsenal"], ["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"], ["raids", "beguiled-apollyon-y"], ["bosses", "elite-kobold-lord"], ["bosses", "fallen-heretic"], ["monsters", "scarecrow"]]
 
 [main.spells.magic-strikes-iv.stats]
 costs = "240"
@@ -79807,7 +80227,7 @@ learned_by = [["classes", "77"]]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 10
-used_by = [["followers", "asteria-of-olympia"], ["followers", "living-arch-armor"], ["followers", "living-arsenal"], ["followers", "worldly-wolpertinger"], ["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"], ["raids", "yggdrasil"], ["bosses", "fallen-heretic"]]
+used_by = [["followers", "asteria-of-olympia"], ["followers", "living-arch-armor"], ["followers", "living-arsenal"], ["followers", "worldly-wolpertinger"], ["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"], ["raids", "beguiled-apollyon-y"], ["raids", "yggdrasil"], ["bosses", "fallen-heretic"]]
 
 [[main.spells.magic-sword-iv.causes]]
 chance = "5%"
@@ -81182,7 +81602,7 @@ learned_by = [["classes", "56"]]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 10
-used_by = [["followers", "fenrir"], ["followers", "fey-chimera"], ["followers", "ruby-nosed-chimera"], ["raids", "arisen-covyn"], ["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"], ["bosses", "fallen-realmshifter"]]
+used_by = [["followers", "fenrir"], ["followers", "fey-chimera"], ["followers", "ruby-nosed-chimera"], ["raids", "arisen-covyn"], ["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"], ["raids", "beguiled-apollyon-y"], ["bosses", "fallen-realmshifter"]]
 
 [[main.spells.omnistrikes-ii.causes]]
 chance = "25%"
@@ -82641,7 +83061,7 @@ learned_by = [["classes", "52"]]
 spell_type = "spell"
 targets = "yourself"
 tier = 9
-used_by = [["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"]]
+used_by = [["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"], ["raids", "beguiled-apollyon-y"]]
 
 [main.spells.refract.stats]
 costs = "150"
@@ -83767,7 +84187,7 @@ costs = "50"
 category = "spells"
 icon = "/img/spells/bleed.png"
 id = "slice"
-off-hands = [["items", "arisen-kerberos-claws"], ["items", "arisen-nagamaki"], ["items", "arisen-shadeblades"], ["items", "brilliant-feathers"], ["items", "chained-shadeblades"], ["items", "covyns-soul-hunt-scythe"], ["items", "kerberos-claws-e7f61ea1"], ["items", "nagamaki"], ["items", "ymir-brilliant-feathers"]]
+off-hands = [["items", "arisen-kerberos-claws"], ["items", "arisen-nagamaki"], ["items", "arisen-shadeblades"], ["items", "brilliant-feathers"], ["items", "chained-shadeblades"], ["items", "covyns-soul-hunt-scythe"], ["items", "kerberos-claws"], ["items", "nagamaki"], ["items", "ymir-brilliant-feathers"]]
 spell_type = "skill"
 tags = ["off-hand_ability"]
 targets = "a_single_opponent"
@@ -85890,7 +86310,7 @@ learned_by = [["classes", "51"]]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 9
-used_by = [["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"], ["bosses", "immortal-lord-418e5cff"], ["monsters", "failed-phoenix-40f6a0b6"], ["monsters", "great-phoenix-pledge-19c34e4d"], ["monsters", "immortal"], ["monsters", "immortal-lord"], ["monsters", "swordbearer-of-finesse-612600e2"], ["monsters", "swordbearer-of-finesse-91560eaf"]]
+used_by = [["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"], ["raids", "beguiled-apollyon-y"], ["bosses", "immortal-lord-418e5cff"], ["monsters", "failed-phoenix-40f6a0b6"], ["monsters", "great-phoenix-pledge-19c34e4d"], ["monsters", "immortal"], ["monsters", "immortal-lord"], ["monsters", "swordbearer-of-finesse-612600e2"], ["monsters", "swordbearer-of-finesse-91560eaf"]]
 
 [[main.spells.swordplay-iii.causes]]
 chance = "33%"
@@ -87897,7 +88317,7 @@ learned_by = [["classes", "57"]]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 10
-used_by = [["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"], ["raids", "great-sphinx"], ["bosses", "fallen-beowulf"]]
+used_by = [["raids", "beguiled-apollyon"], ["raids", "beguiled-apollyon-x"], ["raids", "beguiled-apollyon-y"], ["raids", "great-sphinx"], ["bosses", "fallen-beowulf"]]
 
 [[main.spells.verse-iii.causes]]
 chance = "75%"

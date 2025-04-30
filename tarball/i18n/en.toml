@@ -3971,6 +3971,10 @@ name = "Beguiled Apollyon"
 description = "A memory of a younger Apollyon, mystic of Balor. Before exploring such unorthodox magics, Apollyon was both a great teacher and student to Balor's native arts."
 name = "Beguiled Apollyon X"
 
+[main.beguiled-apollyon-y]
+description = "A memory of a younger Apollyon, mystic of Balor. Before exploring such unorthodox magics, Apollyon was both a great teacher and student to Balor's native arts."
+name = "Beguiled Apollyon Y"
+
 [main.beguiled-armor]
 description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
 name = "Beguiled Armor"
@@ -3978,6 +3982,10 @@ name = "Beguiled Armor"
 [main.beguiled-armor-x]
 description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
 name = "Beguiled Armor X"
+
+[main.beguiled-armor-y]
+description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+name = "Beguiled Armor Y"
 
 [main.beguiled-axe]
 description = "Axe once held by Apollyon, the exiled mystic. This weapon increases the damage dealt when using spells or skills of your faction, but has less effectiveness with elements not practiced by the four factions."
@@ -3987,6 +3995,10 @@ name = "Beguiled Axe"
 description = "Axe once held by Apollyon, the exiled mystic. This weapon increases the damage dealt when using spells or skills of your faction, but has less effectiveness with elements not practiced by the four factions."
 name = "Beguiled Axe X"
 
+[main.beguiled-axe-y]
+description = "Axe once held by Apollyon, the exiled mystic. This weapon increases the damage dealt when using spells or skills of your faction, but has less effectiveness with elements not practiced by the four factions."
+name = "Beguiled Axe Y"
+
 [main.beguiled-blade]
 description = "Blade once held by Apollyon, the exiled mystic. This weapon increases the damage dealt when using spells or skills of your faction, but has less effectiveness with elements not practiced by the four factions."
 name = "Beguiled Blade"
@@ -3994,6 +4006,10 @@ name = "Beguiled Blade"
 [main.beguiled-blade-x]
 description = "Blade once held by Apollyon, the exiled mystic. This weapon increases the damage dealt when using spells or skills of your faction, but has less effectiveness with elements not practiced by the four factions."
 name = "Beguiled Blade X"
+
+[main.beguiled-blade-y]
+description = "Blade once held by Apollyon, the exiled mystic. This weapon increases the damage dealt when using spells or skills of your faction, but has less effectiveness with elements not practiced by the four factions."
+name = "Beguiled Blade Y"
 
 [main.beguiled-boots]
 description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
@@ -4003,6 +4019,10 @@ name = "Beguiled Boots"
 description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
 name = "Beguiled Boots X"
 
+[main.beguiled-boots-y]
+description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+name = "Beguiled Boots Y"
+
 [main.beguiled-cowl]
 description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
 name = "Beguiled Cowl"
@@ -4010,6 +4030,10 @@ name = "Beguiled Cowl"
 [main.beguiled-cowl-x]
 description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
 name = "Beguiled Cowl X"
+
+[main.beguiled-cowl-y]
+description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+name = "Beguiled Cowl Y"
 
 [main.beguiled-garb]
 description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
@@ -4019,6 +4043,10 @@ name = "Beguiled Garb"
 description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
 name = "Beguiled Garb X"
 
+[main.beguiled-garb-y]
+description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+name = "Beguiled Garb Y"
+
 [main.beguiled-heavy-boots]
 description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
 name = "Beguiled Heavy Boots"
@@ -4026,6 +4054,10 @@ name = "Beguiled Heavy Boots"
 [main.beguiled-heavy-boots-x]
 description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
 name = "Beguiled Heavy Boots X"
+
+[main.beguiled-heavy-boots-y]
+description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+name = "Beguiled Heavy Boots Y"
 
 [main.beguiled-helmet]
 description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
@@ -4035,6 +4067,10 @@ name = "Beguiled Helmet"
 description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
 name = "Beguiled Helmet X"
 
+[main.beguiled-helmet-y]
+description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+name = "Beguiled Helmet Y"
+
 [main.beguiled-hood]
 description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
 name = "Beguiled Hood"
@@ -4042,6 +4078,10 @@ name = "Beguiled Hood"
 [main.beguiled-hood-x]
 description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
 name = "Beguiled Hood X"
+
+[main.beguiled-hood-y]
+description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+name = "Beguiled Hood Y"
 
 [main.beguiled-lute]
 description = "Instrument once held by Apollyon, the exiled mystic. This weapon increases the damage dealt when using spells or skills of your faction, but has less effectiveness with elements not practiced by the four factions."
@@ -4051,6 +4091,10 @@ name = "Beguiled Lute"
 description = "Instrument once held by Apollyon, the exiled mystic. This weapon increases the damage dealt when using spells or skills of your faction, but has less effectiveness with elements not practiced by the four factions."
 name = "Beguiled Lute X"
 
+[main.beguiled-lute-y]
+description = "Instrument once held by Apollyon, the exiled mystic. This weapon increases the damage dealt when using spells or skills of your faction, but has less effectiveness with elements not practiced by the four factions."
+name = "Beguiled Lute Y"
+
 [main.beguiled-mystic-katar]
 description = "A strange side-arm carried by Apollyon. Before being stolen and damaged by Morrigan, Apollyon imbued great elemental resistance in this piece."
 name = "Beguiled Mystic Katar"
@@ -4058,6 +4102,10 @@ name = "Beguiled Mystic Katar"
 [main.beguiled-mystic-katar-x]
 description = "A strange side-arm carried by Apollyon. Before being stolen and damaged by Morrigan, Apollyon imbued great elemental resistance in this piece."
 name = "Beguiled Mystic Katar X"
+
+[main.beguiled-mystic-katar-y]
+description = "A strange side-arm carried by Apollyon. Before being stolen and damaged by Morrigan, Apollyon imbued great elemental resistance in this piece."
+name = "Beguiled Mystic Katar Y"
 
 [main.beguiled-quarterstaff]
 description = "Staff once held by Apollyon, the exiled mystic. This weapon increases the damage dealt when using spells or skills of your faction, but has less effectiveness with elements not practiced by the four factions."
@@ -4067,6 +4115,10 @@ name = "Beguiled Quarterstaff"
 description = "Staff once held by Apollyon, the exiled mystic. This weapon increases the damage dealt when using spells or skills of your faction, but has less effectiveness with elements not practiced by the four factions."
 name = "Beguiled Quarterstaff X"
 
+[main.beguiled-quarterstaff-y]
+description = "Staff once held by Apollyon, the exiled mystic. This weapon increases the damage dealt when using spells or skills of your faction, but has less effectiveness with elements not practiced by the four factions."
+name = "Beguiled Quarterstaff Y"
+
 [main.beguiled-robe]
 description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
 name = "Beguiled Robe"
@@ -4074,6 +4126,10 @@ name = "Beguiled Robe"
 [main.beguiled-robe-x]
 description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
 name = "Beguiled Robe X"
+
+[main.beguiled-robe-y]
+description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+name = "Beguiled Robe Y"
 
 [main.beguiled-shoes]
 description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
@@ -4083,6 +4139,10 @@ name = "Beguiled Shoes"
 description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
 name = "Beguiled Shoes X"
 
+[main.beguiled-shoes-y]
+description = "A piece threaded of distant memories. Memories of the famed, yet feared, \"Angel\" of destruction. In his youth, Apollyon favored vitality and dexterity over orthodox defenses."
+name = "Beguiled Shoes Y"
+
 [main.beguiled-staff]
 description = "Staff once held by Apollyon, the exiled mystic. This weapon increases the damage dealt when using spells or skills of your faction, but has less effectiveness with elements not practiced by the four factions."
 name = "Beguiled Staff"
@@ -4090,6 +4150,10 @@ name = "Beguiled Staff"
 [main.beguiled-staff-x]
 description = "Staff once held by Apollyon, the exiled mystic. This weapon increases the damage dealt when using spells or skills of your faction, but has less effectiveness with elements not practiced by the four factions."
 name = "Beguiled Staff X"
+
+[main.beguiled-staff-y]
+description = "Staff once held by Apollyon, the exiled mystic. This weapon increases the damage dealt when using spells or skills of your faction, but has less effectiveness with elements not practiced by the four factions."
+name = "Beguiled Staff Y"
 
 [main.behemoth]
 name = "Behemoth (Arisen)"
@@ -5582,11 +5646,11 @@ name = "Cursed Esus's Pillar"
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Cursed Fomoria Plated Boots"
 
-[main.cursed-fomoria-plated-boots-7a9f5efc]
+[main.cursed-fomoria-plated-boots-0ebf6063]
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Cursed Fomoria Plated Boots"
 
-[main.cursed-fomoria-plated-boots-c6787dd8]
+[main.cursed-fomoria-plated-boots-7a9f5efc]
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Cursed Fomoria Plated Boots"
 
@@ -7290,11 +7354,11 @@ name = "Evil Eye"
 name = "Evil Eyes"
 
 [main.excalibur]
-description = "???"
+description = "The mythic weapon of Arthus, the king of Avalon. It protects its wielder from bleeding."
 name = "Excalibur"
 
-[main.excalibur-32be53bc]
-description = "The mythic weapon of Arthus, the king of Avalon. It protects its wielder from bleeding."
+[main.excalibur-eec7bf3e]
+description = "???"
 name = "Excalibur"
 
 [main.exp-potion]
@@ -10769,7 +10833,7 @@ name = "Kerberos Archistaff"
 description = "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
 name = "Kerberos Claws"
 
-[main.kerberos-claws-e7f61ea1]
+[main.kerberos-claws-81b67c8d]
 description = "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
 name = "Kerberos Claws"
 
@@ -10990,7 +11054,7 @@ description = "Armor forged of the trials, tribulations, failures, and anguish o
 name = "Last Martyr's Helmet"
 
 [main.last-martyrs-hood]
-description = "Cloth forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. Anguished gear gains additional power as other heroes and traveler in the world are defeated on the current day."
+description = "Cloth forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
 name = "Last Martyr's Hood"
 
 [main.last-martyrs-leggings]
@@ -11006,11 +11070,11 @@ description = "Weapon forged of the trials, tribulations, failures, and anguish 
 name = "Last Martyr's Longbow"
 
 [main.last-martyrs-robe]
-description = "Cloth forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. Anguished gear gains additional power as other heroes and traveler in the world are defeated on the current day."
+description = "Cloth forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
 name = "Last Martyr's Robe"
 
 [main.last-martyrs-skirt]
-description = "Cloth forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. Anguished gear gains additional power as other heroes and traveler in the world are defeated on the current day."
+description = "Cloth forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
 name = "Last Martyr's Skirt"
 
 [main.last-martyrs-sword]

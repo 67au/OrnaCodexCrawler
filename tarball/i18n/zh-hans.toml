@@ -3971,6 +3971,10 @@ name = "着魔的亚玻伦"
 description = "巴罗尔秘术士亚玻伦的年轻记忆。在他探索那邪道的魔法之前，亚玻伦是追寻巴罗尔原始秘术的伟大教师与学生。"
 name = "着魔的亚玻伦X"
 
+[main.beguiled-apollyon-y]
+description = "巴罗尔秘术士亚玻伦的年轻记忆。在他探索那邪道的魔法之前，亚玻伦是追寻巴罗尔原始秘术的伟大教师与学生。"
+name = "Beguiled Apollyon Y"
+
 [main.beguiled-armor]
 description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
 name = "着魔盔甲"
@@ -3978,6 +3982,10 @@ name = "着魔盔甲"
 [main.beguiled-armor-x]
 description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
 name = "着魔盔甲X"
+
+[main.beguiled-armor-y]
+description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
+name = "Beguiled Armor Y"
 
 [main.beguiled-axe]
 description = "曾为被流放的秘术师亚玻伦所持有的斧头。该武器能提升与你阵营元素相同的技能或法术所造成的伤害，但相应地会降低非四大阵营元素的伤害。"
@@ -3987,6 +3995,10 @@ name = "着魔重斧"
 description = "曾为被流放的秘术师亚玻伦所持有的斧头。该武器能提升与你阵营元素相同的技能或法术所造成的伤害，但相应地会降低非四大阵营元素的伤害。"
 name = "着魔重斧X"
 
+[main.beguiled-axe-y]
+description = "曾为被流放的秘术师亚玻伦所持有的斧头。该武器能提升与你阵营元素相同的技能或法术所造成的伤害，但相应地会降低非四大阵营元素的伤害。"
+name = "Beguiled Axe Y"
+
 [main.beguiled-blade]
 description = "曾为被流放的秘术师亚玻伦所持有的锋刃。该武器能提升与你阵营元素相同的技能或法术所造成的伤害，但相应地会降低非四大阵营元素的伤害。"
 name = "着魔锋刃"
@@ -3994,6 +4006,10 @@ name = "着魔锋刃"
 [main.beguiled-blade-x]
 description = "曾为被流放的秘术师亚玻伦所持有的锋刃。该武器能提升与你阵营元素相同的技能或法术所造成的伤害，但相应地会降低非四大阵营元素的伤害。"
 name = "着魔锋刃X"
+
+[main.beguiled-blade-y]
+description = "曾为被流放的秘术师亚玻伦所持有的锋刃。该武器能提升与你阵营元素相同的技能或法术所造成的伤害，但相应地会降低非四大阵营元素的伤害。"
+name = "Beguiled Blade Y"
 
 [main.beguiled-boots]
 description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
@@ -4003,6 +4019,10 @@ name = "着魔长靴"
 description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
 name = "着魔长靴X"
 
+[main.beguiled-boots-y]
+description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
+name = "Beguiled Boots Y"
+
 [main.beguiled-cowl]
 description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
 name = "着魔风帽"
@@ -4010,6 +4030,10 @@ name = "着魔风帽"
 [main.beguiled-cowl-x]
 description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
 name = "着魔风帽X"
+
+[main.beguiled-cowl-y]
+description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
+name = "Beguiled Cowl Y"
 
 [main.beguiled-garb]
 description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
@@ -4019,6 +4043,10 @@ name = "着魔皮甲"
 description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
 name = "着魔皮甲X"
 
+[main.beguiled-garb-y]
+description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
+name = "Beguiled Garb Y"
+
 [main.beguiled-heavy-boots]
 description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
 name = "着魔重靴"
@@ -4026,6 +4054,10 @@ name = "着魔重靴"
 [main.beguiled-heavy-boots-x]
 description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
 name = "着魔重靴X"
+
+[main.beguiled-heavy-boots-y]
+description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
+name = "Beguiled Heavy Boots Y"
 
 [main.beguiled-helmet]
 description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
@@ -4035,6 +4067,10 @@ name = "着魔头盔"
 description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
 name = "着魔头盔X"
 
+[main.beguiled-helmet-y]
+description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
+name = "Beguiled Helmet Y"
+
 [main.beguiled-hood]
 description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
 name = "着魔兜帽"
@@ -4042,6 +4078,10 @@ name = "着魔兜帽"
 [main.beguiled-hood-x]
 description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
 name = "着魔兜帽X"
+
+[main.beguiled-hood-y]
+description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
+name = "Beguiled Hood Y"
 
 [main.beguiled-lute]
 description = "曾为被流放的秘术师亚玻伦所持有的乐器。该武器能提升与你阵营元素相同的技能或法术所造成的伤害，但相应地会降低非四大阵营元素的伤害。"
@@ -4051,6 +4091,10 @@ name = "着魔鲁特琴"
 description = "曾为被流放的秘术师亚玻伦所持有的乐器。该武器能提升与你阵营元素相同的技能或法术所造成的伤害，但相应地会降低非四大阵营元素的伤害。"
 name = "着魔鲁特琴X"
 
+[main.beguiled-lute-y]
+description = "曾为被流放的秘术师亚玻伦所持有的乐器。该武器能提升与你阵营元素相同的技能或法术所造成的伤害，但相应地会降低非四大阵营元素的伤害。"
+name = "Beguiled Lute Y"
+
 [main.beguiled-mystic-katar]
 description = "亚玻伦持有的奇特副手武器。在被摩莉甘盗走之前，亚玻伦将它附上了强力的元素抗性。"
 name = "着魔的秘术拳刃"
@@ -4058,6 +4102,10 @@ name = "着魔的秘术拳刃"
 [main.beguiled-mystic-katar-x]
 description = "亚玻伦持有的奇特副手武器。在被摩莉甘盗走之前，亚玻伦将它附上了强力的元素抗性。"
 name = "着魔的秘术拳刃X"
+
+[main.beguiled-mystic-katar-y]
+description = "亚玻伦持有的奇特副手武器。在被摩莉甘盗走之前，亚玻伦将它附上了强力的元素抗性。"
+name = "Beguiled Mystic Katar Y"
 
 [main.beguiled-quarterstaff]
 description = "曾为被流放的秘术师亚玻伦所持有的法杖。该武器能提升与你阵营元素相同的技能或法术所造成的伤害，但相应地会降低非四大阵营元素的伤害。"
@@ -4067,6 +4115,10 @@ name = "着魔长杖"
 description = "曾为被流放的秘术师亚玻伦所持有的法杖。该武器能提升与你阵营元素相同的技能或法术所造成的伤害，但相应地会降低非四大阵营元素的伤害。"
 name = "着魔长杖X"
 
+[main.beguiled-quarterstaff-y]
+description = "曾为被流放的秘术师亚玻伦所持有的法杖。该武器能提升与你阵营元素相同的技能或法术所造成的伤害，但相应地会降低非四大阵营元素的伤害。"
+name = "Beguiled Quarterstaff Y"
+
 [main.beguiled-robe]
 description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
 name = "着魔长袍"
@@ -4074,6 +4126,10 @@ name = "着魔长袍"
 [main.beguiled-robe-x]
 description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
 name = "着魔长袍X"
+
+[main.beguiled-robe-y]
+description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
+name = "Beguiled Robe Y"
 
 [main.beguiled-shoes]
 description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
@@ -4083,6 +4139,10 @@ name = "着魔鞋子"
 description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
 name = "着魔鞋子X"
 
+[main.beguiled-shoes-y]
+description = "那遥远记忆的一个片段。那被万人畏惧的毁灭天使的记忆。亚玻伦年轻之时不爱正统式的防守，他灵巧且充满了活力。"
+name = "Beguiled Shoes Y"
+
 [main.beguiled-staff]
 description = "曾为被流放的秘术师亚玻伦所持有的法杖。该武器能提升与你阵营元素相同的技能或法术所造成的伤害，但相应地会降低非四大阵营元素的伤害。"
 name = "着魔法杖"
@@ -4090,6 +4150,10 @@ name = "着魔法杖"
 [main.beguiled-staff-x]
 description = "曾为被流放的秘术师亚玻伦所持有的法杖。该武器能提升与你阵营元素相同的技能或法术所造成的伤害，但相应地会降低非四大阵营元素的伤害。"
 name = "着魔法杖X"
+
+[main.beguiled-staff-y]
+description = "曾为被流放的秘术师亚玻伦所持有的法杖。该武器能提升与你阵营元素相同的技能或法术所造成的伤害，但相应地会降低非四大阵营元素的伤害。"
+name = "Beguiled Staff Y"
 
 [main.behemoth]
 name = "贝西摩斯 (重生者)"
@@ -5582,11 +5646,11 @@ name = "诅咒的埃苏斯支柱"
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的长靴。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "诅咒的弗摩尔镀金长靴"
 
-[main.cursed-fomoria-plated-boots-7a9f5efc]
+[main.cursed-fomoria-plated-boots-0ebf6063]
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的长靴。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "诅咒的弗摩尔镀金长靴"
 
-[main.cursed-fomoria-plated-boots-c6787dd8]
+[main.cursed-fomoria-plated-boots-7a9f5efc]
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的长靴。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "诅咒的弗摩尔镀金长靴"
 
@@ -7290,11 +7354,11 @@ name = "邪眼"
 name = "邪恶之眼"
 
 [main.excalibur]
-description = "???"
+description = "阿瓦隆王国亚瑟王的神兵，它可以保护持有者免疫流血。"
 name = "誓约圣剑"
 
-[main.excalibur-32be53bc]
-description = "阿瓦隆王国亚瑟王的神兵，它可以保护持有者免疫流血。"
+[main.excalibur-eec7bf3e]
+description = "???"
 name = "誓约圣剑"
 
 [main.exp-potion]
@@ -10769,7 +10833,7 @@ name = "刻耳柏洛斯权杖"
 description = "由刻耳柏洛斯那尖锐锋利的爪所制成。攻击有机率对对手造成流血和冰冻。"
 name = "刻耳柏洛斯之爪"
 
-[main.kerberos-claws-e7f61ea1]
+[main.kerberos-claws-81b67c8d]
 description = "由刻耳柏洛斯那尖锐锋利的爪所制成。攻击有机率对对手造成流血和冰冻。"
 name = "刻耳柏洛斯之爪"
 
@@ -10990,7 +11054,7 @@ description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难�
 name = "最后殉道者头盔"
 
 [main.last-martyrs-hood]
-description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的衣服。在当日世界上的英雄与旅行者被击败时，苦难装备将会赋予装备者额外的力量。"
+description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的衣服。装备每有一级苦难等级将能赋予百分之一的额外属性加成。"
 name = "最后殉道者兜帽"
 
 [main.last-martyrs-leggings]
@@ -11006,11 +11070,11 @@ description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难�
 name = "最后殉道者长弓"
 
 [main.last-martyrs-robe]
-description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的衣服。在当日世界上的英雄与旅行者被击败时，苦难装备将会赋予装备者额外的力量。"
+description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的衣服。装备每有一级苦难等级将能赋予百分之一的额外属性加成。"
 name = "最后殉道者法袍"
 
 [main.last-martyrs-skirt]
-description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的衣服。在当日世界上的英雄与旅行者被击败时，苦难装备将会赋予装备者额外的力量。"
+description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的衣服。装备每有一级苦难等级将能赋予百分之一的额外属性加成。"
 name = "最后殉道者之裙"
 
 [main.last-martyrs-sword]

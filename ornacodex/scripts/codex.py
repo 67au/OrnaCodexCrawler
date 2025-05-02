@@ -137,7 +137,7 @@ def scan(entries, itemtypes):
 
             stats = entry.get('stats')
             if stats:
-                cm_tmp[id]['stats'] = {}
+                stats_tmp = {}
                 for i, m in enumerate(stats):
                     key = Converter.convert_key(base[id]['stats'][i][0])
                     # move from `stats` to `meta`
@@ -149,22 +149,24 @@ def scan(entries, itemtypes):
                         cm_tmp[id][key] = value
                     ###
                     elif key == 'element':
-                        cm_tmp[id]['stats'][key] = []
+                        stats_tmp[key] = []
                         for ii, e in enumerate(m[1]):
                             value = Converter.convert_key(
                                 key=base[id]['stats'][i][1][ii])
                             translations[language]['msg'][key][value] = e
-                            cm_tmp[id]['stats'][key].append(value)
+                            stats_tmp[key].append(value)
                     elif key == 'costs':
                         translations[language]['msg']['stats'][key] = m[0]
-                        cm_tmp[id]['stats'][key] = base[id]['stats'][i][1].split()[
+                        stats_tmp[key] = base[id]['stats'][i][1].split()[
                             0]
                     else:
                         translations[language]['msg']['stats'][key] = m[0]
                         if len(m) > 1:
-                            cm_tmp[id]['stats'][key] = base[id]['stats'][i][1]
+                            stats_tmp[key] = base[id]['stats'][i][1]
                         else:
-                            cm_tmp[id]['stats'][key] = True
+                            stats_tmp[key] = True
+                if any(stats_tmp):
+                    cm_tmp[id]['stats'] = stats_tmp
 
             drops = entry.get('drops')
             if drops:

@@ -70249,8 +70249,6 @@ tags = ["off-hand_ability"]
 targets = "yourself"
 tier = 6
 
-[main.spells.aegir-stance.stats]
-
 [main.spells.aerial-barrage]
 category = "spells"
 icon = "/img/spells/multi_attack.png"
@@ -70339,8 +70337,6 @@ id = "aligned-sigilflask"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 3
-
-[main.spells.aligned-sigilflask.stats]
 
 [main.spells.alpha-dart]
 category = "spells"
@@ -70487,8 +70483,6 @@ name = "att_uu"
 [[main.spells.anthem.gives]]
 chance = "2%"
 name = "res_uu"
-
-[main.spells.anthem.stats]
 
 [main.spells.anthem-of-avalon]
 category = "spells"
@@ -71302,8 +71296,6 @@ tags = ["off-hand_ability"]
 targets = "yourself"
 tier = 8
 
-[main.spells.asteria-stance.stats]
-
 [main.spells.atlas-stance]
 category = "spells"
 icon = "/img/statuses/atlas.png"
@@ -71313,8 +71305,6 @@ spell_type = "spell"
 tags = ["off-hand_ability"]
 targets = "yourself"
 tier = 8
-
-[main.spells.atlas-stance.stats]
 
 [main.spells.ballad-of-brynhild]
 category = "spells"
@@ -71408,8 +71398,6 @@ spell_type = "spell"
 targets = "a_single_opponent"
 tier = 8
 
-[main.spells.banishment-flask.stats]
-
 [main.spells.barrier]
 category = "spells"
 icon = "/img/spells/shield.png"
@@ -71462,8 +71450,6 @@ tags = ["off-hand_ability"]
 targets = "yourself"
 tier = 1
 
-[main.spells.bastion.stats]
-
 [main.spells.bastion-ii]
 category = "spells"
 icon = "/img/spells/ward.png"
@@ -71473,8 +71459,6 @@ spell_type = "spell"
 tags = ["off-hand_ability"]
 targets = "yourself"
 tier = 1
-
-[main.spells.bastion-ii.stats]
 
 [main.spells.bastion-iii]
 category = "spells"
@@ -71486,8 +71470,6 @@ tags = ["off-hand_ability"]
 targets = "yourself"
 tier = 1
 used_by = [["followers", "mighty-slime"], ["followers", "steward-golem"]]
-
-[main.spells.bastion-iii.stats]
 
 [main.spells.battle-dance]
 category = "spells"
@@ -72081,8 +72063,6 @@ id = "bloodloss-flask"
 spell_type = "spell"
 targets = "yourself"
 tier = 10
-
-[main.spells.bloodloss-flask.stats]
 
 [main.spells.bloodlust]
 category = "spells"
@@ -73106,8 +73086,6 @@ tags = ["off-hand_ability"]
 targets = "yourself"
 tier = 6
 
-[main.spells.counterattack-2.stats]
-
 [main.spells.counterattack-ii]
 category = "spells"
 icon = "/img/spells/bleed.png"
@@ -73129,8 +73107,6 @@ spell_type = "skill"
 tags = ["off-hand_ability"]
 targets = "yourself"
 tier = 6
-
-[main.spells.counterattack-ii-2.stats]
 
 [main.spells.coup-de-grace-2]
 category = "spells"
@@ -75005,8 +74981,6 @@ tags = ["off-hand_ability"]
 targets = "yourself"
 tier = 8
 
-[main.spells.eistla-stance.stats]
-
 [main.spells.elemental-stormflask]
 category = "spells"
 icon = "/img/effects/omni.png"
@@ -75014,8 +74988,6 @@ id = "elemental-stormflask"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 3
-
-[main.spells.elemental-stormflask.stats]
 
 [main.spells.elementless]
 category = "spells"
@@ -77404,8 +77376,6 @@ name = "typhon"
 chance = "10%"
 name = "tiamat"
 
-[main.spells.grand-summon.stats]
-
 [main.spells.grand-tempest]
 category = "spells"
 icon = "/img/spells/flare.png"
@@ -77843,8 +77813,6 @@ spell_type = "spell"
 tags = ["off-hand_ability"]
 targets = "yourself"
 tier = 7
-
-[main.spells.gymir-stance.stats]
 
 [main.spells.hack-and-slash]
 category = "spells"
@@ -78878,8 +78846,6 @@ spell_type = "spell"
 targets = "yourself"
 tier = 8
 
-[main.spells.inflection-flask.stats]
-
 [main.spells.inquest]
 category = "spells"
 icon = "/img/spells/attack_up.png"
@@ -79697,8 +79663,6 @@ used_by = [["followers", "lindworm"], ["raids", "arisen-warlock-trevelyan"], ["r
 chance = "100%"
 name = "lyon_s_mark"
 
-[main.spells.lyons-mark.stats]
-
 [main.spells.lyra-sigil]
 category = "spells"
 icon = "/img/effects/lyra.png"
@@ -80333,8 +80297,6 @@ id = "manaseep-flask"
 spell_type = "spell"
 targets = "yourself"
 tier = 10
-
-[main.spells.manaseep-flask.stats]
 
 [main.spells.medusa-stare]
 category = "spells"
@@ -81105,8 +81067,6 @@ spell_type = "spell"
 targets = "yourself"
 tier = 5
 
-[main.spells.nature-call-flask.stats]
-
 [main.spells.nekromancer-flask]
 category = "spells"
 icon = "/img/icons/bloodflask.png"
@@ -81114,8 +81074,6 @@ id = "nekromancer-flask"
 spell_type = "spell"
 targets = "yourself"
 tier = 8
-
-[main.spells.nekromancer-flask.stats]
 
 [main.spells.nekrosis]
 category = "spells"
@@ -81656,8 +81614,6 @@ targets = "yourself"
 tier = 8
 used_by = [["raids", "arisen-ophion-of-olympia"], ["raids", "ophion-of-olympia"]]
 
-[main.spells.ophion-stance.stats]
-
 [main.spells.osmostrike]
 category = "spells"
 icon = "/img/spells/drain.png"
@@ -81884,8 +81840,6 @@ used_by = [["bosses", "ascended-pledge"], ["bosses", "fallen-ashen-phoenix"], ["
 [[main.spells.phoenixs-pledge.causes]]
 chance = "100%"
 name = "phoenix_s_pledge"
-
-[main.spells.phoenixs-pledge.stats]
 
 [main.spells.phoenixs-rise]
 category = "spells"
@@ -82625,8 +82579,6 @@ name = "t__def_u"
 chance = "25%"
 name = "t__res_u"
 
-[main.spells.rally-of-charon.stats]
-
 [main.spells.rampart]
 category = "spells"
 icon = "/img/spells/ward.png"
@@ -82714,8 +82666,6 @@ tags = ["off-hand_ability"]
 targets = "yourself"
 tier = 1
 
-[main.spells.read-scroll.stats]
-
 [main.spells.read-scroll-ii]
 category = "spells"
 icon = "/img/spells/magic_up.png"
@@ -82725,8 +82675,6 @@ spell_type = "spell"
 tags = ["off-hand_ability"]
 targets = "yourself"
 tier = 1
-
-[main.spells.read-scroll-ii.stats]
 
 [main.spells.realm-strikes]
 category = "spells"
@@ -83051,8 +82999,6 @@ tags = ["off-hand_ability"]
 targets = "yourself"
 tier = 5
 
-[main.spells.reflect-2.stats]
-
 [main.spells.refract]
 category = "spells"
 icon = "/img/spells/multi.png"
@@ -83159,8 +83105,6 @@ id = "repetition-flask"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 6
-
-[main.spells.repetition-flask.stats]
 
 [main.spells.replicate-beithir]
 category = "spells"
@@ -84128,8 +84072,6 @@ spell_type = "spell"
 targets = "a_single_opponent"
 tier = 10
 
-[main.spells.sigil-stormflask.stats]
-
 [main.spells.slash]
 category = "spells"
 icon = "/img/spells/bleed.png"
@@ -84538,8 +84480,6 @@ tier = 1
 [[main.spells.song-of-skadi.gives]]
 chance = "100%"
 name = "skadi_uu"
-
-[main.spells.song-of-skadi.stats]
 
 [main.spells.sorrow]
 category = "spells"
@@ -85126,8 +85066,6 @@ name = "alfar_mage"
 chance = "25%"
 name = "alfar"
 
-[main.spells.summon-alfar.stats]
-
 [main.spells.summon-amarok]
 category = "spells"
 icon = "/img/monsters/amarok.png"
@@ -85223,8 +85161,6 @@ used_by = [["raids", "arisen-fenja"]]
 chance = "100%"
 name = "bloodwarg"
 
-[main.spells.summon-arisen-bloodwarg.stats]
-
 [main.spells.summon-arisen-spiritgarm]
 category = "spells"
 icon = "/img/monsters/spiritgarm.png"
@@ -85240,8 +85176,6 @@ used_by = [["raids", "arisen-fenja"]]
 chance = "100%"
 name = "spiritgarm"
 
-[main.spells.summon-arisen-spiritgarm.stats]
-
 [main.spells.summon-arisen-stonewarg]
 category = "spells"
 icon = "/img/monsters/stonewarg.png"
@@ -85256,8 +85190,6 @@ used_by = [["raids", "arisen-fenja"]]
 [[main.spells.summon-arisen-stonewarg.summons]]
 chance = "100%"
 name = "stonewarg"
-
-[main.spells.summon-arisen-stonewarg.stats]
 
 [main.spells.summon-basilisk]
 category = "spells"
@@ -85323,8 +85255,6 @@ tier = 8
 chance = "100%"
 name = "beithir"
 
-[main.spells.summon-beithir.stats]
-
 [main.spells.summon-beithir-ii]
 category = "spells"
 icon = "/img/bosses/dragon12.png"
@@ -85343,8 +85273,6 @@ name = "beithir"
 chance = "100%"
 name = "beithir"
 
-[main.spells.summon-beithir-ii.stats]
-
 [main.spells.summon-bloodwarg]
 category = "spells"
 icon = "/img/monsters/bloodwarg.png"
@@ -85359,8 +85287,6 @@ used_by = [["raids", "fenja"]]
 [[main.spells.summon-bloodwarg.summons]]
 chance = "100%"
 name = "bloodwarg_1"
-
-[main.spells.summon-bloodwarg.stats]
 
 [main.spells.summon-buggane]
 category = "spells"
@@ -85963,8 +85889,6 @@ used_by = [["raids", "fenja"]]
 chance = "100%"
 name = "spiritgarm_1"
 
-[main.spells.summon-spiritgarm.stats]
-
 [main.spells.summon-spooky-ghost]
 category = "spells"
 icon = "/img/monsters/ghost_spooky.png"
@@ -86002,8 +85926,6 @@ used_by = [["raids", "fenja"]]
 [[main.spells.summon-stonewarg.summons]]
 chance = "100%"
 name = "stonewarg_1"
-
-[main.spells.summon-stonewarg.stats]
 
 [main.spells.summon-tower-guardian]
 category = "spells"
@@ -87031,8 +86953,6 @@ tags = ["off-hand_ability"]
 targets = "a_single_opponent"
 tier = 1
 
-[main.spells.tower-of-strength.stats]
-
 [main.spells.towerfall]
 category = "spells"
 icon = "/img/spells/flare.png"
@@ -87730,8 +87650,6 @@ name = "tree_of_life"
 chance = "100%"
 name = "tree_of_demise"
 
-[main.spells.tree-of-demise.stats]
-
 [main.spells.tree-of-life]
 category = "spells"
 icon = "/img/spells/attack_up.png"
@@ -87747,8 +87665,6 @@ name = "tree_of_demise"
 [[main.spells.tree-of-life.gives]]
 chance = "100%"
 name = "tree_of_life"
-
-[main.spells.tree-of-life.stats]
 
 [main.spells.tree-trunk]
 category = "spells"

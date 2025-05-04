@@ -71,7 +71,7 @@ def scan(entries, itemtypes):
         'msg': defaultdict(dict),
         'abilities': defaultdict(dict),
         'language': language,
-        'main': defaultdict(dict)
+        'main': {}
     } for language in languages}
     cm = {}
     icons = {}
@@ -86,6 +86,7 @@ def scan(entries, itemtypes):
         used = entries[language][category]
         base = entries[base_language][category]
         cm_tmp = defaultdict(dict)
+        translations[language]['main'][category] = defaultdict(dict)
         for id, entry in used.items():
 
             cm_tmp[id]['category'] = category
@@ -245,10 +246,10 @@ def scan(entries, itemtypes):
                 translations[language]['msg']['spell_type'][key] = spell_type
                 cm_tmp[id]['spell_type'] = key
 
-            translations[language]['main'][id]['name'] = entry['name']
+            translations[language]['main'][category][id]['name'] = entry['name']
             description = entry.get('description')
             if description:
-                translations[language]['main'][id]['description'] = description
+                translations[language]['main'][category][id]['description'] = description
 
             ability = entry.get('ability')
             if ability:

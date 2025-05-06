@@ -2062,6 +2062,10 @@ name = "Draugr Mage"
 description = "A dragon with the power of the earth. It can imbue your weapon with earthen power and cast earthen magic."
 name = "Earthen Dragon"
 
+[main.followers.eastern-mimic]
+description = "A mimic. What it is capable of is unknown."
+name = "Eastern Mimic"
+
 [main.followers.ebon-scruug]
 description = "An apparition of greed and envy. Available for a limited time only."
 name = "Ebon Scruug"
@@ -5782,11 +5786,11 @@ name = "Cursed Esus's Pillar"
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Cursed Fomoria Plated Boots"
 
-[main.items.cursed-fomoria-plated-boots-0ebf6063]
+[main.items.cursed-fomoria-plated-boots-7a9f5efc]
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Cursed Fomoria Plated Boots"
 
-[main.items.cursed-fomoria-plated-boots-7a9f5efc]
+[main.items.cursed-fomoria-plated-boots-c6787dd8]
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Cursed Fomoria Plated Boots"
 
@@ -8930,7 +8934,7 @@ name = "Kerberos Archistaff"
 description = "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
 name = "Kerberos Claws"
 
-[main.items.kerberos-claws-81b67c8d]
+[main.items.kerberos-claws-e7f61ea1]
 description = "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
 name = "Kerberos Claws"
 
@@ -9653,6 +9657,30 @@ name = "Minotaur Axe"
 [main.items.mirror]
 description = "A mirrored shield. At the sacrifice of Ward, one can reflect on themselves and gain mana."
 name = "Mirror"
+
+[main.items.mochis-boots-of-mercy]
+description = "Gear of Mochi."
+name = "Mochi's Boots of Mercy"
+
+[main.items.mochis-bracer-of-mercy]
+description = "Gear of Mochi."
+name = "Mochi's Bracer of Mercy"
+
+[main.items.mochis-claws]
+description = "Gear of Mochi."
+name = "Mochi's Claws"
+
+[main.items.mochis-cowl-of-mercy]
+description = "Gear of Mochi."
+name = "Mochi's Cowl of Mercy"
+
+[main.items.mochis-garb-of-mercy]
+description = "Gear of Mochi."
+name = "Mochi's Garb of Mercy"
+
+[main.items.mochis-tome]
+description = "Gear of Mochi."
+name = "Mochi's Tome"
 
 [main.items.monoceros-cowl]
 description = "Armor made of the hide of a Monoceros. It boosts one's dexterity in battle."
@@ -14135,6 +14163,10 @@ name = "Mimic King of Kings"
 [main.raids.mmmpizza]
 description = "The chef of the Forge."
 name = "MmmPizza"
+
+[main.raids.mochi]
+description = "With great support."
+name = "Mochi"
 
 [main.raids.naggeneen]
 description = "Oh, the foul fairy Naggeneen."

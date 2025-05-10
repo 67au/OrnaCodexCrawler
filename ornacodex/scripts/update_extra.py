@@ -17,7 +17,7 @@ def generate_boss_scaling(codex: dict, translations: dict, output_file: Path):
     for id in sorted(codex['items'].keys()):
         if codex['items'][id].get('item_type') in ('weapon', 'armor') and codex['items'][id].get('place') != 'accessory':
             output.add(tomlkit.comment(
-                " / ".join(t['main'][id]['name'] for t in translations.values())))
+                " / ".join(t['main']['items'][id]['name'] for t in translations.values())))
             output.add(id, boss_scaling.get(id, 0))
     with open(output_file, 'w') as f:
         tomlkit.dump(output, f)
@@ -30,8 +30,8 @@ def generate_enemy(codex: dict, translations: dict, output_dir: Path):
         output_files.mkdir(exist_ok=True)
         for id, entry in codex[enemy].items():
             enemy_file = output_files.joinpath(f'{entry['id']}.toml')
-            names = " / ".join(t['main'][id]['name'] for t in translations.values())
-            if not enemy_file.exists():
+            names = " / ".join(t['main'][enemy][id]['name'] for t in translations.values())
+            if enemy_file.exists():
                 with open(enemy_file) as f:
                     enemy_doc = tomlkit.load(f)
                     if isinstance(enemy_doc.body[0][1], tomlkit.items.Comment):
@@ -70,12 +70,12 @@ def run(settings: Settings):
     with open(input_dir.joinpath('index.json')) as f:
         index = json.load(f)
 
-    with open(input_dir.joinpath(index['data_files']['codex'])) as f:
+    with open(input_dir.joinpath(index['codex'])) as f:
         codex = json.load(f)
 
     translations = {}
-    for language in index['languages']:
-        with open(input_dir.joinpath('i18n', f'{language}.json')) as f:
+    for language, file_path in index['i18n'].items():
+        with open(input_dir.joinpath(file_path)) as f:
             translations[language] = json.load(f)
 
     print('update boss scaling list')

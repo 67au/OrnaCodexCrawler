@@ -29,7 +29,7 @@ def main():
     if args.output:
         settings.set('OUTPUT_DIR', args.output)
     if args.extra:
-        settings.set('EXTRA_DIR', args.output)
+        settings.set('EXTRA_DIR', args.extra)
     if args.dump:
         settings.set('DUMP_DIR', args.dump)
     if args.httpcache:

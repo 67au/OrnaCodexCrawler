@@ -12,6 +12,7 @@ def main():
     parser.add_argument('--output', help="output dir")
     parser.add_argument('--extra', help="extra dir")
     parser.add_argument('--dump', help="dump dir")
+    parser.add_argument('--export', help="export dir")
     parser.add_argument('--httpcache', action='store_true', help='enable scrapy httpcache')
     parser.add_argument('--base', help='Set BASE_URL')
 
@@ -32,6 +33,8 @@ def main():
         settings.set('EXTRA_DIR', args.extra)
     if args.dump:
         settings.set('DUMP_DIR', args.dump)
+    if args.export:
+        settings.set('EXPORT_EXTRA_DIR', args.export)
     if args.httpcache:
         settings.set('HTTPCACHE_ENABLED', True)
     if args.base:

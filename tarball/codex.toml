@@ -6089,7 +6089,7 @@ icon = "/img/followers/eastern_mimic.png"
 id = "eastern-mimic"
 rarity = "steward"
 skills = [["spells", "heal"], ["spells", "focus"], ["spells", "magic-boost"], ["spells", "magic-shield"], ["spells", "poison"], ["spells", "protection"], ["spells", "warcry"], ["spells", "speed"]]
-tier = 1
+tier = 3
 
 [main.followers.eastern-mimic.stats]
 attack_rate = "5"
@@ -20661,6 +20661,7 @@ magic = "12"
 [main.items.beard-bristle]
 aura = "legendary"
 category = "items"
+dropped_by = [["raids", "the-creator"]]
 exotic = true
 icon = "/img/nfs/odie/hightier/beard_bristle.png"
 id = "beard-bristle"
@@ -70156,7 +70157,7 @@ tier = 5
 
 [main.raids.the-creator]
 category = "raids"
-drops = [["items", "del-chliss"], ["items", "pale-beard"], ["items", "argos"], ["items", "magh-meall"], ["items", "ogma"], ["items", "tethra"], ["items", "trenfher"]]
+drops = [["items", "del-chliss"], ["items", "pale-beard"], ["items", "argos"], ["items", "beard-bristle"], ["items", "magh-meall"], ["items", "ogma"], ["items", "tethra"], ["items", "trenfher"]]
 events = ["ornaversary"]
 hp = 16152500
 icon = "/img/packs/nfs/odie_2024.png"

@@ -32,7 +32,7 @@ def run(settings: Settings):
         with toml_file.open('r', encoding='utf-8') as f:
             data = tomlkit.load(f)
         with json_file.open('w', encoding='utf-8') as f:
-            json.dump(output, f, ensure_ascii=False)
+            json.dump(data, f, ensure_ascii=False)
 
         print(f"Converted: {toml_file} -> {json_file}")
 
@@ -41,4 +41,5 @@ def run(settings: Settings):
         json.dump({
             'version': settings.get('VERSION'),
             'updated_at': datetime.now(timezone.utc).isoformat(),
+            'categories': categories
         }, f)

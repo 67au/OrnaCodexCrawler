@@ -43,19 +43,15 @@ def generate_enemy(codex: dict, translations: dict, output_dir: Path):
                 enemy_doc.add(tomlkit.comment(names))
                 enemy_doc.add('id', id)
 
-            if not enemy_doc.get('element'):
                 enemy_doc.add(tomlkit.nl())
-                element = tomlkit.table()
-                element.add('resist', [])
-                element.add('weak', [])
-                element.add('immune', [])
-                enemy_doc.add('element', element)
-
-            if not enemy_doc.get('status'):
-                enemy_doc.add(tomlkit.nl())
-                status = tomlkit.table()
-                status.add('immune', [])
-                enemy_doc.add('status', status)
+                comment_text = tomlkit.dumps({
+                    'elementResist':[],
+                    'elementWeak':[],
+                    'elementImmune':[],
+                    'statusImmune': []
+                })
+                for s in comment_text.splitlines():
+                    enemy_doc.add(tomlkit.comment(s))
 
             with open(enemy_file, 'w') as f:
                 tomlkit.dump(enemy_doc, f)

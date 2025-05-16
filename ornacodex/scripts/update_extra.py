@@ -30,36 +30,33 @@ def generate_enemy(codex: dict, translations: dict, output_dir: Path):
         output_files.mkdir(exist_ok=True)
         for id, entry in codex[enemy].items():
             enemy_file = output_files.joinpath(f'{entry['id']}.toml')
-            names = " / ".join(t['main'][enemy][id]['name'] for t in translations.values())
+            names = " / ".join(t['main'][enemy][id]['name']
+                               for t in translations.values())
             if enemy_file.exists():
                 with open(enemy_file) as f:
                     enemy_doc = tomlkit.load(f)
                     if isinstance(enemy_doc.body[0][1], tomlkit.items.Comment):
                         enemy_doc.body[0] = [None, tomlkit.comment(names)]
                     else:
-                        enemy_doc.body.insert(0, [None, tomlkit.comment(names)])
+                        enemy_doc.body.insert(
+                            0, [None, tomlkit.comment(names)])
             else:
                 enemy_doc = tomlkit.document()
                 enemy_doc.add(tomlkit.comment(names))
                 enemy_doc.add('id', id)
 
-            if not enemy_doc.get('element'):
                 enemy_doc.add(tomlkit.nl())
-                element = tomlkit.table()
-                element.add('resist', [])
-                element.add('weak', [])
-                element.add('immune', [])
-                enemy_doc.add('element', element)
-
-            if not enemy_doc.get('status'):
-                enemy_doc.add(tomlkit.nl())
-                status = tomlkit.table()
-                status.add('immune', [])
-                enemy_doc.add('status', status)
+                comment_text = tomlkit.dumps({
+                    'elementWeaknesses': [],
+                    'elementImmunities': [],
+                    'elementResistances': [],
+                    'statusImmunities': []
+                })
+                for s in comment_text.splitlines():
+                    enemy_doc.add(tomlkit.comment(s))
 
             with open(enemy_file, 'w') as f:
                 tomlkit.dump(enemy_doc, f)
-            
 
 
 def run(settings: Settings):
@@ -83,4 +80,3 @@ def run(settings: Settings):
 
     print('update enemy stats')
     generate_enemy(codex['main'], translations, extra_dir.root)
-    

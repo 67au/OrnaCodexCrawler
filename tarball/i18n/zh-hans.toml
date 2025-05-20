@@ -5272,7 +5272,7 @@ name = "蜡烛法杖"
 
 [main.items.candy-cane]
 description = "史古基追随者所携带的活力手杖。有人说它尝起来让人相当开心。携带它能让你每回合恢复部分已损失的生命值。"
-name = "枴杖糖"
+name = "拐杖糖"
 
 [main.items.cane]
 description = "智者法杖。"
@@ -8064,7 +8064,7 @@ name = "强大蜥蜴人盔甲"
 
 [main.items.great-lizarr-blade]
 description = "蜥蜴人的粗刃。"
-name = "上级蜥蜴人宽剑"
+name = "强大的蜥蜴人宽剑"
 
 [main.items.great-lizarr-boots]
 description = "蜥蜴人战士的长靴。"
@@ -13168,7 +13168,7 @@ name = "巨鳗"
 name = "强大的凝视者 (重生者)"
 
 [main.monsters.great-lizarr-knight]
-name = "上级蜥蜴人骑士"
+name = "强大的蜥蜴人骑士"
 
 [main.monsters.great-lizarr-noble]
 name = "强大的蜥蜴人贵族"
@@ -17030,7 +17030,7 @@ description = "造成较多的黑暗伤害。"
 name = "暗影击 II"
 
 [main.spells.shadowed-earthstrike]
-description = "以大地之力对对手进行攻击，同时造成地属性与暗属性物理伤害。该攻击有机率造成眩晕或入睡。"
+description = "以大地之力附加武器对对手进行攻击，同时造成地属性与暗属性物理伤害。该攻击有机率造成眩晕或入睡。"
 name = "大地影蚀"
 
 [main.spells.shadowed-firestrike]

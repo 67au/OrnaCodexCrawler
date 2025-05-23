@@ -12085,6 +12085,10 @@ name = "凡列克之戒"
 description = "用蛇龍皮做成的胸甲."
 name = "蛇龍盔甲"
 
+[main.items.viper-boots]
+description = "用蛇龍皮做成的長靴."
+name = "蛇龍長靴"
+
 [main.items.viper-chestmail]
 description = "用蛇龍皮做成的胸甲."
 name = "蛇龍鎖鏈甲"
@@ -12144,6 +12148,10 @@ name = "瓦肯胸甲"
 [main.items.vulcan-helmet]
 description = "惡名昭彰的赤騎瓦肯之頭盔.能防止被燃燒."
 name = "瓦肯頭盔"
+
+[main.items.vulcans-archistaff]
+description = "赤騎瓦肯很少帶上的豪華權杖.瓦肯建立了煉獄騎士來對抗安溫的軍勢.他的法杖能輕易使對手燃燒."
+name = "瓦肯之權杖"
 
 [main.items.vulcans-brew]
 description = "煉獄騎士瓦肯釀造的精力藥.喝下它能在一段時間內稍微提升獲得的經驗值及掉寶率."

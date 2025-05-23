@@ -6494,6 +6494,10 @@ name = "龙兽长靴"
 description = "覆盖着龙鳞的厚重盔甲"
 name = "龙兽头盔"
 
+[main.items.drake-leggings]
+description = "覆盖着龙鳞的厚重盔甲"
+name = "龙兽腿甲"
+
 [main.items.draugr-staff]
 description = "尸鬼的法杖。能提升魔力值。"
 name = "尸鬼法杖"
@@ -9642,6 +9646,10 @@ name = "宝箱怪头套"
 description = "宝箱怪的头。当戴上它时，可以获得更多的金币和欧币。"
 name = "宝箱王头套"
 
+[main.items.mimic-king-of-kings-head]
+description = "宝箱怪的头。当戴上它时，可以获得更多的金币和欧币。"
+name = "箱王之王头套"
+
 [main.items.minotaur-axe]
 description = "牛头怪所使用的巨大双头斧。能提升附带伤害的效果。"
 name = "牛头怪斧"
@@ -12589,6 +12597,9 @@ name = "安忒洛斯流氓"
 [main.monsters.anteros-warrior]
 name = "安忒洛斯战士"
 
+[main.monsters.apollyons-apprentice]
+name = "亚玻伦的学徒"
+
 [main.monsters.apollyons-apprentice-x]
 name = "亚玻伦的学徒X"
 
@@ -13107,6 +13118,9 @@ name = "寒霜巨魔"
 
 [main.monsters.gargoyle]
 name = "石像鬼"
+
+[main.monsters.garm]
+name = "加姆"
 
 [main.monsters.gazer]
 name = "凝视者"

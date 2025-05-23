@@ -2064,7 +2064,7 @@ name = "地龙"
 
 [main.followers.eastern-mimic]
 description = "就是一只宝箱怪。冇人知道它下一步想干什么。"
-name = "Eastern Mimic"
+name = "东方宝箱怪"
 
 [main.followers.ebon-scruug]
 description = "期间限定。贪婪与忌妒的代名词。"
@@ -6494,10 +6494,6 @@ name = "龙兽长靴"
 description = "覆盖着龙鳞的厚重盔甲"
 name = "龙兽头盔"
 
-[main.items.drake-leggings]
-description = "覆盖着龙鳞的厚重盔甲"
-name = "龙兽腿甲"
-
 [main.items.draugr-staff]
 description = "尸鬼的法杖。能提升魔力值。"
 name = "尸鬼法杖"
@@ -8064,7 +8060,7 @@ name = "强大蜥蜴人盔甲"
 
 [main.items.great-lizarr-blade]
 description = "蜥蜴人的粗刃。"
-name = "强大的蜥蜴人宽剑"
+name = "强大蜥蜴人宽剑"
 
 [main.items.great-lizarr-boots]
 description = "蜥蜴人战士的长靴。"
@@ -9646,10 +9642,6 @@ name = "宝箱怪头套"
 description = "宝箱怪的头。当戴上它时，可以获得更多的金币和欧币。"
 name = "宝箱王头套"
 
-[main.items.mimic-king-of-kings-head]
-description = "宝箱怪的头。当戴上它时，可以获得更多的金币和欧币。"
-name = "箱王之王头套"
-
 [main.items.minotaur-axe]
 description = "牛头怪所使用的巨大双头斧。能提升附带伤害的效果。"
 name = "牛头怪斧"
@@ -9659,28 +9651,28 @@ description = "镜面盾牌。藉由牺牲护盾，能反映自己并获得魔�
 name = "镜子"
 
 [main.items.mochis-boots-of-mercy]
-description = "Gear of Mochi."
-name = "Mochi's Boots of Mercy"
+description = "Mochi的装备。"
+name = "Mochi的慈悲长靴"
 
 [main.items.mochis-bracer-of-mercy]
-description = "Gear of Mochi."
-name = "Mochi's Bracer of Mercy"
+description = "Mochi的装备。"
+name = "Mochi的慈悲护腕"
 
 [main.items.mochis-claws]
-description = "Gear of Mochi."
-name = "Mochi's Claws"
+description = "Mochi的装备。"
+name = "Mochi的利爪"
 
 [main.items.mochis-cowl-of-mercy]
-description = "Gear of Mochi."
-name = "Mochi's Cowl of Mercy"
+description = "Mochi的装备。"
+name = "Mochi的慈悲风帽"
 
 [main.items.mochis-garb-of-mercy]
-description = "Gear of Mochi."
-name = "Mochi's Garb of Mercy"
+description = "Mochi的装备。"
+name = "Mochi的慈悲皮甲"
 
 [main.items.mochis-tome]
-description = "Gear of Mochi."
-name = "Mochi's Tome"
+description = "Mochi的装备。"
+name = "Mochi的魔典"
 
 [main.items.monoceros-cowl]
 description = "使用一角兽皮毛打造的护甲。能在战斗中提升敏捷。"
@@ -12597,9 +12589,6 @@ name = "安忒洛斯流氓"
 [main.monsters.anteros-warrior]
 name = "安忒洛斯战士"
 
-[main.monsters.apollyons-apprentice]
-name = "亚玻伦的学徒"
-
 [main.monsters.apollyons-apprentice-x]
 name = "亚玻伦的学徒X"
 
@@ -13118,9 +13107,6 @@ name = "寒霜巨魔"
 
 [main.monsters.gargoyle]
 name = "石像鬼"
-
-[main.monsters.garm]
-name = "加姆"
 
 [main.monsters.gazer]
 name = "凝视者"
@@ -14165,7 +14151,7 @@ description = "工作室里的大厨。"
 name = "MmmPizza"
 
 [main.raids.mochi]
-description = "With great support."
+description = "获得支持。"
 name = "Mochi"
 
 [main.raids.naggeneen]

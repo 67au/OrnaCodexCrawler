@@ -2064,7 +2064,7 @@ name = "地龍"
 
 [main.followers.eastern-mimic]
 description = "就是一隻寶箱怪，而你永遠也猜不到它下一步想幹嘛。"
-name = "Eastern Mimic"
+name = "東方箱怪"
 
 [main.followers.ebon-scruug]
 description = "貪婪與忌妒的代名詞.期間限定."
@@ -9659,28 +9659,28 @@ description = "鏡面盾牌.藉由犧牲護盾,能反映自己並獲得法力值
 name = "鏡子"
 
 [main.items.mochis-boots-of-mercy]
-description = "Gear of Mochi."
-name = "Mochi's Boots of Mercy"
+description = "Mochi噴的裝。"
+name = "Mochi的慈悲長靴"
 
 [main.items.mochis-bracer-of-mercy]
-description = "Gear of Mochi."
-name = "Mochi's Bracer of Mercy"
+description = "Mochi噴的裝。"
+name = "Mochi的慈悲腕甲"
 
 [main.items.mochis-claws]
-description = "Gear of Mochi."
-name = "Mochi's Claws"
+description = "Mochi噴的裝。"
+name = "Mochi的爪爪"
 
 [main.items.mochis-cowl-of-mercy]
-description = "Gear of Mochi."
-name = "Mochi's Cowl of Mercy"
+description = "Mochi噴的裝。"
+name = "Mochi的慈悲風帽"
 
 [main.items.mochis-garb-of-mercy]
-description = "Gear of Mochi."
-name = "Mochi's Garb of Mercy"
+description = "Mochi噴的裝。"
+name = "Mochi的慈悲皮甲"
 
 [main.items.mochis-tome]
-description = "Gear of Mochi."
-name = "Mochi's Tome"
+description = "Mochi噴的裝。"
+name = "Mochi的本子"
 
 [main.items.monoceros-cowl]
 description = "用一角獸皮革做成的盔甲。它能在戰鬥中提升敏捷。"
@@ -12085,10 +12085,6 @@ name = "凡列克之戒"
 description = "用蛇龍皮做成的胸甲."
 name = "蛇龍盔甲"
 
-[main.items.viper-boots]
-description = "用蛇龍皮做成的長靴."
-name = "蛇龍長靴"
-
 [main.items.viper-chestmail]
 description = "用蛇龍皮做成的胸甲."
 name = "蛇龍鎖鏈甲"
@@ -12148,10 +12144,6 @@ name = "瓦肯胸甲"
 [main.items.vulcan-helmet]
 description = "惡名昭彰的赤騎瓦肯之頭盔.能防止被燃燒."
 name = "瓦肯頭盔"
-
-[main.items.vulcans-archistaff]
-description = "赤騎瓦肯很少帶上的豪華權杖.瓦肯建立了煉獄騎士來對抗安溫的軍勢.他的法杖能輕易使對手燃燒."
-name = "瓦肯之權杖"
 
 [main.items.vulcans-brew]
 description = "煉獄騎士瓦肯釀造的精力藥.喝下它能在一段時間內稍微提升獲得的經驗值及掉寶率."
@@ -14165,7 +14157,7 @@ description = "工坊裡的大廚。"
 name = "MmmPizza"
 
 [main.raids.mochi]
-description = "With great support."
+description = "客服已上線。"
 name = "Mochi"
 
 [main.raids.naggeneen]

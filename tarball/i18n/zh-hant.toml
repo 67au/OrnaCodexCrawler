@@ -240,12 +240,12 @@ icon = "/img/effects/dungeoner.png"
 name = "地城行者"
 
 [abilities.efficacious]
-description = "施放多回合法術時，對自身的傷害將會減少。此外，對具有元素免疫的敵人施放的法術將造成部分傷害，而不是沒有傷害。"
+description = "對弱點屬性造成額外傷害，對免疫的屬性依然保有部分傷害。在吟唱多回合法術時會減免所受的傷害。"
 icon = "/img/effects/insistence.png"
 name = "元素破解"
 
 [abilities.efficacious_ii]
-description = "施放多回合法術時，對自身的傷害將會減少。此外，對具有元素免疫的敵人施放的法術將造成部分傷害，而不是沒有傷害。"
+description = "對弱點屬性造成額外傷害，對免疫的屬性依然保有部分傷害。在吟唱多回合法術時會減免所受的傷害。"
 icon = "/img/effects/insistence.png"
 name = "元素破解 II"
 
@@ -288,11 +288,6 @@ name = "老練召喚師"
 description = "你有能力在戰鬥中自動反擊。此外，你有機率可在回合中行動兩次並且在擊敗對手時獲得額外回合。"
 icon = "/img/effects/remark.png"
 name = "芬尼斯的訓練"
-
-[abilities.flasks_of_corvus]
-description = "魔禁瓶與血禁瓶充能更快。"
-icon = "/img/effects/corvus.png"
-name = "烏鴉座禁瓶"
 
 [abilities.gold_bonus]
 description = "你對發現額外的金幣有特別的辦法。"
@@ -1094,7 +1089,7 @@ name = "古老巨龍"
 [main.bosses.great-cockatrice]
 name = "大雞蛇"
 
-[main.bosses.great-gazer-d870cac1]
+[main.bosses.great-gazer]
 name = "強大的凝視者"
 
 [main.bosses.great-jinn]
@@ -1934,6 +1929,10 @@ name = "大仙人掌"
 description = "期間限定。"
 name = "血腥座狼"
 
+[main.followers.bone-mammoth]
+description = "大自然的一份子，對抗淤濁的夥伴。"
+name = "骨猛獁象"
+
 [main.followers.breathing-armor]
 description = "會動的鎧甲。在團戰時能吸引敵人的目光也能恢復你的護盾。"
 name = "會呼吸的鎧甲"
@@ -2001,6 +2000,10 @@ name = "雞蛇"
 [main.followers.colossus]
 description = "強力的巨像。他能提升你的防禦力，偶爾也能石化對手。"
 name = "巨像"
+
+[main.followers.coral-reef]
+description = "大自然的一份子，對抗淤濁的夥伴。"
+name = "珊瑚礁"
 
 [main.followers.coral-varmint]
 description = "雖然被馴服但仍具侵略性的蜥蜴人戰士.戰鬥中會攻擊你的敵人."
@@ -2157,6 +2160,14 @@ name = "鬼"
 [main.followers.giant-basilisk]
 description = "巨大的赤紅巴西利斯克.攻擊欲望強烈能幫助你戰鬥."
 name = "巨大巴西利斯克"
+
+[main.followers.giant-panda]
+description = "大自然的一份子，對抗淤濁的夥伴。"
+name = "巨型熊貓"
+
+[main.followers.giant-tortoise]
+description = "大自然的一份子，對抗淤濁的夥伴。"
+name = "巨型陸龜"
 
 [main.followers.glashtyn]
 description = "期間限定。"
@@ -2346,6 +2357,10 @@ name = "龍蝦"
 description = "遠古巨龍能使用諸多技能。限時特賣。"
 name = "盤蛇羅坍"
 
+[main.followers.macaroni-penguin]
+description = "大自然的一份子，對抗淤濁的夥伴。"
+name = "冠企鵝"
+
 [main.followers.mammon-acolyte]
 description = "瑪門的追隨者。會依據你最近屠殺的怪物數量來造成傷害，但有時沒帶準星。"
 name = "瑪門追隨者"
@@ -2377,6 +2392,10 @@ name = "牛頭怪"
 [main.followers.monoceros]
 description = "期間限定。"
 name = "一角獸"
+
+[main.followers.mountain-gorilla]
+description = "大自然的一份子，對抗淤濁的夥伴。"
+name = "山地猩猩"
 
 [main.followers.naggeneen]
 description = "期間限定：哦,是骯髒妖精納根因。"
@@ -2602,6 +2621,10 @@ name = "超究極寶箱怪"
 description = "跟隨者超究極寶箱怪的新造型。期間限定。"
 name = "超究極淤濁怪"
 
+[main.followers.timber-the-beaver]
+description = "大自然的一份子，對抗淤濁的夥伴。"
+name = "圓木河狸"
+
 [main.followers.traveled-wolpertinger]
 description = "旅行者公會的代表獸。牠可以在戰鬥中使用各種技能幫助你，也可以增加探索世界的獎勵。"
 name = "見多識廣的鹿角翼兔"
@@ -2795,7 +2818,7 @@ description = "安格斯奧格的第二把魯特琴，弗摩爾族諾克圖娜�
 name = "安格斯奧格魯特琴"
 
 [main.items.affinity-candle]
-description = "點燃此神秘的蠟燭將在一段時間內引來更強的敵人。"
+description = "點燃此蠟燭會吸引較強力的怪物靠近。此道具效力持續1小時。"
 name = "引怪蠟燭"
 
 [main.items.agathodaemon-hammer]
@@ -2973,6 +2996,14 @@ name = "遠古巨魔的護符"
 [main.items.ancient-water-essence]
 description = "遠古精靈很少攜帶本質來抵禦元素。該物品偶爾會對其分配的元素給予免疫力。"
 name = "遠古水之本質"
+
+[main.items.anguished-crucible]
+description = "可盛裝任何鎔鑄金屬的堅硬容器。將煎熬物品放進去可移除原有的煎熬加成並替換成隨即的加成，如果原本沒有加成的物品會獲得一個加成。"
+name = "煎熬坩堝"
+
+[main.items.anguished-pathspur]
+description = "這個物品可以反轉你在煎熬之路上的決定。在煎熬輪迴中使用其來重置你之前做出的選擇。"
+name = "煎熬路導"
 
 [main.items.ankh]
 description = "奇怪的遠古法杖.似乎能用來施法或是物理攻擊用."
@@ -3370,11 +3401,11 @@ name = "重生受詛咒的埃蘇斯之柱"
 description = "弗摩爾長靴，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 name = "重生受詛咒的弗摩爾族板甲靴"
 
-[main.items.arisen-cursed-fomoria-plated-boots-4de3e61d]
+[main.items.arisen-cursed-fomoria-plated-boots-56e4841c]
 description = "弗摩爾長靴，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 name = "重生受詛咒的弗摩爾族板甲靴"
 
-[main.items.arisen-cursed-fomoria-plated-boots-56e4841c]
+[main.items.arisen-cursed-fomoria-plated-boots-7aefba00]
 description = "弗摩爾長靴，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 name = "重生受詛咒的弗摩爾族板甲靴"
 
@@ -3386,11 +3417,11 @@ name = "重生受詛咒的弗摩爾族板甲靴"
 description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 name = "重生受詛咒的弗摩爾族板甲袍"
 
-[main.items.arisen-cursed-fomoria-plated-robe-954d6525]
+[main.items.arisen-cursed-fomoria-plated-robe-9a5a1cdd]
 description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 name = "重生受詛咒的弗摩爾族板甲袍"
 
-[main.items.arisen-cursed-fomoria-plated-robe-9a5a1cdd]
+[main.items.arisen-cursed-fomoria-plated-robe-ca4ddba5]
 description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 name = "重生受詛咒的弗摩爾族板甲袍"
 
@@ -3402,15 +3433,15 @@ name = "重生受詛咒的弗摩爾族板甲袍"
 description = "弗摩爾王冠，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 name = "重生受詛咒的弗摩爾王冠"
 
+[main.items.arisen-cursed-fomors-crown-276564a1]
+description = "弗摩爾王冠，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
+name = "重生受詛咒的弗摩爾王冠"
+
 [main.items.arisen-cursed-fomors-crown-2cb9b4e6]
 description = "弗摩爾王冠，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 name = "重生受詛咒的弗摩爾王冠"
 
 [main.items.arisen-cursed-fomors-crown-3a4a918b]
-description = "弗摩爾王冠，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
-name = "重生受詛咒的弗摩爾王冠"
-
-[main.items.arisen-cursed-fomors-crown-612a024c]
 description = "弗摩爾王冠，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 name = "重生受詛咒的弗摩爾王冠"
 
@@ -5634,6 +5665,10 @@ name = "諾克圖娜紋章"
 description = "完成弗摩爾薩姆納家族試煉的證明。使用此物品來召喚強大的投影。"
 name = "薩姆納紋章"
 
+[main.items.crest-of-the-blades]
+description = "芬尼斯之刃發行給死忠人士的紋章。使用後會在6小時內大幅提升武器造成的傷害。"
+name = "利刃紋章"
+
 [main.items.crest-of-the-dragon-slayer]
 description = "當龍狩祭結束後，巨龍獵人公會所頒發的紋章。使用它之後，你的裝備獲得神賜的機會將會大幅提高。"
 name = "巨龍獵人紋章"
@@ -6230,6 +6265,10 @@ name = "惡魔刀刃"
 description = "來自地底的原礦靈石.能用來強化惡魔的武器."
 name = "惡魔礦石"
 
+[main.items.demonworking-tools]
+description = "在廢棄的惡魔熔爐中發現的工具，能夠同時增強和破壞。在一件裝備上使用這些工具將會增加一級煎熬等級，但其裝備等級會跌回 10 級。煎熬物品的鍛造材料數將有所降低。"
+name = "魔改工具"
+
 [main.items.diluted-mnemonic]
 description = "與區域的失落記憶互動的媒介。使用它可以開始追尋你這區域的破碎記憶。"
 name = "幽微追憶"
@@ -6363,7 +6402,7 @@ description = "曾是不落者勢力中的偉大英雄，唐塔，所持有的�
 name = "唐塔之盾"
 
 [main.items.dowsing-rod]
-description = "常用於尋找隱藏物品的神奇的玩意兒。它能暫時性提高物品獲取率。"
+description = "適合尋找罕見物品的奇妙的探測儀器。1小時內提升發現物品的機率。"
 name = "探測棒"
 
 [main.items.dracon-bow]
@@ -6803,8 +6842,12 @@ description = "精靈戰士所有的極具裝飾性的武器。"
 name = "精靈劍"
 
 [main.items.elysian-candle]
-description = "點亮淨土蠟燭後，在地圖上狩獵怪物時或許會有額外的素材。"
+description = "點燃此淨土蠟燭後在擊殺怪物時有機會找到隨機材料。此道具效力持續1小時。"
 name = "淨土蠟燭"
+
+[main.items.elysian-coin]
+description = "來自淨土的蔚藍色古老錢幣。使用後會在48小時內提升記憶追尋的獎勵。"
+name = "淨土幣"
 
 [main.items.ember-plumed-boots]
 description = "全能鳳凰的崇拜者所穿的腿甲。使用它有機會能暫時提升身體素質。"
@@ -6915,7 +6958,7 @@ description = "???"
 name = "誓約聖劍"
 
 [main.items.exp-potion]
-description = "聞起來有點可怕的藥水，它能暫時性提高經驗值獲取量。"
+description = "在1小時內讓經驗值兩倍的臭酸靈藥。"
 name = "經驗值藥水"
 
 [main.items.explorers-waystone]
@@ -7095,7 +7138,7 @@ description = "怎麼有能讓人如此開心的衣服？它將賦予你使用�
 name = "亮麗的腰帶"
 
 [main.items.farsight]
-description = "提升視野的藥水。喝下它能在一定時間內提升你的視野。"
+description = "讓雙眼目明的藥水。使用後會在1小時內提升視野。"
 name = "遠見"
 
 [main.items.feral-archistaff]
@@ -7763,7 +7806,7 @@ description = "惡名昭彰的蓋亞的奢華長袍。能提高戰鬥開始時�
 name = "蓋亞長袍"
 
 [main.items.galars-hammer]
-description = "伽勒爾所用的精良錘子。在鐵匠鋪升級裝備之前先使用它的話可以降低升級所需時間。"
+description = "伽勒爾所用的精良錘子。在鐵匠鋪升級裝備之前先使用它的話可以降低升級所需時間。此道具效力持續1小時。"
 name = "伽勒爾之錘"
 
 [main.items.gales-spear]
@@ -7942,6 +7985,10 @@ name = "哥布林長靴"
 description = "哥布林領主的法杖.能稍微提升魔力值."
 name = "哥布林領主的法杖"
 
+[main.items.godmaking-tools]
+description = "在廢棄的工坊中發現的工具，蘊含神奇的力量。在一件裝備上使用這些工具將使其煎熬等級升到你解鎖的最高等級。"
+name = "造神工具"
+
 [main.items.goibhniu-armguard]
 description = "戈夫紐的護臂，弗摩爾族薩姆納家族的戰士鍛冶神。戈夫紐打造了家族強大的劍、錘子和斧頭。當穿戴此裝備時，對多個對手的技能將造成額外傷害。此外，技能有低機率會擊中一個以上的對手。"
 name = "戈夫紐護臂"
@@ -7951,7 +7998,7 @@ description = "古奧林匹亞的經典盛事夏日運動會的獎牌。"
 name = "金牌"
 
 [main.items.gold-mushroom]
-description = "一個閃亮亮的幸運蘑菇。在一定時間內增加獲得金幣的數量。"
+description = "一閃一閃幸運菇。6小時內增加獲取的金幣。"
 name = "金蘑菇"
 
 [main.items.gold-pinion]
@@ -8039,7 +8086,7 @@ description = "由強大的熊身上所取得的完美盔甲。"
 name = "完美的熊皮肩"
 
 [main.items.great-dowsing-rod]
-description = "常用於尋找隱藏物品的神奇的玩意兒。它能暫時性大幅提高物品獲取率。"
+description = "適合尋找罕見物品的奇妙的探測儀器。6小時內大幅提升發現物品的機率。"
 name = "大根探測棒"
 
 [main.items.great-empty-bottle]
@@ -8154,6 +8201,10 @@ name = "強大鳳凰的鞋"
 description = "常用於歌頌偉大鳳凰的華美長笛.雖然看起來很脆弱,但很適合鑲嵌裝飾品."
 name = "強大的鳳曲"
 
+[main.items.great-questing-license]
+description = "冒險者公會發行的一張紙。使用它能暫時提升完成任務時獲得的金幣、歐幣和經驗值。此道具效力為1小時。"
+name = "大探險證"
+
 [main.items.great-staff]
 description = "古代大法師愛用的法杖。"
 name = "強大法杖"
@@ -8243,7 +8294,7 @@ description = "南瓜頭的長劍的仿製品。阿格羅瓦爾在成為人們�
 name = "萬聖劍"
 
 [main.items.hallowed-candle]
-description = "點燃此神秘蠟燭會在期間內吸引更強的敵人，這段期間擊敗魔物將給予更多的經驗值。"
+description = "點燃此神秘的蠟燭後會在1小時內吸引強力的怪物。在此段時間內擊殺怪物會獲得額外的經驗值。"
 name = "萬聖蠟燭"
 
 [main.items.hallowed-monster-tome]
@@ -9047,39 +9098,39 @@ description = "梅林珍稀收藏中的聖物,這把匕首藉由犧牲其他能�
 name = "湖中少女"
 
 [main.items.last-martyrs-armor]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備將從當日被擊敗的英雄和旅者們之中獲取額外的力量。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備根據每煎熬等級提升1%的屬性。"
 name = "最終烈士的盔甲"
 
 [main.items.last-martyrs-baton]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的武器。煎熬裝備將從當日被擊敗的英雄和旅者們之中獲取額外的力量。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的武器。煎熬裝備根據每煎熬等級提升1%的屬性。"
 name = "最終烈士的杵"
 
 [main.items.last-martyrs-boots]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備將從當日被擊敗的英雄和旅者們之中獲取額外的力量。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備根據每煎熬等級提升1%的屬性。"
 name = "最終烈士的長靴"
 
 [main.items.last-martyrs-chestguard]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備將從當日被擊敗的英雄和旅者們之中獲取額外的力量。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備根據每煎熬等級提升1%的屬性。"
 name = "最終烈士的胸鎧"
 
 [main.items.last-martyrs-cowl]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備將從當日被擊敗的英雄和旅者們之中獲取額外的力量。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備根據每煎熬等級提升1%的屬性。"
 name = "最終烈士的風帽"
 
 [main.items.last-martyrs-flame]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的武器。煎熬裝備將從當日被擊敗的英雄和旅者們之中獲取額外的力量。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的武器。煎熬裝備根據每煎熬等級提升1%的屬性。"
 name = "最終烈士的火焰"
 
 [main.items.last-martyrs-garb]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備將從當日被擊敗的英雄和旅者們之中獲取額外的力量。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備根據每煎熬等級提升1%的屬性。"
 name = "最終烈士的皮甲"
 
 [main.items.last-martyrs-headdress]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備將從當日被擊敗的英雄和旅者們之中獲取額外的力量。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備根據每煎熬等級提升1%的屬性。"
 name = "最終烈士的頭巾"
 
 [main.items.last-martyrs-helmet]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備將從當日被擊敗的英雄和旅者們之中獲取額外的力量。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備根據每煎熬等級提升1%的屬性。"
 name = "最終烈士的頭盔"
 
 [main.items.last-martyrs-hood]
@@ -9087,15 +9138,15 @@ description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬�
 name = "最終烈士的兜帽"
 
 [main.items.last-martyrs-leggings]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備將從當日被擊敗的英雄和旅者們之中獲取額外的力量。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備根據每煎熬等級提升1%的屬性。"
 name = "最終烈士的腿甲"
 
 [main.items.last-martyrs-legwraps]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備將從當日被擊敗的英雄和旅者們之中獲取額外的力量。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備根據每煎熬等級提升1%的屬性。"
 name = "最終烈士的裹腿"
 
 [main.items.last-martyrs-longbow]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的武器。煎熬裝備將從當日被擊敗的英雄和旅者們之中獲取額外的力量。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的武器。煎熬裝備根據每煎熬等級提升1%的屬性。"
 name = "最終烈士的長弓"
 
 [main.items.last-martyrs-robe]
@@ -9107,7 +9158,7 @@ description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬�
 name = "最終烈士的裙子"
 
 [main.items.last-martyrs-sword]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的武器。煎熬裝備將從當日被擊敗的英雄和旅者們之中獲取額外的力量。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的武器。煎熬裝備根據每煎熬等級提升1%的屬性。"
 name = "最終烈士的劍"
 
 [main.items.lasting-lantern]
@@ -9307,11 +9358,11 @@ description = "柯瑞斯做來吸引強大墮落英雄的誘惑護符。戴上�
 name = "戀人之逝"
 
 [main.items.lucky-coin]
-description = "閃亮亮的幸運金幣.能在一定時間內提升獲得的金錢."
+description = "閃亮的幸運硬幣。在1小時內提升獲取的金錢。"
 name = "幸運金幣"
 
 [main.items.lucky-silver-coin]
-description = "閃亮亮的幸運銀幣，可以在一段時間內增加獲得的歐幣。"
+description = "閃亮的銀色硬幣。1小時內提升獲取的歐幣。"
 name = "幸運銀幣"
 
 [main.items.lugus-gauntlet]
@@ -9714,6 +9765,10 @@ name = "魔物遺骸"
 description = "普通的魔物之典.能稍微提升獲得的經驗值."
 name = "魔物之典"
 
+[main.items.monumentals-candle]
+description = "點燃此蠟燭會吸引當前活動的怪物靠近。此道具效力持續48小時。"
+name = "紀念碑蠟燭"
+
 [main.items.monumentals-summoning-scroll]
 description = "寫著遠古巴羅爾召喚技術的卷軸。閱讀它只能召喚正在進行中的遠古副本頭目。"
 name = "紀念碑召喚卷軸"
@@ -9759,7 +9814,7 @@ description = "於梅林的珍稀收藏中的豎琴。會提供元素防禦。"
 name = "梅爾丁豎琴"
 
 [main.items.myrkheim-hammer]
-description = "米爾克海姆的老鐵匠使用的上好錘子。在鐵匠鋪升級裝備之前先使用它的話可以大幅降低升級所需時間。"
+description = "米爾克海姆的老鐵匠使用的上好錘子。在鐵匠鋪升級裝備之前先使用它的話可以大幅降低升級所需時間。此道具效力為1小時。"
 name = "米爾克海姆之錘"
 
 [main.items.mystic-katar]
@@ -10002,8 +10057,12 @@ name = "ν奧林匹亞戰弓"
 description = "從某個奧林匹亞人掉落的稀有武器。"
 name = "ν奧林匹亞戰刃"
 
+[main.items.nurtured-nature]
+description = "水潤自然的一部分。此道具是泰菈的遺產：萎化自然的一環。"
+name = "水潤自然"
+
 [main.items.occult-candle]
-description = "點燃此神秘的蠟燭將在期間內引來更多敵人。"
+description = "一個點燃後會在一小時內吸引更多敵人的神秘蠟燭。"
 name = "玄妙蠟燭"
 
 [main.items.oceanic-boots]
@@ -10101,6 +10160,10 @@ name = "奧林匹亞追憶"
 [main.items.olympia-tower-key]
 description = "若要登上奧林匹亞之塔，必先開啟這扇門。"
 name = "奧林匹亞塔之鑰"
+
+[main.items.olympian-coin]
+description = "奧林匹亞的古老貨幣。使用後會在48小時內提升攀登奧林匹亞之塔的獎勵。"
+name = "奧林匹亞幣"
 
 [main.items.olympian-tower-joist]
 description = "一個奧林匹亞之塔的大型支撐部件。它可以將阿斯忒里亞姿態授予使用者，增加你的魔力，但失去大量的防禦。此外，法力每回合都會燃燒殆盡。"
@@ -10422,6 +10485,10 @@ name = "波魯克斯的大斧"
 description = "送給大家的禮物。大大提高魔物掉落物品的機率。此外，你可能會從地上被擊倒的魔物身上獲得額外的材料。"
 name = "禮物!"
 
+[main.items.proof-of-agony]
+description = "煎熬輪迴的成員在煎熬之主法術影響下征服強大對手的證明。"
+name = "苦痛之證"
+
 [main.items.proof-of-anguish]
 description = "煎熬輪迴的成員在煎熬之主法術影響下征服強大對手的證明。"
 name = "煎熬之證"
@@ -10437,6 +10504,10 @@ name = "征服之證"
 [main.items.proof-of-crownship]
 description = "一枚由征服者公會頒發的代幣，象徵著擁有者已經征服並掌握了某片土地。"
 name = "統治之證"
+
+[main.items.proof-of-despair]
+description = "煎熬輪迴的成員在煎熬之主法術影響下征服強大對手的證明。"
+name = "絕望之證"
 
 [main.items.proof-of-distance]
 description = "一枚旅行者公會發行認證某人不遠千里尋找不凡的代幣。"
@@ -10458,6 +10529,10 @@ name = "大貢獻度之證"
 description = "冒險者公會發行的證明此人進行了大規模冒險的文件。冒險證明可用於向其他冒險者發出你的任務，或在冒險者公會大廳兌換物品。"
 name = "超大貢獻度之證"
 
+[main.items.proof-of-melancholy]
+description = "煎熬輪迴的成員在煎熬之主法術影響下征服強大對手的證明。"
+name = "憂鬱之證"
+
 [main.items.proof-of-monument]
 description = "一枚紀念碑公會發行認證某人完成限時活動的代幣。"
 name = "紀念之證"
@@ -10470,9 +10545,17 @@ name = "追憶之證"
 description = "由芬尼斯之刃所發行，象徵其在與公會內成員間決鬥勝利的證明。"
 name = "決鬥之證"
 
+[main.items.proof-of-torment]
+description = "煎熬輪迴的成員在煎熬之主法術影響下征服強大對手的證明。"
+name = "折磨之證"
+
 [main.items.proof-of-trials]
 description = "一枚公會發行認證某人已經完成試煉儀式的代幣。"
 name = "試煉之證"
+
+[main.items.proof-of-undying-allegiance]
+description = "公會為獎勵死忠會員所發行的道具。使用後會在48小時內大幅提升獲取的金幣、歐幣、經驗值及其他多種獎勵。"
+name = "死忠不滅之證"
 
 [main.items.psi-olympia-archistaff]
 description = "從某個奧林匹亞人掉落的稀有武器。"
@@ -10599,7 +10682,7 @@ description = "一把以追跡的吠獸之骨所製作的強弓。配戴它可�
 name = "追跡之弓"
 
 [main.items.questing-license]
-description = "參孫給的一張紙。使用它能暫時提升完成任務時獲得的金幣、歐幣和經驗值。"
+description = "參孫給的一張紙。使用它能暫時提升完成任務時獲得的金幣、歐幣和經驗值。此道具效力為1小時。"
 name = "探險證"
 
 [main.items.questing-staff]
@@ -11006,7 +11089,7 @@ description = "含有混合裂痕崩落咒文的卷軸。使用者應獨立判�
 name = "重生的裂痕扭曲卷軸"
 
 [main.items.scroll-of-chaos]
-description = "使世界變為深紅色的混沌卷軸。使用它會在有限的時間內顯示任何棲息地的敵人，但他們可能會更難擊敗。"
+description = "使世界變異為深紅色的混沌卷軸。使用它會在1小時內顯示任何棲息地的敵人，但他們可能會更難擊敗。"
 name = "混沌卷軸"
 
 [main.items.scroll-of-dynasty]
@@ -11074,7 +11157,7 @@ description = "第二騎士的法杖.能降低副本頭目究極攻擊的傷害�
 name = "第二騎士的法杖"
 
 [main.items.seekers-candle]
-description = "點燃此蠟燭會吸引任務怪靠近。"
+description = "點燃此蠟燭會吸引任務怪靠近。此道具效力持續1小時。"
 name = "探索者的蠟燭"
 
 [main.items.sempre-forte]
@@ -11449,6 +11532,10 @@ name = "速度藥水"
 description = "適合菜雞的奇特魔戒，它會犧牲物攻以換取魔攻。"
 name = "魔劍士之戒"
 
+[main.items.spelunkers-torch]
+description = "偉大挖穴者所持的蠟燭。使用後能在6小時內提升戰鬥地城的結算獎勵。"
+name = "探穴者的火炬"
+
 [main.items.spelunking-staff]
 description = "迷失的地城探險者所持有的法杖，長眠在地底時，它似乎已發展出相當強大的力量。"
 name = "洞穴探求者之杖"
@@ -11678,7 +11765,7 @@ description = "適合用來裝釀造的藥劑、藥水或秘藥的大瓶子。�
 name = "高級空瓶"
 
 [main.items.super-exp-potion]
-description = "在一定時間內能使經驗值四倍的秘藥."
+description = "1小時之內讓經驗值4倍的臭酸藥水。"
 name = "超級經驗值藥水"
 
 [main.items.super-health-potion]
@@ -11764,6 +11851,10 @@ name = "暴風長靴"
 [main.items.templar-shield]
 description = "強大的聖殿騎士之盾。它提供了額外的物理防禦。"
 name = "聖殿騎士盾"
+
+[main.items.temporal-monster-aspect]
+description = "在旅行時可能遇到魔物的靈魂。魔魂可在你的旅行者公會選單選擇，只需步行即可為其充能。 充能全滿的魔魂會轉化為覺醒魔魂，可用於公會試煉。此魔魂會孕育出活動專屬怪物。"
+name = "逢魔魂"
 
 [main.items.terra-boots]
 description = "操控大地之力法師的長靴.能抵抗大地魔法."
@@ -12154,7 +12245,7 @@ description = "赤騎瓦肯很少帶上的豪華權杖.瓦肯建立了煉獄騎�
 name = "瓦肯之權杖"
 
 [main.items.vulcans-brew]
-description = "煉獄騎士瓦肯釀造的精力藥.喝下它能在一段時間內稍微提升獲得的經驗值及掉寶率."
+description = "煉獄騎士瓦肯釀造的精力藥.喝下它能在1小時內稍微提升獲得的經驗值及掉寶率."
 name = "瓦肯之酒"
 
 [main.items.vulcans-longsword]
@@ -13164,7 +13255,7 @@ name = "強大的熊"
 [main.monsters.great-eel]
 name = "巨鰻"
 
-[main.monsters.great-gazer]
+[main.monsters.great-gazer-5e49b351]
 name = "強大的凝視者 (重生者)"
 
 [main.monsters.great-lizarr-knight]
@@ -13435,6 +13526,12 @@ name = "一角獸"
 name = "木乃伊"
 
 [main.monsters.murk]
+name = "淤濁"
+
+[main.monsters.murk-066bec2c]
+name = "淤濁"
+
+[main.monsters.murk-503f0bb5]
 name = "淤濁"
 
 [main.monsters.mythril-armor]
@@ -14107,10 +14204,6 @@ name = "冠位騎士盧古斯"
 [main.raids.great-anguish]
 description = "無數英雄和旅者的殘酷考驗的極點。"
 name = "煎熬之主"
-
-[main.raids.great-murk]
-description = "強大的淤濁，誕生於樹脂、油和貪婪的混合物之中。"
-name = "強大的淤濁"
 
 [main.raids.great-sphinx]
 description = "雅盧的舊遺物。"
@@ -14836,7 +14929,7 @@ description = "能造成巨幅傷害的魔法."
 name = "大災禍 II"
 
 [main.spells.celestial-arrow]
-description = "射出用天外魔力具現化的箭矢，能輕易地造成對手暈星。這法術也可以充能魔禁瓶。需要2回合施展。"
+description = "射出用天外魔力具現化的箭矢，能輕易地造成對手暈星，同時充能魔禁瓶。需要2回合施展。"
 name = "天外魔矢"
 
 [main.spells.chain-lightning]
@@ -15531,6 +15624,10 @@ name = "強化術 III"
 [main.spells.freeze]
 description = "使對手進入冰凍狀態。"
 name = "冰封術"
+
+[main.spells.frenzy]
+description = "當戰鬥開始兩回合後且護盾值接近滿檔時，可以每回合消耗護盾來提升攻擊力、間接傷害機率、使用護盾之技能的效率。激鬥持續至護盾消耗殆盡或最多5回合。"
+name = "激鬥"
 
 [main.spells.fright]
 description = "震懾對手。讓對方陷入暈眩，並有可能因畏懼而陷入盲目或恍惚。"
@@ -16822,11 +16919,11 @@ description = "神速的連續攻擊4次,有機率揮空或暴擊."
 name = "域界連擊 II"
 
 [main.spells.realmshift]
-description = "離開並重新進入域界.你的身體素質在重新進入後會有很多改變."
+description = "轉移異界，邁向新的命運。此技能使用後會在5回合後額外增加1回合。回到原本時間軸時會大幅提升敏捷。沒有貪欲技能的人可能無法善用此技能。"
 name = "域界易形"
 
 [main.spells.realmshift-ii]
-description = "離開並重新進入域界.你的身體素質在重新進入後會有很多改變."
+description = "轉移異界，邁向新的命運。此技能使用後會在4回合後額外增加1回合。回到原本時間軸時會大幅提升敏捷。沒有貪欲技能的人可能無法善用此技能。"
 name = "域界易形 II"
 
 [main.spells.rebirth]
@@ -17030,20 +17127,24 @@ description = "造成較多的黑暗傷害。"
 name = "暗影擊 II"
 
 [main.spells.shadowed-earthstrike]
-description = "附加大地之力於你的武器並且給予敵人額外的物理與黑暗傷害。此攻擊有額外機率造成眩暈或讓對手睡著。"
+description = "對自身的武器附上自然之力，對敵人造成物理及暗屬傷害。此技能會使用你物攻或魔攻較高的一方作為依據。"
 name = "影之地擊"
 
 [main.spells.shadowed-firestrike]
-description = "點燃你的武器並且給予敵人額外的物理與黑暗傷害。此攻擊有額外機率造成眩暈或讓對手睡著。"
+description = "對自身的武器附上火焰，對敵人造成物理及暗屬傷害。此技能會使用你物攻或魔攻較高的一方作為依據。"
 name = "影之焰擊"
 
 [main.spells.shadowed-icestrike]
-description = "凍結你的武器並且給予敵人額外的物理與黑暗傷害。此攻擊有額外機率造成眩暈或讓對手睡著。"
+description = "對自身的武器附上寒冰，對敵人造成物理及暗屬傷害。此技能會使用你物攻或魔攻較高的一方作為依據。"
 name = "影之凍擊"
 
 [main.spells.shadowed-lightningstrike]
-description = "通電你的武器並且給予敵人額外的物理與黑暗傷害。此攻擊有額外機率造成眩暈或讓對手睡著。"
+description = "對自身的武器附上雷電，對敵人造成物理及暗屬傷害。此技能會使用你物攻或魔攻較高的一方作為依據。"
 name = "影之電擊"
+
+[main.spells.shadowveil]
+description = "當戰鬥開始兩回合後且護盾值接近滿檔時，可以每回合消耗護盾來提升攻擊力、敏捷、貪欲機率。影身持續至護盾消耗殆盡或最多5回合。"
+name = "影身"
 
 [main.spells.sharpen]
 description = "暫時性的增加物理攻擊力。"
@@ -17278,7 +17379,7 @@ description = "有機會造成對手逆風狀態的暴風魔法。有時會額�
 name = "風暴席捲 (副手)"
 
 [main.spells.strikes-of-ursa]
-description = "防禦3回合後釋放一次打擊，眩暈敵人且不會失手。"
+description = "防禦1回合後施展必中並能打暈對手的一擊。"
 name = "大熊座連擊"
 
 [main.spells.stun-dart]
@@ -17345,6 +17446,10 @@ name = "召喚貝西爾 II (副手)"
 description = "召喚一隻動物來協助你。需要兩回合施放。"
 name = "召喚血腥座狼 (副手)"
 
+[main.spells.summon-bone-mammoth]
+description = "召喚一隻野獸來幫助你。召喚需要4回合。"
+name = "召喚骨猛獁象"
+
 [main.spells.summon-buggane]
 description = "召喚一隻野獸來協助你。召喚需要2回合。"
 name = "召喚布甘"
@@ -17364,6 +17469,10 @@ name = "召喚雞蛇"
 [main.spells.summon-colossus]
 description = "召喚一隻野獸來協助你。召喚需要3回合。"
 name = "召喚巨像"
+
+[main.spells.summon-coral-reef]
+description = "召喚一隻野獸來協助你。召喚需要3回合。"
+name = "召喚珊瑚礁"
 
 [main.spells.summon-dark-pegasus]
 description = "召喚一隻野獸來協助你。召喚需要3回合。"
@@ -17392,6 +17501,14 @@ name = "召喚加姆"
 [main.spells.summon-gazer]
 description = "召喚一隻野獸來協助你。召喚需要2回合。"
 name = "召喚凝視者"
+
+[main.spells.summon-giant-panda]
+description = "召喚一隻野獸來幫助你。召喚需要4回合。"
+name = "召喚巨型熊貓"
+
+[main.spells.summon-giant-tortoise]
+description = "召喚一隻野獸來協助你。召喚需要3回合。"
+name = "召喚巨型陸龜"
 
 [main.spells.summon-glashtyn]
 description = "召喚一個強力的猛獸來幫助你。召喚需要3回合。"
@@ -17453,9 +17570,17 @@ name = "召喚凱爾皮"
 description = "召喚一隻野獸來協助你。召喚需要3回合。"
 name = "召喚拉姆萊"
 
+[main.spells.summon-macaroni-penguin]
+description = "召喚一隻野獸來協助你。召喚需要3回合。"
+name = "召喚冠企鵝"
+
 [main.spells.summon-mighty-griffin]
 description = "召喚一個強力的猛獸來幫助你。召喚需要3回合。"
 name = "召喚究極格里芬"
+
+[main.spells.summon-mountain-gorilla]
+description = "召喚一隻野獸來協助你。召喚需要3回合。"
+name = "召喚山地大猩猩"
 
 [main.spells.summon-onryo]
 description = "召喚一隻野獸來協助你。召喚需要2回合。"
@@ -17496,6 +17621,10 @@ name = "召喚詭異幽靈"
 [main.spells.summon-stonewarg]
 description = "召喚一隻動物來協助你。需要兩回合施放。"
 name = "召喚岩石座狼 (副手)"
+
+[main.spells.summon-timber]
+description = "召喚一隻野獸來協助你。召喚需要3回合。"
+name = "召喚圓木"
 
 [main.spells.summon-tower-guardian]
 description = "召喚一個強力的猛獸來幫助你。召喚需要3回合。"
@@ -18079,9 +18208,7 @@ name = "X 斬擊 III"
 
 [msg.bestial_bond]
 accuracy = "準星"
-animal_protection = "猛獸保護"
 arch-alchemy = "大鍊金術"
-area_defense = "領地防禦"
 bonded_attack = "羈絆物攻"
 bonded_crit = "羈絆暴擊"
 bonded_defense = "羈絆物防"
@@ -18091,9 +18218,10 @@ bonded_magic = "羈絆魔攻"
 bonded_mana = "羈絆魔力"
 bonded_resistance = "羈絆魔防"
 bonded_ward = "羈絆護盾"
-crit = "暴擊"
+crit_chance = "暴擊機率"
 crit_damage = "暴擊傷害"
 damage_at_full_hp = "滿血時傷害"
+damage_from_animals = "來自動物類傷害"
 dark_res = "黑暗抗性"
 earthen_damage = "土系傷害"
 earthen_res = "土系抗性"
@@ -18109,6 +18237,7 @@ lightning_damage = "雷系傷害"
 lightning_res = "雷系抗性"
 memory_hunting = "記憶追尋"
 orn_bonus = "歐幣加成"
+settlement_area_defense = "據點/領地保衛"
 status_protection = "異常狀態防護"
 t__all_u = "T. All ↑"
 t__crit_u = "T. Crit ↑"
@@ -18166,6 +18295,9 @@ riftfall = "裂痕崩落"
 sisters_of_morrigan = "摩莉甘的姊妹"
 summer_solstice = "冬至"
 sumner_games = "夏日運動會"
+terra_s_day = "泰菈之日"
+terra_s_legacy = "泰菈的遺產"
+terra_s_legacy__natureblight = "泰菈的遺產：萎化自然"
 the_crimson_festival = "緋紅祭"
 the_hallowed = "The。萬聖"
 the_mimics_are_loose = "寶箱怪們正在搗亂"
@@ -18272,7 +18404,6 @@ spell = "法術"
 "+walls_of_aaru" = "+雅盧之壁"
 "+ward_of_mythril" = "+秘銀防護"
 "+ward_of_ortanite" = "+歐坦尼護盾"
-"+world_anguish_bonus" = "+世界煎熬加成"
 accuracy = "準星"
 adornment_slots = "鑲嵌槽位"
 ally_effect_chance = "盟友效果機率"
@@ -18280,8 +18411,6 @@ apex = "Apex"
 apex_rate = "Apex充能率"
 apex_start = "起始Apex"
 arcane_damage = "奧術傷害"
-area_defense = "領地防禦"
-assassin = "刺客"
 attack = "攻擊力"
 attack_rate = "攻擊機率"
 avidity = "貪慾"
@@ -18309,13 +18438,14 @@ def_res_penetration = "物防/魔防穿透"
 defend_power = "防禦力"
 defense = "物防"
 dexterity = "敏捷"
-double_handed = "雙手武器"
 dragon_damage = "龍系傷害"
 drop_quality = "掉落物品質"
 dungeon_cooldown = "地城冷卻"
+dungeon_rewards = "地城結算獎勵"
 earthen_damage = "土系傷害"
 effect_damage = "狀態傷害"
 elemental_weaknesses = "元素弱點"
+event_encounters = "活動怪遭遇"
 exp_bonus = "經驗加成"
 faction_damage = "陣營傷害"
 fire_damage = "火系傷害"
@@ -18324,7 +18454,7 @@ follower_stats = "追隨者狀態"
 follower_summon_ai = "跟隨者/小夥伴 AI"
 foresight = "預知"
 gifts = "禮物"
-godforge = "神賜"
+godforge_chance = "神賜機率"
 gold_bonus = "金幣加成"
 heal_rate = "治癒機率"
 healing = "治療技能"
@@ -18359,14 +18489,20 @@ questing = "任務"
 raid_rewards = "副本獎勵"
 resistance = "魔防"
 self_damage_reduction = "自我傷害減少"
+settlement_area_defense = "據點/領地保衛"
 spell_rate = "技能施放機率"
+stat_bonus = "狀態加成"
+status_effect_chance = "狀態生效機率"
+status_effect_duration = "狀態效果持續"
 status_protection = "異常狀態防護"
 status_reflection = "狀態反射"
 summon_pacts = "召喚契約之力"
 summon_protection = "召喚獸守護"
 summon_stats = "召喚獸屬性"
 summon_turns = "召喚回合數"
+tower_shards = "塔之碎片"
 turn_reduction = "回合省略"
+two-handed_power = "合握之力"
 two_handed = "雙手使用"
 ult_defense = "究極防禦"
 view_distance = "視線範圍"
@@ -18377,6 +18513,7 @@ ward_recovery = "護盾回復"
 ward_start = "開場護盾"
 ward_turns = "護盾回合數"
 water_damage = "水系傷害"
+weapon_power = "武器威能"
 weapon_proficiency = "武器精通"
 
 [msg.status]
@@ -18407,6 +18544,7 @@ blind = "致盲"
 bloodshift = "鮮血轉移"
 bloodwarg = "血腥座狼"
 bloodwarg_1 = "血腥座狼"
+bone_mammoth = "骨猛獁象"
 brittle = "脆性"
 brynhild_u = "布倫希爾德 ↑"
 brynhild_uu = "布倫希爾德 ↑↑"
@@ -18420,6 +18558,7 @@ chimera = "奇美拉"
 cockatrice = "雞蛇"
 colossus = "巨像"
 confused = "迷惑"
+coral_reef = "珊瑚礁"
 crimson_gazer = "赤紅凝視者"
 crit_u = "Crit ↑"
 crow = "烏鴉"
@@ -18471,9 +18610,12 @@ fjalar = "法亞拉"
 foresight_d = "預知↓"
 foresight_u = "預知↑"
 foresight_uu = "預知 ↑↑"
+frenzy = "激鬥"
 frost_troll = "寒霜巨魔"
 frozen = "冰凍"
 garm = "加姆"
+giant_panda = "巨型熊貓"
+giant_tortoise = "巨型陸龜"
 glashtyn = "格拉斯汀"
 great_ancient_dragon = "古老巨龍"
 great_gazer = "強大的凝視者"
@@ -18515,12 +18657,14 @@ llamrai = "拉姆萊"
 lulled = "恍惚"
 lyon_s_mark = "里昂的標記"
 lyra_sigil = "天琴座印記"
+macaroni_penguin = "冠企鵝"
 mag_d = "Mag ↓"
 mag_u = "Mag ↑"
 mag_uu = "Mag ↑↑"
 manaseep = "魔力洩露"
 mighty_griffin = "究極格里芬"
 mighty_slime = "究極史萊姆"
+mountain_gorilla = "山地猩猩"
 mythril_greaves = "秘銀護脛"
 mythril_pauldrons = "秘銀肩鎧"
 oceanus = "奧克亞諾斯"
@@ -18544,6 +18688,7 @@ rot = "腐敗"
 sandstone_golem = "砂岩魔像"
 scarecrow = "稻草人"
 selene = "塞勒涅"
+shadowveil = "影身"
 skadi_u = "斯卡蒂 ↑"
 skadi_uu = "斯卡蒂 ↑↑"
 skadi_uuu = "斯卡蒂 ↑↑↑"
@@ -18614,6 +18759,7 @@ terrifying_ghost = "恐慌幽靈"
 themis = "泰美斯"
 thrud = "瑟魯德"
 tiamat = "提亞馬特"
+timber_the_beaver = "圓木河狸"
 tower_guardian = "塔之守護者"
 towering = "擎天"
 toxic = "劇毒"

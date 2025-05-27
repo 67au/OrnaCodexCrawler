@@ -240,12 +240,12 @@ icon = "/img/effects/dungeoner.png"
 name = "地牢行者"
 
 [abilities.efficacious]
-description = "施放多回合法术时受到的伤害将会减少。此外，施放的法术能够穿透敌人的元素免疫造成部分伤害。"
+description = "攻击对元素弱点会造成额外的伤害，对元素免疫造成保底伤害。另外，在多回合法术吟唱期间会降低所受到的伤害。"
 icon = "/img/effects/insistence.png"
 name = "元素破解"
 
 [abilities.efficacious_ii]
-description = "施放多回合法术时受到的伤害将会减少。此外，施放的法术能够穿透敌人的元素免疫造成部分伤害。"
+description = "攻击对元素弱点会造成额外的伤害，对元素免疫造成保底伤害。另外，在多回合法术吟唱期间会降低所受到的伤害。"
 icon = "/img/effects/insistence.png"
 name = "元素破解 II"
 
@@ -288,11 +288,6 @@ name = "老练召唤师"
 description = "获得在战斗中自动反击的能力。另外，每回合有机率行动两次且在击败敌人后有机率获得额外的回合。"
 icon = "/img/effects/remark.png"
 name = "芬尼斯的训练"
-
-[abilities.flasks_of_corvus]
-description = "汲魔瓶与汲血瓶充能速度大幅提升。"
-icon = "/img/effects/corvus.png"
-name = "乌鸦座秘瓶"
 
 [abilities.gold_bonus]
 description = "你对发现额外的金币有特别的办法。"
@@ -1094,7 +1089,7 @@ name = "原始巨龙"
 [main.bosses.great-cockatrice]
 name = "大鸡蛇"
 
-[main.bosses.great-gazer-d870cac1]
+[main.bosses.great-gazer]
 name = "强大的凝视者"
 
 [main.bosses.great-jinn]
@@ -1934,6 +1929,10 @@ name = "大仙人掌"
 description = "期间限定。"
 name = "嗜血座狼"
 
+[main.followers.bone-mammoth]
+description = "自然的伙伴，一起对抗泥沼怪。"
+name = "骨质猛犸象"
+
 [main.followers.breathing-armor]
 description = "会动的铠甲。在团战时能吸引敌人的目光也能恢复你的护盾。"
 name = "呼吸铠甲"
@@ -2001,6 +2000,10 @@ name = "鸡蛇"
 [main.followers.colossus]
 description = "强力的巨像。它能提升你的防御力，偶尔也会石化敌人。"
 name = "巨像"
+
+[main.followers.coral-reef]
+description = "自然的伙伴，一起对抗泥沼怪。"
+name = "珊瑚礁"
 
 [main.followers.coral-varmint]
 description = "虽然被驯服但仍具侵略性的蜥蜴人战士。战斗中会攻击你的敌人。"
@@ -2157,6 +2160,14 @@ name = "鬼"
 [main.followers.giant-basilisk]
 description = "巨大的赤红巴西利斯克。强烈的攻击欲望能帮助你战斗。"
 name = "巨大巴西利斯克"
+
+[main.followers.giant-panda]
+description = "自然的伙伴，一起对抗泥沼怪。"
+name = "巨型熊猫"
+
+[main.followers.giant-tortoise]
+description = "自然的伙伴，一起对抗泥沼怪。"
+name = "巨陆龟"
 
 [main.followers.glashtyn]
 description = "期间限定。"
@@ -2346,6 +2357,10 @@ name = "海螯虾"
 description = "期间限定。远古巨龙能使用诸多技能。"
 name = "盘蛇罗坍"
 
+[main.followers.macaroni-penguin]
+description = "自然的伙伴，一起对抗泥沼怪。"
+name = "长眉企鹅"
+
 [main.followers.mammon-acolyte]
 description = "玛门的追随者。会依据你最近击杀的怪物数量来造成伤害，但有时会错失目标。"
 name = "玛门追随者"
@@ -2377,6 +2392,10 @@ name = "牛头怪"
 [main.followers.monoceros]
 description = "期间限定。"
 name = "一角兽"
+
+[main.followers.mountain-gorilla]
+description = "自然的伙伴，一起对抗泥沼怪。"
+name = "山地大猩猩"
 
 [main.followers.naggeneen]
 description = "期间限定：哦，是肮脏妖精纳根因。"
@@ -2602,6 +2621,10 @@ name = "超究极宝箱怪"
 description = "期间限定。追随者「超究极宝箱怪」的新外观。"
 name = "超究极泥沼怪"
 
+[main.followers.timber-the-beaver]
+description = "自然的伙伴，一起对抗泥沼怪。"
+name = "河里河狸"
+
 [main.followers.traveled-wolpertinger]
 description = "作为旅行者公会代表的野兽。它能使用一系列的技能协助战斗，且能提升探索世界时获得的奖励。"
 name = "游历广阔的鹿角翼兔"
@@ -2795,7 +2818,7 @@ description = "弗摩尔之诺特纳家族的著名诗人安格斯奥格所持�
 name = "安格斯奥格鲁特琴"
 
 [main.items.affinity-candle]
-description = "点燃此神秘的蜡烛将在一段时间内引来更强的敌人。"
+description = "点燃该神秘的蜡烛后将在 1 小时内吸引更加强大的敌人。"
 name = "引怪蜡烛"
 
 [main.items.agathodaemon-hammer]
@@ -2973,6 +2996,14 @@ name = "远古巨魔护符"
 [main.items.ancient-water-essence]
 description = "远古的精灵很少会携带本原来抵御元素。该物品有机率赋予其对应元素的免疫。"
 name = "远古水之本原"
+
+[main.items.anguished-crucible]
+description = "极致坚牢的容器，以盛放至热材料而铸。将「苦难」的物品置放于其中，为「苦难」而附加的额外加成将被替换另一个随机加成。如果物品没有加成，将随机获得一个。"
+name = "苦难坩埚"
+
+[main.items.anguished-pathspur]
+description = "该物品能回退你在苦难之路上的抉择。在苦难轮回中使用它来重置你之前的选择。"
+name = "苦难异途"
 
 [main.items.ankh]
 description = "奇怪的远古法杖。似乎既能用来施法又可用于物理攻击。"
@@ -3370,11 +3401,11 @@ name = "重生诅咒的埃苏斯支柱"
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的长靴。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "重生诅咒的弗摩尔镀金长靴"
 
-[main.items.arisen-cursed-fomoria-plated-boots-4de3e61d]
+[main.items.arisen-cursed-fomoria-plated-boots-56e4841c]
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的长靴。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "重生诅咒的弗摩尔镀金长靴"
 
-[main.items.arisen-cursed-fomoria-plated-boots-56e4841c]
+[main.items.arisen-cursed-fomoria-plated-boots-7aefba00]
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的长靴。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "重生诅咒的弗摩尔镀金长靴"
 
@@ -3386,11 +3417,11 @@ name = "重生诅咒的弗摩尔镀金长靴"
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的链甲。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "重生诅咒的弗摩尔镀金法袍"
 
-[main.items.arisen-cursed-fomoria-plated-robe-954d6525]
+[main.items.arisen-cursed-fomoria-plated-robe-9a5a1cdd]
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的链甲。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "重生诅咒的弗摩尔镀金法袍"
 
-[main.items.arisen-cursed-fomoria-plated-robe-9a5a1cdd]
+[main.items.arisen-cursed-fomoria-plated-robe-ca4ddba5]
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的链甲。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "重生诅咒的弗摩尔镀金法袍"
 
@@ -3402,15 +3433,15 @@ name = "重生诅咒的弗摩尔镀金法袍"
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的王冠。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "重生诅咒的弗摩尔王冠"
 
+[main.items.arisen-cursed-fomors-crown-276564a1]
+description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的王冠。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
+name = "重生诅咒的弗摩尔王冠"
+
 [main.items.arisen-cursed-fomors-crown-2cb9b4e6]
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的王冠。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "重生诅咒的弗摩尔王冠"
 
 [main.items.arisen-cursed-fomors-crown-3a4a918b]
-description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的王冠。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
-name = "重生诅咒的弗摩尔王冠"
-
-[main.items.arisen-cursed-fomors-crown-612a024c]
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的王冠。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "重生诅咒的弗摩尔王冠"
 
@@ -5634,6 +5665,10 @@ name = "诺特纳纹章"
 description = "萨姆纳家族赋予的试炼之证。使用该物品能进行一次究极投影。"
 name = "萨姆纳纹章"
 
+[main.items.crest-of-the-blades]
+description = "由芬尼斯利刃授予的纹章，代表一人已加深对公会的誓终。使用后，将在 6 小时内提升武器造成的伤害。"
+name = "利刃之纹章"
+
 [main.items.crest-of-the-dragon-slayer]
 description = "由猎龙者公会认定完成「猎龙」后颁发的纹章。使用后，装备神赐的机率将大幅提高。"
 name = "猎龙者纹章"
@@ -6230,6 +6265,10 @@ name = "恶魔刀刃"
 description = "来自冥府的原矿灵石。能用来强化恶魔的武器。"
 name = "恶魔矿石"
 
+[main.items.demonworking-tools]
+description = "在废弃的恶魔熔炉中找到的工具，能同时带来破坏与进化。使用这些工具能将一件未镶嵌的装备的苦难等级提升 1，但该装备等级将重置为 10 。苦难装备将降低锻造材料花费。"
+name = "魔改工具"
+
 [main.items.diluted-mnemonic]
 description = "与区域的失落记忆交互的媒介。使用它以开始追寻这片区域的破碎记忆。"
 name = "幽微追忆"
@@ -6363,7 +6402,7 @@ description = "曾是不落者势力中的伟大英雄，唐塔，所持有的�
 name = "唐塔之盾"
 
 [main.items.dowsing-rod]
-description = "常用于寻找隐藏物品的神奇的玩意。它能暂时提高物品掉落率。"
+description = "为探寻稀罕之物的专业器具。在 1 小时内大幅提升物品发现机率。"
 name = "探测棒"
 
 [main.items.dracon-bow]
@@ -6803,8 +6842,12 @@ description = "精灵战士持有的极具装饰性的武器。"
 name = "精灵剑"
 
 [main.items.elysian-candle]
-description = "当点燃净土蜡烛后，你会在击败地图上的怪物时获得随机的材料。"
+description = "当点燃净土蜡烛后，你会在击败地图上的怪物时获得随机的材料。该物品将持续 1 小时。"
 name = "净土蜡烛"
+
+[main.items.elysian-coin]
+description = "年代久远的天蓝色硬币，乃是极乐净土的货币。使用它 能在48小时内提升完成记忆追寻的奖励。"
+name = "净土硬币"
 
 [main.items.ember-plumed-boots]
 description = "强大凤凰崇拜者的腿甲。使用它能有机率暂时提升属性。"
@@ -6915,7 +6958,7 @@ description = "???"
 name = "誓约圣剑"
 
 [main.items.exp-potion]
-description = "味道酸涩的秘药，它能在一段时间内将获得的经验值变为两倍。"
+description = "味道酸涩的秘药，它能在 1 小时内将获得的经验值变为 2 倍。"
 name = "经验值药水"
 
 [main.items.explorers-waystone]
@@ -7095,7 +7138,7 @@ description = "怎么会有如此让人开心的衣服？该物品能赋予任�
 name = "亮丽的腰带"
 
 [main.items.farsight]
-description = "提升视野的药水。喝下它能在一定时间内提升你的视野。"
+description = "提升视野的药水。喝下它能在 1 小时内提升视野范围。"
 name = "远见"
 
 [main.items.feral-archistaff]
@@ -7763,7 +7806,7 @@ description = "大地军团中恶名昭彰的盖亚所穿戴的长袍。能提�
 name = "盖亚长袍"
 
 [main.items.galars-hammer]
-description = "伽勒尔所用的精良锤子。在铁匠铺升级装备之前先使用它的话可以降低升级所需时间。"
+description = "伽勒尔所用的精良锤子。在铁匠铺升级装备之前先使用它的话可以降低升级所需时间。该物品将持续 1 小时。"
 name = "伽勒尔之锤"
 
 [main.items.gales-spear]
@@ -7942,6 +7985,10 @@ name = "哥布林长靴"
 description = "哥布林领主的法杖。能稍微提升魔力值。"
 name = "哥布林领主法杖"
 
+[main.items.godmaking-tools]
+description = "在废弃的工坊中发现的工具，蕴含惊天动地之力。使用该物品能将一件装备的苦难等级提升至已解锁的最高等级。"
+name = "神造工具"
+
 [main.items.goibhniu-armguard]
 description = "弗摩尔之萨姆纳家族的战士「锻造之神」戈夫努所穿戴的护臂。戈夫努为其家族打造了强力的剑、斧与锤。穿戴这件装备时，使用命中多个目标的技能会造成额外的伤害。此外，技能有低机率命中额外的目标。"
 name = "戈夫努护臂"
@@ -7951,7 +7998,7 @@ description = "于奥林匹亚经典盛事「夏季运动会」中斩获的奖�
 name = "金牌"
 
 [main.items.gold-mushroom]
-description = "金闪金闪的幸运蘑菇。能在限定时间内提供金币加成。"
+description = "金闪金闪的幸运蘑菇。在 6 小时内提供金币加成。"
 name = "金蘑菇"
 
 [main.items.gold-pinion]
@@ -8039,7 +8086,7 @@ description = "由强大的熊身上所取得的完美盔甲。"
 name = "完美的熊皮肩"
 
 [main.items.great-dowsing-rod]
-description = "常用于寻找隐藏物品的神奇的玩意。它能暂时大幅提高物品掉落率。"
+description = "为探寻稀罕之物的专业器具。在 6 小时内大幅提升物品发现机率。"
 name = "强化探测棒"
 
 [main.items.great-empty-bottle]
@@ -8154,6 +8201,10 @@ name = "强大凤凰之鞋"
 description = "用于安抚伟大凤凰的装饰长笛。看似威力不大，却很适合镶嵌装饰品。"
 name = "强大的凤曲"
 
+[main.items.great-questing-license]
+description = "冒险者公会给的一张羊皮纸。使用它大幅提升完成任务时获得的金币、欧币和经验值。该物品使用后持续 1 小时。"
+name = "大探险证"
+
 [main.items.great-staff]
 description = "古代大法师爱用的法杖。"
 name = "强大法杖"
@@ -8243,7 +8294,7 @@ description = "南瓜头所持之剑的复制品。阿格罗瓦尔，在今乃�
 name = "万圣剑"
 
 [main.items.hallowed-candle]
-description = "点燃此神秘蜡烛会在期间内吸引更强的敌人，这段期间击败怪物将获得更多的经验值。"
+description = "点燃此神秘蜡烛会在 1 小时内吸引更强的敌人，这段期间击败怪物将获得更多的经验值。"
 name = "万圣蜡烛"
 
 [main.items.hallowed-monster-tome]
@@ -9047,39 +9098,39 @@ description = "梅林珍稀收藏中的圣物，这把匕首藉由牺牲其他�
 name = "湖中少女"
 
 [main.items.last-martyrs-armor]
-description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的盔甲。在当日世界上的英雄与旅行者被击败时，苦难装备将会赋予装备者额外的力量。"
+description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的盔甲。装备每有一级苦难等级将能赋予百分之一的额外属性加成。"
 name = "最后殉道者盔甲"
 
 [main.items.last-martyrs-baton]
-description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的武器。在当日世界上的英雄与旅行者被击败时，苦难装备将会赋予装备者额外的力量。"
+description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的武器。装备每有一级苦难等级将能赋予百分之一的额外属性加成。"
 name = "最后殉道者指挥棒"
 
 [main.items.last-martyrs-boots]
-description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的盔甲。在当日世界上的英雄与旅行者被击败时，苦难装备将会赋予装备者额外的力量。"
+description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的盔甲。装备每有一级苦难等级将能赋予百分之一的额外属性加成。"
 name = "最后殉道者长靴"
 
 [main.items.last-martyrs-chestguard]
-description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的盔甲。在当日世界上的英雄与旅行者被击败时，苦难装备将会赋予装备者额外的力量。"
+description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的盔甲。装备每有一级苦难等级将能赋予百分之一的额外属性加成。"
 name = "最后殉道者胸铠"
 
 [main.items.last-martyrs-cowl]
-description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的盔甲。在当日世界上的英雄与旅行者被击败时，苦难装备将会赋予装备者额外的力量。"
+description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的盔甲。装备每有一级苦难等级将能赋予百分之一的额外属性加成。"
 name = "最后殉道者风帽"
 
 [main.items.last-martyrs-flame]
-description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的武器。在当日世界上的英雄与旅行者被击败时，苦难装备将会赋予装备者额外的力量。"
+description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的武器。装备每有一级苦难等级将能赋予百分之一的额外属性加成。"
 name = "最后殉道者之炎"
 
 [main.items.last-martyrs-garb]
-description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的盔甲。在当日世界上的英雄与旅行者被击败时，苦难装备将会赋予装备者额外的力量。"
+description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的盔甲。装备每有一级苦难等级将能赋予百分之一的额外属性加成。"
 name = "最后殉道者皮甲"
 
 [main.items.last-martyrs-headdress]
-description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的盔甲。在当日世界上的英雄与旅行者被击败时，苦难装备将会赋予装备者额外的力量。"
+description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的盔甲。装备每有一级苦难等级将能赋予百分之一的额外属性加成。"
 name = "最后殉道者头巾"
 
 [main.items.last-martyrs-helmet]
-description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的盔甲。在当日世界上的英雄与旅行者被击败时，苦难装备将会赋予装备者额外的力量。"
+description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的盔甲。装备每有一级苦难等级将能赋予百分之一的额外属性加成。"
 name = "最后殉道者头盔"
 
 [main.items.last-martyrs-hood]
@@ -9087,15 +9138,15 @@ description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难�
 name = "最后殉道者兜帽"
 
 [main.items.last-martyrs-leggings]
-description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的盔甲。在当日世界上的英雄与旅行者被击败时，苦难装备将会赋予装备者额外的力量。"
+description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的盔甲。装备每有一级苦难等级将能赋予百分之一的额外属性加成。"
 name = "最后殉道者护胫"
 
 [main.items.last-martyrs-legwraps]
-description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的盔甲。在当日世界上的英雄与旅行者被击败时，苦难装备将会赋予装备者额外的力量。"
+description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的盔甲。装备每有一级苦难等级将能赋予百分之一的额外属性加成。"
 name = "最后殉道者裹腿"
 
 [main.items.last-martyrs-longbow]
-description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的武器。在当日世界上的英雄与旅行者被击败时，苦难装备将会赋予装备者额外的力量。"
+description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的武器。装备每有一级苦难等级将能赋予百分之一的额外属性加成。"
 name = "最后殉道者长弓"
 
 [main.items.last-martyrs-robe]
@@ -9107,7 +9158,7 @@ description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难�
 name = "最后殉道者之裙"
 
 [main.items.last-martyrs-sword]
-description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的武器。在当日世界上的英雄与旅行者被击败时，苦难装备将会赋予装备者额外的力量。"
+description = "由英雄与旅行者遭受的考验、劫难、挫折和苦难所打造的武器。装备每有一级苦难等级将能赋予百分之一的额外属性加成。"
 name = "最后殉道者之剑"
 
 [main.items.lasting-lantern]
@@ -9307,11 +9358,11 @@ description = "柯瑞斯做来吸引强大堕落英雄的诱惑护符。戴上�
 name = "恋人之逝"
 
 [main.items.lucky-coin]
-description = "闪亮亮的幸运金币。能在一定时间内提升获得的金钱。"
+description = "闪亮亮的幸运金币。能在 1 小时内提升获得的金币。"
 name = "幸运金币"
 
 [main.items.lucky-silver-coin]
-description = "闪亮亮的幸运银币，可以在一段时间内增加获得的欧币。"
+description = "闪亮亮的幸运银币。在 1 小时内增加获得的欧币。"
 name = "幸运银币"
 
 [main.items.lugus-gauntlet]
@@ -9714,6 +9765,10 @@ name = "魔物遗骸"
 description = "普通的魔物之典。能些许提升获得的经验值。"
 name = "魔物之典"
 
+[main.items.monumentals-candle]
+description = "据说点燃该蜡烛能吸引更多当前世界活动限定的怪物靠近。该物品使用后持续 48 小时。"
+name = "纪念碑蜡烛"
+
 [main.items.monumentals-summoning-scroll]
 description = "内含远古巴罗尔召唤技术的卷轴。阅读它能召唤当前活动限定的副本。"
 name = "纪念碑召唤卷轴"
@@ -9759,7 +9814,7 @@ description = "于梅林的珍稀收藏中的竖琴。能给予元素抗性。"
 name = "梅尔丁竖琴"
 
 [main.items.myrkheim-hammer]
-description = "米尔克海姆的老铁匠使用的上好锤子。在铁匠铺升级装备之前先使用它的话可以大幅降低升级所需时间。"
+description = "米尔克海姆的老铁匠使用的上好锤子。在铁匠铺升级装备之前先使用它的话可以大幅降低升级所需时间。物品效果持续 1 小时。"
 name = "米尔克海姆之锤"
 
 [main.items.mystic-katar]
@@ -10002,8 +10057,12 @@ name = "ν奥林匹亚战弓"
 description = "从奥林匹亚勇士上掉落的稀有武器。"
 name = "ν奥林匹亚战刃"
 
+[main.items.nurtured-nature]
+description = "一片孕育的自然。该物品属于「泰拉的遗产: 萎化自然」活动的一部分。"
+name = "孕育的自然"
+
 [main.items.occult-candle]
-description = "点燃此神秘的蜡烛将在一点时间内内引来更多敌人。"
+description = "神秘的蜡烛，点燃后的 1 小时内会吸引更多怪物接近。"
 name = "玄妙蜡烛"
 
 [main.items.oceanic-boots]
@@ -10101,6 +10160,10 @@ name = "奥林匹亚追忆"
 [main.items.olympia-tower-key]
 description = "欲登奥林匹亚之塔，必先开门。"
 name = "奥林匹亚之塔钥匙"
+
+[main.items.olympian-coin]
+description = "年代久远的硬币，乃是奥林匹亚的货币。使用它能在 48 小时内提升攻略奥林匹亚之塔的奖励。"
+name = "奥林匹亚硬币"
 
 [main.items.olympian-tower-joist]
 description = "奥林匹亚之塔的大型支撑部件。它能赋予阿斯忒里亚姿态，牺牲大量的防御来提升魔攻，同时每回合会流失魔力。"
@@ -10422,6 +10485,10 @@ name = "波鲁克斯的大斧"
 description = "送给大家的礼物。能大幅提高怪物掉落物品的概率。此外，你还能从在地图上击败的怪物中获得额外的材料。"
 name = "礼物！"
 
+[main.items.proof-of-agony]
+description = "作为苦难轮回之众在苦难主宰的法术折磨下征服又一强大敌人的证明。"
+name = "痛苦之证"
+
 [main.items.proof-of-anguish]
 description = "作为苦难轮回之众在苦难主宰的法术折磨下征服又一强大敌人的证明。"
 name = "苦难之证"
@@ -10437,6 +10504,10 @@ name = "征服之证"
 [main.items.proof-of-crownship]
 description = "由征服者公会发行的代币，象征一人征服并占有这片土地。"
 name = "皇权之证"
+
+[main.items.proof-of-despair]
+description = "作为苦难轮回之众在苦难主宰的法术折磨下征服又一强大敌人的证明。"
+name = "绝望之证"
 
 [main.items.proof-of-distance]
 description = "由旅行者公会发行的代币，代表一人追迹终极的漫长旅痕。"
@@ -10458,6 +10529,10 @@ name = "奉献之证"
 description = "由冒险者公会所发行，作为完成大型委托的文件。该证明能用于向其他冒险者发布自己的委托，也能用于在冒险者公会大厅兑换物品。"
 name = "杰出之证"
 
+[main.items.proof-of-melancholy]
+description = "作为苦难轮回之众在苦难主宰的法术折磨下征服又一强大敌人的证明。"
+name = "忧郁之证"
+
 [main.items.proof-of-monument]
 description = "由纪念碑公会发行的代币，象征一人已完成期间限定的游戏内容。"
 name = "纪念之证"
@@ -10470,9 +10545,17 @@ name = "追忆之证"
 description = "由芬尼斯剑道公会发行的代币，象征一人于公会公平竞技中获胜。"
 name = "斗技之证"
 
+[main.items.proof-of-torment]
+description = "作为苦难轮回之众在苦难主宰的法术折磨下征服又一强大敌人的证明。"
+name = "折磨之证"
+
 [main.items.proof-of-trials]
 description = "由公会发行的代币，代表一人已克服公会的试炼仪式。"
 name = "试炼之证"
+
+[main.items.proof-of-undying-allegiance]
+description = "由公会发行的代币，代表一人对公会的至诚效忠，使用该物品后，能在 48 小时内大幅提升获得的经验值、欧币、金币与其他奖励。"
+name = "至诚效忠之证"
 
 [main.items.psi-olympia-archistaff]
 description = "从奥林匹亚勇士上掉落的稀有武器。"
@@ -10599,7 +10682,7 @@ description = "以追迹的吠兽之骨所制作的强弓。装备它能稍微�
 name = "追迹之弓"
 
 [main.items.questing-license]
-description = "参孙给的一张纸。使用它能暂时提升完成任务时获得的金币、欧币和经验值。"
+description = "参孙给的一张羊皮纸。使用它暂时提升完成任务时获得的金币、欧币和经验值。该物品使用后持续 1 小时。"
 name = "探险证"
 
 [main.items.questing-staff]
@@ -11006,7 +11089,7 @@ description = "内含「裂隙陷落」混乱咒语的卷轴。执意用者，�
 name = "重生裂隙扭曲卷轴"
 
 [main.items.scroll-of-chaos]
-description = "使世界变为深红色的混沌卷轴。使用它能在一定时间内显示所有天气下的怪物，但它们可能更难被击败。"
+description = "使世界变为深红色的混沌卷轴。使用它会在 1 小时内显示任何栖息地的敌人，但他们可能会更难击败。"
 name = "混沌卷轴"
 
 [main.items.scroll-of-dynasty]
@@ -11074,7 +11157,7 @@ description = "第二骑士的法杖。能降低副本头目终极技能的伤�
 name = "第二骑士法杖"
 
 [main.items.seekers-candle]
-description = "点燃此蜡烛会吸引任务怪靠近。"
+description = "点燃此蜡烛会吸引任务怪物靠近。该物品将持续 1 小时。"
 name = "探索者蜡烛"
 
 [main.items.sempre-forte]
@@ -11449,6 +11532,10 @@ name = "速度药剂"
 description = "奇特的魔法戒指，它能给那些不会魔法的人牺牲物攻以换取魔攻。"
 name = "魔剑士之戒"
 
+[main.items.spelunkers-torch]
+description = "伟大探窟者所携带的火炬。使用该物品能在 6 小时内提升攻略战斗型地牢获得的奖励。"
+name = "探险家的火炬"
+
 [main.items.spelunking-staff]
 description = "迷失在地牢的探险者所持有的法杖。似乎长眠于地底之时获得更加强大的力量。"
 name = "洞穴探求者之杖"
@@ -11678,7 +11765,7 @@ description = "适合用来装酿造的药剂、药水或秘药的大瓶子。�
 name = "高级空瓶"
 
 [main.items.super-exp-potion]
-description = "在一定时间内能使获得经验值变成四倍的秘药。"
+description = "味道酸涩的秘药，它能在 1 小时内将获得的经验值变为 4 倍。"
 name = "超级经验药水"
 
 [main.items.super-health-potion]
@@ -11764,6 +11851,10 @@ name = "暴风长靴"
 [main.items.templar-shield]
 description = "强大的圣殿骑士之盾。它提供了额外的物防。"
 name = "圣殿骑士盾"
+
+[main.items.temporal-monster-aspect]
+description = "在穿梭这片大地期间遇到的怪物之灵。怪物之灵能在嵌入旅行者公会菜单上的插槽后，通过简单的步行即可完成充能。完全充能后的怪物之灵能够转化为醒觉之形，可用于公会试炼。该怪物之灵能转化为活动怪物的醒觉之形。"
+name = "易逝怪物之灵"
 
 [main.items.terra-boots]
 description = "操控大地之力法师的长靴。能抵抗大地魔法。"
@@ -12154,7 +12245,7 @@ description = "赤骑士瓦肯很少带上的灰烬权杖。瓦肯建立了炼�
 name = "瓦肯权杖"
 
 [main.items.vulcans-brew]
-description = "炼狱骑士瓦肯酿造的精力药。喝下它能在一段时间内稍微提升获得的经验值及物品掉落率。"
+description = "炼狱骑士瓦肯酿造的精力药。喝下它能在 1 小时内稍微提升获得的经验值与物品掉落。"
 name = "瓦肯之酒"
 
 [main.items.vulcans-longsword]
@@ -13164,7 +13255,7 @@ name = "强大的熊"
 [main.monsters.great-eel]
 name = "巨鳗"
 
-[main.monsters.great-gazer]
+[main.monsters.great-gazer-5e49b351]
 name = "强大的凝视者 (重生者)"
 
 [main.monsters.great-lizarr-knight]
@@ -13435,6 +13526,12 @@ name = "一角兽"
 name = "木乃伊"
 
 [main.monsters.murk]
+name = "泥沼怪"
+
+[main.monsters.murk-066bec2c]
+name = "泥沼怪"
+
+[main.monsters.murk-503f0bb5]
 name = "泥沼怪"
 
 [main.monsters.mythril-armor]
@@ -14108,10 +14205,6 @@ name = "冠位骑士卢古斯"
 description = "无数英雄与旅行者所遭受残酷苦难的至高顶点。"
 name = "苦难主宰"
 
-[main.raids.great-murk]
-description = "巨型泥沼怪，诞生于树脂、油污与贪婪的混合物之中。"
-name = "巨型泥沼怪"
-
 [main.raids.great-sphinx]
 description = "雅卢的老古董。"
 name = "斯芬克斯"
@@ -14165,7 +14258,7 @@ description = "工作室里的大厨。"
 name = "MmmPizza"
 
 [main.raids.mochi]
-description = "获得支持。"
+description = "客服已上线。"
 name = "Mochi"
 
 [main.raids.naggeneen]
@@ -15532,6 +15625,10 @@ name = "强化术 III"
 description = "使对手进入冰冻状态。"
 name = "冰封术"
 
+[main.spells.frenzy]
+description = "在战斗开始的两回合后且护盾接近为满时才能使用。使用后的每回合将消耗你的护盾来提升物攻、附带伤害机率与消耗护盾技能效率。「狂化」状态会持续 5 个回合，或护盾耗尽提前结束。"
+name = "狂化"
+
 [main.spells.fright]
 description = "震慑对手。使对方晕眩，并有可能使对方因畏惧而盲目或恍惚。"
 name = "震慑"
@@ -16822,11 +16919,11 @@ description = "神速地攻击 4 次，有机率挥空或暴击。"
 name = "域界连击 II"
 
 [main.spells.realmshift]
-description = "遁入域界后现形。于现形之时获得较多种不同的状态效果。"
+description = "遁入域界，超越未来。使用该技能的 5 回合后会获得额外的回合。重返现在时间线时会大幅提升敏捷。若没有被动技能「急切」的角色，该技能将无法正确运用。"
 name = "域界易形"
 
 [main.spells.realmshift-ii]
-description = "遁入域界后现形。于现形之时获得较多种不同的状态效果。"
+description = "遁入域界，超越未来。使用该技能的 4 回合后会获得额外的回合。重返现在时间线时会大幅提升敏捷。若没有被动技能「急切」的角色，该技能将无法正确运用。"
 name = "域界易形 II"
 
 [main.spells.rebirth]
@@ -17030,20 +17127,24 @@ description = "造成较多的黑暗伤害。"
 name = "暗影击 II"
 
 [main.spells.shadowed-earthstrike]
-description = "以大地之力附加武器对对手进行攻击，同时造成地属性与暗属性物理伤害。该攻击有机率造成眩晕或入睡。"
+description = "以大地之力附加武器对对手进行攻击，同时造成暗属性与物理伤害。该技能的伤害取决于你的物攻或魔攻更高的一方。"
 name = "大地影蚀"
 
 [main.spells.shadowed-firestrike]
-description = "点燃你的武器对对手进行攻击，同时造成火属性与暗属性物理伤害。该攻击有机率造成眩晕或入睡。"
+description = "点燃你的武器对对手进行攻击，同时造成暗属性与物理伤害。该技能的伤害取决于你的物攻或魔攻更高的一方。"
 name = "火焰影蚀"
 
 [main.spells.shadowed-icestrike]
-description = "冰冻你的武器对对手进行攻击，同时造成水属性与暗属性物理伤害。该攻击有机率造成眩晕或入睡。"
+description = "冰冻你的武器对对手进行攻击，同时造成暗属性与物理伤害。该技能的伤害取决于你的物攻或魔攻更高的一方。"
 name = "冰冻影蚀"
 
 [main.spells.shadowed-lightningstrike]
-description = "使你的武器感电并对对手进行攻击，同时造成雷属性与暗属性物理伤害。该攻击有机率造成眩晕或入睡。"
+description = "使你的武器感电并对对手进行攻击，同时造成暗属性与物理伤害。该技能的伤害取决于你的物攻或魔攻更高的一方。"
 name = "闪电影蚀"
+
+[main.spells.shadowveil]
+description = "在战斗开始的两回合后且护盾接近为满时才能使用。使用后的每回合将消耗你的护盾来提升物攻、急切与敏捷。「影幕」状态会持续 5 个回合，或护盾耗尽提前结束。"
+name = "影幕"
 
 [main.spells.sharpen]
 description = "暂时提升物攻。"
@@ -17278,7 +17379,7 @@ description = "强劲的风魔法有机率会导致逆风。同时也有机率�
 name = "骤风急雨 (副手)"
 
 [main.spells.strikes-of-ursa]
-description = "防御 3 回合后释放一次打击，眩晕敌人且不会失手。"
+description = "防御 1 回合后释放一次打击，眩晕敌人且不会失手。"
 name = "大熊座之怒"
 
 [main.spells.stun-dart]
@@ -17345,6 +17446,10 @@ name = "贝希尔召唤 II (副手)"
 description = "召唤一只动物来协助你。在战斗中需要 2 回合发动。"
 name = "嗜血座狼召唤 (副手)"
 
+[main.spells.summon-bone-mammoth]
+description = "召唤一只野兽来协助你。在战斗中需要 4 回合发动。"
+name = "骨质猛犸象召唤"
+
 [main.spells.summon-buggane]
 description = "召唤一只野兽来协助你。在战斗中需要 2 回合发动。"
 name = "布根召唤"
@@ -17364,6 +17469,10 @@ name = "鸡蛇召唤"
 [main.spells.summon-colossus]
 description = "召唤一只野兽来协助你。在战斗中需要 3 回合发动。"
 name = "巨像召唤"
+
+[main.spells.summon-coral-reef]
+description = "召唤一只野兽来协助你。在战斗中需要 3 回合发动。"
+name = "珊瑚礁召唤"
 
 [main.spells.summon-dark-pegasus]
 description = "召唤一只野兽来协助你。在战斗中需要 3 回合发动。"
@@ -17392,6 +17501,14 @@ name = "加姆召唤"
 [main.spells.summon-gazer]
 description = "召唤一只野兽来协助你。在战斗中需要 2 回合发动。"
 name = "凝视者召唤"
+
+[main.spells.summon-giant-panda]
+description = "召唤一只野兽来协助你。在战斗中需要 4 回合发动。"
+name = "巨型熊猫召唤"
+
+[main.spells.summon-giant-tortoise]
+description = "召唤一只野兽来协助你。在战斗中需要 3 回合发动。"
+name = "巨陆龟召唤"
 
 [main.spells.summon-glashtyn]
 description = "召唤一只强大的野兽来协助你。在战斗中需要 3 回合发动。"
@@ -17453,9 +17570,17 @@ name = "凯尔皮召唤"
 description = "召唤一只野兽来协助你。在战斗中需要 3 回合发动。"
 name = "拉姆莱召唤"
 
+[main.spells.summon-macaroni-penguin]
+description = "召唤一只野兽来协助你。在战斗中需要 3 回合发动。"
+name = "长眉企鹅召唤"
+
 [main.spells.summon-mighty-griffin]
 description = "召唤一只强大的野兽来协助你。在战斗中需要 3 回合发动。"
 name = "究极格里芬召唤"
+
+[main.spells.summon-mountain-gorilla]
+description = "召唤一只野兽来协助你。在战斗中需要 3 回合发动。"
+name = "山地大猩猩召唤"
 
 [main.spells.summon-onryo]
 description = "召唤一只野兽来协助你。在战斗中需要 2 回合发动。"
@@ -17496,6 +17621,10 @@ name = "诡异幽灵召唤"
 [main.spells.summon-stonewarg]
 description = "召唤一只动物来协助你。在战斗中需要 2 回合发动。"
 name = "岩石座狼召唤 (副手)"
+
+[main.spells.summon-timber]
+description = "召唤一只野兽来协助你。在战斗中需要 3 回合发动。"
+name = "河狸召唤"
 
 [main.spells.summon-tower-guardian]
 description = "召唤一只强大的野兽来协助你。在战斗中需要 3 回合发动。"
@@ -18079,9 +18208,7 @@ name = "X 斩击 III"
 
 [msg.bestial_bond]
 accuracy = "精准"
-animal_protection = "动物系减伤"
 arch-alchemy = "大炼金术"
-area_defense = "领地防守"
 bonded_attack = "物攻羁绊"
 bonded_crit = "暴击羁绊"
 bonded_defense = "物防羁绊"
@@ -18091,9 +18218,10 @@ bonded_magic = "魔攻羁绊"
 bonded_mana = "魔力羁绊"
 bonded_resistance = "魔防羁绊"
 bonded_ward = "护盾羁绊"
-crit = "暴击率"
+crit_chance = "暴击机率"
 crit_damage = "暴击伤害"
 damage_at_full_hp = "满血时伤害"
+damage_from_animals = "来自动物系伤害"
 dark_res = "暗属性抗性"
 earthen_damage = "地属性伤害"
 earthen_res = "地属性抗性"
@@ -18109,6 +18237,7 @@ lightning_damage = "雷属性伤害"
 lightning_res = "雷属性抗性"
 memory_hunting = "记忆追寻"
 orn_bonus = "欧币加成"
+settlement_area_defense = "据点/领地防御"
 status_protection = "异常状态保护"
 t__all_u = "T. All ↑"
 t__crit_u = "T. Crit ↑"
@@ -18166,6 +18295,9 @@ riftfall = "裂隙陷落"
 sisters_of_morrigan = "摩莉甘的姊妹"
 summer_solstice = "冬至"
 sumner_games = "夏季运动会"
+terra_s_day = "泰拉日"
+terra_s_legacy = "泰拉的遗产"
+terra_s_legacy__natureblight = "泰拉的遗产: 萎化自然"
 the_crimson_festival = "绯红节"
 the_hallowed = "万圣异闻录"
 the_mimics_are_loose = "宝箱怪们正在捣乱"
@@ -18272,7 +18404,6 @@ spell = "法术"
 "+walls_of_aaru" = "+雅卢防壁"
 "+ward_of_mythril" = "+秘银护盾"
 "+ward_of_ortanite" = "+欧坦尼护盾"
-"+world_anguish_bonus" = "+世界苦难加成"
 accuracy = "精准"
 adornment_slots = "镶嵌槽位"
 ally_effect_chance = "共享状态机率"
@@ -18280,8 +18411,6 @@ apex = "APEX"
 apex_rate = "APEX充能速率"
 apex_start = "初始APEX能量"
 arcane_damage = "奥术伤害"
-area_defense = "领地防守"
-assassin = "刺客"
 attack = "物攻"
 attack_rate = "攻击机率"
 avidity = "急切"
@@ -18309,13 +18438,14 @@ def_res_penetration = "物防/魔防穿透"
 defend_power = "防御强化"
 defense = "物防"
 dexterity = "敏捷"
-double_handed = "双手武器加成"
 dragon_damage = "龙属性伤害"
 drop_quality = "掉落物品品质"
 dungeon_cooldown = "地牢冷却时间"
+dungeon_rewards = "地牢奖励"
 earthen_damage = "地属性伤害"
 effect_damage = "状态效果伤害"
 elemental_weaknesses = "元素弱点"
+event_encounters = "活动遇怪"
 exp_bonus = "经验加成"
 faction_damage = "阵营元素伤害"
 fire_damage = "火属性伤害"
@@ -18324,7 +18454,7 @@ follower_stats = "追随者属性"
 follower_summon_ai = "追随者/召唤物AI"
 foresight = "预知"
 gifts = "礼物"
-godforge = "神赐"
+godforge_chance = "神赐机率"
 gold_bonus = "金币加成"
 heal_rate = "治愈机率"
 healing = "治疗效果"
@@ -18359,14 +18489,20 @@ questing = "追迹"
 raid_rewards = "副本奖励"
 resistance = "魔防"
 self_damage_reduction = "自损降低"
+settlement_area_defense = "据点/领地防御"
 spell_rate = "技能施放机率"
+stat_bonus = "属性加成"
+status_effect_chance = "状态生效机率"
+status_effect_duration = "状态效果持续"
 status_protection = "异常状态保护"
 status_reflection = "状态反射"
 summon_pacts = "契约效果"
 summon_protection = "召唤物保护"
 summon_stats = "召唤物属性"
 summon_turns = "召唤吟唱回合"
+tower_shards = "塔之碎片"
 turn_reduction = "减少吟唱回合"
+two-handed_power = "双手力量"
 two_handed = "双手使用"
 ult_defense = "终极技能防御"
 view_distance = "视野范围"
@@ -18377,6 +18513,7 @@ ward_recovery = "护盾恢复"
 ward_start = "开场护盾"
 ward_turns = "护盾回合"
 water_damage = "水属性伤害"
+weapon_power = "武器威力"
 weapon_proficiency = "武器精通"
 
 [msg.status]
@@ -18407,6 +18544,7 @@ blind = "致盲"
 bloodshift = "鲜血转移"
 bloodwarg = "嗜血座狼"
 bloodwarg_1 = "嗜血座狼"
+bone_mammoth = "骨质猛犸象"
 brittle = "化身利刃"
 brynhild_u = "布伦希尔德 ↑"
 brynhild_uu = "布伦希尔德 ↑↑"
@@ -18420,6 +18558,7 @@ chimera = "奇美拉"
 cockatrice = "鸡蛇"
 colossus = "巨像"
 confused = "迷惑"
+coral_reef = "珊瑚礁"
 crimson_gazer = "深红凝视者"
 crit_u = "Crit ↑"
 crow = "乌鸦"
@@ -18471,9 +18610,12 @@ fjalar = "法亚拉"
 foresight_d = "预知 ↓"
 foresight_u = "预知 ↑"
 foresight_uu = "预知 ↑↑"
+frenzy = "狂化"
 frost_troll = "寒霜巨魔"
 frozen = "冰冻"
 garm = "加姆"
+giant_panda = "巨型熊猫"
+giant_tortoise = "巨陆龟"
 glashtyn = "格拉辛"
 great_ancient_dragon = "原始巨龙"
 great_gazer = "强大的凝视者"
@@ -18515,12 +18657,14 @@ llamrai = "拉姆莱"
 lulled = "恍惚"
 lyon_s_mark = "里昂的标记"
 lyra_sigil = "天琴座印记"
+macaroni_penguin = "长眉企鹅"
 mag_d = "Mag ↓"
 mag_u = "Mag ↑"
 mag_uu = "Mag ↑↑"
 manaseep = "魔漏"
 mighty_griffin = "究极格里芬"
 mighty_slime = "究极史莱姆"
+mountain_gorilla = "山地大猩猩"
 mythril_greaves = "秘银护胫"
 mythril_pauldrons = "秘银肩甲"
 oceanus = "俄刻阿诺斯"
@@ -18544,6 +18688,7 @@ rot = "腐败"
 sandstone_golem = "砂岩魔像"
 scarecrow = "稻草人"
 selene = "塞勒涅"
+shadowveil = "影幕"
 skadi_u = "斯卡蒂 ↑"
 skadi_uu = "斯卡蒂 ↑↑"
 skadi_uuu = "斯卡蒂 ↑↑↑"
@@ -18614,6 +18759,7 @@ terrifying_ghost = "恐慌幽灵"
 themis = "忒弥斯"
 thrud = "斯露德"
 tiamat = "提亚马特"
+timber_the_beaver = "河里河狸"
 tower_guardian = "塔之守护者"
 towering = "建塔模式"
 toxic = "剧毒"

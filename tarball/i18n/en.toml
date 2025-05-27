@@ -240,12 +240,12 @@ icon = "/img/effects/dungeoner.png"
 name = "Dungeon Crawler"
 
 [abilities.efficacious]
-description = "When casting a multi-turn spell, damage taken will be reduced. Additionally, spells cast against enemies with elemental immunities will receive partial damage instead of none."
+description = "Additional damage is dealt when exploiting elemental weaknesses, while partial damage is dealt when hitting elemental immunities. Additionally, when casting a multi-turn spell, damage taken will be reduced."
 icon = "/img/effects/insistence.png"
 name = "Efficacious"
 
 [abilities.efficacious_ii]
-description = "When casting a multi-turn spell, damage taken will be reduced. Additionally, spells cast against enemies with elemental immunities will receive partial damage instead of none."
+description = "Additional damage is dealt when exploiting elemental weaknesses, while partial damage is dealt when hitting elemental immunities. Additionally, when casting a multi-turn spell, damage taken will be reduced."
 icon = "/img/effects/insistence.png"
 name = "Efficacious II"
 
@@ -288,11 +288,6 @@ name = "Experienced Summoner"
 description = "You have the ability to automatically counter attacks in battle. Additionally, you have a chance to act twice per turn and gain an extra turn when defeating an opponent."
 icon = "/img/effects/remark.png"
 name = "Finesse's Training"
-
-[abilities.flasks_of_corvus]
-description = "Manaflasks and Bloodflasks charge much faster."
-icon = "/img/effects/corvus.png"
-name = "Flasks of Corvus"
 
 [abilities.gold_bonus]
 description = "You have a way of finding that extra coin."
@@ -1094,7 +1089,7 @@ name = "Great Ancient Dragon"
 [main.bosses.great-cockatrice]
 name = "Great Cockatrice"
 
-[main.bosses.great-gazer-d870cac1]
+[main.bosses.great-gazer]
 name = "Great Gazer"
 
 [main.bosses.great-jinn]
@@ -1934,6 +1929,10 @@ name = "Big Cactus"
 description = "Available for a limited time only."
 name = "Bloodwarg"
 
+[main.followers.bone-mammoth]
+description = "A member of nature, defender against the Murk."
+name = "Bone Mammoth"
+
 [main.followers.breathing-armor]
 description = "An animated piece of armor. It will help in party combat by drawing enemy attention to you while recovering Ward."
 name = "Breathing Armor"
@@ -2001,6 +2000,10 @@ name = "Cockatrice"
 [main.followers.colossus]
 description = "The mighty Colossus. It can boost your defenses, while potentially petrifying an opponent."
 name = "Colossus"
+
+[main.followers.coral-reef]
+description = "A member of nature, defender against the Murk."
+name = "Coral Reef"
 
 [main.followers.coral-varmint]
 description = "A tamed, yet aggressive lizarr warrior. It will attack your enemies in battle."
@@ -2157,6 +2160,14 @@ name = "Ghost"
 [main.followers.giant-basilisk]
 description = "A giant red basilisk. It will assist in battle by attacking often."
 name = "Giant Basilisk"
+
+[main.followers.giant-panda]
+description = "A member of nature, defender against the Murk."
+name = "Giant Panda"
+
+[main.followers.giant-tortoise]
+description = "A member of nature, defender against the Murk."
+name = "Giant Tortoise"
 
 [main.followers.glashtyn]
 description = "Available for a limited time only."
@@ -2346,6 +2357,10 @@ name = "Lobster"
 description = "The Great Dragons will bring many skills to battle. Available for a limited time only."
 name = "Lotan, Coiled One"
 
+[main.followers.macaroni-penguin]
+description = "A member of nature, defender against the Murk."
+name = "Macaroni Penguin"
+
 [main.followers.mammon-acolyte]
 description = "Follower of Mammon. It will deal damage depending on the amount of monsters you have recently slain, but may miss its mark."
 name = "Mammon Acolyte"
@@ -2377,6 +2392,10 @@ name = "Minotaur"
 [main.followers.monoceros]
 description = "Available for a limited time only."
 name = "Monoceros"
+
+[main.followers.mountain-gorilla]
+description = "A member of nature, defender against the Murk."
+name = "Mountain Gorilla"
 
 [main.followers.naggeneen]
 description = "Oh, the foul fairy Naggeneen. Available for a limited time."
@@ -2602,6 +2621,10 @@ name = "The Mightiest Mimic"
 description = "A new look for the \"The Mightiest Mimic\" follower. Available for a limited time only."
 name = "The Mightiest Murk"
 
+[main.followers.timber-the-beaver]
+description = "A member of nature, defender against the Murk."
+name = "Timber the Beaver"
+
 [main.followers.traveled-wolpertinger]
 description = "A beast monumental to the Traveler's Guild. It can assist you in battle with a variety of skills, while boosting rewards from exploring the world."
 name = "Traveled Wolpertinger"
@@ -2795,7 +2818,7 @@ description = "Second lute of Aengus Og, famous Bard of the Fomorian house of No
 name = "Aengus Og's Lute"
 
 [main.items.affinity-candle]
-description = "When lit, this mysterious candle draws stronger enemies to you for a limited time."
+description = "When lit, this mysterious candle draws stronger enemies to you for 1 hour."
 name = "Affinity Candle"
 
 [main.items.agathodaemon-hammer]
@@ -2973,6 +2996,14 @@ name = "Ancient Troll's Charm"
 [main.items.ancient-water-essence]
 description = "The ancient elves seldomly carried essences to ward off the elements. This item will occasionally grant immunity to its assigned element."
 name = "Ancient Water Essence"
+
+[main.items.anguished-crucible]
+description = "An extremely dense container made for holding the most molten of metals. Placing an Anguished item within its walls will remove any bonus it may have been granted in Anguished content for another random bonus. If an item does not have a bonus, it will be granted one."
+name = "Anguished Crucible"
+
+[main.items.anguished-pathspur]
+description = "An item capable of reversing decisions made in anguish. Use it at the Circle of Anguish to change Anguish path level choices that you have previously chosen."
+name = "Anguished Pathspur"
 
 [main.items.ankh]
 description = "A strange, ancient staff. It seems it can cast spells and also be used as a weapon."
@@ -3370,11 +3401,11 @@ name = "Arisen Cursed Esus's Pillar"
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomoria Plated Boots"
 
-[main.items.arisen-cursed-fomoria-plated-boots-4de3e61d]
+[main.items.arisen-cursed-fomoria-plated-boots-56e4841c]
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomoria Plated Boots"
 
-[main.items.arisen-cursed-fomoria-plated-boots-56e4841c]
+[main.items.arisen-cursed-fomoria-plated-boots-7aefba00]
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomoria Plated Boots"
 
@@ -3386,11 +3417,11 @@ name = "Arisen Cursed Fomoria Plated Boots"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomoria Plated Robe"
 
-[main.items.arisen-cursed-fomoria-plated-robe-954d6525]
+[main.items.arisen-cursed-fomoria-plated-robe-9a5a1cdd]
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomoria Plated Robe"
 
-[main.items.arisen-cursed-fomoria-plated-robe-9a5a1cdd]
+[main.items.arisen-cursed-fomoria-plated-robe-ca4ddba5]
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomoria Plated Robe"
 
@@ -3402,15 +3433,15 @@ name = "Arisen Cursed Fomoria Plated Robe"
 description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomor's Crown"
 
+[main.items.arisen-cursed-fomors-crown-276564a1]
+description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
+name = "Arisen Cursed Fomor's Crown"
+
 [main.items.arisen-cursed-fomors-crown-2cb9b4e6]
 description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomor's Crown"
 
 [main.items.arisen-cursed-fomors-crown-3a4a918b]
-description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-name = "Arisen Cursed Fomor's Crown"
-
-[main.items.arisen-cursed-fomors-crown-612a024c]
 description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomor's Crown"
 
@@ -5634,6 +5665,10 @@ name = "Crest of Nocturna"
 description = "Proof of trials complete for the Fomorian house of Sumner. Use this item to summon a mighty projection."
 name = "Crest of Sumner"
 
+[main.items.crest-of-the-blades]
+description = "Crest issued by the Blades of Finesse when one has deepened their pledge. After using it, your weapons will do considerably more damage for 6 hours."
+name = "Crest of the Blades"
+
 [main.items.crest-of-the-dragon-slayer]
 description = "Crest issued by the Dragon Hunter guild when Wyrmhunt has been completed by a pledge. After using it, your chance to have a piece of equipment Godforged is greatly increased."
 name = "Crest of the Dragon Slayer"
@@ -6230,6 +6265,10 @@ name = "Demonic Blade"
 description = "Unrefined ore of the underworld. Useful for upgrading demonic weapons."
 name = "Demonic Ore"
 
+[main.items.demonworking-tools]
+description = "Tools found at an abandoned Demonforge, capable of simultaneous augment and destruction. Using these tools upon a piece of unadorned equipment will increase its Anguished Level by 1, but reset its upgrade level to Level 10. Anguished Gear has decreased forging material costs."
+name = "Demonworking Tools"
+
 [main.items.diluted-mnemonic]
 description = "A catalyst with an area's lost memories trapped within. Using it will begin a hunt for shattered memories in your area."
 name = "Diluted Mnemonic"
@@ -6363,7 +6402,7 @@ description = "Shield of Donta, once a great hero of the Order of the Unfelled. 
 name = "Donta's Shield"
 
 [main.items.dowsing-rod]
-description = "A strange apparatus suitable for finding that which cannot be easily found. Boosts item and discovery rate for a period of time."
+description = "A strange apparatus suitable for finding that which cannot be easily found. Boosts item and discovery rate for 1 hour."
 name = "Dowsing Rod"
 
 [main.items.dracon-bow]
@@ -6803,8 +6842,12 @@ description = "A highly decorative weapon wielded by Elven warriors."
 name = "Elven Sword"
 
 [main.items.elysian-candle]
-description = "After lighting this Elysian candle, you may find random materials while defeating monsters in the world."
+description = "After lighting this Elysian candle, you may find random materials while defeating monsters in the world. This item lasts 1 hour."
 name = "Elysian Candle"
+
+[main.items.elysian-coin]
+description = "An aged azure coin, currency of Elysia. Using it will increase rewards earned when completing Memory Hunts for 48 hours."
+name = "Elysian Coin"
 
 [main.items.ember-plumed-boots]
 description = "Footwear of a worshipper of the mighty Phoenix. Using this item may grant temporary improvements to your stats."
@@ -6915,7 +6958,7 @@ description = "???"
 name = "Excalibur"
 
 [main.items.exp-potion]
-description = "A sour tasting elixir that doubles experience earned for a limited time."
+description = "A sour tasting elixir that doubles experience earned for 1 hour."
 name = "EXP Potion"
 
 [main.items.explorers-waystone]
@@ -7095,7 +7138,7 @@ description = "How could a piece of clothing make one so happy? This item will g
 name = "Fancy Belt"
 
 [main.items.farsight]
-description = "A tonic that improves eyesight. Consuming this item will increase your view distance for a limited time."
+description = "A tonic that improves eyesight. Consuming this item will increase your view distance for 1 hour."
 name = "Farsight"
 
 [main.items.feral-archistaff]
@@ -7763,7 +7806,7 @@ description = "Adorned robe of an infamous Gaia of the Earthen Legion. This robe
 name = "Gaia Robe"
 
 [main.items.galars-hammer]
-description = "A fine hammer used by Galar. Using this item before upgrading equipment at the blacksmith will reduce the time needed to complete the upgrades."
+description = "A fine hammer used by Galar. Using this item before upgrading equipment at the blacksmith will reduce the time needed to complete the upgrades. This item lasts 1 hour."
 name = "Galar's Hammer"
 
 [main.items.gales-spear]
@@ -7942,6 +7985,10 @@ name = "Goblin Boots"
 description = "The staff of the Goblin Lord. It slightly boosts its wielder's mana."
 name = "Goblin Lord's Staff"
 
+[main.items.godmaking-tools]
+description = "Tools found at an abandoned workshop, capable of incredible augmentation. Using these tools upon a piece of equipment will increase its Anguished Level to the maximum Anguish Level currently unlocked."
+name = "Godmaking Tools"
+
 [main.items.goibhniu-armguard]
 description = "Armguard of Goibhniu, warrior smith God of the Fomorian house of Sumner. Goibhniu crafted the house's mighty swords, hammers, and axes. While wearing this item, skills that target multiple opponents will deal additional damage. Additionally, skills will seldomly hit more than one opponent."
 name = "Goibhniu Armguard"
@@ -7951,7 +7998,7 @@ description = "Medal awarded in the Sumner Games, a storied event of Olympia."
 name = "Gold Medal"
 
 [main.items.gold-mushroom]
-description = "A shiny, lucky mushroom. Boosts gold earned for a period of time."
+description = "A shiny, lucky mushroom. Boosts gold earned for 6 hours."
 name = "Gold Mushroom"
 
 [main.items.gold-pinion]
@@ -8039,7 +8086,7 @@ description = "Protective armor made of the hide of a great bear."
 name = "Great Bearskin"
 
 [main.items.great-dowsing-rod]
-description = "A strange apparatus suitable for finding that which cannot be easily found. Greatly boosts item and discovery rate for a period of time."
+description = "A strange apparatus suitable for finding that which cannot be easily found. Greatly boosts item and discovery rate for 6 hours."
 name = "Great Dowsing Rod"
 
 [main.items.great-empty-bottle]
@@ -8154,6 +8201,10 @@ name = "Great Phoenician Shoes"
 description = "A decorated flute often used to lull the great Phoenix. Although it seemingly has little power, it is well suited for adornment."
 name = "Great Phoenixsong"
 
+[main.items.great-questing-license]
+description = "A simple piece of parchment given to you by the Adventurer's Guild. Using this item will greatly improve the gold, orns, and experience earned when completing quests. This item will last for 1 hour after use."
+name = "Great Questing License"
+
 [main.items.great-staff]
 description = "A staff favored by archmages of older times."
 name = "Great Staff"
@@ -8243,7 +8294,7 @@ description = "A replica of Pumpkinhead's original sword. Aglovale, now know as 
 name = "Hallowed Blade"
 
 [main.items.hallowed-candle]
-description = "When lit, this mysterious candle draws stronger enemies to you for a limited time. Monsters defeated with this candle lit also give more experience."
+description = "When lit, this mysterious candle draws stronger enemies to you for 1 hour. Monsters defeated with this candle lit also give more experience."
 name = "Hallowed Candle"
 
 [main.items.hallowed-monster-tome]
@@ -9047,39 +9098,39 @@ description = "A relic of Merlin's eccentric collection, this dagger grants incr
 name = "Lass of the Lake"
 
 [main.items.last-martyrs-armor]
-description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. Anguished gear gains additional power as other heroes and traveler in the world are defeated on the current day."
+description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
 name = "Last Martyr's Armor"
 
 [main.items.last-martyrs-baton]
-description = "Weapon forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. Anguished gear gains additional power as other heroes and traveler in the world are defeated on the current day."
+description = "Weapon forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
 name = "Last Martyr's Baton"
 
 [main.items.last-martyrs-boots]
-description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. Anguished gear gains additional power as other heroes and traveler in the world are defeated on the current day."
+description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
 name = "Last Martyr's Boots"
 
 [main.items.last-martyrs-chestguard]
-description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. Anguished gear gains additional power as other heroes and traveler in the world are defeated on the current day."
+description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
 name = "Last Martyr's Chestguard"
 
 [main.items.last-martyrs-cowl]
-description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. Anguished gear gains additional power as other heroes and traveler in the world are defeated on the current day."
+description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
 name = "Last Martyr's Cowl"
 
 [main.items.last-martyrs-flame]
-description = "Weapon forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. Anguished gear gains additional power as other heroes and traveler in the world are defeated on the current day."
+description = "Weapon forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
 name = "Last Martyr's Flame"
 
 [main.items.last-martyrs-garb]
-description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. Anguished gear gains additional power as other heroes and traveler in the world are defeated on the current day."
+description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
 name = "Last Martyr's Garb"
 
 [main.items.last-martyrs-headdress]
-description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. Anguished gear gains additional power as other heroes and traveler in the world are defeated on the current day."
+description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
 name = "Last Martyr's Headdress"
 
 [main.items.last-martyrs-helmet]
-description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. Anguished gear gains additional power as other heroes and traveler in the world are defeated on the current day."
+description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
 name = "Last Martyr's Helmet"
 
 [main.items.last-martyrs-hood]
@@ -9087,15 +9138,15 @@ description = "Cloth forged of the trials, tribulations, failures, and anguish o
 name = "Last Martyr's Hood"
 
 [main.items.last-martyrs-leggings]
-description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. Anguished gear gains additional power as other heroes and traveler in the world are defeated on the current day."
+description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
 name = "Last Martyr's Leggings"
 
 [main.items.last-martyrs-legwraps]
-description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. Anguished gear gains additional power as other heroes and traveler in the world are defeated on the current day."
+description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
 name = "Last Martyr's Legwraps"
 
 [main.items.last-martyrs-longbow]
-description = "Weapon forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. Anguished gear gains additional power as other heroes and traveler in the world are defeated on the current day."
+description = "Weapon forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
 name = "Last Martyr's Longbow"
 
 [main.items.last-martyrs-robe]
@@ -9107,7 +9158,7 @@ description = "Cloth forged of the trials, tribulations, failures, and anguish o
 name = "Last Martyr's Skirt"
 
 [main.items.last-martyrs-sword]
-description = "Weapon forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. Anguished gear gains additional power as other heroes and traveler in the world are defeated on the current day."
+description = "Weapon forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
 name = "Last Martyr's Sword"
 
 [main.items.lasting-lantern]
@@ -9307,11 +9358,11 @@ description = "A luring charm made by Ceres to attract a certain powerful Fallen
 name = "Lover's Lost"
 
 [main.items.lucky-coin]
-description = "A shiny, lucky coin. Boosts gold earned for a period of time."
+description = "A shiny, lucky coin. Boosts gold earned for a 1 hour."
 name = "Lucky Coin"
 
 [main.items.lucky-silver-coin]
-description = "A shiny, lucky, silver coin. Boosts orns earned for a period of time."
+description = "A shiny, lucky, silver coin. Boosts orns earned for 1 hour."
 name = "Lucky Silver Coin"
 
 [main.items.lugus-gauntlet]
@@ -9714,6 +9765,10 @@ name = "Monster Remains"
 description = "A tome of common monsters. Slightly boosts experience earned."
 name = "Monster Tome"
 
+[main.items.monumentals-candle]
+description = "When lit, this candle is said to draw near monsters that are part of an active world event. This item lasts for 48 hours."
+name = "Monumental's Candle"
+
 [main.items.monumentals-summoning-scroll]
 description = "A scroll containing the ancient Balor techniques of the summon. Reading it will only summon Raids that belong to a current active world event."
 name = "Monumental's Summoning Scroll"
@@ -9759,7 +9814,7 @@ description = "Harp found in Merlin's eccentric collection. It can grant element
 name = "Myrddin Harp"
 
 [main.items.myrkheim-hammer]
-description = "A fine hammer used by the skilled smiths of Myrkheim. Using this item before upgrading equipment at the blacksmith will greatly reduce the time needed to complete the upgrades."
+description = "A fine hammer used by the skilled smiths of Myrkheim. Using this item before upgrading equipment at the blacksmith will greatly reduce the time needed to complete the upgrades. This item lasts 1 hour."
 name = "Myrkheim Hammer"
 
 [main.items.mystic-katar]
@@ -10002,8 +10057,12 @@ name = "Nu Olympia Warbow"
 description = "Rare weapon, fallen from an Olympian."
 name = "Nu Olympia Warsword"
 
+[main.items.nurtured-nature]
+description = "A piece of nature nurtured. This item is part of the Terra's Legacy: Natureblight event."
+name = "Nurtured Nature"
+
 [main.items.occult-candle]
-description = "A mysterious candle that draws more enemies to you for a limited time when lit."
+description = "A mysterious candle that draws more enemies to you for 1 hour when lit."
 name = "Occult Candle"
 
 [main.items.oceanic-boots]
@@ -10101,6 +10160,10 @@ name = "Olympia Mnemonic"
 [main.items.olympia-tower-key]
 description = "To ascend a tower of Olympia, we must first open the door."
 name = "Olympia Tower Key"
+
+[main.items.olympian-coin]
+description = "An aged coin, currency of Olympia. Using it will increase rewards earned when ascending Towers of Olympia for 48 hours."
+name = "Olympian Coin"
 
 [main.items.olympian-tower-joist]
 description = "A large support piece of a Tower of Olympia. It allows one to take the stance of Asteria, increasing your magic power but losing a great amount of defenses. Additionally, mana will burn away each turn."
@@ -10422,6 +10485,10 @@ name = "Pollux's Greataxe"
 description = "Gifts for you and me. Greatly boosts the chance for monsters to drop items. Additionally, you may find extra materials from defeating monsters in the world."
 name = "Presents!"
 
+[main.items.proof-of-agony]
+description = "Proof that a member of the Circle of Anguish has conquered a great foe while entranced by the spell of Great Anguish."
+name = "Proof of Agony"
+
 [main.items.proof-of-anguish]
 description = "Proof that a member of the Circle of Anguish has conquered a great foe while entranced by the spell of Great Anguish."
 name = "Proof of Anguish"
@@ -10437,6 +10504,10 @@ name = "Proof of Conquering"
 [main.items.proof-of-crownship]
 description = "A token issued by the Conqueror's Guild to signify that one has conquered and held a piece of these lands."
 name = "Proof of Crownship"
+
+[main.items.proof-of-despair]
+description = "Proof that a member of the Circle of Anguish has conquered a great foe while entranced by the spell of Great Anguish."
+name = "Proof of Despair"
 
 [main.items.proof-of-distance]
 description = "A token issued by the Traveler's Guild to signify that one has traveled a great distance in search of the extraordinary."
@@ -10458,6 +10529,10 @@ name = "Proof of Great Effort"
 description = "Document issued by the Adventurer's Guild as proof that this individual has gone on a large adventure. Proofs of Effort can be used to issue your own quest to other adventurers, or redeemed for items at the Adventurer's Guild Hall."
 name = "Proof of Magnificent Effort"
 
+[main.items.proof-of-melancholy]
+description = "Proof that a member of the Circle of Anguish has conquered a great foe while entranced by the spell of Great Anguish."
+name = "Proof of Melancholy"
+
 [main.items.proof-of-monument]
 description = "A token issued by the Monumental Guild when one has overcome game content that existed for a limited time."
 name = "Proof of Monument"
@@ -10470,9 +10545,17 @@ name = "Proof of Remembrance"
 description = "A token issued by the Blades of Finesse to signify that one has won in battle against another member of the Guild."
 name = "Proof of Sparring"
 
+[main.items.proof-of-torment]
+description = "Proof that a member of the Circle of Anguish has conquered a great foe while entranced by the spell of Great Anguish."
+name = "Proof of Torment"
+
 [main.items.proof-of-trials]
 description = "A token issued by a Guild to signify that one has overcome one of its ritual trials."
 name = "Proof of Trials"
+
+[main.items.proof-of-undying-allegiance]
+description = "An item issued by a Guild when one has reached ultimate allegiance. Upon using this item, experience, orns, gold, and many other rewards will be greatly increased for 48 hours."
+name = "Proof of Undying Allegiance"
 
 [main.items.psi-olympia-archistaff]
 description = "Rare weapon, fallen from an Olympian."
@@ -10599,7 +10682,7 @@ description = "A powerful bow forged of the remains of Glatisant, the questing b
 name = "Questing Bow"
 
 [main.items.questing-license]
-description = "A simple piece of parchment given to you by Samson. Using this item will temporarily improve the gold, orns, and experience earned when completing quests."
+description = "A simple piece of parchment given to you by Samson. Using this item will temporarily improve the gold, orns, and experience earned when completing quests for 1 hour."
 name = "Questing License"
 
 [main.items.questing-staff]
@@ -11006,7 +11089,7 @@ description = "A scroll containing mixed incantations of Riftfall. Use at your o
 name = "Scroll of Arisen Rift Distortion"
 
 [main.items.scroll-of-chaos]
-description = "A scroll containing a terrible incantation that will turn the world crimson. Using this scroll will cause enemies of any habitat to show for a limited time, but may be more difficult to defeat."
+description = "A scroll containing a terrible incantation that will turn the world crimson. Using this scroll will cause enemies of any habitat to show for 1 hour, but may be more difficult to defeat."
 name = "Scroll of Chaos"
 
 [main.items.scroll-of-dynasty]
@@ -11074,7 +11157,7 @@ description = "Staff of the Second Horseman, often associated with great pestile
 name = "Second Horseman's Staff"
 
 [main.items.seekers-candle]
-description = "When lit, this candle is said to draw near monsters that you have accepted a quest for."
+description = "When lit, this candle is said to draw near monsters that you have accepted a quest for. This item lasts 1 hour."
 name = "Seeker's Candle"
 
 [main.items.sempre-forte]
@@ -11449,6 +11532,10 @@ name = "Speed Tonic"
 description = "A strange magical ring. Those who are not trained in magical arts can equip this ring to sacrifice physical strength for magic power."
 name = "Spellsword's Ring"
 
+[main.items.spelunkers-torch]
+description = "A torch carried by a great Spelunker. Using this item will increase rewards earned when completing Battle Dungeons for 6 hours."
+name = "Spelunker's Torch"
+
 [main.items.spelunking-staff]
 description = "Staff of a lost dungeon explorer. It seems to have developed quite some power while resting deep within the land."
 name = "Spelunking Staff"
@@ -11678,7 +11765,7 @@ description = "A large bottle suitable for holding a brewed potion, tonic, or el
 name = "Super Empty Bottle"
 
 [main.items.super-exp-potion]
-description = "A sour tasting elixir that quadruples experience earned for a limited time."
+description = "A sour tasting elixir that quadruples experience earned for 1 hour."
 name = "Super EXP Potion"
 
 [main.items.super-health-potion]
@@ -11764,6 +11851,10 @@ name = "Tempest Boots"
 [main.items.templar-shield]
 description = "The shield of a mighty templar knight. It provides extra physical defense."
 name = "Templar Shield"
+
+[main.items.temporal-monster-aspect]
+description = "Aspect of a monster that one may have encountered while traveling these lands. Aspects can be charged simply by walking after being slotted in your Traveler's Guild menu. Fully charged Aspects are converted into Manifestations for use in Guild Trials. This aspect will produce manifest of event monsters."
+name = "Temporal Monster Aspect"
 
 [main.items.terra-boots]
 description = "Great boots of a mage who controlled the ground below. Grants protection from earthen magic."
@@ -12154,7 +12245,7 @@ description = "An embered Archistaff seldom wielded by Vulcan, the Red Knight. V
 name = "Vulcan's Archistaff"
 
 [main.items.vulcans-brew]
-description = "A strong tonic brewed by Vulcan of the Inferno Knights. Consume it to slightly raise experience and items dropped for a limited time."
+description = "A strong tonic brewed by Vulcan of the Inferno Knights. Consume it to slightly raise experience and items dropped for a 1 hour."
 name = "Vulcan's Brew"
 
 [main.items.vulcans-longsword]
@@ -13164,7 +13255,7 @@ name = "Great Bear"
 [main.monsters.great-eel]
 name = "Great Eel"
 
-[main.monsters.great-gazer]
+[main.monsters.great-gazer-5e49b351]
 name = "Great Gazer (Arisen)"
 
 [main.monsters.great-lizarr-knight]
@@ -13435,6 +13526,12 @@ name = "Monoceros"
 name = "Mummy"
 
 [main.monsters.murk]
+name = "Murk"
+
+[main.monsters.murk-066bec2c]
+name = "Murk"
+
+[main.monsters.murk-503f0bb5]
 name = "Murk"
 
 [main.monsters.mythril-armor]
@@ -14107,10 +14204,6 @@ name = "Grand Knight Lugus"
 [main.raids.great-anguish]
 description = "The culmination of brutal trials of countless heroes and travelers alike."
 name = "Great Anguish"
-
-[main.raids.great-murk]
-description = "Great Murk, born of melded resins, oils, and greed."
-name = "Great Murk"
 
 [main.raids.great-sphinx]
 description = "Old relic of Aaru."
@@ -14836,7 +14929,7 @@ description = "Unstable magic that can deal immense damage."
 name = "Catastrophe II"
 
 [main.spells.celestial-arrow]
-description = "Conjure a mighty arrow of celestial magic, easily rendering an opponent Starstruck. This spell will also charge manaflasks. Requires 2 turns in battle."
+description = "Conjure a mighty arrow of celestial magic, rendering an opponent Starstruck. This spell will also charge manaflasks. Requires 2 turns in battle."
 name = "Celestial Arrow"
 
 [main.spells.chain-lightning]
@@ -15531,6 +15624,10 @@ name = "Fortify III"
 [main.spells.freeze]
 description = "Freezes an opponent."
 name = "Freeze"
+
+[main.spells.frenzy]
+description = "After 2 turns in battle and when Ward is nearly full, consume Ward every turn to boost your Attack, Collateral Damage rate, and effectiveness of skills that consume Ward. Frenzy will last 5 turns or until Ward is depleted."
+name = "Frenzy"
 
 [main.spells.fright]
 description = "Frighten an opponent. Stunning it and potentially blinding or lulling it with fear."
@@ -16822,11 +16919,11 @@ description = "Swiftly attack four times with a chance to either miss or land a 
 name = "Realm Strikes II"
 
 [main.spells.realmshift]
-description = "Leave and reenter this realm. Your stats may be wildly different upon reentry."
+description = "Leave this realm, destined for the future. This skill will add an additional turn 5 turns from its use. Dexterity is greatly increased upon returning to this timeline. This skill may not function for those without the Avidity passive."
 name = "Realmshift"
 
 [main.spells.realmshift-ii]
-description = "Leave and reenter this realm. Your stats may be wildly different upon reentry."
+description = "Leave this realm, destined for the future. This skill will add an additional turn 4 turns from its use. Dexterity is greatly increased upon returning to this timeline. This skill may not function for those without the Avidity passive."
 name = "Realmshift II"
 
 [main.spells.rebirth]
@@ -17030,20 +17127,24 @@ description = "Deals greater dark damage."
 name = "Shadow II"
 
 [main.spells.shadowed-earthstrike]
-description = "Attack the enemy with earthen power additionally dealing both physical and dark damage. This attack may additonally stun or put an opponent to sleep."
+description = "Attack the enemy with earthen power additionally dealing both physical and dark damage. This skill will use either your magic or attack stat, depending on which is greater."
 name = "Shadowed Earthstrike"
 
 [main.spells.shadowed-firestrike]
-description = "Light your weapon aflame and attack the enemy additionally dealing both physical and dark damage. This attack may additonally stun or put an opponent to sleep."
+description = "Light your weapon aflame and attack the enemy additionally dealing both physical and dark damage. This skill will use either your magic or attack stat, depending on which is greater."
 name = "Shadowed Firestrike"
 
 [main.spells.shadowed-icestrike]
-description = "Freeze your weapon and attack the enemy additionally dealing both physical and dark damage. This attack may additonally stun or put an opponent to sleep."
+description = "Freeze your weapon and attack the enemy additionally dealing both physical and dark damage. This skill will use either your magic or attack stat, depending on which is greater."
 name = "Shadowed Icestrike"
 
 [main.spells.shadowed-lightningstrike]
-description = "Electrify your weapon and attack the enemy additionally dealing both physical and dark damage. This attack may additonally stun or put an opponent to sleep."
+description = "Electrify your weapon and attack the enemy additionally dealing both physical and dark damage. This skill will use either your magic or attack stat, depending on which is greater."
 name = "Shadowed Lightningstrike"
+
+[main.spells.shadowveil]
+description = "After 2 turns in battle and when Ward is nearly full, consume Ward every turn to boost your Attack, Avidity rate, and dexterity. Shadowveil will last 5 turns or until Ward is depleted."
+name = "Shadowveil"
 
 [main.spells.sharpen]
 description = "Temporarily increases attack power."
@@ -17278,7 +17379,7 @@ description = "Strong wind magic that may cause windswept. It may hit additional
 name = "Storming Tempest (Off-hand)"
 
 [main.spells.strikes-of-ursa]
-description = "Defend for 3 turns before releasing an attack that stuns an opponent and never misses."
+description = "Defend for 1 turns before releasing an attack that stuns an opponent and never misses."
 name = "Strikes of Ursa"
 
 [main.spells.stun-dart]
@@ -17345,6 +17446,10 @@ name = "Summon Beithir II (Off-hand)"
 description = "Summon an animal to assist you. Requires 2 turns in battle."
 name = "Summon Bloodwarg (Off-hand)"
 
+[main.spells.summon-bone-mammoth]
+description = "Summon a beast to assist you. Requires 4 turns in battle."
+name = "Summon Bone Mammoth"
+
 [main.spells.summon-buggane]
 description = "Summon a beast to assist you. Requires 2 turns in battle."
 name = "Summon Buggane"
@@ -17364,6 +17469,10 @@ name = "Summon Cockatrice"
 [main.spells.summon-colossus]
 description = "Summon a beast to assist you. Requires 3 turns in battle."
 name = "Summon Colossus"
+
+[main.spells.summon-coral-reef]
+description = "Summon a beast to assist you. Requires 3 turns in battle."
+name = "Summon Coral Reef"
 
 [main.spells.summon-dark-pegasus]
 description = "Summon a beast to assist you. Requires 3 turns in battle."
@@ -17392,6 +17501,14 @@ name = "Summon Garm"
 [main.spells.summon-gazer]
 description = "Summon a beast to assist you. Requires 2 turns in battle."
 name = "Summon Gazer"
+
+[main.spells.summon-giant-panda]
+description = "Summon a beast to assist you. Requires 4 turns in battle."
+name = "Summon Giant Panda"
+
+[main.spells.summon-giant-tortoise]
+description = "Summon a beast to assist you. Requires 3 turns in battle."
+name = "Summon Giant Tortoise"
 
 [main.spells.summon-glashtyn]
 description = "Summon a great beast to assist you. Requires 3 turns in battle."
@@ -17453,9 +17570,17 @@ name = "Summon Kelpie"
 description = "Summon a beast to assist you. Requires 3 turns in battle."
 name = "Summon Llamrai"
 
+[main.spells.summon-macaroni-penguin]
+description = "Summon a beast to assist you. Requires 3 turns in battle."
+name = "Summon Macaroni Penguin"
+
 [main.spells.summon-mighty-griffin]
 description = "Summon a great beast to assist you. Requires 3 turns in battle."
 name = "Summon Mighty Griffin"
+
+[main.spells.summon-mountain-gorilla]
+description = "Summon a beast to assist you. Requires 3 turns in battle."
+name = "Summon Mountain Gorilla"
 
 [main.spells.summon-onryo]
 description = "Summon a beast to assist you. Requires 2 turns in battle."
@@ -17496,6 +17621,10 @@ name = "Summon Spooky Ghost"
 [main.spells.summon-stonewarg]
 description = "Summon an animal to assist you. Requires 2 turns in battle."
 name = "Summon Stonewarg (Off-hand)"
+
+[main.spells.summon-timber]
+description = "Summon a beast to assist you. Requires 3 turns in battle."
+name = "Summon Timber"
 
 [main.spells.summon-tower-guardian]
 description = "Summon a great beast to assist you. Requires 3 turns in battle."
@@ -18079,9 +18208,7 @@ name = "X Slash III"
 
 [msg.bestial_bond]
 accuracy = "Accuracy"
-animal_protection = "Animal Protection"
 arch-alchemy = "Arch-Alchemy"
-area_defense = "Area Defense"
 bonded_attack = "Bonded Attack"
 bonded_crit = "Bonded Crit"
 bonded_defense = "Bonded Defense"
@@ -18091,9 +18218,10 @@ bonded_magic = "Bonded Magic"
 bonded_mana = "Bonded Mana"
 bonded_resistance = "Bonded Resistance"
 bonded_ward = "Bonded Ward"
-crit = "Crit"
-crit_damage = "Crit damage"
+crit_chance = "Crit Chance"
+crit_damage = "Crit Damage"
 damage_at_full_hp = "Damage at full HP"
+damage_from_animals = "Damage from Animals"
 dark_res = "Dark Res"
 earthen_damage = "Earthen Damage"
 earthen_res = "Earthen Res"
@@ -18109,6 +18237,7 @@ lightning_damage = "Lightning Damage"
 lightning_res = "Lightning Res"
 memory_hunting = "Memory Hunting"
 orn_bonus = "Orn Bonus"
+settlement_area_defense = "Settlement/Area Defense"
 status_protection = "Status Protection"
 t__all_u = "T. All ↑"
 t__crit_u = "T. Crit ↑"
@@ -18166,6 +18295,9 @@ riftfall = "Riftfall"
 sisters_of_morrigan = "Sisters of Morrigan"
 summer_solstice = "Summer Solstice"
 sumner_games = "Sumner Games"
+terra_s_day = "Terra's Day"
+terra_s_legacy = "Terra's Legacy"
+terra_s_legacy__natureblight = "Terra's Legacy: Natureblight"
 the_crimson_festival = "The Crimson Festival"
 the_hallowed = "The Hallowed"
 the_mimics_are_loose = "The Mimics Are Loose"
@@ -18272,7 +18404,6 @@ spell = "Spell"
 "+walls_of_aaru" = "+Walls of Aaru"
 "+ward_of_mythril" = "+Ward of Mythril"
 "+ward_of_ortanite" = "+Ward of Ortanite"
-"+world_anguish_bonus" = "+World Anguish Bonus"
 accuracy = "Accuracy"
 adornment_slots = "Adornment Slots"
 ally_effect_chance = "Ally Effect Chance"
@@ -18280,8 +18411,6 @@ apex = "Apex"
 apex_rate = "Apex Rate"
 apex_start = "Apex Start"
 arcane_damage = "Arcane Damage"
-area_defense = "Area Defense"
-assassin = "Assassin"
 attack = "Attack"
 attack_rate = "Attack rate"
 avidity = "Avidity"
@@ -18296,7 +18425,7 @@ collateral_damage = "Collateral Damage"
 costs = "Costs"
 crit = "Crit"
 crit_chance = "Crit chance"
-crit_damage = "Crit damage"
+crit_damage = "Crit Damage"
 critical_chain = "Critical Chain"
 damage_limit_break = "Damage Limit Break"
 damage_to_ward = "Damage to Ward"
@@ -18309,13 +18438,14 @@ def_res_penetration = "Def/Res Penetration"
 defend_power = "Defend Power"
 defense = "Defense"
 dexterity = "Dexterity"
-double_handed = "Double Handed"
 dragon_damage = "Dragon Damage"
 drop_quality = "Drop Quality"
 dungeon_cooldown = "Dungeon Cooldown"
+dungeon_rewards = "Dungeon Rewards"
 earthen_damage = "Earthen Damage"
 effect_damage = "Effect Damage"
 elemental_weaknesses = "Elemental Weaknesses"
+event_encounters = "Event Encounters"
 exp_bonus = "EXP Bonus"
 faction_damage = "Faction Damage"
 fire_damage = "Fire Damage"
@@ -18324,7 +18454,7 @@ follower_stats = "Follower Stats"
 follower_summon_ai = "Follower/Summon AI"
 foresight = "Foresight"
 gifts = "Gifts"
-godforge = "Godforge"
+godforge_chance = "Godforge Chance"
 gold_bonus = "Gold Bonus"
 heal_rate = "Heal rate"
 healing = "Healing"
@@ -18359,14 +18489,20 @@ questing = "Questing"
 raid_rewards = "Raid Rewards"
 resistance = "Resistance"
 self_damage_reduction = "Self Damage Reduction"
+settlement_area_defense = "Settlement/Area Defense"
 spell_rate = "Spell rate"
+stat_bonus = "Stat Bonus"
+status_effect_chance = "Status Effect Chance"
+status_effect_duration = "Status Effect Duration"
 status_protection = "Status Protection"
 status_reflection = "Status Reflection"
 summon_pacts = "Summon Pacts"
 summon_protection = "Summon Protection"
 summon_stats = "Summon Stats"
 summon_turns = "Summon Turns"
+tower_shards = "Tower Shards"
 turn_reduction = "Turn Reduction"
+two-handed_power = "Two-handed Power"
 two_handed = "Two handed"
 ult_defense = "Ult Defense"
 view_distance = "View Distance"
@@ -18377,6 +18513,7 @@ ward_recovery = "Ward Recovery"
 ward_start = "Ward Start"
 ward_turns = "Ward Turns"
 water_damage = "Water Damage"
+weapon_power = "Weapon Power"
 weapon_proficiency = "Weapon Proficiency"
 
 [msg.status]
@@ -18407,6 +18544,7 @@ blind = "Blind"
 bloodshift = "Bloodshift"
 bloodwarg = "Bloodwarg"
 bloodwarg_1 = "Bloodwarg"
+bone_mammoth = "Bone Mammoth"
 brittle = "Brittle"
 brynhild_u = "Brynhild ↑"
 brynhild_uu = "Brynhild ↑↑"
@@ -18420,6 +18558,7 @@ chimera = "Chimera"
 cockatrice = "Cockatrice"
 colossus = "Colossus"
 confused = "Confused"
+coral_reef = "Coral Reef"
 crimson_gazer = "Crimson Gazer"
 crit_u = "Crit ↑"
 crow = "Crow"
@@ -18471,9 +18610,12 @@ fjalar = "Fjalar"
 foresight_d = "Foresight ↓"
 foresight_u = "Foresight ↑"
 foresight_uu = "Foresight ↑↑"
+frenzy = "Frenzy"
 frost_troll = "Frost Troll"
 frozen = "Frozen"
 garm = "Garm"
+giant_panda = "Giant Panda"
+giant_tortoise = "Giant Tortoise"
 glashtyn = "Glashtyn"
 great_ancient_dragon = "Great Ancient Dragon"
 great_gazer = "Great Gazer"
@@ -18515,12 +18657,14 @@ llamrai = "Llamrai"
 lulled = "Lulled"
 lyon_s_mark = "Lyon's Mark"
 lyra_sigil = "Lyra Sigil"
+macaroni_penguin = "Macaroni Penguin"
 mag_d = "Mag ↓"
 mag_u = "Mag ↑"
 mag_uu = "Mag ↑↑"
 manaseep = "Manaseep"
 mighty_griffin = "Mighty Griffin"
 mighty_slime = "Mighty Slime"
+mountain_gorilla = "Mountain Gorilla"
 mythril_greaves = "Mythril Greaves"
 mythril_pauldrons = "Mythril Pauldrons"
 oceanus = "Oceanus"
@@ -18544,6 +18688,7 @@ rot = "Rot"
 sandstone_golem = "Sandstone Golem"
 scarecrow = "Scarecrow"
 selene = "Selene"
+shadowveil = "Shadowveil"
 skadi_u = "Skadi ↑"
 skadi_uu = "Skadi ↑↑"
 skadi_uuu = "Skadi ↑↑↑"
@@ -18614,6 +18759,7 @@ terrifying_ghost = "Terrifying Ghost"
 themis = "Themis"
 thrud = "Thrud"
 tiamat = "Tiamat"
+timber_the_beaver = "Timber the Beaver"
 tower_guardian = "Tower Guardian"
 towering = "Towering"
 toxic = "Toxic"

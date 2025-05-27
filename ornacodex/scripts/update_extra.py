@@ -7,20 +7,37 @@ import tomlkit.items
 from ornacodex.utils.path_config import ExtraPathConfig
 
 
+def chunks(lst, n):
+    for i in range(0, len(lst), n):
+        yield lst[i:i + n]
+
+
 def generate_boss_scaling(codex: dict, translations: dict, output_file: Path):
     if output_file.exists():
         with open(output_file) as f:
-            boss_scaling = tomlkit.load(f)
+            tmp = tomlkit.load(f)
+            boss_scaling = {b[1][0].as_string().strip(): {
+                'comment': b[0][1],
+                'value': b[1][1].value
+            }
+                for b in chunks(tmp.body, 2)}
     else:
         boss_scaling = {}
-    output = tomlkit.document()
+    out = {}
     for id in sorted(codex['items'].keys()):
         if codex['items'][id].get('item_type') in ('weapon', 'armor') and codex['items'][id].get('place') != 'accessory':
-            output.add(tomlkit.comment(
-                " / ".join(t['main']['items'][id]['name'] for t in translations.values())))
-            output.add(id, boss_scaling.get(id, 0))
+            out[id] = {
+                'comment': tomlkit.comment(
+                    " / ".join(t['main']['items'][id]['name'] for t in translations.values())),
+                'value': (boss_scaling.get(id) or {}).get('value', 0)
+            }
+    output = sorted((boss_scaling | out).items(), key=lambda a: a[0])
+    output_doc = tomlkit.document()
+    for key, v in output:
+        output_doc.add(v['comment'])
+        output_doc.add(key, v['value'])
     with open(output_file, 'w') as f:
-        tomlkit.dump(output, f)
+        tomlkit.dump(output_doc, f)
 
 
 def generate_enemy(codex: dict, translations: dict, output_dir: Path):

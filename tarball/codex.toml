@@ -11138,7 +11138,7 @@ ally_effect_chance = "+5%"
 beast_taming = "+10%"
 buff_duration = "+5%"
 chain_damage_chance = "+5%"
-defend_power = "-80%"
+defend_power = "+20%"
 defense = "237"
 effect_damage = "+25%"
 follower_stats = "+8%"
@@ -25235,7 +25235,7 @@ upgrade_materials = [["items", "draconite"], ["items", "pure-draconite"]]
 useable_by = "all_classes"
 
 [main.items.coiled-shield.stats]
-defend_power = "50%"
+defend_power = "+50%"
 element = ["dragon"]
 ward = "16%"
 
@@ -59529,7 +59529,7 @@ tier = 9
 useable_by = "all_classes"
 
 [main.items.sturdy-feet-of-themis.stats]
-defend_power = "-80%"
+defend_power = "+20%"
 hp = "200"
 
 [main.items.succubus-mantle]
@@ -64160,7 +64160,7 @@ upgrade_materials = [["items", "draconite"], ["items", "pure-draconite"]]
 useable_by = "all_classes"
 
 [main.items.ymir-coiled-shield.stats]
-defend_power = "50%"
+defend_power = "+50%"
 defense = "90"
 element = ["dragon"]
 resistance = "90"
@@ -90104,7 +90104,7 @@ useable_by = ["all_classes", "magic_users", "melee_classes", "thief_classes", "v
 "stats.debuff_duration" = "SIGNED_PERCENT"
 "stats.debuff_fade" = "SIGNED_PERCENT"
 "stats.def_res_penetration" = "SIGNED_PERCENT"
-"stats.defend_power" = "PERCENT"
+"stats.defend_power" = "SIGNED_PERCENT"
 "stats.defense" = "NUMBER"
 "stats.dexterity" = "NUMBER"
 "stats.dragon_damage" = "SIGNED_PERCENT"

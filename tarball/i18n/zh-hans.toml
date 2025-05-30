@@ -5121,10 +5121,6 @@ name = "碎骨者"
 description = "来自堕落亡骸战士的乐器。有低机率暂时提升暴击率。"
 name = "骨歌"
 
-[main.items.book-of-darkness]
-description = "亚玻伦的学生持有的一本书。亚玻伦在着迷于破灭魔法之前对精灵平衡元素的方式颇有一套。这些书就附有元素亲和力。"
-name = "暗之书"
-
 [main.items.book-of-darkness-x]
 description = "亚玻伦的学生持有的一本书。亚玻伦在着迷于破灭魔法之前对精灵平衡元素的方式颇有一套。这些书就附有元素亲和力。"
 name = "暗之书X"
@@ -6348,10 +6344,6 @@ name = "扭曲裂隙裹腿"
 [main.items.distorted-riftshield]
 description = "判官拉达的盾牌。它有两个装饰品槽位，同时提供额外的魔防。"
 name = "扭曲裂隙巨盾"
-
-[main.items.distorted-riftstaff]
-description = "冠位召唤师卡戎的法杖。能降低攻击失手的机率。"
-name = "扭曲裂隙法杖"
 
 [main.items.distorted-riftsword]
 description = "拉达判官的大剑与巨盾合奏。能将护盾受到伤害的一部分转化为回复的生命值与魔力值。"
@@ -8933,10 +8925,6 @@ name = "格斗宝石"
 description = "镶嵌在装备上能提升敏捷的小饰品。"
 name = "速度宝石"
 
-[main.items.jewel-of-storma]
-description = "镶嵌在装备上时能对对手造成麻痹的小装饰品。"
-name = "暴风宝石"
-
 [main.items.jewel-of-strength]
 description = "镶嵌在装备上能提升物攻的小饰品。"
 name = "力量宝石"
@@ -9557,10 +9545,6 @@ name = "玛门之泪"
 description = "秘術士之弓。能稍微提升敏捷。"
 name = "魔力之弓"
 
-[main.items.mandrake]
-description = "曼德拉草的叶子。在药剂师处能用来调制药水。"
-name = "曼德拉草"
-
 [main.items.manticore-boots]
 description = "使用蝎狮皮打造的盔甲。能赋予追随者与召唤物额外的能力来使用法术「秘银护盾」。"
 name = "蝎狮长靴"
@@ -10137,10 +10121,6 @@ name = "古奥林匹亚法袍"
 description = "老旧且破烂的奥林匹亚服饰，于泰坦坠落而形成的陨坑中发现。其风化的表面能给予装备者非常规的保护。"
 name = "古奥林匹亚之鞋"
 
-[main.items.old-seal-of-annwn]
-description = "旧雅卢印记，标记新土地。"
-name = "旧安温印记"
-
 [main.items.old-seal-of-avalon]
 description = "旧雅卢印记，标记新土地。"
 name = "旧阿瓦隆印记"
@@ -10428,10 +10408,6 @@ name = "开心果"
 [main.items.pizza]
 description = "大厨的装备。"
 name = "比萨"
-
-[main.items.pizza-peel]
-description = "大厨的装备。"
-name = "披萨小铲"
 
 [main.items.pizza-slice]
 description = "大厨的装备。"
@@ -10808,10 +10784,6 @@ name = "精制砂糖"
 [main.items.reinbow]
 description = "史古基追随者所携带的猎弓。其所发出的箭矢将较少失手。"
 name = "虹弓"
-
-[main.items.rhada-shade-greatshield]
-description = "判官拉达的盾牌。它有两个装饰品槽位，同时提供额外的护盾。"
-name = "拉达冥影巨盾"
 
 [main.items.rhada-shade-greatsword]
 description = "拉达判官的大剑与巨盾合奏。"
@@ -11376,10 +11348,6 @@ name = "星天匕首"
 description = "由星天碎片所打造的硬脆武器。配合强力夹钳，泰坦就能增强它来符合你的要求。"
 name = "星天鲁特琴"
 
-[main.items.skyshard-quarterstaff]
-description = "由星天碎片所打造的硬脆武器。配合强力夹钳，泰坦就能增强它来符合你的要求。"
-name = "星天长杖"
-
 [main.items.skyshard-staff]
 description = "由星天碎片所打造的硬脆武器。配合强力夹钳，泰坦就能增强它来符合你的要求。"
 name = "星天法杖"
@@ -11615,10 +11583,6 @@ name = "屹立护符"
 [main.items.steady-hands-of-eos]
 description = "泰坦自身的碎片，能在泰坦工坊用于增强天辉武器。"
 name = "厄俄斯之坚毅合掌"
-
-[main.items.steady-hands-of-prometheus]
-description = "泰坦自身的碎片，能在泰坦工坊用于增强天辉武器。该碎片能提升暴击伤害。"
-name = "普罗米修斯之坚毅合掌"
 
 [main.items.steady-hands-of-selene]
 description = "泰坦自身的碎片，能在泰坦工坊用于增强天辉武器。"

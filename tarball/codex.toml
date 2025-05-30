@@ -7213,7 +7213,7 @@ family = "common"
 icon = "/img/monsters/terras/macaroni_penguin.png"
 id = "macaroni-penguin"
 rarity = "steward"
-skills = [["spells", "deific-channel"], ["spells", "lusus-naturae-ii"], ["spells", "infernus-mire"]]
+skills = [["spells", "beaststrike-iv"], ["spells", "deific-channel"], ["spells", "infernus-mire"]]
 tier = 10
 
 [main.followers.macaroni-penguin.stats]
@@ -7855,7 +7855,7 @@ protect_chance = "5%"
 spell_rate = "10"
 
 [main.followers.sif]
-bestial_bond = [[{name = "accuracy", value = "+7%", type = "BONUS"}], [{name = "bonded_attack", chance = "12%", type = "BOND"}, {name = "bonded_dexterity", chance = "7%", type = "BOND"}], [{name = "bonded_attack", chance = "12%", type = "BOND"}, {name = "bonded_dexterity", chance = "15%", type = "BOND"}]]
+bestial_bond = [[{name = "crit_chance", value = "+4%", type = "BONUS"}, {name = "crit_damage", value = "+7%", type = "BONUS"}], [{name = "bonded_attack", chance = "4%", type = "BOND"}, {name = "bonded_crit", chance = "20%", type = "BOND"}, {name = "crit_damage", value = "+7%", type = "BONUS"}], [{name = "bonded_attack", chance = "8%", type = "BOND"}, {name = "bonded_crit", chance = "20%", type = "BOND"}, {name = "bonded-strikes", type = "ABILITY"}]]
 category = "followers"
 family = "animal"
 icon = "/img/monsters/sif.png"
@@ -69692,7 +69692,7 @@ category = "raids"
 drops = [["items", "arena-token"], ["items", "magic-tonic"], ["items", "merlins-concoction"], ["items", "skeleton-key"], ["items", "merlins-ring"], ["items", "alpha-myrddin"], ["items", "alpha-myrddin-cloak"], ["items", "alpha-myrddin-cowl"], ["items", "alpha-myrddin-hood"], ["items", "alpha-myrddin-robe"], ["items", "alpha-myrddin-shield"], ["items", "perfect-runestone"], ["items", "beta-myrddin"], ["items", "beta-myrddin-cloak"], ["items", "beta-myrddin-cowl"], ["items", "beta-myrddin-hood"], ["items", "beta-myrddin-robe"], ["items", "beta-myrddin-shield"], ["items", "lass-of-the-lake"], ["items", "merlins-scroll"], ["items", "delta-myrddin"], ["items", "delta-myrddin-cloak"], ["items", "delta-myrddin-cowl"], ["items", "delta-myrddin-hood"], ["items", "delta-myrddin-robe"], ["items", "delta-myrddin-shield"], ["items", "lady-of-the-lake"], ["items", "avalon-ore"], ["items", "gamma-myrddin"], ["items", "gamma-myrddin-cloak"], ["items", "gamma-myrddin-cowl"], ["items", "gamma-myrddin-hood"], ["items", "gamma-myrddin-robe"], ["items", "gamma-myrddin-shield"], ["items", "myrddin-harp"], ["items", "zeta-myrddin"], ["items", "zeta-myrddin-cloak"], ["items", "zeta-myrddin-cowl"], ["items", "zeta-myrddin-hood"], ["items", "zeta-myrddin-robe"], ["items", "zeta-myrddin-shield"], ["items", "omega-myrddin"], ["items", "omega-myrddin-cloak"], ["items", "omega-myrddin-cowl"], ["items", "omega-myrddin-harp"], ["items", "omega-myrddin-hood"], ["items", "omega-myrddin-robe"], ["items", "omega-myrddin-shield"]]
 events = ["merlin"]
 hp = 8050000
-icon = "/img/bosses/merlin.png"
+icon = "/img/bosses/merlin_arisen.png"
 id = "arisen-merlin"
 skills = [["spells", "darkstrike-iii"], ["spells", "earthstrike-iii"], ["spells", "firestrike-iii"], ["spells", "holystrike-iii"], ["spells", "icestrike-iii"], ["spells", "lightningstrike-iii"], ["spells", "omnistrike-iii"], ["spells", "flame-v"], ["spells", "frost-v"], ["spells", "miasma"], ["spells", "spark-v"], ["spells", "tremor-v"], ["spells", "multi-flame-ii"], ["spells", "multi-frost-ii"], ["spells", "multi-spark-ii"], ["spells", "multi-tremor-ii"], ["spells", "starscreen"]]
 tags = ["kingdom_raid", "other_realms_raid"]
@@ -72233,7 +72233,7 @@ learned_by = [["classes", "71"]]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 9
-used_by = [["followers", "spawn-of-anguish"], ["followers", "sphinx-kit"], ["raids", "fey-jormungandr"], ["raids", "great-anguish"], ["raids", "jormungandr"], ["monsters", "sphinx-kit"]]
+used_by = [["followers", "macaroni-penguin"], ["followers", "spawn-of-anguish"], ["followers", "sphinx-kit"], ["raids", "fey-jormungandr"], ["raids", "great-anguish"], ["raids", "jormungandr"], ["monsters", "sphinx-kit"]]
 
 [[main.spells.beaststrike-iv.causes]]
 chance = "30%"
@@ -80242,7 +80242,7 @@ learned_by = [["classes", "53"]]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 9
-used_by = [["followers", "bashe-hungry-one"], ["followers", "macaroni-penguin"], ["followers", "nidhogg"], ["followers", "spawn-of-anguish"], ["raids", "arisen-morrigan"], ["raids", "arisen-phoenix"], ["raids", "ashen-phoenix"], ["raids", "great-anguish"], ["raids", "the-morrigan"], ["bosses", "bashe-hungry-one"], ["bosses", "fallen-ashen-phoenix"], ["bosses", "queen-of-dokkalfar"], ["monsters", "nidhogg"]]
+used_by = [["followers", "bashe-hungry-one"], ["followers", "nidhogg"], ["followers", "spawn-of-anguish"], ["raids", "arisen-morrigan"], ["raids", "arisen-phoenix"], ["raids", "ashen-phoenix"], ["raids", "great-anguish"], ["raids", "the-morrigan"], ["bosses", "bashe-hungry-one"], ["bosses", "fallen-ashen-phoenix"], ["bosses", "queen-of-dokkalfar"], ["monsters", "nidhogg"]]
 
 [[main.spells.lusus-naturae-ii.causes]]
 chance = "20%"

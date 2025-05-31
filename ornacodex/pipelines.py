@@ -5,9 +5,21 @@
 
 
 # useful for handling different item types with a single interface
-from itemadapter import ItemAdapter
+import scrapy
+from scrapy.pipelines.files import FilesPipeline
 
 
 class OrnacodexPipeline:
     def process_item(self, item, spider):
         return item
+
+
+class IconFilesPipeline(FilesPipeline):
+
+    def get_media_requests(self, item, info):
+        for image in item['file_urls']:
+            yield scrapy.Request(image, meta={'icon': item['icon'].strip('/')})
+
+    def file_path(self, request: scrapy.Request, response=None, info=None, *, item=None):
+        image_filepath = request.meta.get('icon')
+        return image_filepath

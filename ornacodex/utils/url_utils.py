@@ -7,10 +7,15 @@ class UrlBuilder:
 
     base = settings.get('BASE_URL')
     codex = f"{base}/codex"
+    static = f"{base}/static"
 
     @classmethod
     def category(cls, category: str) -> str:
         return f"{cls.codex}/{category}"
+
+    @classmethod
+    def icon(cls, icon: str) -> str:
+        return f"{cls.static}{icon}"
 
 class UrlParser:
 

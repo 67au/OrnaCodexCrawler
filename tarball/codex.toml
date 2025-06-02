@@ -6744,21 +6744,6 @@ tier = 9
 attack_rate = "40"
 spell_rate = "8"
 
-[main.followers.great-yeti]
-bestial_bond = [[{name = "exp_bonus", value = "+3%", type = "BONUS"}, {name = "orn_bonus", value = "+3%", type = "BONUS"}], [{name = "bonded_hp", chance = "8%", type = "BOND"}, {name = "bonded_mana", chance = "8%", type = "BOND"}], [{name = "bonded_hp", chance = "15%", type = "BOND"}, {name = "bonded_mana", chance = "15%", type = "BOND"}]]
-category = "followers"
-family = "common"
-icon = "/img/monsters/great_yeti.png"
-id = "great-yeti"
-rarity = "rare"
-skills = [["spells", "magic-shield"], ["spells", "protection"], ["spells", "earthen-wall"], ["spells", "fire-wall"], ["spells", "ice-wall"], ["spells", "lightning-wall"], ["spells", "mighty-charge"], ["spells", "dark-wall"], ["spells", "holy-wall"]]
-tier = 8
-
-[main.followers.great-yeti.stats]
-buff_rate = "30"
-protect_chance = "4%"
-spell_rate = "5"
-
 [main.followers.greater-lobster]
 bestial_bond = [[{name = "accuracy", value = "+7%", type = "BONUS"}], [{name = "bonded_attack", chance = "12%", type = "BOND"}, {name = "bonded_dexterity", chance = "7%", type = "BOND"}], [{name = "bonded_attack", chance = "12%", type = "BOND"}, {name = "bonded_dexterity", chance = "15%", type = "BOND"}]]
 category = "followers"
@@ -74034,7 +74019,6 @@ id = "dark-wall"
 spell_type = "spell"
 targets = "any_member_of_your_party"
 tier = 5
-used_by = [["followers", "great-yeti"]]
 
 [[main.spells.dark-wall.gives]]
 chance = "100%"
@@ -75520,7 +75504,7 @@ id = "earthen-wall"
 spell_type = "spell"
 targets = "any_member_of_your_party"
 tier = 3
-used_by = [["followers", "great-yeti"], ["followers", "orichalcum-golem"]]
+used_by = [["followers", "orichalcum-golem"]]
 
 [[main.spells.earthen-wall.gives]]
 chance = "100%"
@@ -76545,7 +76529,7 @@ id = "fire-wall"
 spell_type = "spell"
 targets = "any_member_of_your_party"
 tier = 3
-used_by = [["followers", "great-yeti"], ["followers", "orichalcum-golem"], ["followers", "surtrs-flame"], ["followers", "surtrs-mighty-flame"], ["bosses", "arisen-ithra-the-white-knight"], ["bosses", "fallen-ithra-the-white-knight"]]
+used_by = [["followers", "orichalcum-golem"], ["followers", "surtrs-flame"], ["followers", "surtrs-mighty-flame"], ["bosses", "arisen-ithra-the-white-knight"], ["bosses", "fallen-ithra-the-white-knight"]]
 
 [[main.spells.fire-wall.gives]]
 chance = "100%"
@@ -78656,7 +78640,7 @@ id = "holy-wall"
 spell_type = "spell"
 targets = "any_member_of_your_party"
 tier = 5
-used_by = [["followers", "great-yeti"], ["bosses", "dokkalfar-lord"], ["bosses", "queen-of-dokkalfar"], ["bosses", "racul"], ["monsters", "dark-dragon"]]
+used_by = [["bosses", "dokkalfar-lord"], ["bosses", "queen-of-dokkalfar"], ["bosses", "racul"], ["monsters", "dark-dragon"]]
 
 [[main.spells.holy-wall.gives]]
 chance = "100%"
@@ -79034,7 +79018,7 @@ id = "ice-wall"
 spell_type = "spell"
 targets = "any_member_of_your_party"
 tier = 3
-used_by = [["followers", "great-yeti"], ["followers", "orichalcum-golem"], ["followers", "surtrs-mighty-flame"]]
+used_by = [["followers", "orichalcum-golem"], ["followers", "surtrs-mighty-flame"]]
 
 [[main.spells.ice-wall.gives]]
 chance = "100%"
@@ -79864,7 +79848,7 @@ id = "lightning-wall"
 spell_type = "spell"
 targets = "any_member_of_your_party"
 tier = 3
-used_by = [["followers", "great-yeti"], ["followers", "orichalcum-golem"], ["bosses", "castor"], ["bosses", "pollux"]]
+used_by = [["followers", "orichalcum-golem"], ["bosses", "castor"], ["bosses", "pollux"]]
 
 [[main.spells.lightning-wall.gives]]
 chance = "100%"
@@ -80671,7 +80655,7 @@ learned_by = [["classes", "4"]]
 spell_type = "spell"
 targets = "yourself"
 tier = 2
-used_by = [["followers", "eastern-mimic"], ["followers", "great-yeti"], ["followers", "mimic"], ["followers", "yeti"]]
+used_by = [["followers", "eastern-mimic"], ["followers", "mimic"], ["followers", "yeti"]]
 
 [[main.spells.magic-shield.gives]]
 chance = "90%"
@@ -81189,7 +81173,7 @@ id = "mighty-charge"
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 3
-used_by = [["followers", "fey-yeti"], ["followers", "great-yeti"], ["followers", "horse"], ["bosses", "kelpie"], ["monsters", "anteros-warrior"], ["monsters", "elite-fomorian"], ["monsters", "elite-orc"], ["monsters", "enlightened-guardian"], ["monsters", "sandstone-golem"], ["monsters", "undead-golem"]]
+used_by = [["followers", "fey-yeti"], ["followers", "horse"], ["bosses", "kelpie"], ["monsters", "anteros-warrior"], ["monsters", "elite-fomorian"], ["monsters", "elite-orc"], ["monsters", "enlightened-guardian"], ["monsters", "sandstone-golem"], ["monsters", "undead-golem"]]
 
 [main.spells.mighty-charge.stats]
 costs = "60"
@@ -82833,7 +82817,7 @@ learned_by = [["classes", "92"], ["classes", "6"]]
 spell_type = "spell"
 targets = "yourself"
 tier = 2
-used_by = [["followers", "eastern-mimic"], ["followers", "great-yeti"], ["followers", "lesser-golem"], ["followers", "mimic"], ["followers", "yeti"], ["bosses", "elite-orc-lord"], ["bosses", "orc-lord-aae6c979"], ["monsters", "fallen-knight"], ["monsters", "orc-lord"], ["monsters", "walking-wood"]]
+used_by = [["followers", "eastern-mimic"], ["followers", "lesser-golem"], ["followers", "mimic"], ["followers", "yeti"], ["bosses", "elite-orc-lord"], ["bosses", "orc-lord-aae6c979"], ["monsters", "fallen-knight"], ["monsters", "orc-lord"], ["monsters", "walking-wood"]]
 
 [[main.spells.protection.gives]]
 chance = "90%"

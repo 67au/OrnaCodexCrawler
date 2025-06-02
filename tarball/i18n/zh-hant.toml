@@ -2233,6 +2233,10 @@ name = "強大的吠獸"
 description = "安庫的殺戮者.它不會經常攻擊,但會造成嚴重破壞."
 name = "強大的死神"
 
+[main.followers.great-yeti]
+description = "至高無上的雪怪.它是防禦的專家."
+name = "大雪怪"
+
 [main.followers.greater-lobster]
 description = "綠色的龍蝦. 讓你的對手失血的同時也微幅治療你."
 name = "大龍蝦"

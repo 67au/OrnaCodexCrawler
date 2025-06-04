@@ -8661,10 +8661,6 @@ name = "尖角头盔"
 description = "桀骜金牛凯鲁斯的兜帽。能减少魔力消耗并且很适合镶嵌装饰。"
 name = "有角兜帽"
 
-[main.items.horror]
-description = "由溺死旅人的尸体变造而成的可怕法杖。能够会使堕落的野兽掉落更多的物品。"
-name = "恐惧杖"
-
 [main.items.horuss-robe]
 description = "有翼的天空守护者，荷鲁斯的象牙法袍。它缺少的防御能力透过敏捷补足。"
 name = "荷鲁斯法袍"
@@ -10472,10 +10468,6 @@ name = "毒匕首"
 [main.items.polished-aegis]
 description = "珀尔修斯盾牌的仿制品，闻名的原版盾牌由雅典娜赠与。能够保护穿戴者免疫石化。"
 name = "抛光神盾"
-
-[main.items.polished-mirror]
-description = "镜面盾牌。藉由牺牲护盾，能反映自己并获得魔力值。"
-name = "抛光镜"
 
 [main.items.polluxs-greataxe]
 description = "狂战士波鲁克斯的蔚蓝大斧。波鲁克斯和他的孪生兄弟很少离开深海，除非真的閒得发慌。"

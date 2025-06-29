@@ -1837,6 +1837,10 @@ name = "阿基米德"
 description = "期間限定。"
 name = "重生血腥座狼"
 
+[main.followers.arisen-bloodwarg-5b3b213e]
+description = "期間限定。"
+name = "重生血腥座狼"
+
 [main.followers.arisen-cernunnos]
 description = "期間限定。"
 name = "重生科爾努諾斯"
@@ -1853,7 +1857,15 @@ name = "重生納根因"
 description = "期間限定。"
 name = "重生靈獸加姆"
 
+[main.followers.arisen-spiritgarm-ef5ee104]
+description = "期間限定。"
+name = "重生靈獸加姆"
+
 [main.followers.arisen-stonewarg]
+description = "期間限定。"
+name = "重生岩石座狼"
+
+[main.followers.arisen-stonewarg-f829d6e1]
 description = "期間限定。"
 name = "重生岩石座狼"
 
@@ -1920,6 +1932,10 @@ name = "蝙蝠"
 [main.followers.bear]
 description = "很狂野的熊。牠會瘋狂啃噬你的敵人。"
 name = "熊"
+
+[main.followers.beaver]
+description = "大自然的一份子，對抗淤濁的夥伴。"
+name = "Beaver"
 
 [main.followers.big-cactus]
 description = "會動的巨型仙人掌.能發射細針彈幕."
@@ -2622,7 +2638,11 @@ description = "跟隨者超究極寶箱怪的新造型。期間限定。"
 name = "超究極淤濁怪"
 
 [main.followers.timber-the-beaver]
-description = "大自然的一份子，對抗淤濁的夥伴。"
+description = "期間限定。"
+name = "圓木河狸"
+
+[main.followers.timber-the-beaver-c4824513]
+description = "期間限定。"
 name = "圓木河狸"
 
 [main.followers.traveled-wolpertinger]
@@ -5436,6 +5456,10 @@ name = "廚師褲"
 [main.items.chestguard-of-dynasty]
 description = "雅盧最後腐化的王，強大的斯芬克斯的輕裝甲。穿上它時可以獲得使用技能\"塞赫麥特的詛咒\"的能力。"
 name = "王朝胸鎧"
+
+[main.items.chewed-lumber]
+description = "An item belonging to the Canada D'eh event. Trade it in at the Monumental Guild Hall during the event for various rewards."
+name = "Chewed Lumber"
 
 [main.items.chimera-armor]
 description = "利用奇美拉的殘骸所製作的護甲。"
@@ -18275,6 +18299,7 @@ water = "水"
 [msg.events]
 balor_invades = "巴羅爾大侵略"
 beastfelled = "獸獵祭"
+canada_d_eh = "Canada D'eh"
 fallen_heroes_of_avalon = "阿瓦隆的墮落英雄"
 fool_of_april = "四月的愚人"
 legend_of_lyonesse = "里昂內斯的傳奇"

@@ -5255,13 +5255,29 @@ bestial_bond = [[{name = "bonded_attack", chance = "7%", type = "BOND"}, {name =
 category = "followers"
 events = ["nothren_legends__ragnarok"]
 family = "animal"
-icon = "/img/monsters/bloodwarg_arisen.png"
+icon = "/img/followers/bloodwarg.png"
 id = "arisen-bloodwarg"
-rarity = "cryptid"
+rarity = "steward"
 skills = [["spells", "bleed"], ["spells", "cleave"], ["spells", "inquest"], ["spells", "quadcut-ii"], ["spells", "horizontal-slash-iii"]]
 tier = 10
 
 [main.followers.arisen-bloodwarg.stats]
+attack_rate = "4"
+buff_rate = "20"
+spell_rate = "20"
+
+[main.followers.arisen-bloodwarg-5b3b213e]
+bestial_bond = [[{name = "bonded_attack", chance = "7%", type = "BOND"}, {name = "bonded_magic", chance = "7%", type = "BOND"}], [{name = "t__crit_u", chance = "7%", type = "BOND"}], [{name = "bonded_attack", chance = "8%", type = "BOND"}, {name = "bonded_magic", chance = "8%", type = "BOND"}, {name = "t__crit_uu", chance = "7%", type = "BOND"}]]
+category = "followers"
+events = ["nothren_legends__ragnarok"]
+family = "animal"
+icon = "/img/monsters/bloodwarg_arisen.png"
+id = "arisen-bloodwarg-5b3b213e"
+rarity = "cryptid"
+skills = [["spells", "bleed"], ["spells", "cleave"], ["spells", "inquest"], ["spells", "quadcut-ii"], ["spells", "horizontal-slash-iii"]]
+tier = 10
+
+[main.followers.arisen-bloodwarg-5b3b213e.stats]
 attack_rate = "4"
 buff_rate = "20"
 spell_rate = "20"
@@ -5328,6 +5344,21 @@ tier = 10
 protect_chance = "4%"
 spell_rate = "12"
 
+[main.followers.arisen-spiritgarm-ef5ee104]
+bestial_bond = [[{name = "bonded_attack", chance = "7%", type = "BOND"}, {name = "bonded_magic", chance = "7%", type = "BOND"}], [{name = "t__mag_u", chance = "7%", type = "BOND"}], [{name = "bonded_attack", chance = "8%", type = "BOND"}, {name = "bonded_magic", chance = "8%", type = "BOND"}, {name = "t__mag_uu", chance = "7%", type = "BOND"}]]
+category = "followers"
+events = ["nothren_legends__ragnarok"]
+family = "animal"
+icon = "/img/followers/spiritgarm.png"
+id = "arisen-spiritgarm-ef5ee104"
+rarity = "steward"
+skills = [["spells", "great-meditation"], ["spells", "fey-cataclysm"], ["spells", "fey-fulmination"], ["spells", "fey-glacier"], ["spells", "fey-inferno"]]
+tier = 10
+
+[main.followers.arisen-spiritgarm-ef5ee104.stats]
+protect_chance = "4%"
+spell_rate = "12"
+
 [main.followers.arisen-stonewarg]
 bestial_bond = [[{name = "bonded_ward", chance = "6%", type = "BOND"}, {name = "bonded_defense", chance = "7%", type = "BOND"}, {name = "bonded_resistance", chance = "7%", type = "BOND"}], [{name = "bonded_ward", chance = "6%", type = "BOND"}, {name = "t__def_u", chance = "4%", type = "BOND"}, {name = "t__res_u", chance = "4%", type = "BOND"}], [{name = "bonded_ward", chance = "6%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "4%", type = "BOND"}, {name = "t__res_u", chance = "4%", type = "BOND"}]]
 category = "followers"
@@ -5340,6 +5371,23 @@ skills = [["spells", "ward-of-annwn"], ["spells", "ward-of-light-ii"], ["spells"
 tier = 10
 
 [main.followers.arisen-stonewarg.stats]
+attack_rate = "3"
+buff_rate = "40"
+protect_chance = "8%"
+spell_rate = "3"
+
+[main.followers.arisen-stonewarg-f829d6e1]
+bestial_bond = [[{name = "bonded_ward", chance = "6%", type = "BOND"}, {name = "bonded_defense", chance = "7%", type = "BOND"}, {name = "bonded_resistance", chance = "7%", type = "BOND"}], [{name = "bonded_ward", chance = "6%", type = "BOND"}, {name = "t__def_u", chance = "4%", type = "BOND"}, {name = "t__res_u", chance = "4%", type = "BOND"}], [{name = "bonded_ward", chance = "6%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "4%", type = "BOND"}, {name = "t__res_u", chance = "4%", type = "BOND"}]]
+category = "followers"
+events = ["nothren_legends__ragnarok"]
+family = "animal"
+icon = "/img/followers/stonewarg.png"
+id = "arisen-stonewarg-f829d6e1"
+rarity = "steward"
+skills = [["spells", "ward-of-annwn"], ["spells", "ward-of-light-ii"], ["spells", "transference-iii"], ["spells", "ward-of-ortanite"]]
+tier = 10
+
+[main.followers.arisen-stonewarg-f829d6e1.stats]
 attack_rate = "3"
 buff_rate = "40"
 protect_chance = "8%"
@@ -5586,6 +5634,22 @@ tier = 2
 [main.followers.bear.stats]
 attack_rate = "40"
 protect_chance = "3%"
+
+[main.followers.beaver]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}, {name = "boulder-toss", type = "ABILITY"}]]
+category = "followers"
+events = ["canada_d_eh", "terra_s_legacy__natureblight"]
+family = "common"
+icon = "/img/monsters/terras/timber.png"
+id = "beaver"
+rarity = "steward"
+skills = [["spells", "guarding-strike"], ["spells", "wallop"], ["spells", "ward-of-bone"]]
+tier = 8
+
+[main.followers.beaver.stats]
+buff_rate = "7"
+protect_chance = "8%"
+spell_rate = "25"
 
 [main.followers.big-cactus]
 bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}, {name = "boulder-toss", type = "ABILITY"}]]
@@ -8229,15 +8293,31 @@ spell_rate = "4"
 [main.followers.timber-the-beaver]
 bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}, {name = "boulder-toss", type = "ABILITY"}]]
 category = "followers"
-events = ["terra_s_legacy__natureblight"]
+events = ["canada_d_eh"]
 family = "common"
 icon = "/img/monsters/terras/timber.png"
 id = "timber-the-beaver"
 rarity = "steward"
-skills = [["spells", "guarding-strike"], ["spells", "wallop"], ["spells", "ward-of-bone"]]
-tier = 8
+skills = [["spells", "wallop"], ["spells", "guarding-strikes-iii"], ["spells", "ward-of-ortanite"]]
+tier = 10
 
 [main.followers.timber-the-beaver.stats]
+buff_rate = "7"
+protect_chance = "8%"
+spell_rate = "25"
+
+[main.followers.timber-the-beaver-c4824513]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}, {name = "boulder-toss", type = "ABILITY"}]]
+category = "followers"
+events = ["canada_d_eh"]
+family = "common"
+icon = "/img/followers/timber.png"
+id = "timber-the-beaver-c4824513"
+rarity = "steward"
+skills = [["spells", "wallop"], ["spells", "guarding-strikes-iii"], ["spells", "ward-of-ortanite"]]
+tier = 10
+
+[main.followers.timber-the-beaver-c4824513.stats]
 buff_rate = "7"
 protect_chance = "8%"
 spell_rate = "25"
@@ -24936,6 +25016,17 @@ defense = "220"
 dexterity = "20"
 resistance = "110"
 ward = "2%"
+
+[main.items.chewed-lumber]
+aura = "famed"
+category = "items"
+exotic = false
+icon = "/img/useables/chewed_lumber.png"
+id = "chewed-lumber"
+item_type = "useable"
+rarity = "famed"
+tier = 3
+useable_by = "all_classes"
 
 [main.items.chimera-armor]
 aura = "rare"
@@ -72418,7 +72509,7 @@ learned_by = [["classes", "2"]]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 1
-used_by = [["followers", "aaru-cobra"], ["followers", "aaru-viper"], ["followers", "arisen-bloodwarg"], ["followers", "charmed-deathadder"], ["followers", "charmed-mamba"], ["followers", "greater-lobster"], ["followers", "lobster"], ["followers", "triton"], ["raids", "fomor"], ["bosses", "vampire-lord"], ["monsters", "ancient-draugr"], ["monsters", "bloodwarg-dfa97df9"], ["monsters", "buzzard"], ["monsters", "dokkalfar"], ["monsters", "draconian-rogue"], ["monsters", "draugr"], ["monsters", "elite-kobold"], ["monsters", "fomorian-rogue"], ["monsters", "frilled-naga-warrior"], ["monsters", "greater-vampire"], ["monsters", "high-draconian-warrior"], ["monsters", "kobold"], ["monsters", "ljosalfar"], ["monsters", "naga-warrior"], ["monsters", "naja"], ["monsters", "raven"], ["monsters", "zu"]]
+used_by = [["followers", "aaru-cobra"], ["followers", "aaru-viper"], ["followers", "arisen-bloodwarg"], ["followers", "arisen-bloodwarg-5b3b213e"], ["followers", "charmed-deathadder"], ["followers", "charmed-mamba"], ["followers", "greater-lobster"], ["followers", "lobster"], ["followers", "triton"], ["raids", "fomor"], ["bosses", "vampire-lord"], ["monsters", "ancient-draugr"], ["monsters", "bloodwarg-dfa97df9"], ["monsters", "buzzard"], ["monsters", "dokkalfar"], ["monsters", "draconian-rogue"], ["monsters", "draugr"], ["monsters", "elite-kobold"], ["monsters", "fomorian-rogue"], ["monsters", "frilled-naga-warrior"], ["monsters", "greater-vampire"], ["monsters", "high-draconian-warrior"], ["monsters", "kobold"], ["monsters", "ljosalfar"], ["monsters", "naga-warrior"], ["monsters", "naja"], ["monsters", "raven"], ["monsters", "zu"]]
 
 [[main.spells.bleed.causes]]
 chance = "15%"
@@ -73556,7 +73647,7 @@ id = "cleave"
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 1
-used_by = [["followers", "arisen-bloodwarg"], ["followers", "fenrir"], ["followers", "replica-prometheus"], ["raids", "the-last-hippogriff"], ["raids", "turned-king-lyncus"], ["bosses", "titan-prometheus"], ["monsters", "bloodwarg-dfa97df9"]]
+used_by = [["followers", "arisen-bloodwarg"], ["followers", "arisen-bloodwarg-5b3b213e"], ["followers", "fenrir"], ["followers", "replica-prometheus"], ["raids", "the-last-hippogriff"], ["raids", "turned-king-lyncus"], ["bosses", "titan-prometheus"], ["monsters", "bloodwarg-dfa97df9"]]
 
 [[main.spells.cleave.causes]]
 chance = "30%"
@@ -75954,7 +76045,7 @@ learned_by = [["classes", "55"]]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 10
-used_by = [["followers", "arisen-spiritgarm"], ["followers", "chat-noir"], ["monsters", "spiritgarm-732978de"]]
+used_by = [["followers", "arisen-spiritgarm"], ["followers", "arisen-spiritgarm-ef5ee104"], ["followers", "chat-noir"], ["monsters", "spiritgarm-732978de"]]
 
 [[main.spells.fey-cataclysm.causes]]
 chance = "100%"
@@ -76178,7 +76269,7 @@ learned_by = [["classes", "55"]]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 10
-used_by = [["followers", "arisen-spiritgarm"], ["followers", "chat-noir"], ["monsters", "spiritgarm-732978de"]]
+used_by = [["followers", "arisen-spiritgarm"], ["followers", "arisen-spiritgarm-ef5ee104"], ["followers", "chat-noir"], ["monsters", "spiritgarm-732978de"]]
 
 [[main.spells.fey-fulmination.causes]]
 chance = "100%"
@@ -76202,7 +76293,7 @@ learned_by = [["classes", "55"]]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 10
-used_by = [["followers", "arisen-spiritgarm"], ["followers", "chat-noir"], ["monsters", "spiritgarm-732978de"]]
+used_by = [["followers", "arisen-spiritgarm"], ["followers", "arisen-spiritgarm-ef5ee104"], ["followers", "chat-noir"], ["monsters", "spiritgarm-732978de"]]
 
 [[main.spells.fey-glacier.causes]]
 chance = "100%"
@@ -76226,7 +76317,7 @@ learned_by = [["classes", "55"]]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 10
-used_by = [["followers", "arisen-spiritgarm"], ["followers", "chat-noir"], ["monsters", "spiritgarm-732978de"]]
+used_by = [["followers", "arisen-spiritgarm"], ["followers", "arisen-spiritgarm-ef5ee104"], ["followers", "chat-noir"], ["monsters", "spiritgarm-732978de"]]
 
 [[main.spells.fey-inferno.causes]]
 chance = "100%"
@@ -78100,7 +78191,7 @@ id = "great-meditation"
 spell_type = "spell"
 targets = "yourself"
 tier = 7
-used_by = [["followers", "archimedes"], ["followers", "arisen-spiritgarm"], ["followers", "chat-noir"], ["followers", "experienced-wolpertinger"], ["raids", "arisen-menja"], ["raids", "menja"], ["monsters", "follower-of-kerberos-a0c03351"], ["monsters", "follower-of-kerberos-baef9151"], ["monsters", "follower-of-kerberos-bd3f5aeb"], ["monsters", "follower-of-kerberos-c2c56d32"], ["monsters", "spiritgarm-732978de"]]
+used_by = [["followers", "archimedes"], ["followers", "arisen-spiritgarm"], ["followers", "arisen-spiritgarm-ef5ee104"], ["followers", "chat-noir"], ["followers", "experienced-wolpertinger"], ["raids", "arisen-menja"], ["raids", "menja"], ["monsters", "follower-of-kerberos-a0c03351"], ["monsters", "follower-of-kerberos-baef9151"], ["monsters", "follower-of-kerberos-bd3f5aeb"], ["monsters", "follower-of-kerberos-c2c56d32"], ["monsters", "spiritgarm-732978de"]]
 
 [[main.spells.great-meditation.gives]]
 chance = "100%"
@@ -78359,7 +78450,7 @@ learned_by = [["classes", "36"]]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 8
-used_by = [["followers", "ortanite-golem"], ["followers", "steward-hengreon"], ["followers", "timber-the-beaver"], ["followers", "undead-golem"], ["bosses", "heimdall"], ["bosses", "king-gradlon"], ["monsters", "alfar-50af8af8"], ["monsters", "fallen-arcanic"], ["monsters", "fallen-vanguard"], ["monsters", "ronin-63fcd94a"]]
+used_by = [["followers", "beaver"], ["followers", "ortanite-golem"], ["followers", "steward-hengreon"], ["followers", "undead-golem"], ["bosses", "heimdall"], ["bosses", "king-gradlon"], ["monsters", "alfar-50af8af8"], ["monsters", "fallen-arcanic"], ["monsters", "fallen-vanguard"], ["monsters", "ronin-63fcd94a"]]
 
 [main.spells.guarding-strike.stats]
 costs = "50"
@@ -78402,7 +78493,7 @@ learned_by = [["classes", "54"]]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 10
-used_by = [["followers", "replica-themis"], ["followers", "worldly-wolpertinger"], ["raids", "hyperion"], ["bosses", "arisen-gymir"], ["bosses", "fallen-gilgamesh"], ["monsters", "fjalar"]]
+used_by = [["followers", "replica-themis"], ["followers", "timber-the-beaver"], ["followers", "timber-the-beaver-c4824513"], ["followers", "worldly-wolpertinger"], ["raids", "hyperion"], ["bosses", "arisen-gymir"], ["bosses", "fallen-gilgamesh"], ["monsters", "fjalar"]]
 
 [main.spells.guarding-strikes-iii.stats]
 costs = "120"
@@ -78821,7 +78912,7 @@ learned_by = [["classes", "75"]]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 10
-used_by = [["followers", "arisen-bloodwarg"], ["raids", "arisen-thronemaker-neith"], ["bosses", "arisen-cursed-caticatona-of-fomoria"], ["bosses", "arisen-cursed-eostre-of-fomoria"], ["bosses", "arisen-cursed-gobannos-of-fomoria"], ["bosses", "arisen-cursed-goibhniu-of-fomoria"], ["monsters", "bloodwarg-dfa97df9"], ["monsters", "swordbearer-of-finesse-91560eaf"]]
+used_by = [["followers", "arisen-bloodwarg"], ["followers", "arisen-bloodwarg-5b3b213e"], ["raids", "arisen-thronemaker-neith"], ["bosses", "arisen-cursed-caticatona-of-fomoria"], ["bosses", "arisen-cursed-eostre-of-fomoria"], ["bosses", "arisen-cursed-gobannos-of-fomoria"], ["bosses", "arisen-cursed-goibhniu-of-fomoria"], ["monsters", "bloodwarg-dfa97df9"], ["monsters", "swordbearer-of-finesse-91560eaf"]]
 
 [[main.spells.horizontal-slash-iii.causes]]
 chance = "50%"
@@ -79487,7 +79578,7 @@ id = "inquest"
 spell_type = "spell"
 targets = "yourself"
 tier = 6
-used_by = [["followers", "arisen-bloodwarg"], ["followers", "bloodwarg"], ["raids", "almighty-balin"], ["raids", "arisen-balin"], ["raids", "arisen-ebon-scruug"], ["raids", "arisen-thronemaker-neith"], ["raids", "cerus"], ["raids", "ebon-scruug"], ["raids", "ferocious-cerus"], ["raids", "furious-cerus"], ["raids", "mmmpizza"], ["raids", "scruug"], ["raids", "thronemaker-neith"], ["bosses", "hades"], ["monsters", "bloodwarg"], ["monsters", "bloodwarg-dfa97df9"]]
+used_by = [["followers", "arisen-bloodwarg"], ["followers", "arisen-bloodwarg-5b3b213e"], ["followers", "bloodwarg"], ["raids", "almighty-balin"], ["raids", "arisen-balin"], ["raids", "arisen-ebon-scruug"], ["raids", "arisen-thronemaker-neith"], ["raids", "cerus"], ["raids", "ebon-scruug"], ["raids", "ferocious-cerus"], ["raids", "furious-cerus"], ["raids", "mmmpizza"], ["raids", "scruug"], ["raids", "thronemaker-neith"], ["bosses", "hades"], ["monsters", "bloodwarg"], ["monsters", "bloodwarg-dfa97df9"]]
 
 [[main.spells.inquest.gives]]
 chance = "100%"
@@ -83022,7 +83113,7 @@ learned_by = [["classes", "51"]]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 9
-used_by = [["followers", "arisen-bloodwarg"], ["followers", "fjalar"], ["raids", "arisen-hel"], ["raids", "fey-chimera"], ["raids", "final-horseman"], ["raids", "third-horseman"], ["monsters", "arachne-e15f8316"], ["monsters", "bloodwarg-dfa97df9"], ["monsters", "carmans-gargoyle"], ["monsters", "fjalar"]]
+used_by = [["followers", "arisen-bloodwarg"], ["followers", "arisen-bloodwarg-5b3b213e"], ["followers", "fjalar"], ["raids", "arisen-hel"], ["raids", "fey-chimera"], ["raids", "final-horseman"], ["raids", "third-horseman"], ["monsters", "arachne-e15f8316"], ["monsters", "bloodwarg-dfa97df9"], ["monsters", "carmans-gargoyle"], ["monsters", "fjalar"]]
 
 [main.spells.quadcut-ii.stats]
 costs = "120"
@@ -87680,7 +87771,7 @@ spell_type = "spell"
 tags = ["found_in_arcanists"]
 targets = "a_single_opponent"
 tier = 10
-used_by = [["followers", "arisen-stonewarg"], ["followers", "gorynych-son-of-mountains"], ["bosses", "gorynych-son-of-mountains"], ["monsters", "anteros-guard"], ["monsters", "stonewarg"]]
+used_by = [["followers", "arisen-stonewarg"], ["followers", "arisen-stonewarg-f829d6e1"], ["followers", "gorynych-son-of-mountains"], ["bosses", "gorynych-son-of-mountains"], ["monsters", "anteros-guard"], ["monsters", "stonewarg"]]
 
 [main.spells.transference-iii.stats]
 costs = "220"
@@ -89125,7 +89216,7 @@ id = "wallop"
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 8
-used_by = [["followers", "pumpkinhead"], ["followers", "scary-skeleton"], ["followers", "timber-the-beaver"], ["followers", "very-scary-skeleton"], ["raids", "arisen-gerd"], ["raids", "arisen-pumpkinhead"], ["raids", "arisen-pumpkinless"], ["raids", "gerd"], ["raids", "pumpkinhead"], ["raids", "pumpkinless"], ["monsters", "scary-skeleton"], ["monsters", "very-scary-skeleton"]]
+used_by = [["followers", "beaver"], ["followers", "pumpkinhead"], ["followers", "scary-skeleton"], ["followers", "timber-the-beaver"], ["followers", "timber-the-beaver-c4824513"], ["followers", "very-scary-skeleton"], ["raids", "arisen-gerd"], ["raids", "arisen-pumpkinhead"], ["raids", "arisen-pumpkinless"], ["raids", "gerd"], ["raids", "pumpkinhead"], ["raids", "pumpkinless"], ["monsters", "scary-skeleton"], ["monsters", "very-scary-skeleton"]]
 
 [[main.spells.wallop.causes]]
 chance = "100%"
@@ -89187,7 +89278,7 @@ learned_by = [["classes", "38"]]
 spell_type = "spell"
 targets = "yourself"
 tier = 8
-used_by = [["followers", "arisen-stonewarg"], ["followers", "stonewarg"], ["monsters", "stonewarg"], ["monsters", "stonewarg-b4d838aa"]]
+used_by = [["followers", "arisen-stonewarg"], ["followers", "arisen-stonewarg-f829d6e1"], ["followers", "stonewarg"], ["monsters", "stonewarg"], ["monsters", "stonewarg-b4d838aa"]]
 
 [[main.spells.ward-of-annwn.gives]]
 chance = "10%"
@@ -89326,7 +89417,7 @@ id = "ward-of-bone"
 spell_type = "spell"
 targets = "yourself"
 tier = 8
-used_by = [["followers", "timber-the-beaver"], ["followers", "undead-golem"], ["bosses", "manticore"], ["monsters", "great-monoceros"]]
+used_by = [["followers", "beaver"], ["followers", "undead-golem"], ["bosses", "manticore"], ["monsters", "great-monoceros"]]
 
 [main.spells.ward-of-bone.stats]
 costs = "120"
@@ -89389,7 +89480,7 @@ learned_by = [["classes", "50"]]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 9
-used_by = [["followers", "arisen-stonewarg"], ["followers", "giant-panda"], ["followers", "great-monoceros"], ["bosses", "fallen-gilgamesh"], ["monsters", "great-monoceros"], ["monsters", "stonewarg"]]
+used_by = [["followers", "arisen-stonewarg"], ["followers", "arisen-stonewarg-f829d6e1"], ["followers", "giant-panda"], ["followers", "great-monoceros"], ["bosses", "fallen-gilgamesh"], ["monsters", "great-monoceros"], ["monsters", "stonewarg"]]
 
 [[main.spells.ward-of-light-ii.causes]]
 chance = "15%"
@@ -89440,7 +89531,7 @@ spell_type = "spell"
 tags = ["found_in_arcanists"]
 targets = "yourself"
 tier = 10
-used_by = [["followers", "arisen-stonewarg"], ["followers", "great-amarok"], ["followers", "great-oslo"], ["followers", "ortanite-golem"], ["followers", "shade-of-rhada-the-great-shield"], ["followers", "sif"], ["raids", "hyperion"], ["raids", "noble-perseus"], ["raids", "untarnished-perseus"], ["bosses", "anteros"], ["monsters", "follower-of-kerberos-ca288318"], ["monsters", "follower-of-kerberos-eb83ccd1"], ["monsters", "oslo"], ["monsters", "stonewarg"], ["monsters", "tower-guard"]]
+used_by = [["followers", "arisen-stonewarg"], ["followers", "arisen-stonewarg-f829d6e1"], ["followers", "great-amarok"], ["followers", "great-oslo"], ["followers", "ortanite-golem"], ["followers", "shade-of-rhada-the-great-shield"], ["followers", "sif"], ["followers", "timber-the-beaver"], ["followers", "timber-the-beaver-c4824513"], ["raids", "hyperion"], ["raids", "noble-perseus"], ["raids", "untarnished-perseus"], ["bosses", "anteros"], ["monsters", "follower-of-kerberos-ca288318"], ["monsters", "follower-of-kerberos-eb83ccd1"], ["monsters", "oslo"], ["monsters", "stonewarg"], ["monsters", "tower-guard"]]
 
 [main.spells.ward-of-ortanite.stats]
 costs = "200"
@@ -90037,7 +90128,7 @@ category = ["bosses", "classes", "followers", "items", "monsters", "raids", "spe
 causes = ["aquila_sigil", "asleep", "att_d", "bleeding", "blight", "blind", "burning", "carina_sigil", "confused", "crux_sigil", "cursed", "dark_sigil", "darkblight", "def_d", "def_dd", "dmg_dd", "doom", "draco_sigil", "dragon_sigil", "drakeblight", "drenched", "earth_sigil", "earthblight", "eos", "fire_sigil", "fireblight", "foresight_d", "frozen", "holy_sigil", "holyblight", "lightning_sigil", "lightningblight", "lulled", "lyon_s_mark", "lyra_sigil", "mag_d", "oceanus", "paralyzed", "petrified", "phoenix_s_pledge", "poisoned", "prometheus", "res_d", "res_dd", "rot", "selene", "starstruck", "stasis", "stunned", "t__all_d", "t__att_d", "t__att_dd", "t__def_d", "t__def_dd", "t__dex_d", "t__mag_d", "t__mag_dd", "t__res_d", "t__res_dd", "tempered_d", "tempered_dd", "themis", "toxic", "water_sigil", "waterblight", "windblight", "windswept"]
 cures = ["aegir", "all_u", "all_uu", "aquila_sigil", "arcane_aligned", "arcane_uu", "asleep", "asteria_of_olympia", "atlas_of_olympia", "att_d", "att_u", "att_uu", "bleeding", "blight", "blind", "bloodshift", "brittle", "brynhild_u", "brynhild_uu", "brynhild_uuu", "burning", "carina_sigil", "castor", "confused", "crit_u", "crux_sigil", "curse_of_sekhmet", "cursed", "dark_aligned", "dark_def", "dark_sigil", "darkblight", "def_d", "def_dd", "def_u", "def_uu", "defending", "defending_1", "defending_2", "dex_u", "dmg_dd", "dmg_u", "doom", "draco_sigil", "dragon_aligned", "dragon_sigil", "dragon_uu", "drakeblight", "drenched", "dumbr", "earth_aligned", "earth_att", "earth_def", "earth_sigil", "earthblight", "eir", "eistla", "elementless", "eos", "fire_aligned", "fire_att", "fire_def", "fire_sigil", "fireblight", "foresight_d", "foresight_u", "foresight_uu", "frenzy", "frozen", "gunnr", "gymir", "hildr", "holy_aligned", "holy_def", "holy_sigil", "holyblight", "idun_u", "idun_uu", "idun_uuu", "iron_greaves", "iron_pauldrons", "jord_u", "jord_uu", "jord_uuu", "kára", "lightning_aligned", "lightning_att", "lightning_def", "lightning_sigil", "lightningblight", "lulled", "lyon_s_mark", "lyra_sigil", "mag_d", "mag_u", "mag_uu", "manaseep", "mythril_greaves", "mythril_pauldrons", "oceanus", "ophion_of_olympia", "paralyzed", "petrified", "phoenix_s_pledge", "poisoned", "pollux", "prometheus", "rand_uu", "res_d", "res_dd", "res_u", "res_uu", "rot", "selene", "shadowveil", "skadi_u", "skadi_uu", "skadi_uuu", "snotra", "spiked_greaves", "spiked_pauldrons", "starstruck", "stasis", "stunned", "t__?_uuu", "t__all_d", "t__all_u", "t__all_uuu", "t__att_d", "t__att_dd", "t__att_u", "t__att_uu", "t__att_uuu", "t__crit_u", "t__crit_uu", "t__crit_uuu", "t__dark_immune", "t__dark_immune_uu", "t__def_d", "t__def_dd", "t__def_ddd", "t__def_u", "t__def_uu", "t__def_uuu", "t__dex_d", "t__dex_u", "t__dex_uuu", "t__earth_immune", "t__earth_immune_uu", "t__fire_immune", "t__fire_immune_uu", "t__holy_immune", "t__holy_immune_uu", "t__lightning_immune", "t__lightning_immune_uu", "t__mag_d", "t__mag_dd", "t__mag_u", "t__mag_uu", "t__mag_uuu", "t__res_d", "t__res_dd", "t__res_u", "t__res_uu", "t__res_uuu", "t__target_d", "t__target_dd", "t__target_u", "t__target_uu", "t__water_immune", "t__water_immune_uu", "target__all", "tempered_d", "tempered_dd", "themis", "thrud", "towering", "toxic", "tree_of_demise", "tree_of_life", "water_aligned", "water_att", "water_def", "water_sigil", "waterblight", "wind_aligned", "wind_sigil", "windblight", "windswept"]
 element = ["arcane", "dark", "dragon", "earthen", "fire", "holy", "lightning", "physical", "water"]
-events = ["balor_invades", "beastfelled", "fallen_heroes_of_avalon", "fool_of_april", "legend_of_lyonesse", "menders_of_hearts", "merlin", "none", "nothren_legends__ragnarok", "of_giants_and_titans", "of_giants_and_titans__hyperion", "ornaversary", "paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara", "phoenixrise", "rift_distortion", "riftfall", "sisters_of_morrigan", "summer_solstice", "sumner_games", "terra_s_day", "terra_s_legacy", "terra_s_legacy__natureblight", "the_crimson_festival", "the_hallowed", "the_mimics_are_loose", "the_mischievous_clurichauns", "the_plight_of_apollyon", "the_winter_wild_hunts", "thronemakers", "winter_solstice", "wyrmhunt"]
+events = ["balor_invades", "beastfelled", "canada_d_eh", "fallen_heroes_of_avalon", "fool_of_april", "legend_of_lyonesse", "menders_of_hearts", "merlin", "none", "nothren_legends__ragnarok", "of_giants_and_titans", "of_giants_and_titans__hyperion", "ornaversary", "paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara", "phoenixrise", "rift_distortion", "riftfall", "sisters_of_morrigan", "summer_solstice", "sumner_games", "terra_s_day", "terra_s_legacy", "terra_s_legacy__natureblight", "the_crimson_festival", "the_hallowed", "the_mimics_are_loose", "the_mischievous_clurichauns", "the_plight_of_apollyon", "the_winter_wild_hunts", "thronemakers", "winter_solstice", "wyrmhunt"]
 exotic = [false, true]
 family = ["ancient", "animal", "balor_forces", "common", "draconian_forces", "dragons", "elven_forces", "giant", "goblin_horde", "human", "lizarr_forces", "lyonesse_forces", "magical", "mimics", "nothren_forces", "orc_horde", "titans", "undead_horde"]
 gives = ["all_u", "all_uu", "arcane_aligned", "arcane_uu", "asleep", "att_d", "att_u", "att_uu", "bleeding", "blight", "blind", "bloodshift", "brittle", "burning", "castor", "crit_u", "cursed", "dark_aligned", "dark_def", "def_d", "def_dd", "def_u", "def_uu", "defending", "defending_1", "dex_u", "dmg_u", "dragon_aligned", "dragon_uu", "earth_aligned", "earth_att", "earth_def", "eir", "elementless", "fire_aligned", "fire_att", "fire_def", "foresight_u", "frenzy", "frozen", "gunnr", "hildr", "holy_aligned", "holy_def", "kára", "lightning_aligned", "lightning_att", "lightning_def", "mag_u", "mag_uu", "paralyzed", "poisoned", "pollux", "res_dd", "res_u", "res_uu", "rot", "shadowveil", "skadi_uu", "snotra", "stunned", "t__?_uuu", "t__all_u", "t__all_uuu", "t__att_d", "t__att_u", "t__att_uuu", "t__crit_u", "t__crit_uu", "t__crit_uuu", "t__dark_immune", "t__dark_immune_uu", "t__def_d", "t__def_u", "t__def_uu", "t__def_uuu", "t__dex_d", "t__dex_u", "t__dex_uuu", "t__earth_immune", "t__earth_immune_uu", "t__fire_immune", "t__fire_immune_uu", "t__holy_immune", "t__holy_immune_uu", "t__lightning_immune", "t__lightning_immune_uu", "t__mag_d", "t__mag_u", "t__mag_uuu", "t__res_d", "t__res_u", "t__res_uu", "t__res_uuu", "t__target_d", "t__target_dd", "t__target_u", "t__target_uu", "t__water_immune", "t__water_immune_uu", "target__all", "thrud", "towering", "toxic", "tree_of_demise", "tree_of_life", "water_aligned", "water_att", "water_def", "wind_aligned"]

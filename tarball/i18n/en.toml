@@ -1837,6 +1837,10 @@ name = "Archimedes"
 description = "Available for a limited time only."
 name = "Arisen Bloodwarg"
 
+[main.followers.arisen-bloodwarg-5b3b213e]
+description = "Available for a limited time only."
+name = "Arisen Bloodwarg"
+
 [main.followers.arisen-cernunnos]
 description = "Available for a limited time only."
 name = "Arisen Cernunnos"
@@ -1853,7 +1857,15 @@ name = "Arisen Naggeneen"
 description = "Available for a limited time only."
 name = "Arisen Spiritgarm"
 
+[main.followers.arisen-spiritgarm-ef5ee104]
+description = "Available for a limited time only."
+name = "Arisen Spiritgarm"
+
 [main.followers.arisen-stonewarg]
+description = "Available for a limited time only."
+name = "Arisen Stonewarg"
+
+[main.followers.arisen-stonewarg-f829d6e1]
 description = "Available for a limited time only."
 name = "Arisen Stonewarg"
 
@@ -1920,6 +1932,10 @@ name = "Bat"
 [main.followers.bear]
 description = "A wild bear. It will frequently attack your enemies."
 name = "Bear"
+
+[main.followers.beaver]
+description = "A member of nature, defender against the Murk."
+name = "Beaver"
 
 [main.followers.big-cactus]
 description = "A giant live cactus. It can assist you in battle with barrages of needles."
@@ -2622,7 +2638,11 @@ description = "A new look for the \"The Mightiest Mimic\" follower. Available fo
 name = "The Mightiest Murk"
 
 [main.followers.timber-the-beaver]
-description = "A member of nature, defender against the Murk."
+description = "Available for a limited time only."
+name = "Timber the Beaver"
+
+[main.followers.timber-the-beaver-c4824513]
+description = "Available for a limited time only."
 name = "Timber the Beaver"
 
 [main.followers.traveled-wolpertinger]
@@ -5436,6 +5456,10 @@ name = "Chef Pants"
 [main.items.chestguard-of-dynasty]
 description = "Light armor of the Great Sphinx, last and corrupted King of Aaru. When wearing this cloth, one is granted access to the skill \"Curse of Sekhmet\"."
 name = "Chestguard of Dynasty"
+
+[main.items.chewed-lumber]
+description = "An item belonging to the Canada D'eh event. Trade it in at the Monumental Guild Hall during the event for various rewards."
+name = "Chewed Lumber"
 
 [main.items.chimera-armor]
 description = "An exotic chest guard made of Chimera remains."
@@ -18275,6 +18299,7 @@ water = "Water"
 [msg.events]
 balor_invades = "Balor Invades"
 beastfelled = "Beastfelled"
+canada_d_eh = "Canada D'eh"
 fallen_heroes_of_avalon = "Fallen Heroes of Avalon"
 fool_of_april = "Fool of April"
 legend_of_lyonesse = "Legend of Lyonesse"

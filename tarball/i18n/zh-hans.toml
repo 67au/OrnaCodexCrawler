@@ -1935,7 +1935,7 @@ name = "熊"
 
 [main.followers.beaver]
 description = "自然的伙伴，一起对抗泥沼怪。"
-name = "Beaver"
+name = "河狸"
 
 [main.followers.big-cactus]
 description = "会动的巨型仙人掌。能发射细针弹幕。"
@@ -18299,7 +18299,7 @@ water = "水"
 [msg.events]
 balor_invades = "巴罗尔大侵略"
 beastfelled = "兽伐记"
-canada_d_eh = "Canada D'eh"
+canada_d_eh = "加拿大日"
 fallen_heroes_of_avalon = "堕落的阿瓦隆英雄"
 fool_of_april = "愚人节"
 legend_of_lyonesse = "里昂内斯传奇"

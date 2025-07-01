@@ -1935,7 +1935,7 @@ name = "熊"
 
 [main.followers.beaver]
 description = "大自然的一份子，對抗淤濁的夥伴。"
-name = "Beaver"
+name = "河狸"
 
 [main.followers.big-cactus]
 description = "會動的巨型仙人掌.能發射細針彈幕."
@@ -5458,8 +5458,8 @@ description = "雅盧最後腐化的王，強大的斯芬克斯的輕裝甲。�
 name = "王朝胸鎧"
 
 [main.items.chewed-lumber]
-description = "An item belonging to the Canada D'eh event. Trade it in at the Monumental Guild Hall during the event for various rewards."
-name = "Chewed Lumber"
+description = "加拿大國慶日的專屬道具。在活動期間拿去紀念碑公會可以換取各種獎勵。"
+name = "口嚼木"
 
 [main.items.chimera-armor]
 description = "利用奇美拉的殘骸所製作的護甲。"
@@ -17648,7 +17648,7 @@ name = "召喚岩石座狼 (副手)"
 
 [main.spells.summon-timber]
 description = "召喚一隻野獸來協助你。召喚需要3回合。"
-name = "召喚圓木"
+name = "召喚河狸"
 
 [main.spells.summon-tower-guardian]
 description = "召喚一個強力的猛獸來幫助你。召喚需要3回合。"
@@ -18299,7 +18299,7 @@ water = "水"
 [msg.events]
 balor_invades = "巴羅爾大侵略"
 beastfelled = "獸獵祭"
-canada_d_eh = "Canada D'eh"
+canada_d_eh = "加拿大國慶"
 fallen_heroes_of_avalon = "阿瓦隆的墮落英雄"
 fool_of_april = "四月的愚人"
 legend_of_lyonesse = "里昂內斯的傳奇"

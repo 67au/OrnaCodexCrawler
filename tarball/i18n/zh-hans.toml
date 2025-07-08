@@ -2179,11 +2179,11 @@ name = "巨大巴西利斯克"
 
 [main.followers.giant-panda]
 description = "自然的伙伴，一起对抗泥沼怪。"
-name = "巨型熊猫"
+name = "大熊猫"
 
 [main.followers.giant-tortoise]
 description = "自然的伙伴，一起对抗泥沼怪。"
-name = "巨陆龟"
+name = "巨型陆龟"
 
 [main.followers.glashtyn]
 description = "期间限定。"
@@ -5458,8 +5458,8 @@ description = "雅卢最后的昏君斯芬克斯所穿戴的轻甲。能赋予�
 name = "王朝胸铠"
 
 [main.items.chewed-lumber]
-description = "An item belonging to the Canada D'eh event. Trade it in at the Monumental Guild Hall during the event for various rewards."
-name = "Chewed Lumber"
+description = "专属于「加拿大日」的物品。在活动期间能在纪念碑公会大厅交换奖励。"
+name = "嚼木"
 
 [main.items.chimera-armor]
 description = "利用奇美拉的残骸所制作的独特胸甲。"
@@ -17528,11 +17528,11 @@ name = "凝视者召唤"
 
 [main.spells.summon-giant-panda]
 description = "召唤一只野兽来协助你。在战斗中需要 4 回合发动。"
-name = "巨型熊猫召唤"
+name = "大熊猫召唤"
 
 [main.spells.summon-giant-tortoise]
 description = "召唤一只野兽来协助你。在战斗中需要 3 回合发动。"
-name = "巨陆龟召唤"
+name = "巨型陆龟召唤"
 
 [main.spells.summon-glashtyn]
 description = "召唤一只强大的野兽来协助你。在战斗中需要 3 回合发动。"
@@ -18639,8 +18639,8 @@ frenzy = "狂化"
 frost_troll = "寒霜巨魔"
 frozen = "冰冻"
 garm = "加姆"
-giant_panda = "巨型熊猫"
-giant_tortoise = "巨陆龟"
+giant_panda = "大熊猫"
+giant_tortoise = "巨型陆龟"
 glashtyn = "格拉辛"
 great_ancient_dragon = "原始巨龙"
 great_gazer = "强大的凝视者"

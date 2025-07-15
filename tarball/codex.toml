@@ -5638,7 +5638,7 @@ protect_chance = "3%"
 [main.followers.beaver]
 bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}, {name = "boulder-toss", type = "ABILITY"}]]
 category = "followers"
-events = ["canada_d_eh"]
+events = ["canada_d_eh", "terra_s_legacy__natureblight"]
 family = "common"
 icon = "/img/monsters/terras/timber.png"
 id = "beaver"

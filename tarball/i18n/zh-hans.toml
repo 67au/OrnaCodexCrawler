@@ -1347,6 +1347,9 @@ name = "坚毅之弗栗多"
 [main.bosses.woodland-lord]
 name = "林地之主"
 
+[main.bosses.yelbeghen]
+name = "Yelbeghen"
+
 [main.bosses.ymir-amphiptere]
 name = "原初翼蛇"
 
@@ -3421,11 +3424,11 @@ name = "重生诅咒的埃苏斯支柱"
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的长靴。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "重生诅咒的弗摩尔镀金长靴"
 
-[main.items.arisen-cursed-fomoria-plated-boots-56e4841c]
+[main.items.arisen-cursed-fomoria-plated-boots-4de3e61d]
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的长靴。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "重生诅咒的弗摩尔镀金长靴"
 
-[main.items.arisen-cursed-fomoria-plated-boots-7aefba00]
+[main.items.arisen-cursed-fomoria-plated-boots-56e4841c]
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的长靴。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "重生诅咒的弗摩尔镀金长靴"
 
@@ -3437,11 +3440,11 @@ name = "重生诅咒的弗摩尔镀金长靴"
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的链甲。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "重生诅咒的弗摩尔镀金法袍"
 
-[main.items.arisen-cursed-fomoria-plated-robe-9a5a1cdd]
+[main.items.arisen-cursed-fomoria-plated-robe-954d6525]
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的链甲。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "重生诅咒的弗摩尔镀金法袍"
 
-[main.items.arisen-cursed-fomoria-plated-robe-ca4ddba5]
+[main.items.arisen-cursed-fomoria-plated-robe-9a5a1cdd]
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的链甲。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "重生诅咒的弗摩尔镀金法袍"
 
@@ -3453,15 +3456,15 @@ name = "重生诅咒的弗摩尔镀金法袍"
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的王冠。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "重生诅咒的弗摩尔王冠"
 
-[main.items.arisen-cursed-fomors-crown-276564a1]
-description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的王冠。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
-name = "重生诅咒的弗摩尔王冠"
-
 [main.items.arisen-cursed-fomors-crown-2cb9b4e6]
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的王冠。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "重生诅咒的弗摩尔王冠"
 
 [main.items.arisen-cursed-fomors-crown-3a4a918b]
+description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的王冠。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
+name = "重生诅咒的弗摩尔王冠"
+
+[main.items.arisen-cursed-fomors-crown-612a024c]
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的王冠。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "重生诅咒的弗摩尔王冠"
 
@@ -5509,6 +5512,10 @@ name = "酒精灵灵魂之刃"
 description = "由大鸡蛇遗骸所制成的胸甲。能够保护穿戴者免疫石化。"
 name = "鸡蛇链甲"
 
+[main.items.codexing-kit]
+description = "A kit containing many instruments that one may use to study a monster in battle. Using this while in battle will unlock a previously unknown codex entry for an opponent."
+name = "图鉴工具"
+
 [main.items.coffee]
 description = "诸神的甘露。"
 name = "咖啡"
@@ -5845,11 +5852,11 @@ name = "诅咒的埃苏斯支柱"
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的长靴。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "诅咒的弗摩尔镀金长靴"
 
-[main.items.cursed-fomoria-plated-boots-7a9f5efc]
+[main.items.cursed-fomoria-plated-boots-0ebf6063]
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的长靴。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "诅咒的弗摩尔镀金长靴"
 
-[main.items.cursed-fomoria-plated-boots-c6787dd8]
+[main.items.cursed-fomoria-plated-boots-7a9f5efc]
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的长靴。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "诅咒的弗摩尔镀金长靴"
 
@@ -7689,7 +7696,7 @@ name = "弗摩尔镀金长袍"
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的链甲。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "弗摩尔镀金长袍"
 
-[main.items.fomoria-plated-robe-fb3188b6]
+[main.items.fomoria-plated-robe-946a26b9]
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的链甲。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "弗摩尔镀金长袍"
 
@@ -8400,6 +8407,34 @@ name = "Havel之盾"
 [main.items.havels-sword]
 description = "巨人骑士的装备。"
 name = "Havel之剑"
+
+[main.items.head-of-agathodaemon]
+description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+name = "Head of Agathodaemon"
+
+[main.items.head-of-bashe]
+description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+name = "Head of Bashe"
+
+[main.items.head-of-beithir]
+description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+name = "Head of Beithir"
+
+[main.items.head-of-illuyanka]
+description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+name = "Head of Illuyanka"
+
+[main.items.head-of-lotan]
+description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+name = "Head of Lotan"
+
+[main.items.head-of-vritra]
+description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+name = "Head of Vritra"
+
+[main.items.head-of-zaltys]
+description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+name = "Head of Zaltys"
 
 [main.items.heart-of-change]
 description = "由伟大的未决者制成的奥林匹亚代币。使用它能回退当前职业的全部通天等级，并返还全部通天等级所需要的材料、金币与欧币。"
@@ -12528,9 +12563,81 @@ name = "ξ奥林匹亚战弓"
 description = "从奥林匹亚勇士上掉落的稀有武器。"
 name = "ξ奥林匹亚战刃"
 
+[main.items.yelbeghen-tower-key]
+description = "Key to a Tower of Yelbeghen, usable during the Wyrmhunt world event."
+name = "Yelbeghen Tower Key"
+
 [main.items.yellow-eye-of-kerberos]
 description = "刻耳柏洛斯的结晶之眼。有很大机率导致对手麻痹。"
 name = "黄褐色的刻耳柏洛斯之眼"
+
+[main.items.yelmogus-boots]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis light armor improves the chances of gaining another turn via Avidity, as well as increases the damage of skills that hit multiple opponents."
+name = "Yelmogus Boots"
+
+[main.items.yelmogus-cowl]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis light armor improves the chances of gaining another turn via Avidity, as well as increases the damage of skills that hit multiple opponents."
+name = "Yelmogus Cowl"
+
+[main.items.yelmogus-cuirass]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis armor will increase the damage of Ward based skilled when using the Frenzy ability."
+name = "Yelmogus Cuirass"
+
+[main.items.yelmogus-garb]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis light armor improves the chances of gaining another turn via Avidity, as well as increases the damage of skills that hit multiple opponents."
+name = "Yelmogus Garb"
+
+[main.items.yelmogus-gown]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nWhile wearing this robe, a Summoner may automatically disperse status effects given to them to their summons."
+name = "Yelmogus Gown"
+
+[main.items.yelmogus-greatstaff]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis item will increase the effectiveness of many Manaflasks and Bloodflasks."
+name = "Yelmogus Greatstaff"
+
+[main.items.yelmogus-greatsword]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis weapon will increase the damage of Ward based skilled when using the Frenzy ability."
+name = "Yelmogus Greatsword"
+
+[main.items.yelmogus-greaves]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis armor will increase the damage of Ward based skilled when using the Frenzy ability."
+name = "Yelmogus Greaves"
+
+[main.items.yelmogus-headdress]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nWhile wearing this robe, a Summoner may automatically disperse status effects given to them to their summons."
+name = "Yelmogus Headdress"
+
+[main.items.yelmogus-headrobe]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis item will increase the effectiveness of many Manaflasks and Bloodflasks."
+name = "Yelmogus Headrobe"
+
+[main.items.yelmogus-legwraps]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nWhile wearing this robe, a Summoner may automatically disperse status effects given to them to their summons."
+name = "Yelmogus Legwraps"
+
+[main.items.yelmogus-monster-tome]
+description = "A tome recounting the Draconians production of Yelbeghen. Increases experience earned at the expense of your potential."
+name = "Yelmogus Monster Tome"
+
+[main.items.yelmogus-quarterstaff]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nWhile carrying this staff, a Summoner may automatically disperse status effects given to them to their summons."
+name = "Yelmogus Quarterstaff"
+
+[main.items.yelmogus-robes]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis item will increase the effectiveness of many Manaflasks and Bloodflasks."
+name = "Yelmogus Robes"
+
+[main.items.yelmogus-sallet]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis armor will increase the damage of Ward based skilled when using the Frenzy ability."
+name = "Yelmogus Sallet"
+
+[main.items.yelmogus-skirt]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis item will increase the effectiveness of many Manaflasks and Bloodflasks."
+name = "Yelmogus Skirt"
+
+[main.items.yelmogus-thinblade]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis weapon improves the chances of gaining another turn via Avidity, as well as increases the damage of skills that hit multiple opponents."
+name = "Yelmogus Thinblade"
 
 [main.items.yeti-coat]
 description = "让人想起可怕雪人的大衣，它可以保护穿戴者免疫冰冻及防御下降。"
@@ -18453,6 +18560,7 @@ crit_chance = "暴击率"
 crit_damage = "暴击伤害"
 critical_chain = "暴击连锁"
 damage_limit_break = "伤害上限突破"
+damage_protect = "伤害保护"
 damage_to_ward = "对护盾伤害"
 dark_damage = "暗属性伤害"
 dark_res = "暗属性抗性"
@@ -18463,6 +18571,7 @@ def_res_penetration = "物防/魔防穿透"
 defend_power = "防御强化"
 defense = "物防"
 dexterity = "敏捷"
+disperse_status_effect_chance = "分散状态机率"
 dragon_damage = "龙属性伤害"
 drop_quality = "掉落物品品质"
 dungeon_cooldown = "地牢冷却时间"
@@ -18478,6 +18587,7 @@ follower_act = "追随者行动率"
 follower_stats = "追随者属性"
 follower_summon_ai = "追随者/召唤物AI"
 foresight = "预知"
+frenzy = "狂化"
 gifts = "礼物"
 godforge_chance = "神赐机率"
 gold_bonus = "金币加成"
@@ -18500,13 +18610,13 @@ mana-ward_recovery = "护盾回收MP"
 mana_reduction = "魔力节能"
 mana_regen = "魔力回复"
 manaflask_charge = "汲魔瓶充能"
+manaflask_power = "汲魔瓶威力"
 memory_hunting = "记忆追寻"
 monster_encounters = "遇怪"
 monster_power = "强力怪物"
 multi-target_damage = "多重目标伤害"
 no_follower_bonus = "无追随者加成"
 orn_bonus = "欧币加成"
-parapet = "栅栏"
 power = "强度"
 protect_chance = "保护率"
 quest_rewards = "任务奖励加成"
@@ -18535,8 +18645,8 @@ ward = "护盾"
 ward_absorption = "护盾吸收率"
 ward_power = "护盾技能效果"
 ward_recovery = "护盾恢复"
+ward_recovery_turn = "护盾恢复/回合"
 ward_start = "开场护盾"
-ward_turns = "护盾回合"
 water_damage = "水属性伤害"
 weapon_power = "武器威力"
 weapon_proficiency = "武器精通"

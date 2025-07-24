@@ -135,12 +135,12 @@ icon = "/img/effects/valhalla_bond.png"
 name = "Bestial Bond III"
 
 [abilities.bloodflasks]
-description = "Utilizing elemental spells in battle will charge up to two Manaflasks and two Bloodflask , allowing you to unleash either Manaflask abilities of Blood magic when fully charged. You will start battle with one Manaflask half filled and one Bloodflask half filled. Exploiting elemental weaknesses in battle will charge Manaflasks faster."
+description = "Utilizing elemental spells in battle will charge up to two Manaflasks and two Bloodflask , allowing you to unleash either Manaflask abilities or Blood magic when fully charged. You will start battle with one Manaflask half filled and one Bloodflask half filled. Exploiting elemental weaknesses in battle will charge Manaflasks faster."
 icon = "/img/effects/bloodflasks1.png"
 name = "Bloodflasks"
 
 [abilities.bloodflasks_ii]
-description = "Utilizing elemental spells in battle will charge up to three Manaflasks and two Bloodflasks , allowing you to unleash either Manaflask abilities of Blood magic when fully charged. You will start battle with one Manaflask filled and one Bloodflask half filled. Exploiting elemental weaknesses in battle will charge Manaflasks faster."
+description = "Utilizing elemental spells in battle will charge up to three Manaflasks and two Bloodflasks , allowing you to unleash either Manaflask abilities or Blood magic when fully charged. You will start battle with one Manaflask filled and one Bloodflask half filled. Exploiting elemental weaknesses in battle will charge Manaflasks faster."
 icon = "/img/effects/bloodflasks2.png"
 name = "Bloodflasks II"
 
@@ -1346,6 +1346,9 @@ name = "Vritra the Steadfast"
 
 [main.bosses.woodland-lord]
 name = "Woodland Lord"
+
+[main.bosses.yelbeghen]
+name = "Yelbeghen"
 
 [main.bosses.ymir-amphiptere]
 name = "Ymir Amphiptere"
@@ -3421,11 +3424,11 @@ name = "Arisen Cursed Esus's Pillar"
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomoria Plated Boots"
 
-[main.items.arisen-cursed-fomoria-plated-boots-56e4841c]
+[main.items.arisen-cursed-fomoria-plated-boots-4de3e61d]
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomoria Plated Boots"
 
-[main.items.arisen-cursed-fomoria-plated-boots-7aefba00]
+[main.items.arisen-cursed-fomoria-plated-boots-56e4841c]
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomoria Plated Boots"
 
@@ -3437,11 +3440,11 @@ name = "Arisen Cursed Fomoria Plated Boots"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomoria Plated Robe"
 
-[main.items.arisen-cursed-fomoria-plated-robe-9a5a1cdd]
+[main.items.arisen-cursed-fomoria-plated-robe-954d6525]
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomoria Plated Robe"
 
-[main.items.arisen-cursed-fomoria-plated-robe-ca4ddba5]
+[main.items.arisen-cursed-fomoria-plated-robe-9a5a1cdd]
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomoria Plated Robe"
 
@@ -3453,15 +3456,15 @@ name = "Arisen Cursed Fomoria Plated Robe"
 description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomor's Crown"
 
-[main.items.arisen-cursed-fomors-crown-276564a1]
-description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-name = "Arisen Cursed Fomor's Crown"
-
 [main.items.arisen-cursed-fomors-crown-2cb9b4e6]
 description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomor's Crown"
 
 [main.items.arisen-cursed-fomors-crown-3a4a918b]
+description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
+name = "Arisen Cursed Fomor's Crown"
+
+[main.items.arisen-cursed-fomors-crown-612a024c]
 description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomor's Crown"
 
@@ -5509,6 +5512,10 @@ name = "Clurichaun Soul Blade"
 description = "Chestplate forged of the remains of a mighty Cockatrice. It grants its wearer immunity from petrification."
 name = "Cockatrice Mail"
 
+[main.items.codexing-kit]
+description = "A kit containing many instruments that one may use to study a monster in battle. Using this while in battle will unlock a previously unknown codex entry for an opponent."
+name = "Codexing Kit"
+
 [main.items.coffee]
 description = "The nectar of gods."
 name = "Coffee"
@@ -5845,11 +5852,11 @@ name = "Cursed Esus's Pillar"
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Cursed Fomoria Plated Boots"
 
-[main.items.cursed-fomoria-plated-boots-7a9f5efc]
+[main.items.cursed-fomoria-plated-boots-0ebf6063]
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Cursed Fomoria Plated Boots"
 
-[main.items.cursed-fomoria-plated-boots-c6787dd8]
+[main.items.cursed-fomoria-plated-boots-7a9f5efc]
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Cursed Fomoria Plated Boots"
 
@@ -7689,7 +7696,7 @@ name = "Fomoria Plated Robe"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Fomoria Plated Robe"
 
-[main.items.fomoria-plated-robe-fb3188b6]
+[main.items.fomoria-plated-robe-946a26b9]
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Fomoria Plated Robe"
 
@@ -8400,6 +8407,34 @@ name = "Havel's Shield"
 [main.items.havels-sword]
 description = "Gear of the giant knight."
 name = "Havel's Sword"
+
+[main.items.head-of-agathodaemon]
+description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+name = "Head of Agathodaemon"
+
+[main.items.head-of-bashe]
+description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+name = "Head of Bashe"
+
+[main.items.head-of-beithir]
+description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+name = "Head of Beithir"
+
+[main.items.head-of-illuyanka]
+description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+name = "Head of Illuyanka"
+
+[main.items.head-of-lotan]
+description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+name = "Head of Lotan"
+
+[main.items.head-of-vritra]
+description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+name = "Head of Vritra"
+
+[main.items.head-of-zaltys]
+description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+name = "Head of Zaltys"
 
 [main.items.heart-of-change]
 description = "An Olympian token constructed by the great Undecided. Using it will reverse all ascensions levels earned by your current class, returning all materials, gold, and orns spent to reach that ascension level."
@@ -12528,9 +12563,81 @@ name = "Xi Olympia Warbow"
 description = "Rare weapon, fallen from an Olympian."
 name = "Xi Olympia Warsword"
 
+[main.items.yelbeghen-tower-key]
+description = "Key to a Tower of Yelbeghen, usable during the Wyrmhunt world event."
+name = "Yelbeghen Tower Key"
+
 [main.items.yellow-eye-of-kerberos]
 description = "Crystallized eye of the Kerberos. It grants a high chance to paralyze an opponent."
 name = "Yellow Eye of Kerberos"
+
+[main.items.yelmogus-boots]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis light armor improves the chances of gaining another turn via Avidity, as well as increases the damage of skills that hit multiple opponents."
+name = "Yelmogus Boots"
+
+[main.items.yelmogus-cowl]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis light armor improves the chances of gaining another turn via Avidity, as well as increases the damage of skills that hit multiple opponents."
+name = "Yelmogus Cowl"
+
+[main.items.yelmogus-cuirass]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis armor will increase the damage of Ward based skilled when using the Frenzy ability."
+name = "Yelmogus Cuirass"
+
+[main.items.yelmogus-garb]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis light armor improves the chances of gaining another turn via Avidity, as well as increases the damage of skills that hit multiple opponents."
+name = "Yelmogus Garb"
+
+[main.items.yelmogus-gown]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nWhile wearing this robe, a Summoner may automatically disperse status effects given to them to their summons."
+name = "Yelmogus Gown"
+
+[main.items.yelmogus-greatstaff]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis item will increase the effectiveness of many Manaflasks and Bloodflasks."
+name = "Yelmogus Greatstaff"
+
+[main.items.yelmogus-greatsword]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis weapon will increase the damage of Ward based skilled when using the Frenzy ability."
+name = "Yelmogus Greatsword"
+
+[main.items.yelmogus-greaves]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis armor will increase the damage of Ward based skilled when using the Frenzy ability."
+name = "Yelmogus Greaves"
+
+[main.items.yelmogus-headdress]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nWhile wearing this robe, a Summoner may automatically disperse status effects given to them to their summons."
+name = "Yelmogus Headdress"
+
+[main.items.yelmogus-headrobe]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis item will increase the effectiveness of many Manaflasks and Bloodflasks."
+name = "Yelmogus Headrobe"
+
+[main.items.yelmogus-legwraps]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nWhile wearing this robe, a Summoner may automatically disperse status effects given to them to their summons."
+name = "Yelmogus Legwraps"
+
+[main.items.yelmogus-monster-tome]
+description = "A tome recounting the Draconians production of Yelbeghen. Increases experience earned at the expense of your potential."
+name = "Yelmogus Monster Tome"
+
+[main.items.yelmogus-quarterstaff]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nWhile carrying this staff, a Summoner may automatically disperse status effects given to them to their summons."
+name = "Yelmogus Quarterstaff"
+
+[main.items.yelmogus-robes]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis item will increase the effectiveness of many Manaflasks and Bloodflasks."
+name = "Yelmogus Robes"
+
+[main.items.yelmogus-sallet]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis armor will increase the damage of Ward based skilled when using the Frenzy ability."
+name = "Yelmogus Sallet"
+
+[main.items.yelmogus-skirt]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis item will increase the effectiveness of many Manaflasks and Bloodflasks."
+name = "Yelmogus Skirt"
+
+[main.items.yelmogus-thinblade]
+description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis weapon improves the chances of gaining another turn via Avidity, as well as increases the damage of skills that hit multiple opponents."
+name = "Yelmogus Thinblade"
 
 [main.items.yeti-coat]
 description = "Coat reminiscent of the formidable Yeti. It protects one from the snow and from having their defenses lowered."
@@ -18453,6 +18560,7 @@ crit_chance = "Crit chance"
 crit_damage = "Crit Damage"
 critical_chain = "Critical Chain"
 damage_limit_break = "Damage Limit Break"
+damage_protect = "Damage Protect"
 damage_to_ward = "Damage to Ward"
 dark_damage = "Dark Damage"
 dark_res = "Dark Res"
@@ -18463,6 +18571,7 @@ def_res_penetration = "Def/Res Penetration"
 defend_power = "Defend Power"
 defense = "Defense"
 dexterity = "Dexterity"
+disperse_status_effect_chance = "Disperse Status Effect Chance"
 dragon_damage = "Dragon Damage"
 drop_quality = "Drop Quality"
 dungeon_cooldown = "Dungeon Cooldown"
@@ -18478,6 +18587,7 @@ follower_act = "Follower Act"
 follower_stats = "Follower Stats"
 follower_summon_ai = "Follower/Summon AI"
 foresight = "Foresight"
+frenzy = "Frenzy"
 gifts = "Gifts"
 godforge_chance = "Godforge Chance"
 gold_bonus = "Gold Bonus"
@@ -18500,13 +18610,13 @@ mana-ward_recovery = "Mana-Ward Recovery"
 mana_reduction = "Mana Reduction"
 mana_regen = "Mana Regen"
 manaflask_charge = "Manaflask Charge"
+manaflask_power = "Manaflask Power"
 memory_hunting = "Memory Hunting"
 monster_encounters = "Monster Encounters"
 monster_power = "Monster Power"
 multi-target_damage = "Multi-target Damage"
 no_follower_bonus = "No Follower Bonus"
 orn_bonus = "Orn Bonus"
-parapet = "Parapet"
 power = "Power"
 protect_chance = "Protect chance"
 quest_rewards = "Quest Rewards"
@@ -18535,8 +18645,8 @@ ward = "Ward"
 ward_absorption = "Ward Absorption"
 ward_power = "Ward Power"
 ward_recovery = "Ward Recovery"
+ward_recovery_turn = "Ward Recovery/Turn"
 ward_start = "Ward Start"
-ward_turns = "Ward Turns"
 water_damage = "Water Damage"
 weapon_power = "Weapon Power"
 weapon_proficiency = "Weapon Proficiency"

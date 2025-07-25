@@ -25181,7 +25181,7 @@ name = "petrified"
 
 [main.items.cliffside-cuirass.stats]
 adornment_slots = "2"
-damage_protect = "15% Max HP Damage (100% chance)"
+damage_protect = "100% Max HP Damage (15% chance)"
 defense = "205"
 element = ["dragon"]
 resistance = "205"
@@ -64237,7 +64237,7 @@ name = "def_dd"
 
 [main.items.yelmogus-cuirass.stats]
 adornment_slots = "4"
-damage_protect = "25% Max HP Damage (100% chance)"
+damage_protect = "100% Max HP Damage (25% chance)"
 defense = "305"
 dexterity = "20"
 frenzy = "+15%"
@@ -64824,7 +64824,7 @@ name = "petrified"
 
 [main.items.ymir-cliffside-cuirass.stats]
 adornment_slots = "2"
-damage_protect = "25% Max HP Damage (100% chance)"
+damage_protect = "100% Max HP Damage (25% chance)"
 defense = "305"
 element = ["dragon"]
 resistance = "305"

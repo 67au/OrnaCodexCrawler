@@ -1348,7 +1348,7 @@ name = "坚毅之弗栗多"
 name = "林地之主"
 
 [main.bosses.yelbeghen]
-name = "Yelbeghen"
+name = "叶尔贝根"
 
 [main.bosses.ymir-amphiptere]
 name = "原初翼蛇"
@@ -5513,7 +5513,7 @@ description = "由大鸡蛇遗骸所制成的胸甲。能够保护穿戴者免�
 name = "鸡蛇链甲"
 
 [main.items.codexing-kit]
-description = "A kit containing many instruments that one may use to study a monster in battle. Using this while in battle will unlock a previously unknown codex entry for an opponent."
+description = "包含各种工具的工具包，能用在研究怪物之上。在战斗中使用该物品，能解锁对应目标的图鉴条目。"
 name = "图鉴工具"
 
 [main.items.coffee]
@@ -8409,32 +8409,32 @@ description = "巨人骑士的装备。"
 name = "Havel之剑"
 
 [main.items.head-of-agathodaemon]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
-name = "Head of Agathodaemon"
+description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会天工开物使用。"
+name = "阿伽忒俄斯之首"
 
 [main.items.head-of-bashe]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
-name = "Head of Bashe"
+description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会天工开物使用。"
+name = "巴蛇之首"
 
 [main.items.head-of-beithir]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
-name = "Head of Beithir"
+description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会天工开物使用。"
+name = "贝希尔之首"
 
 [main.items.head-of-illuyanka]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
-name = "Head of Illuyanka"
+description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会天工开物使用。"
+name = "伊卢扬卡之首"
 
 [main.items.head-of-lotan]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
-name = "Head of Lotan"
+description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会天工开物使用。"
+name = "罗坍之首"
 
 [main.items.head-of-vritra]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
-name = "Head of Vritra"
+description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会天工开物使用。"
+name = "弗栗多之首"
 
 [main.items.head-of-zaltys]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
-name = "Head of Zaltys"
+description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会天工开物使用。"
+name = "萨勒蒂斯之首"
 
 [main.items.heart-of-change]
 description = "由伟大的未决者制成的奥林匹亚代币。使用它能回退当前职业的全部通天等级，并返还全部通天等级所需要的材料、金币与欧币。"
@@ -12564,80 +12564,80 @@ description = "从奥林匹亚勇士上掉落的稀有武器。"
 name = "ξ奥林匹亚战刃"
 
 [main.items.yelbeghen-tower-key]
-description = "Key to a Tower of Yelbeghen, usable during the Wyrmhunt world event."
-name = "Yelbeghen Tower Key"
+description = "叶尔贝根之塔的钥匙，仅在「猎龙」活动期间可用。"
+name = "叶尔贝根之塔钥"
 
 [main.items.yellow-eye-of-kerberos]
 description = "刻耳柏洛斯的结晶之眼。有很大机率导致对手麻痹。"
 name = "黄褐色的刻耳柏洛斯之眼"
 
 [main.items.yelmogus-boots]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis light armor improves the chances of gaining another turn via Avidity, as well as increases the damage of skills that hit multiple opponents."
-name = "Yelmogus Boots"
+description = "叶尔贝根，是由德肯尼亚族利用远古巨龙残骸制成的古龙泰坦。德肯尼亚族也想要触及那星空，但他们只可望而却步于 25 层。\n\n该轻甲能提升「急切」发动的机率，同时能提升命中多个目标的技能所造成的伤害。"
+name = "叶尔贝根长靴"
 
 [main.items.yelmogus-cowl]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis light armor improves the chances of gaining another turn via Avidity, as well as increases the damage of skills that hit multiple opponents."
-name = "Yelmogus Cowl"
+description = "叶尔贝根，是由德肯尼亚族利用远古巨龙残骸制成的古龙泰坦。德肯尼亚族也想要触及那星空，但他们只可望而却步于 25 层。\n\n该轻甲能提升「急切」发动的机率，同时能提升命中多个目标的技能所造成的伤害。"
+name = "叶尔贝根风帽"
 
 [main.items.yelmogus-cuirass]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis armor will increase the damage of Ward based skilled when using the Frenzy ability."
-name = "Yelmogus Cuirass"
+description = "叶尔贝根，是由德肯尼亚族利用远古巨龙残骸制成的古龙泰坦。德肯尼亚族也想要触及那星空，但他们只可望而却步于 25 层。\n\n该盔甲能提升「狂化」期间消耗护盾技能的伤害。"
+name = "叶尔贝根胸甲"
 
 [main.items.yelmogus-garb]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis light armor improves the chances of gaining another turn via Avidity, as well as increases the damage of skills that hit multiple opponents."
-name = "Yelmogus Garb"
+description = "叶尔贝根，是由德肯尼亚族利用远古巨龙残骸制成的古龙泰坦。德肯尼亚族也想要触及那星空，但他们只可望而却步于 25 层。\n\n该轻甲能提升「急切」发动的机率，同时能提升命中多个目标的技能所造成的伤害。"
+name = "叶尔贝根皮甲"
 
 [main.items.yelmogus-gown]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nWhile wearing this robe, a Summoner may automatically disperse status effects given to them to their summons."
-name = "Yelmogus Gown"
+description = "叶尔贝根，是由德肯尼亚族利用远古巨龙残骸制成的古龙泰坦。德肯尼亚族也想要触及那星空，但他们只可望而却步于 25 层。\n\n当装备该法袍时，召唤师将有机率自动将状态效果分散到召唤物上。"
+name = "叶尔贝根礼服"
 
 [main.items.yelmogus-greatstaff]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis item will increase the effectiveness of many Manaflasks and Bloodflasks."
-name = "Yelmogus Greatstaff"
+description = "叶尔贝根，是由德肯尼亚族利用远古巨龙残骸制成的古龙泰坦。德肯尼亚族也想要触及那星空，但他们只可望而却步于 25 层。\n\n该物品会提升汲魔瓶与汲血瓶的效率。"
+name = "叶尔贝根权杖"
 
 [main.items.yelmogus-greatsword]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis weapon will increase the damage of Ward based skilled when using the Frenzy ability."
-name = "Yelmogus Greatsword"
+description = "叶尔贝根，是由德肯尼亚族利用远古巨龙残骸制成的古龙泰坦。德肯尼亚族也想要触及那星空，但他们只可望而却步于 25 层。\n\n该武器能提升「狂化」期间消耗护盾技能的伤害。"
+name = "叶尔贝根巨剑"
 
 [main.items.yelmogus-greaves]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis armor will increase the damage of Ward based skilled when using the Frenzy ability."
-name = "Yelmogus Greaves"
+description = "叶尔贝根，是由德肯尼亚族利用远古巨龙残骸制成的古龙泰坦。德肯尼亚族也想要触及那星空，但他们只可望而却步于 25 层。\n\n该盔甲能提升「狂化」期间消耗护盾技能的伤害。"
+name = "叶尔贝根护胫"
 
 [main.items.yelmogus-headdress]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nWhile wearing this robe, a Summoner may automatically disperse status effects given to them to their summons."
-name = "Yelmogus Headdress"
+description = "叶尔贝根，是由德肯尼亚族利用远古巨龙残骸制成的古龙泰坦。德肯尼亚族也想要触及那星空，但他们只可望而却步于 25 层。\n\n当装备该法袍时，召唤师将有机率自动将状态效果分散到召唤物上。"
+name = "叶尔贝根头饰"
 
 [main.items.yelmogus-headrobe]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis item will increase the effectiveness of many Manaflasks and Bloodflasks."
-name = "Yelmogus Headrobe"
+description = "叶尔贝根，是由德肯尼亚族利用远古巨龙残骸制成的古龙泰坦。德肯尼亚族也想要触及那星空，但他们只可望而却步于 25 层。\n\n该物品会提升汲魔瓶与汲血瓶的效率。"
+name = "叶尔贝根头袍"
 
 [main.items.yelmogus-legwraps]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nWhile wearing this robe, a Summoner may automatically disperse status effects given to them to their summons."
-name = "Yelmogus Legwraps"
+description = "叶尔贝根，是由德肯尼亚族利用远古巨龙残骸制成的古龙泰坦。德肯尼亚族也想要触及那星空，但他们只可望而却步于 25 层。\n\n当装备该法袍时，召唤师将有机率自动将状态效果分散到召唤物上。"
+name = "叶尔贝根裹腿"
 
 [main.items.yelmogus-monster-tome]
 description = "A tome recounting the Draconians production of Yelbeghen. Increases experience earned at the expense of your potential."
 name = "Yelmogus Monster Tome"
 
 [main.items.yelmogus-quarterstaff]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nWhile carrying this staff, a Summoner may automatically disperse status effects given to them to their summons."
-name = "Yelmogus Quarterstaff"
+description = "叶尔贝根，是由德肯尼亚族利用远古巨龙残骸制成的古龙泰坦。德肯尼亚族也想要触及那星空，但他们只可望而却步于 25 层。\n\n当装备该法杖时，召唤师将有机率自动将状态效果分散到召唤物上。"
+name = "叶尔贝根长杖"
 
 [main.items.yelmogus-robes]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis item will increase the effectiveness of many Manaflasks and Bloodflasks."
-name = "Yelmogus Robes"
+description = "叶尔贝根，是由德肯尼亚族利用远古巨龙残骸制成的古龙泰坦。德肯尼亚族也想要触及那星空，但他们只可望而却步于 25 层。\n\n该物品会提升汲魔瓶与汲血瓶的效率。"
+name = "叶尔贝根法袍"
 
 [main.items.yelmogus-sallet]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis armor will increase the damage of Ward based skilled when using the Frenzy ability."
-name = "Yelmogus Sallet"
+description = "叶尔贝根，是由德肯尼亚族利用远古巨龙残骸制成的古龙泰坦。德肯尼亚族也想要触及那星空，但他们只可望而却步于 25 层。\n\n该盔甲能提升「狂化」期间消耗护盾技能的伤害。"
+name = "叶尔贝根轻盔"
 
 [main.items.yelmogus-skirt]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis item will increase the effectiveness of many Manaflasks and Bloodflasks."
-name = "Yelmogus Skirt"
+description = "叶尔贝根，是由德肯尼亚族利用远古巨龙残骸制成的古龙泰坦。德肯尼亚族也想要触及那星空，但他们只可望而却步于 25 层。\n\n该物品会提升汲魔瓶与汲血瓶的效率。"
+name = "叶尔贝根裙装"
 
 [main.items.yelmogus-thinblade]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis weapon improves the chances of gaining another turn via Avidity, as well as increases the damage of skills that hit multiple opponents."
-name = "Yelmogus Thinblade"
+description = "叶尔贝根，是由德肯尼亚族利用远古巨龙残骸制成的古龙泰坦。德肯尼亚族也想要触及那星空，但他们只可望而却步于 25 层。\n\n该武器能提升「急切」发动的机率，同时能提升命中多个目标的技能所造成的伤害。"
+name = "叶尔贝根锋刃"
 
 [main.items.yeti-coat]
 description = "让人想起可怕雪人的大衣，它可以保护穿戴者免疫冰冻及防御下降。"
@@ -18571,7 +18571,7 @@ def_res_penetration = "物防/魔防穿透"
 defend_power = "防御强化"
 defense = "物防"
 dexterity = "敏捷"
-disperse_status_effect_chance = "分散状态机率"
+disperse_status_effect_chance = "状态分散机率"
 dragon_damage = "龙属性伤害"
 drop_quality = "掉落物品品质"
 dungeon_cooldown = "地牢冷却时间"

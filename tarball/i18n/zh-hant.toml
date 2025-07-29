@@ -1348,7 +1348,7 @@ name = "堅毅之弗栗多"
 name = "林地之主"
 
 [main.bosses.yelbeghen]
-name = "Yelbeghen"
+name = "耶爾貝甘"
 
 [main.bosses.ymir-amphiptere]
 name = "原初翼蛇"
@@ -5513,8 +5513,8 @@ description = "雞蛇遺體製成的胸甲.穿上它能防止被石化."
 name = "雞蛇胸甲"
 
 [main.items.codexing-kit]
-description = "A kit containing many instruments that one may use to study a monster in battle. Using this while in battle will unlock a previously unknown codex entry for an opponent."
-name = "Codexing Kit"
+description = "內含許多用來研究怪物的工具的組合包。在戰鬥時使用可以解鎖一個對手的圖鑑。"
+name = "圖鑑工具"
 
 [main.items.coffee]
 description = "神之雫."
@@ -8409,32 +8409,32 @@ description = "巨人騎士的工具。"
 name = "Havel的劍"
 
 [main.items.head-of-agathodaemon]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
-name = "Head of Agathodaemon"
+description = "遠古巨龍的頭，龍狩祭期間可以在紀念碑公會用來打造物品。"
+name = "阿伽忒俄斯的頭"
 
 [main.items.head-of-bashe]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
-name = "Head of Bashe"
+description = "遠古巨龍的頭，龍狩祭期間可以在紀念碑公會用來打造物品。"
+name = "巴蛇的頭"
 
 [main.items.head-of-beithir]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
-name = "Head of Beithir"
+description = "遠古巨龍的頭，龍狩祭期間可以在紀念碑公會用來打造物品。"
+name = "貝西爾的頭"
 
 [main.items.head-of-illuyanka]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
-name = "Head of Illuyanka"
+description = "遠古巨龍的頭，龍狩祭期間可以在紀念碑公會用來打造物品。"
+name = "伊盧揚卡的頭"
 
 [main.items.head-of-lotan]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
-name = "Head of Lotan"
+description = "遠古巨龍的頭，龍狩祭期間可以在紀念碑公會用來打造物品。"
+name = "羅坍的頭"
 
 [main.items.head-of-vritra]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
-name = "Head of Vritra"
+description = "遠古巨龍的頭，龍狩祭期間可以在紀念碑公會用來打造物品。"
+name = "弗栗多的頭"
 
 [main.items.head-of-zaltys]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
-name = "Head of Zaltys"
+description = "遠古巨龍的頭，龍狩祭期間可以在紀念碑公會用來打造物品。"
+name = "薩勒蒂斯的頭"
 
 [main.items.heart-of-change]
 description = "一枚由偉大的未決者鑄成的奧林匹亞硬幣。使用它會逆轉你當前職業所有的通天等級，並且歸還所有用來提升通天的材料，金幣和歐幣。"
@@ -12564,80 +12564,80 @@ description = "從某個奧林匹亞人掉落的稀有武器。"
 name = "ξ奧林匹亞戰刃"
 
 [main.items.yelbeghen-tower-key]
-description = "Key to a Tower of Yelbeghen, usable during the Wyrmhunt world event."
-name = "Yelbeghen Tower Key"
+description = "進入耶爾貝甘之塔所需的鑰匙，能在龍狩祭期間使用。"
+name = "耶爾貝甘塔之鑰"
 
 [main.items.yellow-eye-of-kerberos]
 description = "地獄犬的結晶之眼。很大機率使攻擊造成癱瘓狀態。"
 name = "黃褐色的刻耳柏洛斯之眼"
 
 [main.items.yelmogus-boots]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis light armor improves the chances of gaining another turn via Avidity, as well as increases the damage of skills that hit multiple opponents."
-name = "Yelmogus Boots"
+description = "耶爾貝甘，是由德肯族用遠古巨龍遺骸打造的巨龍泰坦。雖然他們也有登天的野望，然而終其一生也沒高過25層。\n\n此輕裝甲能提升貪慾技能獲得額外回合的機率，同時提升多體攻擊技能的傷害。"
+name = "耶爾默古長靴"
 
 [main.items.yelmogus-cowl]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis light armor improves the chances of gaining another turn via Avidity, as well as increases the damage of skills that hit multiple opponents."
-name = "Yelmogus Cowl"
+description = "耶爾貝甘，是由德肯族用遠古巨龍遺骸打造的巨龍泰坦。雖然他們也有登天的野望，然而終其一生也沒高過25層。\n\n此輕裝甲能提升貪慾技能獲得額外回合的機率，同時提升多體攻擊技能的傷害。"
+name = "耶爾默古風帽"
 
 [main.items.yelmogus-cuirass]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis armor will increase the damage of Ward based skilled when using the Frenzy ability."
-name = "Yelmogus Cuirass"
+description = "耶爾貝甘，是由德肯族用遠古巨龍遺骸打造的巨龍泰坦。雖然他們也有登天的野望，然而終其一生也沒高過25層。\n\n此防具能在激鬥狀態下提升護盾系技能的傷害。"
+name = "耶爾默古胸甲"
 
 [main.items.yelmogus-garb]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis light armor improves the chances of gaining another turn via Avidity, as well as increases the damage of skills that hit multiple opponents."
-name = "Yelmogus Garb"
+description = "耶爾貝甘，是由德肯族用遠古巨龍遺骸打造的巨龍泰坦。雖然他們也有登天的野望，然而終其一生也沒高過25層。\n\n此輕裝甲能提升貪慾技能獲得額外回合的機率，同時提升多體攻擊技能的傷害。"
+name = "耶爾默古皮甲"
 
 [main.items.yelmogus-gown]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nWhile wearing this robe, a Summoner may automatically disperse status effects given to them to their summons."
-name = "Yelmogus Gown"
+description = "耶爾貝甘，是由德肯族用遠古巨龍遺骸打造的巨龍泰坦。雖然他們也有登天的野望，然而終其一生也沒高過25層。\n\n召喚師穿上此法袍時有機會自動散播狀態效果到召喚獸身上。"
+name = "耶爾默古禮袍"
 
 [main.items.yelmogus-greatstaff]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis item will increase the effectiveness of many Manaflasks and Bloodflasks."
-name = "Yelmogus Greatstaff"
+description = "耶爾貝甘，是由德肯族用遠古巨龍遺骸打造的巨龍泰坦。雖然他們也有登天的野望，然而終其一生也沒高過25層。\n\n此道具能提高各種魔禁瓶跟血禁瓶的效率。"
+name = "耶爾默古權杖"
 
 [main.items.yelmogus-greatsword]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis weapon will increase the damage of Ward based skilled when using the Frenzy ability."
-name = "Yelmogus Greatsword"
+description = "耶爾貝甘，是由德肯族用遠古巨龍遺骸打造的巨龍泰坦。雖然他們也有登天的野望，然而終其一生也沒高過25層。\n\n此武器可以在激鬥狀態下提升護盾系技能的傷害。"
+name = "耶爾默古巨劍"
 
 [main.items.yelmogus-greaves]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis armor will increase the damage of Ward based skilled when using the Frenzy ability."
-name = "Yelmogus Greaves"
+description = "耶爾貝甘，是由德肯族用遠古巨龍遺骸打造的巨龍泰坦。雖然他們也有登天的野望，然而終其一生也沒高過25層。\n\n此防具能在激鬥狀態下提升護盾系技能的傷害。"
+name = "耶爾默古護脛"
 
 [main.items.yelmogus-headdress]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nWhile wearing this robe, a Summoner may automatically disperse status effects given to them to their summons."
-name = "Yelmogus Headdress"
+description = "耶爾貝甘，是由德肯族用遠古巨龍遺骸打造的巨龍泰坦。雖然他們也有登天的野望，然而終其一生也沒高過25層。\n\n召喚師穿上此法袍時有機會自動散播狀態效果到召喚獸身上。"
+name = "耶爾默古頭巾"
 
 [main.items.yelmogus-headrobe]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis item will increase the effectiveness of many Manaflasks and Bloodflasks."
-name = "Yelmogus Headrobe"
+description = "耶爾貝甘，是由德肯族用遠古巨龍遺骸打造的巨龍泰坦。雖然他們也有登天的野望，然而終其一生也沒高過25層。\n\n此道具能提高各種魔禁瓶跟血禁瓶的效率。"
+name = "耶爾默古頭袍"
 
 [main.items.yelmogus-legwraps]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nWhile wearing this robe, a Summoner may automatically disperse status effects given to them to their summons."
-name = "Yelmogus Legwraps"
+description = "耶爾貝甘，是由德肯族用遠古巨龍遺骸打造的巨龍泰坦。雖然他們也有登天的野望，然而終其一生也沒高過25層。\n\n召喚師穿上此法袍時有機會自動散播狀態效果到召喚獸身上。"
+name = "耶爾默古裹腿"
 
 [main.items.yelmogus-monster-tome]
 description = "A tome recounting the Draconians production of Yelbeghen. Increases experience earned at the expense of your potential."
 name = "Yelmogus Monster Tome"
 
 [main.items.yelmogus-quarterstaff]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nWhile carrying this staff, a Summoner may automatically disperse status effects given to them to their summons."
-name = "Yelmogus Quarterstaff"
+description = "耶爾貝甘，是由德肯族用遠古巨龍遺骸打造的巨龍泰坦。雖然他們也有登天的野望，然而終其一生也沒高過25層。\n\n召喚師在裝備此杖時，有機會自動將狀態效果散播到召喚獸身上。"
+name = "耶爾默古短桿"
 
 [main.items.yelmogus-robes]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis item will increase the effectiveness of many Manaflasks and Bloodflasks."
-name = "Yelmogus Robes"
+description = "耶爾貝甘，是由德肯族用遠古巨龍遺骸打造的巨龍泰坦。雖然他們也有登天的野望，然而終其一生也沒高過25層。\n\n此道具能提高各種魔禁瓶跟血禁瓶的效率。"
+name = "耶爾默古法袍"
 
 [main.items.yelmogus-sallet]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis armor will increase the damage of Ward based skilled when using the Frenzy ability."
-name = "Yelmogus Sallet"
+description = "耶爾貝甘，是由德肯族用遠古巨龍遺骸打造的巨龍泰坦。雖然他們也有登天的野望，然而終其一生也沒高過25層。\n\n此防具能在激鬥狀態下提升護盾系技能的傷害。"
+name = "耶爾默古戰盔"
 
 [main.items.yelmogus-skirt]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis item will increase the effectiveness of many Manaflasks and Bloodflasks."
-name = "Yelmogus Skirt"
+description = "耶爾貝甘，是由德肯族用遠古巨龍遺骸打造的巨龍泰坦。雖然他們也有登天的野望，然而終其一生也沒高過25層。\n\n此道具能提高各種魔禁瓶跟血禁瓶的效率。"
+name = "耶爾默古長裙"
 
 [main.items.yelmogus-thinblade]
-description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the remains of the Great Dragons. They, too, wanted to reach the stars above -- but they could not get higher than 25 floors.\n\nThis weapon improves the chances of gaining another turn via Avidity, as well as increases the damage of skills that hit multiple opponents."
-name = "Yelmogus Thinblade"
+description = "耶爾貝甘，是由德肯族用遠古巨龍遺骸打造的巨龍泰坦。雖然他們也有登天的野望，然而終其一生也沒高過25層。\n\n此武器能提升貪慾技得到額外回合的機率，同時提升多體攻擊技能的傷害。"
+name = "耶爾默古薄刃"
 
 [main.items.yeti-coat]
 description = "讓人想起可怕雪人的大衣，它可以保護穿戴者免受冰凍及防禦力下降。"
@@ -18560,7 +18560,7 @@ crit_chance = "暴擊機率"
 crit_damage = "暴擊傷害"
 critical_chain = "致命連鎖"
 damage_limit_break = "傷害極限突破"
-damage_protect = "Damage Protect"
+damage_protect = "傷害保護"
 damage_to_ward = "對護盾傷害"
 dark_damage = "黑暗傷害"
 dark_res = "黑暗抗性"
@@ -18571,7 +18571,7 @@ def_res_penetration = "物防/魔防穿透"
 defend_power = "防禦力"
 defense = "物防"
 dexterity = "敏捷"
-disperse_status_effect_chance = "Disperse Status Effect Chance"
+disperse_status_effect_chance = "狀態分配機會"
 dragon_damage = "龍系傷害"
 drop_quality = "掉落物品質"
 dungeon_cooldown = "地城冷卻"
@@ -18610,7 +18610,7 @@ mana-ward_recovery = "護盾轉MP"
 mana_reduction = "魔力輕減"
 mana_regen = "魔力回復"
 manaflask_charge = "魔禁瓶充能"
-manaflask_power = "Manaflask Power"
+manaflask_power = "魔禁瓶威力"
 memory_hunting = "記憶追尋"
 monster_encounters = "遭遇魔物"
 monster_power = "魔物威能"
@@ -18645,7 +18645,7 @@ ward = "護盾"
 ward_absorption = "護盾吸收率"
 ward_power = "護盾之力"
 ward_recovery = "護盾回復"
-ward_recovery_turn = "Ward Recovery/Turn"
+ward_recovery_turn = "護盾回復/回合"
 ward_start = "開場護盾"
 water_damage = "水系傷害"
 weapon_power = "武器威能"

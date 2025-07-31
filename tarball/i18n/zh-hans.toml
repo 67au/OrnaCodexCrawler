@@ -12616,8 +12616,8 @@ description = "叶尔贝根，是由德肯尼亚族利用远古巨龙残骸制�
 name = "叶尔贝根裹腿"
 
 [main.items.yelmogus-monster-tome]
-description = "A tome recounting the Draconians production of Yelbeghen. Increases experience earned at the expense of your potential."
-name = "Yelmogus Monster Tome"
+description = "诉说着德肯尼亚族人制造叶尔贝根的古典。能降低你的潜能来换取获得经验值提升。"
+name = "叶尔贝根的魔物之典"
 
 [main.items.yelmogus-quarterstaff]
 description = "叶尔贝根，是由德肯尼亚族利用远古巨龙残骸制成的古龙泰坦。德肯尼亚族也想要触及那星空，但他们只可望而却步于 25 层。\n\n当装备该法杖时，召唤师将有机率自动将状态效果分散到召唤物上。"

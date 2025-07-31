@@ -12616,8 +12616,8 @@ description = "耶爾貝甘，是由德肯族用遠古巨龍遺骸打造的巨�
 name = "耶爾默古裹腿"
 
 [main.items.yelmogus-monster-tome]
-description = "A tome recounting the Draconians production of Yelbeghen. Increases experience earned at the expense of your potential."
-name = "Yelmogus Monster Tome"
+description = "細數德肯尼亞族所造之耶爾貝甘的法典。降低你的潛能來換取經驗值的加成。"
+name = "耶爾默古的魔物之典"
 
 [main.items.yelmogus-quarterstaff]
 description = "耶爾貝甘，是由德肯族用遠古巨龍遺骸打造的巨龍泰坦。雖然他們也有登天的野望，然而終其一生也沒高過25層。\n\n召喚師在裝備此杖時，有機會自動將狀態效果散播到召喚獸身上。"

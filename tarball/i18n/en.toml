@@ -11792,7 +11792,7 @@ description = "Shoes worn by advanced summoners. They slightly increase the powe
 name = "Summoner's Shoes"
 
 [main.items.summoning-scroll]
-description = "A scroll containing the ancient Balor techniques of the summon. Reading it will summon a powerful Raid Boss to your nearby area, but the entity may only be visible to those who travel at a slower pace."
+description = "A scroll containing the ancient Balor techniques of the summon. Reading it will summon a powerful Raid Boss to your nearby area."
 name = "Summoning Scroll"
 
 [main.items.sumner-crested-shield]

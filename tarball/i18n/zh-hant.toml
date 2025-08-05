@@ -11792,7 +11792,7 @@ description = "進階的召喚師所穿的鞋子。能稍微提升小夥伴的�
 name = "召喚師的鞋子"
 
 [main.items.summoning-scroll]
-description = "寫著遠古巴羅爾召喚技術的卷軸。閱讀它召喚神秘的遠古副本頭目到你附近的區域，但是僅有以較慢速度移動的人才能看見祂的存在。"
+description = "內含遠古巴羅爾技術的卷軸。使用後會召喚強力的副本到你周遭區域。"
 name = "召喚卷軸"
 
 [main.items.sumner-crested-shield]

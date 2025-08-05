@@ -421,7 +421,7 @@ name = "nocturna_house"
 [main.bosses.agathodaemon]
 aura = "superboss"
 category = "bosses"
-drops = [["items", "drake-blood"], ["items", "agathodaemon-hammer"], ["items", "head-of-agathodaemon"]]
+drops = [["items", "drake-blood"], ["items", "head-of-agathodaemon"], ["items", "agathodaemon-hammer"]]
 events = ["wyrmhunt"]
 family = "dragons"
 icon = "/img/bosses/dragon4.png"
@@ -1089,7 +1089,7 @@ tier = 6
 [main.bosses.beithir]
 aura = "superboss"
 category = "bosses"
-drops = [["items", "drake-blood"], ["items", "beithirs-staff"], ["items", "head-of-beithir"]]
+drops = [["items", "drake-blood"], ["items", "head-of-beithir"], ["items", "beithirs-staff"]]
 events = ["wyrmhunt"]
 family = "dragons"
 icon = "/img/bosses/dragon12.png"
@@ -2192,7 +2192,7 @@ tier = 7
 [main.bosses.illuyanka-made-of-stone]
 aura = "superboss"
 category = "bosses"
-drops = [["items", "drake-blood"], ["items", "cliffside-cuirass"], ["items", "head-of-illuyanka"]]
+drops = [["items", "drake-blood"], ["items", "head-of-illuyanka"], ["items", "cliffside-cuirass"]]
 events = ["wyrmhunt"]
 family = "dragons"
 icon = "/img/bosses/dragon6.png"
@@ -3055,7 +3055,7 @@ tier = 5
 [main.bosses.vritra-the-steadfast]
 aura = "superboss"
 category = "bosses"
-drops = [["items", "drake-blood"], ["items", "vritra-charm"], ["items", "head-of-vritra"]]
+drops = [["items", "drake-blood"], ["items", "head-of-vritra"], ["items", "vritra-charm"]]
 events = ["wyrmhunt"]
 family = "dragons"
 icon = "/img/bosses/dragon3.png"
@@ -3110,7 +3110,7 @@ name = "great_dragon"
 [main.bosses.zaltys-friendly-one]
 aura = "superboss"
 category = "bosses"
-drops = [["items", "drake-blood"], ["items", "staff-of-zaltys"], ["items", "head-of-zaltys"]]
+drops = [["items", "drake-blood"], ["items", "head-of-zaltys"], ["items", "staff-of-zaltys"]]
 events = ["wyrmhunt"]
 family = "dragons"
 icon = "/img/bosses/dragon5.png"
@@ -41179,7 +41179,7 @@ aura = "rare"
 category = "items"
 dropped_by = [["monsters", "behemoth"], ["bosses", "behemoth-9697d9ae"], ["monsters", "minotaur"], ["bosses", "minotaur-db4e0c60689b5789486e695c6ae30fb9"], ["monsters", "vampire-6bb40b71"]]
 exotic = false
-icon = "/img/materials/steel.png"
+icon = "/img/materials/hardened_steel.png"
 id = "hardened-steel"
 item_type = "material"
 rarity = "rare"
@@ -41477,7 +41477,7 @@ icon = "/img/useables/head_agathodaemon.png"
 id = "head-of-agathodaemon"
 item_type = "useable"
 rarity = "rare"
-tier = 9
+tier = 5
 useable_by = "all_classes"
 
 [main.items.head-of-bashe]
@@ -41489,7 +41489,7 @@ icon = "/img/useables/head_bashe.png"
 id = "head-of-bashe"
 item_type = "useable"
 rarity = "rare"
-tier = 9
+tier = 5
 useable_by = "all_classes"
 
 [main.items.head-of-beithir]
@@ -41501,7 +41501,7 @@ icon = "/img/useables/head_beithir.png"
 id = "head-of-beithir"
 item_type = "useable"
 rarity = "rare"
-tier = 9
+tier = 5
 useable_by = "all_classes"
 
 [main.items.head-of-illuyanka]
@@ -41513,7 +41513,7 @@ icon = "/img/useables/head_illuyanka.png"
 id = "head-of-illuyanka"
 item_type = "useable"
 rarity = "rare"
-tier = 9
+tier = 5
 useable_by = "all_classes"
 
 [main.items.head-of-lotan]
@@ -41525,7 +41525,7 @@ icon = "/img/useables/head_lotan.png"
 id = "head-of-lotan"
 item_type = "useable"
 rarity = "rare"
-tier = 9
+tier = 5
 useable_by = "all_classes"
 
 [main.items.head-of-vritra]
@@ -41537,7 +41537,7 @@ icon = "/img/useables/head_vritra.png"
 id = "head-of-vritra"
 item_type = "useable"
 rarity = "rare"
-tier = 9
+tier = 5
 useable_by = "all_classes"
 
 [main.items.head-of-zaltys]
@@ -41549,7 +41549,7 @@ icon = "/img/useables/head_zaltys.png"
 id = "head-of-zaltys"
 item_type = "useable"
 rarity = "rare"
-tier = 9
+tier = 5
 useable_by = "all_classes"
 
 [main.items.heart-of-change]
@@ -52427,7 +52427,7 @@ aura = "rare"
 category = "items"
 dropped_by = [["bosses", "heimdall"], ["bosses", "odin"], ["monsters", "vampire-6bb40b71"]]
 exotic = false
-icon = "/img/materials/baldur.png"
+icon = "/img/materials/perfect_baldur.png"
 id = "perfect-baldur"
 item_type = "material"
 rarity = "rare"
@@ -53890,7 +53890,7 @@ aura = "rare"
 category = "items"
 dropped_by = [["bosses", "dokkalfar-lord"], ["bosses", "ljosalfar-lord"], ["bosses", "queen-of-dokkalfar"], ["bosses", "spooky-ghost"], ["raids", "king-of-ljosalfar"]]
 exotic = false
-icon = "/img/materials/lightstone.png"
+icon = "/img/materials/pure_lightstone.png"
 id = "pure-lightstone"
 item_type = "material"
 rarity = "rare"
@@ -53903,7 +53903,7 @@ aura = "common"
 category = "items"
 dropped_by = [["bosses", "castor"], ["bosses", "cthulhu"], ["monsters", "cthulhu-edf67d83"], ["bosses", "finfolk"], ["bosses", "hydra"], ["bosses", "kelpie"], ["bosses", "pollux"], ["bosses", "terrifying-ghost"]]
 exotic = false
-icon = "/img/materials/water_stone.png"
+icon = "/img/materials/pure_waterstone.png"
 id = "pure-waterstone"
 item_type = "material"
 rarity = "common"
@@ -61838,7 +61838,7 @@ aura = "rare"
 category = "items"
 dropped_by = [["monsters", "very-scary-skeleton"]]
 exotic = false
-icon = "/img/materials/nightstone.png"
+icon = "/img/materials/twilightstone.png"
 id = "twilightstone"
 item_type = "material"
 rarity = "rare"

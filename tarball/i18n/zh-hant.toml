@@ -15365,6 +15365,10 @@ name = "龍息術 II"
 description = "向對手施放一個印記。當身上有一個元素印記時，受到該元素傷害會遭受額外傷害。"
 name = "龍之印記"
 
+[main.spells.dragon-tail-sweep]
+description = "Deals dragon damage to all opponents."
+name = "Dragon-tail Sweep (副手)"
+
 [main.spells.dragons-vengeance]
 description = "根據最近戰勝的龍類生物數量造成傷害。增益效果可能不會直接提升此魔法的傷害。"
 name = "龍的復仇"

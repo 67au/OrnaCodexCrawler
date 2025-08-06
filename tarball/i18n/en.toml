@@ -15365,6 +15365,10 @@ name = "Dragon Breath II"
 description = "Cast a sigil upon an opponent. When marked with an elemental rune, one will take additional damage from its element."
 name = "Dragon Sigil"
 
+[main.spells.dragon-tail-sweep]
+description = "Deals dragon damage to all opponents."
+name = "Dragon-tail Sweep (Off-hand)"
+
 [main.spells.dragons-vengeance]
 description = "Deals damage according to the amount of dragons one has recently conquered. This skill may not have its damage directly increased by buffs."
 name = "Dragon's Vengeance"

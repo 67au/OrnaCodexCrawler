@@ -64184,7 +64184,7 @@ adornment_slots = "4"
 avidity = "+4%"
 defense = "265"
 dexterity = "60"
-multi-target_damage = "+5%"
+multi-target_damage = "+7%"
 resistance = "80"
 ward = "1%"
 
@@ -64211,7 +64211,7 @@ avidity = "+4%"
 crit_damage = "+5%"
 defense = "265"
 dexterity = "60"
-multi-target_damage = "+5%"
+multi-target_damage = "+7%"
 resistance = "80"
 ward = "1%"
 
@@ -64267,7 +64267,7 @@ avidity = "+4%"
 defense = "265"
 dexterity = "60"
 mana_regen = "+2%"
-multi-target_damage = "+5%"
+multi-target_damage = "+7%"
 resistance = "80"
 ward = "1%"
 
@@ -64330,7 +64330,7 @@ two_handed = true
 ward = "33%"
 
 [main.items.yelmogus-greatsword]
-ability = ["spells", "upward-strike-ii"]
+ability = ["spells", "dragon-tail-sweep"]
 aura = "famed"
 category = "items"
 dropped_by = [["bosses", "yelbeghen"]]
@@ -64602,7 +64602,7 @@ resistance = "305"
 ward = "1%"
 
 [main.items.yelmogus-thinblade]
-ability = ["spells", "slice"]
+ability = ["spells", "dragon-tail-sweep"]
 aura = "famed"
 category = "items"
 dropped_by = [["bosses", "yelbeghen"]]
@@ -75946,6 +75946,25 @@ name = "dragon_sigil"
 [main.spells.dragon-sigil.stats]
 costs = "200"
 
+[main.spells.dragon-tail-sweep]
+category = "spells"
+icon = "/img/spells/blight.png"
+id = "dragon-tail-sweep"
+off-hands = [["items", "yelmogus-greatsword"], ["items", "yelmogus-thinblade"]]
+spell_type = "skill"
+tags = ["off-hand_ability"]
+targets = "every_opponent_in_a_battle"
+tier = 9
+
+[[main.spells.dragon-tail-sweep.causes]]
+chance = "3%"
+name = "blight"
+
+[main.spells.dragon-tail-sweep.stats]
+crit_chance = "5%"
+element = ["dragon"]
+power = "1100"
+
 [main.spells.dragons-vengeance]
 category = "spells"
 icon = "/img/spells/sorrow.png"
@@ -85334,7 +85353,7 @@ costs = "50"
 category = "spells"
 icon = "/img/spells/bleed.png"
 id = "slice"
-off-hands = [["items", "arisen-kerberos-claws"], ["items", "arisen-nagamaki"], ["items", "arisen-shadeblades"], ["items", "brilliant-feathers"], ["items", "chained-shadeblades"], ["items", "covyns-soul-hunt-scythe"], ["items", "kerberos-claws-e7f61ea1"], ["items", "nagamaki"], ["items", "yelmogus-thinblade"], ["items", "ymir-brilliant-feathers"]]
+off-hands = [["items", "arisen-kerberos-claws"], ["items", "arisen-nagamaki"], ["items", "arisen-shadeblades"], ["items", "brilliant-feathers"], ["items", "chained-shadeblades"], ["items", "covyns-soul-hunt-scythe"], ["items", "kerberos-claws-e7f61ea1"], ["items", "nagamaki"], ["items", "ymir-brilliant-feathers"]]
 spell_type = "skill"
 tags = ["off-hand_ability"]
 targets = "a_single_opponent"
@@ -89489,7 +89508,7 @@ power = "2200-5000"
 category = "spells"
 icon = "/img/spells/multi_attack.png"
 id = "upward-strike-ii"
-off-hands = [["items", "arisen-labrys"], ["items", "labrys"], ["items", "lynx-labrys"], ["items", "yelmogus-greatsword"]]
+off-hands = [["items", "arisen-labrys"], ["items", "labrys"], ["items", "lynx-labrys"]]
 spell_type = "skill"
 tags = ["off-hand_ability"]
 targets = "a_single_opponent"

@@ -5709,12 +5709,12 @@ family = "common"
 icon = "/img/monsters/terras/bone_mammoth.png"
 id = "bone-mammoth"
 rarity = "steward"
-skills = [["spells", "divine-bastion-ii"], ["spells", "infernus-mire"]]
+skills = [["spells", "divine-bastion"], ["spells", "infernus-mire"]]
 tier = 10
 
 [main.followers.bone-mammoth.stats]
 buff_rate = "7"
-protect_chance = "8%"
+protect_chance = "3%"
 spell_rate = "25"
 
 [main.followers.breathing-armor]
@@ -75750,7 +75750,7 @@ learned_by = [["classes", "36"]]
 spell_type = "spell"
 targets = "yourself"
 tier = 8
-used_by = [["followers", "gorynych-son-of-mountains"], ["followers", "living-arch-armor"], ["bosses", "gorynych-son-of-mountains"], ["bosses", "queen-of-dokkalfar"], ["bosses", "ymir-amphiptere"], ["monsters", "anteros-guard"], ["monsters", "fallen-vanguard"], ["monsters", "murk-066bec2c"], ["monsters", "runeblade-of-finesse"]]
+used_by = [["followers", "bone-mammoth"], ["followers", "gorynych-son-of-mountains"], ["followers", "living-arch-armor"], ["bosses", "gorynych-son-of-mountains"], ["bosses", "queen-of-dokkalfar"], ["bosses", "ymir-amphiptere"], ["monsters", "anteros-guard"], ["monsters", "fallen-vanguard"], ["monsters", "murk-066bec2c"], ["monsters", "runeblade-of-finesse"]]
 
 [main.spells.divine-bastion.stats]
 costs = "200"
@@ -75763,7 +75763,7 @@ learned_by = [["classes", "50"]]
 spell_type = "spell"
 targets = "yourself"
 tier = 9
-used_by = [["followers", "bone-mammoth"], ["bosses", "fallen-deity"], ["bosses", "fallen-gilgamesh"], ["bosses", "medea-arisen-queen"], ["bosses", "sumner-hera"], ["bosses", "sumner-zeus"], ["monsters", "failed-phoenix-40f6a0b6"], ["monsters", "great-phoenix-pledge-19c34e4d"], ["monsters", "shade-of-rhada-the-great-shield-70e460f3"], ["monsters", "swordbearer-of-finesse-612600e2"], ["monsters", "swordbearer-of-finesse-91560eaf"]]
+used_by = [["bosses", "fallen-deity"], ["bosses", "fallen-gilgamesh"], ["bosses", "medea-arisen-queen"], ["bosses", "sumner-hera"], ["bosses", "sumner-zeus"], ["monsters", "failed-phoenix-40f6a0b6"], ["monsters", "great-phoenix-pledge-19c34e4d"], ["monsters", "shade-of-rhada-the-great-shield-70e460f3"], ["monsters", "swordbearer-of-finesse-612600e2"], ["monsters", "swordbearer-of-finesse-91560eaf"]]
 
 [main.spells.divine-bastion-ii.stats]
 costs = "200"

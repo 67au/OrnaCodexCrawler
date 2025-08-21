@@ -4424,6 +4424,10 @@ name = "阿斯克腿甲"
 description = "刺客使用的裝飾品。當裝飾在武器上時，使你有機會破壞對手的防禦。"
 name = "刺客寶石"
 
+[main.items.astralseed]
+description = "A seed to expand one's Astraltree. Use them at the Astraltree to unlock various rewards. Astraltrees reset each week."
+name = "Astralseed"
+
 [main.items.atepomarus-mail]
 description = "阿特波馬羅斯的重型盔甲，弗摩爾族諾克圖娜家族的馬神。阿特波馬羅斯，三名手足的父親，他同時駕馭三匹駿馬投入戰鬥。當穿戴此裝備時，你將馴服對手的追隨者或是小夥伴，降低他們對你造成的傷害。"
 name = "阿特波馬羅斯鏈甲"
@@ -5551,6 +5555,10 @@ name = "科納爾的棍棒"
 [main.items.conquerors-crownguard]
 description = "一個供征服者公會使用的簡易皇冠守衛。皇冠守衛在防禦據點時能為你的角色提供額外力量，防禦其他玩家的攻擊。它們還可能防止征服者公會的 NPC 向你挑戰爭奪據點。這個皇冠守衛將在24小時內為你提供中等的力量加成。"
 name = "征服者的皇冠守衛"
+
+[main.items.constellationseed]
+description = "A seed to unlock larger rewards of an Astraltree. Astraltrees reset each week."
+name = "星座種籽"
 
 [main.items.contraption]
 description = "偉大發明家卡德所做的奇妙小物.鑲嵌到裝甲上能有很多好處."

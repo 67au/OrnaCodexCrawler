@@ -4424,6 +4424,10 @@ name = "Askr Leggings"
 description = "An adornment of assassins. When adorned upon a weapon, it grants the chance to inflict damage to an opponent's defenses."
 name = "Assassin's Jewel"
 
+[main.items.astralseed]
+description = "A seed to expand one's Astraltree. Use them at the Astraltree to unlock various rewards. Astraltrees reset each week."
+name = "Astralseed"
+
 [main.items.atepomarus-mail]
 description = "Heavy armor of Atepomarus, horse God and leader of the Fomorian house of Nocturna. Atepomarus, father to the three siblings, was set to ride three horses at once into battle. While wearing this item, you will tame your opponent's followers and summons, causing them to deal less damage to you."
 name = "Atepomarus Mail"
@@ -5551,6 +5555,10 @@ name = "Conall's Wand"
 [main.items.conquerors-crownguard]
 description = "A simple Crownguard for use by the Conqueror's Guild. Crownguards provide your character with added power when defending Settlements from other players. They may also prevent NPCs of the Conqueror's Guild from challenging you for your Settlements. This Crownguard will give you a moderate power boost for 24 hours."
 name = "Conqueror's Crownguard"
+
+[main.items.constellationseed]
+description = "A seed to unlock larger rewards of an Astraltree. Astraltrees reset each week."
+name = "Constellationseed"
 
 [main.items.contraption]
 description = "A small, strange thing made by Cade, the great inventor. It can provide all sorts of benefits to a piece of armor when adorned upon it."

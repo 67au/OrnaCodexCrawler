@@ -4424,6 +4424,10 @@ name = "阿斯克腿甲"
 description = "刺客使用的装饰品。当装饰在武器上时，使你有机会破坏对手的物防。"
 name = "刺客宝石"
 
+[main.items.astralseed]
+description = "能拓展星光树的种子。在星光树上使用它解锁各种奖励。星光树每周会重置一次。"
+name = "星光种子"
+
 [main.items.atepomarus-mail]
 description = "弗摩尔之诺特纳家族的领袖「驯马之神」阿特波玛鲁斯所穿戴的重甲。阿特波玛鲁斯，那三位孩子的父亲，被安排驾驭三匹战马赶赴战场。穿戴这件装备时，你能调教对手的追随者与召唤物，来减少他们对你造成的伤害。"
 name = "阿特波玛鲁斯链甲"
@@ -5551,6 +5555,10 @@ name = "科纳尔的魔杖"
 [main.items.conquerors-crownguard]
 description = "征服者公会使用的简易皇冠守卫。当从其他玩家手上保卫据点时，皇冠守卫将能为你的角色提供额外的力量。同时他们也能保卫你的据点避免来自征服者公会 NPC 的侵扰。该皇冠守卫为你提供中等力量的加成效果且会持续 24 小时。"
 name = "征服者的皇冠守卫"
+
+[main.items.constellationseed]
+description = "能用于解锁星光树上更多奖励的种子。星光树每周会重置一次。"
+name = "星座种子"
 
 [main.items.contraption]
 description = "伟大发明家卡德所做的奇妙小物。镶嵌到装甲上能有很多好处。"

@@ -19244,6 +19244,17 @@ name = "t__def_d"
 [[main.items.assassins-jewel.causes]]
 name = "t__def_dd"
 
+[main.items.astralseed]
+aura = "famed"
+category = "items"
+exotic = false
+icon = "/img/useables/favorstone.png"
+id = "astralseed"
+item_type = "useable"
+rarity = "famed"
+tier = 1
+useable_by = "all_classes"
+
 [main.items.atepomarus-mail]
 aura = "rare"
 category = "items"
@@ -25496,6 +25507,17 @@ useable_by = "all_classes"
 
 [main.items.conquerors-crownguard.stats]
 settlement_area_defense = "+20%"
+
+[main.items.constellationseed]
+aura = "legendary"
+category = "items"
+exotic = false
+icon = "/img/useables/favorstone2.png"
+id = "constellationseed"
+item_type = "useable"
+rarity = "legendary"
+tier = 1
+useable_by = "all_classes"
 
 [main.items.contraption]
 aura = "rare"

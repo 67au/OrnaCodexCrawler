@@ -30,6 +30,11 @@ description = "在战斗开始时，「APEX」会处于部分充能的状态。�
 icon = "/img/effects/apex.png"
 name = "APEX III"
 
+[abilities.apex_iv]
+description = "在战斗中，「APEX」会在你受到伤害时进行充能。当能量为满时，将能解锁「APEX」法术或技能。"
+icon = "/img/effects/apex.png"
+name = "APEX IV"
+
 [abilities.apothecarist]
 description = "你是钻研药水功效方面的高手。治疗物品可以恢复 125% 的生命值和魔力值。"
 icon = "/img/effects/leaf.png"
@@ -2739,6 +2744,10 @@ name = "雅卢盔甲"
 [main.items.aaru-boots]
 description = "造王者塞赫麦特的盔甲。当穿戴这件腿甲时，穿戴者在战斗中有机率暂时提升敏捷与暴击率。"
 name = "雅卢长靴"
+
+[main.items.aaru-crucible]
+description = "An crucible used by Ancient Aaru. Aaru had the most efficient of blacksmiths. Using this item will reduce the materials required for Blacksmith item upgrades by 20% for 1 hour."
+name = "雅卢熔炉"
 
 [main.items.aaru-garb]
 description = "造王者塞赫麦特的盔甲。能赋予追随者额外的能力来使用技能「剥削 II」。"
@@ -6108,6 +6117,26 @@ name = "黑暗法杖"
 description = "不死族流浪者所穿戴的黑暗盔甲，可以增加获得的欧币。"
 name = "深渊皮甲"
 
+[main.items.darkrift-chestguard]
+description = "Armor of one of the Darkrift Council, fallen aides to Judge Zagreus."
+name = "Darkrift Chestguard"
+
+[main.items.darkrift-cowl]
+description = "Armor of one of the Darkrift Council, fallen aides to Judge Zagreus."
+name = "Darkrift Cowl"
+
+[main.items.darkrift-dungeon-key]
+description = "A key that can allow one to run any Dungeon as a \"Darkrift Dungeon\" during the Riftfall event."
+name = "Darkrift Dungeon Key"
+
+[main.items.darkrift-fragment]
+description = "Bestial fragment of the Darkrift, Zagreus' domain of the Underworld. Upon using this item, encounters in the world will attract additional foes, creating horde battles instead. This item will last 1 hour."
+name = "Darkrift Fragment"
+
+[main.items.darkrift-robe]
+description = "Armor of one of the Darkrift Council, fallen aides to Judge Zagreus."
+name = "Darkrift Robe"
+
 [main.items.darkstone]
 description = "一块稀有的暗之石，它可以用来制作与升级魔法武器或防具。"
 name = "暗之石"
@@ -6989,11 +7018,11 @@ description = "副手能装的火炬。能提升你的视野范围并免疫致�
 name = "不灭火炬"
 
 [main.items.excalibur]
-description = "阿瓦隆王国亚瑟王的神兵，它可以保护持有者免疫流血。"
+description = "???"
 name = "誓约圣剑"
 
-[main.items.excalibur-eec7bf3e]
-description = "???"
+[main.items.excalibur-32be53bc]
+description = "阿瓦隆王国亚瑟王的神兵，它可以保护持有者免疫流血。"
 name = "誓约圣剑"
 
 [main.items.exp-potion]
@@ -12695,6 +12724,26 @@ name = "原初世界吞噬者"
 description = "令人敬畏的妖怪所持有的法杖，它有机率降低对手的魔防。"
 name = "妖怪法杖"
 
+[main.items.zagreus-bident]
+description = "Weapon of Zagreus, fallen Judge of Elysia. Zagreus carried two items -- one polearm and one net."
+name = "Zagreus Bident"
+
+[main.items.zagreus-chestplate]
+description = "Gear of Zagreus, fallen Judge of Elysia. Zagreus was once a Judge of Elysia, but fell within the Rift during Whiterift while flaunting his beastly antics. His followers followed him to the Underworld below."
+name = "Zagreus Chestplate"
+
+[main.items.zagreus-headwrap]
+description = "Gear of Zagreus, fallen Judge of Elysia. Zagreus was once a Judge of Elysia, but fell within the Rift during Whiterift while flaunting his beastly antics. His followers followed him to the Underworld below."
+name = "Zagreus Headwrap"
+
+[main.items.zagreus-legwraps]
+description = "Gear of Zagreus, fallen Judge of Elysia. Zagreus was once a Judge of Elysia, but fell within the Rift during Whiterift while flaunting his beastly antics. His followers followed him to the Underworld below."
+name = "Zagreus Legwraps"
+
+[main.items.zagreus-rete]
+description = "Weapon of Zagreus, fallen Judge of Elysia. Zagreus carried two items -- one polearm and one net."
+name = "Zagreus Rete"
+
 [main.items.zeta-myrddin]
 description = "阿瓦隆王国的著名巫师梅林所持有的显眼权杖。使用它施法能有机率降低对手的物防。"
 name = "ζ梅尔丁"
@@ -13061,6 +13110,15 @@ name = "黑暗狼人"
 [main.monsters.darkest-demon]
 name = "深渊恶魔"
 
+[main.monsters.darkrift-counsel]
+name = "Darkrift Counsel"
+
+[main.monsters.darkrift-counsel-1ac216f1]
+name = "Darkrift Counsel"
+
+[main.monsters.darkrift-counsel-33744a5f]
+name = "Darkrift Counsel"
+
 [main.monsters.deadwood]
 name = "死木"
 
@@ -13210,6 +13268,9 @@ name = "堕落盖亚"
 
 [main.monsters.fallen-ifrit]
 name = "堕落伊芙利特"
+
+[main.monsters.fallen-judge-zagreus]
+name = "Fallen Judge Zagreus"
 
 [main.monsters.fallen-knight]
 name = "堕落骑士"
@@ -14656,6 +14717,10 @@ name = "天坛座-灶神星之陨"
 description = "造成天辉伤害，伤害取决于对手被标记的天辉印记数量。该法术能够为汲魔瓶充能。"
 name = "天坛座-灶神星之波"
 
+[main.spells.aras-edge]
+description = "Cast without care, dealing damage to your opponent while burning more than necessary mana."
+name = "Ara's Edge"
+
 [main.spells.arc]
 description = "造成轻微的奥术伤害。"
 name = "弧光"
@@ -15028,6 +15093,14 @@ name = "斯卡蒂的呼召"
 description = "提升你的追随者施放攻击法术的机率。此技能由瓦尔哈拉系职业来使用最为有效。"
 name = "斯卡蒂的呼召 II"
 
+[main.spells.call-of-zagreus]
+description = "Increases the chance of your follower performing an offensive spell or buffing you. This skill will be most effective when Valhallan classes attempt it."
+name = "Call of Zagreus"
+
+[main.spells.call-of-zagreus-2]
+description = "Increases the chance of your follower performing an offensive spell or buffing you. This skill will be most effective when Valhallan classes attempt it."
+name = "Call of Zagreus (副手)"
+
 [main.spells.carina-sigil]
 description = "向对手施放一个持续时间较长的天辉印记，有机率对额外的目标施放。"
 name = "船底座印记"
@@ -15374,8 +15447,8 @@ description = "向对手施放一个印记。当身上存在一个元素印记�
 name = "龙之印记"
 
 [main.spells.dragon-tail-sweep]
-description = "Deals dragon damage to all opponents."
-name = "Dragon-tail Sweep (副手)"
+description = "对所有对手造成龙属性伤害。"
+name = "巨龙摆尾 (副手)"
 
 [main.spells.dragons-vengeance]
 description = "根据最近击杀的龙族数量造成巨量伤害。增益效果可能不会直接提升此技能的伤害。"
@@ -17129,6 +17202,10 @@ name = "安魂曲 II (副手)"
 description = "造成巨量的无属性魔法伤害并有机率使对手恍惚"
 name = "安魂曲 III (副手)"
 
+[main.spells.resolve-darkriftus]
+description = "Summons the Darkrift Council to assist you."
+name = "Resolve Darkriftus"
+
 [main.spells.revive]
 description = "复活一位被击倒的队友并回复些许生命值。在战斗中需要 2 回合发动。"
 name = "复活"
@@ -17286,7 +17363,7 @@ description = "使你的武器感电并对对手进行攻击，同时造成暗�
 name = "闪电影蚀"
 
 [main.spells.shadowveil]
-description = "在战斗开始的两回合后且护盾接近为满时才能使用。使用后的每回合将消耗你的护盾来提升物攻、急切与敏捷。「影幕」状态会持续 5 个回合，或护盾耗尽提前结束。"
+description = "Consume both HP and Ward every turn to boost your Attack, Avidity rate, and dexterity. Shadowveil will last 5 turns or until Ward is depleted."
 name = "影幕"
 
 [main.spells.sharpen]
@@ -18113,6 +18190,10 @@ name = "突刺挑斩 (副手)"
 description = "防御 1 回合后用尽双手之力攻击，造成极为浮动的伤害，且有机率命中额外的两个目标。"
 name = "突刺挑斩 II (副手)"
 
+[main.spells.ursas-edge]
+description = "随意的攻击，对对手造成伤害的同时也对自身造成伤害。"
+name = "Ursa's Edge"
+
 [main.spells.verse]
 description = "造成巨大的无属性法术伤害，有机率暂时降低对手的物防和魔防。伤害量同时计入物攻及魔攻。"
 name = "龙韵"
@@ -18434,7 +18515,6 @@ paths_of_fomoria__house_of_nocturna = "弗摩尔族之路：诺特纳家族"
 paths_of_fomoria__house_of_sumner = "弗摩尔族之路：萨姆纳家族"
 paths_of_fomoria__house_of_wintara = "弗摩尔族之路：温塔拉家族"
 phoenixrise = "凤凰涅槃"
-rift_distortion = "裂隙扭曲"
 riftfall = "裂隙陷落"
 sisters_of_morrigan = "摩莉甘的姊妹"
 summer_solstice = "冬至"
@@ -18537,12 +18617,16 @@ spell = "法术"
 "+berserk" = "+狂暴"
 "+blessed_shield" = "+祝福之盾"
 "+bloodshift" = "+鲜血转移"
+"+call_of_zagreus" = "+Call of Zagreus"
 "+curse_of_sekhmet" = "+塞赫麦特的诅咒"
 "+exploit_ii" = "+剥削 II"
 "+gods_of_aaru" = "+雅卢神力"
 "+great_meditation" = "+崇高冥想"
 "+ponder" = "+沉思术"
 "+rebirth" = "+自我再生"
+"+resolve_darkriftus" = "+Resolve Darkriftus"
+"+resolve_darkriftus,_+ara_s_edge" = "+Resolve Darkriftus, +Ara's Edge"
+"+shadowveil,_+ursa_s_edge" = "+影幕, +Ursa's Edge"
 "+sharpen" = "+磨刀术"
 "+swordplay" = "+剑击"
 "+walls_of_aaru" = "+雅卢防壁"
@@ -18560,6 +18644,7 @@ attack_rate = "攻击机率"
 avidity = "急切"
 beast_taming = "野兽调教"
 bestial_bond = "野兽羁绊"
+blacksmith_material_cost = "铁匠铺材料花费"
 blacksmith_time = "铁匠时间"
 buff_duration = "增益持续时间"
 buff_rate = "增益机率"
@@ -18662,6 +18747,7 @@ ward_start = "开场护盾"
 water_damage = "水属性伤害"
 weapon_power = "武器威力"
 weapon_proficiency = "武器精通"
+world_horde_opponents = "World Horde Opponents"
 
 [msg.status]
 aegir = "埃吉尔"
@@ -18719,6 +18805,7 @@ dark_dragon = "暗黑龙"
 dark_pegasus = "暗黑天马"
 dark_sigil = "暗之印记"
 darkblight = "暗黑疫病"
+darkrift_counsel = "Darkrift Counsel"
 def_d = "Def ↓"
 def_dd = "Def ↓↓"
 def_u = "Def ↑"
@@ -18924,6 +19011,7 @@ wind_aligned = "风行者"
 wind_sigil = "风之印记"
 windblight = "风之疫病"
 windswept = "逆风"
+zagreus = "Zagreus"
 
 [msg.tags]
 found_in_arcanists = "奥术商店售卖"

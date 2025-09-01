@@ -10205,6 +10205,7 @@ chance = "15%"
 name = "t__dark_immune"
 
 [main.items.ancient-dark-essence.stats]
+apex = "+20%"
 apex_rate = "+6%"
 attack = "20"
 defense = "20"
@@ -10232,6 +10233,7 @@ chance = "15%"
 name = "t__earth_immune"
 
 [main.items.ancient-earth-essence.stats]
+apex = "+20%"
 apex_rate = "+6%"
 attack = "20"
 defense = "20"
@@ -10280,6 +10282,7 @@ chance = "15%"
 name = "t__fire_immune"
 
 [main.items.ancient-fire-essence.stats]
+apex = "+20%"
 apex_rate = "+6%"
 attack = "20"
 defense = "20"
@@ -10307,6 +10310,7 @@ chance = "15%"
 name = "t__holy_immune"
 
 [main.items.ancient-holy-essence.stats]
+apex = "+20%"
 apex_rate = "+6%"
 attack = "20"
 defense = "20"
@@ -10383,6 +10387,7 @@ chance = "15%"
 name = "t__lightning_immune"
 
 [main.items.ancient-lightning-essence.stats]
+apex = "+20%"
 apex_rate = "+6%"
 attack = "20"
 defense = "20"
@@ -10499,6 +10504,7 @@ chance = "15%"
 name = "t__water_immune"
 
 [main.items.ancient-water-essence.stats]
+apex = "+20%"
 apex_rate = "+6%"
 attack = "20"
 defense = "20"
@@ -28717,6 +28723,7 @@ useable_by = "thief_classes"
 [main.items.darkrift-cowl.stats]
 "+shadowveil,_+ursa_s_edge" = true
 adornment_slots = "4"
+apex = "+10%"
 apex_rate = "+10%"
 attack = "12"
 defense = "224"
@@ -65090,6 +65097,7 @@ useable_by = "all_classes"
 
 [main.items.zagreus-bident.stats]
 adornment_slots = "4"
+apex = "+10%"
 apex_rate = "+3%"
 apex_start = "25%"
 attack = "240"

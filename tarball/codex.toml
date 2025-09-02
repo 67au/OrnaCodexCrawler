@@ -28770,7 +28770,7 @@ tier = 4
 useable_by = "all_classes"
 
 [main.items.darkrift-fragment.stats]
-world_horde_opponents = "+2%"
+world_horde_opponents = "+2"
 
 [main.items.darkrift-robe]
 aura = "legendary"
@@ -91280,7 +91280,7 @@ useable_by = ["all_classes", "magic_users", "melee_classes", "thief_classes", "v
 "stats.water_damage" = "PERCENT"
 "stats.weapon_power" = "SIGNED_PERCENT"
 "stats.weapon_proficiency" = "SIGNED_PERCENT"
-"stats.world_horde_opponents" = "SIGNED_PERCENT"
+"stats.world_horde_opponents" = "SIGNED"
 
 [sorts.raids]
 hp = "NUMBER"

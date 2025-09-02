@@ -1037,6 +1037,9 @@ name = "Fallen Hero, Lover Lost"
 [main.bosses.fallen-ithra-the-white-knight]
 name = "Fallen Ithra, the White Knight"
 
+[main.bosses.fallen-judge-zagreus]
+name = "Fallen Judge Zagreus"
+
 [main.bosses.fallen-ra-the-seer]
 name = "Fallen Ra, the Seer"
 
@@ -13268,9 +13271,6 @@ name = "Fallen Gaia"
 
 [main.monsters.fallen-ifrit]
 name = "Fallen Ifrit"
-
-[main.monsters.fallen-judge-zagreus]
-name = "Fallen Judge Zagreus"
 
 [main.monsters.fallen-knight]
 name = "Fallen Knight"

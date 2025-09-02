@@ -1889,6 +1889,23 @@ rarity = "common"
 skills = [["spells", "frost-ii"], ["spells", "blizzard"], ["spells", "doublecut"], ["spells", "fire-wall"], ["spells", "frost-iii"], ["spells", "blizzard-ii"], ["spells", "icestrike-ii"], ["spells", "multi-frost"], ["spells", "riposte"], ["spells", "swordplay"]]
 tier = 9
 
+[main.bosses.fallen-judge-zagreus]
+aura = "superboss"
+category = "bosses"
+drops = [["items", "darkrift-fragment"], ["items", "zagreus-bident"], ["items", "zagreus-chestplate"], ["items", "zagreus-headwrap"], ["items", "zagreus-legwraps"], ["items", "zagreus-rete"]]
+events = ["riftfall"]
+family = "human"
+icon = "/img/bosses/zagreus.png"
+id = "fallen-judge-zagreus"
+rarity = "rare"
+skills = [["spells", "rhada-stomp"], ["spells", "channelalus"], ["spells", "1000-blades-eventualus"], ["spells", "gloomstrike-iii"], ["spells", "sacrestrike-iii"]]
+tier = 10
+[[main.bosses.fallen-judge-zagreus.abilities]]
+name = "the_cataphract"
+
+[[main.bosses.fallen-judge-zagreus.abilities]]
+name = "apex_(ursa)"
+
 [main.bosses.fallen-ra-the-seer]
 category = "bosses"
 drops = [["items", "eyestone"], ["items", "ras-cane"], ["items", "ring-of-annwn"]]
@@ -28743,7 +28760,7 @@ useable_by = "all_classes"
 [main.items.darkrift-fragment]
 aura = "famed"
 category = "items"
-dropped_by = [["monsters", "fallen-judge-zagreus"]]
+dropped_by = [["bosses", "fallen-judge-zagreus"]]
 exotic = false
 icon = "/img/useables/darkrift_fragment.png"
 id = "darkrift-fragment"
@@ -65083,7 +65100,7 @@ magic = "86"
 [main.items.zagreus-bident]
 aura = "famed"
 category = "items"
-dropped_by = [["monsters", "fallen-judge-zagreus"]]
+dropped_by = [["bosses", "fallen-judge-zagreus"]]
 exotic = true
 icon = "/img/weapons/zagreus_bident.png"
 id = "zagreus-bident"
@@ -65109,7 +65126,7 @@ ward = "2%"
 [main.items.zagreus-chestplate]
 aura = "famed"
 category = "items"
-dropped_by = [["monsters", "fallen-judge-zagreus"]]
+dropped_by = [["bosses", "fallen-judge-zagreus"]]
 exotic = true
 icon = "/img/armor/zagreus_chestplate.png"
 id = "zagreus-chestplate"
@@ -65132,7 +65149,7 @@ ward = "2%"
 [main.items.zagreus-headwrap]
 aura = "famed"
 category = "items"
-dropped_by = [["monsters", "fallen-judge-zagreus"]]
+dropped_by = [["bosses", "fallen-judge-zagreus"]]
 exotic = true
 icon = "/img/armor/zagreus_headwrap.png"
 id = "zagreus-headwrap"
@@ -65155,7 +65172,7 @@ ward = "2%"
 [main.items.zagreus-legwraps]
 aura = "famed"
 category = "items"
-dropped_by = [["monsters", "fallen-judge-zagreus"]]
+dropped_by = [["bosses", "fallen-judge-zagreus"]]
 exotic = true
 icon = "/img/armor/zagreus_legwraps.png"
 id = "zagreus-legwraps"
@@ -65179,7 +65196,7 @@ ward = "2%"
 ability = ["spells", "call-of-zagreus-2"]
 aura = "famed"
 category = "items"
-dropped_by = [["monsters", "fallen-judge-zagreus"]]
+dropped_by = [["bosses", "fallen-judge-zagreus"]]
 exotic = true
 icon = "/img/wards/zagreus_rete.png"
 id = "zagreus-rete"
@@ -66840,7 +66857,7 @@ family = "human"
 icon = "/img/monsters/council_beo.png"
 id = "darkrift-counsel-33744a5f"
 rarity = "common"
-skills = [["spells", "beaststrike-iv"], ["spells", "call-of-zagreus"], ["spells", "verse-iv"]]
+skills = [["spells", "beaststrike-iv"], ["spells", "natura-eventualus-ii"], ["spells", "call-of-zagreus"], ["spells", "verse-iv"]]
 tier = 10
 [[main.monsters.darkrift-counsel-33744a5f.abilities]]
 name = "apex_iv"
@@ -67386,23 +67403,6 @@ name = "second_chance"
 
 [[main.monsters.fallen-ifrit.abilities]]
 name = "life_siphon"
-
-[main.monsters.fallen-judge-zagreus]
-aura = "superboss"
-category = "monsters"
-drops = [["items", "darkrift-fragment"], ["items", "zagreus-bident"], ["items", "zagreus-chestplate"], ["items", "zagreus-headwrap"], ["items", "zagreus-legwraps"], ["items", "zagreus-rete"]]
-events = ["riftfall"]
-family = "human"
-icon = "/img/bosses/zagreus.png"
-id = "fallen-judge-zagreus"
-rarity = "rare"
-skills = [["spells", "rhada-stomp"], ["spells", "channelalus"], ["spells", "1000-blades-eventualus"], ["spells", "gloomstrike-iii"], ["spells", "sacrestrike-iii"]]
-tier = 10
-[[main.monsters.fallen-judge-zagreus.abilities]]
-name = "the_cataphract"
-
-[[main.monsters.fallen-judge-zagreus.abilities]]
-name = "apex_(ursa)"
 
 [main.monsters.fallen-knight]
 category = "monsters"
@@ -71749,7 +71749,7 @@ learned_by = [["classes", "85"]]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 10
-used_by = [["monsters", "fallen-judge-zagreus"]]
+used_by = [["bosses", "fallen-judge-zagreus"]]
 
 [main.spells.1000-blades-eventualus.stats]
 costs = "250"
@@ -74415,7 +74415,7 @@ learned_by = [["classes", "46"], ["classes", "48"], ["classes", "47"], ["classes
 spell_type = "spell"
 targets = "yourself"
 tier = 9
-used_by = [["monsters", "fallen-judge-zagreus"]]
+used_by = [["bosses", "fallen-judge-zagreus"]]
 
 [[main.spells.channelalus.gives]]
 chance = "100%"
@@ -78951,7 +78951,7 @@ learned_by = [["classes", "85"]]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 10
-used_by = [["raids", "arisen-covyn"], ["bosses", "sumner-hades"], ["monsters", "darkrift-counsel"], ["monsters", "fallen-judge-zagreus"]]
+used_by = [["raids", "arisen-covyn"], ["bosses", "fallen-judge-zagreus"], ["bosses", "sumner-hades"], ["monsters", "darkrift-counsel"]]
 
 [[main.spells.gloomstrike-iii.causes]]
 chance = "25%"
@@ -82702,6 +82702,7 @@ learned_by = [["classes", "49"]]
 spell_type = "spell"
 targets = "every_opponent_in_a_battle"
 tier = 9
+used_by = [["monsters", "darkrift-counsel-33744a5f"]]
 
 [main.spells.natura-eventualus-ii.stats]
 costs = "200"
@@ -84820,7 +84821,7 @@ id = "rhada-stomp"
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 7
-used_by = [["followers", "shade-of-rhada-the-great-shield"], ["followers", "shadow-of-rhada-the-great-shield"], ["raids", "arisen-judge-rhada"], ["raids", "arisen-rift-judgement"], ["raids", "dangy"], ["raids", "fallen-judge-rhada"], ["raids", "rift-judgement"], ["bosses", "sumner-hephaestus"], ["monsters", "fallen-judge-zagreus"]]
+used_by = [["followers", "shade-of-rhada-the-great-shield"], ["followers", "shadow-of-rhada-the-great-shield"], ["raids", "arisen-judge-rhada"], ["raids", "arisen-rift-judgement"], ["raids", "dangy"], ["raids", "fallen-judge-rhada"], ["raids", "rift-judgement"], ["bosses", "fallen-judge-zagreus"], ["bosses", "sumner-hephaestus"]]
 
 [main.spells.rhada-stomp.stats]
 costs = "100"
@@ -85192,7 +85193,7 @@ learned_by = [["classes", "85"]]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 10
-used_by = [["raids", "arisen-covyn"], ["monsters", "fallen-judge-zagreus"]]
+used_by = [["raids", "arisen-covyn"], ["bosses", "fallen-judge-zagreus"]]
 
 [[main.spells.sacrestrike-iii.causes]]
 chance = "25%"

@@ -1037,6 +1037,9 @@ name = "墮落英雄戀逝"
 [main.bosses.fallen-ithra-the-white-knight]
 name = "墮落白騎士以斯拉"
 
+[main.bosses.fallen-judge-zagreus]
+name = "Fallen Judge Zagreus"
+
 [main.bosses.fallen-ra-the-seer]
 name = "墮落先知-拉"
 
@@ -13268,9 +13271,6 @@ name = "墮落蓋亞"
 
 [main.monsters.fallen-ifrit]
 name = "墮落伊夫利特"
-
-[main.monsters.fallen-judge-zagreus]
-name = "Fallen Judge Zagreus"
 
 [main.monsters.fallen-knight]
 name = "墮落騎士"

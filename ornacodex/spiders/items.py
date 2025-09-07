@@ -60,6 +60,11 @@ class Spider(BaseSpider):
                         for ss in s.split('/'):
                             tmp.append(tuple(i.strip()
                                        for i in Exctractor.extract_kv(ss.strip())))
+                    elif ', ' in s:
+                        for ss in s.split(','):
+                            tmp.append(tuple(i.strip()
+                                       for i in Exctractor.extract_kv(ss.strip())))
+                    
                     else:
                         tmp.append(tuple(i.strip()
                                    for i in Exctractor.extract_kv(s)))

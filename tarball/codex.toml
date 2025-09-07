@@ -28775,7 +28775,8 @@ upgrade_materials = [["items", "wolfs-blood"], ["items", "silk"]]
 useable_by = "thief_classes"
 
 [main.items.darkrift-cowl.stats]
-"+shadowveil,_+ursa_s_edge" = true
+"+shadowveil" = true
+"+ursa_s_edge" = true
 adornment_slots = "4"
 apex = "+10%"
 apex_rate = "+10%"
@@ -28824,7 +28825,8 @@ upgrade_materials = [["items", "wolfs-blood"], ["items", "silk"]]
 useable_by = "magic_users"
 
 [main.items.darkrift-robe.stats]
-"+resolve_darkriftus,_+ara_s_edge" = true
+"+ara_s_edge" = true
+"+resolve_darkriftus" = true
 adornment_slots = "4"
 dexterity = "12"
 magic = "12"
@@ -91251,6 +91253,7 @@ useable_by = ["all_classes", "magic_users", "melee_classes", "thief_classes", "v
 "stats.spell_rate" = "NUMBER"
 
 [sorts.items]
+"stats.+ara_s_edge" = "BOOL"
 "stats.+arch-alchemy" = "BOOL"
 "stats.+barrier" = "BOOL"
 "stats.+berserk" = "BOOL"
@@ -91264,10 +91267,10 @@ useable_by = ["all_classes", "magic_users", "melee_classes", "thief_classes", "v
 "stats.+ponder" = "BOOL"
 "stats.+rebirth" = "BOOL"
 "stats.+resolve_darkriftus" = "BOOL"
-"stats.+resolve_darkriftus,_+ara_s_edge" = "BOOL"
-"stats.+shadowveil,_+ursa_s_edge" = "BOOL"
+"stats.+shadowveil" = "BOOL"
 "stats.+sharpen" = "BOOL"
 "stats.+swordplay" = "BOOL"
+"stats.+ursa_s_edge" = "BOOL"
 "stats.+walls_of_aaru" = "BOOL"
 "stats.+ward_of_mythril" = "BOOL"
 "stats.+ward_of_ortanite" = "BOOL"

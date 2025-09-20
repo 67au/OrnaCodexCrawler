@@ -18787,7 +18787,7 @@ ward_start = "开场护盾"
 water_damage = "水属性伤害"
 weapon_power = "武器威力"
 weapon_proficiency = "武器精通"
-world_horde_opponents = "地牢浪潮敌人"
+world_horde_opponents = "地图浪潮敌人"
 
 [msg.status]
 aegir = "埃吉尔"

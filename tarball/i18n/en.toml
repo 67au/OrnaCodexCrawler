@@ -788,6 +788,9 @@ name = "Arisen Dagda"
 [main.bosses.arisen-demeter-the-earth-magus]
 name = "Arisen Demeter, the Earth Magus"
 
+[main.bosses.arisen-dullahan]
+name = "Arisen Dullahan"
+
 [main.bosses.arisen-eistla]
 name = "Arisen Eistla"
 
@@ -1315,6 +1318,9 @@ name = "Sumner Zeus"
 
 [main.bosses.terrifying-ghost]
 name = "Terrifying Ghost"
+
+[main.bosses.the-dullahan]
+name = "The Dullahan"
 
 [main.bosses.tiamat]
 name = "Tiamat"
@@ -3580,6 +3586,18 @@ name = "Arisen Demeter's Staff"
 description = "An archistaff granted to Draconian lords. Illuminates your path while carried."
 name = "Arisen Draconian Archistaff"
 
+[main.items.arisen-dullahan-bladed-boots]
+description = "He bows with grace, though crownless still,\nA jester bound to fate’s dark will.\nHe tips his skull with courtly cheer,\nAnd whispers names for none to hear."
+name = "Arisen Dullahan Bladed Boots"
+
+[main.items.arisen-dullahan-cloak]
+description = "Through misty moors the rider flies,\nWith hollow laugh and lantern eyes.\nHis severed head held firm and tight,\nA beacon grim in candlelight."
+name = "Arisen Dullahan Cloak"
+
+[main.items.arisen-dullahan-skull]
+description = "The Dullahan rides when the moon is high,\nA headless shadow against the sky.\nHe hums a tune both sharp and sweet,\nThat chills the heart with every beat."
+name = "Arisen Dullahan Skull"
+
 [main.items.arisen-embla-hood]
 description = "Hood of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself."
 name = "Arisen Embla Hood"
@@ -4127,6 +4145,10 @@ name = "Arisen Silk Crossbow"
 [main.items.arisen-sleighblade]
 description = "A glistening sword carried by followers of Scruug. It is quite chilling to the touch. When using this weapon, you will start battle with Ward automatically activated."
 name = "Arisen Sleighblade"
+
+[main.items.arisen-spinal-whip]
+description = "He lifts his head as though to bow,\nAnd tips it gently, here and now.\nNo crown of gold, no jeweled delight,\nJust grinning teeth in ghostly white."
+name = "Arisen Spinal Whip"
 
 [main.items.arisen-spiritgarm-grimoire]
 description = "Book carried by Fenja, the Nothren summoner. It can call a famed Nothren wolf into battle."
@@ -4999,6 +5021,50 @@ name = "Beguiled Staff X"
 [main.items.beguiled-staff-y]
 description = "Staff once held by Apollyon, the exiled mystic. This weapon increases the damage dealt when using spells or skills of your faction, but has less effectiveness with elements not practiced by the four factions."
 name = "Beguiled Staff Y"
+
+[main.items.beheaded-assassins-bladed-boots]
+description = "His cloak is stitched from midnight’s thread,\nA riddle’s crown upon his head."
+name = "Beheaded Assassin's Bladed Boots"
+
+[main.items.beheaded-benefactors-pumpkinhead]
+description = "He trades no gold, nor silver key,\nJust laughter laced with misery."
+name = "Beheaded Benefactor's Pumpkinhead"
+
+[main.items.beheaded-duelists-chausses]
+description = "He laughs through teeth that chatter cold,\nA jester grim from stories old."
+name = "Beheaded Duelist’s Chausses"
+
+[main.items.beheaded-high-clerics-ankh]
+description = "Across the bridge, through mist and moor,\nHe knocks with silence at your door."
+name = "Beheaded High Cleric's Ankh"
+
+[main.items.beheaded-merchants-tunic]
+description = "Yet still he hums a jaunty tune,\nBeneath the glow of a fickle moon."
+name = "Beheaded Merchant's Tunic"
+
+[main.items.beheaded-scholars-chargeblade]
+description = "No eyes to see, yet all behold,\nThe rider grim with tales of old."
+name = "Beheaded Scholar's Chargeblade"
+
+[main.items.beheaded-stargazers-candlehead]
+description = "Head tucked tight beneath his arm,\nHe rides through night with ghostly charm."
+name = "Beheaded Stargazer's Candlehead"
+
+[main.items.beheaded-swashbucklers-jacket]
+description = "The Dullahan rides with a lantern grin,\nHis severed head tucked snug within."
+name = "Beheaded Swashbuckler's Jacket"
+
+[main.items.beheaded-tricksters-pumpkinhead]
+description = "A pumpkin grin? No, something darker,\nA whispered curse, a soul’s last marker."
+name = "Beheaded Trickster’s Pumpkinhead"
+
+[main.items.beheaded-wardens-tower-shield]
+description = "A frightful sight, yet oddly spry,\nA ghost who winks as he passes by."
+name = "Beheaded Warden’s Tower Shield"
+
+[main.items.beheaded-zwei-fencers-cuirass]
+description = "Horses snort sparks, their hooves strike flame,\nHe calls no soul, yet whispers your name."
+name = "Beheaded Zwei-fencer’s Cuirass"
 
 [main.items.beithirs-staff]
 description = "Aside: As Illuyanka's walls were raised, protection for this new land was needed. Beithir, with the breath of lightning and claws of toxin, replicated itself indefinitely. An army of Dragons was created in an instant."
@@ -5936,6 +6002,10 @@ name = "Cursed Imona's Slippers"
 description = "Hood of Lero, apprentice God of the Fomorian house of Wintara. Lero, untrained, youthful, and rather brash, was quick to fall during Morrigan's invasion. While wearing this item, buffs cast by its wearer may transfer to a party mate. Additionally, positive status effects will last longer."
 name = "Cursed Lero's Hood"
 
+[main.items.cursed-metals]
+description = "His steed eats shadows, drinks the gloom,\nIt prances proud through graveyard bloom.\nWith every stride, the stars take fright,\nAnd hide behind the cloak of night."
+name = "Cursed Metals"
+
 [main.items.cursed-monster-tome]
 description = "A tome recounting the cursed stories of Fafnir. Increases experience earned at the expense of your potential."
 name = "Cursed Monster Tome"
@@ -5975,6 +6045,10 @@ name = "Cursed Sabrina's Cowl"
 [main.items.cursed-sequanas-chestpiece]
 description = "Masterly smithed chest armor of Sequana, river Goddess and leader of the Fomorian house of Autumna. The oldest of her sisters, Sequana was a deity of grace and fortune. While wearing this item, debuffs will be easier to cast on your opponent. Additionally, it increases the maximum damage of status effects on your opponent."
 name = "Cursed Sequana's Chestpiece"
+
+[main.items.cursed-spine-shard]
+description = "The air grows still, the candles dim,\nAs mortals dream and think of him.\nA trickster, herald, phantom, friend,\nWhose tale begins but will not end."
+name = "Cursed Spine Shard"
 
 [main.items.cursed-sumner-crested-shield]
 description = "Shield of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
@@ -6992,6 +7066,10 @@ name = "Enchanted Skull"
 description = "A large unrefined blade of giant warriors."
 name = "Endbringer"
 
+[main.items.endless-treats]
+description = "So mind the road where shadows play,\nFor Dullahan may pass your way.\nHe brings no gold, no curse, no plea,\nJust riddles whispered eerily."
+name = "Endless Treats"
+
 [main.items.eostres-circlet]
 description = "Circlet of Eostre, warrior Goddess of the Fomorian house of Sumner. Eostre protected the fields and crops of Fomoria; crops that would ultimately grow the vessels of Fomoria's curse. While wearing this item, skills that target multiple opponents will deal additional damage. Additionally, skills will seldomly hit more than one opponent."
 name = "Eostre's Circlet"
@@ -7021,11 +7099,11 @@ description = "A torch, carried in one's off-hand. It increases your sight, prev
 name = "Everlasting Torch"
 
 [main.items.excalibur]
-description = "???"
+description = "The mythic weapon of Arthus, the king of Avalon. It protects its wielder from bleeding."
 name = "Excalibur"
 
-[main.items.excalibur-32be53bc]
-description = "The mythic weapon of Arthus, the king of Avalon. It protects its wielder from bleeding."
+[main.items.excalibur-eec7bf3e]
+description = "???"
 name = "Excalibur"
 
 [main.items.exp-potion]
@@ -7736,7 +7814,7 @@ name = "Fomoria Plated Robe"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Fomoria Plated Robe"
 
-[main.items.fomoria-plated-robe-946a26b9]
+[main.items.fomoria-plated-robe-fb3188b6]
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Fomoria Plated Robe"
 
@@ -8407,6 +8485,22 @@ name = "Hardwood Lute"
 [main.items.harpys-feathers]
 description = "Crude armor made of the remains of a harpy. Does not offer much defense, but raises your dexterity."
 name = "Harpy's Feathers"
+
+[main.items.haunted-calling-bell]
+description = "So when the winds grow sharp and thin,\nAnd night pulls tighter round your skin,\nTake heed, take care, and hush your breath,\nFor Dullahan rides the roads of death."
+name = "Haunted Calling Bell"
+
+[main.items.haunted-dullahan-bladed-boots]
+description = "He bows with grace, though crownless still,\nA jester bound to fate’s dark will.\nHe tips his skull with courtly cheer,\nAnd whispers names for none to hear."
+name = "Haunted Dullahan Bladed Boots"
+
+[main.items.haunted-dullahan-cloak]
+description = "Through misty moors the rider flies,\nWith hollow laugh and lantern eyes.\nHis severed head held firm and tight,\nA beacon grim in candlelight."
+name = "Haunted Dullahan Cloak"
+
+[main.items.haunted-dullahan-skull]
+description = "The Dullahan rides when the moon is high,\nA headless shadow against the sky.\nHe hums a tune both sharp and sweet,\nThat chills the heart with every beat."
+name = "Haunted Dullahan Skull"
 
 [main.items.havels-cuirass]
 description = "Gear of the giant knight."
@@ -9084,7 +9178,7 @@ name = "Kerberos Archistaff"
 description = "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
 name = "Kerberos Claws"
 
-[main.items.kerberos-claws-e7f61ea1]
+[main.items.kerberos-claws-81b67c8d]
 description = "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
 name = "Kerberos Claws"
 
@@ -11643,6 +11737,10 @@ name = "Spelunking Staff"
 description = "Spiked shield of Judge Rhada. When using this shield, skills that consume Ward will be more effective."
 name = "Spiked Greatshield"
 
+[main.items.spinal-whip]
+description = "He lifts his head as though to bow,\nAnd tips it gently, here and now.\nNo crown of gold, no jeweled delight,\nJust grinning teeth in ghostly white."
+name = "Spinal Whip"
+
 [main.items.spine-of-eos]
 description = "A piece of a Titan themself. These pieces can be used to augment celestial weapons at a Titan Workshop."
 name = "Spine of Eos"
@@ -12974,6 +13072,39 @@ name = "Beag"
 
 [main.monsters.bear]
 name = "Bear"
+
+[main.monsters.beheaded-assassin]
+name = "Beheaded Assassin"
+
+[main.monsters.beheaded-benefactor]
+name = "Beheaded Benefactor"
+
+[main.monsters.beheaded-duelist]
+name = "Beheaded Duelist"
+
+[main.monsters.beheaded-high-cleric]
+name = "Beheaded High Cleric"
+
+[main.monsters.beheaded-merchant]
+name = "Beheaded Merchant"
+
+[main.monsters.beheaded-scholar]
+name = "Beheaded Scholar"
+
+[main.monsters.beheaded-stargazer]
+name = "Beheaded Stargazer"
+
+[main.monsters.beheaded-swashbuckler]
+name = "Beheaded Swashbuckler"
+
+[main.monsters.beheaded-trickster]
+name = "Beheaded Trickster"
+
+[main.monsters.beheaded-warden]
+name = "Beheaded Warden"
+
+[main.monsters.beheaded-zwei-fencer]
+name = "Beheaded Zwei-Fencer"
 
 [main.monsters.behemoth]
 name = "Behemoth (Arisen)"
@@ -14880,6 +15011,18 @@ name = "Beaststrike IV"
 [main.spells.beaststrikes]
 description = "Swiftly attack thrice with the might of beasts, with a greater chance of dealing critical damage. Total damage is determined by both your attack and magic stats."
 name = "Beaststrikes"
+
+[main.spells.beheading-cleave]
+description = "A pumpkin patch may quake with cheer, when Dullahan is drawing near."
+name = "Beheading Cleave"
+
+[main.spells.beheading-slice]
+description = "A courtly ghost, both kind and cruel, who plays the world as if a fool."
+name = "Beheading Slice"
+
+[main.spells.beheading-sweep]
+description = "But when they turn, no trace remains, just moonlit hoofprints on the lanes."
+name = "Beheading Sweep"
 
 [main.spells.berserk]
 description = "Greatly boosts total damage, but damages oneself over time."
@@ -17035,6 +17178,10 @@ name = "Provoke"
 description = "When battling with your party, your opponents will temporarily be more likely to target you."
 name = "Provoke II"
 
+[main.spells.pumpkin-gaze]
+description = "Yet if you dare to peek outside, you'll find him gone, just shadows ride."
+name = "Pumpkin Gaze"
+
 [main.spells.pumpkin-smash]
 description = "A giant pumpkin."
 name = "Pumpkin Smash"
@@ -17201,6 +17348,10 @@ name = "Requiem II (Off-hand)"
 [main.spells.requiem-iii]
 description = "Deals moderate non-elemental damage and may lull an opponent"
 name = "Requiem III (Off-hand)"
+
+[main.spells.reraise]
+description = "Grants a blessing that will automatically revive a party member when falling in battle."
+name = "Reraise"
 
 [main.spells.resolve-darkriftus]
 description = "Summons the Darkrift Council to assist you."
@@ -18254,6 +18405,10 @@ name = "Wail"
 description = "A shrill wail."
 name = "Wail II"
 
+[main.spells.wail-ii-2]
+description = "A shrill wail."
+name = "Wail II (Off-hand)"
+
 [main.spells.wallop]
 description = "Strike hard from above, breaking defenses temporarily."
 name = "Wallop"
@@ -18520,6 +18675,7 @@ sisters_of_morrigan = "Sisters of Morrigan"
 summer_solstice = "Summer Solstice"
 sumner_games = "Sumner Games"
 terra_s_day = "Terra's Day"
+terra_s_legacy = "Terra's Legacy"
 terra_s_legacy__natureblight = "Terra's Legacy: Natureblight"
 the_crimson_festival = "The Crimson Festival"
 the_hallowed = "The Hallowed"
@@ -18651,27 +18807,17 @@ skill = "Skill"
 spell = "Spell"
 
 [msg.stats]
-"+ara_s_edge" = "+Ara's Edge"
 "+arch-alchemy" = "+Arch-Alchemy"
-"+barrier" = "+Barrier"
-"+berserk" = "+Berserk"
-"+blessed_shield" = "+Blessed Shield"
-"+bloodshift" = "+Bloodshift"
-"+call_of_zagreus" = "+Call of Zagreus"
-"+curse_of_sekhmet" = "+Curse of Sekhmet"
-"+exploit_ii" = "+Exploit II"
-"+gods_of_aaru" = "+Gods of Aaru"
-"+great_meditation" = "+Great Meditation"
-"+ponder" = "+Ponder"
-"+rebirth" = "+Rebirth"
-"+resolve_darkriftus" = "+Resolve Darkriftus"
-"+shadowveil" = "+Shadowveil"
-"+sharpen" = "+Sharpen"
-"+swordplay" = "+Swordplay"
-"+ursa_s_edge" = "+Ursa's Edge"
-"+walls_of_aaru" = "+Walls of Aaru"
-"+ward_of_mythril" = "+Ward of Mythril"
-"+ward_of_ortanite" = "+Ward of Ortanite"
+"+assassin_skill" = "+Assassin Skill"
+"+attack_from_low_defense" = "+Attack from Low Defense"
+"+cleric" = "+Cleric"
+"+follower_summon_skill" = "+Follower/Summon Skill"
+"+follower_summon_spell" = "+Follower/Summon Spell"
+"+skill" = "+Skill"
+"+spell" = "+Spell"
+"+swashbuckler_skill" = "+Swashbuckler Skill"
+"+trickster_spell" = "+Trickster Spell"
+"+zwei-fencer_skill" = "+Zwei-Fencer Skill"
 accuracy = "Accuracy"
 adornment_slots = "Adornment Slots"
 ally_effect_chance = "Ally Effect Chance"
@@ -18711,6 +18857,8 @@ dexterity = "Dexterity"
 disperse_status_effect_chance = "Disperse Status Effect Chance"
 dragon_damage = "Dragon Damage"
 drop_quality = "Drop Quality"
+dual_wielded_weapon_power = "Dual Wielded Weapon Power"
+dullahan_s_pursuit = "Dullahan's Pursuit"
 dungeon_cooldown = "Dungeon Cooldown"
 dungeon_rewards = "Dungeon Rewards"
 earthen_damage = "Earthen Damage"
@@ -18718,6 +18866,7 @@ effect_damage = "Effect Damage"
 elemental_weaknesses = "Elemental Weaknesses"
 event_encounters = "Event Encounters"
 exp_bonus = "EXP Bonus"
+extra_materials_dropped = "Extra Materials Dropped"
 faction_damage = "Faction Damage"
 fire_damage = "Fire Damage"
 follower_act = "Follower Act"
@@ -18730,6 +18879,7 @@ godforge_chance = "Godforge Chance"
 gold_bonus = "Gold Bonus"
 heal_rate = "Heal rate"
 healing = "Healing"
+high_cleric_spell = "High Cleric Spell"
 holy_damage = "Holy Damage"
 holy_res = "Holy Res"
 hp = "HP"
@@ -18954,6 +19104,7 @@ poisoned = "Poisoned"
 pollux = "Pollux"
 prometheus = "Prometheus"
 rand_uu = "Rand ↑↑"
+reraise = "Reraise"
 res_d = "Res ↓"
 res_dd = "Res ↓↓"
 res_u = "Res ↑"

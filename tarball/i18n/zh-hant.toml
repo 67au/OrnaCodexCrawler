@@ -788,6 +788,9 @@ name = "重生的達格達"
 [main.bosses.arisen-demeter-the-earth-magus]
 name = "重生大地術師狄蜜特"
 
+[main.bosses.arisen-dullahan]
+name = "Arisen Dullahan"
+
 [main.bosses.arisen-eistla]
 name = "重生艾斯特拉"
 
@@ -1315,6 +1318,9 @@ name = "夏運宙斯"
 
 [main.bosses.terrifying-ghost]
 name = "恐慌幽靈"
+
+[main.bosses.the-dullahan]
+name = "The Dullahan"
 
 [main.bosses.tiamat]
 name = "提亞馬特"
@@ -3580,6 +3586,18 @@ name = "重生狄蜜特法杖"
 description = "被賞賜給德肯尼亞族領主的權杖.能照亮你眼前的道路."
 name = "重生德肯尼亞族權杖"
 
+[main.items.arisen-dullahan-bladed-boots]
+description = "He bows with grace, though crownless still,\nA jester bound to fate’s dark will.\nHe tips his skull with courtly cheer,\nAnd whispers names for none to hear."
+name = "Arisen Dullahan Bladed Boots"
+
+[main.items.arisen-dullahan-cloak]
+description = "Through misty moors the rider flies,\nWith hollow laugh and lantern eyes.\nHis severed head held firm and tight,\nA beacon grim in candlelight."
+name = "Arisen Dullahan Cloak"
+
+[main.items.arisen-dullahan-skull]
+description = "The Dullahan rides when the moon is high,\nA headless shadow against the sky.\nHe hums a tune both sharp and sweet,\nThat chills the heart with every beat."
+name = "Arisen Dullahan Skull"
+
 [main.items.arisen-embla-hood]
 description = "墮落的生命象徵，世界樹之兜帽。穿戴它可能可以減少你對自己造成的傷害。"
 name = "重生安布拉兜帽"
@@ -4127,6 +4145,10 @@ name = "重生絲質十字弓"
 [main.items.arisen-sleighblade]
 description = "一柄史古基追隨者所攜帶著的閃亮寶劍。摸起來很涼。使用此武器在戰鬥開始時，護盾便會自動啟動。"
 name = "重生雪橇刃"
+
+[main.items.arisen-spinal-whip]
+description = "He lifts his head as though to bow,\nAnd tips it gently, here and now.\nNo crown of gold, no jeweled delight,\nJust grinning teeth in ghostly white."
+name = "Arisen Spinal Whip"
 
 [main.items.arisen-spiritgarm-grimoire]
 description = "北族召喚師芬雅隨身攜帶的書籍。它可以召喚北族的狼一起戰鬥。"
@@ -4999,6 +5021,50 @@ name = "著魔法杖 X"
 [main.items.beguiled-staff-y]
 description = "曾經由被流放的秘術師亞坡倫所持有的法杖。使用你陣營的魔法或技能時能提升傷害，但未被四大陣營使用的屬性則會降低效益。"
 name = "著魔法杖 Y"
+
+[main.items.beheaded-assassins-bladed-boots]
+description = "His cloak is stitched from midnight’s thread,\nA riddle’s crown upon his head."
+name = "Beheaded Assassin's Bladed Boots"
+
+[main.items.beheaded-benefactors-pumpkinhead]
+description = "He trades no gold, nor silver key,\nJust laughter laced with misery."
+name = "Beheaded Benefactor's Pumpkinhead"
+
+[main.items.beheaded-duelists-chausses]
+description = "He laughs through teeth that chatter cold,\nA jester grim from stories old."
+name = "Beheaded Duelist’s Chausses"
+
+[main.items.beheaded-high-clerics-ankh]
+description = "Across the bridge, through mist and moor,\nHe knocks with silence at your door."
+name = "Beheaded High Cleric's Ankh"
+
+[main.items.beheaded-merchants-tunic]
+description = "Yet still he hums a jaunty tune,\nBeneath the glow of a fickle moon."
+name = "Beheaded Merchant's Tunic"
+
+[main.items.beheaded-scholars-chargeblade]
+description = "No eyes to see, yet all behold,\nThe rider grim with tales of old."
+name = "Beheaded Scholar's Chargeblade"
+
+[main.items.beheaded-stargazers-candlehead]
+description = "Head tucked tight beneath his arm,\nHe rides through night with ghostly charm."
+name = "Beheaded Stargazer's Candlehead"
+
+[main.items.beheaded-swashbucklers-jacket]
+description = "The Dullahan rides with a lantern grin,\nHis severed head tucked snug within."
+name = "Beheaded Swashbuckler's Jacket"
+
+[main.items.beheaded-tricksters-pumpkinhead]
+description = "A pumpkin grin? No, something darker,\nA whispered curse, a soul’s last marker."
+name = "Beheaded Trickster’s Pumpkinhead"
+
+[main.items.beheaded-wardens-tower-shield]
+description = "A frightful sight, yet oddly spry,\nA ghost who winks as he passes by."
+name = "Beheaded Warden’s Tower Shield"
+
+[main.items.beheaded-zwei-fencers-cuirass]
+description = "Horses snort sparks, their hooves strike flame,\nHe calls no soul, yet whispers your name."
+name = "Beheaded Zwei-fencer’s Cuirass"
 
 [main.items.beithirs-staff]
 description = "旁白：隨著伊盧揚卡升起了高牆，這片新土地需要保護。貝西爾帶著閃電的氣息和毒素的利爪，無限地複製著自己。一支龍族大軍瞬間誕生。"
@@ -5936,6 +6002,10 @@ name = "受詛咒的埃莫那拖鞋"
 description = "勒羅的兜帽，弗摩爾族中溫塔拉家族的見習神。勒羅，未經訓練，年輕，且相當傲慢，在摩莉甘的入侵中很快就被擊敗了。穿戴這裝備時，使用者施放的增益可能會轉移到隊友身上。此外，正面的狀態會持續更長時間。"
 name = "受詛咒的勒羅兜帽"
 
+[main.items.cursed-metals]
+description = "His steed eats shadows, drinks the gloom,\nIt prances proud through graveyard bloom.\nWith every stride, the stars take fright,\nAnd hide behind the cloak of night."
+name = "Cursed Metals"
+
 [main.items.cursed-monster-tome]
 description = "訴說著邪龍法夫納被詛咒事蹟的巨典.降低你的潛能來換取經驗值的提升."
 name = "詛咒的魔物之典"
@@ -5975,6 +6045,10 @@ name = "受詛咒的莎賓娜風帽"
 [main.items.cursed-sequanas-chestpiece]
 description = "塞夸納精心打造的胸甲，弗摩爾族阿圖娜家族的女河神首領。塞夸納是她姐妹中最年長的一個，亦是恩典和財富之神。穿著這件裝備時，會更容易向對手施放減益狀態。此外，增加對手異常狀態自損的最大傷害。"
 name = "受詛咒的塞夸納胸甲"
+
+[main.items.cursed-spine-shard]
+description = "The air grows still, the candles dim,\nAs mortals dream and think of him.\nA trickster, herald, phantom, friend,\nWhose tale begins but will not end."
+name = "Cursed Spine Shard"
 
 [main.items.cursed-sumner-crested-shield]
 description = "弗摩爾之盾，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
@@ -6992,6 +7066,10 @@ name = "附魔顱骨"
 description = "巨人戰士的粗糙大劍。"
 name = "終焉使者"
 
+[main.items.endless-treats]
+description = "So mind the road where shadows play,\nFor Dullahan may pass your way.\nHe brings no gold, no curse, no plea,\nJust riddles whispered eerily."
+name = "Endless Treats"
+
 [main.items.eostres-circlet]
 description = "俄斯特的髮環，弗摩爾族薩姆納家族的女戰神。俄斯特斯保護弗摩爾族的田地和莊稼；這些莊稼最終會長成乘載弗摩爾族詛咒之物。當穿戴此裝備時，對多個對手的技能將造成額外傷害。此外，技能有低機率會擊中一個以上的對手。"
 name = "俄斯特髮環"
@@ -7021,11 +7099,11 @@ description = "副手能裝的火炬.能提升你的視野,防止被盲目,還�
 name = "不滅火炬"
 
 [main.items.excalibur]
-description = "???"
+description = "阿瓦隆王國亞瑟王的神兵，它可以保護持有者免疫流血。"
 name = "誓約聖劍"
 
-[main.items.excalibur-32be53bc]
-description = "阿瓦隆王國亞瑟王的神兵，它可以保護持有者免疫流血。"
+[main.items.excalibur-eec7bf3e]
+description = "???"
 name = "誓約聖劍"
 
 [main.items.exp-potion]
@@ -7736,7 +7814,7 @@ name = "弗摩爾族板甲袍"
 description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 name = "弗摩爾族板甲袍"
 
-[main.items.fomoria-plated-robe-946a26b9]
+[main.items.fomoria-plated-robe-fb3188b6]
 description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 name = "弗摩爾族板甲袍"
 
@@ -8407,6 +8485,22 @@ name = "硬木魯特琴"
 [main.items.harpys-feathers]
 description = "由鷹身女妖的殘骸所製作粗糙盔甲，雖只提供少量的防禦，但可提升敏捷。"
 name = "哈比的羽毛"
+
+[main.items.haunted-calling-bell]
+description = "So when the winds grow sharp and thin,\nAnd night pulls tighter round your skin,\nTake heed, take care, and hush your breath,\nFor Dullahan rides the roads of death."
+name = "Haunted Calling Bell"
+
+[main.items.haunted-dullahan-bladed-boots]
+description = "He bows with grace, though crownless still,\nA jester bound to fate’s dark will.\nHe tips his skull with courtly cheer,\nAnd whispers names for none to hear."
+name = "Haunted Dullahan Bladed Boots"
+
+[main.items.haunted-dullahan-cloak]
+description = "Through misty moors the rider flies,\nWith hollow laugh and lantern eyes.\nHis severed head held firm and tight,\nA beacon grim in candlelight."
+name = "Haunted Dullahan Cloak"
+
+[main.items.haunted-dullahan-skull]
+description = "The Dullahan rides when the moon is high,\nA headless shadow against the sky.\nHe hums a tune both sharp and sweet,\nThat chills the heart with every beat."
+name = "Haunted Dullahan Skull"
 
 [main.items.havels-cuirass]
 description = "巨人騎士的工具。"
@@ -9084,7 +9178,7 @@ name = "刻耳柏洛斯權杖"
 description = "由刻耳柏洛斯那尖銳、強大、鋒利如刃的爪所製成。攻擊有機會造成流血及冰凍狀態。"
 name = "刻耳柏洛斯之爪"
 
-[main.items.kerberos-claws-e7f61ea1]
+[main.items.kerberos-claws-81b67c8d]
 description = "由刻耳柏洛斯那尖銳、強大、鋒利如刃的爪所製成。攻擊有機會造成流血及冰凍狀態。"
 name = "刻耳柏洛斯之爪"
 
@@ -11643,6 +11737,10 @@ name = "洞穴探求者之杖"
 description = "判官拉達的荊棘盾牌。使用此盾牌時消耗護盾的技能會更有效。"
 name = "荊棘大盾"
 
+[main.items.spinal-whip]
+description = "He lifts his head as though to bow,\nAnd tips it gently, here and now.\nNo crown of gold, no jeweled delight,\nJust grinning teeth in ghostly white."
+name = "Spinal Whip"
+
 [main.items.spine-of-eos]
 description = "一塊泰坦的碎片。這些碎片可以在泰坦工坊用來強化天外神武。"
 name = "愛奧斯的脊骨"
@@ -12974,6 +13072,39 @@ name = "蓓格"
 
 [main.monsters.bear]
 name = "熊"
+
+[main.monsters.beheaded-assassin]
+name = "Beheaded Assassin"
+
+[main.monsters.beheaded-benefactor]
+name = "Beheaded Benefactor"
+
+[main.monsters.beheaded-duelist]
+name = "Beheaded Duelist"
+
+[main.monsters.beheaded-high-cleric]
+name = "Beheaded High Cleric"
+
+[main.monsters.beheaded-merchant]
+name = "Beheaded Merchant"
+
+[main.monsters.beheaded-scholar]
+name = "Beheaded Scholar"
+
+[main.monsters.beheaded-stargazer]
+name = "Beheaded Stargazer"
+
+[main.monsters.beheaded-swashbuckler]
+name = "Beheaded Swashbuckler"
+
+[main.monsters.beheaded-trickster]
+name = "Beheaded Trickster"
+
+[main.monsters.beheaded-warden]
+name = "Beheaded Warden"
+
+[main.monsters.beheaded-zwei-fencer]
+name = "Beheaded Zwei-Fencer"
 
 [main.monsters.behemoth]
 name = "貝西摩斯 (重生者)"
@@ -14880,6 +15011,18 @@ name = "獸之猛擊 IV"
 [main.spells.beaststrikes]
 description = "使用野獸的蠻力神速地連擊3次,有高機率造成暴擊.你的物攻及魔攻都會影響傷害."
 name = "猛獸連擊"
+
+[main.spells.beheading-cleave]
+description = "A pumpkin patch may quake with cheer, when Dullahan is drawing near."
+name = "Beheading Cleave"
+
+[main.spells.beheading-slice]
+description = "A courtly ghost, both kind and cruel, who plays the world as if a fool."
+name = "Beheading Slice"
+
+[main.spells.beheading-sweep]
+description = "But when they turn, no trace remains, just moonlit hoofprints on the lanes."
+name = "Beheading Sweep"
 
 [main.spells.berserk]
 description = "大幅提升傷害,但會造成自損."
@@ -17035,6 +17178,10 @@ name = "挑釁"
 description = "團體戰時，更容易成為集火對象。"
 name = "挑釁 II"
 
+[main.spells.pumpkin-gaze]
+description = "Yet if you dare to peek outside, you'll find him gone, just shadows ride."
+name = "Pumpkin Gaze"
+
 [main.spells.pumpkin-smash]
 description = "巨大的南瓜."
 name = "南瓜衝擊"
@@ -17201,6 +17348,10 @@ name = "安魂曲 II (副手)"
 [main.spells.requiem-iii]
 description = "造成巨大的無屬性傷害並有機會使對手恍惚"
 name = "安魂曲 III (副手)"
+
+[main.spells.reraise]
+description = "Grants a blessing that will automatically revive a party member when falling in battle."
+name = "Reraise"
 
 [main.spells.resolve-darkriftus]
 description = "召喚暗黑裂痕議會來協助你。"
@@ -18254,6 +18405,10 @@ name = "吼叫"
 description = "尖銳的吼叫."
 name = "吼叫 II"
 
+[main.spells.wail-ii-2]
+description = "尖銳的吼叫."
+name = "吼叫 II (副手)"
+
 [main.spells.wallop]
 description = "從上方重擊，暫時性的破壞防御能力。"
 name = "猛擊"
@@ -18520,6 +18675,7 @@ sisters_of_morrigan = "摩莉甘的姊妹"
 summer_solstice = "冬至"
 sumner_games = "夏日運動會"
 terra_s_day = "泰菈之日"
+terra_s_legacy = "泰菈的遺產"
 terra_s_legacy__natureblight = "泰菈的遺產：萎化自然"
 the_crimson_festival = "緋紅祭"
 the_hallowed = "The。萬聖"
@@ -18651,27 +18807,17 @@ skill = "技能"
 spell = "法術"
 
 [msg.stats]
-"+ara_s_edge" = "+天壇座之刃"
 "+arch-alchemy" = "+大鍊金術"
-"+barrier" = "+屏障術"
-"+berserk" = "+狂暴"
-"+blessed_shield" = "+祝福之盾"
-"+bloodshift" = "+鮮血轉移"
-"+call_of_zagreus" = "+扎格柔斯的呼召"
-"+curse_of_sekhmet" = "+塞赫麥特的詛咒"
-"+exploit_ii" = "+剝削 II"
-"+gods_of_aaru" = "+雅盧之神"
-"+great_meditation" = "+崇高冥想"
-"+ponder" = "+沉思術"
-"+rebirth" = "+再生術"
-"+resolve_darkriftus" = "+黑箱臨時動議"
-"+shadowveil" = "+影身"
-"+sharpen" = "+磨刀術"
-"+swordplay" = "+劍擊"
-"+ursa_s_edge" = "+大熊座之刃"
-"+walls_of_aaru" = "+雅盧之壁"
-"+ward_of_mythril" = "+秘銀防護"
-"+ward_of_ortanite" = "+歐坦尼護盾"
+"+assassin_skill" = "+Assassin 技能"
+"+attack_from_low_defense" = "+穿得越少傷害越高"
+"+cleric" = "+Cleric"
+"+follower_summon_skill" = "+Follower/Summon Skill"
+"+follower_summon_spell" = "+Follower/Summon Spell"
+"+skill" = "+技能"
+"+spell" = "+法術"
+"+swashbuckler_skill" = "+Swashbuckler 技能"
+"+trickster_spell" = "+Trickster 法術"
+"+zwei-fencer_skill" = "+Zwei-Fencer 技能"
 accuracy = "準星"
 adornment_slots = "鑲嵌槽位"
 ally_effect_chance = "盟友效果機率"
@@ -18711,6 +18857,8 @@ dexterity = "敏捷"
 disperse_status_effect_chance = "狀態分配機會"
 dragon_damage = "龍系傷害"
 drop_quality = "掉落物品質"
+dual_wielded_weapon_power = "Dual Wielded Weapon Power"
+dullahan_s_pursuit = "Dullahan's Pursuit"
 dungeon_cooldown = "地城冷卻"
 dungeon_rewards = "地城結算獎勵"
 earthen_damage = "土系傷害"
@@ -18718,6 +18866,7 @@ effect_damage = "狀態傷害"
 elemental_weaknesses = "元素弱點"
 event_encounters = "活動怪遭遇"
 exp_bonus = "經驗加成"
+extra_materials_dropped = "Extra Materials Dropped"
 faction_damage = "陣營傷害"
 fire_damage = "火系傷害"
 follower_act = "追隨者行動"
@@ -18730,6 +18879,7 @@ godforge_chance = "神賜機率"
 gold_bonus = "金幣加成"
 heal_rate = "治癒機率"
 healing = "治療技能"
+high_cleric_spell = "High Cleric 法術"
 holy_damage = "神聖傷害"
 holy_res = "神聖抗性"
 hp = "血量"
@@ -18954,6 +19104,7 @@ poisoned = "中毒"
 pollux = "波魯克斯"
 prometheus = "普羅米修斯"
 rand_uu = "蘭德 ↑↑"
+reraise = "Reraise"
 res_d = "Res ↓"
 res_dd = "Res ↓↓"
 res_u = "Res ↑"

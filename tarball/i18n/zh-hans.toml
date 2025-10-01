@@ -789,7 +789,7 @@ name = "重生达格达"
 name = "重生大地术师狄蜜特"
 
 [main.bosses.arisen-dullahan]
-name = "Arisen Dullahan"
+name = "重生杜拉罕"
 
 [main.bosses.arisen-eistla]
 name = "重生艾斯特拉"
@@ -1320,7 +1320,7 @@ name = "「选手」宙斯"
 name = "恐慌幽灵"
 
 [main.bosses.the-dullahan]
-name = "The Dullahan"
+name = "杜拉罕"
 
 [main.bosses.tiamat]
 name = "提亚马特"
@@ -3592,15 +3592,15 @@ name = "重生德肯尼亚族权杖"
 
 [main.items.arisen-dullahan-bladed-boots]
 description = "He bows with grace, though crownless still,\nA jester bound to fate’s dark will.\nHe tips his skull with courtly cheer,\nAnd whispers names for none to hear."
-name = "Arisen Dullahan Bladed Boots"
+name = "重生杜拉罕锋刃长靴"
 
 [main.items.arisen-dullahan-cloak]
 description = "Through misty moors the rider flies,\nWith hollow laugh and lantern eyes.\nHis severed head held firm and tight,\nA beacon grim in candlelight."
-name = "Arisen Dullahan Cloak"
+name = "重生杜拉罕斗篷"
 
 [main.items.arisen-dullahan-skull]
 description = "The Dullahan rides when the moon is high,\nA headless shadow against the sky.\nHe hums a tune both sharp and sweet,\nThat chills the heart with every beat."
-name = "Arisen Dullahan Skull"
+name = "重生杜拉罕头颅"
 
 [main.items.arisen-embla-hood]
 description = "堕落「生命象征」世界树的兜帽。穿戴它能减少对自己造成的伤害。"
@@ -4152,7 +4152,7 @@ name = "重生雪橇刃"
 
 [main.items.arisen-spinal-whip]
 description = "He lifts his head as though to bow,\nAnd tips it gently, here and now.\nNo crown of gold, no jeweled delight,\nJust grinning teeth in ghostly white."
-name = "Arisen Spinal Whip"
+name = "重生髓鞭"
 
 [main.items.arisen-spiritgarm-grimoire]
 description = "北族召唤师芬妮雅所携带的书。能召唤被驯服的北族之狼加入战斗。"
@@ -5028,23 +5028,23 @@ name = "着魔法杖Y"
 
 [main.items.beheaded-assassins-bladed-boots]
 description = "His cloak is stitched from midnight’s thread,\nA riddle’s crown upon his head."
-name = "Beheaded Assassin's Bladed Boots"
+name = "无头刺客的锋刃长靴"
 
 [main.items.beheaded-benefactors-pumpkinhead]
 description = "He trades no gold, nor silver key,\nJust laughter laced with misery."
-name = "Beheaded Benefactor's Pumpkinhead"
+name = "无头献身者的南瓜头"
 
 [main.items.beheaded-duelists-chausses]
 description = "He laughs through teeth that chatter cold,\nA jester grim from stories old."
-name = "Beheaded Duelist’s Chausses"
+name = "无头决斗家的腿链甲"
 
 [main.items.beheaded-high-clerics-ankh]
 description = "Across the bridge, through mist and moor,\nHe knocks with silence at your door."
-name = "Beheaded High Cleric's Ankh"
+name = "无头高阶牧师的生命之符"
 
 [main.items.beheaded-merchants-tunic]
 description = "Yet still he hums a jaunty tune,\nBeneath the glow of a fickle moon."
-name = "Beheaded Merchant's Tunic"
+name = "无头商人的罩衫"
 
 [main.items.beheaded-scholars-chargeblade]
 description = "No eyes to see, yet all behold,\nThe rider grim with tales of old."
@@ -5052,23 +5052,23 @@ name = "Beheaded Scholar's Chargeblade"
 
 [main.items.beheaded-stargazers-candlehead]
 description = "Head tucked tight beneath his arm,\nHe rides through night with ghostly charm."
-name = "Beheaded Stargazer's Candlehead"
+name = "无头观星者的蜡烛头"
 
 [main.items.beheaded-swashbucklers-jacket]
 description = "The Dullahan rides with a lantern grin,\nHis severed head tucked snug within."
-name = "Beheaded Swashbuckler's Jacket"
+name = "无头侠客的夹克"
 
 [main.items.beheaded-tricksters-pumpkinhead]
 description = "A pumpkin grin? No, something darker,\nA whispered curse, a soul’s last marker."
-name = "Beheaded Trickster’s Pumpkinhead"
+name = "无头诈术师的南瓜头"
 
 [main.items.beheaded-wardens-tower-shield]
 description = "A frightful sight, yet oddly spry,\nA ghost who winks as he passes by."
-name = "Beheaded Warden’s Tower Shield"
+name = "无头守望者的塔盾"
 
 [main.items.beheaded-zwei-fencers-cuirass]
 description = "Horses snort sparks, their hooves strike flame,\nHe calls no soul, yet whispers your name."
-name = "Beheaded Zwei-fencer’s Cuirass"
+name = "无头重武悍将胸甲"
 
 [main.items.beithirs-staff]
 description = "旁白：随着伊卢扬卡的高墙拔地而起，保护这片新生的大地已迫在眉睫。闪电吐息与剧毒利爪的贝希尔，无穷尽地自我复制。一支龙族大军转瞬而现。"
@@ -6008,7 +6008,7 @@ name = "诅咒的勒罗兜帽"
 
 [main.items.cursed-metals]
 description = "His steed eats shadows, drinks the gloom,\nIt prances proud through graveyard bloom.\nWith every stride, the stars take fright,\nAnd hide behind the cloak of night."
-name = "Cursed Metals"
+name = "诅咒的金属"
 
 [main.items.cursed-monster-tome]
 description = "诉说着邪龙法夫纳被诅咒事迹的巨典。能降低你的潜能来换取获得经验值提升。"
@@ -6052,7 +6052,7 @@ name = "诅咒的塞夸纳板甲"
 
 [main.items.cursed-spine-shard]
 description = "The air grows still, the candles dim,\nAs mortals dream and think of him.\nA trickster, herald, phantom, friend,\nWhose tale begins but will not end."
-name = "Cursed Spine Shard"
+name = "诅咒的脊柱碎片"
 
 [main.items.cursed-sumner-crested-shield]
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的盾牌。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
@@ -7072,7 +7072,7 @@ name = "终焉使者"
 
 [main.items.endless-treats]
 description = "So mind the road where shadows play,\nFor Dullahan may pass your way.\nHe brings no gold, no curse, no plea,\nJust riddles whispered eerily."
-name = "Endless Treats"
+name = "无尽盛宴"
 
 [main.items.eostres-circlet]
 description = "弗摩尔之萨姆纳家族的战士「女神」厄俄斯特所穿的头饰。厄俄斯特奉命保护弗摩尔族的田地与作物，然长成的作物最终承载了弗摩尔族的诅咒。穿戴这件装备时，使用命中多个目标的技能会造成额外的伤害。此外，技能有低机率命中额外的目标。"
@@ -8492,19 +8492,19 @@ name = "鹰身女妖的羽毛"
 
 [main.items.haunted-calling-bell]
 description = "So when the winds grow sharp and thin,\nAnd night pulls tighter round your skin,\nTake heed, take care, and hush your breath,\nFor Dullahan rides the roads of death."
-name = "Haunted Calling Bell"
+name = "作祟服务铃"
 
 [main.items.haunted-dullahan-bladed-boots]
 description = "He bows with grace, though crownless still,\nA jester bound to fate’s dark will.\nHe tips his skull with courtly cheer,\nAnd whispers names for none to hear."
-name = "Haunted Dullahan Bladed Boots"
+name = "作祟杜拉罕锋刃长靴"
 
 [main.items.haunted-dullahan-cloak]
 description = "Through misty moors the rider flies,\nWith hollow laugh and lantern eyes.\nHis severed head held firm and tight,\nA beacon grim in candlelight."
-name = "Haunted Dullahan Cloak"
+name = "作祟杜拉罕斗篷"
 
 [main.items.haunted-dullahan-skull]
 description = "The Dullahan rides when the moon is high,\nA headless shadow against the sky.\nHe hums a tune both sharp and sweet,\nThat chills the heart with every beat."
-name = "Haunted Dullahan Skull"
+name = "作祟杜拉罕头颅"
 
 [main.items.havels-cuirass]
 description = "巨人骑士的装备。"
@@ -11743,7 +11743,7 @@ name = "荆棘巨盾"
 
 [main.items.spinal-whip]
 description = "He lifts his head as though to bow,\nAnd tips it gently, here and now.\nNo crown of gold, no jeweled delight,\nJust grinning teeth in ghostly white."
-name = "Spinal Whip"
+name = "髓鞭"
 
 [main.items.spine-of-eos]
 description = "泰坦自身的碎片，能在泰坦工坊用于增强天辉武器。"
@@ -13078,37 +13078,37 @@ name = "蓓格"
 name = "熊"
 
 [main.monsters.beheaded-assassin]
-name = "Beheaded Assassin"
+name = "无头刺客"
 
 [main.monsters.beheaded-benefactor]
-name = "Beheaded Benefactor"
+name = "无头献身者"
 
 [main.monsters.beheaded-duelist]
-name = "Beheaded Duelist"
+name = "无头决斗家"
 
 [main.monsters.beheaded-high-cleric]
-name = "Beheaded High Cleric"
+name = "无头高阶牧师"
 
 [main.monsters.beheaded-merchant]
-name = "Beheaded Merchant"
+name = "无头商人"
 
 [main.monsters.beheaded-scholar]
-name = "Beheaded Scholar"
+name = "无头学者"
 
 [main.monsters.beheaded-stargazer]
-name = "Beheaded Stargazer"
+name = "无头观星者"
 
 [main.monsters.beheaded-swashbuckler]
-name = "Beheaded Swashbuckler"
+name = "无头侠客"
 
 [main.monsters.beheaded-trickster]
-name = "Beheaded Trickster"
+name = "无头诈术师"
 
 [main.monsters.beheaded-warden]
-name = "Beheaded Warden"
+name = "无头守望者"
 
 [main.monsters.beheaded-zwei-fencer]
-name = "Beheaded Zwei-Fencer"
+name = "无头重武悍将"
 
 [main.monsters.behemoth]
 name = "贝西摩斯 (重生者)"
@@ -15017,16 +15017,16 @@ description = "使用野兽的蛮力神速地连击三次，有高机率造成�
 name = "猛兽连击"
 
 [main.spells.beheading-cleave]
-description = "A pumpkin patch may quake with cheer, when Dullahan is drawing near."
-name = "Beheading Cleave"
+description = "南瓜地里笑声回荡，杜拉罕已悄然接近。"
+name = "斩首顺劈"
 
 [main.spells.beheading-slice]
-description = "A courtly ghost, both kind and cruel, who plays the world as if a fool."
-name = "Beheading Slice"
+description = "幽灵弄臣，既仁慈又残酷，如愚者般玩弄这个世界。"
+name = "斩首切裂"
 
 [main.spells.beheading-sweep]
-description = "But when they turn, no trace remains, just moonlit hoofprints on the lanes."
-name = "Beheading Sweep"
+description = "但他转身离去无影，唯剩月下的蹄印。"
+name = "斩首横扫"
 
 [main.spells.berserk]
 description = "大幅提高伤害，但会随时间流失生命值。"
@@ -17183,8 +17183,8 @@ description = "团体战时，暂时地更容易成为集火对象。"
 name = "挑衅 II"
 
 [main.spells.pumpkin-gaze]
-description = "Yet if you dare to peek outside, you'll find him gone, just shadows ride."
-name = "Pumpkin Gaze"
+description = "若你敢窥视窗外，便会发现他消失无踪，唯剩影子在游荡。"
+name = "南瓜凝视"
 
 [main.spells.pumpkin-smash]
 description = "巨大的南瓜。"
@@ -17354,8 +17354,8 @@ description = "造成巨量的无属性魔法伤害并有机率使对手恍惚"
 name = "安魂曲 III (副手)"
 
 [main.spells.reraise]
-description = "Grants a blessing that will automatically revive a party member when falling in battle."
-name = "Reraise"
+description = "赋予祝福来自动复活在战斗中被击败的队友。"
+name = "死者苏生"
 
 [main.spells.resolve-darkriftus]
 description = "召唤暗域裂隙辩护士来协助你。"
@@ -18813,8 +18813,8 @@ spell = "法术"
 [msg.stats]
 "+arch-alchemy" = "+大炼金术"
 "+attack_from_low_defense" = "+低防加攻"
-"+follower_summon_skill" = "+Follower/Summon Skill"
-"+follower_summon_spell" = "+Follower/Summon Spell"
+"+follower_summon_skill" = "+追随者/召唤物技能"
+"+follower_summon_spell" = "+追随者/召唤物法术"
 "+skill" = "+技能"
 "+spell" = "+法术"
 accuracy = "精准"
@@ -18856,7 +18856,7 @@ dexterity = "敏捷"
 disperse_status_effect_chance = "状态分散机率"
 dragon_damage = "龙属性伤害"
 drop_quality = "掉落物品品质"
-dullahan_s_pursuit = "Dullahan's Pursuit"
+dullahan_s_pursuit = "杜拉罕的追击"
 dungeon_cooldown = "地牢冷却时间"
 dungeon_rewards = "地牢奖励"
 earthen_damage = "地属性伤害"
@@ -18864,7 +18864,7 @@ effect_damage = "状态效果伤害"
 elemental_weaknesses = "元素弱点"
 event_encounters = "活动遇怪"
 exp_bonus = "经验加成"
-extra_materials_dropped = "Extra Materials Dropped"
+extra_materials_dropped = "额外材料掉落"
 faction_damage = "阵营元素伤害"
 fire_damage = "火属性伤害"
 follower_act = "追随者行动率"
@@ -19101,7 +19101,7 @@ poisoned = "中毒"
 pollux = "波鲁克斯"
 prometheus = "普罗米修斯"
 rand_uu = "澜 ↑↑"
-reraise = "Reraise"
+reraise = "死者苏生"
 res_d = "Res ↓"
 res_dd = "Res ↓↓"
 res_u = "Res ↑"

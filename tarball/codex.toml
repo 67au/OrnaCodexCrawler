@@ -5860,6 +5860,21 @@ tier = 8
 attack_rate = "10"
 spell_rate = "60"
 
+[main.followers.brooooooooooom]
+bestial_bond = [[{name = "damage_at_full_hp", value = "+15%", type = "BONUS"}], [{name = "bonded_attack", chance = "8%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}], [{name = "bonded_attack", chance = "12%", type = "BOND"}, {name = "bonded_defense", chance = "12%", type = "BOND"}, {name = "berserk", type = "ABILITY"}]]
+category = "followers"
+events = ["the_hallowed"]
+family = "magical"
+icon = "/img/monsters/broom.png"
+id = "brooooooooooom"
+rarity = "cryptid"
+skills = [["spells", "beheading-sweep"], ["spells", "sweep"]]
+tier = 9
+
+[main.followers.brooooooooooom.stats]
+attack_rate = "1"
+spell_rate = "3"
+
 [main.followers.cactus]
 bestial_bond = [[{name = "accuracy", value = "+7%", type = "BONUS"}], [{name = "bonded_attack", chance = "12%", type = "BOND"}, {name = "bonded_dexterity", chance = "7%", type = "BOND"}], [{name = "bonded_attack", chance = "12%", type = "BOND"}, {name = "bonded_dexterity", chance = "15%", type = "BOND"}]]
 category = "followers"
@@ -17625,7 +17640,7 @@ disperse_status_effect_chance = "+1%"
 effect_damage = "+50%"
 magic = "230"
 monster_encounters = "+100%"
-view_distance = "+20%"
+view_distance = "+12%"
 ward = "1%"
 
 [main.items.arisen-spiritgarm-grimoire]
@@ -22741,12 +22756,12 @@ chance = "3%"
 name = "t__dex_uuu"
 
 [main.items.beheaded-assassins-bladed-boots.stats]
-"+assassin_skill" = "Beheading Slice"
+"+skill" = "Beheading Slice (Assassin)"
 adornment_slots = "6"
 damage_to_ward = "+20%"
 defense = "160"
 dexterity = "180"
-effect_damage = "+100%"
+effect_damage = "+100% (Assassin)"
 foresight = "27"
 resistance = "160"
 
@@ -22768,12 +22783,13 @@ useable_by = "all_classes"
 name = "stasis"
 
 [main.items.beheaded-benefactors-pumpkinhead.stats]
-"+follower_summon_skill" = "Arrowstorm"
+"+follower_summon_skill" = "Arrowstorm (Benefactor)"
 adornment_slots = "4"
 defense = "98"
 foresight = "-40"
 resistance = "212"
-summon_turns = "-1"
+summon_stats = "+15%"
+summon_turns = "-1 (Benefactor)"
 ward = "2%"
 
 [main.items.beheaded-duelists-chausses]
@@ -22800,10 +22816,10 @@ name = "t__att_d"
 adornment_slots = "6"
 attack = "20"
 defense = "98"
-dual_wielded_weapon_power = "+15%"
 magic = "30"
 resistance = "98"
 ward = "4%"
+weapon_power = "+15% (Duelist, Dual-wielding)"
 
 [main.items.beheaded-high-clerics-ankh]
 aura = "legendary"
@@ -22823,10 +22839,10 @@ useable_by = "all_classes"
 name = "blind"
 
 [main.items.beheaded-high-clerics-ankh.stats]
-"+cleric,_high_cleric_spell" = "Reraise"
+"+spell" = "Reraise (High Cleric)"
 adornment_slots = "3"
 disperse_status_effect_chance = "+10%"
-healing = "+200%"
+healing = "+300% (High Cleric)"
 magic = "80"
 resistance = "20"
 status_reflection = "+5%"
@@ -22854,12 +22870,12 @@ name = "t__dex_u"
 name = "cursed"
 
 [main.items.beheaded-merchants-tunic.stats]
-adornment_slots = "8"
+adornment_slots = "6"
 defense = "25"
-exp_bonus = "+1%"
-gold_bonus = "+20%"
+exp_bonus = "+1% (Merchant)"
+gold_bonus = "+20% (Merchant)"
 hp = "40"
-orn_bonus = "+20%"
+orn_bonus = "+20% (Merchant)"
 resistance = "25"
 
 [main.items.beheaded-scholars-chargeblade]
@@ -22870,7 +22886,7 @@ exotic = true
 icon = "/img/weapons/beheaded_scholars_chargeblade.png"
 id = "beheaded-scholars-chargeblade"
 item_type = "weapon"
-place = "torso"
+place = "weapon"
 rarity = "legendary"
 tier = 5
 type = "swords"
@@ -22899,9 +22915,9 @@ name = "windswept"
 [main.items.beheaded-scholars-chargeblade.stats]
 adornment_slots = "3"
 attack = "60"
-crit_damage = "+20%"
+crit_damage = "+25%"
 defense = "25"
-elemental_weaknesses = "+25%"
+elemental_weaknesses = "+50%"
 magic = "60"
 mana = "-25"
 resistance = "25"
@@ -22957,8 +22973,8 @@ name = "t__att_uu"
 name = "confused"
 
 [main.items.beheaded-swashbucklers-jacket.stats]
-"+attack_from_low_defense" = true
-"+swashbuckler_skill" = "Beheading Cleave"
+"+attack_from_low_defense" = "+10% (Swashbuckler)"
+"+skill" = "Beheading Cleave (Swashbuckler)"
 adornment_slots = "6"
 chain_damage_chance = "+15%"
 dexterity = "60"
@@ -22989,7 +23005,7 @@ name = "asleep"
 name = "doom"
 
 [main.items.beheaded-tricksters-pumpkinhead.stats]
-"+trickster_spell" = "Pumpkin Gaze"
+"+spell" = "Pumpkin Gaze (Trickster)"
 adornment_slots = "3"
 attack = "6"
 defense = "50"
@@ -23015,10 +23031,10 @@ useable_by = "all_classes"
 
 [main.items.beheaded-wardens-tower-shield.stats]
 adornment_slots = "2"
-settlement_area_defense = "+10%"
-ward = "34%"
-ward_power = "+20%"
-ward_start = "+2 turns"
+settlement_area_defense = "+10% (Warden)"
+ward = "26%"
+ward_power = "+20% (Warden)"
+ward_start = "+2 turns (Warden)"
 
 [main.items.beheaded-zwei-fencers-cuirass]
 aura = "legendary"
@@ -23047,12 +23063,13 @@ name = "confused"
 
 [main.items.beheaded-zwei-fencers-cuirass.stats]
 "+follower_summon_spell" = "Giant's Protection"
-"+zwei-fencer_skill" = "Beheading Sweep"
+"+skill" = "Beheading Sweep (Zwei-Fencer)"
 adornment_slots = "4"
 attack = "6"
 defense = "160"
 dexterity = "60"
 hp = "40"
+multi-target_damage = "+20%"
 ward = "6%"
 
 [main.items.beithirs-staff]
@@ -59769,7 +59786,7 @@ disperse_status_effect_chance = "+1%"
 effect_damage = "+50%"
 magic = "150"
 monster_encounters = "+100%"
-view_distance = "+20%"
+view_distance = "+12%"
 ward = "1%"
 
 [main.items.spine-of-eos]
@@ -72502,7 +72519,7 @@ drops = [["items", "dioscuri-mead"], ["items", "dioscuri-archistaff"], ["items",
 hp = 5550000
 icon = "/img/bosses/castor_pollux.png"
 id = "the-dioscuri"
-skills = [["spells", "doublecut-ii"], ["spells", "onslaught"], ["spells", "blast-iii"], ["spells", "castors-wit"], ["spells", "polluxs-might"], ["spells", "great-collapse"], ["spells", "multi-frost-ii"], ["spells", "multi-tremor-ii"], ["spells", "realmshift"]]
+skills = [["spells", "doublecut-ii"], ["spells", "onslaught"], ["spells", "blast-iii"], ["spells", "castors-wit"], ["spells", "polluxs-might"], ["spells", "great-collapse"], ["spells", "multi-frost-ii"], ["spells", "multi-tremor-ii"]]
 tier = 9
 
 [main.raids.the-fool]
@@ -74257,7 +74274,7 @@ id = "beheading-sweep"
 spell_type = "skill"
 targets = "every_opponent_in_a_battle"
 tier = 7
-used_by = [["bosses", "arisen-dullahan"], ["bosses", "the-dullahan"]]
+used_by = [["followers", "brooooooooooom"], ["bosses", "arisen-dullahan"], ["bosses", "the-dullahan"]]
 
 [[main.spells.beheading-sweep.causes]]
 chance = "2%"
@@ -85437,7 +85454,6 @@ learned_by = [["classes", "56"]]
 spell_type = "spell"
 targets = "yourself"
 tier = 10
-used_by = [["raids", "the-dioscuri"]]
 
 [main.spells.realmshift.stats]
 costs = "80"
@@ -88864,7 +88880,7 @@ id = "sweep"
 spell_type = "skill"
 targets = "every_opponent_in_a_battle"
 tier = 7
-used_by = [["followers", "coral-reef"], ["followers", "experienced-wolpertinger"], ["followers", "worldly-wolpertinger"], ["monsters", "beheaded-zwei-fencer"]]
+used_by = [["followers", "brooooooooooom"], ["followers", "coral-reef"], ["followers", "experienced-wolpertinger"], ["followers", "worldly-wolpertinger"], ["monsters", "beheaded-zwei-fencer"]]
 
 [main.spells.sweep.stats]
 costs = "140"
@@ -92236,16 +92252,11 @@ useable_by = ["all_classes", "magic_users", "melee_classes", "thief_classes", "v
 
 [sorts.items]
 "stats.+arch-alchemy" = "BOOL"
-"stats.+assassin_skill" = "NUMBER"
-"stats.+attack_from_low_defense" = "BOOL"
-"stats.+cleric,_high_cleric_spell" = "NUMBER"
+"stats.+attack_from_low_defense" = "SIGNED"
 "stats.+follower_summon_skill" = "NUMBER"
 "stats.+follower_summon_spell" = "NUMBER"
 "stats.+skill" = "NUMBER"
 "stats.+spell" = "NUMBER"
-"stats.+swashbuckler_skill" = "NUMBER"
-"stats.+trickster_spell" = "NUMBER"
-"stats.+zwei-fencer_skill" = "NUMBER"
 "stats.accuracy" = "SIGNED_PERCENT"
 "stats.adornment_slots" = "NUMBER"
 "stats.ally_effect_chance" = "SIGNED_PERCENT"
@@ -92280,7 +92291,6 @@ useable_by = ["all_classes", "magic_users", "melee_classes", "thief_classes", "v
 "stats.disperse_status_effect_chance" = "SIGNED_PERCENT"
 "stats.dragon_damage" = "SIGNED_PERCENT"
 "stats.drop_quality" = "SIGNED_PERCENT"
-"stats.dual_wielded_weapon_power" = "SIGNED_PERCENT"
 "stats.dullahan_s_pursuit" = "BOOL"
 "stats.dungeon_cooldown" = "PERCENT"
 "stats.dungeon_rewards" = "SIGNED_PERCENT"

@@ -13978,7 +13978,7 @@ magic = "160"
 view_distance = "+20%"
 
 [main.items.arisen-dullahan-bladed-boots]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = [["bosses", "arisen-dullahan"]]
 exotic = true
@@ -13986,7 +13986,7 @@ icon = "/img/armor/haunting_dullahan_bladed_boots.png"
 id = "arisen-dullahan-bladed-boots"
 item_type = "armor"
 place = "legs"
-rarity = "legendary"
+rarity = "rare"
 tier = 10
 upgrade_materials = [["items", "twilightstone"], ["items", "pure-darkstone"]]
 useable_by = "all_classes"
@@ -14001,18 +14001,18 @@ name = "t__dex_uuu"
 
 [main.items.arisen-dullahan-bladed-boots.stats]
 adornment_slots = "7"
-attack = "12"
 chain_damage_chance = "+10%"
 damage_to_ward = "+10%"
 defense = "210"
 dexterity = "30"
 disperse_status_effect_chance = "+1%"
 effect_damage = "+50%"
+magic = "12"
 resistance = "210"
 ward = "2%"
 
 [main.items.arisen-dullahan-cloak]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = [["bosses", "arisen-dullahan"]]
 exotic = true
@@ -14020,7 +14020,7 @@ icon = "/img/armor/haunting_dullahan_garb.png"
 id = "arisen-dullahan-cloak"
 item_type = "armor"
 place = "torso"
-rarity = "legendary"
+rarity = "rare"
 tier = 10
 upgrade_materials = [["items", "twilightstone"], ["items", "pure-darkstone"]]
 useable_by = "all_classes"
@@ -14047,7 +14047,7 @@ ward = "2%"
 
 [main.items.arisen-dullahan-skull]
 ability = ["spells", "wail-ii-2"]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = [["bosses", "arisen-dullahan"]]
 exotic = true
@@ -14055,7 +14055,7 @@ icon = "/img/wards/haunting_dullahan_skull.png"
 id = "arisen-dullahan-skull"
 item_type = "armor"
 place = "off-hand"
-rarity = "legendary"
+rarity = "rare"
 tier = 10
 upgrade_materials = [["items", "twilightstone"], ["items", "pure-darkstone"]]
 useable_by = "all_classes"
@@ -17608,7 +17608,7 @@ ward = "6%"
 ward_start = "+5 turns"
 
 [main.items.arisen-spinal-whip]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = [["bosses", "arisen-dullahan"]]
 exotic = true
@@ -17616,7 +17616,7 @@ icon = "/img/weapons/spinal_whip.png"
 id = "arisen-spinal-whip"
 item_type = "weapon"
 place = "weapon"
-rarity = "legendary"
+rarity = "rare"
 tier = 10
 type = "swords"
 upgrade_materials = [["items", "twilightstone"], ["items", "pure-darkstone"]]
@@ -22734,7 +22734,7 @@ mana = "80"
 ward = "6%"
 
 [main.items.beheaded-assassins-bladed-boots]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = [["monsters", "beheaded-assassin"]]
 exotic = true
@@ -22742,7 +22742,7 @@ icon = "/img/armor/beheaded_assassins_bladed_boots.png"
 id = "beheaded-assassins-bladed-boots"
 item_type = "armor"
 place = "legs"
-rarity = "legendary"
+rarity = "rare"
 tier = 9
 upgrade_materials = [["items", "hardened-steel"], ["items", "leather"]]
 useable_by = "all_classes"
@@ -22766,7 +22766,7 @@ foresight = "27"
 resistance = "160"
 
 [main.items.beheaded-benefactors-pumpkinhead]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = [["monsters", "beheaded-benefactor"]]
 exotic = true
@@ -22774,7 +22774,7 @@ icon = "/img/armor/beheaded_benefactors_pumpkinhead.png"
 id = "beheaded-benefactors-pumpkinhead"
 item_type = "armor"
 place = "head"
-rarity = "legendary"
+rarity = "rare"
 tier = 9
 upgrade_materials = [["items", "scalestone"], ["items", "wolfs-blood"]]
 useable_by = "all_classes"
@@ -22793,7 +22793,7 @@ summon_turns = "-1 (Benefactor)"
 ward = "2%"
 
 [main.items.beheaded-duelists-chausses]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = [["monsters", "beheaded-duelist"]]
 exotic = true
@@ -22801,7 +22801,7 @@ icon = "/img/armor/beheaded_duelists_chaussers.png"
 id = "beheaded-duelists-chausses"
 item_type = "armor"
 place = "legs"
-rarity = "legendary"
+rarity = "rare"
 tier = 5
 upgrade_materials = [["items", "hide"], ["items", "leather"]]
 useable_by = "all_classes"
@@ -22822,7 +22822,7 @@ ward = "4%"
 weapon_power = "+15% (Duelist, Dual-wielding)"
 
 [main.items.beheaded-high-clerics-ankh]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = [["monsters", "beheaded-high-cleric"]]
 exotic = true
@@ -22830,7 +22830,7 @@ icon = "/img/weapons/beheaded_high_clerics_ankh.png"
 id = "beheaded-high-clerics-ankh"
 item_type = "armor"
 place = "off-hand"
-rarity = "legendary"
+rarity = "rare"
 tier = 9
 upgrade_materials = [["items", "pure-lightstone"], ["items", "greater-soul"]]
 useable_by = "all_classes"
@@ -22849,7 +22849,7 @@ status_reflection = "+5%"
 ward = "12%"
 
 [main.items.beheaded-merchants-tunic]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = [["monsters", "beheaded-merchant"]]
 exotic = true
@@ -22857,7 +22857,7 @@ icon = "/img/armor/beheaded_merchants_tunic.png"
 id = "beheaded-merchants-tunic"
 item_type = "armor"
 place = "torso"
-rarity = "legendary"
+rarity = "rare"
 tier = 5
 upgrade_materials = [["items", "silk"]]
 useable_by = "all_classes"
@@ -22879,7 +22879,7 @@ orn_bonus = "+20% (Merchant)"
 resistance = "25"
 
 [main.items.beheaded-scholars-chargeblade]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = [["monsters", "beheaded-scholar"]]
 exotic = true
@@ -22887,7 +22887,7 @@ icon = "/img/weapons/beheaded_scholars_chargeblade.png"
 id = "beheaded-scholars-chargeblade"
 item_type = "weapon"
 place = "weapon"
-rarity = "legendary"
+rarity = "rare"
 tier = 5
 type = "swords"
 upgrade_materials = [["items", "waterstone"], ["items", "lightningstone"], ["items", "firestone"], ["items", "earthstone"]]
@@ -22924,7 +22924,7 @@ resistance = "25"
 status_reflection = "+5%"
 
 [main.items.beheaded-stargazers-candlehead]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = [["monsters", "beheaded-stargazer"]]
 exotic = true
@@ -22932,7 +22932,7 @@ icon = "/img/armor/beheaded_stargazers_candlehead.png"
 id = "beheaded-stargazers-candlehead"
 item_type = "armor"
 place = "head"
-rarity = "legendary"
+rarity = "rare"
 tier = 5
 upgrade_materials = [["items", "firestone"], ["items", "solarite"]]
 useable_by = "all_classes"
@@ -22952,7 +22952,7 @@ mana = "30"
 resistance = "100"
 
 [main.items.beheaded-swashbucklers-jacket]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = [["monsters", "beheaded-swashbuckler"]]
 exotic = true
@@ -22960,7 +22960,7 @@ icon = "/img/armor/beheaded_swashbucklers_jacket.png"
 id = "beheaded-swashbucklers-jacket"
 item_type = "armor"
 place = "torso"
-rarity = "legendary"
+rarity = "rare"
 tier = 7
 upgrade_materials = [["items", "silver"], ["items", "leather"], ["items", "silk"]]
 useable_by = "all_classes"
@@ -22982,7 +22982,7 @@ resistance = "160"
 ward = "2%"
 
 [main.items.beheaded-tricksters-pumpkinhead]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = [["monsters", "beheaded-trickster"]]
 exotic = true
@@ -22990,7 +22990,7 @@ icon = "/img/armor/beheaded_tricksters_pumpkinhead.png"
 id = "beheaded-tricksters-pumpkinhead"
 item_type = "armor"
 place = "head"
-rarity = "legendary"
+rarity = "rare"
 tier = 3
 upgrade_materials = [["items", "scalestone"], ["items", "wolfs-blood"]]
 useable_by = "all_classes"
@@ -23016,7 +23016,7 @@ status_effect_chance = "+20%"
 status_effect_duration = "+1 turn"
 
 [main.items.beheaded-wardens-tower-shield]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = [["monsters", "beheaded-warden"]]
 exotic = true
@@ -23024,7 +23024,7 @@ icon = "/img/wards/beheaded_wardens_towershield.png"
 id = "beheaded-wardens-tower-shield"
 item_type = "armor"
 place = "off-hand"
-rarity = "legendary"
+rarity = "rare"
 tier = 7
 upgrade_materials = [["items", "hardened-steel"], ["items", "titanium"]]
 useable_by = "all_classes"
@@ -23037,7 +23037,7 @@ ward_power = "+20% (Warden)"
 ward_start = "+2 turns (Warden)"
 
 [main.items.beheaded-zwei-fencers-cuirass]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = [["monsters", "beheaded-zwei-fencer"]]
 exotic = true
@@ -23045,7 +23045,7 @@ icon = "/img/armor/beheaded_zwei-fencers_cuirass.png"
 id = "beheaded-zwei-fencers-cuirass"
 item_type = "armor"
 place = "torso"
-rarity = "legendary"
+rarity = "rare"
 tier = 7
 upgrade_materials = [["items", "platinum"], ["items", "hardened-steel"]]
 useable_by = "all_classes"
@@ -42009,7 +42009,7 @@ useable_by = "all_classes"
 dullahan_s_pursuit = true
 
 [main.items.haunted-dullahan-bladed-boots]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = [["bosses", "arisen-dullahan"], ["bosses", "the-dullahan"]]
 exotic = true
@@ -42017,7 +42017,7 @@ icon = "/img/armor/haunting_dullahan_bladed_boots.png"
 id = "haunted-dullahan-bladed-boots"
 item_type = "armor"
 place = "legs"
-rarity = "legendary"
+rarity = "rare"
 tier = 7
 upgrade_materials = [["items", "twilightstone"], ["items", "pure-darkstone"]]
 useable_by = "all_classes"
@@ -42032,18 +42032,18 @@ name = "t__dex_uuu"
 
 [main.items.haunted-dullahan-bladed-boots.stats]
 adornment_slots = "7"
-attack = "6"
 chain_damage_chance = "+10%"
 damage_to_ward = "+10%"
 defense = "110"
 dexterity = "30"
 disperse_status_effect_chance = "+1%"
 effect_damage = "+50%"
+magic = "6"
 resistance = "110"
 ward = "1%"
 
 [main.items.haunted-dullahan-cloak]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = [["bosses", "arisen-dullahan"], ["bosses", "the-dullahan"]]
 exotic = true
@@ -42051,7 +42051,7 @@ icon = "/img/armor/haunting_dullahan_garb.png"
 id = "haunted-dullahan-cloak"
 item_type = "armor"
 place = "torso"
-rarity = "legendary"
+rarity = "rare"
 tier = 7
 upgrade_materials = [["items", "twilightstone"], ["items", "pure-darkstone"]]
 useable_by = "all_classes"
@@ -42078,7 +42078,7 @@ ward = "1%"
 
 [main.items.haunted-dullahan-skull]
 ability = ["spells", "wail-ii-2"]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = [["bosses", "arisen-dullahan"], ["bosses", "the-dullahan"]]
 exotic = true
@@ -42086,7 +42086,7 @@ icon = "/img/wards/haunting_dullahan_skull.png"
 id = "haunted-dullahan-skull"
 item_type = "armor"
 place = "off-hand"
-rarity = "legendary"
+rarity = "rare"
 tier = 7
 upgrade_materials = [["items", "twilightstone"], ["items", "pure-darkstone"]]
 useable_by = "all_classes"
@@ -59754,7 +59754,7 @@ ward = "35%"
 ward_power = "+20%"
 
 [main.items.spinal-whip]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = [["bosses", "the-dullahan"]]
 exotic = true
@@ -59762,7 +59762,7 @@ icon = "/img/weapons/spinal_whip.png"
 id = "spinal-whip"
 item_type = "weapon"
 place = "weapon"
-rarity = "legendary"
+rarity = "rare"
 tier = 7
 type = "swords"
 upgrade_materials = [["items", "twilightstone"], ["items", "pure-darkstone"]]

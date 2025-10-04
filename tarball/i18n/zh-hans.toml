@@ -1984,7 +1984,7 @@ name = "呼吸剑"
 
 [main.followers.brooooooooooom]
 description = "期间限定。令人毛骨悚然的幽灵。有机会让你的对手入睡。"
-name = "BroooOOOooOOom"
+name = "扫帚喔喔喔噢噢噢喔喔噢噢喔"
 
 [main.followers.cactus]
 description = "会动的仙人掌。能发射细针弹幕。"
@@ -3591,7 +3591,7 @@ description = "被赏赐给德肯尼亚族领主的权杖。能照亮你眼前�
 name = "重生德肯尼亚族权杖"
 
 [main.items.arisen-dullahan-bladed-boots]
-description = "He bows with grace, though crownless still,\nA jester bound to fate’s dark will.\nHe tips his skull with courtly cheer,\nAnd whispers names for none to hear."
+description = "无冕仍尽旧时礼，\n命戏弄臣困樊笼。\n高举头颅犹致意，\n低语其名无人闻。"
 name = "重生杜拉罕锋刃长靴"
 
 [main.items.arisen-dullahan-cloak]
@@ -5035,7 +5035,7 @@ description = "He trades no gold, nor silver key,\nJust laughter laced with mise
 name = "无头献身者的南瓜头"
 
 [main.items.beheaded-duelists-chausses]
-description = "He laughs through teeth that chatter cold,\nA jester grim from stories old."
+description = "齿颤叩鸣冷声笑，\n阴郁丑角出古谣。"
 name = "无头决斗家的腿链甲"
 
 [main.items.beheaded-high-clerics-ankh]
@@ -5048,14 +5048,14 @@ name = "无头商人的罩衫"
 
 [main.items.beheaded-scholars-chargeblade]
 description = "No eyes to see, yet all behold,\nThe rider grim with tales of old."
-name = "Beheaded Scholar's Chargeblade"
+name = "无头学者的充能剑"
 
 [main.items.beheaded-stargazers-candlehead]
-description = "Head tucked tight beneath his arm,\nHe rides through night with ghostly charm."
+description = "怀首肘下目森寒，\n魅影驰骋夜未安。"
 name = "无头观星者的蜡烛头"
 
 [main.items.beheaded-swashbucklers-jacket]
-description = "The Dullahan rides with a lantern grin,\nHis severed head tucked snug within."
+description = "无头骑士灯笼笑，\n断首安怀意自若。"
 name = "无头侠客的夹克"
 
 [main.items.beheaded-tricksters-pumpkinhead]
@@ -6051,7 +6051,7 @@ description = "弗摩尔之奥图娜家族的领袖「河流女神」塞夸纳�
 name = "诅咒的塞夸纳板甲"
 
 [main.items.cursed-spine-shard]
-description = "The air grows still, the candles dim,\nAs mortals dream and think of him.\nA trickster, herald, phantom, friend,\nWhose tale begins but will not end."
+description = "风欲凝，烛渐黯，\n扑朔迷离夜梦人。\n诡计客，先兆使，\n故友幽魂，无首传说永无止。"
 name = "诅咒的脊柱碎片"
 
 [main.items.cursed-sumner-crested-shield]
@@ -8492,10 +8492,10 @@ name = "鹰身女妖的羽毛"
 
 [main.items.haunted-calling-bell]
 description = "So when the winds grow sharp and thin,\nAnd night pulls tighter round your skin,\nTake heed, take care, and hush your breath,\nFor Dullahan rides the roads of death."
-name = "作祟服务铃"
+name = "作祟的招来铃"
 
 [main.items.haunted-dullahan-bladed-boots]
-description = "He bows with grace, though crownless still,\nA jester bound to fate’s dark will.\nHe tips his skull with courtly cheer,\nAnd whispers names for none to hear."
+description = "无冕仍尽旧时礼，\n命戏弄臣困樊笼。\n高举头颅犹致意，\n低语其名无人闻。"
 name = "作祟杜拉罕锋刃长靴"
 
 [main.items.haunted-dullahan-cloak]

@@ -17008,7 +17008,7 @@ description = "造成三次所有基礎元素的混合傷害。"
 name = "全能炸裂 II"
 
 [main.spells.omniflask]
-description = "Consume a Manaflask to unleash a powerful blast of all elements. An additional filled Manaflask and filled Bloodflask will be consumed if available, increasing damage dealt. Requires 2 turns."
+description = "消耗一個魔禁瓶來施放全屬性的強力魔法。若有額外的一個魔禁瓶跟血禁瓶也都會消耗使用來換得傷害加成。"
 name = "全能禁瓶"
 
 [main.spells.omnistrike]

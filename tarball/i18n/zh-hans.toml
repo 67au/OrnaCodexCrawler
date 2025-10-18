@@ -3591,15 +3591,15 @@ description = "被赏赐给德肯尼亚族领主的权杖。能照亮你眼前�
 name = "重生德肯尼亚族权杖"
 
 [main.items.arisen-dullahan-bladed-boots]
-description = "无冕仍尽旧时礼，\n命戏弄臣困樊笼。\n高举头颅犹致意，\n低语其名无人闻。"
+description = "无冕仍尽旧时礼，\n天戏弄臣困命轮。\n高举头颅犹致意，\n低语其名无人闻。"
 name = "重生杜拉罕锋刃长靴"
 
 [main.items.arisen-dullahan-cloak]
-description = "Through misty moors the rider flies,\nWith hollow laugh and lantern eyes.\nHis severed head held firm and tight,\nA beacon grim in candlelight."
+description = "浓雾荒原鬼骑驰，\n南瓜灯火空洞笑。\n断首紧握势不移，\n烛光照引死路行。"
 name = "重生杜拉罕斗篷"
 
 [main.items.arisen-dullahan-skull]
-description = "The Dullahan rides when the moon is high,\nA headless shadow against the sky.\nHe hums a tune both sharp and sweet,\nThat chills the heart with every beat."
+description = "杜拉罕驰月高行，\n无头幽影接天际。\n低吟欢调伴凄美，\n拍拍曲令心惊寒。"
 name = "重生杜拉罕头颅"
 
 [main.items.arisen-embla-hood]
@@ -4151,7 +4151,7 @@ description = "史古基追随者所携带的闪亮宝剑。它的触感相当�
 name = "重生雪橇刃"
 
 [main.items.arisen-spinal-whip]
-description = "He lifts his head as though to bow,\nAnd tips it gently, here and now.\nNo crown of gold, no jeweled delight,\nJust grinning teeth in ghostly white."
+description = "高举头颅犹致意，\n此刻斜颈轻轻倾。\n金冠宝饰皆不见，\n唯余森齿惨白容。"
 name = "重生髓鞭"
 
 [main.items.arisen-spiritgarm-grimoire]
@@ -5027,11 +5027,11 @@ description = "曾为被流放的秘术师亚玻伦所持有的法杖。该武�
 name = "着魔法杖Y"
 
 [main.items.beheaded-assassins-bladed-boots]
-description = "His cloak is stitched from midnight’s thread,\nA riddle’s crown upon his head."
+description = "夜幕如丝织披风，\n谜语为冕冠头颅。"
 name = "无头刺客的锋刃长靴"
 
 [main.items.beheaded-benefactors-pumpkinhead]
-description = "He trades no gold, nor silver key,\nJust laughter laced with misery."
+description = "金钥银匙亦不换，\n唯余苦笑渗悲深。"
 name = "无头献身者的南瓜头"
 
 [main.items.beheaded-duelists-chausses]
@@ -5039,15 +5039,15 @@ description = "齿颤叩鸣冷声笑，\n阴郁丑角出古谣。"
 name = "无头决斗家的腿链甲"
 
 [main.items.beheaded-high-clerics-ankh]
-description = "Across the bridge, through mist and moor,\nHe knocks with silence at your door."
+description = "渡桥穿雾荒原过，\n无声轻叩汝门扉。"
 name = "无头高阶牧师的生命之符"
 
 [main.items.beheaded-merchants-tunic]
-description = "Yet still he hums a jaunty tune,\nBeneath the glow of a fickle moon."
+description = "犹自悠然哼欢调，\n伴随月影忽明暗。"
 name = "无头商人的罩衫"
 
 [main.items.beheaded-scholars-chargeblade]
-description = "No eyes to see, yet all behold,\nThe rider grim with tales of old."
+description = "无目可视却见尽，\n幽冥骑士现古传。"
 name = "无头学者的充能剑"
 
 [main.items.beheaded-stargazers-candlehead]
@@ -5059,15 +5059,15 @@ description = "无头骑士灯笼笑，\n断首安怀意自若。"
 name = "无头侠客的夹克"
 
 [main.items.beheaded-tricksters-pumpkinhead]
-description = "A pumpkin grin? No, something darker,\nA whispered curse, a soul’s last marker."
+description = "岂是南瓜鬼脸笑，\n低语咒鸣刻魂印。"
 name = "无头诈术师的南瓜头"
 
 [main.items.beheaded-wardens-tower-shield]
-description = "A frightful sight, yet oddly spry,\nA ghost who winks as he passes by."
+description = "可怖身影轻轻过，\n鬼灵不见幽幽笑。"
 name = "无头守望者的塔盾"
 
 [main.items.beheaded-zwei-fencers-cuirass]
-description = "Horses snort sparks, their hooves strike flame,\nHe calls no soul, yet whispers your name."
+description = "鬼火幽马踏焰蹄，\n不召魂灵唤汝名。"
 name = "无头重武悍将胸甲"
 
 [main.items.beithirs-staff]
@@ -6007,7 +6007,7 @@ description = "弗摩尔之温塔拉家族的「魔法之神」勒罗所穿戴�
 name = "诅咒的勒罗兜帽"
 
 [main.items.cursed-metals]
-description = "His steed eats shadows, drinks the gloom,\nIt prances proud through graveyard bloom.\nWith every stride, the stars take fright,\nAnd hide behind the cloak of night."
+description = "噬影饮瘴鬼马驰，\n踏破坟茔花落蹄。\n星辰惊颤纷纷藏，\n夜幕低垂隐无踪。"
 name = "诅咒的金属"
 
 [main.items.cursed-monster-tome]
@@ -6051,7 +6051,7 @@ description = "弗摩尔之奥图娜家族的领袖「河流女神」塞夸纳�
 name = "诅咒的塞夸纳板甲"
 
 [main.items.cursed-spine-shard]
-description = "风欲凝，烛渐黯，\n扑朔迷离夜梦人。\n诡计客，先兆使，\n故友幽魂，无首传说永无止。"
+description = "风欲凝，烛渐黯，\n扑朔迷离，夜夜夜思夜梦人。\n诡计客，先兆使，\n幽影故友，无首传说永无止。"
 name = "诅咒的脊柱碎片"
 
 [main.items.cursed-sumner-crested-shield]
@@ -7071,7 +7071,7 @@ description = "巨人战士的粗糙大剑。"
 name = "终焉使者"
 
 [main.items.endless-treats]
-description = "So mind the road where shadows play,\nFor Dullahan may pass your way.\nHe brings no gold, no curse, no plea,\nJust riddles whispered eerily."
+description = "莫过幽影穿行路，\n无首骑士或经途。\n无金无咒亦无祈，\n唯闻谜语低喃诉。"
 name = "无尽盛宴"
 
 [main.items.eostres-circlet]
@@ -8491,19 +8491,19 @@ description = "由鹰身女妖的残骸所制作粗糙盔甲，虽只提供少�
 name = "鹰身女妖的羽毛"
 
 [main.items.haunted-calling-bell]
-description = "So when the winds grow sharp and thin,\nAnd night pulls tighter round your skin,\nTake heed, take care, and hush your breath,\nFor Dullahan rides the roads of death."
+description = "若闻风啸如利剑，\n夜幕沉沉裹汝身。\n屏息凝神戒慎恐，\n杜拉罕驰死路行。"
 name = "作祟的招来铃"
 
 [main.items.haunted-dullahan-bladed-boots]
-description = "无冕仍尽旧时礼，\n命戏弄臣困樊笼。\n高举头颅犹致意，\n低语其名无人闻。"
+description = "无冕仍尽旧时礼，\n天戏弄臣困命轮。\n高举头颅犹致意，\n低语其名无人闻。"
 name = "作祟杜拉罕锋刃长靴"
 
 [main.items.haunted-dullahan-cloak]
-description = "Through misty moors the rider flies,\nWith hollow laugh and lantern eyes.\nHis severed head held firm and tight,\nA beacon grim in candlelight."
+description = "浓雾荒原鬼骑驰，\n南瓜灯火空洞笑。\n断首紧握势不移，\n烛光照引死路行。"
 name = "作祟杜拉罕斗篷"
 
 [main.items.haunted-dullahan-skull]
-description = "The Dullahan rides when the moon is high,\nA headless shadow against the sky.\nHe hums a tune both sharp and sweet,\nThat chills the heart with every beat."
+description = "杜拉罕驰月高行，\n无头幽影接天际。\n低吟欢调伴凄美，\n拍拍曲令心惊寒。"
 name = "作祟杜拉罕头颅"
 
 [main.items.havels-cuirass]
@@ -11742,7 +11742,7 @@ description = "拉达判官的荆棘盾牌。当装备这个盾牌时，消耗�
 name = "荆棘巨盾"
 
 [main.items.spinal-whip]
-description = "He lifts his head as though to bow,\nAnd tips it gently, here and now.\nNo crown of gold, no jeweled delight,\nJust grinning teeth in ghostly white."
+description = "高举头颅犹致意，\n此刻斜颈轻轻倾。\n金冠宝饰皆不见，\n唯余森齿惨白容。"
 name = "髓鞭"
 
 [main.items.spine-of-eos]
@@ -17008,7 +17008,7 @@ description = "造成三次全基础属性的混合伤害。"
 name = "全能炸裂 II"
 
 [main.spells.omniflask]
-description = "Consume a Manaflask to unleash a powerful blast of all elements. An additional filled Manaflask and filled Bloodflask will be consumed if available, increasing damage dealt. Requires 2 turns."
+description = "消耗一枚汲魔瓶来释放一次强大的全属性震爆。消耗额外的一枚汲魔瓶与一枚汲血瓶能造成额外的伤害。"
 name = "全能魔咒瓶"
 
 [main.spells.omnistrike]

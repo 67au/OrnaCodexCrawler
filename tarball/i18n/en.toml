@@ -17008,7 +17008,7 @@ description = "Deals mixed damage of all basic elements thrice."
 name = "Omniblasta II"
 
 [main.spells.omniflask]
-description = "Consume a Manaflask to unleash a powerful blast of all elements. An additional filled Manaflask and filled Bloodflask will be consumed if available, increasing damage dealt. Requires 2 turns."
+description = "Consume a Manaflask to unleash a powerful blast of all elements. An additional filled Manaflask and filled Bloodflask will be consumed if available, increasing damage dealt."
 name = "Omniflask"
 
 [main.spells.omnistrike]

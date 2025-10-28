@@ -1262,6 +1262,9 @@ name = "赤刃艾柯吕斯之冥影"
 [main.bosses.shade-of-charon-grand-summoner-a33af9a0]
 name = "冠位召唤师卡戎之冥影"
 
+[main.bosses.shade-of-mnemosyne]
+name = "谟涅摩叙涅之影"
+
 [main.bosses.shade-of-rhada-the-great-shield]
 name = "巨盾拉达之冥影"
 
@@ -1327,6 +1330,9 @@ name = "提亚马特"
 
 [main.bosses.titan-eos]
 name = "泰坦厄俄斯"
+
+[main.bosses.titan-mnemosyne]
+name = "泰坦谟涅摩叙涅"
 
 [main.bosses.titan-oceanus]
 name = "泰坦俄刻阿诺斯"
@@ -4286,6 +4292,10 @@ name = "重生狼塔盾"
 description = "泰坦自身的碎片，能在泰坦工坊用于增强天辉武器。该碎片能提升契约技能的效果。"
 name = "厄俄斯手臂"
 
+[main.items.arms-of-mnemosyne]
+description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "Arms of Mnemosyne"
+
 [main.items.arms-of-oceanus]
 description = "泰坦自身的碎片，能在泰坦工坊用于增强天辉武器。"
 name = "俄刻阿诺斯手臂"
@@ -4709,6 +4719,10 @@ name = "伪神之戒"
 [main.items.band-of-gods]
 description = "古老的元素之神所穿戴的戒指，可以增加获得的金币、欧币及经验值。"
 name = "众神之戒"
+
+[main.items.band-of-mnemosyne]
+description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "Band of Mnemosyne"
 
 [main.items.bandits-axe]
 description = "最凶恶的土匪持有的大斧。"
@@ -7294,6 +7308,10 @@ name = "亮丽的腰带"
 description = "提升视野的药水。喝下它能在 1 小时内提升视野范围。"
 name = "远见"
 
+[main.items.feet-of-mnemosyne]
+description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "Feet of Mnemosyne"
+
 [main.items.feral-archistaff]
 description = "野性的刻耳柏洛斯最具代表性的法杖。能提升你的追随者的行动率。"
 name = "野性权杖"
@@ -7818,7 +7836,7 @@ name = "弗摩尔镀金长袍"
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的链甲。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "弗摩尔镀金长袍"
 
-[main.items.fomoria-plated-robe-fb3188b6]
+[main.items.fomoria-plated-robe-946a26b9]
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的链甲。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 name = "弗摩尔镀金长袍"
 
@@ -7901,6 +7919,10 @@ name = "林中白羊之角"
 [main.items.forest-goats-legs]
 description = "林中白羊亚力士的腿。能在战斗中提升追随者的力量。"
 name = "林中白羊之腿"
+
+[main.items.fragment-of-olympic-memory]
+description = "One may use this item at the Monumental Guild to craft items during the \"Of Giants and Titans\" world event."
+name = "奥林匹亚记忆之碎片"
 
 [main.items.fragment-of-the-planets-core]
 description = "火红且炽热的石头。显然这玩意就是来自于地心，但又有谁能说准呢。"
@@ -8466,6 +8488,10 @@ name = "万圣女巫帽"
 description = "适用于击打的大锤。"
 name = "锤"
 
+[main.items.hands-of-mnemosyne]
+description = "The Olympians constructed many great Titans to construct their towers to the skies. Few titans remain animated today.\n\nTitan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "Hands of Mnemosyne"
+
 [main.items.handy-waystone]
 description = "一块充满魔法的石头。用它来设置指南针标记以搜寻旅馆任务怪物位置。"
 name = "便利引路石"
@@ -8581,6 +8607,10 @@ name = "变之心"
 [main.items.heart-of-eos]
 description = "奥林匹亚人制造了许多泰坦，以建造他们的逐星高塔。如今却很少泰坦仍保持活动。\n\n泰坦厄俄斯驾驶一辆由她爱驹法厄同所驱动的战车。她从各大洲中搜寻塔的材料，从未因困难而耽误运送。\n\n该碎片提升召唤物的力量。"
 name = "厄俄斯之心"
+
+[main.items.heart-of-mnemosyne]
+description = "The Olympians constructed many great Titans to construct their towers to the skies. Few titans remain animated today.\n\nTitan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "Heart of Mnemosyne"
 
 [main.items.heart-of-oceanus]
 description = "奥林匹亚人制造了许多泰坦，以建造他们的逐星高塔。如今却很少泰坦仍保持活动。\n\n俄刻阿诺斯掀起巨浪，以波浪冲击高塔来测试它们的威力。他冷却了普罗米修斯熔炉中的造物，且以强大潮汐之力将塔的部件安放就位。\n\n该碎片赋予突破伤害上限的能力。"
@@ -9182,7 +9212,7 @@ name = "刻耳柏洛斯权杖"
 description = "由刻耳柏洛斯那尖锐锋利的爪所制成。攻击有机率对对手造成流血和冰冻。"
 name = "刻耳柏洛斯之爪"
 
-[main.items.kerberos-claws-81b67c8d]
+[main.items.kerberos-claws-e7f61ea1]
 description = "由刻耳柏洛斯那尖锐锋利的爪所制成。攻击有机率对对手造成流血和冰冻。"
 name = "刻耳柏洛斯之爪"
 
@@ -9905,6 +9935,30 @@ name = "牛头怪斧"
 [main.items.mirror]
 description = "镜面盾牌。藉由牺牲护盾，能反映自己并获得魔力值。"
 name = "镜子"
+
+[main.items.mnemonic-of-mnemosyne]
+description = "Mnemosyne, a Titan or tricks and puzzles, invites you to her Tower or Puzzles, \"Mnemosyne's Ascent\". This item is part of the \"Of Giants and Titans\" world event."
+name = "谟涅摩叙涅之追忆"
+
+[main.items.mnemosyne-puzzle-key]
+description = "Key to a \"Shadows of the Titans\" Tower of Olympia mode, usable during the \"Of Giants and Titans\" world event."
+name = "谟涅摩叙涅解谜钥匙"
+
+[main.items.mnemosynes-amphora]
+description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "谟涅摩叙涅的双耳瓶"
+
+[main.items.mnemosynes-crepida]
+description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "Mnemosyne's Crepida"
+
+[main.items.mnemosynes-himation]
+description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "Mnemosyne's Himation"
+
+[main.items.mnemosynes-trinket]
+description = "Trinket of Mnemosyne, Titan of Olympia. When this Trinket is used during an unfinished Memory Hunt, your current step will be instantly completed and the Hunt will progress."
+name = "谟涅摩叙涅的小饰品"
 
 [main.items.mochis-boots-of-mercy]
 description = "Mochi的装备。"
@@ -10866,6 +10920,10 @@ name = "Purrly旧法杖"
 description = "市场营销专家的装备。"
 name = "Purrly长袍"
 
+[main.items.puzzle-makers-ambrosia]
+description = "This item is part of the \"Of Giants and Titans\" event. But what use does it have?"
+name = "谜题制作者的神之食"
+
 [main.items.qatvanga]
 description = "傲慢恶魔玛门的权杖。"
 name = "喀章嘎天杖"
@@ -11421,6 +11479,10 @@ name = "短剑"
 description = "泰坦自身的碎片，能在泰坦工坊用于增强天辉武器。该碎片能提升召唤物保护率。"
 name = "厄俄斯肩膀"
 
+[main.items.shoulders-of-mnemosyne]
+description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "Shoulders of Mnemosyne"
+
 [main.items.shoulders-of-oceanus]
 description = "泰坦自身的碎片，能在泰坦工坊用于增强天辉武器。"
 name = "俄刻阿诺斯肩膀"
@@ -11748,6 +11810,10 @@ name = "髓鞭"
 [main.items.spine-of-eos]
 description = "泰坦自身的碎片，能在泰坦工坊用于增强天辉武器。"
 name = "厄俄斯脊柱"
+
+[main.items.spine-of-mnemosyne]
+description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "Spine of Mnemosyne"
 
 [main.items.spine-of-oceanus]
 description = "泰坦自身的碎片，能在泰坦工坊用于增强天辉武器。"
@@ -17206,6 +17272,10 @@ name = "净化连击"
 description = "用最恶烂的吐息痛击对手。"
 name = "腐烂吐息"
 
+[main.spells.puzzlemakers-ambrosia]
+description = "???"
+name = "谜题制造者的神之食"
+
 [main.spells.quad-edge]
 description = "随意的攻击，对对手造成伤害的同时也对自身造成伤害。"
 name = "四面刃"
@@ -18667,7 +18737,6 @@ merlin = "梅林"
 none = "None"
 nothren_legends__ragnarok = "北族传说: 诸神黄昏"
 of_giants_and_titans = "巨人与泰坦"
-of_giants_and_titans__hyperion = "巨人与泰坦: 亥伯龙"
 ornaversary = "Orna 周年庆"
 paths_of_fomoria__house_of_autumna = "弗摩尔族之路：奥图娜家族"
 paths_of_fomoria__house_of_nocturna = "弗摩尔族之路：诺特纳家族"
@@ -19099,7 +19168,13 @@ phaethon = "法厄同"
 phoenix_s_pledge = "凤凰誓约"
 poisoned = "中毒"
 pollux = "波鲁克斯"
+power_of_titan_eos = "泰坦厄俄斯之力"
+power_of_titan_oceanus = "泰坦俄刻阿诺斯之力"
+power_of_titan_prometheus = "泰坦普罗米修斯之力"
+power_of_titan_selene = "泰坦塞勒涅之力"
+power_of_titan_themis = "泰坦忒弥斯之力"
 prometheus = "普罗米修斯"
+puzzlemaker_s_ambrosia = "谜题制造者的神之食"
 rand_uu = "澜 ↑↑"
 reraise = "死者苏生"
 res_d = "Res ↓"

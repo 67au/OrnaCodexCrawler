@@ -1262,6 +1262,9 @@ name = "Shade of Achlys, the Red Dagger"
 [main.bosses.shade-of-charon-grand-summoner-a33af9a0]
 name = "Shade of Charon, Grand Summoner"
 
+[main.bosses.shade-of-mnemosyne]
+name = "Shade of Mnemosyne"
+
 [main.bosses.shade-of-rhada-the-great-shield]
 name = "Shade of Rhada, the Great Shield"
 
@@ -1327,6 +1330,9 @@ name = "Tiamat"
 
 [main.bosses.titan-eos]
 name = "Titan Eos"
+
+[main.bosses.titan-mnemosyne]
+name = "Titan Mnemosyne"
 
 [main.bosses.titan-oceanus]
 name = "Titan Oceanus"
@@ -3591,7 +3597,7 @@ description = "An archistaff granted to Draconian lords. Illuminates your path w
 name = "Arisen Draconian Archistaff"
 
 [main.items.arisen-dullahan-bladed-boots]
-description = "He bows with grace, though crownless still,\nA jester bound to fate’s dark will.\nHe tips his skull with courtly cheer,\nAnd whispers names for none to hear."
+description = "He bows with grace, though crownless still,\nA jester bound to fate's dark will.\nHe tips his skull with courtly cheer,\nAnd whispers names for none to hear."
 name = "Arisen Dullahan Bladed Boots"
 
 [main.items.arisen-dullahan-cloak]
@@ -4286,6 +4292,10 @@ name = "Arisen Wolven Tower Shield"
 description = "A piece of a Titan themself. These pieces can be used to augment celestial weapons at a Titan Workshop. This piece will make pacts with your summons more effective."
 name = "Arms of Eos"
 
+[main.items.arms-of-mnemosyne]
+description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "Arms of Mnemosyne"
+
 [main.items.arms-of-oceanus]
 description = "A piece of a Titan themself. These pieces can be used to augment celestial weapons at a Titan Workshop."
 name = "Arms of Oceanus"
@@ -4710,6 +4720,10 @@ name = "Band of False Gods"
 description = "A ring worn by the elemental Gods of old. Increases gold, orns, and experience earned."
 name = "Band of Gods"
 
+[main.items.band-of-mnemosyne]
+description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "Band of Mnemosyne"
+
 [main.items.bandits-axe]
 description = "A large axe carried by the mightiest bandits."
 name = "Bandit's Axe"
@@ -5027,7 +5041,7 @@ description = "Staff once held by Apollyon, the exiled mystic. This weapon incre
 name = "Beguiled Staff Y"
 
 [main.items.beheaded-assassins-bladed-boots]
-description = "His cloak is stitched from midnight’s thread,\nA riddle’s crown upon his head."
+description = "His cloak is stitched from midnight's thread,\nA riddle's crown upon his head."
 name = "Beheaded Assassin's Bladed Boots"
 
 [main.items.beheaded-benefactors-pumpkinhead]
@@ -5036,7 +5050,7 @@ name = "Beheaded Benefactor's Pumpkinhead"
 
 [main.items.beheaded-duelists-chausses]
 description = "He laughs through teeth that chatter cold,\nA jester grim from stories old."
-name = "Beheaded Duelist’s Chausses"
+name = "Beheaded Duelist's Chausses"
 
 [main.items.beheaded-high-clerics-ankh]
 description = "Across the bridge, through mist and moor,\nHe knocks with silence at your door."
@@ -5059,16 +5073,16 @@ description = "The Dullahan rides with a lantern grin,\nHis severed head tucked 
 name = "Beheaded Swashbuckler's Jacket"
 
 [main.items.beheaded-tricksters-pumpkinhead]
-description = "A pumpkin grin? No, something darker,\nA whispered curse, a soul’s last marker."
-name = "Beheaded Trickster’s Pumpkinhead"
+description = "A pumpkin grin? No, something darker,\nA whispered curse, a soul's last marker."
+name = "Beheaded Trickster's Pumpkinhead"
 
 [main.items.beheaded-wardens-tower-shield]
 description = "A frightful sight, yet oddly spry,\nA ghost who winks as he passes by."
-name = "Beheaded Warden’s Tower Shield"
+name = "Beheaded Warden's Tower Shield"
 
 [main.items.beheaded-zwei-fencers-cuirass]
 description = "Horses snort sparks, their hooves strike flame,\nHe calls no soul, yet whispers your name."
-name = "Beheaded Zwei-fencer’s Cuirass"
+name = "Beheaded Zwei-fencer's Cuirass"
 
 [main.items.beithirs-staff]
 description = "Aside: As Illuyanka's walls were raised, protection for this new land was needed. Beithir, with the breath of lightning and claws of toxin, replicated itself indefinitely. An army of Dragons was created in an instant."
@@ -7294,6 +7308,10 @@ name = "Fancy Belt"
 description = "A tonic that improves eyesight. Consuming this item will increase your view distance for 1 hour."
 name = "Farsight"
 
+[main.items.feet-of-mnemosyne]
+description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "Feet of Mnemosyne"
+
 [main.items.feral-archistaff]
 description = "Mighty staff, representative of the feral Kerberos. It greatly increases the rate in which a follower may act in battle."
 name = "Feral Archistaff"
@@ -7818,7 +7836,7 @@ name = "Fomoria Plated Robe"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Fomoria Plated Robe"
 
-[main.items.fomoria-plated-robe-fb3188b6]
+[main.items.fomoria-plated-robe-946a26b9]
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Fomoria Plated Robe"
 
@@ -7901,6 +7919,10 @@ name = "Forest Goat's Horns"
 [main.items.forest-goats-legs]
 description = "Legs of Aries, the forest goat. Wearing them will increase your power of your follower in battle."
 name = "Forest Goat's Legs"
+
+[main.items.fragment-of-olympic-memory]
+description = "One may use this item at the Monumental Guild to craft items during the \"Of Giants and Titans\" world event."
+name = "Fragment of Olympic Memory"
 
 [main.items.fragment-of-the-planets-core]
 description = "A hot, red, stone. It is apparently from the planet's core, but who knows for sure."
@@ -8466,6 +8488,10 @@ name = "Hallowed Witch's Hat"
 description = "A large hammer suitable for crushing blows."
 name = "Hammer"
 
+[main.items.hands-of-mnemosyne]
+description = "The Olympians constructed many great Titans to construct their towers to the skies. Few titans remain animated today.\n\nTitan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "Hands of Mnemosyne"
+
 [main.items.handy-waystone]
 description = "A stone imbued with the most helpful of magic. Use it to set a compass marker to inn quest monster locations."
 name = "Handy Waystone"
@@ -8495,7 +8521,7 @@ description = "So when the winds grow sharp and thin,\nAnd night pulls tighter r
 name = "Haunted Calling Bell"
 
 [main.items.haunted-dullahan-bladed-boots]
-description = "He bows with grace, though crownless still,\nA jester bound to fate’s dark will.\nHe tips his skull with courtly cheer,\nAnd whispers names for none to hear."
+description = "He bows with grace, though crownless still,\nA jester bound to fate's dark will.\nHe tips his skull with courtly cheer,\nAnd whispers names for none to hear."
 name = "Haunted Dullahan Bladed Boots"
 
 [main.items.haunted-dullahan-cloak]
@@ -8581,6 +8607,10 @@ name = "Heart of Change"
 [main.items.heart-of-eos]
 description = "The Olympians constructed many great Titans to construct their towers to the skies. Few titans remain animated today.\n\nTitan Eos drove a mighty chariot powered by her mighty horses, the Phaethons. She searched the continents for tower materials, never having difficulty delivering them home.\n\nThis piece will increase the power of your summons."
 name = "Heart of Eos"
+
+[main.items.heart-of-mnemosyne]
+description = "The Olympians constructed many great Titans to construct their towers to the skies. Few titans remain animated today.\n\nTitan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "Heart of Mnemosyne"
 
 [main.items.heart-of-oceanus]
 description = "The Olympians constructed many great Titans to construct their towers to the skies. Few titans remain animated today.\n\nOceanus raised the great seas; crashing waves against the towers to test their might. He cooled the artifacts of Prometheus's Kiln, and forced the tower pieces into place with great tidal force.\n\nThis augment allows one to break the maximum damage limit."
@@ -9182,7 +9212,7 @@ name = "Kerberos Archistaff"
 description = "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
 name = "Kerberos Claws"
 
-[main.items.kerberos-claws-81b67c8d]
+[main.items.kerberos-claws-e7f61ea1]
 description = "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
 name = "Kerberos Claws"
 
@@ -9905,6 +9935,30 @@ name = "Minotaur Axe"
 [main.items.mirror]
 description = "A mirrored shield. At the sacrifice of Ward, one can reflect on themselves and gain mana."
 name = "Mirror"
+
+[main.items.mnemonic-of-mnemosyne]
+description = "Mnemosyne, a Titan or tricks and puzzles, invites you to her Tower or Puzzles, \"Mnemosyne's Ascent\". This item is part of the \"Of Giants and Titans\" world event."
+name = "Mnemonic of Mnemosyne"
+
+[main.items.mnemosyne-puzzle-key]
+description = "Key to a \"Shadows of the Titans\" Tower of Olympia mode, usable during the \"Of Giants and Titans\" world event."
+name = "Mnemosyne Puzzle Key"
+
+[main.items.mnemosynes-amphora]
+description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "Mnemosyne's Amphora"
+
+[main.items.mnemosynes-crepida]
+description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "Mnemosyne's Crepida"
+
+[main.items.mnemosynes-himation]
+description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "Mnemosyne's Himation"
+
+[main.items.mnemosynes-trinket]
+description = "Trinket of Mnemosyne, Titan of Olympia. When this Trinket is used during an unfinished Memory Hunt, your current step will be instantly completed and the Hunt will progress."
+name = "Mnemosyne's Trinket"
 
 [main.items.mochis-boots-of-mercy]
 description = "Gear of Mochi."
@@ -10866,6 +10920,10 @@ name = "Purrly's Old Staff"
 description = "Gear of the great marketer."
 name = "Purrly's Robe"
 
+[main.items.puzzle-makers-ambrosia]
+description = "This item is part of the \"Of Giants and Titans\" event. But what use does it have?"
+name = "Puzzle-maker's Ambrosia"
+
 [main.items.qatvanga]
 description = "Archistaff of Mammon, the demon of hubris."
 name = "Qatvanga"
@@ -11421,6 +11479,10 @@ name = "Short Sword"
 description = "A piece of a Titan themself. These pieces can be used to augment celestial weapons at a Titan Workshop. This piece will allow your summons to protect you more frequently."
 name = "Shoulders of Eos"
 
+[main.items.shoulders-of-mnemosyne]
+description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "Shoulders of Mnemosyne"
+
 [main.items.shoulders-of-oceanus]
 description = "A piece of a Titan themself. These pieces can be used to augment celestial weapons at a Titan Workshop."
 name = "Shoulders of Oceanus"
@@ -11748,6 +11810,10 @@ name = "Spinal Whip"
 [main.items.spine-of-eos]
 description = "A piece of a Titan themself. These pieces can be used to augment celestial weapons at a Titan Workshop."
 name = "Spine of Eos"
+
+[main.items.spine-of-mnemosyne]
+description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+name = "Spine of Mnemosyne"
 
 [main.items.spine-of-oceanus]
 description = "A piece of a Titan themself. These pieces can be used to augment celestial weapons at a Titan Workshop."
@@ -17206,6 +17272,10 @@ name = "Purifying Strikes"
 description = "Attack the opponent the most putrid of breath."
 name = "Putrid Breath"
 
+[main.spells.puzzlemakers-ambrosia]
+description = "???"
+name = "Puzzlemaker's Ambrosia"
+
 [main.spells.quad-edge]
 description = "Attack without care, dealing damage to your opponent while taking self damage."
 name = "Quad Edge"
@@ -18667,7 +18737,6 @@ merlin = "Merlin"
 none = "None"
 nothren_legends__ragnarok = "Nothren Legends: Ragnarok"
 of_giants_and_titans = "Of Giants and Titans"
-of_giants_and_titans__hyperion = "Of Giants and Titans: Hyperion"
 ornaversary = "Ornaversary"
 paths_of_fomoria__house_of_autumna = "Paths of Fomoria: House of Autumna"
 paths_of_fomoria__house_of_nocturna = "Paths of Fomoria: House of Nocturna"
@@ -19099,7 +19168,13 @@ phaethon = "Phaethon"
 phoenix_s_pledge = "Phoenix's Pledge"
 poisoned = "Poisoned"
 pollux = "Pollux"
+power_of_titan_eos = "Power of Titan Eos"
+power_of_titan_oceanus = "Power of Titan Oceanus"
+power_of_titan_prometheus = "Power of Titan Prometheus"
+power_of_titan_selene = "Power of Titan Selene"
+power_of_titan_themis = "Power of Titan Themis"
 prometheus = "Prometheus"
+puzzlemaker_s_ambrosia = "Puzzlemaker's Ambrosia"
 rand_uu = "Rand ↑↑"
 reraise = "Reraise"
 res_d = "Res ↓"

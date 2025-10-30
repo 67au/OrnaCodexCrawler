@@ -1263,7 +1263,7 @@ name = "赤刃艾柯呂斯之影"
 name = "冠位召喚師凱倫之影"
 
 [main.bosses.shade-of-mnemosyne]
-name = "Shade of Mnemosyne"
+name = "寧默辛妮之影"
 
 [main.bosses.shade-of-rhada-the-great-shield]
 name = "大盾拉達之影"
@@ -1332,7 +1332,7 @@ name = "提亞馬特"
 name = "泰坦愛奧斯"
 
 [main.bosses.titan-mnemosyne]
-name = "Titan Mnemosyne"
+name = "泰坦寧默辛妮"
 
 [main.bosses.titan-oceanus]
 name = "泰坦奧克亞諾斯"
@@ -3597,7 +3597,7 @@ description = "被賞賜給德肯尼亞族領主的權杖.能照亮你眼前的�
 name = "重生德肯尼亞族權杖"
 
 [main.items.arisen-dullahan-bladed-boots]
-description = "He bows with grace, though crownless still,\nA jester bound to fate's dark will.\nHe tips his skull with courtly cheer,\nAnd whispers names for none to hear."
+description = "行禮優雅雖無冠，\n命運束縛暗夜寒。\n傾顱一笑宮廷歡，\n低語名字誰人聞。"
 name = "重生無頭騎士帶刃長靴"
 
 [main.items.arisen-dullahan-cloak]
@@ -5041,7 +5041,7 @@ description = "曾經由被流放的秘術師亞坡倫所持有的法杖。使�
 name = "著魔法杖 Y"
 
 [main.items.beheaded-assassins-bladed-boots]
-description = "His cloak is stitched from midnight's thread,\nA riddle's crown upon his head."
+description = "斗篷縫自夜色纏，\n謎冠穩戴在顱間。"
 name = "喪首刺客帶刃長靴"
 
 [main.items.beheaded-benefactors-pumpkinhead]
@@ -5050,7 +5050,7 @@ name = "喪首施主的南瓜頭"
 
 [main.items.beheaded-duelists-chausses]
 description = "他齒顫鳴冷聲笑，\n古老傳說中丑角。"
-name = "Beheaded Duelist's Chausses"
+name = "喪首決鬥家的鍊甲護腿"
 
 [main.items.beheaded-high-clerics-ankh]
 description = "跨越橋梁穿迷霧， \n無聲叩響你家門。"
@@ -5073,16 +5073,16 @@ description = "無首騎士燈籠笑， \n懷藏斷首不動搖。"
 name = "喪首俠客的外套"
 
 [main.items.beheaded-tricksters-pumpkinhead]
-description = "A pumpkin grin? No, something darker,\nA whispered curse, a soul's last marker."
-name = "Beheaded Trickster's Pumpkinhead"
+description = "南瓜笑？不，陰影漫，\n低語咒，魂歸寒。"
+name = "喪首詐術師的南瓜頭"
 
 [main.items.beheaded-wardens-tower-shield]
 description = "可怖身影卻靈巧， \n路過還能幽幽笑。"
-name = "Beheaded Warden's Tower Shield"
+name = "喪首守望者的塔盾"
 
 [main.items.beheaded-zwei-fencers-cuirass]
 description = "鬼馬噴火蹄踏焰， \n他不召魂喚汝名。"
-name = "Beheaded Zwei-fencer's Cuirass"
+name = "喪首重武悍將胸甲"
 
 [main.items.beithirs-staff]
 description = "旁白：隨著伊盧揚卡升起了高牆，這片新土地需要保護。貝西爾帶著閃電的氣息和毒素的利爪，無限地複製著自己。一支龍族大軍瞬間誕生。"
@@ -7921,8 +7921,8 @@ description = "森林牡羊亞力士的腿。穿戴這件物品可以提高你�
 name = "森林牡羊的腿"
 
 [main.items.fragment-of-olympic-memory]
-description = "One may use this item at the Monumental Guild to craft items during the \"Of Giants and Titans\" world event."
-name = "Fragment of Olympic Memory"
+description = "這個道具可在紀念碑公會使用，於「巨人與泰坦」世界活動中製作物品。"
+name = "奧林匹亞記憶碎片"
 
 [main.items.fragment-of-the-planets-core]
 description = "很明顯就是來自於地心的炙熱石頭，但誰也不敢掛保證。"
@@ -8521,7 +8521,7 @@ description = "若風聲冷若夜緊， \n若黑幕纏住你心，\n屏息凝神
 name = "鬧鬼的召人鈴"
 
 [main.items.haunted-dullahan-bladed-boots]
-description = "He bows with grace, though crownless still,\nA jester bound to fate's dark will.\nHe tips his skull with courtly cheer,\nAnd whispers names for none to hear."
+description = "行禮優雅雖無冠，\n命運束縛暗夜寒。\n傾顱一笑宮廷歡，\n低語名字誰人聞。"
 name = "鬧鬼的無頭騎士帶刃長靴"
 
 [main.items.haunted-dullahan-cloak]
@@ -9937,16 +9937,16 @@ description = "鏡面盾牌.藉由犧牲護盾,能反映自己並獲得法力值
 name = "鏡子"
 
 [main.items.mnemonic-of-mnemosyne]
-description = "Mnemosyne, a Titan or tricks and puzzles, invites you to her Tower or Puzzles, \"Mnemosyne's Ascent\". This item is part of the \"Of Giants and Titans\" world event."
-name = "Mnemonic of Mnemosyne"
+description = "寧默辛妮─掌管詭計與謎題的泰坦，邀請你挑戰她的謎題之塔「寧默辛妮的攀登」。此道具屬於「巨人與泰坦」世界事件的一部分。"
+name = "寧默辛妮的追憶"
 
 [main.items.mnemosyne-puzzle-key]
-description = "Key to a \"Shadows of the Titans\" Tower of Olympia mode, usable during the \"Of Giants and Titans\" world event."
-name = "Mnemosyne Puzzle Key"
+description = "可開啟奧林匹亞之塔「泰坦之影」模式的鑰匙，可於「巨人與泰坦」世界活動期間使用。"
+name = "寧默辛妮謎鑰"
 
 [main.items.mnemosynes-amphora]
 description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
-name = "Mnemosyne's Amphora"
+name = "寧默辛妮的雙耳細頸瓶"
 
 [main.items.mnemosynes-crepida]
 description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
@@ -9958,7 +9958,7 @@ name = "Mnemosyne's Himation"
 
 [main.items.mnemosynes-trinket]
 description = "Trinket of Mnemosyne, Titan of Olympia. When this Trinket is used during an unfinished Memory Hunt, your current step will be instantly completed and the Hunt will progress."
-name = "Mnemosyne's Trinket"
+name = "寧默辛妮的小飾物"
 
 [main.items.mochis-boots-of-mercy]
 description = "Mochi噴的裝。"
@@ -10921,8 +10921,8 @@ description = "偉大行銷商的工具。"
 name = "Purrly的長袍"
 
 [main.items.puzzle-makers-ambrosia]
-description = "This item is part of the \"Of Giants and Titans\" event. But what use does it have?"
-name = "Puzzle-maker's Ambrosia"
+description = "這個道具是「巨人與泰坦」活動的一部分。但它究竟有什麼用途呢？"
+name = "謎題師的神之食"
 
 [main.items.qatvanga]
 description = "傲慢的惡魔瑪門的權杖."
@@ -17274,7 +17274,7 @@ name = "腐爛吐息"
 
 [main.spells.puzzlemakers-ambrosia]
 description = "???"
-name = "Puzzlemaker's Ambrosia"
+name = "謎題師的神之食"
 
 [main.spells.quad-edge]
 description = "隨意的攻擊，對對手造成致命性傷害的同時也對自身造成傷害。"
@@ -19168,13 +19168,13 @@ phaethon = "法厄同"
 phoenix_s_pledge = "鳳凰之誓"
 poisoned = "中毒"
 pollux = "波魯克斯"
-power_of_titan_eos = "Power of Titan Eos"
-power_of_titan_oceanus = "Power of Titan Oceanus"
-power_of_titan_prometheus = "Power of Titan Prometheus"
-power_of_titan_selene = "Power of Titan Selene"
-power_of_titan_themis = "Power of Titan Themis"
+power_of_titan_eos = "泰坦愛奧斯之力"
+power_of_titan_oceanus = "泰坦奧克亞諾斯之力"
+power_of_titan_prometheus = "泰坦普羅米修斯之力"
+power_of_titan_selene = "泰坦塞勒涅之力"
+power_of_titan_themis = "泰坦泰美斯之力"
 prometheus = "普羅米修斯"
-puzzlemaker_s_ambrosia = "Puzzlemaker's Ambrosia"
+puzzlemaker_s_ambrosia = "謎題師的神之食"
 rand_uu = "蘭德 ↑↑"
 reraise = "死者所生"
 res_d = "Res ↓"

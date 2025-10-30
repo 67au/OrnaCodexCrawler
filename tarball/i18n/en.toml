@@ -6429,7 +6429,7 @@ description = "Unrefined ore of the underworld. Useful for upgrading demonic wea
 name = "Demonic Ore"
 
 [main.items.demonworking-tools]
-description = "Tools found at an abandoned Demonforge, capable of simultaneous augment and destruction. Using these tools upon a piece of unadorned equipment will increase its Anguished Level by 1, but reset its upgrade level to Level 10. Anguished Gear has decreased forging material costs."
+description = "Tools found at an abandoned Demonforge, capable of simultaneous augment and destruction. Using these tools upon a piece of equipment will increase its Anguished Level by 1, but reset its upgrade level to Level 10. Anguished Gear has decreased forging material costs."
 name = "Demonworking Tools"
 
 [main.items.diluted-mnemonic]

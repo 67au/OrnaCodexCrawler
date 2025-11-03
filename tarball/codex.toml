@@ -2789,7 +2789,7 @@ name = "paired_essence_iv"
 [main.bosses.shade-of-mnemosyne]
 aura = "superboss"
 category = "bosses"
-drops = [["items", "mnemosynes-amphora"], ["items", "mnemosynes-trinket"], ["items", "heart-of-mnemosyne"]]
+drops = [["items", "fragment-of-olympic-memory"], ["items", "mnemosynes-amphora"], ["items", "mnemosynes-trinket"], ["items", "heart-of-mnemosyne"]]
 family = "titans"
 icon = "/img/bosses/titan_mnemosyne.png"
 id = "shade-of-mnemosyne"
@@ -3054,12 +3054,12 @@ name = "titan_s_ward"
 [main.bosses.titan-mnemosyne]
 aura = "superboss"
 category = "bosses"
-drops = [["items", "arms-of-mnemosyne"], ["items", "band-of-mnemosyne"], ["items", "feet-of-mnemosyne"], ["items", "hands-of-mnemosyne"], ["items", "mnemosynes-crepida"], ["items", "mnemosynes-himation"], ["items", "shoulders-of-mnemosyne"], ["items", "spine-of-mnemosyne"]]
+drops = [["items", "fragment-of-olympic-memory"], ["items", "arms-of-mnemosyne"], ["items", "band-of-mnemosyne"], ["items", "feet-of-mnemosyne"], ["items", "hands-of-mnemosyne"], ["items", "mnemosynes-crepida"], ["items", "mnemosynes-himation"], ["items", "shoulders-of-mnemosyne"], ["items", "spine-of-mnemosyne"]]
 family = "titans"
 icon = "/img/bosses/titan_mnemosyne2.png"
 id = "titan-mnemosyne"
 rarity = "cryptid"
-skills = [["spells", "prism-wall"], ["spells", "omnistrike-iii"], ["spells", "omnistrikes"], ["spells", "build-tower"], ["spells", "titans-power"], ["spells", "titans-protection"], ["spells", "titans-seal"], ["spells", "ultima"]]
+skills = [["spells", "prism-wall"], ["spells", "fire-sigil-2"], ["spells", "build-tower"], ["spells", "fey-flame-v"], ["spells", "summon-chimera"], ["spells", "titans-power"], ["spells", "titans-protection"], ["spells", "titans-seal"], ["spells", "ultima"]]
 tier = 9
 
 [main.bosses.titan-oceanus]
@@ -38945,6 +38945,7 @@ ward = "2%"
 [main.items.fragment-of-olympic-memory]
 aura = "rare"
 category = "items"
+dropped_by = [["bosses", "shade-of-mnemosyne"], ["bosses", "titan-mnemosyne"]]
 exotic = false
 icon = "/img/useables/olympiamemoryshards.png"
 id = "fragment-of-olympic-memory"
@@ -78469,7 +78470,7 @@ learned_by = [["classes", "55"]]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 10
-used_by = [["followers", "cthulhu"], ["followers", "the-mightiest-mimic"], ["followers", "the-mightiest-murk"], ["raids", "arisen-kerberos"], ["raids", "final-horseman"], ["raids", "the-fool"], ["raids", "the-fool-ef1c6cb2"], ["raids", "the-mightiest-mimic"], ["bosses", "fallen-heretic"], ["monsters", "great-gazer-5e49b351"]]
+used_by = [["followers", "cthulhu"], ["followers", "the-mightiest-mimic"], ["followers", "the-mightiest-murk"], ["raids", "arisen-kerberos"], ["raids", "final-horseman"], ["raids", "the-fool"], ["raids", "the-fool-ef1c6cb2"], ["raids", "the-mightiest-mimic"], ["bosses", "fallen-heretic"], ["bosses", "titan-mnemosyne"], ["monsters", "great-gazer-5e49b351"]]
 
 [[main.spells.fey-flame-v.causes]]
 chance = "20%"
@@ -78941,6 +78942,7 @@ id = "fire-sigil-2"
 spell_type = "spell"
 targets = "every_opponent_in_a_battle"
 tier = 9
+used_by = [["bosses", "titan-mnemosyne"]]
 
 [[main.spells.fire-sigil-2.causes]]
 chance = "75%"
@@ -84545,7 +84547,7 @@ learned_by = [["classes", "31"]]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 7
-used_by = [["followers", "chimera"], ["raids", "apollyon"], ["raids", "arisen-merlin"], ["raids", "arisen-naggeneen"], ["raids", "arisen-thronemaker-sekhmet"], ["raids", "cerus"], ["raids", "covyn"], ["raids", "dangy"], ["raids", "fallen-merlin"], ["raids", "ferocious-cerus"], ["raids", "furious-cerus"], ["raids", "mmmpizza"], ["raids", "noble-perseus"], ["raids", "thronemaker-sekhmet"], ["bosses", "arisen-cursed-bormana-of-fomoria"], ["bosses", "arisen-cursed-caticatona-of-fomoria"], ["bosses", "arisen-cursed-eostre-of-fomoria"], ["bosses", "arisen-cursed-gobannos-of-fomoria"], ["bosses", "arisen-cursed-goibhniu-of-fomoria"], ["bosses", "cthulhu"], ["bosses", "cursed-eostre-of-fomoria"], ["bosses", "cursed-king-fomor-sumner"], ["bosses", "enlightened-prince"], ["bosses", "hades"], ["bosses", "mighty-griffin"], ["bosses", "sumner-hephaestus"], ["bosses", "titan-mnemosyne"], ["monsters", "crimson-wood"], ["monsters", "cthulhu-edf67d83"]]
+used_by = [["followers", "chimera"], ["raids", "apollyon"], ["raids", "arisen-merlin"], ["raids", "arisen-naggeneen"], ["raids", "arisen-thronemaker-sekhmet"], ["raids", "cerus"], ["raids", "covyn"], ["raids", "dangy"], ["raids", "fallen-merlin"], ["raids", "ferocious-cerus"], ["raids", "furious-cerus"], ["raids", "mmmpizza"], ["raids", "noble-perseus"], ["raids", "thronemaker-sekhmet"], ["bosses", "arisen-cursed-bormana-of-fomoria"], ["bosses", "arisen-cursed-caticatona-of-fomoria"], ["bosses", "arisen-cursed-eostre-of-fomoria"], ["bosses", "arisen-cursed-gobannos-of-fomoria"], ["bosses", "arisen-cursed-goibhniu-of-fomoria"], ["bosses", "cthulhu"], ["bosses", "cursed-eostre-of-fomoria"], ["bosses", "cursed-king-fomor-sumner"], ["bosses", "enlightened-prince"], ["bosses", "hades"], ["bosses", "mighty-griffin"], ["bosses", "sumner-hephaestus"], ["monsters", "crimson-wood"], ["monsters", "cthulhu-edf67d83"]]
 
 [[main.spells.omnistrike-iii.causes]]
 chance = "25%"
@@ -84576,7 +84578,7 @@ learned_by = [["classes", "51"]]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 9
-used_by = [["raids", "arisen-morrigan"], ["raids", "arisen-phoenix"], ["raids", "ashen-phoenix"], ["raids", "sister-macha"], ["raids", "the-morrigan"], ["bosses", "immortal-lord-418e5cff"], ["bosses", "titan-mnemosyne"], ["monsters", "immortal"], ["monsters", "immortal-lord"], ["monsters", "swordbearer-of-finesse-612600e2"]]
+used_by = [["raids", "arisen-morrigan"], ["raids", "arisen-phoenix"], ["raids", "ashen-phoenix"], ["raids", "sister-macha"], ["raids", "the-morrigan"], ["bosses", "immortal-lord-418e5cff"], ["monsters", "immortal"], ["monsters", "immortal-lord"], ["monsters", "swordbearer-of-finesse-612600e2"]]
 
 [[main.spells.omnistrikes.causes]]
 chance = "25%"
@@ -88362,7 +88364,7 @@ learned_by = [["classes", "63"]]
 spell_type = "spell"
 targets = "yourself"
 tier = 10
-used_by = [["raids", "arisen-judge-charon"], ["raids", "arisen-ophion-of-olympia"], ["bosses", "arisen-cursed-aengus-og-of-fomoria"], ["bosses", "arisen-cursed-artio-of-fomoria"], ["bosses", "arisen-cursed-mullo-of-fomoria"], ["monsters", "shade-of-charon-grand-summoner"]]
+used_by = [["raids", "arisen-judge-charon"], ["raids", "arisen-ophion-of-olympia"], ["bosses", "arisen-cursed-aengus-og-of-fomoria"], ["bosses", "arisen-cursed-artio-of-fomoria"], ["bosses", "arisen-cursed-mullo-of-fomoria"], ["bosses", "titan-mnemosyne"], ["monsters", "shade-of-charon-grand-summoner"]]
 
 [[main.spells.summon-chimera.summons]]
 chance = "100%"

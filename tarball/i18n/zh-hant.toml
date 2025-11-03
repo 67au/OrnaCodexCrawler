@@ -4293,8 +4293,8 @@ description = "一塊泰坦的碎片。這些碎片可以在泰坦工坊用來�
 name = "愛奧斯之臂"
 
 [main.items.arms-of-mnemosyne]
-description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
-name = "Arms of Mnemosyne"
+description = "泰坦之母—寧默辛妮，記憶、謎題與迷宮的雕塑者，曾為保護她的族人，誤導那些踏上征途的冒險者。"
+name = "寧默辛妮之臂"
 
 [main.items.arms-of-oceanus]
 description = "一塊泰坦的碎片。這些碎片可以在泰坦工坊用來強化天外神武。"
@@ -4721,8 +4721,8 @@ description = "古老元素神所穿戴的戒指，可以增加獲得的金幣�
 name = "眾神之戒"
 
 [main.items.band-of-mnemosyne]
-description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
-name = "Band of Mnemosyne"
+description = "泰坦之母—寧默辛妮，記憶、謎題與迷宮的雕塑者，曾為保護她的族人，誤導那些踏上征途的冒險者。"
+name = "寧默辛妮之戒"
 
 [main.items.bandits-axe]
 description = "最兇惡的土匪持有的大斧。"
@@ -7309,8 +7309,8 @@ description = "讓雙眼目明的藥水。使用後會在1小時內提升視野�
 name = "遠見"
 
 [main.items.feet-of-mnemosyne]
-description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
-name = "Feet of Mnemosyne"
+description = "泰坦之母—寧默辛妮，記憶、謎題與迷宮的雕塑者，曾為保護她的族人，誤導那些踏上征途的冒險者。"
+name = "寧默辛妮之足"
 
 [main.items.feral-archistaff]
 description = "野性的刻耳柏洛斯最具代表性的法杖.能提升你的跟隨者的行動率."
@@ -8489,8 +8489,8 @@ description = "適用於擊打的大錘子。"
 name = "錘"
 
 [main.items.hands-of-mnemosyne]
-description = "The Olympians constructed many great Titans to construct their towers to the skies. Few titans remain animated today.\n\nTitan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
-name = "Hands of Mnemosyne"
+description = "奧林匹亞的眾神曾打造無數偉大的泰坦，築起直通天際的高塔。如今，仍能行動的泰坦已寥寥無幾。\n\n泰坦之母—寧默辛妮，記憶、謎題與迷宮的雕塑者，曾為保護她的族人，誤導那些踏上征途的冒險者。"
+name = "寧默辛妮之手"
 
 [main.items.handy-waystone]
 description = "一塊充滿魔法的石頭。用它來設置指南針標記以搜尋旅館任務怪物位置。"
@@ -8609,8 +8609,8 @@ description = "奧林比亞人製造了許多強大的泰坦來建造他們的�
 name = "愛奧斯之心"
 
 [main.items.heart-of-mnemosyne]
-description = "The Olympians constructed many great Titans to construct their towers to the skies. Few titans remain animated today.\n\nTitan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
-name = "Heart of Mnemosyne"
+description = "奧林匹亞的眾神曾打造無數偉大的泰坦，築起直通天際的高塔。如今，仍能行動的泰坦已寥寥無幾。\n\n泰坦之母—寧默辛妮，記憶、謎題與迷宮的雕塑者，曾為保護她的族人，誤導那些踏上征途的冒險者。"
+name = "寧默辛妮之心"
 
 [main.items.heart-of-oceanus]
 description = "奧林比亞人製造了許多強大的泰坦來建造他們的擎天巨塔。少數的泰坦在今日依然可以行動。\n\n奧克亞諾斯抬起大海；以海浪衝擊塔來測試它們的威力。他冷卻了普羅米修斯窯的製品，並用巨大的潮汐力將塔的碎片壓到位。\n\n這強化物可以打破最大傷害限制。"
@@ -9945,19 +9945,19 @@ description = "可開啟奧林匹亞之塔「泰坦之影」模式的鑰匙，�
 name = "寧默辛妮謎鑰"
 
 [main.items.mnemosynes-amphora]
-description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
+description = "泰坦之母—寧默辛妮，記憶、謎題與迷宮的雕塑者，曾為保護她的族人，誤導那些踏上征途的冒險者。"
 name = "寧默辛妮的雙耳細頸瓶"
 
 [main.items.mnemosynes-crepida]
-description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
-name = "Mnemosyne's Crepida"
+description = "泰坦之母—寧默辛妮，記憶、謎題與迷宮的雕塑者，曾為保護她的族人，誤導那些踏上征途的冒險者。"
+name = "寧默辛妮的羅馬鞋"
 
 [main.items.mnemosynes-himation]
-description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
-name = "Mnemosyne's Himation"
+description = "泰坦之母—寧默辛妮，記憶、謎題與迷宮的雕塑者，曾為保護她的族人，誤導那些踏上征途的冒險者。"
+name = "寧默辛妮的學者披衣"
 
 [main.items.mnemosynes-trinket]
-description = "Trinket of Mnemosyne, Titan of Olympia. When this Trinket is used during an unfinished Memory Hunt, your current step will be instantly completed and the Hunt will progress."
+description = "奧林匹亞泰坦女神－寧默辛妮的飾物。使用此飾物於尚未完成的記憶追尋中，當前步驟將立即完成，追尋也將順利推進。"
 name = "寧默辛妮的小飾物"
 
 [main.items.mochis-boots-of-mercy]
@@ -11480,8 +11480,8 @@ description = "一塊泰坦的碎片。這些碎片可以在泰坦工坊用來�
 name = "愛奧斯的肩膀"
 
 [main.items.shoulders-of-mnemosyne]
-description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
-name = "Shoulders of Mnemosyne"
+description = "泰坦之母—寧默辛妮，記憶、謎題與迷宮的雕塑者，曾為保護她的族人，誤導那些踏上征途的冒險者。"
+name = "寧默辛妮的肩膀"
 
 [main.items.shoulders-of-oceanus]
 description = "一塊泰坦的碎片。這些碎片可以在泰坦工坊用來強化天外神武。"
@@ -11812,8 +11812,8 @@ description = "一塊泰坦的碎片。這些碎片可以在泰坦工坊用來�
 name = "愛奧斯的脊骨"
 
 [main.items.spine-of-mnemosyne]
-description = "Titan Mnemosyne, mother of Titans and sculptor of memories, puzzles, and labyrinths, protected her kin by misleading adventurers."
-name = "Spine of Mnemosyne"
+description = "泰坦之母—寧默辛妮，記憶、謎題與迷宮的雕塑者，曾為保護她的族人，誤導那些踏上征途的冒險者。"
+name = "寧默辛妮的脊骨"
 
 [main.items.spine-of-oceanus]
 description = "一塊泰坦的碎片。這些碎片可以在泰坦工坊用來強化天外神武。"

@@ -3084,6 +3084,10 @@ name = "解毒吊饰"
 description = "这个独特的头饰无法提供太多的保护，但它很适合镶嵌。"
 name = "鹿角盔"
 
+[main.items.appraisers-loupe]
+description = "The loupe of a skilled appraiser. When using this item on a piece of equipment, its rating will forever be known."
+name = "Appraiser's Loupe"
+
 [main.items.apprentice-hood]
 description = "熟练的魔法师学徒戴的兜帽。"
 name = "学徒兜帽"

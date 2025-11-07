@@ -3084,6 +3084,10 @@ name = "Antidote Pendant"
 description = "This unique headwear does not offer much protection, but is well suited for adornment."
 name = "Antlers"
 
+[main.items.appraisers-loupe]
+description = "The loupe of a skilled appraiser. When using this item on a piece of equipment, its rating will forever be known."
+name = "Appraiser's Loupe"
+
 [main.items.apprentice-hood]
 description = "Hood worn by a talented student of magic."
 name = "Apprentice Hood"

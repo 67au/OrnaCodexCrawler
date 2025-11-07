@@ -3059,7 +3059,7 @@ family = "titans"
 icon = "/img/bosses/titan_mnemosyne2.png"
 id = "titan-mnemosyne"
 rarity = "cryptid"
-skills = [["spells", "prism-wall"], ["spells", "fire-sigil-2"], ["spells", "build-tower"], ["spells", "fey-flame-v"], ["spells", "summon-chimera"], ["spells", "titans-power"], ["spells", "titans-protection"], ["spells", "titans-seal"], ["spells", "ultima"]]
+skills = [["spells", "prism-wall"], ["spells", "fire-sigil-2"], ["spells", "build-tower"], ["spells", "fey-flame-v"], ["spells", "rune-of-themis"], ["spells", "summon-chimera"], ["spells", "titans-power"], ["spells", "titans-protection"], ["spells", "titans-seal"], ["spells", "ultima"]]
 tier = 9
 
 [main.bosses.titan-oceanus]
@@ -86488,7 +86488,7 @@ id = "rune-of-themis"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 10
-used_by = [["followers", "replica-themis"]]
+used_by = [["followers", "replica-themis"], ["bosses", "titan-mnemosyne"]]
 
 [[main.spells.rune-of-themis.causes]]
 chance = "100%"

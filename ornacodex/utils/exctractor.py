@@ -8,6 +8,8 @@ split_pattern = re.compile(r':|：')
 chance_pattern = re.compile(r'(?P<NAME>.+) \((?P<VALUE>\d+(\.\d+)?\%)\)$')
 ability_pattern = re.compile(r'^\+(?P<NAME>.+)\: (?P<VALUE>.+)$')
 bonus_pattern = re.compile(r'^(?!\+)(?P<NAME>.+)\: (?P<VALUE>.+)$')
+condition_pattern = re.compile(r'(?P<TEXT>.+) \((?P<CONDITIONS>.+)\)')
+number_pattern = re.compile(r'^(?P<NUMBER>(\+|\-)?\d+).*')
 
 class Exctractor:
 
@@ -29,8 +31,10 @@ class Exctractor:
         drop_struct = {}
         bond = drop.xpath('./span[@class="emph"]')
         if any(bond):
-            drop_struct['name'] = split_pattern.split(bond.xpath('string()').get())[0]
-            drop_struct['description'] = ''.join(bond.xpath('../text()').getall()).strip()
+            drop_struct['name'] = split_pattern.split(
+                bond.xpath('string()').get())[0]
+            drop_struct['description'] = ''.join(
+                bond.xpath('../text()').getall()).strip()
             return drop_struct
         name = drop.xpath('.//span').xpath('string()').get().strip()
         match = cls.extract_chance(name)
@@ -48,7 +52,7 @@ class Exctractor:
         if any(description):
             drop_struct['description'] = description.get().strip()
         return drop_struct
-    
+
     @classmethod
     def extract_codex_id(cls, codex: str) -> list:
         return codex.strip('/').split('/')[-2:]
@@ -81,17 +85,40 @@ class Exctractor:
                 })
                 continue
             bb.append({
-                    'name': b.strip('+'),
-                    'type': 'BUFF'
-                })
-            
+                'name': b.strip('+'),
+                'type': 'BUFF'
+            })
+
         return bb
 
     @classmethod
     def extract_follower(cls, follower: SelectorList) -> list:
-        k: str = split_pattern.split(follower.xpath('./text()').get(), maxsplit=1)[0].strip()
+        k: str = split_pattern.split(follower.xpath(
+            './text()').get(), maxsplit=1)[0].strip()
         name = follower.xpath('.//span').xpath('string()').get().strip()
         icon = follower.xpath('.//img/@src').get()
         if icon:
-            icon= UrlParser.icon(icon)
+            icon = UrlParser.icon(icon)
         return [k, {'name': name, 'icon': icon}]
+
+    @classmethod
+    def extract_condition(cls, text: str) -> dict:
+        m = condition_pattern.match(text)
+        if m:
+            t: str = m.group('TEXT')
+            c: str = m.group('CONDITIONS')
+            return {
+                'text': t,
+                'conditions': [s.strip() for s in c.split(',')]
+            }
+        else:
+            return {'text': text}
+
+    @classmethod
+    def extract_number(cls, text: str) -> str:
+        m = number_pattern.match(text)
+        if m:
+            num: str = m.group('NUMBER')
+            return num
+        else:
+            return text

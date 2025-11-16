@@ -1,4 +1,5 @@
 from collections import defaultdict
+from curses.ascii import isdigit
 from datetime import datetime, timezone
 import hashlib
 from itertools import product
@@ -65,6 +66,10 @@ def load_itemtypes(itemtypes_dir: Path):
     return itemtypes
 
 
+def isSpellKey(s: str):
+    return s.startswith('+') and s.endswith(('spell', 'skill'))
+
+
 def scan(entries, itemtypes):
 
     translations = {language: {
@@ -75,6 +80,13 @@ def scan(entries, itemtypes):
     } for language in languages}
     cm = {}
     icons = {}
+
+    sorts = {
+        'items': defaultdict(dict),
+        'followers': defaultdict(dict),
+        'spells': defaultdict(dict),
+        'raids': {'hp': 'NUMBER'},
+    }
 
     events_conflict = {language: {} for language in languages}
 
@@ -91,6 +103,8 @@ def scan(entries, itemtypes):
 
             cm_tmp[id]['category'] = category
             translations[language]['msg']['category'][category] = entry['category']
+
+            stats_conditions = {}
 
             exotic = entry.get('exotic')
             if exotic:
@@ -139,9 +153,10 @@ def scan(entries, itemtypes):
             stats = entry.get('stats')
             if stats:
                 stats_tmp = {}
+                keys_conflict = set()
                 for i, m in enumerate(stats):
                     key = Converter.convert_key(base[id]['stats'][i][0])
-                    ### move from `stats` to `meta`
+                    # move from `stats` to `meta`
                     if key == 'targets':
                         value = Converter.convert_key(
                             base[id]['stats'][i][1])
@@ -160,18 +175,77 @@ def scan(entries, itemtypes):
                         translations[language]['msg']['stats'][key] = m[0]
                         stats_tmp[key] = base[id]['stats'][i][1].split()[
                             0]
-                    ### patch for items/zagreus-rete
-                    elif key == 'bestial_bond':
-                        pass
-                    ###
+                        sorts[category]['stats.'+key] = 'MANA'
                     else:
+                        # patch for items/zagreus-rete
+                        if key == 'bestial_bond' and m[1][-1].isdigit():
+                            key = 'bestial_bond_level'
+                        ###
+
+                        # add key translation
                         translations[language]['msg']['stats'][key] = m[0]
+
                         if len(m) > 1:
-                            stats_tmp[key] = base[id]['stats'][i][1]
+                            val: str = m[1]
+                            val_base = base[id]['stats'][i][1]
+                            # exctract condition
+                            if m[1].endswith(')') and key != 'power':
+                                r = Exctractor.extract_condition(m[1])
+                                val: str = r.get('text')
+                                conds = r.get('conditions', [])
+
+                                r_base = Exctractor.extract_condition(
+                                    base[id]['stats'][i][1])
+                                val_base = r_base.get('text')
+                                conds_base = r_base.get('conditions', [])
+                                conds_key = [Converter.convert_key(
+                                    c) for c in conds_base]
+                                stats_conditions[key] = conds_key
+
+                                for k, c in zip(conds_key, conds):
+                                    translations[language]['msg']['stats_conditions'][k] = c
+
+                            segments = []
+                            if val_base.startswith('+'):
+                                segments.append('SIGNED')
+                            if val_base.endswith('%'):
+                                segments.append('PERCENT')
+                            if val_base.endswith(('turn')):
+                                segments.append('TURN')
+                            if val_base.endswith(('turns')):
+                                segments.append('TURNS')
+                            if val[-1].isdigit():
+                                segments.append('NUMBER')
+                            if key in {'power', 'stat_bonus', 'bestial_bond_level'}:
+                                segments.clear()
+                            if any(segments):
+                                sorts[category]['stats.' +
+                                                key] = '_'.join(segments)
+                                stats_tmp[key] = Exctractor.extract_number(
+                                    val_base)
+                            else:
+                                if key in {'power'}:
+                                    stats_tmp[key] = val_base
+                                else:
+                                    k = Converter.convert_key(val_base)
+                                    translations[language]['msg']['stats_text'][k] = val
+                                    if isSpellKey(key):
+                                        if key in keys_conflict:
+                                            stats_tmp[key].append(k)
+                                        else:
+                                            stats_tmp[key] = [k]
+                                            keys_conflict.add(key)
+                                    else:
+                                        sorts[category]['stats.'+key] = 'TEXT'
+                                        stats_tmp[key] = k
                         else:
+                            sorts[category]['stats.'+key] = 'BOOL'
                             stats_tmp[key] = True
+
                 if any(stats_tmp):
                     cm_tmp[id]['stats'] = stats_tmp
+                if any(stats_conditions):
+                    cm_tmp[id]['stats_conditions'] = stats_conditions
 
             drops = entry.get('drops')
             if drops:
@@ -309,15 +383,14 @@ def scan(entries, itemtypes):
         for its in itemtypes[language]:
             translations[language]['msg']['item_type'][its['type']
                                                        ] = its['name']
-
-    return (cm, icons, translations)
+    return (cm, icons, sorts, translations)
 
 
 def generate_options(codex: dict):
     options = defaultdict(set)
 
     disabled_option_keys = set([
-        'id', 'icon', 'drops', 'aura', 'skills', 'celestial_classes', 'stats',
+        'id', 'icon', 'drops', 'aura', 'skills', 'celestial_classes', 'stats', 'stats_conditions',
         'bestial_bond', 'hp', 'learned_by', 'off-hands', 'used_by',
         'dropped_by', 'upgrade_materials', 'sources', 'ability'
     ])
@@ -341,46 +414,14 @@ def generate_options(codex: dict):
             if stats:
                 for m in stats.get('element', []):
                     options['element'].add(m)
+                for key in stats.keys():
+                    if isSpellKey(key):
+                        for m in stats.get(key, []):
+                            options[key].add(m)
             # exotic
             options['exotic'] = set([True, False])
 
     return {k: sorted(v) for k, v in options.items()}
-
-
-def generate_sorts(codex: dict):
-    stats_key = ['items', 'followers', 'spells']
-
-    sorts = {key: defaultdict(dict) for key in stats_key}
-    for name in stats_key:
-        for entry in codex[name].values():
-            stats = entry.get('stats')
-            if stats:
-                for k in stats.keys():
-                    if k in {'power', 'element'}:
-                        continue
-                    v = stats[k]
-                    stat_key = f'stats.{k}'
-                    if isinstance(v, bool):
-                        sorts[name][stat_key] = 'BOOL'
-                    elif isinstance(v, str):
-                        segments = []
-                        if v.startswith('+'):
-                            segments.append('SIGNED')
-                        if v.endswith('%'):
-                            segments.append('PERCENT')
-                        if v.endswith('turns'):
-                            segments.append('TURNS')
-                        if any(segments):
-                            sorts[name][stat_key] = '_'.join(segments)
-                        else:
-                            sorts[name][stat_key] = 'NUMBER'
-                    else:
-                        sorts[name][stat_key] = 'UNKNOWN'
-
-    sorts['raids'] = {'hp': 'NUMBER'}
-
-    return sorts
-
 
 def save_codex(output_dir: Path, codex: dict):
     with open(output_dir.joinpath('codex.json'), 'w') as f:
@@ -405,9 +446,8 @@ def run(settings: Settings):
 
     itemtypes = load_itemtypes(tmp_dir_config.itemtypes)
     entries = load(tmp_dir_config.entries)
-    codex, icons, translations = scan(entries, itemtypes)
+    codex, icons, sorts, translations = scan(entries, itemtypes)
     options = generate_options(codex)
-    sorts = generate_sorts(codex)
 
     codex_file = save_codex(
         output_dir,

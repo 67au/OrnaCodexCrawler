@@ -1,5 +1,7 @@
 import re
 
+from scrapy.selector.unified import SelectorList
+
 from .url_utils import UrlParser
 
 split_pattern = re.compile(r':|：')
@@ -84,3 +86,12 @@ class Exctractor:
                 })
             
         return bb
+
+    @classmethod
+    def extract_follower(cls, follower: SelectorList) -> list:
+        k: str = split_pattern.split(follower.xpath('./text()').get(), maxsplit=1)[0].strip()
+        name = follower.xpath('.//span').xpath('string()').get().strip()
+        icon = follower.xpath('.//img/@src').get()
+        if icon:
+            icon= UrlParser.icon(icon)
+        return [k, {'name': name, 'icon': icon}]

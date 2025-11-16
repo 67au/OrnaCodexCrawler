@@ -141,7 +141,7 @@ def scan(entries, itemtypes):
                 stats_tmp = {}
                 for i, m in enumerate(stats):
                     key = Converter.convert_key(base[id]['stats'][i][0])
-                    # move from `stats` to `meta`
+                    ### move from `stats` to `meta`
                     if key == 'targets':
                         value = Converter.convert_key(
                             base[id]['stats'][i][1])
@@ -160,6 +160,10 @@ def scan(entries, itemtypes):
                         translations[language]['msg']['stats'][key] = m[0]
                         stats_tmp[key] = base[id]['stats'][i][1].split()[
                             0]
+                    ### patch for items/zagreus-rete
+                    elif key == 'bestial_bond':
+                        pass
+                    ###
                     else:
                         translations[language]['msg']['stats'][key] = m[0]
                         if len(m) > 1:

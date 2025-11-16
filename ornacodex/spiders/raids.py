@@ -42,6 +42,10 @@ class Spider(BaseSpider):
         meta = response.xpath(
             "//div[@class='codex-page-meta']").xpath('string()').getall()
         struct['meta'] = [Exctractor.extract_kv(m.strip()) for m in meta]
+        
+        follower = response.xpath("//div[@class='codex-page-description' and descendant::*[@class='drop']]")
+        if any(follower):
+            struct['follower'] = Exctractor.extract_follower(follower)
 
         aura = response.xpath(
             "//div[@class='codex-page-icon']/img/@class").get().strip()

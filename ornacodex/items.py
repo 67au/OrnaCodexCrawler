@@ -32,6 +32,7 @@ class Items(Base):
 class Bosses(Base):
     events = scrapy.Field()
     meta = scrapy.Field()
+    follower = scrapy.Field()
     drops = scrapy.Field()
 
 
@@ -43,6 +44,7 @@ class Raids(Base):
     description = scrapy.Field()
     events = scrapy.Field()
     meta = scrapy.Field()
+    follower = scrapy.Field()
     tags = scrapy.Field()
     drops = scrapy.Field()
 

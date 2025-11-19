@@ -18983,6 +18983,7 @@ warden = "守護者"
 zwei-fencer = "重武悍將"
 
 [msg.stats_text]
+"+1%_anguish_level" = "+1%/煎熬等級"
 "100%_max_hp_damage" = "100% 最大生命值傷害"
 ara_s_edge = "天壇座之刃"
 arrowstorm = "箭雨"

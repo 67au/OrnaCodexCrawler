@@ -18983,6 +18983,7 @@ warden = "Warden"
 zwei-fencer = "Zwei-Fencer"
 
 [msg.stats_text]
+"+1%_anguish_level" = "+1%/Anguish Level"
 "100%_max_hp_damage" = "100% Max HP Damage"
 ara_s_edge = "Ara's Edge"
 arrowstorm = "Arrowstorm"

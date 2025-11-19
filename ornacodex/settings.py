@@ -97,7 +97,7 @@ BASE_URL = "https://playorna.com"
 BASE_LANGUAGE = 'en'
 SUPPORTED_LANGUAGES = [BASE_LANGUAGE, 'zh-hans', 'zh-hant']
 # SUPPORTED_LANGUAGE = [BASE_LANGUAGE]
-VERSION = '1.0.0'
+VERSION = '1.1.0'
 
 TMP_DIR = 'tmp'
 OUTPUT_DIR = 'output'

@@ -218,6 +218,12 @@ def scan(entries, itemtypes):
                                 segments.append('NUMBER')
                             if key in {'power', 'stat_bonus', 'bestial_bond_level'}:
                                 segments.clear()
+
+                            # patch
+                            if key in {'self_damage_reduction'}:
+                                segments = ['SIGNED', 'PERCENT']
+                                val_base = val_base.replace('+', '')
+                            
                             if any(segments):
                                 sorts[category]['stats.' +
                                                 key] = '_'.join(segments)

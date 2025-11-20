@@ -205,6 +205,10 @@ def scan(entries, itemtypes):
                                 for k, c in zip(conds_key, conds):
                                     translations[language]['msg']['stats_conditions'][k] = c
 
+                            # patch
+                            if key in {'self_damage_reduction'}:
+                                val_base = val_base.replace('+', '')
+
                             segments = []
                             if val_base.startswith('+'):
                                 segments.append('SIGNED')
@@ -218,6 +222,8 @@ def scan(entries, itemtypes):
                                 segments.append('NUMBER')
                             if key in {'power', 'stat_bonus', 'bestial_bond_level'}:
                                 segments.clear()
+
+                            
                             if any(segments):
                                 sorts[category]['stats.' +
                                                 key] = '_'.join(segments)

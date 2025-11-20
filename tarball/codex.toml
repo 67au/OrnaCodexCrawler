@@ -11872,7 +11872,7 @@ attack = "35"
 defense = "286"
 dexterity = "32"
 resistance = "70"
-self_damage_reduction = "+-50%"
+self_damage_reduction = "-50"
 
 [main.items.arisen-askr-garb]
 aura = "rare"
@@ -11919,7 +11919,7 @@ attack = "35"
 defense = "297"
 dexterity = "110"
 resistance = "35"
-self_damage_reduction = "+-50%"
+self_damage_reduction = "-50"
 
 [main.items.arisen-askr-leggings]
 aura = "rare"
@@ -14106,7 +14106,7 @@ useable_by = "magic_users"
 adornment_slots = "4"
 magic = "35"
 resistance = "297"
-self_damage_reduction = "+-50%"
+self_damage_reduction = "-50"
 
 [main.items.arisen-embla-robe]
 aura = "rare"
@@ -17047,7 +17047,7 @@ adornment_slots = "5"
 defense = "270"
 hp = "50"
 resistance = "35"
-self_damage_reduction = "+-75%"
+self_damage_reduction = "-75"
 ward = "3"
 
 [main.items.arisen-rift-leggings]
@@ -17177,7 +17177,7 @@ adornment_slots = "5"
 defense = "270"
 hp = "50"
 resistance = "35"
-self_damage_reduction = "+-25%"
+self_damage_reduction = "-25"
 ward = "6"
 
 [main.items.arisen-riftguard-helmet]
@@ -19440,7 +19440,7 @@ attack = "13"
 defense = "176"
 dexterity = "12"
 resistance = "35"
-self_damage_reduction = "+-50%"
+self_damage_reduction = "-50"
 
 [main.items.askr-garb]
 aura = "rare"
@@ -19487,7 +19487,7 @@ attack = "13"
 defense = "187"
 dexterity = "70"
 resistance = "22"
-self_damage_reduction = "+-50%"
+self_damage_reduction = "-50"
 
 [main.items.askr-leggings]
 aura = "rare"
@@ -29131,7 +29131,7 @@ adornment_slots = "2"
 defense = "170"
 hp = "50"
 resistance = "35"
-self_damage_reduction = "+-25%"
+self_damage_reduction = "-25"
 ward = "6"
 
 [main.items.dangys-tan-chinos]
@@ -31023,7 +31023,7 @@ adornment_slots = "2"
 defense = "170"
 hp = "50"
 resistance = "35"
-self_damage_reduction = "+-75%"
+self_damage_reduction = "-75"
 ward = "3"
 
 [main.items.distorted-rift-leggings]
@@ -33975,7 +33975,7 @@ useable_by = "magic_users"
 adornment_slots = "4"
 magic = "13"
 resistance = "187"
-self_damage_reduction = "+-50%"
+self_damage_reduction = "-50"
 
 [main.items.embla-robe]
 aura = "rare"
@@ -56283,7 +56283,7 @@ adornment_slots = "2"
 defense = "170"
 hp = "50"
 resistance = "35"
-self_damage_reduction = "+-25%"
+self_damage_reduction = "-25"
 ward = "6"
 
 [main.items.riftguard-helmet]
@@ -62724,7 +62724,7 @@ attack = "35"
 defense = "286"
 dexterity = "32"
 resistance = "70"
-self_damage_reduction = "+-50%"
+self_damage_reduction = "-50"
 
 [main.items.trevelyans-archistaff]
 ability = ["spells", "brilliant-lights-ii"]

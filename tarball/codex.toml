@@ -27,6 +27,7 @@ arcane_troll = "/img/monsters/arcane_troll.png"
 arcane_uu = "/img/statuses/arcane_imbue.png"
 ascended_summons = "/img/fx/holy.png"
 ascension_synergy = "/img/fx/holy.png"
+ashen_phoenix = "/img/followers/ashen_phoenix1.png"
 asleep = "/img/statuses/sleep.png"
 asteria_of_olympia = "/img/statuses/asteria.png"
 atlas_of_olympia = "/img/statuses/atlas.png"
@@ -40,6 +41,7 @@ avidity_ii = "/img/effects/avidity.png"
 avidity_iii = "/img/effects/avidity.png"
 bastille = "/img/effects/half_ward.png"
 bastille_ii = "/img/effects/half_ward.png"
+bat = "/img/monsters/bat.png"
 battalions = "/img/effects/summon_protection.png"
 battalions_ii = "/img/effects/summon_protection.png"
 battalions_iii = "/img/effects/summon_protection.png"
@@ -64,6 +66,7 @@ brynhild_uu = "/img/statuses/brynhild.png"
 brynhild_uuu = "/img/statuses/brynhild.png"
 buggane = "/img/monsters/buggane.png"
 burning = "/img/statuses/burning.png"
+cactus = "/img/monsters/cactus.png"
 carina_sigil = "/img/effects/carina.png"
 castor = "/img/bosses/castor.png"
 cernunnos = "/img/monsters/cernunnos.png"
@@ -109,8 +112,10 @@ demigod = "/img/effects/demigod.png"
 "demigod_(ara)" = "/img/effects/demigod.png"
 "demigod_(ursa)" = "/img/effects/demigod.png"
 dex_u = "/img/statuses/dex_up.png"
+dire_wolf = "/img/monsters/direwolf.png"
 dmg_dd = "/img/statuses/attack_down_double_temp.png"
 dmg_u = "/img/statuses/berserk.png"
+dog = "/img/monsters/dog.png"
 doom = "/img/statuses/doom.png"
 dorado = "/img/effects/dorado.png"
 dorado_s_guard = "/img/effects/ward2.png"
@@ -128,6 +133,7 @@ earth_att = "/img/statuses/earth_imbue.png"
 earth_def = "/img/statuses/earth_wall.png"
 earth_sigil = "/img/statuses/earth_rune.png"
 earthblight = "/img/statuses/earth_rune.png"
+earthen_dragon = "/img/monsters/earthen_dragon.png"
 efficacious = "/img/effects/insistence.png"
 efficacious_ii = "/img/effects/insistence.png"
 eir = "/img/statuses/eir.png"
@@ -139,14 +145,17 @@ enhanced_bestial_bonds = "/img/effects/valhalla_bond.png"
 eos = "/img/statuses/rune_eos.png"
 eternal_light = "/img/effects/eternal_light.png"
 eternal_light_ii = "/img/effects/eternal_light.png"
+evil_eye = "/img/monsters/eye.png"
 exp_step = "/img/effects/exp_walk.png"
 experienced_summoner = "/img/effects/summoner.png"
 fafnir = "/img/bosses/arisen_fafnir.png"
 failed_phoenix = "/img/monsters/phoenixian4.png"
+fenrir = "/img/bosses/fenrir.png"
 finesse_s_training = "/img/effects/remark.png"
 fire_aligned = "/img/statuses/fire_aligned.png"
 fire_att = "/img/statuses/fire_imbue.png"
 fire_def = "/img/statuses/fire_wall.png"
+fire_dragon = "/img/monsters/fire_dragon.png"
 fire_sigil = "/img/statuses/fire_rune.png"
 fireblight = "/img/statuses/fire_rune.png"
 fjalar = "/img/monsters/fjalar.png"
@@ -156,21 +165,25 @@ foresight_uu = "/img/statuses/foresight_up_double.png"
 frenzy = "/img/statuses/frenzy.png"
 frost_troll = "/img/monsters/ice_troll.png"
 frozen = "/img/statuses/frozen.png"
+gargoyle = "/img/monsters/gargoyle.png"
 garm = "/img/monsters/garm.png"
 giant_panda = "/img/monsters/terras/giant_panda.png"
 giant_tortoise = "/img/monsters/terras/giant_tortoise.png"
 glashtyn = "/img/monsters/glashtyn.png"
+gnome = "/img/monsters/gnome.png"
 gold_bonus = "/img/effects/gold.png"
 grand_summoner = "/img/effects/summoner.png"
 grand_summoner_of_auriga = "/img/effects/summoner.png"
 grand_summoner_of_hydrus = "/img/effects/summoner.png"
 great_ancient_dragon = "/img/bosses/dragon10.png"
+great_bear = "/img/monsters/black_bear.png"
 great_dragon = "/img/icons/dragons.png"
 great_gazer = "/img/bosses/great_gazer.png"
 great_monoceros = "/img/bosses/monoceros_great.png"
 great_pegasus = "/img/bosses/great_pegasus.png"
 great_phoenix_pledge = "/img/monsters/phoenixian3b.png"
 great_wyvern = "/img/monsters/wyvern_great.png"
+great_yeti = "/img/monsters/great_yeti.png"
 guardian = "/img/effects/duke.png"
 guivre = "/img/monsters/guivre.png"
 gunnr = "/img/statuses/gunnr.png"
@@ -178,6 +191,7 @@ gwyllgi = "/img/monsters/gwyllgi.png"
 gymir = "/img/statuses/gymir.png"
 harpy = "/img/monsters/harpy.png"
 hati = "/img/monsters/lunar_demon.png"
+hellhound = "/img/monsters/hellhound.png"
 hengreon = "/img/monsters/hengreon.png"
 hercules = "/img/effects/hercules.png"
 high_tenacity = "/img/effects/tenacity.png"
@@ -192,6 +206,7 @@ hybrid_monster_iii = "/img/effects/hybrid.png"
 hydra = "/img/bosses/hydra_arisen.png"
 hydra_1 = "/img/bosses/hydra.png"
 hydrus = "/img/effects/hydrus.png"
+ice_dragon = "/img/monsters/ice_dragon.png"
 iconoclast = "/img/effects/incitement.png"
 idun_u = "/img/statuses/idun.png"
 idun_uu = "/img/statuses/idun.png"
@@ -206,6 +221,7 @@ kelpie = "/img/bosses/kelpie.png"
 knight_s_ward = "/img/effects/ward.png"
 knight_s_ward_ii = "/img/effects/ward.png"
 "kára" = "/img/statuses/kara.png"
+lesser_red_slime = "/img/monsters/red_slime.png"
 life_siphon = "/img/effects/life_siphon.png"
 life_siphon_ii = "/img/effects/life_siphon.png"
 lightning_aligned = "/img/statuses/lightning_aligned.png"
@@ -213,6 +229,8 @@ lightning_att = "/img/statuses/lightning_imbue.png"
 lightning_def = "/img/statuses/lightning_wall.png"
 lightning_sigil = "/img/statuses/lightning_rune.png"
 lightningblight = "/img/statuses/lightning_rune.png"
+lindworm = "/img/monsters/lindworm.png"
+lizarr = "/img/monsters/lizard_warrior.png"
 llamrai = "/img/monsters/llamrai.png"
 lulled = "/img/statuses/lulled.png"
 lyon_s_mark = "/img/statuses/lyon.png"
@@ -233,6 +251,7 @@ manaflasks_iv = "/img/effects/manaflasks3.png"
 manaseep = "/img/statuses/manaseep.png"
 mighty_griffin = "/img/bosses/great_griffin.png"
 mighty_slime = "/img/monsters/mighty_slime.png"
+mimic = "/img/monsters/mimic.png"
 mountain_gorilla = "/img/monsters/terras/mountain_gorilla.png"
 mystic_feather = "/img/effects/magic_feather.png"
 mythril_greaves = "/img/statuses/greaves2.png"
@@ -241,6 +260,7 @@ nekromancy = "/img/effects/necromancy.png"
 nocturna_house = "/img/icons/fomoria.png"
 novice_summoner = "/img/effects/summoner.png"
 oceanus = "/img/statuses/rune_oceanus.png"
+odok = "/img/monsters/odok2.png"
 omnimancy = "/img/effects/omni.png"
 omnimancy_ii = "/img/effects/omni.png"
 onryo = "/img/monsters/onryo.png"
@@ -283,17 +303,20 @@ sandstone_golem = "/img/monsters/sandstone_golem.png"
 scarecrow = "/img/monsters/scarecrow.png"
 school_of_avalon = "/img/effects/avalon.png"
 second_chance = "/img/effects/second_chance.png"
+seer = "/img/monsters/seer.png"
 selene = "/img/statuses/rune_selene.png"
 shadowveil = "/img/statuses/shadowveil.png"
 shields_up = "/img/effects/ward.png"
 shoulders_of_giants = "/img/effects/ward2.png"
 shoulders_of_giants_ii = "/img/effects/ward2.png"
 shoulders_of_giants_iii = "/img/effects/ward2.png"
+sif = "/img/monsters/sif.png"
 siphon_ward = "/img/effects/ward.png"
 skadi_u = "/img/statuses/skadi.png"
 skadi_uu = "/img/statuses/skadi.png"
 skadi_uuu = "/img/statuses/skadi.png"
 skeleton_warrior = "/img/monsters/skeleton_warrior.png"
+snake = "/img/monsters/snake.png"
 snotra = "/img/statuses/snotra.png"
 sphinx_kit = "/img/monsters/sphinx_kit2.png"
 spiked_greaves = "/img/statuses/greaves3.png"
@@ -306,8 +329,10 @@ stasis = "/img/statuses/stasis.png"
 staying_power = "/img/effects/staying_power.png"
 steadfast = "/img/effects/steadfast.png"
 steadfast_ii = "/img/effects/steadfast.png"
+steward_wolf = "/img/monsters/steward_wolf.png"
 stonewarg = "/img/monsters/stonewarg_arisen.png"
 stonewarg_1 = "/img/monsters/stonewarg.png"
+storm_dragon = "/img/monsters/storm_dragon.png"
 stunned = "/img/statuses/stunned.png"
 summoner_of_auriga = "/img/effects/summoner.png"
 summoner_of_hydrus = "/img/effects/summoner.png"
@@ -377,6 +402,7 @@ towering = "/img/statuses/tower.png"
 toxic = "/img/statuses/toxic.png"
 tree_of_demise = "/img/statuses/dark_imbue.png"
 tree_of_life = "/img/statuses/holy_imbue.png"
+twilight_wisp = "/img/monsters/twilight_wisp.png"
 typhon = "/img/bosses/typhon_arisen.png"
 unstable_omnimancy = "/img/effects/omni.png"
 ursa = "/img/effects/ursa.png"
@@ -402,6 +428,10 @@ wind_sigil = "/img/statuses/wind_rune.png"
 windblight = "/img/statuses/wind_rune.png"
 windswept = "/img/statuses/windswept.png"
 wintara_house = "/img/icons/fomoria.png"
+wisp = "/img/monsters/wisp.png"
+wolf = "/img/monsters/wolf.png"
+wyvern = "/img/monsters/wyvern.png"
+yeti = "/img/monsters/yeti.png"
 zagreus = "/img/statuses/zagreus.png"
 
 [main.bosses.aegir]
@@ -483,6 +513,9 @@ id = "ankou-eef994e0"
 rarity = "common"
 skills = [["spells", "drain"], ["spells", "nightmare"], ["spells", "rebirth"], ["spells", "darkstrike-iii"], ["spells", "doom-ii"]]
 tier = 7
+
+[main.bosses.ankou-eef994e0.follower]
+name = "hellhound"
 
 [main.bosses.anteros]
 category = "bosses"
@@ -890,6 +923,9 @@ tier = 10
 [[main.bosses.arisen-demeter-the-earth-magus.abilities]]
 name = "second_chance"
 
+[main.bosses.arisen-demeter-the-earth-magus.follower]
+name = "earthen_dragon"
+
 [main.bosses.arisen-dullahan]
 aura = "superboss"
 category = "bosses"
@@ -946,6 +982,9 @@ tier = 10
 [[main.bosses.arisen-ithra-the-white-knight.abilities]]
 name = "second_chance"
 
+[main.bosses.arisen-ithra-the-white-knight.follower]
+name = "ice_dragon"
+
 [main.bosses.arisen-king-meliodas]
 aura = "superboss"
 category = "bosses"
@@ -956,6 +995,9 @@ id = "arisen-king-meliodas"
 rarity = "rare"
 skills = [["spells", "lyons-execution"], ["spells", "lyons-mark"], ["spells", "holystrike-iii"], ["spells", "faith-ii"], ["spells", "anthem-of-lyonesse"], ["spells", "frostfire"], ["spells", "iced-earth"], ["spells", "wildfire-iii"], ["spells", "winter-wind-iii"]]
 tier = 9
+
+[main.bosses.arisen-king-meliodas.follower]
+name = "lindworm"
 
 [main.bosses.arisen-mammon]
 aura = "superboss"
@@ -981,6 +1023,9 @@ tier = 10
 [[main.bosses.arisen-thor-the-storm-god.abilities]]
 name = "second_chance"
 
+[main.bosses.arisen-thor-the-storm-god.follower]
+name = "storm_dragon"
+
 [main.bosses.arisen-vulcan-the-red-knight]
 aura = "superboss"
 category = "bosses"
@@ -993,6 +1038,9 @@ skills = [["spells", "flame-ii"], ["spells", "meteor-ii"], ["spells", "tricut"],
 tier = 10
 [[main.bosses.arisen-vulcan-the-red-knight.abilities]]
 name = "second_chance"
+
+[main.bosses.arisen-vulcan-the-red-knight.follower]
+name = "fire_dragon"
 
 [main.bosses.artio-of-fomoria]
 category = "bosses"
@@ -1044,6 +1092,9 @@ skills = [["spells", "warcry"], ["spells", "onslaught"], ["spells", "coup-de-gra
 tier = 10
 [[main.bosses.baldr.abilities]]
 name = "valhallan_protection"
+
+[main.bosses.baldr.follower]
+name = "fenrir"
 
 [main.bosses.balor-dread-biter]
 category = "bosses"
@@ -1163,6 +1214,9 @@ rarity = "common"
 skills = [["spells", "poisonstrike"], ["spells", "speed"], ["spells", "drain-ii"]]
 tier = 4
 
+[main.bosses.camazotz-ebd4bcbf.follower]
+name = "bat"
+
 [main.bosses.carman]
 category = "bosses"
 drops = [["items", "arena-token"], ["items", "mandrake"], ["items", "dayleaf"], ["items", "lucky-coin"], ["items", "nightshade"], ["items", "silphium"], ["items", "skeleton-key"], ["items", "lucky-silver-coin"], ["items", "black-witch-staff"], ["items", "super-empty-bottle"], ["items", "witchs-hat"], ["items", "witchs-scroll"], ["items", "witchstone"]]
@@ -1173,6 +1227,9 @@ rarity = "common"
 skills = [["spells", "burn"], ["spells", "confuse"], ["spells", "drain"], ["spells", "freeze"], ["spells", "poison"], ["spells", "shock"], ["spells", "smoke-bomb"], ["spells", "blizzard"], ["spells", "meteor"], ["spells", "mute"], ["spells", "outwill"], ["spells", "quake"], ["spells", "storm"], ["spells", "faith"], ["spells", "nightmare"], ["spells", "mindblast"]]
 tier = 6
 
+[main.bosses.carman.follower]
+name = "gargoyle"
+
 [main.bosses.carman-of-the-underworld]
 category = "bosses"
 drops = [["items", "mandrake"], ["items", "dayleaf"], ["items", "nightshade"], ["items", "silphium"], ["items", "skeleton-key"], ["items", "super-empty-bottle"], ["items", "witchs-archistaff"], ["items", "witchs-scroll"], ["items", "witchstone"]]
@@ -1182,6 +1239,9 @@ id = "carman-of-the-underworld"
 rarity = "common"
 skills = [["spells", "burn"], ["spells", "freeze"], ["spells", "poison"], ["spells", "shock"], ["spells", "blizzard"], ["spells", "meteor"], ["spells", "quake"], ["spells", "sleep"], ["spells", "storm"]]
 tier = 6
+
+[main.bosses.carman-of-the-underworld.follower]
+name = "gargoyle"
 
 [main.bosses.carmans-gargoyle-3e02da46]
 category = "bosses"
@@ -1250,6 +1310,9 @@ id = "cerberus"
 rarity = "common"
 skills = [["spells", "doublecut"], ["spells", "speed"], ["spells", "fireball"]]
 tier = 6
+
+[main.bosses.cerberus.follower]
+name = "hellhound"
 
 [main.bosses.clota-of-fomoria]
 category = "bosses"
@@ -1682,6 +1745,9 @@ rarity = "common"
 skills = [["spells", "dispel"], ["spells", "omnistrike-ii"], ["spells", "darkstrike-ii"], ["spells", "holy-wall"], ["spells", "osmostrike-ii"], ["spells", "nightmare-ii"]]
 tier = 8
 
+[main.bosses.dokkalfar-lord.follower]
+name = "hellhound"
+
 [main.bosses.draconian-lord-4938a8df668fd665508d59b6b053a26d]
 category = "bosses"
 drops = [["items", "arena-token"], ["items", "draconite"], ["items", "draconian-archistaff"], ["items", "lucky-coin"], ["items", "monster-tome"], ["items", "pure-draconite"], ["items", "lucky-silver-coin"]]
@@ -1835,6 +1901,9 @@ name = "recharge"
 [[main.bosses.fallen-beowulf.abilities]]
 name = "valhallan_protection"
 
+[main.bosses.fallen-beowulf.follower]
+name = "chimera"
+
 [main.bosses.fallen-deity]
 aura = "superboss"
 category = "bosses"
@@ -1858,6 +1927,9 @@ rarity = "common"
 skills = [["spells", "tremor-ii"], ["spells", "tremor-iii"], ["spells", "quake-ii"], ["spells", "earthstrike-ii"], ["spells", "osmostrike-ii"], ["spells", "multi-tremor"]]
 tier = 9
 
+[main.bosses.fallen-demeter-the-earth-magus.follower]
+name = "earthen_dragon"
+
 [main.bosses.fallen-gilgamesh]
 category = "bosses"
 drops = [["items", "axe-of-gilgamesh"]]
@@ -1873,6 +1945,9 @@ name = "second_chance"
 [[main.bosses.fallen-gilgamesh.abilities]]
 name = "steadfast_ii"
 
+[main.bosses.fallen-gilgamesh.follower]
+name = "ortanite_golem"
+
 [main.bosses.fallen-heretic]
 category = "bosses"
 drops = [["items", "heretics-robe"]]
@@ -1887,6 +1962,9 @@ name = "mana_rush"
 
 [[main.bosses.fallen-heretic.abilities]]
 name = "life_siphon"
+
+[main.bosses.fallen-heretic.follower]
+name = "anubis"
 
 [main.bosses.fallen-hero-lover-lost]
 category = "bosses"
@@ -1910,6 +1988,9 @@ rarity = "common"
 skills = [["spells", "frost-ii"], ["spells", "blizzard"], ["spells", "doublecut"], ["spells", "fire-wall"], ["spells", "frost-iii"], ["spells", "blizzard-ii"], ["spells", "icestrike-ii"], ["spells", "multi-frost"], ["spells", "riposte"], ["spells", "swordplay"]]
 tier = 9
 
+[main.bosses.fallen-ithra-the-white-knight.follower]
+name = "ice_dragon"
+
 [main.bosses.fallen-judge-zagreus]
 aura = "superboss"
 category = "bosses"
@@ -1927,6 +2008,9 @@ name = "the_cataphract"
 [[main.bosses.fallen-judge-zagreus.abilities]]
 name = "apex_(ursa)"
 
+[main.bosses.fallen-judge-zagreus.follower]
+name = "ashen_phoenix"
+
 [main.bosses.fallen-ra-the-seer]
 category = "bosses"
 drops = [["items", "eyestone"], ["items", "ras-cane"], ["items", "ring-of-annwn"]]
@@ -1936,6 +2020,9 @@ id = "fallen-ra-the-seer"
 rarity = "common"
 skills = [["spells", "bright-star"], ["spells", "comet"], ["spells", "omnistrike-ii"], ["spells", "prism-wall"], ["spells", "shooting-star"], ["spells", "riposte"]]
 tier = 7
+
+[main.bosses.fallen-ra-the-seer.follower]
+name = "seer"
 
 [main.bosses.fallen-realmshifter]
 category = "bosses"
@@ -1955,6 +2042,9 @@ name = "resurgence"
 [[main.bosses.fallen-realmshifter.abilities]]
 name = "saboteur_ii"
 
+[main.bosses.fallen-realmshifter.follower]
+name = "mighty_slime"
+
 [main.bosses.fallen-thor-the-storm-god]
 category = "bosses"
 drops = [["items", "huge-empty-bottle"], ["items", "ortanite"], ["items", "thors-arc"], ["items", "thors-hammer"]]
@@ -1964,6 +2054,9 @@ id = "fallen-thor-the-storm-god"
 rarity = "common"
 skills = [["spells", "charge"], ["spells", "spark-ii"], ["spells", "spark-iii"], ["spells", "storm-ii"], ["spells", "lightningstrike-ii"], ["spells", "multi-spark"]]
 tier = 9
+
+[main.bosses.fallen-thor-the-storm-god.follower]
+name = "storm_dragon"
 
 [main.bosses.fallen-vulcan-the-red-knight]
 category = "bosses"
@@ -1975,6 +2068,9 @@ rarity = "common"
 skills = [["spells", "flame-ii"], ["spells", "flame-iii"], ["spells", "meteor-ii"], ["spells", "tricut"], ["spells", "firestrike-ii"], ["spells", "horizontal-slash"], ["spells", "multi-flame"], ["spells", "swordplay"], ["spells", "x-slash"]]
 tier = 9
 
+[main.bosses.fallen-vulcan-the-red-knight.follower]
+name = "fire_dragon"
+
 [main.bosses.false-king-meliodas]
 category = "bosses"
 drops = [["items", "lyons-penance"], ["items", "false-kings-crown"], ["items", "false-kings-sceptre"]]
@@ -1985,6 +2081,9 @@ rarity = "rare"
 skills = [["spells", "wildfire"], ["spells", "winter-wind"], ["spells", "lyons-execution"], ["spells", "lyons-mark"], ["spells", "holystrike-iii"], ["spells", "anthem-of-lyonesse"]]
 tier = 6
 
+[main.bosses.false-king-meliodas.follower]
+name = "lindworm"
+
 [main.bosses.fenrir-b21e25dd]
 category = "bosses"
 drops = [["items", "arena-token"], ["items", "occult-candle"], ["items", "wolfs-blood"], ["items", "affinity-candle"], ["items", "wolfbane"]]
@@ -1994,6 +2093,9 @@ id = "fenrir-b21e25dd"
 rarity = "common"
 skills = [["spells", "omnistrike"], ["spells", "ravage"]]
 tier = 7
+
+[main.bosses.fenrir-b21e25dd.follower]
+name = "wolf"
 
 [main.bosses.finfolk]
 category = "bosses"
@@ -2036,6 +2138,9 @@ id = "gargouille"
 rarity = "common"
 skills = [["spells", "speed"], ["spells", "doublecut"], ["spells", "tricut"], ["spells", "petrify"]]
 tier = 4
+
+[main.bosses.gargouille.follower]
+name = "gargoyle"
 
 [main.bosses.giant-basilisk]
 category = "bosses"
@@ -2149,6 +2254,9 @@ rarity = "common"
 skills = [["spells", "drain"], ["spells", "blizzard"], ["spells", "meteor"], ["spells", "quake"], ["spells", "storm"], ["spells", "mindblast"]]
 tier = 5
 
+[main.bosses.great-gazer.follower]
+name = "evil_eye"
+
 [main.bosses.great-jinn]
 category = "bosses"
 drops = [["items", "arena-token"], ["items", "lucky-coin"], ["items", "lucky-silver-coin"], ["items", "great-jinn-staff"], ["items", "perfect-runestone"]]
@@ -2261,6 +2369,9 @@ name = "life_siphon"
 
 [[main.bosses.immortal-lord-418e5cff.abilities]]
 name = "steadfast_ii"
+
+[main.bosses.immortal-lord-418e5cff.follower]
+name = "dire_wolf"
 
 [main.bosses.imona-of-fomoria]
 category = "bosses"
@@ -2434,6 +2545,9 @@ rarity = "common"
 skills = [["spells", "charge"], ["spells", "heal"], ["spells", "lunge"], ["spells", "focus"], ["spells", "icestrike"], ["spells", "blizzard"]]
 tier = 3
 
+[main.bosses.lizarr-lord.follower]
+name = "lizarr"
+
 [main.bosses.ljosalfar-lord]
 category = "bosses"
 drops = [["items", "arena-token"], ["items", "ljosalfar-sceptre"], ["items", "pure-lightstone"]]
@@ -2453,6 +2567,9 @@ id = "lord-of-wolves-6d199a0f"
 rarity = "common"
 skills = [["spells", "charge"], ["spells", "lunge"], ["spells", "great-heal"]]
 tier = 3
+
+[main.bosses.lord-of-wolves-6d199a0f.follower]
+name = "wolf"
 
 [main.bosses.lost-pharaoh-0f685085]
 category = "bosses"
@@ -2549,6 +2666,9 @@ rarity = "rare"
 skills = [["spells", "confuse"], ["spells", "flare-ii"], ["spells", "mindblast"], ["spells", "prism-wall"], ["spells", "ravage"], ["spells", "faith-ii"], ["spells", "nightmare-ii"]]
 tier = 4
 
+[main.bosses.mimic-king-a90b8f0c.follower]
+name = "mimic"
+
 [main.bosses.minotaur-db4e0c60689b5789486e695c6ae30fb9]
 category = "bosses"
 drops = [["items", "arena-token"], ["items", "hardened-steel"], ["items", "hide"], ["items", "lucky-coin"], ["items", "minotaur-axe"], ["items", "lucky-silver-coin"]]
@@ -2604,6 +2724,9 @@ id = "odin"
 rarity = "common"
 skills = [["spells", "miasma"], ["spells", "multi-shadow"], ["spells", "quadcut"], ["spells", "miasma-ii"], ["spells", "multi-flame-ii"], ["spells", "multi-frost-ii"], ["spells", "warriors-pavane"], ["spells", "flame-vi"], ["spells", "frost-vi"]]
 tier = 10
+
+[main.bosses.odin.follower]
+name = "crow"
 
 [main.bosses.odok-golem]
 category = "bosses"
@@ -2692,6 +2815,9 @@ id = "racul"
 rarity = "common"
 skills = [["spells", "nightmare"], ["spells", "darkstrike-ii"], ["spells", "drain-ii"], ["spells", "holy-wall"], ["spells", "darkstrike-iii"]]
 tier = 8
+
+[main.bosses.racul.follower]
+name = "bat"
 
 [main.bosses.ronin]
 category = "bosses"
@@ -2836,6 +2962,9 @@ rarity = "cryptid"
 skills = [["spells", "sleep"], ["spells", "nightmare"], ["spells", "darkstrike-iii"]]
 tier = 4
 
+[main.bosses.spooky-ghost.follower]
+name = "spooky_ghost"
+
 [main.bosses.sumner-aphrodite]
 category = "bosses"
 drops = [["items", "gold-medal"]]
@@ -2979,6 +3108,9 @@ rarity = "cryptid"
 skills = [["spells", "sleep"], ["spells", "nightmare"], ["spells", "curse"]]
 tier = 8
 
+[main.bosses.terrifying-ghost.follower]
+name = "spooky_ghost"
+
 [main.bosses.the-dullahan]
 aura = "superboss"
 category = "bosses"
@@ -3002,6 +3134,9 @@ id = "tiamat"
 rarity = "common"
 skills = [["spells", "distortion"], ["spells", "tricut"], ["spells", "fireball"]]
 tier = 7
+
+[main.bosses.tiamat.follower]
+name = "wyvern"
 
 [main.bosses.titan-eos]
 aura = "superboss"
@@ -3109,6 +3244,9 @@ rarity = "common"
 skills = [["spells", "battle-dance"], ["spells", "tricut"], ["spells", "meteor-ii"], ["spells", "dragon-breath"], ["spells", "wyvern-speed"], ["spells", "fireball"]]
 tier = 7
 
+[main.bosses.typhon-b7444a14.follower]
+name = "wyvern"
+
 [main.bosses.undead-golem-b7ec8937]
 category = "bosses"
 drops = [["items", "bone"], ["items", "bone-shield"], ["items", "bonecrusher"], ["items", "enchanted-skull"], ["items", "undead-bone"]]
@@ -3128,6 +3266,9 @@ id = "vampire-lord"
 rarity = "common"
 skills = [["spells", "bite"], ["spells", "bleed"], ["spells", "drain"], ["spells", "great-heal"], ["spells", "nightmare"]]
 tier = 5
+
+[main.bosses.vampire-lord.follower]
+name = "bat"
 
 [main.bosses.vritra-the-steadfast]
 aura = "superboss"
@@ -67063,6 +67204,9 @@ rarity = "rare"
 skills = [["spells", "rebirth"], ["spells", "darkstrike-iii"], ["spells", "doom"], ["spells", "drain-iii"], ["spells", "guarding-strikes"], ["spells", "miasma"], ["spells", "quadcut"]]
 tier = 9
 
+[main.monsters.ankou.follower]
+name = "hellhound"
+
 [main.monsters.anteros-brute]
 category = "monsters"
 drops = [["items", "broken-heart"]]
@@ -67322,6 +67466,9 @@ rarity = "rare"
 skills = [["spells", "battle-dance"], ["spells", "tricut"]]
 tier = 9
 
+[main.monsters.balor-assassin.follower]
+name = "warg"
+
 [main.monsters.balor-flame]
 category = "monsters"
 drops = [["items", "firestone"]]
@@ -67391,6 +67538,9 @@ id = "bandit"
 rarity = "common"
 skills = [["spells", "lunge"], ["spells", "firestrike"]]
 tier = 1
+
+[main.monsters.bandit.follower]
+name = "dog"
 
 [main.monsters.banshee]
 category = "monsters"
@@ -67706,6 +67856,9 @@ rarity = "rare"
 skills = [["spells", "confuse"], ["spells", "flame-v"], ["spells", "flare-iii"], ["spells", "forbidden-art"], ["spells", "frost-v"], ["spells", "miasma"], ["spells", "tremor-v"], ["spells", "despair"], ["spells", "miasma-ii"]]
 tier = 9
 
+[main.monsters.carman-5458cf68.follower]
+name = "gargoyle"
+
 [main.monsters.carmans-gargoyle]
 aura = "arisen"
 category = "monsters"
@@ -67993,6 +68146,9 @@ rarity = "cryptid"
 skills = [["spells", "heal"], ["spells", "drain"], ["spells", "focus"], ["spells", "blizzard"], ["spells", "meteor"], ["spells", "quake"], ["spells", "storm"], ["spells", "nightmare"], ["spells", "shadow-ii"]]
 tier = 3
 
+[main.monsters.dark-mage.follower]
+name = "hellhound"
+
 [main.monsters.dark-pegasus]
 category = "monsters"
 drops = [["items", "nightbreak"], ["items", "nightbreak-71e7e93d"], ["items", "nightbreak-9492da49"]]
@@ -68033,6 +68189,9 @@ id = "dark-wolfman"
 rarity = "common"
 skills = [["spells", "bite"], ["spells", "heal"], ["spells", "lunge"]]
 tier = 6
+
+[main.monsters.dark-wolfman.follower]
+name = "wolf"
 
 [main.monsters.darkest-demon]
 category = "monsters"
@@ -68082,6 +68241,9 @@ skills = [["spells", "beaststrike-iv"], ["spells", "natura-eventualus-ii"], ["sp
 tier = 10
 [[main.monsters.darkrift-counsel-33744a5f.abilities]]
 name = "apex_iv"
+
+[main.monsters.darkrift-counsel-33744a5f.follower]
+name = "ashen_phoenix"
 
 [main.monsters.deadwood]
 category = "monsters"
@@ -68143,6 +68305,9 @@ rarity = "common"
 skills = [["spells", "flame-ii"], ["spells", "frost-ii"], ["spells", "spark-ii"], ["spells", "quake"]]
 tier = 3
 
+[main.monsters.draconian-acolyte.follower]
+name = "dog"
+
 [main.monsters.draconian-lord]
 aura = "arisen"
 category = "monsters"
@@ -68164,6 +68329,9 @@ rarity = "common"
 skills = [["spells", "flame"], ["spells", "frost"], ["spells", "spark"], ["spells", "drain"]]
 tier = 2
 
+[main.monsters.draconian-mage.follower]
+name = "dog"
+
 [main.monsters.draconian-rogue]
 category = "monsters"
 drops = [["items", "draconite"], ["items", "draconian-boots"], ["items", "draconian-cowl"], ["items", "draconian-garb"], ["items", "draconian-hood"], ["items", "draconian-sword"]]
@@ -68174,6 +68342,9 @@ rarity = "common"
 skills = [["spells", "bleed"], ["spells", "focus"]]
 tier = 3
 
+[main.monsters.draconian-rogue.follower]
+name = "dog"
+
 [main.monsters.draconian-warrior]
 category = "monsters"
 drops = [["items", "iron"], ["items", "draconian-armor"], ["items", "draconian-cowl"], ["items", "draconian-leggings"], ["items", "draconian-sword"]]
@@ -68182,6 +68353,9 @@ icon = "/img/monsters/draco.png"
 id = "draconian-warrior"
 rarity = "common"
 tier = 2
+
+[main.monsters.draconian-warrior.follower]
+name = "dog"
 
 [main.monsters.drake]
 category = "monsters"
@@ -68243,6 +68417,9 @@ rarity = "rare"
 skills = [["spells", "battle-dance"], ["spells", "tricut"]]
 tier = 9
 
+[main.monsters.elite-balor-assassin.follower]
+name = "warg"
+
 [main.monsters.elite-balor-flame]
 category = "monsters"
 events = ["balor_invades"]
@@ -68296,6 +68473,9 @@ rarity = "common"
 skills = [["spells", "dragon-breath"], ["spells", "flame-v"], ["spells", "frost-v"], ["spells", "spark-v"], ["spells", "tremor-v"], ["spells", "lusus-naturae"]]
 tier = 8
 
+[main.monsters.elite-draconian-mage.follower]
+name = "twilight_wisp"
+
 [main.monsters.elite-draconian-warrior]
 category = "monsters"
 drops = [["items", "mythril"], ["items", "elite-draconian-armor"], ["items", "elite-draconian-boots"], ["items", "elite-draconian-cowl"], ["items", "elite-draconian-garb"], ["items", "elite-draconian-leggings"], ["items", "elite-draconian-sword"]]
@@ -68305,6 +68485,9 @@ id = "elite-draconian-warrior"
 rarity = "common"
 skills = [["spells", "darkstrike-iii"], ["spells", "holystrike-iii"], ["spells", "beaststrike-iii"], ["spells", "wyvern-speed-iii"]]
 tier = 8
+
+[main.monsters.elite-draconian-warrior.follower]
+name = "dark_dragon"
 
 [main.monsters.elite-fomorian]
 category = "monsters"
@@ -68316,6 +68499,9 @@ rarity = "common"
 skills = [["spells", "mighty-charge"], ["spells", "coup-de-grace-2"], ["spells", "darkstrike-iii"], ["spells", "holystrike-iii"]]
 tier = 9
 
+[main.monsters.elite-fomorian.follower]
+name = "great_bear"
+
 [main.monsters.elite-fomorian-mage]
 category = "monsters"
 drops = [["items", "elite-fomorian-boots"], ["items", "elite-fomorian-hood"], ["items", "elite-fomorian-robe"], ["items", "elite-fomorian-staff"]]
@@ -68325,6 +68511,9 @@ id = "elite-fomorian-mage"
 rarity = "common"
 skills = [["spells", "frostfire-ii"], ["spells", "heat-lightning-ii"], ["spells", "iced-earth-ii"], ["spells", "quakestorm-ii"], ["spells", "scorched-earth-ii"]]
 tier = 9
+
+[main.monsters.elite-fomorian-mage.follower]
+name = "twilight_wisp"
 
 [main.monsters.elite-kobold]
 category = "monsters"
@@ -68344,6 +68533,9 @@ rarity = "common"
 skills = [["spells", "blizzard-ii"], ["spells", "meteor-ii"], ["spells", "quake-ii"], ["spells", "storm-ii"], ["spells", "bright-star"], ["spells", "comet"], ["spells", "shooting-star"]]
 tier = 10
 
+[main.monsters.elite-kobold-mage.follower]
+name = "twilight_wisp"
+
 [main.monsters.elite-nothren-berserker]
 category = "monsters"
 drops = [["items", "waterstone"], ["items", "baldur"], ["items", "elite-nothren-armor"], ["items", "elite-nothren-greaves"], ["items", "elite-nothren-helmet"], ["items", "elite-nothren-shield"]]
@@ -68353,6 +68545,9 @@ id = "elite-nothren-berserker"
 rarity = "common"
 skills = [["spells", "charge-ii"], ["spells", "pommel-strike"], ["spells", "onslaught"]]
 tier = 9
+
+[main.monsters.elite-nothren-berserker.follower]
+name = "yeti"
 
 [main.monsters.elite-nothren-raider]
 category = "monsters"
@@ -68364,6 +68559,9 @@ rarity = "common"
 skills = [["spells", "flurry-ii"], ["spells", "tricut-ii"], ["spells", "coup-de-grace-2"], ["spells", "swordplay"]]
 tier = 9
 
+[main.monsters.elite-nothren-raider.follower]
+name = "yeti"
+
 [main.monsters.elite-nothren-valkyrie]
 category = "monsters"
 drops = [["items", "baldur"], ["items", "asgard-armor"], ["items", "asgard-greaves"], ["items", "asgard-helmet"], ["items", "asgard-shield"], ["items", "asgards-summit"]]
@@ -68374,6 +68572,9 @@ rarity = "common"
 skills = [["spells", "charge-ii"], ["spells", "pommel-strike"], ["spells", "onslaught"], ["spells", "swordplay"], ["spells", "x-slash"], ["spells", "jump"], ["spells", "multi-flare"], ["spells", "multi-frost-ii"]]
 tier = 10
 
+[main.monsters.elite-nothren-valkyrie.follower]
+name = "yeti"
+
 [main.monsters.elite-nothren-warlock]
 category = "monsters"
 drops = [["items", "waterstone"], ["items", "baldur"], ["items", "elite-nothren-hood"], ["items", "elite-nothren-robe"], ["items", "elite-nothren-shoes"]]
@@ -68383,6 +68584,9 @@ id = "elite-nothren-warlock"
 rarity = "common"
 skills = [["spells", "prism-wall"], ["spells", "flame-v"], ["spells", "frost-v"], ["spells", "spark-v"], ["spells", "tremor-v"]]
 tier = 9
+
+[main.monsters.elite-nothren-warlock.follower]
+name = "great_yeti"
 
 [main.monsters.elite-orc]
 category = "monsters"
@@ -68567,6 +68771,9 @@ rarity = "rare"
 skills = [["spells", "outwill"], ["spells", "flame-ii"], ["spells", "frost-ii"], ["spells", "spark-ii"], ["spells", "drain"], ["spells", "tremor-ii"]]
 tier = 3
 
+[main.monsters.fallen-archmage.follower]
+name = "gnome"
+
 [main.monsters.fallen-crescent-fencer]
 category = "monsters"
 drops = [["items", "celestial-moondrop"]]
@@ -68594,6 +68801,9 @@ name = "recharge"
 
 [[main.monsters.fallen-freyja.abilities]]
 name = "valhallan_strength"
+
+[main.monsters.fallen-freyja.follower]
+name = "guivre"
 
 [main.monsters.fallen-gaia]
 category = "monsters"
@@ -68635,6 +68845,9 @@ rarity = "rare"
 skills = [["spells", "lunge"], ["spells", "firestrike"], ["spells", "icestrike"], ["spells", "lightningstrike"], ["spells", "protection"], ["spells", "threaten"]]
 tier = 3
 
+[main.monsters.fallen-knight.follower]
+name = "wolf"
+
 [main.monsters.fallen-leviathan]
 category = "monsters"
 drops = [["items", "waterstone"], ["items", "leviathan-cuirass"]]
@@ -68656,6 +68869,9 @@ id = "fallen-mage"
 rarity = "rare"
 skills = [["spells", "flame"], ["spells", "frost"], ["spells", "spark"], ["spells", "magic-boost"]]
 tier = 1
+
+[main.monsters.fallen-mage.follower]
+name = "lesser_red_slime"
 
 [main.monsters.fallen-moonchaser]
 category = "monsters"
@@ -68685,6 +68901,9 @@ name = "mana_rush"
 [[main.monsters.fallen-nekromancer.abilities]]
 name = "life_siphon"
 
+[main.monsters.fallen-nekromancer.follower]
+name = "odok"
+
 [main.monsters.fallen-rogue]
 category = "monsters"
 drops = [["items", "arena-token"], ["items", "fallen-rogues-bow"]]
@@ -68694,6 +68913,9 @@ id = "fallen-rogue"
 rarity = "rare"
 skills = [["spells", "fire-arrow"], ["spells", "ice-arrow"], ["spells", "doublecut"], ["spells", "exploit"]]
 tier = 3
+
+[main.monsters.fallen-rogue.follower]
+name = "wolf"
 
 [main.monsters.fallen-starseeker]
 category = "monsters"
@@ -68733,6 +68955,9 @@ rarity = "rare"
 skills = [["spells", "poison"], ["spells", "smoke-bomb"]]
 tier = 1
 
+[main.monsters.fallen-thief.follower]
+name = "dog"
+
 [main.monsters.fallen-vanguard]
 category = "monsters"
 drops = [["items", "atlas"]]
@@ -68761,6 +68986,9 @@ rarity = "rare"
 skills = [["spells", "exploit"], ["spells", "omnistrike"], ["spells", "tricut"]]
 tier = 7
 
+[main.monsters.fallen-wanderer.follower]
+name = "wolf"
+
 [main.monsters.fallen-warrior]
 category = "monsters"
 drops = [["items", "arena-token"], ["items", "hard-leather-boots"], ["items", "iron"], ["items", "iron-armor"], ["items", "iron-helmet"], ["items", "wood"], ["items", "fallen-warriors-sword"]]
@@ -68771,6 +68999,9 @@ rarity = "rare"
 skills = [["spells", "lunge"], ["spells", "warcry"]]
 tier = 1
 
+[main.monsters.fallen-warrior.follower]
+name = "dog"
+
 [main.monsters.fallen-witch]
 category = "monsters"
 drops = [["items", "arena-token"], ["items", "mandrake"], ["items", "dayleaf"], ["items", "fallen-mages-staff"]]
@@ -68780,6 +69011,9 @@ id = "fallen-witch"
 rarity = "rare"
 skills = [["spells", "flame"], ["spells", "frost"], ["spells", "spark"], ["spells", "burn"], ["spells", "freeze"], ["spells", "magic-boost"], ["spells", "poison"], ["spells", "shock"], ["spells", "mindblast"]]
 tier = 3
+
+[main.monsters.fallen-witch.follower]
+name = "snake"
 
 [main.monsters.fallen-zwei-caster]
 category = "monsters"
@@ -68818,6 +69052,9 @@ rarity = "rare"
 skills = [["spells", "omnistrike"], ["spells", "ravage"]]
 tier = 9
 
+[main.monsters.fenrir.follower]
+name = "wolf"
+
 [main.monsters.feral-horse]
 category = "monsters"
 drops = [["items", "leather"], ["items", "blinders"]]
@@ -68848,6 +69085,9 @@ id = "fey-cactus"
 rarity = "cryptid"
 skills = [["spells", "arrowstorm"], ["spells", "arrowstorm-ii"]]
 tier = 10
+
+[main.monsters.fey-cactus.follower]
+name = "cactus"
 
 [main.monsters.final-stable-keeper]
 category = "monsters"
@@ -69289,6 +69529,9 @@ rarity = "common"
 skills = [["spells", "mindblast"], ["spells", "drain-iii"], ["spells", "fey-flame-v"], ["spells", "fey-frost-v"], ["spells", "fey-spark-v"], ["spells", "fey-tremor-v"]]
 tier = 10
 
+[main.monsters.great-gazer-5e49b351.follower]
+name = "evil_eye"
+
 [main.monsters.great-lizarr-knight]
 category = "monsters"
 drops = [["items", "great-lizarr-armor"], ["items", "great-lizarr-blade"]]
@@ -69562,6 +69805,9 @@ rarity = "common"
 skills = [["spells", "bite"], ["spells", "lunge"], ["spells", "heal"]]
 tier = 3
 
+[main.monsters.grey-wolfman.follower]
+name = "wolf"
+
 [main.monsters.guivre]
 category = "monsters"
 drops = [["items", "dragonite"], ["items", "viper-armor"], ["items", "viper-boots"], ["items", "viper-chestmail"], ["items", "viper-cowl"], ["items", "viper-dagger"], ["items", "viper-helmet"], ["items", "viper-hood"], ["items", "viper-leggings"], ["items", "viper-mages-boots"], ["items", "viper-robe"], ["items", "vipersong"]]
@@ -69664,6 +69910,9 @@ rarity = "common"
 skills = [["spells", "flame-iii"], ["spells", "frost-iii"], ["spells", "spark-iii"], ["spells", "tremor-iii"]]
 tier = 6
 
+[main.monsters.high-draconian-mage.follower]
+name = "wisp"
+
 [main.monsters.high-draconian-mystic]
 category = "monsters"
 drops = [["items", "draconite"], ["items", "fallen-mystics-staff"], ["items", "high-draconian-boots"], ["items", "high-draconian-cowl"], ["items", "high-draconian-garb"]]
@@ -69673,6 +69922,9 @@ id = "high-draconian-mystic"
 rarity = "rare"
 skills = [["spells", "magic-arrow-ii"], ["spells", "magic-dagger-ii"], ["spells", "magic-hammer-ii"], ["spells", "magic-strikes-ii"], ["spells", "magic-sword-ii"]]
 tier = 6
+
+[main.monsters.high-draconian-mystic.follower]
+name = "wolf"
 
 [main.monsters.high-draconian-warrior]
 category = "monsters"
@@ -69684,6 +69936,9 @@ rarity = "common"
 skills = [["spells", "bleed"], ["spells", "darkstrike"], ["spells", "holystrike"]]
 tier = 6
 
+[main.monsters.high-draconian-warrior.follower]
+name = "wolf"
+
 [main.monsters.high-fomorian]
 category = "monsters"
 drops = [["items", "mythril"], ["items", "high-fomorian-armor"], ["items", "high-fomorian-boots"], ["items", "high-fomorian-cowl"], ["items", "high-fomorian-garb"], ["items", "high-fomorian-leggings"], ["items", "high-fomorian-sword"]]
@@ -69694,6 +69949,9 @@ rarity = "common"
 skills = [["spells", "charge"], ["spells", "darkstrike"], ["spells", "holystrike"]]
 tier = 7
 
+[main.monsters.high-fomorian.follower]
+name = "great_bear"
+
 [main.monsters.high-fomorian-mage]
 category = "monsters"
 drops = [["items", "mythril"], ["items", "high-fomorian-boots"], ["items", "high-fomorian-hood"], ["items", "high-fomorian-robe"], ["items", "high-fomorian-staff"]]
@@ -69703,6 +69961,9 @@ id = "high-fomorian-mage"
 rarity = "common"
 skills = [["spells", "blizzard"], ["spells", "meteor"], ["spells", "quake"], ["spells", "storm"], ["spells", "blast-ii"], ["spells", "flare"]]
 tier = 7
+
+[main.monsters.high-fomorian-mage.follower]
+name = "wisp"
 
 [main.monsters.hobgoblin]
 category = "monsters"
@@ -69753,6 +70014,9 @@ name = "life_siphon"
 [[main.monsters.immortal.abilities]]
 name = "steadfast_ii"
 
+[main.monsters.immortal.follower]
+name = "dire_wolf"
+
 [main.monsters.immortal-lord]
 aura = "arisen"
 category = "monsters"
@@ -69772,6 +70036,9 @@ name = "life_siphon"
 [[main.monsters.immortal-lord.abilities]]
 name = "steadfast_ii"
 
+[main.monsters.immortal-lord.follower]
+name = "dire_wolf"
+
 [main.monsters.immortal-magus]
 category = "monsters"
 drops = [["items", "immortal-hood"], ["items", "immortal-robe"]]
@@ -69786,6 +70053,9 @@ name = "mana_rush"
 
 [[main.monsters.immortal-magus.abilities]]
 name = "saboteur"
+
+[main.monsters.immortal-magus.follower]
+name = "dire_wolf"
 
 [main.monsters.imp]
 category = "monsters"
@@ -69846,6 +70116,9 @@ id = "kobold-mage"
 rarity = "common"
 skills = [["spells", "meteor-ii"], ["spells", "blizzard-ii"], ["spells", "storm-ii"], ["spells", "quake-ii"], ["spells", "bright-star"], ["spells", "comet"], ["spells", "shooting-star"]]
 tier = 8
+
+[main.monsters.kobold-mage.follower]
+name = "twilight_wisp"
 
 [main.monsters.legionnaire]
 category = "monsters"
@@ -69917,6 +70190,9 @@ rarity = "rare"
 skills = [["spells", "blizzard"], ["spells", "mute"], ["spells", "outwill"], ["spells", "glacier"], ["spells", "tricut"]]
 tier = 8
 
+[main.monsters.lizarr-lord-9fded6ad.follower]
+name = "lizarr"
+
 [main.monsters.lizarr-marauder]
 category = "monsters"
 drops = [["items", "waterstone"], ["items", "lizarr-armor"], ["items", "lizarr-blade"], ["items", "lizarr-leggings"]]
@@ -69976,6 +70252,9 @@ id = "ljosalfar-mage"
 rarity = "common"
 skills = [["spells", "meteor-ii"], ["spells", "blizzard-ii"], ["spells", "storm-ii"], ["spells", "quake-ii"], ["spells", "faith-ii"]]
 tier = 8
+
+[main.monsters.ljosalfar-mage.follower]
+name = "wisp"
 
 [main.monsters.llamrai]
 category = "monsters"
@@ -70168,6 +70447,9 @@ rarity = "cryptid"
 skills = [["spells", "confuse"], ["spells", "flare-ii"], ["spells", "mindblast"], ["spells", "prism-wall"], ["spells", "ravage"], ["spells", "wail"], ["spells", "faith-ii"], ["spells", "nightmare-ii"], ["spells", "miasma-ii"]]
 tier = 10
 
+[main.monsters.mimic-king.follower]
+name = "mimic"
+
 [main.monsters.minotaur]
 aura = "arisen"
 category = "monsters"
@@ -70305,6 +70587,9 @@ rarity = "common"
 skills = [["spells", "charge-ii"], ["spells", "pommel-strike"], ["spells", "onslaught"]]
 tier = 8
 
+[main.monsters.nothren-berserker.follower]
+name = "yeti"
+
 [main.monsters.nothren-lord]
 category = "monsters"
 drops = [["items", "baldur"], ["items", "robe-of-the-north"]]
@@ -70314,6 +70599,9 @@ id = "nothren-lord"
 rarity = "cryptid"
 skills = [["spells", "prism-wall"], ["spells", "flame-v"], ["spells", "frost-v"], ["spells", "spark-v"], ["spells", "tremor-v"]]
 tier = 10
+
+[main.monsters.nothren-lord.follower]
+name = "great_yeti"
 
 [main.monsters.nothren-raider]
 category = "monsters"
@@ -70325,6 +70613,9 @@ rarity = "common"
 skills = [["spells", "flurry-ii"], ["spells", "tricut-ii"], ["spells", "coup-de-grace-2"], ["spells", "swordplay"]]
 tier = 8
 
+[main.monsters.nothren-raider.follower]
+name = "yeti"
+
 [main.monsters.nothren-valkyrie]
 category = "monsters"
 drops = [["items", "baldur"], ["items", "valhallas-rise"], ["items", "valhallan-armor"], ["items", "valhallan-greaves"], ["items", "valhallan-helmet"], ["items", "valhallan-shield"]]
@@ -70335,6 +70626,9 @@ rarity = "common"
 skills = [["spells", "charge-ii"], ["spells", "pommel-strike"], ["spells", "onslaught"], ["spells", "swordplay"], ["spells", "x-slash"], ["spells", "jump"], ["spells", "multi-flare"], ["spells", "multi-frost-ii"]]
 tier = 9
 
+[main.monsters.nothren-valkyrie.follower]
+name = "yeti"
+
 [main.monsters.nothren-warlock]
 category = "monsters"
 drops = [["items", "waterstone"], ["items", "baldur"], ["items", "nothren-hood"], ["items", "nothren-robe"], ["items", "nothren-shoes"]]
@@ -70344,6 +70638,9 @@ id = "nothren-warlock"
 rarity = "common"
 skills = [["spells", "prism-wall"], ["spells", "flame-v"], ["spells", "frost-v"], ["spells", "spark-v"], ["spells", "tremor-v"]]
 tier = 8
+
+[main.monsters.nothren-warlock.follower]
+name = "great_yeti"
 
 [main.monsters.odok]
 category = "monsters"
@@ -70661,6 +70958,9 @@ id = "reaper"
 rarity = "rare"
 skills = [["spells", "heal"], ["spells", "distortion"], ["spells", "shadow-ii"], ["spells", "slash"], ["spells", "drain"]]
 tier = 5
+
+[main.monsters.reaper.follower]
+name = "hellhound"
 
 [main.monsters.red-basilisk]
 category = "monsters"
@@ -71510,6 +71810,9 @@ rarity = "common"
 skills = [["spells", "drain"]]
 tier = 3
 
+[main.monsters.vampire.follower]
+name = "bat"
+
 [main.monsters.vampire-6bb40b71]
 category = "monsters"
 drops = [["items", "hardened-steel"], ["items", "silver"], ["items", "broken-statue"], ["items", "counts-garment"], ["items", "counts-hood"], ["items", "chiroptera-remains"], ["items", "perfect-baldur"]]
@@ -71522,6 +71825,9 @@ skills = [["spells", "treat"], ["spells", "trick"]]
 tier = 3
 [[main.monsters.vampire-6bb40b71.abilities]]
 name = "second_chance"
+
+[main.monsters.vampire-6bb40b71.follower]
+name = "bat"
 
 [main.monsters.vampire-zzz]
 category = "monsters"
@@ -71582,6 +71888,9 @@ rarity = "common"
 skills = [["spells", "bite"], ["spells", "scratch"], ["spells", "firestrike"], ["spells", "darkstrike-ii"]]
 tier = 7
 
+[main.monsters.warg.follower]
+name = "warg"
+
 [main.monsters.wild-wolf]
 category = "monsters"
 drops = [["items", "hide"]]
@@ -71623,6 +71932,9 @@ tier = 3
 [[main.monsters.witch.abilities]]
 name = "second_chance"
 
+[main.monsters.witch.follower]
+name = "snake"
+
 [main.monsters.wolfman]
 category = "monsters"
 drops = [["items", "hide"]]
@@ -71643,6 +71955,9 @@ rarity = "common"
 skills = [["spells", "bite"], ["spells", "lunge"], ["spells", "heal"]]
 tier = 4
 
+[main.monsters.wolfman-warrior.follower]
+name = "wolf"
+
 [main.monsters.woodland-elf]
 category = "monsters"
 drops = [["items", "earthstone"], ["items", "elstone"], ["items", "woodblade"]]
@@ -71652,6 +71967,9 @@ id = "woodland-elf"
 rarity = "common"
 skills = [["spells", "flurry"], ["spells", "speed"], ["spells", "blightstrike"], ["spells", "tricut"]]
 tier = 6
+
+[main.monsters.woodland-elf.follower]
+name = "wisp"
 
 [main.monsters.woodland-elf-mage]
 category = "monsters"
@@ -71833,6 +72151,9 @@ id = "arisen-gerd"
 skills = [["spells", "blightstrike-iii"], ["spells", "break"], ["spells", "horizontal-slash-ii"], ["spells", "miasma"], ["spells", "multi-shadow"], ["spells", "wallop"], ["spells", "ragnarok"]]
 tags = ["world_raid", "other_realms_raid"]
 tier = 10
+
+[main.raids.arisen-gerd.follower]
+name = "steward_wolf"
 
 [main.raids.arisen-hel]
 category = "raids"
@@ -72399,6 +72720,9 @@ skills = [["spells", "blightstrike-iii"], ["spells", "break"], ["spells", "horiz
 tags = ["world_raid", "other_realms_raid"]
 tier = 8
 
+[main.raids.gerd.follower]
+name = "steward_wolf"
+
 [main.raids.grand-knight-lugus]
 category = "raids"
 drops = [["items", "lucky-coin"], ["items", "dowsing-rod"], ["items", "balorite"], ["items", "lucky-silver-coin"], ["items", "affinity-candle"], ["items", "ashen-boots"], ["items", "ashen-hat"], ["items", "ashen-robe"], ["items", "ashen-staff"], ["items", "jewel-of-pale"], ["items", "lugus-gauntlet"], ["items", "pale-armor"], ["items", "pale-helmet"], ["items", "pale-leggings"], ["items", "paleblade"], ["items", "shadow-boots"], ["items", "shadow-garb"], ["items", "shadow-hood"], ["items", "shadow-katana"]]
@@ -72792,6 +73116,9 @@ icon = "/img/packs/nfs/odie_2024.png"
 id = "the-creator"
 skills = [["spells", "onslaught"], ["spells", "deific-channel"], ["spells", "dispel-ii"], ["spells", "magic-chakram"], ["spells", "sortie-ii"], ["spells", "ultima"], ["spells", "verse-iv"], ["spells", "x-slash-iii"]]
 tier = 10
+
+[main.raids.the-creator.follower]
+name = "sif"
 
 [main.raids.the-dioscuri]
 category = "raids"

@@ -127,6 +127,19 @@ def scan(entries, itemtypes):
                             events_conflict[language][key] = True
                     translations[language]['msg']['events'][key] = event
 
+            follower = entry.get('follower')
+            if follower:
+                translations[language]['msg']['meta']['follower'] = follower[0]
+                icon_key = Converter.convert_key(
+                    base[id]['follower'][1]['name'])
+                unique_key = icon_key_generator.generate_unique_key(
+                    (icon_key, follower[1]['icon']))
+                translations[language]['msg']['follower'][unique_key] = follower[1]['name']
+                icons[unique_key] = follower[1]['icon']
+                cm_tmp[id]['follower'] = {
+                    'name': unique_key,
+                }
+
             tags = entry.get('tags')
             if tags:
                 cm_tmp[id]['tags'] = []
@@ -223,7 +236,6 @@ def scan(entries, itemtypes):
                             if key in {'power', 'stat_bonus', 'bestial_bond_level'}:
                                 segments.clear()
 
-                            
                             if any(segments):
                                 sorts[category]['stats.' +
                                                 key] = '_'.join(segments)
@@ -397,7 +409,7 @@ def generate_options(codex: dict):
 
     disabled_option_keys = set([
         'id', 'icon', 'drops', 'aura', 'skills', 'celestial_classes', 'stats', 'stats_conditions',
-        'bestial_bond', 'hp', 'learned_by', 'off-hands', 'used_by',
+        'bestial_bond', 'hp', 'learned_by', 'off-hands', 'used_by', 'follower',
         'dropped_by', 'upgrade_materials', 'sources', 'ability'
     ])
 
@@ -428,6 +440,7 @@ def generate_options(codex: dict):
             options['exotic'] = set([True, False])
 
     return {k: sorted(v) for k, v in options.items()}
+
 
 def save_codex(output_dir: Path, codex: dict):
     with open(output_dir.joinpath('codex.json'), 'w') as f:

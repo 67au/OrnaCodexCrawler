@@ -21401,7 +21401,7 @@ useable_by = "all_classes"
 
 [main.items.beard-bristle.stats]
 attack = "-12"
-avidity = "+0"
+avidity = "+0.5"
 collateral_chance = "+3"
 crit = "2"
 ward = "1"
@@ -35303,7 +35303,7 @@ name = "holyblight"
 adornment_slots = "3"
 defense = "70"
 magic = "96"
-mana_reduction = "-50"
+mana_reduction = "-50.0"
 resistance = "285"
 ward = "1"
 
@@ -43284,7 +43284,7 @@ useable_by = "magic_users"
 
 [main.items.heretics-robe.stats]
 magic = "180"
-mana_reduction = "-100"
+mana_reduction = "-100.0"
 resistance = "130"
 
 [main.items.hermes-coin-purse]
@@ -48173,7 +48173,7 @@ useable_by = "all_classes"
 
 [main.items.lyncus-bristle.stats]
 attack = "-12"
-avidity = "+0"
+avidity = "+0.5"
 collateral_chance = "+3"
 crit = "2"
 ward = "1"
@@ -50342,7 +50342,7 @@ useable_by = "all_classes"
 attack = "3"
 magic = "3"
 mana = "18"
-mana_regen = "+0"
+mana_regen = "+0.5"
 
 [main.items.mullos-blinders]
 aura = "rare"
@@ -60718,7 +60718,7 @@ useable_by = "all_classes"
 [main.items.steady-hands-of-selene.stats]
 attack = "90"
 follower_act = "-2"
-follower_stats = "-10"
+follower_stats = "-10.0"
 hybrid_damage = "+10"
 magic = "90"
 

@@ -9,7 +9,7 @@ chance_pattern = re.compile(r'(?P<NAME>.+) \((?P<VALUE>\d+(\.\d+)?\%)\)$')
 ability_pattern = re.compile(r'^\+(?P<NAME>.+)\: (?P<VALUE>.+)$')
 bonus_pattern = re.compile(r'^(?!\+)(?P<NAME>.+)\: (?P<VALUE>.+)$')
 condition_pattern = re.compile(r'(?P<TEXT>.+) \((?P<CONDITIONS>.+)\)')
-number_pattern = re.compile(r'^(?P<NUMBER>(\+|\-)?\d+).*')
+number_pattern = re.compile(r'^(?P<NUMBER>(\+|\-)?\d+(\.\d+)*).*')
 
 class Exctractor:
 

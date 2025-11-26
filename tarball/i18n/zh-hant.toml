@@ -3085,8 +3085,8 @@ description = "這個獨特的頭飾無法提供太多的保護，但它很適�
 name = "鹿角盔"
 
 [main.items.appraisers-loupe]
-description = "The loupe of a skilled appraiser. When using this item on a piece of equipment, its rating will forever be known."
-name = "Appraiser's Loupe"
+description = "老練鑑定師的放大鏡。使用於任一裝備後，其評價將自此清晰可見。"
+name = "鑑定師的放大鏡"
 
 [main.items.apprentice-hood]
 description = "熟練的魔法師學徒戴的兜帽."
@@ -18749,6 +18749,7 @@ paths_of_fomoria__house_of_wintara = "弗摩爾族之路：溫塔拉家族"
 phoenixrise = "鳳凰于飛"
 riftfall = "裂痕崩落"
 sisters_of_morrigan = "摩莉甘的姊妹"
+"stop_scruug!" = "打爆史古基！"
 summer_solstice = "冬至"
 sumner_games = "夏日運動會"
 terra_s_day = "泰菈之日"
@@ -18759,7 +18760,6 @@ the_hallowed = "The。萬聖"
 the_mimics_are_loose = "寶箱怪們正在搗亂"
 the_mischievous_clurichauns = "瞎搞的酒精靈"
 the_plight_of_apollyon = "亞坡倫的苦難"
-the_winter_wild_hunts = "冬季狩獵"
 thronemakers = "造王者"
 winter_solstice = "夏至"
 wyrmhunt = "龍狩祭"

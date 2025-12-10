@@ -384,6 +384,11 @@ description = "當你對對手造成傷害時，你通常也跟著恢復生命�
 icon = "/img/effects/life_siphon.png"
 name = "生命虹吸 II"
 
+[abilities.mana_feather]
+description = "Your chance to dodge attacks increases as mana is spent."
+icon = "/img/effects/magic_feather.png"
+name = "Mana Feather"
+
 [abilities.mana_regen]
 description = "你的魔力恢復得更快。"
 icon = "/img/effects/mana_regen.png"

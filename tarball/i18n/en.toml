@@ -384,6 +384,11 @@ description = "You often recover HP as you deal damage to an opponent."
 icon = "/img/effects/life_siphon.png"
 name = "Life Siphon II"
 
+[abilities.mana_feather]
+description = "Your chance to dodge attacks increases as mana is spent."
+icon = "/img/effects/magic_feather.png"
+name = "Mana Feather"
+
 [abilities.mana_regen]
 description = "Your mana recovers more quickly."
 icon = "/img/effects/mana_regen.png"

@@ -149,6 +149,16 @@ description = "在戰鬥中使用元素法術會為最多三瓶魔禁瓶與兩�
 icon = "/img/effects/bloodflasks2.png"
 name = "血禁瓶 II"
 
+[abilities.charon_ritual]
+description = "Each turn, there is a chance to have an equipped summon automatically summoned into battle but at a reduced power. When falling in battle, there is a chance that your summons will be sacrificed to save you."
+icon = "/img/effects/autosummon2.png"
+name = "凱倫秘儀"
+
+[abilities.charon_ritual_ii]
+description = "Each turn, there is a chance to have an equipped summon automatically summoned into battle but at a reduced power. When falling in battle, there is a chance that your summons will be sacrificed to save you."
+icon = "/img/effects/autosummon2.png"
+name = "凱倫秘儀 II"
+
 [abilities.collateral_damage]
 description = "你不顧一切地揮動武器。攻擊將有額外機率對戰鬥中的某一對手造成15%的傷害。"
 icon = "/img/effects/collateral.png"
@@ -350,12 +360,12 @@ icon = "/img/effects/hybrid.png"
 name = "混血魔物 III"
 
 [abilities.hydrus]
-description = "在戰鬥中被擊敗時，你的跟隨者有機率犧牲自己來救你。"
+description = "若你的小夥伴在戰鬥中被殺死，你將會吸收牠們的靈魂並且變得更加強大。"
 icon = "/img/effects/hydrus.png"
 name = "水蛇座"
 
 [abilities.hydrus_1]
-description = "若你的小夥伴在戰鬥中被殺死，你將會吸收牠們的靈魂並且變得更加強大。"
+description = "在戰鬥中被擊敗時，你的跟隨者有機率犧牲自己來救你。"
 icon = "/img/effects/hydrus.png"
 name = "水蛇座"
 
@@ -16416,11 +16426,11 @@ description = "加成全部狀態。"
 name = "傲慢"
 
 [main.spells.hydrus-pact]
-description = "犧牲最多3個召喚獸來對敵人造成傷害。"
+description = "Sacrifices up to 3 summons to deal damage to up to three opponents. One Ward turn is gained for each summon sacrificed."
 name = "水蛇座盟約"
 
 [main.spells.hydrus-pact-ii]
-description = "犧牲最多3個召喚獸來對敵人造成更大的傷害。"
+description = "Sacrifices up to 3 summons to deal greater damage to up to three opponents. One Ward turn is gained for each summon sacrificed."
 name = "水蛇座盟約 II"
 
 [main.spells.ice-affinity]

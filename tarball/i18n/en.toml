@@ -149,6 +149,16 @@ description = "Utilizing elemental spells in battle will charge up to three Mana
 icon = "/img/effects/bloodflasks2.png"
 name = "Bloodflasks II"
 
+[abilities.charon_ritual]
+description = "Each turn, there is a chance to have an equipped summon automatically summoned into battle but at a reduced power. When falling in battle, there is a chance that your summons will be sacrificed to save you."
+icon = "/img/effects/autosummon2.png"
+name = "Charon Ritual"
+
+[abilities.charon_ritual_ii]
+description = "Each turn, there is a chance to have an equipped summon automatically summoned into battle but at a reduced power. When falling in battle, there is a chance that your summons will be sacrificed to save you."
+icon = "/img/effects/autosummon2.png"
+name = "Charon Ritual II"
+
 [abilities.collateral_damage]
 description = "You swing your weapon quite recklessly. Attacks have an additional chance to hit for an extra 15 percent damage to any opponent in battle."
 icon = "/img/effects/collateral.png"
@@ -350,12 +360,12 @@ icon = "/img/effects/hybrid.png"
 name = "Hybrid Monster III"
 
 [abilities.hydrus]
-description = "When falling in battle, there is a chance that your follower will be sacrificed to save you."
+description = "As your summons are defeated in battle, you will absorb their souls and become more powerful."
 icon = "/img/effects/hydrus.png"
 name = "Hydrus"
 
 [abilities.hydrus_1]
-description = "As your summons are defeated in battle, you will absorb their souls and become more powerful."
+description = "When falling in battle, there is a chance that your follower will be sacrificed to save you."
 icon = "/img/effects/hydrus.png"
 name = "Hydrus"
 
@@ -16416,11 +16426,11 @@ description = "Boosts all stats."
 name = "Hubris"
 
 [main.spells.hydrus-pact]
-description = "Sacrifices up to 3 summons to deal damage to the enemy."
+description = "Sacrifices up to 3 summons to deal damage to up to three opponents. One Ward turn is gained for each summon sacrificed."
 name = "Hydrus Pact"
 
 [main.spells.hydrus-pact-ii]
-description = "Sacrifices up to 3 summons to deal greater damage to the enemy."
+description = "Sacrifices up to 3 summons to deal greater damage to up to three opponents. One Ward turn is gained for each summon sacrificed."
 name = "Hydrus Pact II"
 
 [main.spells.ice-affinity]

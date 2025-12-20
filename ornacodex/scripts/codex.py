@@ -438,6 +438,8 @@ def generate_options(codex: dict):
                             options[key].add(m)
             # exotic
             options['exotic'] = set([True, False])
+            # two_handed
+            options['two_handed'] = set([True, False])
 
     return {k: sorted(v) for k, v in options.items()}
 

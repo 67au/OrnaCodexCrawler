@@ -92910,6 +92910,7 @@ summons = ["alfar", "alfar_mage", "amarok", "ancient_jinn", "anubis", "arcane_sl
 tags = ["found_in_arcanists", "found_in_chests", "found_in_shops", "found_in_the_arena", "kingdom_raid", "off-hand_ability", "other_realms_raid", "world_raid"]
 targets = ["a_single_opponent", "all_members_of_your_party", "any_fallen_member_of_your_party", "any_member_of_your_party", "every_opponent_in_a_battle", "summons", "yourself"]
 tier = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+two_handed = [false, true]
 type = ["archistaffs", "axes_&_hammers", "bows", "curved_swords", "daggers", "greatbows", "instruments", "polearms", "staffs", "swords"]
 useable_by = ["all_classes", "magic_users", "melee_classes", "thief_classes", "valhallan_summoner_classes", "warrior_classes"]
 

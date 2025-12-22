@@ -184,6 +184,11 @@ description = "You swing your weapon quite flawlessly. Attacks have an additiona
 icon = "/img/effects/collateral.png"
 name = "Collateral Damage V"
 
+[abilities.collateral_damage_vi]
+description = "You swing your weapon quite flawlessly. Attacks have an additional chance to hit for an extra 50 percent damage to any opponent in battle."
+icon = "/img/effects/collateral.png"
+name = "Collateral Damage VI"
+
 [abilities.coupled_essence]
 description = "Summons never require additional turns."
 icon = "/img/effects/autosummon.png"
@@ -320,7 +325,7 @@ icon = "/img/effects/summoner.png"
 name = "Grand Summoner of Auriga"
 
 [abilities.grand_summoner_of_hydrus]
-description = "Your summons are only slightly stronger but pacts are much more powerful."
+description = "Summoning is less effective and your summons are weaker, but pacts are much more powerful."
 icon = "/img/effects/summoner.png"
 name = "Grand Summoner of Hydrus"
 
@@ -360,7 +365,7 @@ icon = "/img/effects/hybrid.png"
 name = "Hybrid Monster III"
 
 [abilities.hydrus]
-description = "As your summons are defeated in battle, you will absorb their souls and become more powerful."
+description = "As your summons are defeated in battle, you will absorb their souls and become more powerful, granting additional stats as well as temporary buffs."
 icon = "/img/effects/hydrus.png"
 name = "Hydrus"
 
@@ -583,13 +588,18 @@ description = "You are less likely to be afflicted with a status condition."
 icon = "/img/effects/steadfast.png"
 name = "Steadfast II"
 
+[abilities.steadfast_iii]
+description = "You are less likely to be afflicted with a status condition."
+icon = "/img/effects/steadfast.png"
+name = "Steadfast III"
+
 [abilities.summoner_of_auriga]
 description = "Your summons are much stronger but pacts much weaker."
 icon = "/img/effects/summoner.png"
 name = "Summoner of Auriga"
 
 [abilities.summoner_of_hydrus]
-description = "Your summons are only slightly stronger but pacts are much more powerful."
+description = "Summoning is less effective and your summons are weaker, but pacts are much more powerful."
 icon = "/img/effects/summoner.png"
 name = "Summoner of Hydrus"
 
@@ -628,7 +638,7 @@ icon = "/img/effects/omni.png"
 name = "Unstable Omnimancy"
 
 [abilities.ursa]
-description = "You can wield two-handed weapons more effectively and you often automatically counter attacks in battle. But, you innately have less Ward."
+description = "You can wield two-handed weapons more effectively and you may automatically counter attacks in non-PvP battles. While carrying a two-handed weapon, you will have increased Ward and causing Collateral Damage in battle will additionally recover your HP."
 icon = "/img/effects/ursa.png"
 name = "Ursa"
 
@@ -869,6 +879,9 @@ name = "Bormana of Fomoria"
 [main.bosses.camazotz-ebd4bcbf]
 name = "Camazotz"
 
+[main.bosses.caoranach]
+name = "Caoranach"
+
 [main.bosses.carman]
 name = "Carman"
 
@@ -1076,6 +1089,9 @@ name = "False King Meliodas"
 [main.bosses.fenrir-b21e25dd]
 name = "Fenrir"
 
+[main.bosses.fey-kelpie]
+name = "Fey Kelpie"
+
 [main.bosses.finfolk]
 name = "Finfolk"
 
@@ -1243,6 +1259,9 @@ name = "Odok Golem"
 
 [main.bosses.ogmios-of-fomoria]
 name = "Ogmios of Fomoria"
+
+[main.bosses.oillipheist]
+name = "Oillipheist"
 
 [main.bosses.orc-lord-aae6c979]
 name = "Orc Lord"
@@ -1676,27 +1695,27 @@ description = "A Summoner that has reached the stars above. It sacrifices pact p
 name = "Summoner Auriga"
 
 [main.classes.74]
-description = "A Gilgamesh that has reached the stars above."
+description = "A Gilgamesh that has reached the stars above. It is most effective at utilizing Ward-based abilities."
 name = "Gilgamesh Hercules / Gallia Hercules"
 
 [main.classes.75]
-description = "A Gilgamesh that has reached the stars above. It can additionally wield the equipment of the thief."
+description = "A Gilgamesh that has reached the stars above. It trades Ward for HP and is most effective at utilizing Collateral Damage and two-handed weapons. It can additionally wield the equipment of the thief."
 name = "Gilgamesh Ursa / Gallia Ursa"
 
 [main.classes.76]
-description = "A Heretic that has reached the stars above."
+description = "A Heretic that has reached the stars above. It is most effective at utilizing celestial magic."
 name = "Heretic Ara / Hera Ara"
 
 [main.classes.77]
-description = "A Heretic that has reached the stars above. It can additionally wield the equipment of the thief."
+description = "A Heretic that has reached the stars above. It is most effective at utilizing charging Manaflasks and it more evasive in battle. It can additionally wield the equipment of the thief."
 name = "Heretic Corvus / Hera Corvus"
 
 [main.classes.78]
-description = "A Realmshifter that has reached the stars above."
+description = "A Realmshifter that has reached the stars above. It is most effective at capitalizing on critical hits."
 name = "Realmshifter Corvus"
 
 [main.classes.79]
-description = "A Realmshifter that has reached the stars above. It can additionally wield the equipment of the warrior."
+description = "A Realmshifter that has reached the stars above. It trades offense for defense and evasive capabilities. It can additionally wield the equipment of the warrior."
 name = "Realmshifter Dorado"
 
 [main.classes.8]
@@ -1704,27 +1723,27 @@ description = "A warrior trained in the art of defensive techniques. This class 
 name = "Centurion"
 
 [main.classes.80]
-description = "A Beowulf that has reached the stars above."
+description = "A Beowulf that has reached the stars above. It trades the bond built with followers for increased stats and hybrid power."
 name = "Beowulf Hydrus / Bestla Hydrus"
 
 [main.classes.81]
-description = "A Beowulf that has reached the stars above."
+description = "A Beowulf that has reached the stars above. It has the strongest bonds with followers and may allow them two act twice per turn."
 name = "Beowulf Auriga / Bestla Auriga"
 
 [main.classes.82]
-description = "A Grand Summoner that has reached the stars above. It can additionally wield the equipment of the thief."
+description = "A Grand Summoner that has reached the stars above. It is most effective at sacrificing summons for its own power. It can additionally wield the equipment of the thief."
 name = "Grand Summoner Hydrus"
 
 [main.classes.83]
-description = "A Grand Summoner that has reached the stars above. It can additionally wield the equipment of the warrior."
+description = "A Grand Summoner that has reached the stars above. It is most effective at utilizing a full field of summoned allies. It can additionally wield the equipment of the warrior."
 name = "Grand Summoner Auriga"
 
 [main.classes.84]
-description = "A Deity that has reached the stars above."
+description = "A Deity that has reached the stars above. Its magical prowess becomes stronger as Apex abilities are utilized in battle."
 name = "Deity Ara"
 
 [main.classes.85]
-description = "A Deity that has reached the stars above."
+description = "A Deity that has reached the stars above. It gains the upper hand after utilizing Apex abilities in battle."
 name = "Deity Ursa"
 
 [main.classes.86]
@@ -2182,6 +2201,10 @@ name = "Fey Dragon"
 [main.followers.fey-gazer]
 description = "A gazer lost to the curse of Morrigan. Available for a limited time only."
 name = "Fey Gazer"
+
+[main.followers.fey-kelpie]
+description = "Available for a limited time only."
+name = "Fey Kelpie"
 
 [main.followers.fey-yeti]
 description = "A great yeti lost to the curse of Morrigan. Available for a limited time only."
@@ -2992,7 +3015,7 @@ description = "A small weapon carried by a Clurichaun. Although it is not suitab
 name = "Amadan's Staff"
 
 [main.items.ambrosia]
-description = "The brew of a terrible witch. It restores a moderate amount of HP and Mana while curing any negative status effects."
+description = "The brew of a terrible witch. It restores a moderate amount of HP and Mana while curing certain status effects."
 name = "Ambrosia"
 
 [main.items.amergins-razor]
@@ -3471,11 +3494,11 @@ name = "Arisen Cursed Esus's Pillar"
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomoria Plated Boots"
 
-[main.items.arisen-cursed-fomoria-plated-boots-4de3e61d]
+[main.items.arisen-cursed-fomoria-plated-boots-56e4841c]
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomoria Plated Boots"
 
-[main.items.arisen-cursed-fomoria-plated-boots-56e4841c]
+[main.items.arisen-cursed-fomoria-plated-boots-7aefba00]
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomoria Plated Boots"
 
@@ -3487,11 +3510,11 @@ name = "Arisen Cursed Fomoria Plated Boots"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomoria Plated Robe"
 
-[main.items.arisen-cursed-fomoria-plated-robe-954d6525]
+[main.items.arisen-cursed-fomoria-plated-robe-9a5a1cdd]
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomoria Plated Robe"
 
-[main.items.arisen-cursed-fomoria-plated-robe-9a5a1cdd]
+[main.items.arisen-cursed-fomoria-plated-robe-ca4ddba5]
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomoria Plated Robe"
 
@@ -3503,15 +3526,15 @@ name = "Arisen Cursed Fomoria Plated Robe"
 description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomor's Crown"
 
+[main.items.arisen-cursed-fomors-crown-276564a1]
+description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
+name = "Arisen Cursed Fomor's Crown"
+
 [main.items.arisen-cursed-fomors-crown-2cb9b4e6]
 description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomor's Crown"
 
 [main.items.arisen-cursed-fomors-crown-3a4a918b]
-description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-name = "Arisen Cursed Fomor's Crown"
-
-[main.items.arisen-cursed-fomors-crown-612a024c]
 description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Arisen Cursed Fomor's Crown"
 
@@ -3690,6 +3713,18 @@ name = "Arisen Fey Crowsong"
 [main.items.arisen-fey-macha-pillar]
 description = "Cursed staff of Macha, sister to Morrigan. It can grant one additional magic power while having the adverse effect on an opponent."
 name = "Arisen Fey Macha Pillar"
+
+[main.items.arisen-fey-myrmidon-headdress]
+description = "Cursed headwear of a follower of Morrigan, the great witch."
+name = "Arisen Fey Myrmidon Headdress"
+
+[main.items.arisen-fey-myrmidon-legwraps]
+description = "Cursed legwear of a follower of Morrigan, the great witch."
+name = "Arisen Fey Myrmidon Legwraps"
+
+[main.items.arisen-fey-myrmidon-tunic]
+description = "Cursed robe of a follower of Morrigan, the great witch."
+name = "Arisen Fey Myrmidon Tunic"
 
 [main.items.arisen-fey-neman-havoc]
 description = "Cursed greatsword of Neman, sister to Morrigan. It can grant one additional attack power while having the adverse effect on an opponent."
@@ -3898,6 +3933,30 @@ name = "Arisen Monster Tome"
 [main.items.arisen-morrigans-scroll]
 description = "A scroll containing knowledge of the most vile of arts. It improves one's magic and mana at the sacrifice of Ward, while adding a chance to greatly diminish an opponent's resistance to spells."
 name = "Arisen Morrigan's Scroll"
+
+[main.items.arisen-myrmidon-headdress]
+description = "Cursed headwear of a follower of Morrigan, the great witch."
+name = "Arisen Myrmidon Headdress"
+
+[main.items.arisen-myrmidon-headdress-diabolus]
+description = "Cursed headwear of a follower of Morrigan, the great witch."
+name = "Arisen Myrmidon Headdress Diabolus"
+
+[main.items.arisen-myrmidon-legwraps]
+description = "Cursed legwear of a follower of Morrigan, the great witch."
+name = "Arisen Myrmidon Legwraps"
+
+[main.items.arisen-myrmidon-legwraps-diabolus]
+description = "Cursed legwear of a follower of Morrigan, the great witch."
+name = "Arisen Myrmidon Legwraps Diabolus"
+
+[main.items.arisen-myrmidon-tunic]
+description = "Cursed robe of a follower of Morrigan, the great witch."
+name = "Arisen Myrmidon Tunic"
+
+[main.items.arisen-myrmidon-tunic-diabolus]
+description = "Cursed robe of a follower of Morrigan, the great witch."
+name = "Arisen Myrmidon Tunic Diabolus"
 
 [main.items.arisen-nagamaki]
 description = "A long curved blade, needing to be held with both hands. Surely, one could never bleed while holding this weapon."
@@ -5455,6 +5514,10 @@ name = "Cane"
 description = "A stone imbued with the most helpful of magic. Use it to set a compass marker to story quest monster locations."
 name = "Canon Waystone"
 
+[main.items.caoranachs-lair-key]
+description = "A key that can allow one to run any Dungeon as a \"Caoranach's Lair\" during The Cursed Queens event."
+name = "Caoranach's Lair Key"
+
 [main.items.carls-dagger]
 description = "A simple yet sentimental dagger of the aloof one, Carl."
 name = "Carl's Dagger"
@@ -5975,11 +6038,11 @@ name = "Cursed Esus's Pillar"
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Cursed Fomoria Plated Boots"
 
-[main.items.cursed-fomoria-plated-boots-0ebf6063]
+[main.items.cursed-fomoria-plated-boots-7a9f5efc]
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Cursed Fomoria Plated Boots"
 
-[main.items.cursed-fomoria-plated-boots-7a9f5efc]
+[main.items.cursed-fomoria-plated-boots-c6787dd8]
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Cursed Fomoria Plated Boots"
 
@@ -7136,11 +7199,11 @@ description = "A torch, carried in one's off-hand. It increases your sight, prev
 name = "Everlasting Torch"
 
 [main.items.excalibur]
-description = "The mythic weapon of Arthus, the king of Avalon. It protects its wielder from bleeding."
+description = "???"
 name = "Excalibur"
 
-[main.items.excalibur-eec7bf3e]
-description = "???"
+[main.items.excalibur-32be53bc]
+description = "The mythic weapon of Arthus, the king of Avalon. It protects its wielder from bleeding."
 name = "Excalibur"
 
 [main.items.exp-potion]
@@ -7579,6 +7642,18 @@ name = "Fey Menja's Shield"
 description = "The extremely bright, decorative warstaff of Menja. It offers supplementary attack power, for mages who wish to brandish a blade."
 name = "Fey Menja's Warstaff"
 
+[main.items.fey-myrmidon-headdress]
+description = "Cursed headwear of a follower of Morrigan, the great witch."
+name = "Fey Myrmidon Headdress"
+
+[main.items.fey-myrmidon-legwraps]
+description = "Cursed legwear of a follower of Morrigan, the great witch."
+name = "Fey Myrmidon Legwraps"
+
+[main.items.fey-myrmidon-tunic]
+description = "Cursed robe of a follower of Morrigan, the great witch."
+name = "Fey Myrmidon Tunic"
+
 [main.items.fey-neman-cuirass]
 description = "Cursed heavy armor of a follower of Neman, the great witch."
 name = "Fey Neman Cuirass"
@@ -7630,6 +7705,10 @@ name = "Fey Scroll"
 [main.items.fey-scroll-of-ragnarok]
 description = "A scroll containing the incantations of Ragnarok. Reading them will summon Fey Jormungandr."
 name = "Fey Scroll of Ragnarok"
+
+[main.items.fey-serpent-pearl]
+description = "Charm of a fallen King, Ulster. Ulster was King of the Seas but was poisoned by his own herbalist, Mori.\n\nWhile holding this item, some your Defense and Resistance stats will be swapped. The better the quality of this item, the bigger amount of your Defense and Resistance stats will be exchanged."
+name = "Fey Serpent Pearl"
 
 [main.items.fey-spiritgarm-grimoire]
 description = "Book carried by Fenja, the Nothren summoner. It can call a famed Nothren wolf into battle."
@@ -7855,7 +7934,7 @@ name = "Fomoria Plated Robe"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Fomoria Plated Robe"
 
-[main.items.fomoria-plated-robe-946a26b9]
+[main.items.fomoria-plated-robe-fb3188b6]
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Fomoria Plated Robe"
 
@@ -9231,7 +9310,7 @@ name = "Kerberos Archistaff"
 description = "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
 name = "Kerberos Claws"
 
-[main.items.kerberos-claws-e7f61ea1]
+[main.items.kerberos-claws-81b67c8d]
 description = "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
 name = "Kerberos Claws"
 
@@ -10087,6 +10166,18 @@ name = "Myrddin Harp"
 description = "A fine hammer used by the skilled smiths of Myrkheim. Using this item before upgrading equipment at the blacksmith will greatly reduce the time needed to complete the upgrades. This item lasts 1 hour."
 name = "Myrkheim Hammer"
 
+[main.items.myrmidon-headdress]
+description = "Cursed headwear of a follower of Morrigan, the great witch."
+name = "Myrmidon Headdress"
+
+[main.items.myrmidon-legwraps]
+description = "Cursed legwear of a follower of Morrigan, the great witch."
+name = "Myrmidon Legwraps"
+
+[main.items.myrmidon-tunic]
+description = "Cursed robe of a follower of Morrigan, the great witch."
+name = "Myrmidon Tunic"
+
 [main.items.mystic-katar]
 description = "A strange side-arm carried by Apollyon. Before being stolen and damaged by Morrigan, Apollyon imbued great elemental resistance in this piece."
 name = "Mystic Katar"
@@ -10354,6 +10445,10 @@ name = "Ogmios' Satin Robe"
 [main.items.ogre-axe]
 description = "A crude axe of an ogre."
 name = "Ogre Axe"
+
+[main.items.oillipheist-tower-key]
+description = "Key to a Tower of Oillipheist, usable during The Cursed Queens world event."
+name = "Oillipheist Tower Key"
 
 [main.items.oisin-crown]
 description = "This unique headwear does not offer much protection, but is well suited for adornment."
@@ -10690,6 +10785,10 @@ name = "Phoenixsong"
 [main.items.piece-of-string]
 description = "A piece of string, possibly for use in fishing. Use when near a body of water or fountain to begin fishing."
 name = "Piece of String"
+
+[main.items.piob-mhor]
+description = "Winded instrument of Ruairc, the famous (?) Bard-Knight."
+name = "Piob Mhor"
 
 [main.items.pistachio]
 description = "Giants often carried large rations of tree fruits to sate their appetite. Eistla's rations increase the chance that one will heal from a negative status effect."
@@ -11219,6 +11318,66 @@ name = "Royal Shield"
 description = "A sword and shield pairing fit for royal guards."
 name = "Royalty"
 
+[main.items.ruairc-archistaff]
+description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. This staff will fill one Manaflask for each enemy defeated."
+name = "Ruairc Archistaff"
+
+[main.items.ruairc-axe]
+description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon."
+name = "Ruairc Axe"
+
+[main.items.ruairc-boots]
+description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nWhen wearing this item, your stats will increase in battle for each damage-per-turn causing status effect that you are inflicted with."
+name = "Ruairc Boots"
+
+[main.items.ruairc-cowl]
+description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nWhen wearing this item, your stats will increase in battle for each damage-per-turn causing status effect that you are inflicted with."
+name = "Ruairc Cowl"
+
+[main.items.ruairc-cuirass]
+description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nThis armor will occasionally cause your skills to consume extra mana to deal extra damage."
+name = "Ruairc Cuirass"
+
+[main.items.ruairc-garb]
+description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nWhen wearing this item, your stats will increase in battle for each damage-per-turn causing status effect that you are inflicted with."
+name = "Ruairc Garb"
+
+[main.items.ruairc-greaves]
+description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nThis armor will occasionally cause your skills to consume extra mana to deal extra damage."
+name = "Ruairc Greaves"
+
+[main.items.ruairc-headdress]
+description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nA Valhallan that wears this item may allow their follower to occasionally cast a spell or skill from their equipped options.\n\nA Summoner that wears this item may occasionally summon two entities rather than one."
+name = "Ruairc Headdress"
+
+[main.items.ruairc-helm]
+description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nThis armor will occasionally cause your skills to consume extra mana to deal extra damage."
+name = "Ruairc Helm"
+
+[main.items.ruairc-hood]
+description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nThis garb will cause one to allows act first in battle."
+name = "Ruairc Hood"
+
+[main.items.ruairc-legwaps]
+description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nA Valhallan that wears this item may allow their follower to occasionally cast a spell or skill from their equipped options.\n\nA Summoner that wears this item may occasionally summon two entities rather than one."
+name = "Ruairc Legwaps"
+
+[main.items.ruairc-robe]
+description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nThis garb will cause one to allows act first in battle."
+name = "Ruairc Robe"
+
+[main.items.ruairc-scythe]
+description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. This scythe will cause one to dodge additional attacks."
+name = "Ruairc Scythe"
+
+[main.items.ruairc-skirt]
+description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nThis garb will cause one to allows act first in battle."
+name = "Ruairc Skirt"
+
+[main.items.ruairc-tunic]
+description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nA Valhallan that wears this item may allow their follower to occasionally cast a spell or skill from their equipped options.\n\nA Summoner that wears this item may occasionally summon two entities rather than one."
+name = "Ruairc Tunic"
+
 [main.items.ruby]
 description = "A jewel with a crimson glow. Adorning this upon a weapon will slightly heal your wounds when damaging an opponent."
 name = "Ruby"
@@ -11301,6 +11460,10 @@ name = "Sala's Hood"
 [main.items.salas-robe]
 description = "Crimson robe of Sala, the High Elf."
 name = "Sala's Robe"
+
+[main.items.salmon-of-knowledge]
+description = "A salmon containing most, if not all, of the world's knowledge. The scent may draw extra monsters to you during Horde Mode dungeons, which may also have contributed to Oillipheist's stench."
+name = "Salmon of Knowledge"
 
 [main.items.sand-mortar]
 description = "Each Titan preferred working with a type of mortar. When applied to a weapon, Atlas's preferred mortar increases collateral damage."
@@ -11445,6 +11608,10 @@ name = "Sequana's Chestpiece"
 [main.items.serpent-arrows]
 description = "A package of arrows carried by Medusa. They offer a greater chance to poison an opponent."
 name = "Serpent Arrows"
+
+[main.items.serpent-pearl]
+description = "Charm of a fallen King, Ulster. Ulster was King of the Seas but was poisoned by his own herbalist, Mori.\n\nWhile holding this item, some your Defense and Resistance stats will be swapped. The better the quality of this item, the bigger amount of your Defense and Resistance stats will be exchanged."
+name = "Serpent Pearl"
 
 [main.items.serpentslayers-chestplate]
 description = "Chestplate of Perseus. It increases your ability to resist negative status effects."
@@ -12389,6 +12556,26 @@ name = "Twilightstone"
 [main.items.uchigatana]
 description = "Katana of a Lyonesse assassin."
 name = "Uchigatana"
+
+[main.items.ulsters-axe]
+description = "Axe of a fallen King, Ulster. Ulster was King of the Seas but was poisoned by his own herbalist, Mori."
+name = "Ulster's Axe"
+
+[main.items.ulsters-crown]
+description = "Crown of a fallen King, Ulster. Ulster was King of the Seas but was poisoned by his own herbalist, Mori.\n\nThe crown greatly reduces the time one will be afflicted with a negative status effect. It was a shame he was not wearing it when sampling that fated wine."
+name = "Ulster's Crown"
+
+[main.items.ulsters-epee]
+description = "Straight sword of a fallen King, Ulster. Ulster was King of the Seas but was poisoned by his own herbalist, Mori."
+name = "Ulster's Epee"
+
+[main.items.ulsters-sceptre]
+description = "Sceptre of a fallen King, Ulster. Ulster was King of the Seas but was poisoned by his own herbalist, Mori.\n\nThis staff will fill one Manaflask for each enemy defeated."
+name = "Ulster's Sceptre"
+
+[main.items.ulsters-wine]
+description = "Ulster's last sip of wine. Throwing it at an enemy could inflict them with Morrigan's Curse."
+name = "Ulster's Wine"
 
 [main.items.undead-bone]
 description = "Bones of the undead can rarely be so strong."
@@ -13549,6 +13736,15 @@ name = "Fergus"
 [main.monsters.fey-cactus]
 name = "Fey Cactus"
 
+[main.monsters.fey-finfolk]
+name = "Fey Finfolk"
+
+[main.monsters.fey-merrow]
+name = "Fey Merrow"
+
+[main.monsters.fey-selkie]
+name = "Fey Selkie"
+
 [main.monsters.final-stable-keeper]
 name = "Final Stable Keeper"
 
@@ -13912,6 +14108,9 @@ name = "Magma Golem"
 [main.monsters.mammon-acolyte]
 name = "Mammon Acolyte"
 
+[main.monsters.merrow]
+name = "Merrow"
+
 [main.monsters.midnight-gazer]
 name = "Midnight Gazer"
 
@@ -14157,6 +14356,9 @@ name = "Second Stable Keeper"
 
 [main.monsters.seer]
 name = "Seer"
+
+[main.monsters.selkie]
+name = "Selkie"
 
 [main.monsters.shade-of-achlys-the-red-dagger]
 name = "Shade of Achlys, the Red Dagger (Arisen)"
@@ -16074,7 +16276,7 @@ description = "Freezes an opponent."
 name = "Freeze"
 
 [main.spells.frenzy]
-description = "After 2 turns in battle and when Ward is nearly full, consume Ward every turn to boost your Attack, Collateral Damage rate, and effectiveness of skills that consume Ward. Frenzy will last 5 turns or until Ward is depleted."
+description = "After 2 turns in battle and when Ward is nearly full, consume Ward every turn to boost your Attack, Dexterity, Collateral Damage rate, and effectiveness of skills that consume Ward. Frenzy will last 5 turns or until Ward is depleted."
 name = "Frenzy"
 
 [main.spells.fright]
@@ -16566,11 +16768,11 @@ description = "Temporarily greatly increases critical hit rate."
 name = "Inquest"
 
 [main.spells.iron-greaves]
-description = "Take a stance that reinforces your leg armor, increasing collateral damage dealt. As a result, collateral damage will be dealt to your own Ward."
+description = "Take a stance that reinforces your leg armor. Attack power is decreased in this stance but the power and chance of dealing collateral damage is increased."
 name = "Iron Greaves"
 
 [main.spells.iron-pauldrons]
-description = "Take a stance that reinforces your pauldrons, increasing the chance of collateral damage. As a result, collateral damage will be dealt to your own Ward."
+description = "Take a stance that reinforces your pauldrons. Defenses are decreased in this stance but the power and chance of dealing collateral damage is increased."
 name = "Iron Pauldrons"
 
 [main.spells.jinns-talent]
@@ -16940,6 +17142,10 @@ name = "Mindblast"
 description = "Recover 250 health points and temporarily boost defenses."
 name = "Miracle"
 
+[main.spells.morrigans-curse]
+description = "Curse an opponent, causing them to become a frog and disabling their Ward after 3 turns."
+name = "Morrigans Curse"
+
 [main.spells.multi-flame]
 description = "Deals moderate fire damage thrice."
 name = "Multi-flame"
@@ -17001,11 +17207,11 @@ description = "Decreases the opponents magic power."
 name = "Mute"
 
 [main.spells.mythril-greaves]
-description = "Take a stance that reinforces your leg armor, increasing collateral damage dealt. As a result, collateral damage will be dealt to your own Ward."
+description = "Take a stance that reinforces your leg armor. Attack power is decreased in this stance but the power and chance of dealing collateral damage is increased."
 name = "Mythril Greaves"
 
 [main.spells.mythril-pauldrons]
-description = "Take a stance that reinforces your pauldrons, increasing the chance of collateral damage. As a result, collateral damage will be dealt to your own Ward."
+description = "Take a stance that reinforces your pauldrons. Defenses are decreased in this stance but the power and chance of dealing collateral damage is increased."
 name = "Mythril Pauldrons"
 
 [main.spells.natura]
@@ -17494,6 +17700,10 @@ name = "Riposte III"
 description = "Deals damage many times."
 name = "Rock Toss"
 
+[main.spells.ruaircs-requiem]
+description = "Lull and deal physical damage to all enemies."
+name = "Ruairc's Requiem (Off-hand)"
+
 [main.spells.rune-of-eos]
 description = "Marks opponent with the Rune of Eos. This Rune may cause an opponent to miss their attack."
 name = "Rune of Eos"
@@ -17779,11 +17989,11 @@ description = "Deals damage proportional to the magic potential of an opponent."
 name = "Spellbreaker"
 
 [main.spells.spiked-greaves]
-description = "Take a stance that reinforces your leg armor, increasing collateral damage dealt. As a result, collateral damage will be dealt to your own Ward."
+description = "Take a stance that reinforces your leg armor. Attack power is decreased in this stance but the power and chance of dealing collateral damage is increased."
 name = "Spiked Greaves"
 
 [main.spells.spiked-pauldrons]
-description = "Take a stance that reinforces your pauldrons, increasing the chance of collateral damage. As a result, collateral damage will be dealt to your own Ward."
+description = "Take a stance that reinforces your pauldrons. Defenses are decreased in this stance but the power and chance of dealing collateral damage is increased."
 name = "Spiked Pauldrons"
 
 [main.spells.spiked-shield]
@@ -17843,7 +18053,7 @@ description = "Strong wind magic that may cause windswept. It may hit additional
 name = "Storming Tempest (Off-hand)"
 
 [main.spells.strikes-of-ursa]
-description = "Defend for 1 turns before releasing an attack that stuns an opponent and never misses."
+description = "Defend for 1 turns before releasing an attack that stuns an opponent and never misses. Additionally, this skill will deal 30% additional collateral damage."
 name = "Strikes of Ursa"
 
 [main.spells.stun-dart]
@@ -17957,6 +18167,10 @@ name = "Summon Fafnir"
 [main.spells.summon-failed-phoenix]
 description = "Summon a beast to assist you. Requires 3 turns in battle."
 name = "Summon Failed Phoenix"
+
+[main.spells.summon-fey-kelpie]
+description = "Summon a beast to assist you. Requires 3 turns in battle."
+name = "Summon Fey Kelpie"
 
 [main.spells.summon-garm]
 description = "Summon a beast to assist you."
@@ -18667,15 +18881,15 @@ description = "Summons a wyvern to swiftly attack thrice. May cause blight."
 name = "Wyvern's Wrath II"
 
 [main.spells.x-slash]
-description = "Swiftly attack twice, cutting an opponent's attack power and causing bleed."
+description = "Swiftly attack twice, cutting an opponent's attack power and causing bleed. Additionally, this skill will deal 25% additional collateral damage."
 name = "X Slash"
 
 [main.spells.x-slash-ii]
-description = "Swiftly attack twice, cutting an opponent's attack power and causing bleed."
+description = "Swiftly attack twice, cutting an opponent's attack power and causing bleed. Additionally, this skill will deal 25% additional collateral damage."
 name = "X Slash II"
 
 [main.spells.x-slash-iii]
-description = "Swiftly attack twice, cutting an opponent's attack power and causing bleed."
+description = "Swiftly attack twice, cutting an opponent's attack power and causing bleed. Additionally, this skill will deal 40% additional collateral damage."
 name = "X Slash III"
 
 [msg.bestial_bond]
@@ -18687,7 +18901,6 @@ bonded_defense = "Bonded Defense"
 bonded_dexterity = "Bonded Dexterity"
 bonded_hp = "Bonded HP"
 bonded_magic = "Bonded Magic"
-bonded_mana = "Bonded Mana"
 bonded_resistance = "Bonded Resistance"
 bonded_ward = "Bonded Ward"
 crit_chance = "Crit Chance"
@@ -18763,14 +18976,13 @@ paths_of_fomoria__house_of_sumner = "Paths of Fomoria: House of Sumner"
 paths_of_fomoria__house_of_wintara = "Paths of Fomoria: House of Wintara"
 phoenixrise = "Phoenixrise"
 riftfall = "Riftfall"
-sisters_of_morrigan = "Sisters of Morrigan"
 "stop_scruug!" = "Stop Scruug!"
-summer_solstice = "Summer Solstice"
 sumner_games = "Sumner Games"
 terra_s_day = "Terra's Day"
 terra_s_legacy = "Terra's Legacy"
 terra_s_legacy__natureblight = "Terra's Legacy: Natureblight"
 the_crimson_festival = "The Crimson Festival"
+the_cursed_queens = "The Cursed Queens"
 the_hallowed = "The Hallowed"
 the_mimics_are_loose = "The Mimics Are Loose"
 the_mischievous_clurichauns = "The Mischievous Clurichauns"
@@ -18909,6 +19121,7 @@ spell = "Spell"
 "+skill" = "+Skill"
 "+spell" = "+Spell"
 accuracy = "Accuracy"
+act_first_chance = "Act First Chance"
 adornment_slots = "Adornment Slots"
 ally_effect_chance = "Ally Effect Chance"
 apex = "Apex"
@@ -18934,6 +19147,7 @@ crit_chance = "Crit chance"
 crit_damage = "Crit Damage"
 critical_chain = "Critical Chain"
 damage_limit_break = "Damage Limit Break"
+"damage_per_turn_→_stats" = "Damage per Turn → Stats"
 damage_protect = "Damage Protect"
 damage_to_ward = "Damage to Ward"
 dark_damage = "Dark Damage"
@@ -18946,10 +19160,13 @@ defend_power = "Defend Power"
 defense = "Defense"
 dexterity = "Dexterity"
 disperse_status_effect_chance = "Disperse Status Effect Chance"
+dodge_chance = "Dodge Chance"
+double_summon_chance = "Double Summon Chance"
 dragon_damage = "Dragon Damage"
 drop_quality = "Drop Quality"
 dullahan_s_pursuit = "Dullahan's Pursuit"
 dungeon_cooldown = "Dungeon Cooldown"
+dungeon_horde_bonus = "Dungeon Horde Bonus"
 dungeon_rewards = "Dungeon Rewards"
 earthen_damage = "Earthen Damage"
 effect_damage = "Effect Damage"
@@ -18959,6 +19176,7 @@ exp_bonus = "EXP Bonus"
 extra_materials_dropped = "Extra Materials Dropped"
 faction_damage = "Faction Damage"
 fire_damage = "Fire Damage"
+flask_charge_on_defeat = "Flask Charge on Defeat"
 follower_act = "Follower Act"
 follower_stats = "Follower Stats"
 follower_summon_ai = "Follower/Summon AI"
@@ -18975,7 +19193,7 @@ hp = "HP"
 hp-ward_recovery = "HP-Ward Recovery"
 hp_regen = "HP Regen"
 hybrid_damage = "Hybrid Damage"
-instant_summon = "Instant Summon"
+instant_summon_chance = "Instant Summon Chance"
 life_siphon = "Life Siphon"
 lightning_damage = "Lightning Damage"
 line_catches = "Line Catches"
@@ -18983,6 +19201,7 @@ luck_bonus = "Luck Bonus"
 magic = "Magic"
 mana = "Mana"
 mana-ward_recovery = "Mana-Ward Recovery"
+mana_overspend_chance = "Mana Overspend Chance"
 mana_reduction = "Mana Reduction"
 mana_regen = "Mana Regen"
 manaflask_charge = "Manaflask Charge"
@@ -18993,6 +19212,7 @@ monster_power = "Monster Power"
 multi-target_damage = "Multi-target Damage"
 no_follower_bonus = "No Follower Bonus"
 orn_bonus = "Orn Bonus"
+"player_→_follower_ability_chance" = "Player → Follower Ability Chance"
 power = "Power"
 protect_chance = "Protect chance"
 quest_rewards = "Quest Rewards"
@@ -19011,6 +19231,7 @@ summon_pacts = "Summon Pacts"
 summon_protection = "Summon Protection"
 summon_stats = "Summon Stats"
 summon_turns = "Summon Turns"
+swap_defense_resistance = "Swap Defense/Resistance"
 tower_shards = "Tower Shards"
 turn_reduction = "Turn Reduction"
 two-handed_power = "Two-handed Power"
@@ -19160,6 +19381,7 @@ elementless = "Elementless"
 eos = "Eos"
 fafnir = "Fafnir"
 failed_phoenix = "Failed Phoenix"
+fey_kelpie = "Fey Kelpie"
 fire_aligned = "Fire Aligned"
 fire_att = "Fire Att"
 fire_def = "Fire Def"
@@ -19170,6 +19392,7 @@ foresight_d = "Foresight ↓"
 foresight_u = "Foresight ↑"
 foresight_uu = "Foresight ↑↑"
 frenzy = "Frenzy"
+frog = "Frog"
 frost_troll = "Frost Troll"
 frozen = "Frozen"
 garm = "Garm"
@@ -19223,6 +19446,7 @@ mag_uu = "Mag ↑↑"
 manaseep = "Manaseep"
 mighty_griffin = "Mighty Griffin"
 mighty_slime = "Mighty Slime"
+morrigan_s_curse = "Morrigan's Curse"
 mountain_gorilla = "Mountain Gorilla"
 mythril_greaves = "Mythril Greaves"
 mythril_pauldrons = "Mythril Pauldrons"

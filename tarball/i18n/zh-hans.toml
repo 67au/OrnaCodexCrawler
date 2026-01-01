@@ -3376,7 +3376,7 @@ name = "重生报丧女妖面罩"
 
 [main.items.arisen-banshee-veil-diabolus]
 description = "伟大女巫摩莉甘手下的追随者所穿戴的诅咒头帽。"
-name = "恶神重生宝石女妖面罩"
+name = "恶神重生报丧女妖面罩"
 
 [main.items.arisen-batwing-bow]
 description = "用大蝙蝠的遗骸打造的弓。能破坏对手的防御。"
@@ -7091,7 +7091,7 @@ description = "当点燃净土蜡烛后，你会在击败地图上的怪物时�
 name = "净土蜡烛"
 
 [main.items.elysian-coin]
-description = "年代久远的天蓝色硬币，乃是极乐净土的货币。使用它 能在48小时内提升完成记忆追寻的奖励。"
+description = "年代久远的天蓝色硬币，乃是极乐净土的货币。使用后能在 48 小时内提升完成记忆追寻的奖励。"
 name = "净土硬币"
 
 [main.items.ember-plumed-boots]

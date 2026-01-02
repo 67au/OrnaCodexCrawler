@@ -8,7 +8,7 @@ class Converter:
     @cache
     def convert_key(cls, key: str) -> str:
         return key.lower().replace(' ', '_').replace('.', '_').replace(':', '_') \
-            .replace('↓', 'd').replace('↑', 'u').replace('/', '_').replace('\'', '_')
+            .replace('↓', 'd').replace('↑', 'u').replace('→', 'r').replace('/', '_').replace('\'', '_')
 
 class UniqueKeyGenerator:
 

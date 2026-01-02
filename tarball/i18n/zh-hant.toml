@@ -150,12 +150,12 @@ icon = "/img/effects/bloodflasks2.png"
 name = "血禁瓶 II"
 
 [abilities.charon_ritual]
-description = "Each turn, there is a chance to have an equipped summon automatically summoned into battle but at a reduced power. When falling in battle, there is a chance that your summons will be sacrificed to save you."
+description = "每回合都有機會讓裝備的召喚獸自動進入戰鬥，但其能力會降低。在戰鬥中被擊敗時，你的召喚獸有機率犧牲自己來救你。"
 icon = "/img/effects/autosummon2.png"
 name = "凱倫秘儀"
 
 [abilities.charon_ritual_ii]
-description = "Each turn, there is a chance to have an equipped summon automatically summoned into battle but at a reduced power. When falling in battle, there is a chance that your summons will be sacrificed to save you."
+description = "每回合都有機會讓裝備的召喚獸自動進入戰鬥，但其能力會降低。在戰鬥中被擊敗時，你的召喚獸有機率犧牲自己來救你。"
 icon = "/img/effects/autosummon2.png"
 name = "凱倫秘儀 II"
 
@@ -185,9 +185,9 @@ icon = "/img/effects/collateral.png"
 name = "間接傷害 V"
 
 [abilities.collateral_damage_vi]
-description = "You swing your weapon quite flawlessly. Attacks have an additional chance to hit for an extra 50 percent damage to any opponent in battle."
+description = "你完美無瑕地揮動武器。攻擊將有額外機率對戰鬥中的某一對手造成50%的傷害。"
 icon = "/img/effects/collateral.png"
-name = "Collateral Damage VI"
+name = "間接傷害 VI"
 
 [abilities.coupled_essence]
 description = "使用召喚術不需要額外的回合。"
@@ -325,7 +325,7 @@ icon = "/img/effects/summoner.png"
 name = "御夫座的冠位召喚師"
 
 [abilities.grand_summoner_of_hydrus]
-description = "Summoning is less effective and your summons are weaker, but pacts are much more powerful."
+description = "雖然召喚效率較低而且你的召喚物也比較弱，但契約的力量變得更加強大。"
 icon = "/img/effects/summoner.png"
 name = "水蛇座的冠位召喚師"
 
@@ -365,7 +365,7 @@ icon = "/img/effects/hybrid.png"
 name = "混血魔物 III"
 
 [abilities.hydrus]
-description = "As your summons are defeated in battle, you will absorb their souls and become more powerful, granting additional stats as well as temporary buffs."
+description = "若你的小夥伴在戰鬥中被殺死，你將會吸收牠們的靈魂並且變得更加強大，這會賦予你額外的能力值以及暫時性的增益效果。"
 icon = "/img/effects/hydrus.png"
 name = "水蛇座"
 
@@ -400,9 +400,9 @@ icon = "/img/effects/life_siphon.png"
 name = "生命虹吸 II"
 
 [abilities.mana_feather]
-description = "Your chance to dodge attacks increases as mana is spent."
+description = "隨著魔力的消耗，你閃躲攻擊的機率會逐漸提高。"
 icon = "/img/effects/magic_feather.png"
-name = "Mana Feather"
+name = "魔力羽毛"
 
 [abilities.mana_regen]
 description = "你的魔力恢復得更快。"
@@ -591,7 +591,7 @@ name = "堅定不移 II"
 [abilities.steadfast_iii]
 description = "你較不容易受到異常狀態的影響。"
 icon = "/img/effects/steadfast.png"
-name = "Steadfast III"
+name = "堅定不移 III"
 
 [abilities.summoner_of_auriga]
 description = "你的小夥伴們變得更加強大，但是契約之力也相對變得更加虛弱。"
@@ -599,7 +599,7 @@ icon = "/img/effects/summoner.png"
 name = "御夫座的召喚師"
 
 [abilities.summoner_of_hydrus]
-description = "Summoning is less effective and your summons are weaker, but pacts are much more powerful."
+description = "雖然召喚效率較低而且你的召喚物也比較弱，但契約的力量變得更加強大。"
 icon = "/img/effects/summoner.png"
 name = "水蛇座的召喚師"
 
@@ -638,7 +638,7 @@ icon = "/img/effects/omni.png"
 name = "不穩定的元素融合"
 
 [abilities.ursa]
-description = "You can wield two-handed weapons more effectively and you may automatically counter attacks in non-PvP battles. While carrying a two-handed weapon, you will have increased Ward and causing Collateral Damage in battle will additionally recover your HP."
+description = "你能更有效的使用雙手武器，同時在非PvP 的戰鬥自動反擊。使用雙手武器時能提升護盾，造成間接傷害時能額外的恢復HP。"
 icon = "/img/effects/ursa.png"
 name = "大熊座"
 
@@ -880,7 +880,7 @@ name = "弗摩爾族之波爾瑪納"
 name = "卡馬佐茲"
 
 [main.bosses.caoranach]
-name = "Caoranach"
+name = "卡蘭納赫"
 
 [main.bosses.carman]
 name = "卡門"
@@ -1090,7 +1090,7 @@ name = "偽王梅里歐達斯"
 name = "芬里爾"
 
 [main.bosses.fey-kelpie]
-name = "Fey Kelpie"
+name = "變異凱爾皮"
 
 [main.bosses.finfolk]
 name = "芬菲克"
@@ -1261,7 +1261,7 @@ name = "亡骸魔像"
 name = "弗摩爾族之奧米奧斯"
 
 [main.bosses.oillipheist]
-name = "Oillipheist"
+name = "奧利菲斯特"
 
 [main.bosses.orc-lord-aae6c979]
 name = "半獸人君王"
@@ -1695,27 +1695,27 @@ description = "觸及星天之力的召喚師。犧牲契約之力來增強小�
 name = "御夫座召喚師"
 
 [main.classes.74]
-description = "A Gilgamesh that has reached the stars above. It is most effective at utilizing Ward-based abilities."
+description = "觸及星天之力的吉爾伽美什。最擅長施展以護盾為核心的能力。"
 name = "武仙座吉爾伽美什 / 武仙座加利亞"
 
 [main.classes.75]
-description = "A Gilgamesh that has reached the stars above. It trades Ward for HP and is most effective at utilizing Collateral Damage and two-handed weapons. It can additionally wield the equipment of the thief."
+description = "觸及星天之力的吉爾伽美什。它以護盾交換生命值，最能發揮間接傷害與雙手武器的威力，並可額外使用俠盜的裝備。"
 name = "大熊座吉爾伽美什 / 大熊座加利亞"
 
 [main.classes.76]
-description = "A Heretic that has reached the stars above. It is most effective at utilizing celestial magic."
+description = "觸及星天之力的赫勒提克。擅長使用天外魔法。"
 name = "天壇座赫勒提克 / 天壇座赫拉"
 
 [main.classes.77]
-description = "A Heretic that has reached the stars above. It is most effective at utilizing charging Manaflasks and it more evasive in battle. It can additionally wield the equipment of the thief."
+description = "觸及星天之力的赫勒提克。擅長使用魔禁瓶與戰鬥中閃避的技巧。可額外使用俠盜的裝備。"
 name = "烏鴉座赫勒提克 / 烏鴉座赫拉"
 
 [main.classes.78]
-description = "A Realmshifter that has reached the stars above. It is most effective at capitalizing on critical hits."
+description = "觸及星天之力的域界易形者。擅長使用暴擊。"
 name = "烏鴉座域界易形者"
 
 [main.classes.79]
-description = "A Realmshifter that has reached the stars above. It trades offense for defense and evasive capabilities. It can additionally wield the equipment of the warrior."
+description = "觸及星天之力的域界易形者。以犧牲攻擊力為代價，換取更強的防禦與迴避能力。可額外使用戰士的裝備。"
 name = "劍魚座域界易形者"
 
 [main.classes.8]
@@ -1723,27 +1723,27 @@ description = "精於防守技術的戰士，將學到更多堅韌的技巧面�
 name = "百夫長"
 
 [main.classes.80]
-description = "A Beowulf that has reached the stars above. It trades the bond built with followers for increased stats and hybrid power."
+description = "觸及星天之力的貝奧武夫。他犧牲了與追隨者建立的羈絆，換取能力值的全面提升以及混攻力量。"
 name = "水蛇座貝奧武夫 / 水蛇座貝斯特拉"
 
 [main.classes.81]
-description = "A Beowulf that has reached the stars above. It has the strongest bonds with followers and may allow them two act twice per turn."
+description = "觸及星天之力的貝奧武夫。他與追隨者間有著最強烈的羈絆，甚至可能讓追隨者一回合內行動兩次。"
 name = "御夫座貝奧武夫 / 御夫座貝斯特拉"
 
 [main.classes.82]
-description = "A Grand Summoner that has reached the stars above. It is most effective at sacrificing summons for its own power. It can additionally wield the equipment of the thief."
+description = "觸及星天之力的冠位召喚師。他最擅長藉由犧牲召喚物來強化自身的威力。此外，他還可額外使用俠盜的裝備。"
 name = "水蛇座冠位召喚師"
 
 [main.classes.83]
-description = "A Grand Summoner that has reached the stars above. It is most effective at utilizing a full field of summoned allies. It can additionally wield the equipment of the warrior."
+description = "觸及星天之力的冠位召喚師。他最擅長召喚小夥伴塞滿整個戰場。此外，他還能夠額外使用戰士的裝備。"
 name = "御夫座冠位召喚師"
 
 [main.classes.84]
-description = "A Deity that has reached the stars above. Its magical prowess becomes stronger as Apex abilities are utilized in battle."
+description = "觸及星天之力的禘耶禔。隨著在戰鬥中使用Apex而提升魔法攻擊力。"
 name = "天壇座禘耶禔"
 
 [main.classes.85]
-description = "A Deity that has reached the stars above. It gains the upper hand after utilizing Apex abilities in battle."
+description = "觸及星天之力的禘耶禔。以使用Apex能力在戰鬥中獲得優勢。"
 name = "大熊座禘耶禔"
 
 [main.classes.86]
@@ -2204,7 +2204,7 @@ name = "變異凝視者"
 
 [main.followers.fey-kelpie]
 description = "期間限定。"
-name = "Fey Kelpie"
+name = "變異凱爾皮"
 
 [main.followers.fey-yeti]
 description = "臣服於摩莉甘詛咒的強大雪怪.期間限定."
@@ -3015,7 +3015,7 @@ description = "酒精靈所持的小兵刃。雖然不太適合當主武使用�
 name = "阿瑪丹的法杖"
 
 [main.items.ambrosia]
-description = "The brew of a terrible witch. It restores a moderate amount of HP and Mana while curing certain status effects."
+description = "邪惡女巫的精釀。大量恢復HP和MP的同時也能治癒特定的異常狀態。"
 name = "神之食"
 
 [main.items.amergins-razor]
@@ -3716,15 +3716,15 @@ name = "重生變異瑪查支柱"
 
 [main.items.arisen-fey-myrmidon-headdress]
 description = "偉大女巫-摩莉甘的追隨者的詛咒頭帽."
-name = "Arisen Fey Myrmidon Headdress"
+name = "重生變異密爾米頓頭巾"
 
 [main.items.arisen-fey-myrmidon-legwraps]
 description = "偉大女巫-摩莉甘的追隨者的詛咒腿甲."
-name = "Arisen Fey Myrmidon Legwraps"
+name = "重生變異密爾米頓裹腿"
 
 [main.items.arisen-fey-myrmidon-tunic]
 description = "偉大女巫-摩莉甘的追隨者的詛咒法袍."
-name = "Arisen Fey Myrmidon Tunic"
+name = "重生變異密爾米頓束腰外衣"
 
 [main.items.arisen-fey-neman-havoc]
 description = "摩莉甘的姊妹-妮潘的詛咒長劍.提升持有者物理攻擊力的同時對敵人造成相對的影響."
@@ -3936,27 +3936,27 @@ name = "重生的摩莉甘卷軸"
 
 [main.items.arisen-myrmidon-headdress]
 description = "偉大女巫-摩莉甘的追隨者的詛咒頭帽."
-name = "Arisen Myrmidon Headdress"
+name = "重生密爾米頓頭巾"
 
 [main.items.arisen-myrmidon-headdress-diabolus]
 description = "偉大女巫-摩莉甘的追隨者的詛咒頭帽."
-name = "Arisen Myrmidon Headdress Diabolus"
+name = "重生惡神密爾米頓頭巾"
 
 [main.items.arisen-myrmidon-legwraps]
 description = "偉大女巫-摩莉甘的追隨者的詛咒腿甲."
-name = "Arisen Myrmidon Legwraps"
+name = "重生密爾米頓裹腿"
 
 [main.items.arisen-myrmidon-legwraps-diabolus]
 description = "偉大女巫-摩莉甘的追隨者的詛咒腿甲."
-name = "Arisen Myrmidon Legwraps Diabolus"
+name = "重生惡神密爾米頓裹腿"
 
 [main.items.arisen-myrmidon-tunic]
 description = "偉大女巫-摩莉甘的追隨者的詛咒法袍."
-name = "Arisen Myrmidon Tunic"
+name = "重生密爾米頓束腰外衣"
 
 [main.items.arisen-myrmidon-tunic-diabolus]
 description = "偉大女巫-摩莉甘的追隨者的詛咒法袍."
-name = "Arisen Myrmidon Tunic Diabolus"
+name = "重生惡神密爾米頓束腰外衣"
 
 [main.items.arisen-nagamaki]
 description = "一把需要兩手才能握住的長彎刀。握著它的人永遠不會流血。"
@@ -5516,7 +5516,7 @@ name = "主線引路石"
 
 [main.items.caoranachs-lair-key]
 description = "A key that can allow one to run any Dungeon as a \"Caoranach's Lair\" during The Cursed Queens event."
-name = "Caoranach's Lair Key"
+name = "卡蘭納赫的秘穴鑰匙"
 
 [main.items.carls-dagger]
 description = "辣個男人-卡爾的簡單卻有故事的匕首。"
@@ -7644,15 +7644,15 @@ name = "變異梅加征杖"
 
 [main.items.fey-myrmidon-headdress]
 description = "偉大女巫-摩莉甘的追隨者的詛咒頭帽."
-name = "Fey Myrmidon Headdress"
+name = "變異密爾米頓頭巾"
 
 [main.items.fey-myrmidon-legwraps]
 description = "偉大女巫-摩莉甘的追隨者的詛咒腿甲."
-name = "Fey Myrmidon Legwraps"
+name = "變異密爾米頓裹腿"
 
 [main.items.fey-myrmidon-tunic]
 description = "偉大女巫-摩莉甘的追隨者的詛咒法袍."
-name = "Fey Myrmidon Tunic"
+name = "變異密爾米頓束腰外衣"
 
 [main.items.fey-neman-cuirass]
 description = "偉大女巫-妮潘的追隨者的詛咒重裝甲."
@@ -7707,8 +7707,8 @@ description = "記載著諸神黃昏咒語的卷軸。閱讀它們將能召喚�
 name = "變異諸神黃昏卷軸"
 
 [main.items.fey-serpent-pearl]
-description = "Charm of a fallen King, Ulster. Ulster was King of the Seas but was poisoned by his own herbalist, Mori.\n\nWhile holding this item, some your Defense and Resistance stats will be swapped. The better the quality of this item, the bigger amount of your Defense and Resistance stats will be exchanged."
-name = "Fey Serpent Pearl"
+description = "墮落王者阿爾斯特的飾品。阿爾斯特曾是萬海之王但被其御用藥師摩莉所毒害。\n\n持有此道具時，你的部分物防及魔防會交換。道具品質愈好，交換的量愈多。"
+name = "變異龍蛇珠"
 
 [main.items.fey-spiritgarm-grimoire]
 description = "北族召喚師芬雅隨身攜帶的書籍。它可以召喚北族的狼一起戰鬥。"
@@ -10168,15 +10168,15 @@ name = "米爾克海姆之錘"
 
 [main.items.myrmidon-headdress]
 description = "偉大女巫-摩莉甘的追隨者的詛咒頭帽."
-name = "Myrmidon Headdress"
+name = "密爾米頓頭巾"
 
 [main.items.myrmidon-legwraps]
 description = "偉大女巫-摩莉甘的追隨者的詛咒腿甲."
-name = "Myrmidon Legwraps"
+name = "密爾米頓裹腿"
 
 [main.items.myrmidon-tunic]
 description = "偉大女巫-摩莉甘的追隨者的詛咒法袍."
-name = "Myrmidon Tunic"
+name = "密爾米頓束腰外衣"
 
 [main.items.mystic-katar]
 description = "亞坡倫持有的奇特副手武器。在被摩莉甘盜走之前，亞坡倫將它附上了強力的元素抗性。"
@@ -10447,8 +10447,8 @@ description = "食人魔的粗糙斧頭。"
 name = "食人魔之斧"
 
 [main.items.oillipheist-tower-key]
-description = "Key to a Tower of Oillipheist, usable during The Cursed Queens world event."
-name = "Oillipheist Tower Key"
+description = "進入奧利菲斯特之塔的鑰匙，可在詛咒女王活動中使用。"
+name = "奧利菲斯特塔之鑰"
 
 [main.items.oisin-crown]
 description = "這個獨特的頭飾無法提供太多的保護，但它很適合鑲嵌。"
@@ -10788,7 +10788,7 @@ name = "一根線"
 
 [main.items.piob-mhor]
 description = "Winded instrument of Ruairc, the famous (?) Bard-Knight."
-name = "Piob Mhor"
+name = "大高地風琴"
 
 [main.items.pistachio]
 description = "巨人們往往隨身攜帶許多水果口糧來滿足他們的胃袋。艾斯特拉的口糧可以提升從負面狀態恢復的機會。"
@@ -11319,64 +11319,64 @@ description = "適合皇家守衛的劍盾組合."
 name = "王權"
 
 [main.items.ruairc-archistaff]
-description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. This staff will fill one Manaflask for each enemy defeated."
-name = "Ruairc Archistaff"
+description = "奧利菲斯特是被詛咒的阿爾斯特王所留下的殘軀，是一頭受到詛咒的巨大惡龍。此法杖每擊殺一個敵人就能充滿一個魔禁瓶。"
+name = "盧埃克權杖"
 
 [main.items.ruairc-axe]
-description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon."
-name = "Ruairc Axe"
+description = "奧利菲斯特是被詛咒的阿爾斯特王所留下的殘軀，是一頭受到詛咒的巨大惡龍。"
+name = "盧埃克斧頭"
 
 [main.items.ruairc-boots]
-description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nWhen wearing this item, your stats will increase in battle for each damage-per-turn causing status effect that you are inflicted with."
-name = "Ruairc Boots"
+description = "奧利菲斯特是被詛咒的阿爾斯特王所留下的殘軀，是一頭受到詛咒的巨大惡龍。無論人類還是怪物都曾獵殺過奧利菲斯特。\n在浪潮地城中，牠的氣味可能會為你引來更多的怪物。\n穿著此裝備時，你的體質會隨著你引發的異常狀態每回合造成的傷害而提升。"
+name = "盧埃克長靴"
 
 [main.items.ruairc-cowl]
-description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nWhen wearing this item, your stats will increase in battle for each damage-per-turn causing status effect that you are inflicted with."
-name = "Ruairc Cowl"
+description = "奧利菲斯特是被詛咒的阿爾斯特王所留下的殘軀，是一頭受到詛咒的巨大惡龍。無論人類還是怪物都曾獵殺過奧利菲斯特。\n在浪潮地城中，牠的氣味可能會為你引來更多的怪物。\n穿著此裝備時，你的體質會隨著你引發的異常狀態每回合造成的傷害而提升。"
+name = "盧埃克風帽"
 
 [main.items.ruairc-cuirass]
-description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nThis armor will occasionally cause your skills to consume extra mana to deal extra damage."
-name = "Ruairc Cuirass"
+description = "奧利菲斯特是被詛咒的阿爾斯特王所留下的殘軀，是一頭受到詛咒的巨大惡龍。無論人類還是怪物都曾獵殺過奧利菲斯特。\n在浪潮地城中，牠的氣味可能會為你引來更多的怪物。\n這件盔甲偶爾會使你的技能消耗額外魔力，以造成額外傷害。"
+name = "盧埃克胸甲"
 
 [main.items.ruairc-garb]
-description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nWhen wearing this item, your stats will increase in battle for each damage-per-turn causing status effect that you are inflicted with."
-name = "Ruairc Garb"
+description = "奧利菲斯特是被詛咒的阿爾斯特王所留下的殘軀，是一頭受到詛咒的巨大惡龍。無論人類還是怪物都曾獵殺過奧利菲斯特。\n在浪潮地城中，牠的氣味可能會為你引來更多的怪物。\n穿著此裝備時，你的體質會隨著你引發的異常狀態每回合造成的傷害而提升。"
+name = "盧埃克皮甲"
 
 [main.items.ruairc-greaves]
-description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nThis armor will occasionally cause your skills to consume extra mana to deal extra damage."
-name = "Ruairc Greaves"
+description = "奧利菲斯特是被詛咒的阿爾斯特王所留下的殘軀，是一頭受到詛咒的巨大惡龍。無論人類還是怪物都曾獵殺過奧利菲斯特。\n在浪潮地城中，牠的氣味可能會為你引來更多的怪物。\n這件盔甲偶爾會使你的技能消耗額外魔力，以造成額外傷害。"
+name = "盧埃克護脛"
 
 [main.items.ruairc-headdress]
-description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nA Valhallan that wears this item may allow their follower to occasionally cast a spell or skill from their equipped options.\n\nA Summoner that wears this item may occasionally summon two entities rather than one."
-name = "Ruairc Headdress"
+description = "奧利菲斯特是被詛咒的阿爾斯特王所留下的殘軀，是一頭受到詛咒的巨大惡龍。無論人類還是怪物都曾獵殺過奧利菲斯特。\n在浪潮地城中，牠的氣味可能會為你引來更多的怪物。\n穿著這裝備的瓦爾哈蘭可以讓跟隨者偶爾使用他所裝備的技能或法術。\n\n穿著這裝備的召喚師偶爾能從召喚1隻變成召喚2隻。"
+name = "盧埃克頭巾"
 
 [main.items.ruairc-helm]
-description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nThis armor will occasionally cause your skills to consume extra mana to deal extra damage."
-name = "Ruairc Helm"
+description = "奧利菲斯特是被詛咒的阿爾斯特王所留下的殘軀，是一頭受到詛咒的巨大惡龍。無論人類還是怪物都曾獵殺過奧利菲斯特。\n在浪潮地城中，牠的氣味可能會為你引來更多的怪物。\n這件盔甲偶爾會使你的技能消耗額外魔力，以造成額外傷害。"
+name = "盧埃克頭盔"
 
 [main.items.ruairc-hood]
-description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nThis garb will cause one to allows act first in battle."
-name = "Ruairc Hood"
+description = "奧利菲斯特是被詛咒的阿爾斯特王所留下的殘軀，是一頭受到詛咒的巨大惡龍。無論人類還是怪物都曾獵殺過奧利菲斯特。\n在浪潮地城中，牠的氣味可能會為你引來更多的怪物。\n這件盔甲使你在戰鬥中能最先行動。"
+name = "盧埃克兜帽"
 
 [main.items.ruairc-legwaps]
-description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nA Valhallan that wears this item may allow their follower to occasionally cast a spell or skill from their equipped options.\n\nA Summoner that wears this item may occasionally summon two entities rather than one."
-name = "Ruairc Legwaps"
+description = "奧利菲斯特是被詛咒的阿爾斯特王所留下的殘軀，是一頭受到詛咒的巨大惡龍。無論人類還是怪物都曾獵殺過奧利菲斯特。\n在浪潮地城中，牠的氣味可能會為你引來更多的怪物。\n穿著這裝備的瓦爾哈蘭可以讓跟隨者偶爾使用他所裝備的技能或法術。\n\n穿著這裝備的召喚師偶爾能從召喚1隻變成召喚2隻。"
+name = "盧埃克裹腿"
 
 [main.items.ruairc-robe]
-description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nThis garb will cause one to allows act first in battle."
-name = "Ruairc Robe"
+description = "奧利菲斯特是被詛咒的阿爾斯特王所留下的殘軀，是一頭受到詛咒的巨大惡龍。無論人類還是怪物都曾獵殺過奧利菲斯特。\n在浪潮地城中，牠的氣味可能會為你引來更多的怪物。\n這件盔甲使你在戰鬥中能最先行動。"
+name = "盧埃克法袍"
 
 [main.items.ruairc-scythe]
-description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. This scythe will cause one to dodge additional attacks."
-name = "Ruairc Scythe"
+description = "奧利菲斯特是被詛咒的阿爾斯特王所留下的殘軀，是一頭受到詛咒的巨大惡龍。這鐮刀能讓人閃避額外的攻擊。"
+name = "盧埃克鐮刀"
 
 [main.items.ruairc-skirt]
-description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nThis garb will cause one to allows act first in battle."
-name = "Ruairc Skirt"
+description = "奧利菲斯特是被詛咒的阿爾斯特王所留下的殘軀，是一頭受到詛咒的巨大惡龍。無論人類還是怪物都曾獵殺過奧利菲斯特。\n在浪潮地城中，牠的氣味可能會為你引來更多的怪物。\n這件盔甲使你在戰鬥中能最先行動。"
+name = "盧埃克長裙"
 
 [main.items.ruairc-tunic]
-description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nA Valhallan that wears this item may allow their follower to occasionally cast a spell or skill from their equipped options.\n\nA Summoner that wears this item may occasionally summon two entities rather than one."
-name = "Ruairc Tunic"
+description = "奧利菲斯特是被詛咒的阿爾斯特王所留下的殘軀，是一頭受到詛咒的巨大惡龍。無論人類還是怪物都曾獵殺過奧利菲斯特。\n在浪潮地城中，牠的氣味可能會為你引來更多的怪物。\n穿著這裝備的瓦爾哈蘭可以讓跟隨者偶爾使用他所裝備的技能或法術。\n\n穿著這裝備的召喚師偶爾能從召喚1隻變成召喚2隻。"
+name = "盧埃克束腰外衣"
 
 [main.items.ruby]
 description = "散發著緋紅光芒的寶石。鑲嵌在武器上可使你在造成對手傷害的同時治療自己的創傷。"
@@ -11462,8 +11462,8 @@ description = "高等精靈莎拉的赤紅長袍。"
 name = "莎拉的法袍"
 
 [main.items.salmon-of-knowledge]
-description = "A salmon containing most, if not all, of the world's knowledge. The scent may draw extra monsters to you during Horde Mode dungeons, which may also have contributed to Oillipheist's stench."
-name = "Salmon of Knowledge"
+description = "幾乎整個世界的知識都包含在這塊鮭魚裡，其香味能在浪潮地城吸引更多怪物，其中也可能有些是奧利菲斯特的惡臭成份。"
+name = "知識鮭魚"
 
 [main.items.sand-mortar]
 description = "每個泰坦都偏好使用某種灰漿。當塗抹到武器上時，阿特拉斯喜愛的灰漿可以增加間接傷害造成的傷害量。"
@@ -11610,7 +11610,7 @@ description = "梅杜莎所帶的一袋箭矢。它們有很大的機會可以�
 name = "巨蟒箭矢"
 
 [main.items.serpent-pearl]
-description = "Charm of a fallen King, Ulster. Ulster was King of the Seas but was poisoned by his own herbalist, Mori.\n\nWhile holding this item, some your Defense and Resistance stats will be swapped. The better the quality of this item, the bigger amount of your Defense and Resistance stats will be exchanged."
+description = "墮落王者阿爾斯特的飾品。阿爾斯特曾是萬海之王但被其御用藥師摩莉所毒害。\n\n持有此道具時，你的部分物防及魔防會交換。道具品質愈好，交換的量愈多。"
 name = "Serpent Pearl"
 
 [main.items.serpentslayers-chestplate]
@@ -12558,24 +12558,24 @@ description = "里昂內斯刺客的武士刀."
 name = "打刀"
 
 [main.items.ulsters-axe]
-description = "Axe of a fallen King, Ulster. Ulster was King of the Seas but was poisoned by his own herbalist, Mori."
-name = "Ulster's Axe"
+description = "墮落王者阿爾斯特的斧頭。阿爾斯特曾是萬海之王但被其御用藥師摩莉所毒害。"
+name = "阿爾斯特的斧"
 
 [main.items.ulsters-crown]
-description = "Crown of a fallen King, Ulster. Ulster was King of the Seas but was poisoned by his own herbalist, Mori.\n\nThe crown greatly reduces the time one will be afflicted with a negative status effect. It was a shame he was not wearing it when sampling that fated wine."
-name = "Ulster's Crown"
+description = "墮落王者阿爾斯特的王冠。阿爾斯特曾是萬海之王但被其御用藥師摩莉所毒害。\n\n此王冠能大幅降低被負面異常狀態影響的時間。很遺憾當他品嚐那命運之酒時沒戴著它。"
+name = "阿爾斯特之冠"
 
 [main.items.ulsters-epee]
 description = "Straight sword of a fallen King, Ulster. Ulster was King of the Seas but was poisoned by his own herbalist, Mori."
-name = "Ulster's Epee"
+name = "阿爾斯特的刺劍"
 
 [main.items.ulsters-sceptre]
-description = "Sceptre of a fallen King, Ulster. Ulster was King of the Seas but was poisoned by his own herbalist, Mori.\n\nThis staff will fill one Manaflask for each enemy defeated."
-name = "Ulster's Sceptre"
+description = "墮落王者阿爾斯特的權杖。阿爾斯特曾是萬海之王但被其御用藥師摩莉所毒害。\n\n此權杖每擊殺一個敵人就能充滿一個魔禁瓶。"
+name = "阿爾斯特的權杖"
 
 [main.items.ulsters-wine]
-description = "Ulster's last sip of wine. Throwing it at an enemy could inflict them with Morrigan's Curse."
-name = "Ulster's Wine"
+description = "阿爾斯特最後啜飲的紅酒。把它潑向對手能引發摩莉甘的詛咒。"
+name = "阿爾斯特的紅酒"
 
 [main.items.undead-bone]
 description = "不死族的骨頭難得這麼強壯。"
@@ -13740,10 +13740,10 @@ name = "變異仙人掌"
 name = "Fey Finfolk"
 
 [main.monsters.fey-merrow]
-name = "Fey Merrow"
+name = "變異人魚種"
 
 [main.monsters.fey-selkie]
-name = "Fey Selkie"
+name = "變異海豹女"
 
 [main.monsters.final-stable-keeper]
 name = "最終隨從"
@@ -16276,7 +16276,7 @@ description = "使對手進入冰凍狀態。"
 name = "冰封術"
 
 [main.spells.frenzy]
-description = "After 2 turns in battle and when Ward is nearly full, consume Ward every turn to boost your Attack, Dexterity, Collateral Damage rate, and effectiveness of skills that consume Ward. Frenzy will last 5 turns or until Ward is depleted."
+description = "在戰鬥開始的2回合後且護盾幾乎全滿時，每回合消耗護盾來提升你的攻擊、敏捷、間接傷害機率、護盾技能的效率。激鬥將持續5回合或至護盾消耗殆盡時。"
 name = "激鬥"
 
 [main.spells.fright]
@@ -16628,11 +16628,11 @@ description = "加成全部狀態。"
 name = "傲慢"
 
 [main.spells.hydrus-pact]
-description = "Sacrifices up to 3 summons to deal damage to up to three opponents. One Ward turn is gained for each summon sacrificed."
+description = "犧牲最多3個召喚獸來對至多3個敵人造成傷害。每犧牲一隻召喚物，就能獲得一回合的護盾次數。"
 name = "水蛇座盟約"
 
 [main.spells.hydrus-pact-ii]
-description = "Sacrifices up to 3 summons to deal greater damage to up to three opponents. One Ward turn is gained for each summon sacrificed."
+description = "犧牲最多3個召喚獸來對至多3個敵人造成更大的傷害。每犧牲一隻召喚物，就能獲得一回合的護盾次數。"
 name = "水蛇座盟約 II"
 
 [main.spells.ice-affinity]
@@ -16768,11 +16768,11 @@ description = "暫時大幅提升暴擊機率."
 name = "集中"
 
 [main.spells.iron-greaves]
-description = "Take a stance that reinforces your leg armor. Attack power is decreased in this stance but the power and chance of dealing collateral damage is increased."
+description = "採取強化使用腿甲的姿態。這個姿態會降低攻擊，但能大幅提高間接傷害的效果與機率。"
 name = "鐵護脛"
 
 [main.spells.iron-pauldrons]
-description = "Take a stance that reinforces your pauldrons. Defenses are decreased in this stance but the power and chance of dealing collateral damage is increased."
+description = "採取強化使用肩鎧的姿態。這個姿態會降低防禦，但能大幅提高造成的間接傷害。"
 name = "鐵肩鎧"
 
 [main.spells.jinns-talent]
@@ -17143,8 +17143,8 @@ description = "回復250生命值並暫時提升防禦力."
 name = "奇蹟術"
 
 [main.spells.morrigans-curse]
-description = "Curse an opponent, causing them to become a frog and disabling their Ward after 3 turns."
-name = "Morrigans Curse"
+description = "詛咒一名對手，將其蛙化並使護盾在3回合後失效。"
+name = "摩莉甘的詛咒"
 
 [main.spells.multi-flame]
 description = "造成中等的火屬傷害三次。"
@@ -17207,11 +17207,11 @@ description = "降低對手的魔法攻擊力。"
 name = "沉默術"
 
 [main.spells.mythril-greaves]
-description = "Take a stance that reinforces your leg armor. Attack power is decreased in this stance but the power and chance of dealing collateral damage is increased."
+description = "採取強化使用腿甲的姿態。這個姿態會降低攻擊，但能大幅提高間接傷害的效果與機率。"
 name = "秘銀護脛"
 
 [main.spells.mythril-pauldrons]
-description = "Take a stance that reinforces your pauldrons. Defenses are decreased in this stance but the power and chance of dealing collateral damage is increased."
+description = "採取強化使用肩鎧的姿態。這個姿態會降低防禦，但能大幅提高造成的間接傷害。"
 name = "秘銀肩鎧"
 
 [main.spells.natura]
@@ -17701,8 +17701,8 @@ description = "造成多次傷害。"
 name = "擲石"
 
 [main.spells.ruaircs-requiem]
-description = "Lull and deal physical damage to all enemies."
-name = "Ruairc's Requiem (副手)"
+description = "恍惚所有對手並造成物理傷害。"
+name = "盧埃克的鎮魂曲 (副手)"
 
 [main.spells.rune-of-eos]
 description = "給對手標記上愛奧斯的符文。此符文有機會讓對方的攻擊失手。"
@@ -17989,11 +17989,11 @@ description = "依照對手的魔法攻擊力造成某比例的傷害."
 name = "法術破壞者"
 
 [main.spells.spiked-greaves]
-description = "Take a stance that reinforces your leg armor. Attack power is decreased in this stance but the power and chance of dealing collateral damage is increased."
+description = "採取強化使用腿甲的姿態。這個姿態會降低攻擊，但能大幅提高間接傷害的效果與機率。"
 name = "荊棘護脛"
 
 [main.spells.spiked-pauldrons]
-description = "Take a stance that reinforces your pauldrons. Defenses are decreased in this stance but the power and chance of dealing collateral damage is increased."
+description = "採取強化使用肩鎧的姿態。這個姿態會降低防禦，但能大幅提高造成的間接傷害。"
 name = "荊棘肩鎧"
 
 [main.spells.spiked-shield]
@@ -18053,7 +18053,7 @@ description = "有機會造成對手逆風狀態的暴風魔法。有時會額�
 name = "風暴席捲 (副手)"
 
 [main.spells.strikes-of-ursa]
-description = "Defend for 1 turns before releasing an attack that stuns an opponent and never misses. Additionally, this skill will deal 30% additional collateral damage."
+description = "防禦1回合後施展絕不失手且擊暈對手的攻擊。同此技能將造成30%間接傷害。"
 name = "大熊座連擊"
 
 [main.spells.stun-dart]
@@ -18170,7 +18170,7 @@ name = "召喚衰敗鳳凰"
 
 [main.spells.summon-fey-kelpie]
 description = "召喚一隻野獸來協助你。召喚需要3回合。"
-name = "Summon Fey Kelpie"
+name = "召喚變異凱爾皮"
 
 [main.spells.summon-garm]
 description = "召喚一隻野獸來協助你。"
@@ -18881,15 +18881,15 @@ description = "召喚一隻飛龍，快速攻擊三次。可能會造成枯萎�
 name = "飛龍之怒 II"
 
 [main.spells.x-slash]
-description = "Swiftly attack twice, cutting an opponent's attack power and causing bleed. Additionally, this skill will deal 25% additional collateral damage."
+description = "攻擊兩次，削弱對手的攻擊力並造成出血。同時會造成25%間接傷害。"
 name = "X 斬擊"
 
 [main.spells.x-slash-ii]
-description = "Swiftly attack twice, cutting an opponent's attack power and causing bleed. Additionally, this skill will deal 25% additional collateral damage."
+description = "攻擊兩次，削弱對手的攻擊力並造成出血。同時會造成25%間接傷害。"
 name = "X 斬擊 II"
 
 [main.spells.x-slash-iii]
-description = "Swiftly attack twice, cutting an opponent's attack power and causing bleed. Additionally, this skill will deal 40% additional collateral damage."
+description = "攻擊2次，削弱對手的攻擊並造成出血。並造成40%間接傷害。"
 name = "X 斬擊 III"
 
 [msg.bestial_bond]
@@ -18983,7 +18983,7 @@ terra_s_day = "泰菈之日"
 terra_s_legacy = "泰菈的遺產"
 terra_s_legacy__natureblight = "泰菈的遺產：萎化自然"
 the_crimson_festival = "緋紅祭"
-the_cursed_queens = "The Cursed Queens"
+the_cursed_queens = "詛咒女王"
 the_hallowed = "The。萬聖"
 the_mimics_are_loose = "寶箱怪們正在搗亂"
 the_mischievous_clurichauns = "瞎搞的酒精靈"
@@ -19122,7 +19122,7 @@ spell = "法術"
 "+skill" = "+技能"
 "+spell" = "+法術"
 accuracy = "準星"
-act_first_chance = "Act First Chance"
+act_first_chance = "優先行動機率"
 adornment_slots = "鑲嵌槽位"
 ally_effect_chance = "盟友效果機率"
 apex = "Apex"
@@ -19148,7 +19148,7 @@ crit_chance = "暴擊機率"
 crit_damage = "暴擊傷害"
 critical_chain = "致命連鎖"
 damage_limit_break = "傷害極限突破"
-"damage_per_turn_→_stats" = "Damage per Turn → Stats"
+"damage_per_turn_→_stats" = "每回合傷害 → 體質"
 damage_protect = "傷害保護"
 damage_to_ward = "對護盾傷害"
 dark_damage = "黑暗傷害"
@@ -19161,13 +19161,13 @@ defend_power = "防禦力"
 defense = "物防"
 dexterity = "敏捷"
 disperse_status_effect_chance = "狀態分配機會"
-dodge_chance = "Dodge Chance"
-double_summon_chance = "Double Summon Chance"
+dodge_chance = "迴避機率"
+double_summon_chance = "雙重召喚機率"
 dragon_damage = "龍系傷害"
 drop_quality = "掉落物品質"
 dullahan_s_pursuit = "無頭騎士的追殺"
 dungeon_cooldown = "地城冷卻"
-dungeon_horde_bonus = "Dungeon Horde Bonus"
+dungeon_horde_bonus = "地城浪潮加成"
 dungeon_rewards = "地城結算獎勵"
 earthen_damage = "土系傷害"
 effect_damage = "狀態傷害"
@@ -19177,7 +19177,7 @@ exp_bonus = "經驗加成"
 extra_materials_dropped = "額外材料掉落"
 faction_damage = "陣營傷害"
 fire_damage = "火系傷害"
-flask_charge_on_defeat = "Flask Charge on Defeat"
+flask_charge_on_defeat = "禁瓶擊殺充能"
 follower_act = "追隨者行動"
 follower_stats = "追隨者狀態"
 follower_summon_ai = "跟隨者/小夥伴 AI"
@@ -19194,7 +19194,7 @@ hp = "血量"
 hp-ward_recovery = "護盾轉HP"
 hp_regen = "生命值回復"
 hybrid_damage = "混傷"
-instant_summon_chance = "Instant Summon Chance"
+instant_summon_chance = "即刻召喚機率"
 life_siphon = "生命虹吸"
 lightning_damage = "雷系傷害"
 line_catches = "漁獲量"
@@ -19202,7 +19202,7 @@ luck_bonus = "幸運加成"
 magic = "魔攻"
 mana = "魔力"
 mana-ward_recovery = "護盾轉MP"
-mana_overspend_chance = "Mana Overspend Chance"
+mana_overspend_chance = "魔力超支機率"
 mana_reduction = "魔力輕減"
 mana_regen = "魔力回復"
 manaflask_charge = "魔禁瓶充能"
@@ -19213,7 +19213,7 @@ monster_power = "魔物威能"
 multi-target_damage = "多目標傷害"
 no_follower_bonus = "無跟隨者加成"
 orn_bonus = "歐幣加成"
-"player_→_follower_ability_chance" = "Player → Follower Ability Chance"
+"player_→_follower_ability_chance" = "玩家 → 寵物技能機率"
 power = "強度"
 protect_chance = "保護機率"
 quest_rewards = "任務獎勵"
@@ -19232,7 +19232,7 @@ summon_pacts = "召喚契約之力"
 summon_protection = "召喚獸守護"
 summon_stats = "召喚獸屬性"
 summon_turns = "召喚回合數"
-swap_defense_resistance = "Swap Defense/Resistance"
+swap_defense_resistance = "物防/魔防交換"
 tower_shards = "塔之碎片"
 turn_reduction = "回合省略"
 two-handed_power = "合握之力"
@@ -19382,7 +19382,7 @@ elementless = "元素解除"
 eos = "愛奧斯"
 fafnir = "法夫納"
 failed_phoenix = "衰敗鳳凰"
-fey_kelpie = "Fey Kelpie"
+fey_kelpie = "變異凱爾皮"
 fire_aligned = "火行者"
 fire_att = "火 攻"
 fire_def = "火 抗"
@@ -19393,7 +19393,7 @@ foresight_d = "預知↓"
 foresight_u = "預知↑"
 foresight_uu = "預知 ↑↑"
 frenzy = "激鬥"
-frog = "Frog"
+frog = "青蛙"
 frost_troll = "寒霜巨魔"
 frozen = "冰凍"
 garm = "加姆"
@@ -19447,7 +19447,7 @@ mag_uu = "Mag ↑↑"
 manaseep = "魔力洩露"
 mighty_griffin = "究極格里芬"
 mighty_slime = "究極史萊姆"
-morrigan_s_curse = "Morrigan's Curse"
+morrigan_s_curse = "摩莉甘的詛咒"
 mountain_gorilla = "山地猩猩"
 mythril_greaves = "秘銀護脛"
 mythril_pauldrons = "秘銀肩鎧"

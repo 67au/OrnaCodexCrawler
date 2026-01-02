@@ -10372,7 +10372,7 @@ ward = "8"
 [main.items.ambrosia]
 aura = "rare"
 category = "items"
-dropped_by = [["bosses", "caoranach"], ["bosses", "oillipheist"], ["raids", "arisen-morrigan"], ["raids", "the-morrigan"]]
+dropped_by = [["bosses", "caoranach"], ["monsters", "fey-finfolk"], ["monsters", "fey-selkie"], ["bosses", "oillipheist"], ["raids", "arisen-morrigan"], ["raids", "the-morrigan"]]
 exotic = false
 icon = "/img/useables/ambrosia.png"
 id = "ambrosia"
@@ -57934,7 +57934,7 @@ upgrade_materials = [["items", "cursed-ortanite"], ["items", "cavestone"]]
 useable_by = "magic_users"
 
 [main.items.ruairc-archistaff.stats]
-act_first_chance = "+50"
+"act_first_chance_(pve)" = "+50"
 adornment_slots = "3"
 crit = "4"
 flask_charge_on_defeat = "+50"
@@ -58170,7 +58170,7 @@ useable_by = "magic_users"
 name = "cursed"
 
 [main.items.ruairc-hood.stats]
-act_first_chance = "+50"
+"act_first_chance_(pve)" = "+50"
 adornment_slots = "3"
 defense = "105"
 dungeon_horde_bonus = "+30"
@@ -58223,7 +58223,7 @@ useable_by = "magic_users"
 name = "cursed"
 
 [main.items.ruairc-robe.stats]
-act_first_chance = "+50"
+"act_first_chance_(pve)" = "+50"
 adornment_slots = "3"
 defense = "105"
 dungeon_horde_bonus = "+30"
@@ -58277,7 +58277,7 @@ useable_by = "magic_users"
 name = "cursed"
 
 [main.items.ruairc-skirt.stats]
-act_first_chance = "+70"
+"act_first_chance_(pve)" = "+70"
 adornment_slots = "3"
 defense = "105"
 dungeon_horde_bonus = "+30"
@@ -70646,7 +70646,7 @@ name = "cactus"
 
 [main.monsters.fey-finfolk]
 category = "monsters"
-drops = [["items", "caoranachs-lair-key"]]
+drops = [["items", "ambrosia"], ["items", "caoranachs-lair-key"]]
 events = ["the_cursed_queens"]
 family = "common"
 icon = "/img/bosses/finfolk_fey.png"
@@ -70668,7 +70668,7 @@ tier = 5
 
 [main.monsters.fey-selkie]
 category = "monsters"
-drops = [["items", "caoranachs-lair-key"]]
+drops = [["items", "ambrosia"], ["items", "caoranachs-lair-key"]]
 events = ["the_cursed_queens"]
 family = "common"
 icon = "/img/monsters/selkie_fey.png"
@@ -94633,7 +94633,7 @@ useable_by = ["all_classes", "magic_users", "melee_classes", "thief_classes", "v
 "stats.+arch-alchemy" = "BOOL"
 "stats.+attack_from_low_defense" = "SIGNED_PERCENT"
 "stats.accuracy" = "SIGNED_PERCENT"
-"stats.act_first_chance" = "SIGNED_PERCENT"
+"stats.act_first_chance_(pve)" = "SIGNED_PERCENT"
 "stats.adornment_slots" = "NUMBER"
 "stats.ally_effect_chance" = "SIGNED_PERCENT"
 "stats.apex" = "SIGNED_PERCENT"

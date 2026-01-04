@@ -16628,11 +16628,11 @@ description = "提高所有属性。"
 name = "傲慢"
 
 [main.spells.hydrus-pact]
-description = "牺牲最多 3 个召唤物对最多 3 个对手造成伤害。每牺牲 1 个召唤物将能获得 1 回合的护盾。"
+description = "Sacrifices up to 3 summons to deal damage to up to three opponents. One Ward turn is gained per target hit."
 name = "水蛇座契约"
 
 [main.spells.hydrus-pact-ii]
-description = "牺牲最多 3 个召唤物对最多 3 个对手造成更多的伤害。每牺牲 1 个召唤物将能获得 1 回合的护盾。"
+description = "Sacrifices up to 3 summons to deal greater damage to up to three opponents. One Ward turn is gained per target hit."
 name = "水蛇座契约 II"
 
 [main.spells.ice-affinity]

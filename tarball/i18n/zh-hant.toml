@@ -16628,11 +16628,11 @@ description = "加成全部狀態。"
 name = "傲慢"
 
 [main.spells.hydrus-pact]
-description = "犧牲最多3個召喚獸來對至多3個敵人造成傷害。每犧牲一隻召喚物，就能獲得一回合的護盾次數。"
+description = "Sacrifices up to 3 summons to deal damage to up to three opponents. One Ward turn is gained per target hit."
 name = "水蛇座盟約"
 
 [main.spells.hydrus-pact-ii]
-description = "犧牲最多3個召喚獸來對至多3個敵人造成更大的傷害。每犧牲一隻召喚物，就能獲得一回合的護盾次數。"
+description = "Sacrifices up to 3 summons to deal greater damage to up to three opponents. One Ward turn is gained per target hit."
 name = "水蛇座盟約 II"
 
 [main.spells.ice-affinity]

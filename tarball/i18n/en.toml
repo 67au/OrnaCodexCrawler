@@ -16628,11 +16628,11 @@ description = "Boosts all stats."
 name = "Hubris"
 
 [main.spells.hydrus-pact]
-description = "Sacrifices up to 3 summons to deal damage to up to three opponents. One Ward turn is gained for each summon sacrificed."
+description = "Sacrifices up to 3 summons to deal damage to up to three opponents. One Ward turn is gained per target hit."
 name = "Hydrus Pact"
 
 [main.spells.hydrus-pact-ii]
-description = "Sacrifices up to 3 summons to deal greater damage to up to three opponents. One Ward turn is gained for each summon sacrificed."
+description = "Sacrifices up to 3 summons to deal greater damage to up to three opponents. One Ward turn is gained per target hit."
 name = "Hydrus Pact II"
 
 [main.spells.ice-affinity]

@@ -11360,7 +11360,7 @@ name = "鲁尔克兜帽"
 
 [main.items.ruairc-legwaps]
 description = "诅咒巨龙奥利菲斯特是被诅咒的阿尔斯特王所余下的残躯。不管是人族还是怪物都在追猎奥利菲斯特。在地牢的浪潮模式中，它的气味将引来更多的怪物。\n\n当瓦尔哈拉系职业穿戴该装备时，能让追随者有机率使用装备者所携带的技能与法术。\n\n当召唤师职业穿戴该装备时，在使用召唤术时有机率能从召唤 1 只改为 2 只。"
-name = "鲁尔克裹腿"
+name = "Ruairc Legwaps"
 
 [main.items.ruairc-robe]
 description = "诅咒巨龙奥利菲斯特是被诅咒的阿尔斯特王所余下的残躯。不管是人族还是怪物都在追猎奥利菲斯特。在地牢的浪潮模式中，它的气味将引来更多的怪物。\n\n该皮甲能使你在战斗中优先行动。"
@@ -11611,7 +11611,7 @@ name = "飞蛇箭矢"
 
 [main.items.serpent-pearl]
 description = "堕落王者阿尔斯特所持的饰品。阿尔斯特曾是万海之王，但被其御用药师摩莉毒害。\n\n当携带该物品时，将交换部分物防与魔防。该物品的品质越高，交换的双防越多。"
-name = "Serpent Pearl"
+name = "灵蛇珠"
 
 [main.items.serpentslayers-chestplate]
 description = "珀尔修斯的胸甲。能够提升穿戴者抵抗异常状态效果的能力。"
@@ -12559,7 +12559,7 @@ name = "打刀"
 
 [main.items.ulsters-axe]
 description = "堕落王者阿尔斯特所持的斧头。阿尔斯特曾是万海之王，但被其御用药师摩莉毒害。"
-name = "阿尔斯特之斧"
+name = "阿尔斯特的大斧"
 
 [main.items.ulsters-crown]
 description = "堕落王者阿尔斯特的王冠。阿尔斯特曾是万海之王，但被其御用药师摩莉毒害。\n\n该王冠能大幅降低异常状态持续的时间。很遗憾的是，在他品味那杯命运之酒时，王冠刚好没戴在头上。"
@@ -12571,7 +12571,7 @@ name = "阿尔斯特的佩剑"
 
 [main.items.ulsters-sceptre]
 description = "堕落王者阿尔斯特所持的权杖。阿尔斯特曾是万海之王，但被其御用药师摩莉毒害。\n\n该法杖能在每击杀一个敌人时充能一个汲魔瓶。"
-name = "阿尔斯特权杖"
+name = "阿尔斯特的权杖"
 
 [main.items.ulsters-wine]
 description = "阿尔斯特最后一口的红酒。将其泼向敌人能使他们遭受摩莉甘的诅咒。"
@@ -13737,7 +13737,7 @@ name = "弗格斯"
 name = "变异仙人掌"
 
 [main.monsters.fey-finfolk]
-name = "Fey Finfolk"
+name = "变异芬菲克"
 
 [main.monsters.fey-merrow]
 name = "变异人鱼"
@@ -14109,7 +14109,7 @@ name = "熔岩魔像"
 name = "玛门追随者"
 
 [main.monsters.merrow]
-name = "Merrow"
+name = "人鱼"
 
 [main.monsters.midnight-gazer]
 name = "午夜凝视者"
@@ -14358,7 +14358,7 @@ name = "第二随从"
 name = "眼怪"
 
 [main.monsters.selkie]
-name = "Selkie"
+name = "海豹女"
 
 [main.monsters.shade-of-achlys-the-red-dagger]
 name = "赤刃艾柯吕斯之冥影 (重生者)"
@@ -17702,7 +17702,7 @@ name = "落石"
 
 [main.spells.ruaircs-requiem]
 description = "对所有对手造成物理伤害并使他们恍惚。"
-name = "鲁阿里克的安魂曲 (副手)"
+name = "鲁尔克的安魂曲 (副手)"
 
 [main.spells.rune-of-eos]
 description = "以厄俄斯符文标记对手。该符文有机率使对手攻击失手。"
@@ -19177,7 +19177,7 @@ exp_bonus = "经验加成"
 extra_materials_dropped = "额外材料掉落"
 faction_damage = "阵营元素伤害"
 fire_damage = "火属性伤害"
-flask_charge_on_defeat = "汲魔瓶击杀充能"
+flask_charge_on_defeat = "击杀充能汲魔瓶"
 follower_act = "追随者行动率"
 follower_stats = "追随者属性"
 follower_summon_ai = "追随者/召唤物AI"
@@ -19202,7 +19202,7 @@ luck_bonus = "幸运加成"
 magic = "魔攻"
 mana = "魔力"
 mana-ward_recovery = "护盾回收MP"
-mana_overspend_chance = "魔力超支机率"
+mana_overspend_chance = "魔力过载机率"
 mana_reduction = "魔力节能"
 mana_regen = "魔力回复"
 manaflask_charge = "汲魔瓶充能"

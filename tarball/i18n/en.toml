@@ -1727,7 +1727,7 @@ description = "A Beowulf that has reached the stars above. It trades the bond bu
 name = "Beowulf Hydrus / Bestla Hydrus"
 
 [main.classes.81]
-description = "A Beowulf that has reached the stars above. It has the strongest bonds with followers and may allow them two act twice per turn."
+description = "A Beowulf that has reached the stars above. It has the strongest bonds with followers and may allow them to act twice per turn."
 name = "Beowulf Auriga / Bestla Auriga"
 
 [main.classes.82]

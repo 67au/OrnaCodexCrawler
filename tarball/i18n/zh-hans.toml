@@ -9366,6 +9366,10 @@ name = "王之兜帽"
 description = "国王的正式服装。"
 name = "王之长袍"
 
+[main.items.knight-sirus-helmet]
+description = "Helmet of Knight Sirus."
+name = "Knight Sirus Helmet"
+
 [main.items.kobold-armor]
 description = "地精的轻甲。"
 name = "地精盔甲"
@@ -9921,6 +9925,10 @@ name = "市场营销计划"
 [main.items.masamune]
 description = "犹如那夜空繁星般的美丽刀刃。"
 name = "正宗"
+
+[main.items.medeas-hairpin]
+description = "Golden hairpin of Medea."
+name = "Medea's Hairpin"
 
 [main.items.medusas-bow]
 description = "蛇发女妖美杜莎之弓。从该弓射出的箭能打破对手的防御。"
@@ -11358,9 +11366,9 @@ name = "鲁尔克头盔"
 description = "诅咒巨龙奥利菲斯特是被诅咒的阿尔斯特王所余下的残躯。不管是人族还是怪物都在追猎奥利菲斯特。在地牢的浪潮模式中，它的气味将引来更多的怪物。\n\n该皮甲能使你在战斗中优先行动。"
 name = "鲁尔克兜帽"
 
-[main.items.ruairc-legwaps]
+[main.items.ruairc-legwraps]
 description = "诅咒巨龙奥利菲斯特是被诅咒的阿尔斯特王所余下的残躯。不管是人族还是怪物都在追猎奥利菲斯特。在地牢的浪潮模式中，它的气味将引来更多的怪物。\n\n当瓦尔哈拉系职业穿戴该装备时，能让追随者有机率使用装备者所携带的技能与法术。\n\n当召唤师职业穿戴该装备时，在使用召唤术时有机率能从召唤 1 只改为 2 只。"
-name = "Ruairc Legwaps"
+name = "鲁尔克裹腿"
 
 [main.items.ruairc-robe]
 description = "诅咒巨龙奥利菲斯特是被诅咒的阿尔斯特王所余下的残躯。不管是人族还是怪物都在追猎奥利菲斯特。在地牢的浪潮模式中，它的气味将引来更多的怪物。\n\n该皮甲能使你在战斗中优先行动。"

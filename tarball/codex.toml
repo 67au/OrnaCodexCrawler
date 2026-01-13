@@ -2514,6 +2514,7 @@ tier = 10
 
 [main.bosses.knight-sirus]
 category = "bosses"
+drops = [["items", "knight-sirus-helmet"]]
 family = "balor_forces"
 icon = "/img/bosses/balor_knight2.png"
 id = "knight-sirus"
@@ -2653,7 +2654,7 @@ name = "second_chance"
 [main.bosses.medea-arisen-queen]
 aura = "superboss"
 category = "bosses"
-drops = [["items", "swansong"]]
+drops = [["items", "medeas-hairpin"], ["items", "swansong"]]
 family = "magical"
 icon = "/img/bosses/medea.png"
 id = "medea-arisen-queen"
@@ -2785,7 +2786,7 @@ name = "wintara_house"
 [main.bosses.oillipheist]
 aura = "superboss"
 category = "bosses"
-drops = [["items", "ambrosia"], ["items", "fey-serpent-pearl"], ["items", "ruairc-archistaff"], ["items", "ruairc-axe"], ["items", "ruairc-boots"], ["items", "ruairc-cowl"], ["items", "ruairc-cuirass"], ["items", "ruairc-garb"], ["items", "ruairc-greaves"], ["items", "ruairc-headdress"], ["items", "ruairc-helm"], ["items", "ruairc-hood"], ["items", "ruairc-legwaps"], ["items", "ruairc-robe"], ["items", "ruairc-scythe"], ["items", "ruairc-skirt"], ["items", "ruairc-tunic"], ["items", "salmon-of-knowledge"]]
+drops = [["items", "ambrosia"], ["items", "fey-serpent-pearl"], ["items", "ruairc-archistaff"], ["items", "ruairc-axe"], ["items", "ruairc-boots"], ["items", "ruairc-cowl"], ["items", "ruairc-cuirass"], ["items", "ruairc-garb"], ["items", "ruairc-greaves"], ["items", "ruairc-headdress"], ["items", "ruairc-helm"], ["items", "ruairc-hood"], ["items", "ruairc-legwraps"], ["items", "ruairc-robe"], ["items", "ruairc-scythe"], ["items", "ruairc-skirt"], ["items", "ruairc-tunic"], ["items", "salmon-of-knowledge"]]
 events = ["the_cursed_queens"]
 family = "dragons"
 icon = "/img/bosses/oillipheist.png"
@@ -20459,7 +20460,7 @@ magic = "170"
 [main.items.avalon-ore]
 aura = "rare"
 category = "items"
-dropped_by = [["monsters", "witch"], ["raids", "almighty-balin"], ["raids", "arisen-balin"], ["raids", "arisen-merlin"], ["raids", "arisen-thronemaker-neith"], ["raids", "arisen-thronemaker-ptah"], ["raids", "arisen-thronemaker-sekhmet"], ["raids", "fallen-king-arthus"], ["raids", "fallen-merlin"], ["raids", "thronemaker-neith"], ["raids", "thronemaker-ptah"], ["raids", "thronemaker-sekhmet"]]
+dropped_by = [["monsters", "fey-finfolk"], ["monsters", "witch"], ["raids", "almighty-balin"], ["raids", "arisen-balin"], ["raids", "arisen-merlin"], ["raids", "arisen-thronemaker-neith"], ["raids", "arisen-thronemaker-ptah"], ["raids", "arisen-thronemaker-sekhmet"], ["raids", "fallen-king-arthus"], ["raids", "fallen-merlin"], ["raids", "thronemaker-neith"], ["raids", "thronemaker-ptah"], ["raids", "thronemaker-sekhmet"]]
 exotic = false
 icon = "/img/materials/avalon_ore.png"
 id = "avalon-ore"
@@ -21362,7 +21363,7 @@ attack = "105"
 [main.items.balorite]
 aura = "common"
 category = "items"
-dropped_by = [["monsters", "undead"], ["raids", "grand-knight-lugus"], ["raids", "maelor"]]
+dropped_by = [["monsters", "selkie"], ["monsters", "undead"], ["raids", "grand-knight-lugus"], ["raids", "maelor"]]
 exotic = false
 icon = "/img/materials/balorite.png"
 id = "balorite"
@@ -25936,7 +25937,7 @@ icon = "/img/materials/cavestone.png"
 id = "cavestone"
 item_type = "material"
 rarity = "rare"
-sources = [["items", "arisen-batwing-bow"], ["items", "batwing-bow"], ["items", "ruairc-archistaff"], ["items", "ruairc-axe"], ["items", "ruairc-boots"], ["items", "ruairc-cowl"], ["items", "ruairc-cuirass"], ["items", "ruairc-garb"], ["items", "ruairc-greaves"], ["items", "ruairc-headdress"], ["items", "ruairc-helm"], ["items", "ruairc-hood"], ["items", "ruairc-legwaps"], ["items", "ruairc-robe"], ["items", "ruairc-scythe"], ["items", "ruairc-skirt"], ["items", "ruairc-tunic"], ["items", "spelunking-staff"]]
+sources = [["items", "arisen-batwing-bow"], ["items", "batwing-bow"], ["items", "ruairc-archistaff"], ["items", "ruairc-axe"], ["items", "ruairc-boots"], ["items", "ruairc-cowl"], ["items", "ruairc-cuirass"], ["items", "ruairc-garb"], ["items", "ruairc-greaves"], ["items", "ruairc-headdress"], ["items", "ruairc-helm"], ["items", "ruairc-hood"], ["items", "ruairc-legwraps"], ["items", "ruairc-robe"], ["items", "ruairc-scythe"], ["items", "ruairc-skirt"], ["items", "ruairc-tunic"], ["items", "spelunking-staff"]]
 tier = 4
 useable_by = "all_classes"
 
@@ -29115,7 +29116,7 @@ icon = "/img/materials/cursed_ortanite.png"
 id = "cursed-ortanite"
 item_type = "material"
 rarity = "rare"
-sources = [["items", "arisen-badb-catha"], ["items", "arisen-banshee-boots"], ["items", "arisen-banshee-boots-diabolus"], ["items", "arisen-banshee-robe"], ["items", "arisen-banshee-robe-diabolus"], ["items", "arisen-banshee-veil"], ["items", "arisen-banshee-veil-diabolus"], ["items", "arisen-crowsong"], ["items", "arisen-fey-badb-catha"], ["items", "arisen-fey-banshee-boots"], ["items", "arisen-fey-banshee-robe"], ["items", "arisen-fey-banshee-veil"], ["items", "arisen-fey-crowsong"], ["items", "arisen-fey-macha-pillar"], ["items", "arisen-fey-myrmidon-headdress"], ["items", "arisen-fey-myrmidon-legwraps"], ["items", "arisen-fey-myrmidon-tunic"], ["items", "arisen-fey-neman-havoc"], ["items", "arisen-fey-plagued-cuirass"], ["items", "arisen-fey-plagued-greaves"], ["items", "arisen-fey-plagued-helmet"], ["items", "arisen-fey-raven-boots"], ["items", "arisen-fey-raven-garb"], ["items", "arisen-fey-raven-veil"], ["items", "arisen-macha-pillar"], ["items", "arisen-morrigans-scroll"], ["items", "arisen-myrmidon-headdress"], ["items", "arisen-myrmidon-headdress-diabolus"], ["items", "arisen-myrmidon-legwraps"], ["items", "arisen-myrmidon-legwraps-diabolus"], ["items", "arisen-myrmidon-tunic"], ["items", "arisen-myrmidon-tunic-diabolus"], ["items", "arisen-neman-havoc"], ["items", "arisen-plagued-cuirass"], ["items", "arisen-plagued-cuirass-diabolus"], ["items", "arisen-plagued-greaves"], ["items", "arisen-plagued-greaves-diabolus"], ["items", "arisen-plagued-helmet"], ["items", "arisen-plagued-helmet-diabolus"], ["items", "arisen-raven-boots"], ["items", "arisen-raven-boots-diabolus"], ["items", "arisen-raven-garb"], ["items", "arisen-raven-garb-diabolus"], ["items", "arisen-raven-veil"], ["items", "arisen-raven-veil-diabolus"], ["items", "arisen-realm-katar"], ["items", "badb-catha"], ["items", "banshee-boots"], ["items", "banshee-robe"], ["items", "banshee-veil"], ["items", "crowsong"], ["items", "fey-badb-catha"], ["items", "fey-banshee-boots"], ["items", "fey-banshee-robe"], ["items", "fey-banshee-veil"], ["items", "fey-crowsong"], ["items", "fey-macha-pillar"], ["items", "fey-myrmidon-headdress"], ["items", "fey-myrmidon-legwraps"], ["items", "fey-myrmidon-tunic"], ["items", "fey-neman-havoc"], ["items", "fey-plagued-cuirass"], ["items", "fey-plagued-greaves"], ["items", "fey-plagued-helmet"], ["items", "fey-raven-boots"], ["items", "fey-raven-garb"], ["items", "fey-raven-veil"], ["items", "last-martyrs-armor"], ["items", "last-martyrs-baton"], ["items", "last-martyrs-boots"], ["items", "last-martyrs-chestguard"], ["items", "last-martyrs-cowl"], ["items", "last-martyrs-flame"], ["items", "last-martyrs-garb"], ["items", "last-martyrs-headdress"], ["items", "last-martyrs-helmet"], ["items", "last-martyrs-hood"], ["items", "last-martyrs-leggings"], ["items", "last-martyrs-legwraps"], ["items", "last-martyrs-longbow"], ["items", "last-martyrs-robe"], ["items", "last-martyrs-skirt"], ["items", "last-martyrs-sword"], ["items", "macha-pillar"], ["items", "morrigans-scroll"], ["items", "myrmidon-headdress"], ["items", "myrmidon-legwraps"], ["items", "myrmidon-tunic"], ["items", "neman-havoc"], ["items", "piob-mhor"], ["items", "plagued-cuirass"], ["items", "plagued-greaves"], ["items", "plagued-helmet"], ["items", "raven-boots"], ["items", "raven-garb"], ["items", "raven-veil"], ["items", "realm-katar"], ["items", "ruairc-archistaff"], ["items", "ruairc-axe"], ["items", "ruairc-boots"], ["items", "ruairc-cowl"], ["items", "ruairc-cuirass"], ["items", "ruairc-garb"], ["items", "ruairc-greaves"], ["items", "ruairc-headdress"], ["items", "ruairc-helm"], ["items", "ruairc-hood"], ["items", "ruairc-legwaps"], ["items", "ruairc-robe"], ["items", "ruairc-scythe"], ["items", "ruairc-skirt"], ["items", "ruairc-tunic"]]
+sources = [["items", "arisen-badb-catha"], ["items", "arisen-banshee-boots"], ["items", "arisen-banshee-boots-diabolus"], ["items", "arisen-banshee-robe"], ["items", "arisen-banshee-robe-diabolus"], ["items", "arisen-banshee-veil"], ["items", "arisen-banshee-veil-diabolus"], ["items", "arisen-crowsong"], ["items", "arisen-fey-badb-catha"], ["items", "arisen-fey-banshee-boots"], ["items", "arisen-fey-banshee-robe"], ["items", "arisen-fey-banshee-veil"], ["items", "arisen-fey-crowsong"], ["items", "arisen-fey-macha-pillar"], ["items", "arisen-fey-myrmidon-headdress"], ["items", "arisen-fey-myrmidon-legwraps"], ["items", "arisen-fey-myrmidon-tunic"], ["items", "arisen-fey-neman-havoc"], ["items", "arisen-fey-plagued-cuirass"], ["items", "arisen-fey-plagued-greaves"], ["items", "arisen-fey-plagued-helmet"], ["items", "arisen-fey-raven-boots"], ["items", "arisen-fey-raven-garb"], ["items", "arisen-fey-raven-veil"], ["items", "arisen-macha-pillar"], ["items", "arisen-morrigans-scroll"], ["items", "arisen-myrmidon-headdress"], ["items", "arisen-myrmidon-headdress-diabolus"], ["items", "arisen-myrmidon-legwraps"], ["items", "arisen-myrmidon-legwraps-diabolus"], ["items", "arisen-myrmidon-tunic"], ["items", "arisen-myrmidon-tunic-diabolus"], ["items", "arisen-neman-havoc"], ["items", "arisen-plagued-cuirass"], ["items", "arisen-plagued-cuirass-diabolus"], ["items", "arisen-plagued-greaves"], ["items", "arisen-plagued-greaves-diabolus"], ["items", "arisen-plagued-helmet"], ["items", "arisen-plagued-helmet-diabolus"], ["items", "arisen-raven-boots"], ["items", "arisen-raven-boots-diabolus"], ["items", "arisen-raven-garb"], ["items", "arisen-raven-garb-diabolus"], ["items", "arisen-raven-veil"], ["items", "arisen-raven-veil-diabolus"], ["items", "arisen-realm-katar"], ["items", "badb-catha"], ["items", "banshee-boots"], ["items", "banshee-robe"], ["items", "banshee-veil"], ["items", "crowsong"], ["items", "fey-badb-catha"], ["items", "fey-banshee-boots"], ["items", "fey-banshee-robe"], ["items", "fey-banshee-veil"], ["items", "fey-crowsong"], ["items", "fey-macha-pillar"], ["items", "fey-myrmidon-headdress"], ["items", "fey-myrmidon-legwraps"], ["items", "fey-myrmidon-tunic"], ["items", "fey-neman-havoc"], ["items", "fey-plagued-cuirass"], ["items", "fey-plagued-greaves"], ["items", "fey-plagued-helmet"], ["items", "fey-raven-boots"], ["items", "fey-raven-garb"], ["items", "fey-raven-veil"], ["items", "last-martyrs-armor"], ["items", "last-martyrs-baton"], ["items", "last-martyrs-boots"], ["items", "last-martyrs-chestguard"], ["items", "last-martyrs-cowl"], ["items", "last-martyrs-flame"], ["items", "last-martyrs-garb"], ["items", "last-martyrs-headdress"], ["items", "last-martyrs-helmet"], ["items", "last-martyrs-hood"], ["items", "last-martyrs-leggings"], ["items", "last-martyrs-legwraps"], ["items", "last-martyrs-longbow"], ["items", "last-martyrs-robe"], ["items", "last-martyrs-skirt"], ["items", "last-martyrs-sword"], ["items", "macha-pillar"], ["items", "morrigans-scroll"], ["items", "myrmidon-headdress"], ["items", "myrmidon-legwraps"], ["items", "myrmidon-tunic"], ["items", "neman-havoc"], ["items", "piob-mhor"], ["items", "plagued-cuirass"], ["items", "plagued-greaves"], ["items", "plagued-helmet"], ["items", "raven-boots"], ["items", "raven-garb"], ["items", "raven-veil"], ["items", "realm-katar"], ["items", "ruairc-archistaff"], ["items", "ruairc-axe"], ["items", "ruairc-boots"], ["items", "ruairc-cowl"], ["items", "ruairc-cuirass"], ["items", "ruairc-garb"], ["items", "ruairc-greaves"], ["items", "ruairc-headdress"], ["items", "ruairc-helm"], ["items", "ruairc-hood"], ["items", "ruairc-legwraps"], ["items", "ruairc-robe"], ["items", "ruairc-scythe"], ["items", "ruairc-skirt"], ["items", "ruairc-tunic"]]
 tier = 10
 useable_by = "all_classes"
 
@@ -33201,7 +33202,7 @@ icon = "/img/materials/earth_stone.png"
 id = "earthstone"
 item_type = "material"
 rarity = "rare"
-sources = [["items", "agathodaemon-hammer"], ["items", "aglovale"], ["items", "ancient-earth-essence"], ["items", "arcane-scroll"], ["items", "arisen-askr-armor"], ["items", "arisen-askr-boots"], ["items", "arisen-askr-cowl"], ["items", "arisen-askr-garb"], ["items", "arisen-askr-helmet"], ["items", "arisen-askr-leggings"], ["items", "arisen-demeters-halberd"], ["items", "arisen-demeters-staff"], ["items", "arisen-embla-hood"], ["items", "arisen-embla-robe"], ["items", "arisen-embla-shoes"], ["items", "arisen-hels-feathers"], ["items", "arisen-palm-branch"], ["items", "arisen-treecutter"], ["items", "arisen-willow-branch"], ["items", "askr-armor"], ["items", "askr-boots"], ["items", "askr-cowl"], ["items", "askr-garb"], ["items", "askr-helmet"], ["items", "askr-leggings"], ["items", "beguiled-mystic-katar"], ["items", "beguiled-mystic-katar-x"], ["items", "beheaded-scholars-chargeblade"], ["items", "book-of-earth"], ["items", "book-of-earth-x"], ["items", "book-of-the-arcane"], ["items", "book-of-the-arcane-x"], ["items", "boots-of-earth"], ["items", "boulderbold"], ["items", "dangys-fancy-t-shirt"], ["items", "demeters-halberd"], ["items", "demeters-staff"], ["items", "earthen-arrows"], ["items", "earthen-pike"], ["items", "earthen-sceptre"], ["items", "embla-hood"], ["items", "embla-robe"], ["items", "embla-shoes"], ["items", "fey-hels-feathers"], ["items", "fey-neman-cuirass"], ["items", "fey-neman-greaves"], ["items", "fey-neman-helmet"], ["items", "fey-neman-warsword"], ["items", "fey-yeti-coat"], ["items", "gaia-robe"], ["items", "hels-feathers"], ["items", "mammons-sword"], ["items", "mystic-katar"], ["items", "neman-cuirass"], ["items", "neman-greaves"], ["items", "neman-helmet"], ["items", "neman-warsword"], ["items", "nemans-protection"], ["items", "palm-tree-branch"], ["items", "scroll-of-earth"], ["items", "scroll-of-poison"], ["items", "ski-pole"], ["items", "spirit-of-the-wood"], ["items", "swansong"], ["items", "terra-boots"], ["items", "tethra"], ["items", "treecutter"], ["items", "trenfher"], ["items", "willow-tree-branch"], ["items", "woodblade"], ["items", "woodland-staff"], ["items", "ymir-agathodaemon-hammer"]]
+sources = [["items", "agathodaemon-hammer"], ["items", "aglovale"], ["items", "ancient-earth-essence"], ["items", "arcane-scroll"], ["items", "arisen-askr-armor"], ["items", "arisen-askr-boots"], ["items", "arisen-askr-cowl"], ["items", "arisen-askr-garb"], ["items", "arisen-askr-helmet"], ["items", "arisen-askr-leggings"], ["items", "arisen-demeters-halberd"], ["items", "arisen-demeters-staff"], ["items", "arisen-embla-hood"], ["items", "arisen-embla-robe"], ["items", "arisen-embla-shoes"], ["items", "arisen-hels-feathers"], ["items", "arisen-palm-branch"], ["items", "arisen-treecutter"], ["items", "arisen-willow-branch"], ["items", "askr-armor"], ["items", "askr-boots"], ["items", "askr-cowl"], ["items", "askr-garb"], ["items", "askr-helmet"], ["items", "askr-leggings"], ["items", "beguiled-mystic-katar"], ["items", "beguiled-mystic-katar-x"], ["items", "beheaded-scholars-chargeblade"], ["items", "book-of-earth"], ["items", "book-of-earth-x"], ["items", "book-of-the-arcane"], ["items", "book-of-the-arcane-x"], ["items", "boots-of-earth"], ["items", "boulderbold"], ["items", "dangys-fancy-t-shirt"], ["items", "demeters-halberd"], ["items", "demeters-staff"], ["items", "earthen-arrows"], ["items", "earthen-pike"], ["items", "earthen-sceptre"], ["items", "embla-hood"], ["items", "embla-robe"], ["items", "embla-shoes"], ["items", "fey-hels-feathers"], ["items", "fey-neman-cuirass"], ["items", "fey-neman-greaves"], ["items", "fey-neman-helmet"], ["items", "fey-neman-warsword"], ["items", "fey-yeti-coat"], ["items", "gaia-robe"], ["items", "hels-feathers"], ["items", "mammons-sword"], ["items", "medeas-hairpin"], ["items", "mystic-katar"], ["items", "neman-cuirass"], ["items", "neman-greaves"], ["items", "neman-helmet"], ["items", "neman-warsword"], ["items", "nemans-protection"], ["items", "palm-tree-branch"], ["items", "scroll-of-earth"], ["items", "scroll-of-poison"], ["items", "ski-pole"], ["items", "spirit-of-the-wood"], ["items", "swansong"], ["items", "terra-boots"], ["items", "tethra"], ["items", "treecutter"], ["items", "trenfher"], ["items", "willow-tree-branch"], ["items", "woodblade"], ["items", "woodland-staff"], ["items", "ymir-agathodaemon-hammer"]]
 tags = ["found_in_shops", "found_in_chests"]
 tier = 1
 useable_by = "all_classes"
@@ -38589,7 +38590,7 @@ icon = "/img/materials/fire_stone.png"
 id = "firestone"
 item_type = "material"
 rarity = "rare"
-sources = [["items", "aglovale"], ["items", "ancient-fire-essence"], ["items", "arcane-scroll"], ["items", "arisen-vulcans-archistaff"], ["items", "arisen-vulcans-longsword"], ["items", "ash-plumed-boots"], ["items", "ash-plumed-cowl"], ["items", "ash-plumed-cuirass"], ["items", "ash-plumed-garb"], ["items", "ash-plumed-greaves"], ["items", "ash-plumed-helmet"], ["items", "ash-plumed-hood"], ["items", "ash-plumed-robe"], ["items", "ash-plumed-shoes"], ["items", "ashen-phoenician-boots"], ["items", "ashen-phoenician-cowl"], ["items", "ashen-phoenician-cuirass"], ["items", "ashen-phoenician-garb"], ["items", "ashen-phoenician-greaves"], ["items", "ashen-phoenician-helmet"], ["items", "ashen-phoenician-hood"], ["items", "ashen-phoenician-robe"], ["items", "ashen-phoenician-shield"], ["items", "ashen-phoenician-shoes"], ["items", "beguiled-mystic-katar"], ["items", "beguiled-mystic-katar-x"], ["items", "beheaded-scholars-chargeblade"], ["items", "beheaded-stargazers-candlehead"], ["items", "book-of-fire"], ["items", "book-of-fire-x"], ["items", "book-of-the-arcane"], ["items", "book-of-the-arcane-x"], ["items", "boots-of-fire"], ["items", "candle-pike"], ["items", "candle-staff"], ["items", "dyrnwyn"], ["items", "ember-plumed-boots"], ["items", "ember-plumed-cowl"], ["items", "ember-plumed-cuirass"], ["items", "ember-plumed-garb"], ["items", "ember-plumed-greaves"], ["items", "ember-plumed-helmet"], ["items", "ember-plumed-hood"], ["items", "ember-plumed-robe"], ["items", "ember-plumed-shoes"], ["items", "fire-arrows"], ["items", "firepike"], ["items", "flameguard"], ["items", "great-phoenician-boots"], ["items", "great-phoenician-cowl"], ["items", "great-phoenician-cuirass"], ["items", "great-phoenician-garb"], ["items", "great-phoenician-greaves"], ["items", "great-phoenician-helmet"], ["items", "great-phoenician-hood"], ["items", "great-phoenician-robe"], ["items", "great-phoenician-shield"], ["items", "great-phoenician-shoes"], ["items", "great-phoenixsong"], ["items", "high-phoenician-boots"], ["items", "high-phoenician-cowl"], ["items", "high-phoenician-cuirass"], ["items", "high-phoenician-garb"], ["items", "high-phoenician-greaves"], ["items", "high-phoenician-helmet"], ["items", "high-phoenician-hood"], ["items", "high-phoenician-robe"], ["items", "high-phoenician-shield"], ["items", "high-phoenician-shoes"], ["items", "high-phoenixsong"], ["items", "ifrits-feet"], ["items", "infernal-boots"], ["items", "mammons-sword"], ["items", "mochis-boots-of-mercy"], ["items", "mystic-katar"], ["items", "phoenician-boots"], ["items", "phoenician-cowl"], ["items", "phoenician-cuirass"], ["items", "phoenician-garb"], ["items", "phoenician-greaves"], ["items", "phoenician-helmet"], ["items", "phoenician-hood"], ["items", "phoenician-robe"], ["items", "phoenician-shield"], ["items", "phoenician-shoes"], ["items", "phoenixsong"], ["items", "red-dagger"], ["items", "ruby-wand"], ["items", "scorcher"], ["items", "scroll-of-fire"], ["items", "swansong"], ["items", "tethra"], ["items", "vulcan-boots"], ["items", "vulcan-buckler"], ["items", "vulcan-cuirass"], ["items", "vulcan-helmet"], ["items", "vulcans-archistaff"], ["items", "vulcans-longsword"]]
+sources = [["items", "aglovale"], ["items", "ancient-fire-essence"], ["items", "arcane-scroll"], ["items", "arisen-vulcans-archistaff"], ["items", "arisen-vulcans-longsword"], ["items", "ash-plumed-boots"], ["items", "ash-plumed-cowl"], ["items", "ash-plumed-cuirass"], ["items", "ash-plumed-garb"], ["items", "ash-plumed-greaves"], ["items", "ash-plumed-helmet"], ["items", "ash-plumed-hood"], ["items", "ash-plumed-robe"], ["items", "ash-plumed-shoes"], ["items", "ashen-phoenician-boots"], ["items", "ashen-phoenician-cowl"], ["items", "ashen-phoenician-cuirass"], ["items", "ashen-phoenician-garb"], ["items", "ashen-phoenician-greaves"], ["items", "ashen-phoenician-helmet"], ["items", "ashen-phoenician-hood"], ["items", "ashen-phoenician-robe"], ["items", "ashen-phoenician-shield"], ["items", "ashen-phoenician-shoes"], ["items", "beguiled-mystic-katar"], ["items", "beguiled-mystic-katar-x"], ["items", "beheaded-scholars-chargeblade"], ["items", "beheaded-stargazers-candlehead"], ["items", "book-of-fire"], ["items", "book-of-fire-x"], ["items", "book-of-the-arcane"], ["items", "book-of-the-arcane-x"], ["items", "boots-of-fire"], ["items", "candle-pike"], ["items", "candle-staff"], ["items", "dyrnwyn"], ["items", "ember-plumed-boots"], ["items", "ember-plumed-cowl"], ["items", "ember-plumed-cuirass"], ["items", "ember-plumed-garb"], ["items", "ember-plumed-greaves"], ["items", "ember-plumed-helmet"], ["items", "ember-plumed-hood"], ["items", "ember-plumed-robe"], ["items", "ember-plumed-shoes"], ["items", "fire-arrows"], ["items", "firepike"], ["items", "flameguard"], ["items", "great-phoenician-boots"], ["items", "great-phoenician-cowl"], ["items", "great-phoenician-cuirass"], ["items", "great-phoenician-garb"], ["items", "great-phoenician-greaves"], ["items", "great-phoenician-helmet"], ["items", "great-phoenician-hood"], ["items", "great-phoenician-robe"], ["items", "great-phoenician-shield"], ["items", "great-phoenician-shoes"], ["items", "great-phoenixsong"], ["items", "high-phoenician-boots"], ["items", "high-phoenician-cowl"], ["items", "high-phoenician-cuirass"], ["items", "high-phoenician-garb"], ["items", "high-phoenician-greaves"], ["items", "high-phoenician-helmet"], ["items", "high-phoenician-hood"], ["items", "high-phoenician-robe"], ["items", "high-phoenician-shield"], ["items", "high-phoenician-shoes"], ["items", "high-phoenixsong"], ["items", "ifrits-feet"], ["items", "infernal-boots"], ["items", "mammons-sword"], ["items", "medeas-hairpin"], ["items", "mochis-boots-of-mercy"], ["items", "mystic-katar"], ["items", "phoenician-boots"], ["items", "phoenician-cowl"], ["items", "phoenician-cuirass"], ["items", "phoenician-garb"], ["items", "phoenician-greaves"], ["items", "phoenician-helmet"], ["items", "phoenician-hood"], ["items", "phoenician-robe"], ["items", "phoenician-shield"], ["items", "phoenician-shoes"], ["items", "phoenixsong"], ["items", "red-dagger"], ["items", "ruby-wand"], ["items", "scorcher"], ["items", "scroll-of-fire"], ["items", "swansong"], ["items", "tethra"], ["items", "vulcan-boots"], ["items", "vulcan-buckler"], ["items", "vulcan-cuirass"], ["items", "vulcan-helmet"], ["items", "vulcans-archistaff"], ["items", "vulcans-longsword"]]
 tags = ["found_in_shops", "found_in_chests"]
 tier = 1
 useable_by = "all_classes"
@@ -47189,6 +47190,28 @@ defense = "45"
 mana = "20"
 resistance = "196"
 
+[main.items.knight-sirus-helmet]
+aura = "famed"
+category = "items"
+dropped_by = [["bosses", "knight-sirus"]]
+exotic = false
+icon = "/img/armor/knight_sirus_helmet.png"
+id = "knight-sirus-helmet"
+item_type = "armor"
+place = "head"
+rarity = "famed"
+tier = 9
+useable_by = "all_classes"
+
+[main.items.knight-sirus-helmet.stats]
+adornment_slots = "3"
+attack = "-40"
+defense = "170"
+magic = "-40"
+resistance = "170"
+ward = "1"
+ward_recovery_turn = "+1"
+
 [main.items.kobold-armor]
 aura = "common"
 category = "items"
@@ -48275,7 +48298,7 @@ icon = "/img/materials/lightning_stone.png"
 id = "lightningstone"
 item_type = "material"
 rarity = "rare"
-sources = [["items", "aglovale"], ["items", "alpha-olympia-archistaff"], ["items", "alpha-olympia-boots"], ["items", "alpha-olympia-cowl"], ["items", "alpha-olympia-cuirass"], ["items", "alpha-olympia-garb"], ["items", "alpha-olympia-greaves"], ["items", "alpha-olympia-helmet"], ["items", "alpha-olympia-hood"], ["items", "alpha-olympia-shoes"], ["items", "alpha-olympia-vestment"], ["items", "alpha-olympia-warbow"], ["items", "alpha-olympia-warsword"], ["items", "ancient-lightning-essence"], ["items", "arcane-scroll"], ["items", "arisen-globe-holder"], ["items", "arisen-olympia-armor"], ["items", "arisen-olympia-headdress"], ["items", "arisen-olympia-helmet"], ["items", "arisen-olympia-hood"], ["items", "arisen-olympia-leggings"], ["items", "arisen-olympia-legwraps"], ["items", "arisen-olympia-mantle"], ["items", "arisen-olympia-robe"], ["items", "arisen-olympia-shoes"], ["items", "arisen-olympian-joist"], ["items", "arisen-ophion-banner"], ["items", "arisen-thors-arc"], ["items", "arisen-thors-hammer"], ["items", "beguiled-mystic-katar"], ["items", "beguiled-mystic-katar-x"], ["items", "beheaded-scholars-chargeblade"], ["items", "bolt"], ["items", "book-of-lightning"], ["items", "book-of-lightning-x"], ["items", "book-of-the-arcane"], ["items", "book-of-the-arcane-x"], ["items", "boots-of-storm"], ["items", "dangys-arisen-glasses"], ["items", "delta-olympia-archistaff"], ["items", "delta-olympia-boots"], ["items", "delta-olympia-cowl"], ["items", "delta-olympia-cuirass"], ["items", "delta-olympia-garb"], ["items", "delta-olympia-greaves"], ["items", "delta-olympia-helmet"], ["items", "delta-olympia-hood"], ["items", "delta-olympia-shoes"], ["items", "delta-olympia-vestment"], ["items", "delta-olympia-warbow"], ["items", "delta-olympia-warsword"], ["items", "flax44s-shoes"], ["items", "gales-spear"], ["items", "gamma-olympia-archistaff"], ["items", "gamma-olympia-boots"], ["items", "gamma-olympia-cowl"], ["items", "gamma-olympia-cuirass"], ["items", "gamma-olympia-garb"], ["items", "gamma-olympia-greaves"], ["items", "gamma-olympia-helmet"], ["items", "gamma-olympia-hood"], ["items", "gamma-olympia-shoes"], ["items", "gamma-olympia-vestment"], ["items", "gamma-olympia-warbow"], ["items", "gamma-olympia-warsword"], ["items", "globe-holder"], ["items", "mammons-sword"], ["items", "mochis-cowl-of-mercy"], ["items", "mystic-katar"], ["items", "nu-olympia-archistaff"], ["items", "nu-olympia-boots"], ["items", "nu-olympia-cowl"], ["items", "nu-olympia-cuirass"], ["items", "nu-olympia-garb"], ["items", "nu-olympia-greaves"], ["items", "nu-olympia-helmet"], ["items", "nu-olympia-hood"], ["items", "nu-olympia-shoes"], ["items", "nu-olympia-vestment"], ["items", "nu-olympia-warbow"], ["items", "nu-olympia-warsword"], ["items", "old-olympia-armor"], ["items", "old-olympia-headdress"], ["items", "old-olympia-helmet"], ["items", "old-olympia-hood"], ["items", "old-olympia-leggings"], ["items", "old-olympia-legwraps"], ["items", "old-olympia-mantle"], ["items", "old-olympia-robe"], ["items", "old-olympia-shoes"], ["items", "olympian-tower-joist"], ["items", "omega-olympia-archistaff"], ["items", "omega-olympia-boots"], ["items", "omega-olympia-cowl"], ["items", "omega-olympia-cuirass"], ["items", "omega-olympia-garb"], ["items", "omega-olympia-greaves"], ["items", "omega-olympia-helmet"], ["items", "omega-olympia-hood"], ["items", "omega-olympia-shoes"], ["items", "omega-olympia-vestment"], ["items", "omega-olympia-warbow"], ["items", "omega-olympia-warsword"], ["items", "ophion-banner"], ["items", "psi-olympia-archistaff"], ["items", "psi-olympia-boots"], ["items", "psi-olympia-cowl"], ["items", "psi-olympia-cuirass"], ["items", "psi-olympia-garb"], ["items", "psi-olympia-greaves"], ["items", "psi-olympia-helmet"], ["items", "psi-olympia-hood"], ["items", "psi-olympia-shoes"], ["items", "psi-olympia-vestment"], ["items", "psi-olympia-warbow"], ["items", "psi-olympia-warsword"], ["items", "purrlys-old-robe"], ["items", "purrlys-robe"], ["items", "scroll-of-lightning"], ["items", "sigma-olympia-archistaff"], ["items", "sigma-olympia-boots"], ["items", "sigma-olympia-cowl"], ["items", "sigma-olympia-cuirass"], ["items", "sigma-olympia-garb"], ["items", "sigma-olympia-greaves"], ["items", "sigma-olympia-helmet"], ["items", "sigma-olympia-hood"], ["items", "sigma-olympia-shoes"], ["items", "sigma-olympia-vestment"], ["items", "sigma-olympia-warbow"], ["items", "sigma-olympia-warsword"], ["items", "ski-boots"], ["items", "storm-arrows"], ["items", "storm-sceptre"], ["items", "swansong"], ["items", "taranis-hood"], ["items", "tempest-boots"], ["items", "tethra"], ["items", "theta-olympia-archistaff"], ["items", "theta-olympia-boots"], ["items", "theta-olympia-cowl"], ["items", "theta-olympia-cuirass"], ["items", "theta-olympia-garb"], ["items", "theta-olympia-greaves"], ["items", "theta-olympia-helmet"], ["items", "theta-olympia-hood"], ["items", "theta-olympia-shoes"], ["items", "theta-olympia-vestment"], ["items", "theta-olympia-warbow"], ["items", "theta-olympia-warsword"], ["items", "thors-arc"], ["items", "thors-hammer"], ["items", "toque-blanche"], ["items", "vajra"], ["items", "xi-olympia-archistaff"], ["items", "xi-olympia-boots"], ["items", "xi-olympia-cowl"], ["items", "xi-olympia-cuirass"], ["items", "xi-olympia-garb"], ["items", "xi-olympia-greaves"], ["items", "xi-olympia-helmet"], ["items", "xi-olympia-hood"], ["items", "xi-olympia-shoes"], ["items", "xi-olympia-vestment"], ["items", "xi-olympia-warbow"], ["items", "xi-olympia-warsword"], ["items", "zeta-olympia-archistaff"], ["items", "zeta-olympia-boots"], ["items", "zeta-olympia-cowl"], ["items", "zeta-olympia-cuirass"], ["items", "zeta-olympia-garb"], ["items", "zeta-olympia-greaves"], ["items", "zeta-olympia-helmet"], ["items", "zeta-olympia-hood"], ["items", "zeta-olympia-shoes"], ["items", "zeta-olympia-vestment"], ["items", "zeta-olympia-warbow"], ["items", "zeta-olympia-warsword"]]
+sources = [["items", "aglovale"], ["items", "alpha-olympia-archistaff"], ["items", "alpha-olympia-boots"], ["items", "alpha-olympia-cowl"], ["items", "alpha-olympia-cuirass"], ["items", "alpha-olympia-garb"], ["items", "alpha-olympia-greaves"], ["items", "alpha-olympia-helmet"], ["items", "alpha-olympia-hood"], ["items", "alpha-olympia-shoes"], ["items", "alpha-olympia-vestment"], ["items", "alpha-olympia-warbow"], ["items", "alpha-olympia-warsword"], ["items", "ancient-lightning-essence"], ["items", "arcane-scroll"], ["items", "arisen-globe-holder"], ["items", "arisen-olympia-armor"], ["items", "arisen-olympia-headdress"], ["items", "arisen-olympia-helmet"], ["items", "arisen-olympia-hood"], ["items", "arisen-olympia-leggings"], ["items", "arisen-olympia-legwraps"], ["items", "arisen-olympia-mantle"], ["items", "arisen-olympia-robe"], ["items", "arisen-olympia-shoes"], ["items", "arisen-olympian-joist"], ["items", "arisen-ophion-banner"], ["items", "arisen-thors-arc"], ["items", "arisen-thors-hammer"], ["items", "beguiled-mystic-katar"], ["items", "beguiled-mystic-katar-x"], ["items", "beheaded-scholars-chargeblade"], ["items", "bolt"], ["items", "book-of-lightning"], ["items", "book-of-lightning-x"], ["items", "book-of-the-arcane"], ["items", "book-of-the-arcane-x"], ["items", "boots-of-storm"], ["items", "dangys-arisen-glasses"], ["items", "delta-olympia-archistaff"], ["items", "delta-olympia-boots"], ["items", "delta-olympia-cowl"], ["items", "delta-olympia-cuirass"], ["items", "delta-olympia-garb"], ["items", "delta-olympia-greaves"], ["items", "delta-olympia-helmet"], ["items", "delta-olympia-hood"], ["items", "delta-olympia-shoes"], ["items", "delta-olympia-vestment"], ["items", "delta-olympia-warbow"], ["items", "delta-olympia-warsword"], ["items", "flax44s-shoes"], ["items", "gales-spear"], ["items", "gamma-olympia-archistaff"], ["items", "gamma-olympia-boots"], ["items", "gamma-olympia-cowl"], ["items", "gamma-olympia-cuirass"], ["items", "gamma-olympia-garb"], ["items", "gamma-olympia-greaves"], ["items", "gamma-olympia-helmet"], ["items", "gamma-olympia-hood"], ["items", "gamma-olympia-shoes"], ["items", "gamma-olympia-vestment"], ["items", "gamma-olympia-warbow"], ["items", "gamma-olympia-warsword"], ["items", "globe-holder"], ["items", "mammons-sword"], ["items", "medeas-hairpin"], ["items", "mochis-cowl-of-mercy"], ["items", "mystic-katar"], ["items", "nu-olympia-archistaff"], ["items", "nu-olympia-boots"], ["items", "nu-olympia-cowl"], ["items", "nu-olympia-cuirass"], ["items", "nu-olympia-garb"], ["items", "nu-olympia-greaves"], ["items", "nu-olympia-helmet"], ["items", "nu-olympia-hood"], ["items", "nu-olympia-shoes"], ["items", "nu-olympia-vestment"], ["items", "nu-olympia-warbow"], ["items", "nu-olympia-warsword"], ["items", "old-olympia-armor"], ["items", "old-olympia-headdress"], ["items", "old-olympia-helmet"], ["items", "old-olympia-hood"], ["items", "old-olympia-leggings"], ["items", "old-olympia-legwraps"], ["items", "old-olympia-mantle"], ["items", "old-olympia-robe"], ["items", "old-olympia-shoes"], ["items", "olympian-tower-joist"], ["items", "omega-olympia-archistaff"], ["items", "omega-olympia-boots"], ["items", "omega-olympia-cowl"], ["items", "omega-olympia-cuirass"], ["items", "omega-olympia-garb"], ["items", "omega-olympia-greaves"], ["items", "omega-olympia-helmet"], ["items", "omega-olympia-hood"], ["items", "omega-olympia-shoes"], ["items", "omega-olympia-vestment"], ["items", "omega-olympia-warbow"], ["items", "omega-olympia-warsword"], ["items", "ophion-banner"], ["items", "psi-olympia-archistaff"], ["items", "psi-olympia-boots"], ["items", "psi-olympia-cowl"], ["items", "psi-olympia-cuirass"], ["items", "psi-olympia-garb"], ["items", "psi-olympia-greaves"], ["items", "psi-olympia-helmet"], ["items", "psi-olympia-hood"], ["items", "psi-olympia-shoes"], ["items", "psi-olympia-vestment"], ["items", "psi-olympia-warbow"], ["items", "psi-olympia-warsword"], ["items", "purrlys-old-robe"], ["items", "purrlys-robe"], ["items", "scroll-of-lightning"], ["items", "sigma-olympia-archistaff"], ["items", "sigma-olympia-boots"], ["items", "sigma-olympia-cowl"], ["items", "sigma-olympia-cuirass"], ["items", "sigma-olympia-garb"], ["items", "sigma-olympia-greaves"], ["items", "sigma-olympia-helmet"], ["items", "sigma-olympia-hood"], ["items", "sigma-olympia-shoes"], ["items", "sigma-olympia-vestment"], ["items", "sigma-olympia-warbow"], ["items", "sigma-olympia-warsword"], ["items", "ski-boots"], ["items", "storm-arrows"], ["items", "storm-sceptre"], ["items", "swansong"], ["items", "taranis-hood"], ["items", "tempest-boots"], ["items", "tethra"], ["items", "theta-olympia-archistaff"], ["items", "theta-olympia-boots"], ["items", "theta-olympia-cowl"], ["items", "theta-olympia-cuirass"], ["items", "theta-olympia-garb"], ["items", "theta-olympia-greaves"], ["items", "theta-olympia-helmet"], ["items", "theta-olympia-hood"], ["items", "theta-olympia-shoes"], ["items", "theta-olympia-vestment"], ["items", "theta-olympia-warbow"], ["items", "theta-olympia-warsword"], ["items", "thors-arc"], ["items", "thors-hammer"], ["items", "toque-blanche"], ["items", "vajra"], ["items", "xi-olympia-archistaff"], ["items", "xi-olympia-boots"], ["items", "xi-olympia-cowl"], ["items", "xi-olympia-cuirass"], ["items", "xi-olympia-garb"], ["items", "xi-olympia-greaves"], ["items", "xi-olympia-helmet"], ["items", "xi-olympia-hood"], ["items", "xi-olympia-shoes"], ["items", "xi-olympia-vestment"], ["items", "xi-olympia-warbow"], ["items", "xi-olympia-warsword"], ["items", "zeta-olympia-archistaff"], ["items", "zeta-olympia-boots"], ["items", "zeta-olympia-cowl"], ["items", "zeta-olympia-cuirass"], ["items", "zeta-olympia-garb"], ["items", "zeta-olympia-greaves"], ["items", "zeta-olympia-helmet"], ["items", "zeta-olympia-hood"], ["items", "zeta-olympia-shoes"], ["items", "zeta-olympia-vestment"], ["items", "zeta-olympia-warbow"], ["items", "zeta-olympia-warsword"]]
 tags = ["found_in_shops", "found_in_chests"]
 tier = 1
 useable_by = "all_classes"
@@ -49910,6 +49933,30 @@ useable_by = "thief_classes"
 adornment_slots = "2"
 attack = "110"
 magic = "110"
+
+[main.items.medeas-hairpin]
+aura = "legendary"
+category = "items"
+dropped_by = [["bosses", "medea-arisen-queen"]]
+exotic = false
+icon = "/img/armor/medeas_comb.png"
+id = "medeas-hairpin"
+item_type = "armor"
+place = "head"
+rarity = "legendary"
+tier = 10
+upgrade_materials = [["items", "waterstone"], ["items", "lightningstone"], ["items", "firestone"], ["items", "earthstone"]]
+useable_by = "all_classes"
+
+[main.items.medeas-hairpin.stats]
+accuracy = "+5"
+adornment_slots = "2"
+attack = "12"
+dexterity = "150"
+foresight = "75"
+magic = "12"
+view_distance = "+5"
+ward = "2"
 
 [main.items.medusas-bow]
 aura = "legendary"
@@ -53004,7 +53051,7 @@ exotic = true
 icon = "/img/useables/oillipheist_tower_key.png"
 id = "oillipheist-tower-key"
 rarity = "legendary"
-tier = 9
+tier = 10
 useable_by = "all_classes"
 
 [main.items.oisin-crown]
@@ -56141,7 +56188,7 @@ useable_by = "all_classes"
 [main.items.pure-waterstone]
 aura = "common"
 category = "items"
-dropped_by = [["bosses", "castor"], ["bosses", "cthulhu"], ["monsters", "cthulhu-edf67d83"], ["bosses", "fey-kelpie"], ["bosses", "finfolk"], ["bosses", "hydra"], ["bosses", "kelpie"], ["bosses", "pollux"], ["bosses", "terrifying-ghost"]]
+dropped_by = [["bosses", "castor"], ["bosses", "cthulhu"], ["monsters", "cthulhu-edf67d83"], ["monsters", "fey-finfolk"], ["bosses", "fey-kelpie"], ["monsters", "fey-merrow"], ["bosses", "finfolk"], ["bosses", "hydra"], ["bosses", "kelpie"], ["bosses", "pollux"], ["bosses", "terrifying-ghost"]]
 exotic = false
 icon = "/img/materials/pure_waterstone.png"
 id = "pure-waterstone"
@@ -58184,13 +58231,13 @@ mana = "32"
 resistance = "331"
 ward = "3"
 
-[main.items.ruairc-legwaps]
+[main.items.ruairc-legwraps]
 aura = "famed"
 category = "items"
 dropped_by = [["bosses", "oillipheist"]]
 exotic = true
 icon = "/img/armor/ruairc_legwraps.png"
-id = "ruairc-legwaps"
+id = "ruairc-legwraps"
 item_type = "armor"
 place = "legs"
 rarity = "famed"
@@ -58198,10 +58245,10 @@ tier = 10
 upgrade_materials = [["items", "cursed-ortanite"], ["items", "cavestone"]]
 useable_by = "valhallan_summoner_classes"
 
-[[main.items.ruairc-legwaps.immunities]]
+[[main.items.ruairc-legwraps.immunities]]
 name = "cursed"
 
-[main.items.ruairc-legwaps.stats]
+[main.items.ruairc-legwraps.stats]
 adornment_slots = "3"
 defense = "90"
 double_summon_chance = "+7"
@@ -61098,7 +61145,7 @@ useable_by = "all_classes"
 [main.items.solarite]
 aura = "common"
 category = "items"
-dropped_by = [["monsters", "skeleton-96a555cc"], ["raids", "hyperion"], ["raids", "starlord"]]
+dropped_by = [["monsters", "fey-selkie"], ["monsters", "skeleton-96a555cc"], ["raids", "hyperion"], ["raids", "starlord"]]
 exotic = false
 icon = "/img/materials/solarite.png"
 id = "solarite"
@@ -65832,13 +65879,13 @@ mana = "55"
 [main.items.waterstone]
 aura = "rare"
 category = "items"
-dropped_by = [["monsters", "ancient-jinn"], ["monsters", "balor-gateway"], ["monsters", "balor-gateway-c5c7f249"], ["monsters", "elite-nothren-berserker"], ["monsters", "elite-nothren-raider"], ["monsters", "elite-nothren-warlock"], ["monsters", "fallen-leviathan"], ["monsters", "frost-core"], ["monsters", "frost-mage"], ["monsters", "frost-troll"], ["monsters", "great-lizarr-noble"], ["monsters", "great-lizarr-warrior"], ["monsters", "great-mimic"], ["monsters", "gull"], ["monsters", "jelly"], ["monsters", "lizarr-marauder"], ["monsters", "lizarr-noble"], ["monsters", "lizarr-warrior"], ["monsters", "nothren-berserker"], ["monsters", "nothren-raider"], ["monsters", "nothren-warlock"], ["monsters", "sea-demon"], ["monsters", "witch"], ["raids", "arisen-hel"], ["raids", "arisen-surtr"], ["raids", "hel"], ["raids", "surtr"]]
+dropped_by = [["monsters", "ancient-jinn"], ["monsters", "balor-gateway"], ["monsters", "balor-gateway-c5c7f249"], ["monsters", "elite-nothren-berserker"], ["monsters", "elite-nothren-raider"], ["monsters", "elite-nothren-warlock"], ["monsters", "fallen-leviathan"], ["monsters", "frost-core"], ["monsters", "frost-mage"], ["monsters", "frost-troll"], ["monsters", "great-lizarr-noble"], ["monsters", "great-lizarr-warrior"], ["monsters", "great-mimic"], ["monsters", "gull"], ["monsters", "jelly"], ["monsters", "lizarr-marauder"], ["monsters", "lizarr-noble"], ["monsters", "lizarr-warrior"], ["monsters", "merrow"], ["monsters", "nothren-berserker"], ["monsters", "nothren-raider"], ["monsters", "nothren-warlock"], ["monsters", "sea-demon"], ["monsters", "witch"], ["raids", "arisen-hel"], ["raids", "arisen-surtr"], ["raids", "hel"], ["raids", "surtr"]]
 exotic = false
 icon = "/img/materials/water_stone.png"
 id = "waterstone"
 item_type = "material"
 rarity = "rare"
-sources = [["items", "aglovale"], ["items", "ancient-water-essence"], ["items", "arcane-scroll"], ["items", "arisen-candy-cane"], ["items", "arisen-caroling-lute"], ["items", "arisen-ithras-blade"], ["items", "arisen-ithras-staff"], ["items", "arisen-north-pole"], ["items", "arisen-palm-branch"], ["items", "arisen-reinbow"], ["items", "arisen-sleighblade"], ["items", "arisen-treecutter"], ["items", "arisen-trevelyans-archistaff"], ["items", "arisen-trevelyans-hood"], ["items", "arisen-trevelyans-robe"], ["items", "arisen-trevelyans-shoes"], ["items", "arisen-willow-branch"], ["items", "beguiled-mystic-katar"], ["items", "beguiled-mystic-katar-x"], ["items", "beheaded-scholars-chargeblade"], ["items", "blue-dagger"], ["items", "blue-wand"], ["items", "book-of-the-arcane"], ["items", "book-of-the-arcane-x"], ["items", "book-of-water"], ["items", "book-of-water-x"], ["items", "boots-of-the-sea"], ["items", "boreals-staff"], ["items", "candy-cane"], ["items", "caroling-lute"], ["items", "coral-armor"], ["items", "coral-boots"], ["items", "coral-cowl"], ["items", "coral-garb"], ["items", "coral-helmet"], ["items", "coral-hood"], ["items", "coral-robe"], ["items", "crook-and-flail"], ["items", "ebon-candy-cane"], ["items", "ebon-caroling-lute"], ["items", "ebon-reinbow"], ["items", "ebon-sleighblade"], ["items", "frosty-daggers"], ["items", "glacial-staff"], ["items", "havels-old-sword"], ["items", "havels-sword"], ["items", "ice-arrows"], ["items", "ithras-blade"], ["items", "ithras-staff"], ["items", "leviathan-cuirass"], ["items", "mammons-sword"], ["items", "mystic-katar"], ["items", "north-pole"], ["items", "oceanic-boots"], ["items", "palm-tree-branch"], ["items", "reinbow"], ["items", "scroll-of-ice"], ["items", "shivas-bow"], ["items", "sleighblade"], ["items", "swansong"], ["items", "tethra"], ["items", "treecutter"], ["items", "trevelyans-archistaff"], ["items", "trevelyans-hood"], ["items", "trevelyans-robe"], ["items", "trevelyans-shoes"], ["items", "willow-tree-branch"], ["items", "yeti-coat"], ["items", "yeti-mightycoat"], ["items", "yeti-overcoat"]]
+sources = [["items", "aglovale"], ["items", "ancient-water-essence"], ["items", "arcane-scroll"], ["items", "arisen-candy-cane"], ["items", "arisen-caroling-lute"], ["items", "arisen-ithras-blade"], ["items", "arisen-ithras-staff"], ["items", "arisen-north-pole"], ["items", "arisen-palm-branch"], ["items", "arisen-reinbow"], ["items", "arisen-sleighblade"], ["items", "arisen-treecutter"], ["items", "arisen-trevelyans-archistaff"], ["items", "arisen-trevelyans-hood"], ["items", "arisen-trevelyans-robe"], ["items", "arisen-trevelyans-shoes"], ["items", "arisen-willow-branch"], ["items", "beguiled-mystic-katar"], ["items", "beguiled-mystic-katar-x"], ["items", "beheaded-scholars-chargeblade"], ["items", "blue-dagger"], ["items", "blue-wand"], ["items", "book-of-the-arcane"], ["items", "book-of-the-arcane-x"], ["items", "book-of-water"], ["items", "book-of-water-x"], ["items", "boots-of-the-sea"], ["items", "boreals-staff"], ["items", "candy-cane"], ["items", "caroling-lute"], ["items", "coral-armor"], ["items", "coral-boots"], ["items", "coral-cowl"], ["items", "coral-garb"], ["items", "coral-helmet"], ["items", "coral-hood"], ["items", "coral-robe"], ["items", "crook-and-flail"], ["items", "ebon-candy-cane"], ["items", "ebon-caroling-lute"], ["items", "ebon-reinbow"], ["items", "ebon-sleighblade"], ["items", "frosty-daggers"], ["items", "glacial-staff"], ["items", "havels-old-sword"], ["items", "havels-sword"], ["items", "ice-arrows"], ["items", "ithras-blade"], ["items", "ithras-staff"], ["items", "leviathan-cuirass"], ["items", "mammons-sword"], ["items", "medeas-hairpin"], ["items", "mystic-katar"], ["items", "north-pole"], ["items", "oceanic-boots"], ["items", "palm-tree-branch"], ["items", "reinbow"], ["items", "scroll-of-ice"], ["items", "shivas-bow"], ["items", "sleighblade"], ["items", "swansong"], ["items", "tethra"], ["items", "treecutter"], ["items", "trevelyans-archistaff"], ["items", "trevelyans-hood"], ["items", "trevelyans-robe"], ["items", "trevelyans-shoes"], ["items", "willow-tree-branch"], ["items", "yeti-coat"], ["items", "yeti-mightycoat"], ["items", "yeti-overcoat"]]
 tags = ["found_in_shops", "found_in_chests"]
 tier = 1
 useable_by = "all_classes"
@@ -70651,7 +70698,7 @@ name = "cactus"
 
 [main.monsters.fey-finfolk]
 category = "monsters"
-drops = [["items", "ambrosia"], ["items", "caoranachs-lair-key"]]
+drops = [["items", "pure-waterstone"], ["items", "ambrosia"], ["items", "caoranachs-lair-key"], ["items", "avalon-ore"]]
 events = ["the_cursed_queens"]
 family = "common"
 icon = "/img/bosses/finfolk_fey.png"
@@ -70662,7 +70709,7 @@ tier = 8
 
 [main.monsters.fey-merrow]
 category = "monsters"
-drops = [["items", "hide"]]
+drops = [["items", "hide"], ["items", "pure-waterstone"]]
 events = ["the_cursed_queens"]
 family = "common"
 icon = "/img/monsters/merrow_fey.png"
@@ -70673,7 +70720,7 @@ tier = 5
 
 [main.monsters.fey-selkie]
 category = "monsters"
-drops = [["items", "ambrosia"], ["items", "caoranachs-lair-key"]]
+drops = [["items", "solarite"], ["items", "ambrosia"], ["items", "caoranachs-lair-key"]]
 events = ["the_cursed_queens"]
 family = "common"
 icon = "/img/monsters/selkie_fey.png"
@@ -71971,7 +72018,7 @@ tier = 10
 
 [main.monsters.merrow]
 category = "monsters"
-drops = [["items", "hide"]]
+drops = [["items", "hide"], ["items", "waterstone"]]
 events = ["the_cursed_queens"]
 family = "common"
 icon = "/img/monsters/merrow.png"
@@ -72886,7 +72933,7 @@ tier = 5
 
 [main.monsters.selkie]
 category = "monsters"
-drops = [["items", "caoranachs-lair-key"]]
+drops = [["items", "balorite"], ["items", "caoranachs-lair-key"]]
 events = ["the_cursed_queens"]
 family = "common"
 icon = "/img/monsters/selkie.png"
@@ -88322,8 +88369,9 @@ chance = "100%"
 name = "lulled"
 
 [main.spells.ruaircs-requiem.stats]
+crit_chance = "5"
 element = ["physical"]
-power = "900"
+power = "1200"
 
 [main.spells.rune-of-eos]
 category = "spells"

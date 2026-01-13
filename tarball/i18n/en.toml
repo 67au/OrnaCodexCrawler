@@ -9366,6 +9366,10 @@ name = "King's Hood"
 description = "Formal attire of a King."
 name = "King's Robe"
 
+[main.items.knight-sirus-helmet]
+description = "Helmet of Knight Sirus."
+name = "Knight Sirus Helmet"
+
 [main.items.kobold-armor]
 description = "Light armor of a kobold."
 name = "Kobold Armor"
@@ -9921,6 +9925,10 @@ name = "Marketing Plans"
 [main.items.masamune]
 description = "A beautiful blade that resemble stars in the night sky."
 name = "Masamune"
+
+[main.items.medeas-hairpin]
+description = "Golden hairpin of Medea."
+name = "Medea's Hairpin"
 
 [main.items.medusas-bow]
 description = "Bow of the gorgon Medusa. Arrows loosed from this bow can break an opponent's defenses."
@@ -11358,9 +11366,9 @@ name = "Ruairc Helm"
 description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nThis garb will cause one to allows act first in battle."
 name = "Ruairc Hood"
 
-[main.items.ruairc-legwaps]
+[main.items.ruairc-legwraps]
 description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nA Valhallan that wears this item may allow their follower to occasionally cast a spell or skill from their equipped options.\n\nA Summoner that wears this item may occasionally summon two entities rather than one."
-name = "Ruairc Legwaps"
+name = "Ruairc Legwraps"
 
 [main.items.ruairc-robe]
 description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nThis garb will cause one to allows act first in battle."

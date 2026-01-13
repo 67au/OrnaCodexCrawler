@@ -9366,6 +9366,10 @@ name = "國王的兜帽"
 description = "國王的正式服裝。"
 name = "國王的長袍"
 
+[main.items.knight-sirus-helmet]
+description = "Helmet of Knight Sirus."
+name = "Knight Sirus Helmet"
+
 [main.items.kobold-armor]
 description = "地精的輕裝甲."
 name = "地精盔甲"
@@ -9921,6 +9925,10 @@ name = "行銷計劃"
 [main.items.masamune]
 description = "就像那夜空繁星般的美麗刀刃。"
 name = "正宗"
+
+[main.items.medeas-hairpin]
+description = "Golden hairpin of Medea."
+name = "Medea's Hairpin"
 
 [main.items.medusas-bow]
 description = "蛇髮女妖梅杜莎之弓。從這把弓射出的箭可以打破對手的防禦。"
@@ -11358,9 +11366,9 @@ name = "盧埃克頭盔"
 description = "奧利菲斯特是被詛咒的阿爾斯特王所留下的殘軀，是一頭受到詛咒的巨大惡龍。無論人類還是怪物都曾獵殺過奧利菲斯特。\n在浪潮地城中，牠的氣味可能會為你引來更多的怪物。\n這件盔甲使你在戰鬥中能最先行動。"
 name = "盧埃克兜帽"
 
-[main.items.ruairc-legwaps]
+[main.items.ruairc-legwraps]
 description = "奧利菲斯特是被詛咒的阿爾斯特王所留下的殘軀，是一頭受到詛咒的巨大惡龍。無論人類還是怪物都曾獵殺過奧利菲斯特。\n在浪潮地城中，牠的氣味可能會為你引來更多的怪物。\n穿著這裝備的瓦爾哈蘭可以讓跟隨者偶爾使用他所裝備的技能或法術。\n\n穿著這裝備的召喚師偶爾能從召喚1隻變成召喚2隻。"
-name = "Ruairc Legwaps"
+name = "盧埃克裹腿"
 
 [main.items.ruairc-robe]
 description = "奧利菲斯特是被詛咒的阿爾斯特王所留下的殘軀，是一頭受到詛咒的巨大惡龍。無論人類還是怪物都曾獵殺過奧利菲斯特。\n在浪潮地城中，牠的氣味可能會為你引來更多的怪物。\n這件盔甲使你在戰鬥中能最先行動。"

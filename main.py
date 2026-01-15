@@ -3,6 +3,7 @@ import importlib
 
 from scrapy.utils.project import get_project_settings
 
+
 def main():
     parser = argparse.ArgumentParser(
         prog="OrnaCodexCrawler",
@@ -13,7 +14,10 @@ def main():
     parser.add_argument('--extra', help="extra dir")
     parser.add_argument('--dump', help="dump dir")
     parser.add_argument('--export', help="export dir")
-    parser.add_argument('--httpcache', action='store_true', help='enable scrapy httpcache')
+    parser.add_argument('--httpcache', action='store_true',
+                        help='enable scrapy httpcache')
+    parser.add_argument('--disallow-patches', action='store_true',
+                        help='disallow apply unindexed urls patches')
     parser.add_argument('--base', help='Set BASE_URL')
 
     args = parser.parse_args()
@@ -24,7 +28,7 @@ def main():
         print(f'Load module {command} failed: {e}')
         exit(1)
 
-    settings  = get_project_settings()
+    settings = get_project_settings()
     if args.tmp:
         settings.set('TMP_DIR', args.tmp)
     if args.output:
@@ -37,9 +41,17 @@ def main():
         settings.set('EXPORT_EXTRA_DIR', args.export)
     if args.httpcache:
         settings.set('HTTPCACHE_ENABLED', True)
+        settings.set('HTTPCACHE_EXPIRATION_SECS', 0)
+        settings.set('HTTPCACHE_DIR',  'httpcache')
+        settings.set('HTTPCACHE_IGNORE_HTTP_CODES', [])
+        settings.set('HTTPCACHE_STORAGE',
+                     'scrapy.extensions.httpcache.FilesystemCacheStorage')
+    if args.disallow_patches:
+        settings.set('PATCHES_ENABLED', False)
     if args.base:
         settings.set('BASE_URL', args.base)
     mod.run(settings)
+
 
 if __name__ == '__main__':
     main()

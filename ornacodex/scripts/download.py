@@ -1,6 +1,8 @@
+from collections import defaultdict
 import heapq
 from itertools import product
 import json
+from pathlib import Path
 from typing import Any, Iterator
 from scrapy.crawler import CrawlerRunner
 from scrapy.settings import Settings
@@ -9,6 +11,8 @@ from scrapy.utils.project import get_project_settings
 
 from ..utils.exctractor import Exctractor
 from ..utils.path_config import TmpPathConfig
+
+from ..patches import unindexed_urls
 
 from ..spiders import bosses, classes, followers, item_types, items, monsters, raids, spells
 
@@ -22,11 +26,19 @@ crawlers = [
 
 
 def merge2sort(iter1: Iterator[Any], iter2: Iterator[Any]) -> Iterator[Any]:
-    merged_iter = heapq.merge(iter1, iter2, key=lambda x: x['id'])
-    return list(merged_iter)
+    return sorted({it['id']: it for it in iter1+iter2}.values(), key=lambda x: x['id'])
+
+
+def urls2dict(urls: Iterator[str]):
+    d = defaultdict(set)
+    for url in urls:
+        catergory, id = Exctractor.extract_codex_id(url)
+        d[catergory].add(id)
+    return d
 
 
 def crawl_codex(settings: Settings):
+    patches_enabled = settings.get('PATCHES_ENABLED')
 
     tmp_dir_config = TmpPathConfig(settings.get('TMP_DIR'))
 
@@ -71,56 +83,77 @@ def crawl_codex(settings: Settings):
             f'{tmp_dir_config.miss}/%(language)s/%(name)s.json': json_feed
         }
         runner.settings = settings
-        for _ in range(3):
-            indexed = {}
-            scanned = {}
+
+        # 索引结果
+        indexed = set()
+        # 扫描结果
+        scanned = set(unindexed_urls if patches_enabled else [])
+
+        def update_scan(files_dir: Path):
             for crawler in crawlers:
                 name = crawler.Spider.name
-                with open(tmp_dir_config.entries.joinpath(base_language, f'{name}.json')) as f:
-                    entries = json.load(f)
-                    indexed[name] = set()
-                    for e in entries:
-                        indexed[name].add(e['id'])
-                        for _, drop in e.get('drops', []):
-                            for category, id in (Exctractor.extract_codex_id(m) for m in (d.get('href') for d in drop) if m):
-                                if category not in scanned:
-                                    scanned[category] = set()
-                                scanned[category].add(id)
+                file_path = files_dir.joinpath(base_language, f'{name}.json')
+                if file_path.exists():
+                    with open(file_path) as f:
+                        entries = json.load(f)
+                        for entry in entries:
+                            indexed.add(f'/codex/{name}/{entry["id"]}/')
+                            for _, drops in entry.get('drops', []):
+                                scanned.update(filter(lambda x: x is not None,
+                                                      (drop.get('href') for drop in drops)))
 
-            flag = True
-            for crawler in crawlers:
-                name = crawler.Spider.name
-                set_diff = scanned.get(name, set()) - indexed.get(name, set())
-                if len(set_diff) == 0:
-                    continue
-                flag = False
-                start_ids = list(set_diff)
-                for language in languages:
-                    runner.crawl(crawler.Spider, language=language,
-                                 start_ids=start_ids)
-
-            if flag:
-                yield runner.stop()
-                continue
-            else:
-                yield runner.join()
-
+        def backup(files_dir):
+            bak = dict()
             for (language, crawler) in product(languages, crawlers):
-                name = crawler.Spider.name
-                miss_path = tmp_dir_config.miss.joinpath(
-                    language, f'{name}.json')
-                if miss_path.exists():
-                    with open(miss_path) as f:
-                        miss = json.load(f)
-                else:
-                    miss = []
-                with open(tmp_dir_config.entries.joinpath(language, f'{name}.json'), 'r+') as f:
-                    entries = json.load(f)
-                    merged = merge2sort(entries, miss)
-                    f.seek(0)
-                    f.truncate()
-                    json.dump(merged, f, ensure_ascii=False, indent=4)
+                category = crawler.Spider.name
+                file_path = files_dir.joinpath(language, f'{category}.json')
+                if file_path.exists():
+                    with open(file_path) as f:
+                        entries = json.load(f)
+                        bak[f'{category}/{language}'] = entries
+            return bak
+        
+        def merge_backup(files_dir, bak):
+            for (language, crawler) in product(languages, crawlers):
+                category = crawler.Spider.name
+                name = f'{category}/{language}'
+                file_path = files_dir.joinpath(language, f'{category}.json')
+                entries_bak = bak.get(name, [])
 
+                if any(entries_bak) and not file_path.exists():
+                    file_path.parent.mkdir(parents=True, exist_ok=True)
+                    with open(file_path, 'r+') as f:
+                        json.dump(entries_bak, f, ensure_ascii=False, indent=4)
+                if file_path.exists():
+                    with open(file_path, 'r+') as f:
+                        entries = json.load(f)
+                        merged = merge2sort(entries, entries_bak)
+                        f.seek(0)
+                        f.truncate()
+                        json.dump(merged, f, ensure_ascii=False, indent=4)
+
+        update_scan(tmp_dir_config.entries)
+        
+        n = 0
+        for _ in iter(lambda: scanned.issubset(indexed) and n < 3, True):
+            n += 1
+            urls_dict = urls2dict(scanned - indexed)
+            backup_missed = backup(tmp_dir_config.miss)
+            for crawler in crawlers:
+                name = crawler.Spider.name
+                start_ids = urls_dict.get(name, [])
+                if len(start_ids) > 0:
+                    for language in languages:
+                        runner.crawl(crawler.Spider, language=language,
+                                    start_ids=start_ids)
+            yield runner.join()
+
+            update_scan(tmp_dir_config.miss)
+            merge_backup(tmp_dir_config.miss, backup_missed)
+
+        merge_backup(tmp_dir_config.entries, backup(tmp_dir_config.miss))
+
+        yield runner.stop()
         reactor.callFromThread(reactor.stop)
 
     crawl()
@@ -128,6 +161,5 @@ def crawl_codex(settings: Settings):
 
 
 def run(settings: Settings):
-    settings = get_project_settings()
     settings['LOG_LEVEL'] = 'INFO'
     crawl_codex(settings)

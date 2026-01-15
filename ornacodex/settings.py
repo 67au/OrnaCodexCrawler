@@ -104,3 +104,6 @@ OUTPUT_DIR = 'output'
 EXTRA_DIR = 'extra'
 DUMP_DIR = 'dump'
 EXPORT_EXTRA_DIR = 'export'
+
+# patched urls
+PATCHES_ENABLED = True

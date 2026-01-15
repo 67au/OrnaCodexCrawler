@@ -54,7 +54,7 @@ class Exctractor:
         return drop_struct
 
     @classmethod
-    def extract_codex_id(cls, codex: str) -> list:
+    def extract_codex_id(cls, codex: str) -> list[str]:
         return codex.strip('/').split('/')[-2:]
 
     @classmethod

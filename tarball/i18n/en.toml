@@ -9427,67 +9427,67 @@ description = "A relic of Merlin's eccentric collection, this dagger grants incr
 name = "Lass of the Lake"
 
 [main.items.last-martyrs-armor]
-description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
+description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish Level that it is being used in, minus its own Anguished Level."
 name = "Last Martyr's Armor"
 
 [main.items.last-martyrs-baton]
-description = "Weapon forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
+description = "Weapon forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish Level that it is being used in, minus its own Anguished Level."
 name = "Last Martyr's Baton"
 
 [main.items.last-martyrs-boots]
-description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
+description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish Level that it is being used in, minus its own Anguished Level."
 name = "Last Martyr's Boots"
 
 [main.items.last-martyrs-chestguard]
-description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
+description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish Level that it is being used in, minus its own Anguished Level."
 name = "Last Martyr's Chestguard"
 
 [main.items.last-martyrs-cowl]
-description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
+description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish Level that it is being used in, minus its own Anguished Level."
 name = "Last Martyr's Cowl"
 
 [main.items.last-martyrs-flame]
-description = "Weapon forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
+description = "Weapon forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish Level that it is being used in, minus its own Anguished Level."
 name = "Last Martyr's Flame"
 
 [main.items.last-martyrs-garb]
-description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
+description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish Level that it is being used in, minus its own Anguished Level."
 name = "Last Martyr's Garb"
 
 [main.items.last-martyrs-headdress]
-description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
+description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish Level that it is being used in, minus its own Anguished Level."
 name = "Last Martyr's Headdress"
 
 [main.items.last-martyrs-helmet]
-description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
+description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish Level that it is being used in, minus its own Anguished Level."
 name = "Last Martyr's Helmet"
 
 [main.items.last-martyrs-hood]
-description = "Cloth forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
+description = "Cloth forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish Level that it is being used in, minus its own Anguished Level."
 name = "Last Martyr's Hood"
 
 [main.items.last-martyrs-leggings]
-description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
+description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish Level that it is being used in, minus its own Anguished Level."
 name = "Last Martyr's Leggings"
 
 [main.items.last-martyrs-legwraps]
-description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
+description = "Armor forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish Level that it is being used in, minus its own Anguished Level."
 name = "Last Martyr's Legwraps"
 
 [main.items.last-martyrs-longbow]
-description = "Weapon forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
+description = "Weapon forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish Level that it is being used in, minus its own Anguished Level."
 name = "Last Martyr's Longbow"
 
 [main.items.last-martyrs-robe]
-description = "Cloth forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
+description = "Cloth forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish Level that it is being used in, minus its own Anguished Level."
 name = "Last Martyr's Robe"
 
 [main.items.last-martyrs-skirt]
-description = "Cloth forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
+description = "Cloth forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish Level that it is being used in, minus its own Anguished Level."
 name = "Last Martyr's Skirt"
 
 [main.items.last-martyrs-sword]
-description = "Weapon forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish level that it is being used in."
+description = "Weapon forged of the trials, tribulations, failures, and anguish of heroes and travelers alike. This gear gains an additional 1 percent stats for each Anguish Level that it is being used in, minus its own Anguished Level."
 name = "Last Martyr's Sword"
 
 [main.items.lasting-lantern]

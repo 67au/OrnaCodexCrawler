@@ -11619,7 +11619,7 @@ name = "巨蟒箭矢"
 
 [main.items.serpent-pearl]
 description = "墮落王者阿爾斯特的飾品。阿爾斯特曾是萬海之王但被其御用藥師摩莉所毒害。\n\n持有此道具時，你的部分物防及魔防會交換。道具品質愈好，交換的量愈多。"
-name = "變異龍蛇珠"
+name = "龍蛇珠"
 
 [main.items.serpentslayers-chestplate]
 description = "柏修斯的胸甲。它可以提高抵抗負面狀態的能力。"

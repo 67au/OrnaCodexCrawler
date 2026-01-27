@@ -5237,7 +5237,7 @@ debuff_rate = "13"
 spell_rate = "4"
 
 [main.followers.aegir]
-bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 events = ["of_giants_and_titans"]
 family = "giant"
@@ -5254,7 +5254,7 @@ protect_chance = "4"
 spell_rate = "10"
 
 [main.followers.agathodaemon]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 events = ["wyrmhunt"]
 family = "dragons"
@@ -5822,7 +5822,7 @@ protect_chance = "4"
 spell_rate = "8"
 
 [main.followers.balor-flame]
-bestial_bond = [[{name = "fire_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "5%", type = "BOND"}, {name = "bonded_magic", chance = "5%", type = "BOND"}], [{name = "bonded_attack", chance = "15%", type = "BOND"}, {name = "bonded_magic", chance = "15%", type = "BOND"}, {name = "stonefire", type = "ABILITY"}]]
+bestial_bond = [[{name = "fire_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "5%", type = "BOND"}, {name = "bonded_magic", chance = "5%", type = "BOND"}], [{name = "bonded_attack", chance = "15%", type = "BOND"}, {name = "bonded_magic", chance = "15%", type = "BOND"}, {name = "stonefire", type = "ABILITY"}]]
 category = "followers"
 events = ["balor_invades"]
 family = "balor_forces"
@@ -5836,7 +5836,7 @@ tier = 6
 spell_rate = "25"
 
 [main.followers.balor-worm]
-bestial_bond = [[{name = "fire_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "5%", type = "BOND"}, {name = "bonded_magic", chance = "5%", type = "BOND"}], [{name = "bonded_attack", chance = "15%", type = "BOND"}, {name = "bonded_magic", chance = "15%", type = "BOND"}, {name = "stonefire", type = "ABILITY"}]]
+bestial_bond = [[{name = "fire_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "5%", type = "BOND"}, {name = "bonded_magic", chance = "5%", type = "BOND"}], [{name = "bonded_attack", chance = "15%", type = "BOND"}, {name = "bonded_magic", chance = "15%", type = "BOND"}, {name = "stonefire", type = "ABILITY"}]]
 category = "followers"
 events = ["balor_invades"]
 family = "balor_forces"
@@ -5852,7 +5852,7 @@ buff_rate = "15"
 spell_rate = "7"
 
 [main.followers.banshee]
-bestial_bond = [[{name = "fire_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "5%", type = "BOND"}, {name = "bonded_magic", chance = "5%", type = "BOND"}], [{name = "bonded_attack", chance = "15%", type = "BOND"}, {name = "bonded_magic", chance = "15%", type = "BOND"}, {name = "stonefire", type = "ABILITY"}]]
+bestial_bond = [[{name = "fire_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "5%", type = "BOND"}, {name = "bonded_magic", chance = "5%", type = "BOND"}], [{name = "bonded_attack", chance = "15%", type = "BOND"}, {name = "bonded_magic", chance = "15%", type = "BOND"}, {name = "stonefire", type = "ABILITY"}]]
 category = "followers"
 family = "balor_forces"
 icon = "/img/monsters/banshee.png"
@@ -5867,7 +5867,7 @@ debuff_rate = "5"
 spell_rate = "5"
 
 [main.followers.bashe-hungry-one]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 events = ["wyrmhunt"]
 family = "dragons"
@@ -5882,7 +5882,7 @@ debuff_rate = "15"
 spell_rate = "15"
 
 [main.followers.basilisk]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 family = "dragons"
 icon = "/img/monsters/basilisk.png"
@@ -5924,7 +5924,7 @@ attack_rate = "40"
 protect_chance = "3"
 
 [main.followers.beaver]
-bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 events = ["canada_d_eh", "terra_s_legacy__natureblight"]
 family = "common"
@@ -5940,7 +5940,7 @@ protect_chance = "8"
 spell_rate = "25"
 
 [main.followers.big-cactus]
-bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 family = "giant"
 icon = "/img/monsters/cactus.png"
@@ -6225,7 +6225,7 @@ buff_rate = "20"
 spell_rate = "5"
 
 [main.followers.cockatrice]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 family = "dragons"
 icon = "/img/bosses/cockatrice.png"
@@ -6241,7 +6241,7 @@ debuff_rate = "2"
 spell_rate = "5"
 
 [main.followers.colossus]
-bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 family = "giant"
 icon = "/img/monsters/colossus.png"
@@ -6316,7 +6316,7 @@ buff_rate = "5"
 spell_rate = "3"
 
 [main.followers.cruel-banshee]
-bestial_bond = [[{name = "fire_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "5%", type = "BOND"}, {name = "bonded_magic", chance = "5%", type = "BOND"}], [{name = "bonded_attack", chance = "15%", type = "BOND"}, {name = "bonded_magic", chance = "15%", type = "BOND"}, {name = "stonefire", type = "ABILITY"}]]
+bestial_bond = [[{name = "fire_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "5%", type = "BOND"}, {name = "bonded_magic", chance = "5%", type = "BOND"}], [{name = "bonded_attack", chance = "15%", type = "BOND"}, {name = "bonded_magic", chance = "15%", type = "BOND"}, {name = "stonefire", type = "ABILITY"}]]
 category = "followers"
 events = ["balor_invades"]
 family = "balor_forces"
@@ -6346,7 +6346,7 @@ buff_rate = "9"
 spell_rate = "15"
 
 [main.followers.dark-dragon]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 family = "dragons"
 icon = "/img/monsters/black_dragon.png"
@@ -6388,7 +6388,7 @@ debuff_rate = "5"
 spell_rate = "5"
 
 [main.followers.death-worm]
-bestial_bond = [[{name = "fire_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "5%", type = "BOND"}, {name = "bonded_magic", chance = "5%", type = "BOND"}], [{name = "bonded_attack", chance = "15%", type = "BOND"}, {name = "bonded_magic", chance = "15%", type = "BOND"}, {name = "stonefire", type = "ABILITY"}]]
+bestial_bond = [[{name = "fire_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "5%", type = "BOND"}, {name = "bonded_magic", chance = "5%", type = "BOND"}], [{name = "bonded_attack", chance = "15%", type = "BOND"}, {name = "bonded_magic", chance = "15%", type = "BOND"}, {name = "stonefire", type = "ABILITY"}]]
 category = "followers"
 family = "balor_forces"
 icon = "/img/bosses/deathworm.png"
@@ -6403,7 +6403,7 @@ buff_rate = "30"
 spell_rate = "5"
 
 [main.followers.demeters-lotan]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 events = ["wyrmhunt"]
 family = "dragons"
@@ -6448,7 +6448,7 @@ heal_rate = "4"
 spell_rate = "20"
 
 [main.followers.drake]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 family = "dragons"
 icon = "/img/monsters/drake.png"
@@ -6475,7 +6475,7 @@ tier = 3
 spell_rate = "8"
 
 [main.followers.earthen-dragon]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 family = "dragons"
 icon = "/img/monsters/earthen_dragon.png"
@@ -6522,7 +6522,7 @@ debuff_rate = "8"
 spell_rate = "8"
 
 [main.followers.eistla]
-bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 events = ["of_giants_and_titans"]
 family = "giant"
@@ -6607,7 +6607,7 @@ tier = 4
 heal_rate = "25"
 
 [main.followers.fafnir]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 family = "dragons"
 icon = "/img/bosses/fafnir.png"
@@ -6681,7 +6681,7 @@ buff_rate = "22"
 spell_rate = "6"
 
 [main.followers.fey-dragon]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 events = ["the_cursed_queens"]
 family = "dragons"
@@ -6758,7 +6758,7 @@ attack_rate = "10"
 spell_rate = "10"
 
 [main.followers.fire-dragon]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 family = "dragons"
 icon = "/img/monsters/fire_dragon.png"
@@ -6843,7 +6843,7 @@ attack_rate = "5"
 debuff_rate = "20"
 
 [main.followers.giant-basilisk]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 family = "dragons"
 icon = "/img/bosses/giant_red_basilisk.png"
@@ -6872,7 +6872,7 @@ tier = 9
 spell_rate = "12"
 
 [main.followers.giant-tortoise]
-bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 events = ["terra_s_legacy__natureblight"]
 family = "common"
@@ -6904,7 +6904,7 @@ debuff_rate = "20"
 spell_rate = "16"
 
 [main.followers.glatisant]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 events = ["fallen_heroes_of_avalon"]
 family = "dragons"
@@ -6933,7 +6933,7 @@ tier = 3
 spell_rate = "20"
 
 [main.followers.gorynych-son-of-mountains]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 events = ["wyrmhunt"]
 family = "dragons"
@@ -6980,7 +6980,7 @@ buff_rate = "5"
 protect_chance = "3"
 
 [main.followers.great-cockatrice]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 family = "dragons"
 icon = "/img/bosses/great_cockatrice.png"
@@ -7083,7 +7083,7 @@ protect_chance = "5"
 spell_rate = "20"
 
 [main.followers.great-pegasus]
-bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 events = ["fallen_heroes_of_avalon"]
 family = "animal"
@@ -7100,7 +7100,7 @@ heal_rate = "15"
 spell_rate = "5"
 
 [main.followers.great-questing-beast]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 family = "common"
 icon = "/img/bosses/glatisant.png"
@@ -7114,7 +7114,7 @@ buff_rate = "30"
 spell_rate = "12"
 
 [main.followers.great-reaper]
-bestial_bond = [[{name = "fire_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "5%", type = "BOND"}, {name = "bonded_magic", chance = "5%", type = "BOND"}], [{name = "bonded_attack", chance = "15%", type = "BOND"}, {name = "bonded_magic", chance = "15%", type = "BOND"}, {name = "stonefire", type = "ABILITY"}]]
+bestial_bond = [[{name = "fire_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "5%", type = "BOND"}, {name = "bonded_magic", chance = "5%", type = "BOND"}], [{name = "bonded_attack", chance = "15%", type = "BOND"}, {name = "bonded_magic", chance = "15%", type = "BOND"}, {name = "stonefire", type = "ABILITY"}]]
 category = "followers"
 family = "balor_forces"
 icon = "/img/monsters/great_reaper.png"
@@ -7185,7 +7185,7 @@ buff_rate = "5"
 spell_rate = "5"
 
 [main.followers.guivre]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 family = "dragons"
 icon = "/img/monsters/guivre.png"
@@ -7199,7 +7199,7 @@ attack_rate = "7"
 spell_rate = "12"
 
 [main.followers.gullinkambi]
-bestial_bond = [[{name = "water_res", value = "+-20%", type = "BONUS"}, {name = "damage_from_animals", value = "+30%", type = "BONUS"}], [{name = "bonded_attack", chance = "15%", type = "BOND"}, {name = "bonded_resistance", chance = "15%", type = "BOND"}], [{name = "bonded_ward", chance = "90%", type = "BOND"}, {name = "bonded_defense", chance = "15%", type = "BOND"}]]
+bestial_bond = [[{name = "water_res", value = "-20%", type = "BONUS"}, {name = "damage_from_animals", value = "-30%", type = "BONUS"}], [{name = "bonded_attack", chance = "15%", type = "BOND"}, {name = "bonded_resistance", chance = "15%", type = "BOND"}], [{name = "bonded_ward", chance = "90%", type = "BOND"}, {name = "bonded_defense", chance = "15%", type = "BOND"}]]
 category = "followers"
 events = ["nothren_legends__ragnarok"]
 family = "nothren_forces"
@@ -7232,7 +7232,7 @@ debuff_rate = "12"
 spell_rate = "4"
 
 [main.followers.gymir]
-bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 events = ["of_giants_and_titans"]
 family = "giant"
@@ -7310,7 +7310,7 @@ buff_rate = "5"
 spell_rate = "5"
 
 [main.followers.ice-dragon]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 family = "dragons"
 icon = "/img/monsters/ice_dragon.png"
@@ -7324,7 +7324,7 @@ buff_rate = "20"
 spell_rate = "10"
 
 [main.followers.illuyanka-made-of-stone]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 events = ["wyrmhunt"]
 family = "dragons"
@@ -7425,7 +7425,7 @@ tier = 1
 attack_rate = "90"
 
 [main.followers.lindworm]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 events = ["legend_of_lyonesse"]
 family = "dragons"
@@ -7442,7 +7442,7 @@ protect_chance = "2"
 spell_rate = "10"
 
 [main.followers.living-arch-armor]
-bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 family = "magical"
 icon = "/img/monsters/living_armor.png"
@@ -7458,7 +7458,7 @@ heal_rate = "2"
 spell_rate = "4"
 
 [main.followers.living-armor]
-bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 family = "magical"
 icon = "/img/monsters/living_armor.png"
@@ -7543,7 +7543,7 @@ attack_rate = "25"
 spell_rate = "5"
 
 [main.followers.llamrai]
-bestial_bond = [[{name = "holy_damage", value = "+20%", type = "BONUS"}, {name = "dark_res", value = "+-30%", type = "BONUS"}], [{name = "bonded_defense", chance = "7%", type = "BOND"}], [{name = "bonded_ward", chance = "70%", type = "BOND"}, {name = "bonded_defense", chance = "7%", type = "BOND"}, {name = "cleanse", type = "ABILITY"}]]
+bestial_bond = [[{name = "holy_damage", value = "+20%", type = "BONUS"}, {name = "dark_res", value = "-30%", type = "BONUS"}], [{name = "bonded_defense", chance = "7%", type = "BOND"}], [{name = "bonded_ward", chance = "70%", type = "BOND"}, {name = "bonded_defense", chance = "7%", type = "BOND"}, {name = "cleanse", type = "ABILITY"}]]
 category = "followers"
 events = ["fallen_heroes_of_avalon"]
 family = "animal"
@@ -7574,7 +7574,7 @@ heal_rate = "5"
 spell_rate = "5"
 
 [main.followers.lotan-coiled-one]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 events = ["wyrmhunt"]
 family = "dragons"
@@ -7619,7 +7619,7 @@ debuff_rate = "12"
 spell_rate = "12"
 
 [main.followers.medusa]
-bestial_bond = [[{name = "fire_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "5%", type = "BOND"}, {name = "bonded_magic", chance = "5%", type = "BOND"}], [{name = "bonded_attack", chance = "15%", type = "BOND"}, {name = "bonded_magic", chance = "15%", type = "BOND"}, {name = "stonefire", type = "ABILITY"}]]
+bestial_bond = [[{name = "fire_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "5%", type = "BOND"}, {name = "bonded_magic", chance = "5%", type = "BOND"}], [{name = "bonded_attack", chance = "15%", type = "BOND"}, {name = "bonded_magic", chance = "15%", type = "BOND"}, {name = "stonefire", type = "ABILITY"}]]
 category = "followers"
 events = ["the_crimson_festival"]
 family = "common"
@@ -7757,7 +7757,7 @@ protect_chance = "1"
 spell_rate = "15"
 
 [main.followers.nidhogg]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 family = "dragons"
 icon = "/img/monsters/nidhogg.png"
@@ -7817,7 +7817,7 @@ protect_chance = "4"
 spell_rate = "8"
 
 [main.followers.orichalcum-golem]
-bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 family = "giant"
 icon = "/img/monsters/orichalcum_golem.png"
@@ -7831,7 +7831,7 @@ buff_rate = "9"
 protect_chance = "3"
 
 [main.followers.ortanite-golem]
-bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 family = "giant"
 icon = "/img/monsters/ortanite_golem.png"
@@ -7877,7 +7877,7 @@ protect_chance = "5"
 spell_rate = "20"
 
 [main.followers.pale-dragon]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 family = "dragons"
 icon = "/img/monsters/pale_dragon.png"
@@ -7955,7 +7955,7 @@ protect_chance = "10"
 spell_rate = "4"
 
 [main.followers.quetzalcoatl-feathered-one]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 events = ["wyrmhunt"]
 family = "dragons"
@@ -7986,7 +7986,7 @@ protect_chance = "3"
 spell_rate = "6"
 
 [main.followers.reaper]
-bestial_bond = [[{name = "fire_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "5%", type = "BOND"}, {name = "bonded_magic", chance = "5%", type = "BOND"}], [{name = "bonded_attack", chance = "15%", type = "BOND"}, {name = "bonded_magic", chance = "15%", type = "BOND"}, {name = "stonefire", type = "ABILITY"}]]
+bestial_bond = [[{name = "fire_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "5%", type = "BOND"}, {name = "bonded_magic", chance = "5%", type = "BOND"}], [{name = "bonded_attack", chance = "15%", type = "BOND"}, {name = "bonded_magic", chance = "15%", type = "BOND"}, {name = "stonefire", type = "ABILITY"}]]
 category = "followers"
 family = "balor_forces"
 icon = "/img/monsters/reaper.png"
@@ -8376,7 +8376,7 @@ protect_chance = "2"
 spell_rate = "16"
 
 [main.followers.steward-dragon]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 family = "dragons"
 icon = "/img/monsters/steward_dragon.png"
@@ -8407,7 +8407,7 @@ protect_chance = "2"
 spell_rate = "20"
 
 [main.followers.steward-golem]
-bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 family = "giant"
 icon = "/img/monsters/steward_golem.png"
@@ -8454,7 +8454,7 @@ heal_rate = "30"
 spell_rate = "14"
 
 [main.followers.steward-llamrai]
-bestial_bond = [[{name = "holy_damage", value = "+20%", type = "BONUS"}, {name = "dark_res", value = "+-30%", type = "BONUS"}], [{name = "bonded_defense", chance = "7%", type = "BOND"}], [{name = "bonded_ward", chance = "70%", type = "BOND"}, {name = "bonded_defense", chance = "7%", type = "BOND"}, {name = "cleanse", type = "ABILITY"}]]
+bestial_bond = [[{name = "holy_damage", value = "+20%", type = "BONUS"}, {name = "dark_res", value = "-30%", type = "BONUS"}], [{name = "bonded_defense", chance = "7%", type = "BOND"}], [{name = "bonded_ward", chance = "70%", type = "BOND"}, {name = "bonded_defense", chance = "7%", type = "BOND"}, {name = "cleanse", type = "ABILITY"}]]
 category = "followers"
 events = ["fallen_heroes_of_avalon"]
 family = "animal"
@@ -8471,7 +8471,7 @@ heal_rate = "14"
 spell_rate = "14"
 
 [main.followers.steward-pegasus]
-bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 events = ["fallen_heroes_of_avalon"]
 family = "animal"
@@ -8521,7 +8521,7 @@ protect_chance = "7"
 spell_rate = "3"
 
 [main.followers.storm-dragon]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 family = "dragons"
 icon = "/img/monsters/storm_dragon.png"
@@ -8610,7 +8610,7 @@ buff_rate = "100"
 spell_rate = "4"
 
 [main.followers.timber-the-beaver]
-bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 events = ["canada_d_eh"]
 family = "common"
@@ -8626,7 +8626,7 @@ protect_chance = "8"
 spell_rate = "25"
 
 [main.followers.timber-the-beaver-c4824513]
-bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 events = ["canada_d_eh"]
 family = "common"
@@ -8700,7 +8700,7 @@ heal_rate = "6"
 spell_rate = "12"
 
 [main.followers.undead-golem]
-bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "-20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 family = "giant"
 icon = "/img/bosses/undead_golem.png"
@@ -8747,7 +8747,7 @@ debuff_rate = "8"
 spell_rate = "30"
 
 [main.followers.vritra-the-steadfast]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 events = ["wyrmhunt"]
 family = "dragons"
@@ -8851,7 +8851,7 @@ heal_rate = "22"
 spell_rate = "9"
 
 [main.followers.wyvern]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 family = "dragons"
 icon = "/img/monsters/wyvern.png"
@@ -8881,7 +8881,7 @@ protect_chance = "3"
 spell_rate = "5"
 
 [main.followers.ymir-amphiptere]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 events = ["wyrmhunt"]
 family = "dragons"
@@ -8912,7 +8912,7 @@ debuff_rate = "5"
 spell_rate = "10"
 
 [main.followers.zaltys-friendly-one]
-bestial_bond = [[{name = "lightning_res", value = "+-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
+bestial_bond = [[{name = "lightning_res", value = "-20%", type = "BONUS"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}], [{name = "bonded_attack", chance = "10%", type = "BOND"}, {name = "bonded_magic", chance = "10%", type = "BOND"}]]
 category = "followers"
 events = ["wyrmhunt"]
 family = "dragons"
@@ -47201,6 +47201,7 @@ item_type = "armor"
 place = "head"
 rarity = "famed"
 tier = 9
+upgrade_materials = [["items", "platinum"]]
 useable_by = "all_classes"
 
 [main.items.knight-sirus-helmet.stats]
@@ -55290,7 +55291,7 @@ icon = "/img/materials/platinum.png"
 id = "platinum"
 item_type = "material"
 rarity = "common"
-sources = [["items", "aaru-armor"], ["items", "aaru-boots"], ["items", "aaru-garb"], ["items", "aaru-headwrap"], ["items", "aaru-helmet"], ["items", "aaru-hood"], ["items", "aaru-leggings"], ["items", "aaru-robe"], ["items", "aaru-skirt"], ["items", "arisen-aaru-armor"], ["items", "arisen-aaru-boots"], ["items", "arisen-aaru-garb"], ["items", "arisen-aaru-headwrap"], ["items", "arisen-aaru-helmet"], ["items", "arisen-aaru-hood"], ["items", "arisen-aaru-leggings"], ["items", "arisen-aaru-robe"], ["items", "arisen-aaru-skirt"], ["items", "arisen-gerds-bullwhip"], ["items", "arisen-gerds-horsewhip"], ["items", "arisen-helhest"], ["items", "arisen-khopesh"], ["items", "arisen-menjas-shield"], ["items", "arisen-menjas-warstaff"], ["items", "arisen-satis"], ["items", "arisen-surtrs-shield"], ["items", "arisen-surtrs-sword"], ["items", "artifice-gada"], ["items", "ascalon"], ["items", "balins-left"], ["items", "balins-left-b2db2fdb"], ["items", "balins-right"], ["items", "beheaded-zwei-fencers-cuirass"], ["items", "chef-pants"], ["items", "chestguard-of-dynasty"], ["items", "clogs-of-dynasty"], ["items", "cowl-of-dynasty"], ["items", "cuirass-of-dynasty"], ["items", "durandal"], ["items", "dyrnwyn"], ["items", "fey-gerds-bullwhip"], ["items", "fey-gerds-horsewhip"], ["items", "fey-helhest"], ["items", "fey-menjas-shield"], ["items", "fey-menjas-warstaff"], ["items", "fey-surtrs-shield"], ["items", "fey-surtrs-sword"], ["items", "fomor-sword"], ["items", "footpads-of-dynasty"], ["items", "gerds-bullwhip"], ["items", "gerds-horsewhip"], ["items", "great-phoenixsong"], ["items", "greaves-of-dynasty"], ["items", "helhest"], ["items", "helmet-of-dynasty"], ["items", "high-phoenixsong"], ["items", "hood-of-dynasty"], ["items", "houserobe-of-dynasty"], ["items", "khopesh"], ["items", "menjas-shield"], ["items", "menjas-warstaff"], ["items", "mighty-ensemble"], ["items", "phoenixsong"], ["items", "pizza-stained-apron"], ["items", "realmspikes"], ["items", "satis"], ["items", "ski-stick"], ["items", "surtrs-shield"], ["items", "surtrs-sword"]]
+sources = [["items", "aaru-armor"], ["items", "aaru-boots"], ["items", "aaru-garb"], ["items", "aaru-headwrap"], ["items", "aaru-helmet"], ["items", "aaru-hood"], ["items", "aaru-leggings"], ["items", "aaru-robe"], ["items", "aaru-skirt"], ["items", "arisen-aaru-armor"], ["items", "arisen-aaru-boots"], ["items", "arisen-aaru-garb"], ["items", "arisen-aaru-headwrap"], ["items", "arisen-aaru-helmet"], ["items", "arisen-aaru-hood"], ["items", "arisen-aaru-leggings"], ["items", "arisen-aaru-robe"], ["items", "arisen-aaru-skirt"], ["items", "arisen-gerds-bullwhip"], ["items", "arisen-gerds-horsewhip"], ["items", "arisen-helhest"], ["items", "arisen-khopesh"], ["items", "arisen-menjas-shield"], ["items", "arisen-menjas-warstaff"], ["items", "arisen-satis"], ["items", "arisen-surtrs-shield"], ["items", "arisen-surtrs-sword"], ["items", "artifice-gada"], ["items", "ascalon"], ["items", "balins-left"], ["items", "balins-left-b2db2fdb"], ["items", "balins-right"], ["items", "beheaded-zwei-fencers-cuirass"], ["items", "chef-pants"], ["items", "chestguard-of-dynasty"], ["items", "clogs-of-dynasty"], ["items", "cowl-of-dynasty"], ["items", "cuirass-of-dynasty"], ["items", "durandal"], ["items", "dyrnwyn"], ["items", "fey-gerds-bullwhip"], ["items", "fey-gerds-horsewhip"], ["items", "fey-helhest"], ["items", "fey-menjas-shield"], ["items", "fey-menjas-warstaff"], ["items", "fey-surtrs-shield"], ["items", "fey-surtrs-sword"], ["items", "fomor-sword"], ["items", "footpads-of-dynasty"], ["items", "gerds-bullwhip"], ["items", "gerds-horsewhip"], ["items", "great-phoenixsong"], ["items", "greaves-of-dynasty"], ["items", "helhest"], ["items", "helmet-of-dynasty"], ["items", "high-phoenixsong"], ["items", "hood-of-dynasty"], ["items", "houserobe-of-dynasty"], ["items", "khopesh"], ["items", "knight-sirus-helmet"], ["items", "menjas-shield"], ["items", "menjas-warstaff"], ["items", "mighty-ensemble"], ["items", "phoenixsong"], ["items", "pizza-stained-apron"], ["items", "realmspikes"], ["items", "satis"], ["items", "ski-stick"], ["items", "surtrs-shield"], ["items", "surtrs-sword"]]
 tags = ["found_in_shops", "found_in_chests"]
 tier = 1
 useable_by = "all_classes"

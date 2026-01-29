@@ -732,6 +732,9 @@ name = "重生埃吉尔"
 [main.bosses.arisen-alfar-lord]
 name = "重生古精灵领主"
 
+[main.bosses.arisen-anteros]
+name = "Arisen Anteros"
+
 [main.bosses.arisen-balor-king]
 name = "重生巴罗尔王"
 
@@ -2102,6 +2105,10 @@ name = "恶毒报丧女妖"
 description = "这只可怕的深海猛兽能用一系列的元素技能来协助你的战斗。"
 name = "克苏鲁"
 
+[main.followers.cupid]
+description = "期间限定。"
+name = "Cupid"
+
 [main.followers.dark-dragon]
 description = "漆黑的龙。能用暗黑魔法帮助你战斗。"
 name = "暗黑龙"
@@ -2349,6 +2356,14 @@ name = "盖密尔"
 [main.followers.harpy]
 description = "快乐唱歌的鹰身女妖。能提升你的敏捷，使对手入睡。"
 name = "鹰身女妖"
+
+[main.followers.heartbreaker-cupid]
+description = "期间限定。"
+name = "Heartbreaker Cupid"
+
+[main.followers.heartmender-cupid]
+description = "期间限定。"
+name = "Heartmender Cupid"
 
 [main.followers.hellhound]
 description = "被驯服的地狱犬。能使用攻击和火炎魔法来协助你战斗。"
@@ -4894,6 +4909,10 @@ name = "兽伐风帽"
 description = "「被变形之王」林克斯的长袍。能赋予追随者与召唤物额外的能力来使用法术「磨刀术」。"
 name = "兽伐胸甲"
 
+[main.items.beastfelled-dungeon-key]
+description = "A key that can allow one to run any Dungeon as a \"Beastfelled Dungeon\" during the Beastfelled event."
+name = "Beastfelled Dungeon Key"
+
 [main.items.beastfelled-garb]
 description = "「被变形之王」林克斯的长袍。能赋予追随者与召唤物额外的能力来使用法术「狂暴」。"
 name = "兽伐皮甲"
@@ -5462,6 +5481,10 @@ name = "阔剑"
 description = "由纪念碑制作的蜡烛。点亮它能唤出新的追随者。"
 name = "柏切利安蜡烛"
 
+[main.items.broken-half-locket]
+description = "Half of an old locket. It appears to be broken."
+name = "Broken Half Locket"
+
 [main.items.broken-heart]
 description = "净土之魂的碎心。在「心灵补手」活动期间能于纪念碑公会交易独特奖励。"
 name = "破碎之心"
@@ -5977,6 +6000,10 @@ name = "水晶剑"
 [main.items.cuirass-of-dynasty]
 description = "雅卢最后的昏君斯芬克斯所穿戴的重甲。能赋予穿戴者额外的能力来使用法术「雅卢防壁」。"
 name = "王朝胸甲"
+
+[main.items.cupids-locket]
+description = "A locket signifying the true power of love."
+name = "Cupid's Locket"
 
 [main.items.cure-all]
 description = "微苦的绿色灵药，能治愈中毒、流血、枯萎、冰冻、燃烧、麻痹、入眠、致盲、腐败。"
@@ -8266,6 +8293,10 @@ name = "神造工具"
 description = "弗摩尔之萨姆纳家族的战士「锻造之神」戈夫努所穿戴的护臂。戈夫努为其家族打造了强力的剑、斧与锤。穿戴这件装备时，使用命中多个目标的技能会造成额外的伤害。此外，技能有低机率命中额外的目标。"
 name = "戈夫努护臂"
 
+[main.items.gold-half-locket]
+description = "A mended half of a locket, once worn by Mara."
+name = "Gold Half Locket"
+
 [main.items.gold-medal]
 description = "于奥林匹亚经典盛事「夏季运动会」中斩获的奖牌。"
 name = "金牌"
@@ -9367,8 +9398,8 @@ description = "国王的正式服装。"
 name = "王之长袍"
 
 [main.items.knight-sirus-helmet]
-description = "Helmet of Knight Sirus."
-name = "Knight Sirus Helmet"
+description = "骑士赛勒斯的头盔。"
+name = "骑士赛勒斯头盔"
 
 [main.items.kobold-armor]
 description = "地精的轻甲。"
@@ -9927,8 +9958,8 @@ description = "犹如那夜空繁星般的美丽刀刃。"
 name = "正宗"
 
 [main.items.medeas-hairpin]
-description = "Golden hairpin of Medea."
-name = "Medea's Hairpin"
+description = "美狄亚的黄金发簪。"
+name = "美狄亚发簪"
 
 [main.items.medusas-bow]
 description = "蛇发女妖美杜莎之弓。从该弓射出的箭能打破对手的防御。"
@@ -11772,6 +11803,10 @@ name = "银质十字弓"
 [main.items.silver-dagger]
 description = "银质匕首。非常适合拿来与不死者战斗。"
 name = "银质匕首"
+
+[main.items.silver-half-locket]
+description = "A half of a locket, once worn by someone close to Mara."
+name = "Silver Half Locket"
 
 [main.items.silver-kris]
 description = "由最好的银所制成的一对锋利匕首。猎杀不死族时很有用。"
@@ -15211,6 +15246,10 @@ name = "箭雨"
 description = "用很多的弓箭轰击对手。"
 name = "箭雨 (副手)"
 
+[main.spells.arrowstorm-3]
+description = "用很多的弓箭轰击对手。"
+name = "Arrowstorm <3"
+
 [main.spells.arrowstorm-ii]
 description = "用很多的弓箭轰击对手。"
 name = "箭雨 II"
@@ -16636,11 +16675,11 @@ description = "提高所有属性。"
 name = "傲慢"
 
 [main.spells.hydrus-pact]
-description = "Sacrifices up to 3 summons to deal damage to up to three opponents. One Ward turn is gained per target hit."
+description = "牺牲最多 3 个召唤物对最多 3 个对手造成伤害。每击中 1 个目标将能获得 1 回合的护盾。"
 name = "水蛇座契约"
 
 [main.spells.hydrus-pact-ii]
-description = "Sacrifices up to 3 summons to deal greater damage to up to three opponents. One Ward turn is gained per target hit."
+description = "牺牲最多 3 个召唤物对最多 3 个对手造成更大的伤害。每击中 1 个目标将能获得 1 回合的护盾。"
 name = "水蛇座契约 II"
 
 [main.spells.ice-affinity]
@@ -19130,7 +19169,7 @@ spell = "法术"
 "+skill" = "+技能"
 "+spell" = "+法术"
 accuracy = "精准"
-"act_first_chance_(pve)" = "Act First Chance (PvE)"
+"act_first_chance_(pve)" = "优先行动机率 (PvE)"
 adornment_slots = "镶嵌槽位"
 ally_effect_chance = "共享状态机率"
 apex = "APEX"

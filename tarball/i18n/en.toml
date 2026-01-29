@@ -732,6 +732,9 @@ name = "Arisen Aegir"
 [main.bosses.arisen-alfar-lord]
 name = "Arisen Alfar Lord"
 
+[main.bosses.arisen-anteros]
+name = "Arisen Anteros"
+
 [main.bosses.arisen-balor-king]
 name = "Arisen Balor King"
 
@@ -2102,6 +2105,10 @@ name = "Cruel Banshee"
 description = "This dreaded beast of the seas can assist you in battle with an array of elemental abilities."
 name = "Cthulhu"
 
+[main.followers.cupid]
+description = "Available for a limited time only."
+name = "Cupid"
+
 [main.followers.dark-dragon]
 description = "An ebony dragon. It can assist one in battle with dark magic."
 name = "Dark Dragon"
@@ -2349,6 +2356,14 @@ name = "Gymir"
 [main.followers.harpy]
 description = "A happily singing harpy. It can assist you in battle by improving your dexterity or causing an opponent to be lulled asleep."
 name = "Harpy"
+
+[main.followers.heartbreaker-cupid]
+description = "Available for a limited time only."
+name = "Heartbreaker Cupid"
+
+[main.followers.heartmender-cupid]
+description = "Available for a limited time only."
+name = "Heartmender Cupid"
 
 [main.followers.hellhound]
 description = "A tamed hellhound. Can assist in battle with attacks and fire magic."
@@ -4894,6 +4909,10 @@ name = "Beastfelled Cowl"
 description = "Robe of Lyncus, the turned Annwn King. It grants one's followers and summons the ability to use the spell \"Sharpen\"."
 name = "Beastfelled Cuirass"
 
+[main.items.beastfelled-dungeon-key]
+description = "A key that can allow one to run any Dungeon as a \"Beastfelled Dungeon\" during the Beastfelled event."
+name = "Beastfelled Dungeon Key"
+
 [main.items.beastfelled-garb]
 description = "Robe of Lyncus, the turned Annwn King. It grants one's followers and summons the ability to use the spell \"Berserk\"."
 name = "Beastfelled Garb"
@@ -5462,6 +5481,10 @@ name = "Broadsword"
 description = "A candle crafted by the Monumental Guild. By lighting it, you may summon a new follower."
 name = "Broceliande Candle"
 
+[main.items.broken-half-locket]
+description = "Half of an old locket. It appears to be broken."
+name = "Broken Half Locket"
+
 [main.items.broken-heart]
 description = "Broken heart of an Elysian soul. Trade it in at the Monumental Guild during the \"Menders of Hearts\" event for unique rewards."
 name = "Broken Heart"
@@ -5977,6 +6000,10 @@ name = "Crystalis"
 [main.items.cuirass-of-dynasty]
 description = "Heavy armor of the Great Sphinx, last and corrupted King of Aaru. When wearing this armor, one is granted access to the skill \"Walls of Aaru\"."
 name = "Cuirass of Dynasty"
+
+[main.items.cupids-locket]
+description = "A locket signifying the true power of love."
+name = "Cupid's Locket"
 
 [main.items.cure-all]
 description = "A bitter green elixir that heals poison, bleeding, blight, frozen, burning, paralysis, sleep, blindness, or rot."
@@ -8266,6 +8293,10 @@ name = "Godmaking Tools"
 description = "Armguard of Goibhniu, warrior smith God of the Fomorian house of Sumner. Goibhniu crafted the house's mighty swords, hammers, and axes. While wearing this item, skills that target multiple opponents will deal additional damage. Additionally, skills will seldomly hit more than one opponent."
 name = "Goibhniu Armguard"
 
+[main.items.gold-half-locket]
+description = "A mended half of a locket, once worn by Mara."
+name = "Gold Half Locket"
+
 [main.items.gold-medal]
 description = "Medal awarded in the Sumner Games, a storied event of Olympia."
 name = "Gold Medal"
@@ -8671,31 +8702,31 @@ description = "Gear of the giant knight."
 name = "Havel's Sword"
 
 [main.items.head-of-agathodaemon]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+description = "Head of a Great Dragon, used in Event Crafting at the Monumental Guild Hall during the Wyrmhunt event."
 name = "Head of Agathodaemon"
 
 [main.items.head-of-bashe]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+description = "Head of a Great Dragon, used in Event Crafting at the Monumental Guild Hall during the Wyrmhunt event."
 name = "Head of Bashe"
 
 [main.items.head-of-beithir]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+description = "Head of a Great Dragon, used in Event Crafting at the Monumental Guild Hall during the Wyrmhunt event."
 name = "Head of Beithir"
 
 [main.items.head-of-illuyanka]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+description = "Head of a Great Dragon, used in Event Crafting at the Monumental Guild Hall during the Wyrmhunt event."
 name = "Head of Illuyanka"
 
 [main.items.head-of-lotan]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+description = "Head of a Great Dragon, used in Event Crafting at the Monumental Guild Hall during the Wyrmhunt event."
 name = "Head of Lotan"
 
 [main.items.head-of-vritra]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+description = "Head of a Great Dragon, used in Event Crafting at the Monumental Guild Hall during the Wyrmhunt event."
 name = "Head of Vritra"
 
 [main.items.head-of-zaltys]
-description = "Head of a Great Dragon, used in Archcrafting at the Monumental Guild Hall during the Wyrmhunt event."
+description = "Head of a Great Dragon, used in Event Crafting at the Monumental Guild Hall during the Wyrmhunt event."
 name = "Head of Zaltys"
 
 [main.items.heart-of-change]
@@ -11772,6 +11803,10 @@ name = "Silver Crossbow"
 [main.items.silver-dagger]
 description = "A silver dagger. Quite suitable when fighting the undead."
 name = "Silver Dagger"
+
+[main.items.silver-half-locket]
+description = "A half of a locket, once worn by someone close to Mara."
+name = "Silver Half Locket"
 
 [main.items.silver-kris]
 description = "Two sharp daggers made of the finest of silver. Useful for hunting the undead."
@@ -15210,6 +15245,10 @@ name = "Arrowstorm"
 [main.spells.arrowstorm-2]
 description = "Bombard all opponents with many arrows."
 name = "Arrowstorm (Off-hand)"
+
+[main.spells.arrowstorm-3]
+description = "Bombard all opponents with many arrows."
+name = "Arrowstorm <3"
 
 [main.spells.arrowstorm-ii]
 description = "Bombard all opponents with many arrows."

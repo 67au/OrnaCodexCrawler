@@ -732,6 +732,9 @@ name = "重生埃吉爾"
 [main.bosses.arisen-alfar-lord]
 name = "重生古精靈君主"
 
+[main.bosses.arisen-anteros]
+name = "Arisen Anteros"
+
 [main.bosses.arisen-balor-king]
 name = "重生巴羅爾王"
 
@@ -2102,6 +2105,10 @@ name = "惡毒報喪女妖"
 description = "這隻令人生懼的海獸可以使用一系列元素之力協助戰鬥。"
 name = "克蘇魯"
 
+[main.followers.cupid]
+description = "期間限定。"
+name = "Cupid"
+
 [main.followers.dark-dragon]
 description = "漆黑的龍.能用暗黑魔法幫助你戰鬥."
 name = "暗黑龍"
@@ -2349,6 +2356,14 @@ name = "蓋密爾"
 [main.followers.harpy]
 description = "快樂唱歌的哈比.能提升你的敏捷或使對手入睡."
 name = "鷹身女妖"
+
+[main.followers.heartbreaker-cupid]
+description = "期間限定。"
+name = "Heartbreaker Cupid"
+
+[main.followers.heartmender-cupid]
+description = "期間限定。"
+name = "Heartmender Cupid"
 
 [main.followers.hellhound]
 description = "被馴服的地獄犬. 能使用攻擊和火炎魔法來協助你戰鬥."
@@ -4894,6 +4909,10 @@ name = "獸獵祭風帽"
 description = "被轉化的安溫王林科斯的法袍。它能使玩家的跟隨者或召喚獸獲得使用「磨刀術」的能力。"
 name = "獸獵祭胸甲"
 
+[main.items.beastfelled-dungeon-key]
+description = "A key that can allow one to run any Dungeon as a \"Beastfelled Dungeon\" during the Beastfelled event."
+name = "Beastfelled Dungeon Key"
+
 [main.items.beastfelled-garb]
 description = "被轉化的安溫王林科斯的法袍。它能使玩家的跟隨者或召喚獸獲得使用「狂暴」的能力。"
 name = "獸獵祭皮甲"
@@ -5462,6 +5481,10 @@ name = "闊劍"
 description = "紀念碑公會打造的蠟燭。點亮它將能召喚一個新的跟隨者。"
 name = "柏切利安蠟燭"
 
+[main.items.broken-half-locket]
+description = "Half of an old locket. It appears to be broken."
+name = "Broken Half Locket"
+
 [main.items.broken-heart]
 description = "心碎的淨土之民靈魂。在「心靈補手」活動期間將其在紀念碑公會進行交易以獲得獨特獎勵。"
 name = "破碎之心"
@@ -5977,6 +6000,10 @@ name = "水晶劍"
 [main.items.cuirass-of-dynasty]
 description = "雅盧最後腐化的王，強大的斯芬克斯的重甲。穿著這件盔甲的人可以使用技能「雅盧之壁」。"
 name = "王朝胸甲"
+
+[main.items.cupids-locket]
+description = "A locket signifying the true power of love."
+name = "Cupid's Locket"
 
 [main.items.cure-all]
 description = "微苦的萬靈藥，能治癒中毒、流血、枯萎、凍結、燃燒、麻痺、入眠、致盲、腐爛。"
@@ -8266,6 +8293,10 @@ name = "造神工具"
 description = "戈夫紐的護臂，弗摩爾族薩姆納家族的戰士鍛冶神。戈夫紐打造了家族強大的劍、錘子和斧頭。當穿戴此裝備時，對多個對手的技能將造成額外傷害。此外，技能有低機率會擊中一個以上的對手。"
 name = "戈夫紐護臂"
 
+[main.items.gold-half-locket]
+description = "A mended half of a locket, once worn by Mara."
+name = "Gold Half Locket"
+
 [main.items.gold-medal]
 description = "古奧林匹亞的經典盛事夏日運動會的獎牌。"
 name = "金牌"
@@ -9367,8 +9398,8 @@ description = "國王的正式服裝。"
 name = "國王的長袍"
 
 [main.items.knight-sirus-helmet]
-description = "Helmet of Knight Sirus."
-name = "Knight Sirus Helmet"
+description = "騎士賽勒斯的頭盔。"
+name = "騎士賽勒斯頭盔"
 
 [main.items.kobold-armor]
 description = "地精的輕裝甲."
@@ -9427,67 +9458,67 @@ description = "梅林珍稀收藏中的聖物,這把匕首藉由犧牲其他能�
 name = "湖中少女"
 
 [main.items.last-martyrs-armor]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備根據每煎熬等級提升1%的屬性。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的裝甲。此裝備根據使用的煎熬等級減去裝備煎熬等級的差異，每一級提升1%的屬性。"
 name = "最終烈士的盔甲"
 
 [main.items.last-martyrs-baton]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的武器。煎熬裝備根據每煎熬等級提升1%的屬性。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的武器。此裝備根據使用的煎熬等級減去裝備煎熬等級的差異，每一級提升1%的屬性。"
 name = "最終烈士的杵"
 
 [main.items.last-martyrs-boots]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備根據每煎熬等級提升1%的屬性。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的裝甲。此裝備根據使用的煎熬等級減去裝備煎熬等級的差異，每一級提升1%的屬性。"
 name = "最終烈士的長靴"
 
 [main.items.last-martyrs-chestguard]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備根據每煎熬等級提升1%的屬性。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的裝甲。此裝備根據使用的煎熬等級減去裝備煎熬等級的差異，每一級提升1%的屬性。"
 name = "最終烈士的胸鎧"
 
 [main.items.last-martyrs-cowl]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備根據每煎熬等級提升1%的屬性。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的裝甲。此裝備根據使用的煎熬等級減去裝備煎熬等級的差異，每一級提升1%的屬性。"
 name = "最終烈士的風帽"
 
 [main.items.last-martyrs-flame]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的武器。煎熬裝備根據每煎熬等級提升1%的屬性。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的武器。此裝備根據使用的煎熬等級減去裝備煎熬等級的差異，每一級提升1%的屬性。"
 name = "最終烈士的火焰"
 
 [main.items.last-martyrs-garb]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備根據每煎熬等級提升1%的屬性。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的裝甲。此裝備根據使用的煎熬等級減去裝備煎熬等級的差異，每一級提升1%的屬性。"
 name = "最終烈士的皮甲"
 
 [main.items.last-martyrs-headdress]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備根據每煎熬等級提升1%的屬性。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的裝甲。此裝備根據使用的煎熬等級減去裝備煎熬等級的差異，每一級提升1%的屬性。"
 name = "最終烈士的頭巾"
 
 [main.items.last-martyrs-helmet]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備根據每煎熬等級提升1%的屬性。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的裝甲。此裝備根據使用的煎熬等級減去裝備煎熬等級的差異，每一級提升1%的屬性。"
 name = "最終烈士的頭盔"
 
 [main.items.last-martyrs-hood]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的衣服。煎熬裝備根據每煎熬等級提升1%的屬性。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的衣服。此裝備根據使用的煎熬等級減去裝備煎熬等級的差異，每一級提升1%的屬性。"
 name = "最終烈士的兜帽"
 
 [main.items.last-martyrs-leggings]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備根據每煎熬等級提升1%的屬性。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的裝甲。此裝備根據使用的煎熬等級減去裝備煎熬等級的差異，每一級提升1%的屬性。"
 name = "最終烈士的腿甲"
 
 [main.items.last-martyrs-legwraps]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的盔甲。煎熬裝備根據每煎熬等級提升1%的屬性。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的裝甲。此裝備根據使用的煎熬等級減去裝備煎熬等級的差異，每一級提升1%的屬性。"
 name = "最終烈士的裹腿"
 
 [main.items.last-martyrs-longbow]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的武器。煎熬裝備根據每煎熬等級提升1%的屬性。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的武器。此裝備根據使用的煎熬等級減去裝備煎熬等級的差異，每一級提升1%的屬性。"
 name = "最終烈士的長弓"
 
 [main.items.last-martyrs-robe]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的衣服。煎熬裝備根據每煎熬等級提升1%的屬性。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的衣服。此裝備根據使用的煎熬等級減去裝備煎熬等級的差異，每一級提升1%的屬性。"
 name = "最終烈士的長袍"
 
 [main.items.last-martyrs-skirt]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的衣服。煎熬裝備根據每煎熬等級提升1%的屬性。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的衣服。此裝備根據使用的煎熬等級減去裝備煎熬等級的差異，每一級提升1%的屬性。"
 name = "最終烈士的裙子"
 
 [main.items.last-martyrs-sword]
-description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的武器。煎熬裝備根據每煎熬等級提升1%的屬性。"
+description = "以英雄和旅者們接受的試煉，磨難，失敗和煎熬所鍛造的武器。此裝備根據使用的煎熬等級減去裝備煎熬等級的差異，每一級提升1%的屬性。"
 name = "最終烈士的劍"
 
 [main.items.lasting-lantern]
@@ -9927,8 +9958,8 @@ description = "就像那夜空繁星般的美麗刀刃。"
 name = "正宗"
 
 [main.items.medeas-hairpin]
-description = "Golden hairpin of Medea."
-name = "Medea's Hairpin"
+description = "美狄亞的金質髮簪。"
+name = "美狄亞髮簪"
 
 [main.items.medusas-bow]
 description = "蛇髮女妖梅杜莎之弓。從這把弓射出的箭可以打破對手的防禦。"
@@ -11772,6 +11803,10 @@ name = "銀質十字弓"
 [main.items.silver-dagger]
 description = "銀製匕首.適合拿來和不死者戰鬥."
 name = "銀質匕首"
+
+[main.items.silver-half-locket]
+description = "A half of a locket, once worn by someone close to Mara."
+name = "Silver Half Locket"
 
 [main.items.silver-kris]
 description = "最好的銀製成的鋒利雙匕首，用來獵殺不死族很有用。"
@@ -15211,6 +15246,10 @@ name = "箭雨"
 description = "用很多的弓箭轟炸對手."
 name = "箭雨 (副手)"
 
+[main.spells.arrowstorm-3]
+description = "用很多的弓箭轟炸對手."
+name = "Arrowstorm <3"
+
 [main.spells.arrowstorm-ii]
 description = "用很多的弓箭轟炸對手."
 name = "箭雨 II"
@@ -16636,11 +16675,11 @@ description = "加成全部狀態。"
 name = "傲慢"
 
 [main.spells.hydrus-pact]
-description = "Sacrifices up to 3 summons to deal damage to up to three opponents. One Ward turn is gained per target hit."
+description = "犧牲最多3個召喚獸來對至多3個敵人造成傷害。每打中一個目標，就能獲得一回合的護盾次數。"
 name = "水蛇座盟約"
 
 [main.spells.hydrus-pact-ii]
-description = "Sacrifices up to 3 summons to deal greater damage to up to three opponents. One Ward turn is gained per target hit."
+description = "犧牲最多3個召喚獸來對至多3個敵人造成更大的傷害。每打中一個目標，就能獲得一回合的護盾次數。"
 name = "水蛇座盟約 II"
 
 [main.spells.ice-affinity]
@@ -19130,7 +19169,7 @@ spell = "法術"
 "+skill" = "+技能"
 "+spell" = "+法術"
 accuracy = "準星"
-"act_first_chance_(pve)" = "Act First Chance (PvE)"
+"act_first_chance_(pve)" = "優先行動機率 (PVE)"
 adornment_slots = "鑲嵌槽位"
 ally_effect_chance = "盟友效果機率"
 apex = "Apex"

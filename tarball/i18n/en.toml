@@ -5573,6 +5573,10 @@ name = "Castor's Archistaff"
 description = "Large heavy armor of Caticatona, leader of the Fomorian house of Sumner. Caticatona, the armored Water Goddess, stood tall against Morrigan's acolytes, but ultimately fell by their staff and sword. While wearing this item, skills that target multiple opponents will deal additional damage. Additionally, skills will seldomly hit more than one opponent."
 name = "Caticatona Cuirass"
 
+[main.items.cats-paw]
+description = "For 1 hour, a 9% chance is granted to survive a hit that would have made one fall in battle."
+name = "Cat's Paw"
+
 [main.items.caturixs-robe]
 description = "Heavy, armored, robe of Caturix, war God and leader of the Fomorian house of Wintara. Caturix fought Morrigan to the bitter end, ultimately succumbing to the curse in battle. While wearing this item, buffs cast by its wearer may transfer to a party mate. Additionally, positive status effects will last longer."
 name = "Caturix's Robe"
@@ -7226,11 +7230,11 @@ description = "A torch, carried in one's off-hand. It increases your sight, prev
 name = "Everlasting Torch"
 
 [main.items.excalibur]
-description = "???"
+description = "The mythic weapon of Arthus, the king of Avalon. It protects its wielder from bleeding."
 name = "Excalibur"
 
-[main.items.excalibur-32be53bc]
-description = "The mythic weapon of Arthus, the king of Avalon. It protects its wielder from bleeding."
+[main.items.excalibur-eec7bf3e]
+description = "???"
 name = "Excalibur"
 
 [main.items.exp-potion]
@@ -7961,7 +7965,7 @@ name = "Fomoria Plated Robe"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Fomoria Plated Robe"
 
-[main.items.fomoria-plated-robe-fb3188b6]
+[main.items.fomoria-plated-robe-946a26b9]
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 name = "Fomoria Plated Robe"
 
@@ -19267,6 +19271,7 @@ quest_rewards = "Quest Rewards"
 questing = "Questing"
 raid_rewards = "Raid Rewards"
 resistance = "Resistance"
+second_chance = "Second Chance"
 self_damage_reduction = "Self Damage Reduction"
 settlement_area_defense = "Settlement/Area Defense"
 spell_rate = "Spell rate"

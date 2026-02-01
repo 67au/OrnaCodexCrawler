@@ -5573,6 +5573,10 @@ name = "卡斯托耳的權杖"
 description = "卡卡托娜的巨大重型盔甲，弗摩爾族薩姆納家族的首領。卡卡托娜，身著鎧甲的女水神，挺身對抗摩莉甘的眾追隨者，但最終倒在了他們的法杖和長劍之下。當穿戴此裝備時，對多個對手的技能將造成額外傷害。此外，技能有低機率會擊中一個以上的對手。"
 name = "卡卡托娜胸甲"
 
+[main.items.cats-paw]
+description = "For 1 hour, a 9% chance is granted to survive a hit that would have made one fall in battle."
+name = "Cat's Paw"
+
 [main.items.caturixs-robe]
 description = "卡圖里克斯的重裝長袍，弗摩爾族中溫塔拉家族的戰神領袖。卡圖里克斯與摩莉甘戰鬥到底，最終在戰鬥中屈服於詛咒。穿戴這裝備時，使用者施放的增益可能會轉移到隊友身上。此外，正面的狀態會持續更長時間。"
 name = "卡圖里克斯長袍"
@@ -7226,11 +7230,11 @@ description = "副手能裝的火炬.能提升你的視野,防止被盲目,還�
 name = "不滅火炬"
 
 [main.items.excalibur]
-description = "???"
+description = "阿瓦隆王國亞瑟王的神兵，它可以保護持有者免疫流血。"
 name = "誓約聖劍"
 
-[main.items.excalibur-32be53bc]
-description = "阿瓦隆王國亞瑟王的神兵，它可以保護持有者免疫流血。"
+[main.items.excalibur-eec7bf3e]
+description = "???"
 name = "誓約聖劍"
 
 [main.items.exp-potion]
@@ -7961,7 +7965,7 @@ name = "弗摩爾族板甲袍"
 description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 name = "弗摩爾族板甲袍"
 
-[main.items.fomoria-plated-robe-fb3188b6]
+[main.items.fomoria-plated-robe-946a26b9]
 description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 name = "弗摩爾族板甲袍"
 
@@ -19267,6 +19271,7 @@ quest_rewards = "任務獎勵"
 questing = "任務"
 raid_rewards = "副本獎勵"
 resistance = "魔防"
+second_chance = "第二次機會"
 self_damage_reduction = "自我傷害減少"
 settlement_area_defense = "據點/領地保衛"
 spell_rate = "技能施放機率"

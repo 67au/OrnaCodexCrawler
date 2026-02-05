@@ -21985,7 +21985,7 @@ upgrade_materials = [["items", "hide"], ["items", "titanium"], ["items", "avalon
 useable_by = "warrior_classes"
 
 [main.items.beastfelled-cuirass.stats]
-"+follower_summon_spell" = ["sharpen"]
+"+follower_summon_spell" = ["sharpen_iii"]
 adornment_slots = "4"
 attack = "20"
 defense = "310"
@@ -87906,14 +87906,6 @@ tags = ["off-hand_ability"]
 targets = "a_single_opponent"
 tier = 5
 
-[[main.spells.ravage-2.gives]]
-chance = "5%"
-name = "paralyzed"
-
-[[main.spells.ravage-2.gives]]
-chance = "5%"
-name = "stunned"
-
 [main.spells.ravage-2.stats]
 power = "1100-1400 (x3)"
 
@@ -89174,6 +89166,37 @@ name = "t__att_u"
 
 [main.spells.sharpen.stats]
 costs = "15"
+
+[main.spells.sharpen-ii]
+category = "spells"
+icon = "/img/spells/attack_up.png"
+id = "sharpen-ii"
+spell_type = "spell"
+tags = ["found_in_arcanists"]
+targets = "yourself"
+tier = 1
+
+[[main.spells.sharpen-ii.gives]]
+chance = "100%"
+name = "t__att_uu"
+
+[main.spells.sharpen-ii.stats]
+costs = "40"
+
+[main.spells.sharpen-iii]
+category = "spells"
+icon = "/img/spells/attack_up.png"
+id = "sharpen-iii"
+spell_type = "spell"
+targets = "yourself"
+tier = 1
+
+[[main.spells.sharpen-iii.gives]]
+chance = "100%"
+name = "t__att_uuu"
+
+[main.spells.sharpen-iii.stats]
+costs = "80"
 
 [main.spells.shield-bash]
 category = "spells"
@@ -94818,7 +94841,7 @@ power = "1350-3150 (x2)"
 
 [options]
 "+follower_summon_skill" = ["arrowstorm", "exploit_ii", "swordplay"]
-"+follower_summon_spell" = ["barrier", "berserk", "blessed_shield", "bloodshift", "giant_s_protection", "great_meditation", "ponder", "rebirth", "sharpen", "ward_of_mythril", "ward_of_ortanite"]
+"+follower_summon_spell" = ["barrier", "berserk", "blessed_shield", "bloodshift", "giant_s_protection", "great_meditation", "ponder", "rebirth", "sharpen_iii", "ward_of_mythril", "ward_of_ortanite"]
 "+skill" = ["beheading_cleave", "beheading_slice", "beheading_sweep", "ursa_s_edge"]
 "+spell" = ["ara_s_edge", "call_of_zagreus", "curse_of_sekhmet", "gods_of_aaru", "pumpkin_gaze", "reraise", "resolve_darkriftus", "shadowveil", "walls_of_aaru"]
 abilities = ["adept_summoner", "apex", "apex_(ara)", "apex_(ursa)", "apex_ii", "apex_iii", "apex_iv", "apothecarist", "apothecarist_ii", "ara", "arcane_mastery", "ascended_summons", "ascension_synergy", "auriga", "auriga_1", "autumna_house", "avidity", "avidity_ii", "avidity_iii", "bastille", "bastille_ii", "battalions", "battalions_ii", "battalions_iii", "beast_mode", "bestial_bond", "bestial_bond_ii", "bestial_bond_iii", "bloodflasks", "bloodflasks_ii", "charon_ritual", "charon_ritual_ii", "collateral_damage", "collateral_damage_ii", "collateral_damage_iii", "collateral_damage_iv", "collateral_damage_v", "collateral_damage_vi", "coupled_essence", "crest_of_annwn", "crest_of_lyonesse", "crest_of_lyonesse_ii", "critical_chain", "critical_hits", "critical_poise", "demigod", "demigod_(ara)", "demigod_(ursa)", "dorado", "dorado_s_guard", "dragon_slayer", "dungeon_crawler", "efficacious", "efficacious_ii", "elysian_balance_ii", "elysian_guidelight", "enhanced_bestial_bonds", "eternal_light", "eternal_light_ii", "exp_step", "experienced_summoner", "finesse_s_training", "gold_bonus", "grand_summoner", "grand_summoner_of_auriga", "grand_summoner_of_hydrus", "great_dragon", "guardian", "hercules", "high_tenacity", "hybrid_monster", "hybrid_monster_ii", "hybrid_monster_iii", "hydrus", "hydrus_1", "iconoclast", "knight_s_ward", "knight_s_ward_ii", "life_siphon", "life_siphon_ii", "mana_feather", "mana_regen", "mana_rush", "mana_saver", "mana_siphon", "mana_step", "manaflasks", "manaflasks_ii", "manaflasks_iii", "manaflasks_iv", "mystic_feather", "nekromancy", "nocturna_house", "novice_summoner", "omnimancy", "omnimancy_ii", "paired_essence", "paired_essence_ii", "paired_essence_iii", "paired_essence_iv", "power_of_the_gods", "power_of_the_gods_ii", "realm_s_light", "recharge", "resurgence", "resurgence_ii", "saboteur", "saboteur_ii", "school_of_avalon", "second_chance", "shields_up", "shoulders_of_giants", "shoulders_of_giants_ii", "shoulders_of_giants_iii", "siphon_ward", "staying_power", "steadfast", "steadfast_ii", "steadfast_iii", "summoner_of_auriga", "summoner_of_hydrus", "sumner_house", "the_cataphract", "the_deity", "the_deity_(ara)", "the_deity_(ursa)", "titan_s_ward", "unstable_omnimancy", "ursa", "valhallan_dissonance", "valhallan_dissonance_ii", "valhallan_protection", "valhallan_strength", "valhallan_strength_ii", "valhallan_strength_iii", "valhallan_training", "valhallan_way", "weaved_elements", "weaved_elements_ii", "wintara_house"]

@@ -733,7 +733,7 @@ name = "重生埃吉爾"
 name = "重生古精靈君主"
 
 [main.bosses.arisen-anteros]
-name = "Arisen Anteros"
+name = "重生安特羅斯"
 
 [main.bosses.arisen-balor-king]
 name = "重生巴羅爾王"
@@ -2107,7 +2107,7 @@ name = "克蘇魯"
 
 [main.followers.cupid]
 description = "期間限定。"
-name = "Cupid"
+name = "邱比特"
 
 [main.followers.dark-dragon]
 description = "漆黑的龍.能用暗黑魔法幫助你戰鬥."
@@ -2359,11 +2359,11 @@ name = "鷹身女妖"
 
 [main.followers.heartbreaker-cupid]
 description = "期間限定。"
-name = "Heartbreaker Cupid"
+name = "碎心者 邱比特"
 
 [main.followers.heartmender-cupid]
 description = "期間限定。"
-name = "Heartmender Cupid"
+name = "心靈補手 邱比特"
 
 [main.followers.hellhound]
 description = "被馴服的地獄犬. 能使用攻擊和火炎魔法來協助你戰鬥."
@@ -4910,8 +4910,8 @@ description = "被轉化的安溫王林科斯的法袍。它能使玩家的跟�
 name = "獸獵祭胸甲"
 
 [main.items.beastfelled-dungeon-key]
-description = "A key that can allow one to run any Dungeon as a \"Beastfelled Dungeon\" during the Beastfelled event."
-name = "Beastfelled Dungeon Key"
+description = "這把鑰匙能讓持有者在獸獵祭活動期間，將任何地城轉化為獸獵祭地城進行挑戰。"
+name = "獸獵祭地城鑰匙"
 
 [main.items.beastfelled-garb]
 description = "被轉化的安溫王林科斯的法袍。它能使玩家的跟隨者或召喚獸獲得使用「狂暴」的能力。"
@@ -5482,8 +5482,8 @@ description = "紀念碑公會打造的蠟燭。點亮它將能召喚一個新�
 name = "柏切利安蠟燭"
 
 [main.items.broken-half-locket]
-description = "Half of an old locket. It appears to be broken."
-name = "Broken Half Locket"
+description = "只剩一半的古老吊墜。它看起來已經損壞了。"
+name = "破碎的半心吊墜"
 
 [main.items.broken-heart]
 description = "心碎的淨土之民靈魂。在「心靈補手」活動期間將其在紀念碑公會進行交易以獲得獨特獎勵。"
@@ -5575,7 +5575,7 @@ name = "卡卡托娜胸甲"
 
 [main.items.cats-paw]
 description = "For 1 hour, a 9% chance is granted to survive a hit that would have made one fall in battle."
-name = "Cat's Paw"
+name = "幸運貓貓手"
 
 [main.items.caturixs-robe]
 description = "卡圖里克斯的重裝長袍，弗摩爾族中溫塔拉家族的戰神領袖。卡圖里克斯與摩莉甘戰鬥到底，最終在戰鬥中屈服於詛咒。穿戴這裝備時，使用者施放的增益可能會轉移到隊友身上。此外，正面的狀態會持續更長時間。"
@@ -6006,8 +6006,8 @@ description = "雅盧最後腐化的王，強大的斯芬克斯的重甲。穿�
 name = "王朝胸甲"
 
 [main.items.cupids-locket]
-description = "A locket signifying the true power of love."
-name = "Cupid's Locket"
+description = "一個象徵著愛之真諦力量的吊墜。"
+name = "邱比特吊墜"
 
 [main.items.cure-all]
 description = "微苦的萬靈藥，能治癒中毒、流血、枯萎、凍結、燃燒、麻痺、入眠、致盲、腐爛。"
@@ -8298,8 +8298,8 @@ description = "戈夫紐的護臂，弗摩爾族薩姆納家族的戰士鍛冶�
 name = "戈夫紐護臂"
 
 [main.items.gold-half-locket]
-description = "A mended half of a locket, once worn by Mara."
-name = "Gold Half Locket"
+description = "一個已修復的半心吊墜，曾由瑪萊所佩戴。"
+name = "金製半心吊墜"
 
 [main.items.gold-medal]
 description = "古奧林匹亞的經典盛事夏日運動會的獎牌。"
@@ -11809,8 +11809,8 @@ description = "銀製匕首.適合拿來和不死者戰鬥."
 name = "銀質匕首"
 
 [main.items.silver-half-locket]
-description = "A half of a locket, once worn by someone close to Mara."
-name = "Silver Half Locket"
+description = "這是一個半心吊墜，曾由某位與瑪萊關係親近的人所佩戴。"
+name = "銀製半心吊墜"
 
 [main.items.silver-kris]
 description = "最好的銀製成的鋒利雙匕首，用來獵殺不死族很有用。"
@@ -15252,7 +15252,7 @@ name = "箭雨 (副手)"
 
 [main.spells.arrowstorm-3]
 description = "用很多的弓箭轟炸對手."
-name = "Arrowstorm <3"
+name = "箭雨 <3"
 
 [main.spells.arrowstorm-ii]
 description = "用很多的弓箭轟炸對手."
@@ -17875,6 +17875,14 @@ name = "影身"
 description = "暫時性的增加物理攻擊力。"
 name = "磨刀術"
 
+[main.spells.sharpen-ii]
+description = "暫時性的增加物理攻擊力。"
+name = "Sharpen II"
+
+[main.spells.sharpen-iii]
+description = "暫時性的增加物理攻擊力。"
+name = "Sharpen III"
+
 [main.spells.shield-bash]
 description = "利用盾牌攻擊，轉換10%的護盾成為傷害。"
 name = "盾擊"
@@ -19341,7 +19349,7 @@ rebirth = "再生術"
 reraise = "死者所生"
 resolve_darkriftus = "黑箱臨時動議"
 shadowveil = "影身"
-sharpen = "磨刀術"
+sharpen_iii = "Sharpen III"
 swordplay = "劍擊"
 ursa_s_edge = "大熊座之刃"
 walls_of_aaru = "雅盧之壁"

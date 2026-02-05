@@ -17875,6 +17875,14 @@ name = "Shadowveil"
 description = "Temporarily increases attack power."
 name = "Sharpen"
 
+[main.spells.sharpen-ii]
+description = "Temporarily increases attack power."
+name = "Sharpen II"
+
+[main.spells.sharpen-iii]
+description = "Temporarily increases attack power."
+name = "Sharpen III"
+
 [main.spells.shield-bash]
 description = "Attack with your shield, converting 10 percent of your available Ward to raw damage."
 name = "Shield Bash"
@@ -19341,7 +19349,7 @@ rebirth = "Rebirth"
 reraise = "Reraise"
 resolve_darkriftus = "Resolve Darkriftus"
 shadowveil = "Shadowveil"
-sharpen = "Sharpen"
+sharpen_iii = "Sharpen III"
 swordplay = "Swordplay"
 ursa_s_edge = "Ursa's Edge"
 walls_of_aaru = "Walls of Aaru"

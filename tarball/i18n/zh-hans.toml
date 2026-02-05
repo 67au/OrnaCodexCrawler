@@ -733,7 +733,7 @@ name = "重生埃吉尔"
 name = "重生古精灵领主"
 
 [main.bosses.arisen-anteros]
-name = "Arisen Anteros"
+name = "重生安忒洛斯"
 
 [main.bosses.arisen-balor-king]
 name = "重生巴罗尔王"
@@ -2107,7 +2107,7 @@ name = "克苏鲁"
 
 [main.followers.cupid]
 description = "期间限定。"
-name = "Cupid"
+name = "丘比特"
 
 [main.followers.dark-dragon]
 description = "漆黑的龙。能用暗黑魔法帮助你战斗。"
@@ -2359,11 +2359,11 @@ name = "鹰身女妖"
 
 [main.followers.heartbreaker-cupid]
 description = "期间限定。"
-name = "Heartbreaker Cupid"
+name = "心碎捕手丘比特"
 
 [main.followers.heartmender-cupid]
 description = "期间限定。"
-name = "Heartmender Cupid"
+name = "心灵补手丘比特"
 
 [main.followers.hellhound]
 description = "被驯服的地狱犬。能使用攻击和火炎魔法来协助你战斗。"
@@ -4910,8 +4910,8 @@ description = "「被变形之王」林克斯的长袍。能赋予追随者与�
 name = "兽伐胸甲"
 
 [main.items.beastfelled-dungeon-key]
-description = "A key that can allow one to run any Dungeon as a \"Beastfelled Dungeon\" during the Beastfelled event."
-name = "Beastfelled Dungeon Key"
+description = "能用于兽伐记活动期间在任意地牢开启兽伐地牢的钥匙。"
+name = "兽伐地牢钥匙"
 
 [main.items.beastfelled-garb]
 description = "「被变形之王」林克斯的长袍。能赋予追随者与召唤物额外的能力来使用法术「狂暴」。"
@@ -5482,8 +5482,8 @@ description = "由纪念碑制作的蜡烛。点亮它能唤出新的追随者�
 name = "柏切利安蜡烛"
 
 [main.items.broken-half-locket]
-description = "Half of an old locket. It appears to be broken."
-name = "Broken Half Locket"
+description = "只剩一半的旧吊坠。看起来已经坏了。"
+name = "破碎半心吊坠"
 
 [main.items.broken-heart]
 description = "净土之魂的碎心。在「心灵补手」活动期间能于纪念碑公会交易独特奖励。"
@@ -5575,7 +5575,7 @@ name = "卡蒂卡托娜胸甲"
 
 [main.items.cats-paw]
 description = "For 1 hour, a 9% chance is granted to survive a hit that would have made one fall in battle."
-name = "Cat's Paw"
+name = "幸运猫爪"
 
 [main.items.caturixs-robe]
 description = "弗摩尔之温塔拉家族的领袖「战争之神」卡图里克斯所穿戴的重装长袍。卡图里克斯与摩莉甘激战到底，但最终其被迫臣服于诅咒之下。穿戴这件装备时，施放的增益效果会传递到队友身上，且增益效果会持续更长的时间。"
@@ -6006,8 +6006,8 @@ description = "雅卢最后的昏君斯芬克斯所穿戴的重甲。能赋予�
 name = "王朝胸甲"
 
 [main.items.cupids-locket]
-description = "A locket signifying the true power of love."
-name = "Cupid's Locket"
+description = "一枚象征着真爱之力的吊坠。"
+name = "丘比特吊坠"
 
 [main.items.cure-all]
 description = "微苦的绿色灵药，能治愈中毒、流血、枯萎、冰冻、燃烧、麻痹、入眠、致盲、腐败。"
@@ -8298,8 +8298,8 @@ description = "弗摩尔之萨姆纳家族的战士「锻造之神」戈夫努�
 name = "戈夫努护臂"
 
 [main.items.gold-half-locket]
-description = "A mended half of a locket, once worn by Mara."
-name = "Gold Half Locket"
+description = "一枚已修补的半心吊饰，曾为玛莱所佩戴。"
+name = "金质半心吊饰"
 
 [main.items.gold-medal]
 description = "于奥林匹亚经典盛事「夏季运动会」中斩获的奖牌。"
@@ -8706,31 +8706,31 @@ description = "巨人骑士的装备。"
 name = "Havel之剑"
 
 [main.items.head-of-agathodaemon]
-description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会天工开物使用。"
+description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会打造物品。"
 name = "阿伽忒俄斯之首"
 
 [main.items.head-of-bashe]
-description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会天工开物使用。"
+description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会打造物品。"
 name = "巴蛇之首"
 
 [main.items.head-of-beithir]
-description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会天工开物使用。"
+description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会打造物品。"
 name = "贝希尔之首"
 
 [main.items.head-of-illuyanka]
-description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会天工开物使用。"
+description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会打造物品。"
 name = "伊卢扬卡之首"
 
 [main.items.head-of-lotan]
-description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会天工开物使用。"
+description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会打造物品。"
 name = "罗坍之首"
 
 [main.items.head-of-vritra]
-description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会天工开物使用。"
+description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会打造物品。"
 name = "弗栗多之首"
 
 [main.items.head-of-zaltys]
-description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会天工开物使用。"
+description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会打造物品。"
 name = "萨勒蒂斯之首"
 
 [main.items.heart-of-change]
@@ -11809,8 +11809,8 @@ description = "银质匕首。非常适合拿来与不死者战斗。"
 name = "银质匕首"
 
 [main.items.silver-half-locket]
-description = "A half of a locket, once worn by someone close to Mara."
-name = "Silver Half Locket"
+description = "只剩一半的吊坠，曾是与玛莱亲近的某人所佩戴。"
+name = "银质半心吊坠"
 
 [main.items.silver-kris]
 description = "由最好的银所制成的一对锋利匕首。猎杀不死族时很有用。"
@@ -15252,7 +15252,7 @@ name = "箭雨 (副手)"
 
 [main.spells.arrowstorm-3]
 description = "用很多的弓箭轰击对手。"
-name = "Arrowstorm <3"
+name = "箭雨 <3"
 
 [main.spells.arrowstorm-ii]
 description = "用很多的弓箭轰击对手。"
@@ -17875,6 +17875,14 @@ name = "影幕"
 description = "暂时提升物攻。"
 name = "磨刀术"
 
+[main.spells.sharpen-ii]
+description = "暂时提升物攻。"
+name = "Sharpen II"
+
+[main.spells.sharpen-iii]
+description = "暂时提升物攻。"
+name = "Sharpen III"
+
 [main.spells.shield-bash]
 description = "利用盾牌攻击，将当前 10% 的护盾转化为伤害。"
 name = "盾击"
@@ -19341,7 +19349,7 @@ rebirth = "自我再生"
 reraise = "死者苏生"
 resolve_darkriftus = "暗域裂隙动议"
 shadowveil = "影幕"
-sharpen = "磨刀术"
+sharpen_iii = "Sharpen III"
 swordplay = "剑击"
 ursa_s_edge = "大熊双刃"
 walls_of_aaru = "雅卢防壁"

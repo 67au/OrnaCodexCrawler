@@ -6357,19 +6357,17 @@ buff_rate = "9"
 spell_rate = "15"
 
 [main.followers.cupid]
-bestial_bond = [[{name = "holy_damage", value = "+20%", type = "BONUS"}, {name = "dark_res", value = "+30%", type = "BONUS"}], [{name = "bonded_defense", chance = "7%", type = "BOND"}], [{name = "bonded_ward", chance = "70%", type = "BOND"}, {name = "bonded_defense", chance = "7%", type = "BOND"}, {name = "cleanse", type = "ABILITY"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 events = ["menders_of_hearts"]
 family = "common"
 icon = "/img/followers/cupid.png"
 id = "cupid"
 rarity = "steward"
-skills = [["spells", "ward-of-steel"], ["spells", "arrowstorm-3"]]
+skills = [["spells", "arrowstorm-3"]]
 tier = 10
 
 [main.followers.cupid.stats]
-attack_rate = "7"
-heal_rate = "12"
 spell_rate = "20"
 
 [main.followers.dark-dragon]
@@ -7292,35 +7290,31 @@ debuff_rate = "7"
 spell_rate = "4"
 
 [main.followers.heartbreaker-cupid]
-bestial_bond = [[{name = "holy_damage", value = "+20%", type = "BONUS"}, {name = "dark_res", value = "+30%", type = "BONUS"}], [{name = "bonded_defense", chance = "7%", type = "BOND"}], [{name = "bonded_ward", chance = "70%", type = "BOND"}, {name = "bonded_defense", chance = "7%", type = "BOND"}, {name = "cleanse", type = "ABILITY"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 events = ["menders_of_hearts"]
 family = "common"
 icon = "/img/followers/cupid3.png"
 id = "heartbreaker-cupid"
 rarity = "steward"
-skills = [["spells", "ward-of-steel"], ["spells", "arrowstorm-3"]]
+skills = [["spells", "arrowstorm-3"]]
 tier = 10
 
 [main.followers.heartbreaker-cupid.stats]
-attack_rate = "7"
-heal_rate = "12"
 spell_rate = "20"
 
 [main.followers.heartmender-cupid]
-bestial_bond = [[{name = "holy_damage", value = "+20%", type = "BONUS"}, {name = "dark_res", value = "+30%", type = "BONUS"}], [{name = "bonded_defense", chance = "7%", type = "BOND"}], [{name = "bonded_ward", chance = "70%", type = "BOND"}, {name = "bonded_defense", chance = "7%", type = "BOND"}, {name = "cleanse", type = "ABILITY"}]]
+bestial_bond = [[{name = "ward_start", value = "+2 turns", type = "BONUS"}, {name = "earthen_res", value = "+20%", type = "BONUS"}], [{name = "bonded_ward", chance = "50%", type = "BOND"}, {name = "bonded_defense", chance = "8%", type = "BOND"}, {name = "bonded_resistance", chance = "8%", type = "BOND"}, {name = "t__def_u", chance = "7%", type = "BOND"}, {name = "t__res_u", chance = "2%", type = "BOND"}], [{name = "bonded_ward", chance = "80%", type = "BOND"}, {name = "bonded_defense", chance = "9%", type = "BOND"}, {name = "bonded_resistance", chance = "9%", type = "BOND"}]]
 category = "followers"
 events = ["menders_of_hearts"]
 family = "common"
 icon = "/img/followers/cupid2.png"
 id = "heartmender-cupid"
 rarity = "steward"
-skills = [["spells", "ward-of-steel"], ["spells", "arrowstorm-3"]]
+skills = [["spells", "arrowstorm-3"]]
 tier = 10
 
 [main.followers.heartmender-cupid.stats]
-attack_rate = "7"
-heal_rate = "12"
 spell_rate = "20"
 
 [main.followers.hellhound]
@@ -28216,7 +28210,7 @@ useable_by = "all_classes"
 
 [main.items.cupids-locket.stats]
 accuracy = "+8"
-crit = "20"
+crit = "5"
 defense = "40"
 
 [main.items.cure-all]
@@ -55219,7 +55213,7 @@ useable_by = "all_classes"
 
 [main.items.pistachio.stats]
 attack = "3"
-debuff_duration = "+3"
+debuff_fade = "+5"
 defense = "3"
 magic = "3"
 resistance = "3"
@@ -63257,7 +63251,7 @@ id = "tail-of-a-sphinx"
 item_type = "armor"
 place = "accessory"
 rarity = "legendary"
-tier = 8
+tier = 6
 useable_by = "all_classes"
 
 [main.items.tail-of-a-sphinx.stats]
@@ -89174,14 +89168,14 @@ id = "sharpen-ii"
 spell_type = "spell"
 tags = ["found_in_arcanists"]
 targets = "yourself"
-tier = 1
+tier = 4
 
 [[main.spells.sharpen-ii.gives]]
 chance = "100%"
 name = "t__att_uu"
 
 [main.spells.sharpen-ii.stats]
-costs = "40"
+costs = "50"
 
 [main.spells.sharpen-iii]
 category = "spells"
@@ -94261,7 +94255,7 @@ spell_type = "spell"
 tags = ["found_in_arcanists"]
 targets = "yourself"
 tier = 5
-used_by = [["followers", "amarok"], ["followers", "castor"], ["followers", "cupid"], ["followers", "heartbreaker-cupid"], ["followers", "heartmender-cupid"], ["followers", "orichalcum-golem"], ["bosses", "griffin"], ["bosses", "sumner-apollo"], ["bosses", "sumner-demeter"], ["monsters", "elite-riftguard"], ["monsters", "follower-of-kerberos"], ["monsters", "follower-of-kerberos-ac5dc474"], ["monsters", "riftguard"], ["monsters", "swordbearer-of-finesse-3574bce3"]]
+used_by = [["followers", "amarok"], ["followers", "castor"], ["followers", "orichalcum-golem"], ["bosses", "griffin"], ["bosses", "sumner-apollo"], ["bosses", "sumner-demeter"], ["monsters", "elite-riftguard"], ["monsters", "follower-of-kerberos"], ["monsters", "follower-of-kerberos-ac5dc474"], ["monsters", "riftguard"], ["monsters", "swordbearer-of-finesse-3574bce3"]]
 
 [main.spells.ward-of-steel.stats]
 costs = "90"
@@ -94905,7 +94899,6 @@ useable_by = ["all_classes", "magic_users", "melee_classes", "thief_classes", "v
 "stats.damage_to_ward" = "SIGNED_PERCENT"
 "stats.dark_damage" = "SIGNED_PERCENT"
 "stats.dark_res" = "SIGNED_PERCENT"
-"stats.debuff_duration" = "SIGNED_PERCENT"
 "stats.debuff_fade" = "SIGNED_PERCENT"
 "stats.def_res_penetration" = "SIGNED_PERCENT"
 "stats.defend_power" = "SIGNED_PERCENT"

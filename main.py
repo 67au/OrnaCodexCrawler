@@ -1,19 +1,22 @@
 import argparse
 import importlib
+from pathlib import Path
 
 from scrapy.utils.project import get_project_settings
 
 
 def main():
+    settings = get_project_settings()
+    supported_languages = settings.get('SUPPORTED_LANGUAGES', [])
+
     parser = argparse.ArgumentParser(
         prog="OrnaCodexCrawler",
     )
     parser.add_argument('command', help='Command')
     parser.add_argument('--tmp', help="tmp dir")
+    parser.add_argument('--input', help="input dir")
     parser.add_argument('--output', help="output dir")
-    parser.add_argument('--extra', help="extra dir")
-    parser.add_argument('--dump', help="dump dir")
-    parser.add_argument('--export', help="export dir")
+    parser.add_argument('--languages', help="supported languages: " + ', '.join(supported_languages))
     parser.add_argument('--httpcache', action='store_true',
                         help='enable scrapy httpcache')
     parser.add_argument('--disallow-patches', action='store_true',
@@ -28,29 +31,36 @@ def main():
         print(f'Load module {command} failed: {e}')
         exit(1)
 
-    settings = get_project_settings()
+   
+    input_struct = {
+        'input': Path(args.input) if args.input else None,
+        'output': Path(args.output) if args.output else None,
+    }
+
     if args.tmp:
         settings.set('TMP_DIR', args.tmp)
-    if args.output:
-        settings.set('OUTPUT_DIR', args.output)
-    if args.extra:
-        settings.set('EXTRA_DIR', args.extra)
-    if args.dump:
-        settings.set('DUMP_DIR', args.dump)
-    if args.export:
-        settings.set('EXPORT_EXTRA_DIR', args.export)
+    if args.languages:
+        languages: list[str] = []
+        for lang in args.languages.strip().split(','):
+            if lang in supported_languages:
+                languages.append(lang)
+            else:
+                print(f'Not supported: ' + lang)
+        if 'en' not in languages:
+            languages.append('en')
+            print('Add base language: en')
+        print('Run crawler in: ' + ', '.join(languages))
+        settings.set('SUPPORTED_LANGUAGES', languages)     
     if args.httpcache:
         settings.set('HTTPCACHE_ENABLED', True)
-        settings.set('HTTPCACHE_EXPIRATION_SECS', 0)
         settings.set('HTTPCACHE_DIR',  'httpcache')
-        settings.set('HTTPCACHE_IGNORE_HTTP_CODES', [])
         settings.set('HTTPCACHE_STORAGE',
                      'scrapy.extensions.httpcache.FilesystemCacheStorage')
     if args.disallow_patches:
         settings.set('PATCHES_ENABLED', False)
     if args.base:
         settings.set('BASE_URL', args.base)
-    mod.run(settings)
+    mod.run(settings, **input_struct)
 
 
 if __name__ == '__main__':

@@ -19,6 +19,7 @@ class Spider(scrapy.Spider):
         },
         'FILES_URLS_FIELD': 'file_urls',
         'FILES_RESULT_FIELD': 'files',
+        'HTTPCACHE_POLICY': 'scrapy.extensions.httpcache.RFC2616Policy'
     }
 
     def __init__(

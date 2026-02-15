@@ -1,3 +1,4 @@
+from datetime import datetime, timezone
 import json
 from pathlib import Path
 import shutil
@@ -5,15 +6,14 @@ from scrapy.crawler import CrawlerRunner
 from scrapy.settings import Settings
 from scrapy.utils.log import configure_logging
 
-from ornacodex.spiders import images
+from ..spiders import images
+from ..patches.image_urls import image_urls
 
 from twisted.internet import asyncioreactor
 asyncioreactor.install()
 
-
 def crawl_images(settings: Settings, icons: list[str]):
-    from twisted.internet import reactor, defer
-
+    from twisted.internet import reactor, defer 
     configure_logging()
 
     @defer.inlineCallbacks
@@ -27,7 +27,6 @@ def crawl_images(settings: Settings, icons: list[str]):
     crawl()
     reactor.run()
 
-
 def main(settings: Settings, input: Path = None, output: Path = None):
     input_dir = Path(input or 'output')
     output_dir = Path(output or 'build')
@@ -38,32 +37,22 @@ def main(settings: Settings, input: Path = None, output: Path = None):
     with open(input_dir.joinpath('manifest.json')) as f:
         manifest = json.load(f)
 
-    # ToDo: need update
     with open(input_dir.joinpath(manifest['files']['codex'])) as f:
         codex = json.load(f)
-        raids = {v['id']: {
-            'tier': v['tier'],
-            'icon': v['icon'],
-            'hp': v['hp'],
-            'name': {}
-        } for v in filter(lambda e: e['category'] == 'raids', codex['entries'])}
+        icons = codex['icons'].values()
+        entry_icons = [entry['icon'] for entry in codex['entries']]
+    
+    images = [*icons, *entry_icons, *image_urls]
 
-    for language, filename in manifest['files']['locales'].items():
-        with open(input_dir.joinpath('locales', filename)) as f:
-            translation = json.load(f)
-            for v in filter(lambda e: e['category'] == 'raids', translation['entries']):
-                raids[v['id']]['name'][language] = v['name']
+    settings.update({'FILES_STORE': str(output_dir)})
+    crawl_images(settings, images)
 
-    settings.update(
-        {
-            'FILES_STORE': str(output_dir),
-        })
-    crawl_images(settings, [r['icon'] for r in raids.values()])
+    manifest = {
+        'last_updated': datetime.now(timezone.utc).isoformat(timespec='seconds'),
+    }
 
-    with open(output_dir.joinpath('realm.json'), 'w') as f:
-        json.dump(raids, f, ensure_ascii=False)
-        print('Dump other realm raids finished!')
-
+    with open(output_dir.joinpath('manifest.json'), 'w') as f:
+        json.dump(manifest, f, ensure_ascii=False)
 
 def run(settings: Settings, **kwargs):
     main(settings=settings, **kwargs)

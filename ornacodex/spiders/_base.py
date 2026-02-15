@@ -21,7 +21,7 @@ class BaseSpider(scrapy.Spider):
         language: str = None,
         start_ids: list[str] | str = None,
         **kwargs
-    ) -> None:
+    ) -> None:   
         super().__init__(name, **kwargs)
         self.language = language or settings.get('BASE_LANGUAGE')
         self.category_url = UrlBuilder.category(self.name)

@@ -1,64 +1,27 @@
 from collections import defaultdict
-from curses.ascii import isdigit
 from datetime import datetime, timezone
-import hashlib
 from itertools import product
 import json
 from pathlib import Path
+import shutil
 from scrapy.settings import Settings
-from scrapy.utils.project import get_project_settings
 
+from ornacodex.utils import get_hash
 from ornacodex.utils.converter import Converter, UniqueKeyGenerator
 from ornacodex.utils.exctractor import Exctractor
-
-from ..utils.path_config import TmpPathConfig
-
+from ornacodex.utils.path_config import TmpPathConfig
 from ..spiders import bosses, classes, followers, items, monsters, raids, spells
 
-BASE_STATS = [
-    'attack',
-    'magic',
-    'defense',
-    'resistance',
-    'dexterity',
-    'crit',
-    'hp',
-    'mana',
-    'ward',
-    'foresight',
-    'orn_bonus',
-    'exp_bonus',
-    'luck_bonus',
-    'gold_bonus',
-    'follower_stats',
-    'follower_act',
-    'summon_stats',
-    'view_distance',
-    'adornment_slots',
-    'two_handed'
-]
+import glom
+
 
 crawlers = [
     bosses, classes, followers, items,
     monsters, raids, spells
 ]
 
-settings = get_project_settings()
-base_language = settings.get('BASE_LANGUAGE')
-languages = settings.get('SUPPORTED_LANGUAGES', [])
 
-
-def load(entries_dir: Path):
-    entries = {language: {} for language in languages}
-    for (language, crawler) in product(languages, crawlers):
-        name = crawler.Spider.name
-        with open(entries_dir.joinpath(language, f'{name}.json')) as f:
-            entries[language][name] = {i['id']: i for i in sorted(
-                json.load(f), key=lambda k: k['id'])}
-    return entries
-
-
-def load_itemtypes(itemtypes_dir: Path):
+def load_item_types(itemtypes_dir: Path, languages: list[str]):
     itemtypes = {}
     for language in languages:
         with open(itemtypes_dir.joinpath(f'{language}.json')) as f:
@@ -66,429 +29,776 @@ def load_itemtypes(itemtypes_dir: Path):
     return itemtypes
 
 
-def isSpellKey(s: str):
-    return s.startswith('+') and s.endswith(('spell', 'skill'))
+def load_entries(entries_dir: Path, languages: list[str]):
+    entries = defaultdict(dict)
+    for (language, crawler) in product(languages, crawlers):
+        category: str = crawler.Spider.name
+        with open(entries_dir.joinpath(language, f'{category}.json')) as f:
+            for entry in sorted(json.load(f), key=lambda e: e['id']):
+                key = f"{category}/{entry['id']}"
+                entries[language][key] = entry
+    return entries
 
 
-def scan(entries, itemtypes):
+icon_key_generator = UniqueKeyGenerator()
+abilities_key_generator = UniqueKeyGenerator()
 
-    translations = {language: {
+
+def get_default_translation():
+    return {
         'msg': defaultdict(dict),
-        'abilities': defaultdict(dict),
-        'language': language,
-        'main': {}
-    } for language in languages}
-    cm = {}
-    icons = {}
-
-    sorts = {
-        'items': defaultdict(dict),
-        'followers': defaultdict(dict),
-        'spells': defaultdict(dict),
-        'raids': {'hp': 'NUMBER'},
+        'entries': dict(),
+        'abilities': dict()
     }
 
-    events_conflict = {language: {} for language in languages}
 
-    icon_key_generator = UniqueKeyGenerator()
-    abilities_key_generator = UniqueKeyGenerator()
+def get_value_type(value: str):
+    value_type = {}
+    if value.startswith('+'):
+        value_type['type'] = 'SIGNED'
+    if value.endswith('%'):
+        value_type['unit'] = 'PERCENT'
+    if value.endswith(('turn', 'turns')):
+        value_type['unit'] = 'TURN'
+    if value.endswith('mana'):
+        value_type['unit'] = 'MANA'
+    if value.endswith('/m'):
+        value_type['unit'] = 'PER_M'
+    return value_type
 
-    for (language, crawler) in product(languages, crawlers):
-        category = crawler.Spider.name
-        used = entries[language][category]
-        base = entries[base_language][category]
-        cm_tmp = defaultdict(dict)
-        translations[language]['main'][category] = defaultdict(dict)
-        for id, entry in used.items():
 
-            cm_tmp[id]['category'] = category
-            translations[language]['msg']['category'][category] = entry['category']
+def isSpellKey(key) -> bool:
+    return key.startswith('_') and key.endswith(('spell', 'skill'))
 
-            stats_conditions = {}
 
-            exotic = entry.get('exotic')
-            if exotic:
-                translations[language]['msg']['meta']['exotic'] = exotic
-                cm_tmp[id]['exotic'] = True
-            else:
-                if category == 'items':
-                    cm_tmp[id]['exotic'] = False
+def scan(settings: Settings, input_dir: Path):
+    base_language = settings.get('BASE_LANGUAGE')
+    languages = settings.get('SUPPORTED_LANGUAGES')
 
-            events = entry.get('events')
-            if events:
-                cm_tmp[id]['events'] = []
-                for i, event in enumerate(events):
-                    key = Converter.convert_key(base[id]['events'][i])
-                    cm_tmp[id]['events'].append(key)
-                    if events_conflict[language].get(key, False):
-                        continue
-                    else:
-                        if len(events) == 1:
-                            events_conflict[language][key] = True
-                    translations[language]['msg']['events'][key] = event
+    # icons
+    icons = dict()
 
-            follower = entry.get('follower')
-            if follower:
-                translations[language]['msg']['meta']['follower'] = follower[0]
-                icon_key = Converter.convert_key(
-                    base[id]['follower'][1]['name'])
-                unique_key = icon_key_generator.generate_unique_key(
-                    (icon_key, follower[1]['icon']))
-                translations[language]['msg']['follower'][unique_key] = follower[1]['name']
-                icons[unique_key] = follower[1]['icon']
-                cm_tmp[id]['follower'] = {
-                    'name': unique_key,
-                }
+    def set_icon(key, new_icon):
+        icon = icons.get(key)
+        if icon:
+            return
+        icons[key] = new_icon
 
-            tags = entry.get('tags')
-            if tags:
-                cm_tmp[id]['tags'] = []
-                for i, tag in enumerate(tags):
-                    key = Converter.convert_key(base[id]['tags'][i])
-                    cm_tmp[id]['tags'].append(key)
-                    translations[language]['msg']['tags'][key] = tag
+    # attached spells
+    attached_spells = dict()
 
-            meta = entry.get('meta')
-            if meta:
-                for i, m in enumerate(meta):
-                    key = Converter.convert_key(base[id]['meta'][i][0])
-                    translations[language]['msg']['meta'][key] = m[0]
-                    if key == 'tier':
-                        cm_tmp[id][key] = int(m[1].strip('★'))
-                    elif key == 'hp':
-                        cm_tmp[id][key] = int(m[1].replace(',', ''))
-                    else:
-                        value = Converter.convert_key(
-                            base[id]['meta'][i][1])
-                        cm_tmp[id][key] = value
-                        translations[language]['msg'][key][value] = m[1]
+    def set_attached_spells(key, name):
+        spell = attached_spells.get(key)
+        if spell:
+            return
+        attached_spells[key] = name
 
-            stats = entry.get('stats')
-            if stats:
-                stats_tmp = {}
-                keys_conflict = set()
-                for i, m in enumerate(stats):
-                    key = Converter.convert_key(base[id]['stats'][i][0])
-                    # move from `stats` to `meta`
-                    if key == 'targets':
-                        value = Converter.convert_key(
-                            base[id]['stats'][i][1])
-                        translations[language]['msg']['meta'][key] = m[0]
-                        translations[language]['msg'][key][value] = m[1]
-                        cm_tmp[id][key] = value
-                    ###
-                    elif key == 'element':
-                        stats_tmp[key] = []
-                        for ii, e in enumerate(m[1]):
-                            value = Converter.convert_key(
-                                key=base[id]['stats'][i][1][ii])
-                            translations[language]['msg'][key][value] = e
-                            stats_tmp[key].append(value)
-                    elif key == 'costs':
-                        translations[language]['msg']['stats'][key] = m[0]
-                        stats_tmp[key] = base[id]['stats'][i][1].split()[
-                            0]
-                        sorts[category]['stats.'+key] = 'MANA'
-                    else:
-                        # patch for items/zagreus-rete
-                        if key == 'bestial_bond' and m[1][-1].isdigit():
-                            key = 'bestial_bond_level'
-                        ###
+    # value type
+    value_types = dict()
 
-                        # add key translation
-                        translations[language]['msg']['stats'][key] = m[0]
+    def set_value_types(key, new_value: dict):
+        old_value = value_types.get(key)
+        if old_value and old_value.get('type'):
+            return
+        if any(new_value):
+            value_types[key] = new_value
 
-                        if len(m) > 1:
-                            val: str = m[1]
-                            val_base = base[id]['stats'][i][1]
-                            # exctract condition
-                            if m[1].endswith(')') and key != 'power':
-                                r = Exctractor.extract_condition(m[1])
-                                val: str = r.get('text')
-                                conds = r.get('conditions', [])
+    entries = load_entries(input_dir.entries, languages)
 
-                                r_base = Exctractor.extract_condition(
-                                    base[id]['stats'][i][1])
-                                val_base = r_base.get('text')
-                                conds_base = r_base.get('conditions', [])
-                                conds_key = [Converter.convert_key(
-                                    c) for c in conds_base]
-                                stats_conditions[key] = conds_key
+    # base entries
+    base_entries = entries[base_language]
+    tmp_entries = {key: {} for key in base_entries.keys()}
 
-                                for k, c in zip(conds_key, conds):
-                                    translations[language]['msg']['stats_conditions'][k] = c
+    def set_ent(path: str, value):
+        _ = glom.assign(tmp_entries, path, value)
 
-                            # patch
-                            if key in {'self_damage_reduction'}:
-                                val_base = val_base.replace('+', '')
-
-                            segments = []
-                            if val_base.startswith('+'):
-                                segments.append('SIGNED')
-                            if val_base.endswith('%'):
-                                segments.append('PERCENT')
-                            if val_base.endswith(('turn')):
-                                segments.append('TURN')
-                            if val_base.endswith(('turns')):
-                                segments.append('TURNS')
-                            if val[-1].isdigit():
-                                segments.append('NUMBER')
-                            if key in {'power', 'stat_bonus', 'bestial_bond_level'}:
-                                segments.clear()
-
-                            if any(segments):
-                                sorts[category]['stats.' +
-                                                key] = '_'.join(segments)
-                                stats_tmp[key] = Exctractor.extract_number(
-                                    val_base)
-                            else:
-                                if key in {'power'}:
-                                    stats_tmp[key] = val_base
-                                else:
-                                    k = Converter.convert_key(val_base)
-                                    translations[language]['msg']['stats_text'][k] = val
-                                    if isSpellKey(key):
-                                        if key in keys_conflict:
-                                            stats_tmp[key].append(k)
-                                        else:
-                                            stats_tmp[key] = [k]
-                                            keys_conflict.add(key)
-                                    else:
-                                        sorts[category]['stats.'+key] = 'TEXT'
-                                        stats_tmp[key] = k
-                        else:
-                            sorts[category]['stats.'+key] = 'BOOL'
-                            stats_tmp[key] = True
-
-                if any(stats_tmp):
-                    cm_tmp[id]['stats'] = stats_tmp
-                if any(stats_conditions):
-                    cm_tmp[id]['stats_conditions'] = stats_conditions
-
-            drops = entry.get('drops')
-            if drops:
-                for i, m in enumerate(drops):
-                    key = Converter.convert_key(base[id]['drops'][i][0])
-                    translations[language]['msg']['meta'][key] = m[0]
-                    d_list = []
-                    for ii, d in enumerate(m[1]):
-                        href = d.get('href')
-                        icon = d.get('icon')
-                        if href:
-                            d_list.append(Exctractor.extract_codex_id(href))
-                        elif icon:
-                            icon_key = Converter.convert_key(
-                                base[id]['drops'][i][1][ii]['name'])
-                            unique_key = icon_key_generator.generate_unique_key(
-                                (icon_key, icon))
-                            description = d.get('description')
-                            chance = d.get('chance')
-                            icons[unique_key] = icon
-                            tmp = {
-                                'name': unique_key,
-                            }
-                            if key == 'abilities':
-                                abilities_key = abilities_key_generator.generate_unique_key(
-                                    (icon_key, hashlib.md5(base[id]['drops'][i][1][ii].get('description', '').encode()).digest()))
-                                # abilities
-                                translations[language]['abilities'][abilities_key] = d
-                                tmp['name'] = abilities_key
-                            else:
-                                translations[language]['msg']['status'][unique_key] = d['name']
-                            if chance:
-                                tmp['chance'] = chance
-                            d_list.append(tmp)
-                        else:
-                            if category == 'followers':
-                                bb_base = Exctractor.extract_bond(
-                                    base[id]['drops'][i][1][ii]['description'])
-                                bb = Exctractor.extract_bond(d['description'])
-                                tmp = []
-                                for iii, bbb in enumerate(bb_base):
-                                    if bbb['type'] == 'ABILITY':
-                                        tmp.append(bbb)
-                                        continue
-                                    bb_key = Converter.convert_key(bbb['name'])
-                                    tmp.append({**bbb, 'name': bb_key})
-                                    translations[language]['msg']['bestial_bond'][bb_key] = bb[iii]['name']
-                                d_list.append(tmp)
-                            else:
-                                # dummy
-                                pass
-                    if any(d_list):
-                        cm_tmp[id][key] = d_list
-
-            # default keys
-            cm_tmp[id]['id'] = entry['id']
-            cm_tmp[id]['icon'] = entry['icon']
-
-            tier = entry.get('tier')
-            if tier:
-                cm_tmp[id]['tier'] = int(tier)
-
-            aura = entry.get('aura')
-            if aura:
-                cm_tmp[id]['aura'] = aura
-
-            _type = entry.get('type')
-            if _type:
-                key = Converter.convert_key(base[id]['type'])
-                translations[language]['msg']['type'][key] = _type
-                cm_tmp[id]['type'] = _type
-
-            spell_type = entry.get('spell_type')
-            if spell_type:
-                key = Converter.convert_key(base[id]['spell_type'])
-                translations[language]['msg']['spell_type'][key] = spell_type
-                cm_tmp[id]['spell_type'] = key
-
-            translations[language]['main'][category][id]['name'] = entry['name']
+    # translations
+    translations = {lang: get_default_translation() for lang in languages}
+    for lang in languages:
+        for entry_key, entry in entries[lang].items():
+            translations[lang]['entries'][entry_key] = {'name': entry['name']}
             description = entry.get('description')
             if description:
-                translations[language]['main'][category][id]['description'] = description
+                translations[lang]['entries'][entry_key]['description'] = description
 
-            ability = entry.get('ability')
-            if ability:
-                cm_tmp[id]['ability'] = base[id]['ability']
+    def set_msg(language: str, msg_path: str,  value):
+        msg = translations[language]['msg']
+        is_empty = glom.glom(msg, glom.Coalesce(
+            msg_path, default=None)) is None
+        if is_empty:
+            if value:
+                glom.assign(msg, msg_path, value)
 
-        cm[category] = cm_tmp
+    def set_msg_by_path(msg_path: str, value_path: str):
+        for language in languages:
+            used_entries = entries[language]
+            value = glom.glom(used_entries, glom.Coalesce(
+                value_path, default=None))
+            set_msg(language, msg_path, value)
 
-    for its in itemtypes[base_language]:
-        for id in its['items']:
-            cm['items'][id]['item_type'] = its['type']
+    # abilities_stats
+    ability_stats = dict()
 
-    offhand_skills = {
-        entries[base_language]['spells'][spell['id']]['name'][:-11]: spell['id'] for spell in cm['spells'].values() if 'off-hand_ability' in spell.get('tags', [])
-    }
+    def set_ability_stat(ability_key: str, stat: list[str, str], value_path: str):
+        stats = ability_stats[ability_key]
+        key, value = stat
+        if key in {'bestial_bond_level', 'mana_rush'}:
+            base_value = Converter.convert_key(value)
+            set_value_types('stats.'+key, {'type': 'TEXT'})
+            stats[key] = base_value
+            for language in languages:
+                val = glom.glom(entries[language], value_path)
+                set_msg(language, 'stats_text.'+base_value, val)
+            return
 
-    for item_id, item in entries[base_language]['items'].items():
-        ability = item.get('ability')
-        if ability:
-            spell_id = offhand_skills.get(ability[0])
-            cm['items'][item_id]['ability'] = ['spells', spell_id]
-            if 'off-hands' not in cm['spells'][spell_id]:
-                cm['spells'][spell_id]['off-hands'] = []
-            cm['spells'][spell_id]['off-hands'].append(['items', item_id])
+        # normal type
+        value_type = get_value_type(value)
+        set_value_types('stats.'+key, value_type)
+        if any(value_type) or value[-1].isdigit():
+            stats[key] = Exctractor.extract_number(value)
+            return
 
-    for category in ['followers', 'raids', 'bosses', 'monsters']:
-        for id, entry in cm[category].items():
-            skills = entry.get('skills')
-            if skills:
-                for _, spell_id in skills:
-                    if 'used_by' not in cm['spells'][spell_id]:
-                        cm['spells'][spell_id]['used_by'] = []
-                    cm['spells'][spell_id]['used_by'].append([category, id])
+        # elif gives/causes = 'Rot (1%), Blight (2%)'
+        if key in {'gives', 'causes'}:
+            base_buffs = [[Converter.convert_key(n), c]for n, c in (
+                Exctractor.extract_chance(v.strip()) for v in value.split(','))]
+            stats[key] = [{'name': buf[0], 'chance': int(buf[1].strip('%') if buf[1] else None)}
+                          for buf in base_buffs]
+            for language in languages:
+                buffs = [Exctractor.extract_chance(v.strip()) for v in glom.glom(
+                    entries[language], value_path).split(',')]
+                for i, base_buf in enumerate(base_buffs):
+                    base_name = base_buf[0]
+                    set_msg(language, 'status.'+base_name, buffs[i][0])
+            return
 
-    skills = {
-        entries[base_language]['spells'][spell['id']]['name']: spell['id'] for spell in cm['spells'].values()
-    }
+        # else what?
+        print('missed abilities stats type:', key, value)
 
-    for id in cm['followers'].keys():
-        bestial_bond = cm['followers'][id].get('bestial_bond', [])
-        for i, b in enumerate(bestial_bond):
-            for ii, bb in enumerate(b):
-                if bb['type'] == 'ABILITY':
-                    cm['followers'][id]['bestial_bond'][i][ii]['name'] = skills[bb['name']]
+    # abilities
 
-    materials = defaultdict(list)
-    for item_id, item in cm['items'].items():
-        for _, id in item.get('upgrade_materials', []):
-            materials[id].append(['items', item['id']])
-    for id in materials.keys():
-        cm['items'][id]['sources'] = materials[id]
+    def set_abilities(entry_key, path):
+        ###
+        base_abilities = []
+        for index, base in enumerate(glom.glom(base_entries, glom.Coalesce(
+                f'{entry_key}.{path}', default=[]))):
+            icon = base.get('icon')
+            unique_key = icon_key_generator.generate_unique_key(
+                (base.get('name'), icon))
+            unique_key = abilities_key_generator.generate_unique_key(
+                (unique_key, base.get('description', ''))
+            )
+            set_icon(unique_key, icon)
+            base_abilities.append(unique_key)
+            # stats
+            stats = base.get('stats')
+            if stats and ability_stats.get(unique_key) is None:
+                ability_stats[unique_key] = {}
+                stats_path = f'{entry_key}.{path}.{index}.stats'
+                base_stats = glom.glom(
+                    base_entries, glom.Coalesce(stats_path, default=[]))
+                for i, stat in enumerate(base_stats):
+                    stat_key = Converter.convert_key(stat[0])
+                    stat_key_path = f'{stats_path}.{i}.0'
+                    stat_value_path = f'{stats_path}.{i}.1'
 
-    for language in languages:
-        for its in itemtypes[language]:
-            translations[language]['msg']['item_type'][its['type']
-                                                       ] = its['name']
-    return (cm, icons, sorts, translations)
+                    # patch for bestial_bond_level
+                    if stat_key == 'bestial_bond' and stat[1][-1].isdigit():
+                        stat_key = 'bestial_bond_level'
 
+                    if stat_key == 'ward':
+                        stat_key = 'ward_signed'
 
-def generate_options(codex: dict):
-    options = defaultdict(set)
-
-    disabled_option_keys = set([
-        'id', 'icon', 'drops', 'aura', 'skills', 'celestial_classes', 'stats', 'stats_conditions',
-        'bestial_bond', 'hp', 'learned_by', 'off-hands', 'used_by', 'follower',
-        'dropped_by', 'upgrade_materials', 'sources', 'ability'
-    ])
-
-    for crawler in crawlers:
-        category = crawler.Spider.name
-        for entry in codex[category].values():
-            for key in entry.keys():
-                if key in disabled_option_keys:
-                    continue
-                m = entry.get(key)
-                if m:
-                    if isinstance(m, list):
-                        for mm in m:
-                            options[key].add(
-                                mm['name'] if isinstance(mm, dict) else mm)
+                    set_msg_by_path('stats.'+stat_key,
+                                    stat_key_path)
+                    if len(stat) == 1:
+                        set_value_types('stats.' +
+                                        stat_key, {'type': 'FLAG'})
+                        ability_stats[unique_key][stat_key] = True
                     else:
-                        options[key].add(m)
-            # element
-            stats = entry.get('stats')
-            if stats:
-                for m in stats.get('element', []):
-                    options['element'].add(m)
-                for key in stats.keys():
-                    if isSpellKey(key):
-                        for m in stats.get(key, []):
-                            options[key].add(m)
-            # exotic
-            options['exotic'] = set([True, False])
-            # two_handed
-            options['two_handed'] = set([True, False])
+                        set_ability_stat(unique_key, [
+                            stat_key, stat[1]], stat_value_path)
+            ###
+        set_ent(f'{entry_key}.abilities', base_abilities)
+        ###
+        for language in languages:
+            translation = translations[language]['abilities']
+            for index, value in enumerate(glom.glom(entries[language], glom.Coalesce(f'{entry_key}.{path}', default=[]))):
+                is_empty = glom.glom(translation, glom.Coalesce(
+                    base_abilities[index], default=None)) is None
+                if is_empty:
+                    value_filtered = {k: v for k, v in value.items() if k in {
+                        'name', 'description'}}
+                    glom.assign(
+                        translation, base_abilities[index], value_filtered)
+        ###
 
-    return {k: sorted(v) for k, v in options.items()}
+    # bestial bond
+    def set_bestial_bond(entry_key, path):
+        ###
+        base_bbs = []
+        for base_bond in glom.glom(base_entries, glom.Coalesce(
+                f'{entry_key}.{path}', default=[])):
+            tmp = []
+            for bb in Exctractor.extract_bond(base_bond['stats']):
+                bb_key = Converter.convert_key(bb['name'])
 
+                if bb_key == 'crit_chance':
+                    bb_key = 'crit_chance_signed'
 
-def save_codex(output_dir: Path, codex: dict):
-    with open(output_dir.joinpath('codex.json'), 'w') as f:
-        json.dump(codex, f, ensure_ascii=False)
-    return 'codex.json'
+                bb_dict = {**bb, 'name': bb_key}
+                if bb['type'] == 'ABILITY':
+                    set_attached_spells(bb_key, bb['name'])
+                if bb['type'] == 'BONUS':
+                    if bb.get('value') is None:
+                        bb_dict['value'] = 1
+                        set_value_types(bb_key, {'type': 'FLAG'})
+                    else:
+                        value_type = get_value_type(bb['value'])
+                        set_value_types(bb_key, value_type)
+                        bb_dict['value'] = Exctractor.extract_number(
+                            bb['value'])
+                if bb['type'] == 'BOND':
+                    pass
+                tmp.append(bb_dict)
+            base_bbs.append(tmp)
+        set_ent(f'{entry_key}.bestial_bond', base_bbs)
+        ###
+        for language in languages:
+            for index, bond in enumerate(glom.glom(entries[language], glom.Coalesce(
+                    f'{entry_key}.{path}', default=[]))):
+                for i, bb in enumerate(Exctractor.extract_bond(bond['stats'])):
+                    base_bb = base_bbs[index][i]
+                    if bb['type'] == 'ABILITY':
+                        continue
+                    if bb['type'] == 'BONUS':
+                        # 'BONUS' merge to stats
+                        set_msg(
+                            language, f'stats.{base_bb["name"]}', bb["name"])
+                    if bb['type'] == 'BOND':
+                        # 'BOND' merge to status
+                        set_msg(
+                            language, f'status.{base_bb["name"]}', bb["name"])
+        ###
 
+    def set_stat(entry_key: str, stat: list[str, str], value_path: str):
+        key, value = stat
+        value, conditions = Exctractor.extract_conditions(value)
+        if conditions:
+            is_empty = glom.glom(tmp_entries, glom.Coalesce(f'{entry_key}.stats_conditions', default=None)) is None
+            if is_empty:
+                glom.assign(tmp_entries, f'{entry_key}.stats_conditions', {})
+            base_conds = [Converter.convert_key(cond) for cond in conditions]
+            for language in languages:
+                _, conds = Exctractor.extract_conditions(
+                    glom.glom(entries[language], value_path))
+                for index, cond in enumerate(conds):
+                    set_msg(language, 'stats_conditions.' +
+                            base_conds[index], cond)
+            set_ent(f'{entry_key}.stats_conditions.{key}', base_conds)
 
-def save_translations(output_dir: Path, translations: dict):
-    i18n_dir = output_dir.joinpath('i18n')
-    i18n_dir.mkdir(exist_ok=True)
-    for language in languages:
-        with open(i18n_dir.joinpath(f'{language}.json'), 'w') as f:
-            json.dump(translations[language], f, ensure_ascii=False)
+        if key in {'stat_bonus', 'bestial_bond_level'}:
+            value_type = {'type': 'TEXT'}
+            set_value_types('stats.'+key, value_type)
+            base_value = Converter.convert_key(value)
+            set_ent(f'{entry_key}.stats.{key}', base_value)
+            for language in languages:
+                value, _ = Exctractor.extract_conditions(
+                    glom.glom(entries[language], value_path))
+                set_msg(language, 'stats_text.' + base_value, value)
+            return
 
-    return {language: f'i18n/{language}.json' for language in languages}
+        value_type = get_value_type(value)
+        set_value_types('stats.'+key, value_type)
+        if any(value_type) or value[-1].isdigit():
+            set_ent(f'{entry_key}.stats.{key}',
+                    Exctractor.extract_number(value))
+            return
 
+        # spells key
+        if isSpellKey(key):
+            base_value = Converter.convert_key(value)
+            set_attached_spells(base_value, value)
+            spells = glom.glom(tmp_entries, glom.Coalesce(
+                f'{entry_key}.stats.{key}', default=[]))
+            spells.append({'name': base_value})
+            set_ent(f'{entry_key}.stats.{key}', spells)
+            set_value_types('stats.'+key, {'type': 'TEXT'})
+            for language in languages:
+                value, _ = Exctractor.extract_conditions(
+                    glom.glom(entries[language], value_path))
+                set_msg(language, 'stats_text.' + base_value, value)
+            return
 
-def run(settings: Settings):
-    tmp_dir_config = TmpPathConfig(settings.get('TMP_DIR'))
-    output_dir = Path(settings.get('OUTPUT_DIR'))
-    output_dir.mkdir(exist_ok=True)
+        # else text
+        base_value = Converter.convert_key(value)
+        set_ent(f'{entry_key}.stats.{key}', base_value)
+        set_value_types('stats.'+key, {'type': 'TEXT'})
+        for language in languages:
+            value, _ = Exctractor.extract_conditions(
+                glom.glom(entries[language], value_path))
+            set_msg(language, 'stats_text.' + base_value, value)
 
-    itemtypes = load_itemtypes(tmp_dir_config.itemtypes)
-    entries = load(tmp_dir_config.entries)
-    codex, icons, sorts, translations = scan(entries, itemtypes)
-    options = generate_options(codex)
+    # scan started
+    for entry_key, entry in base_entries.items():
 
-    codex_file = save_codex(
-        output_dir,
-        {
-            'main': codex,
-            'icons': icons,
-            'options': options,
-            'sorts': sorts,
-            'base_stats': BASE_STATS
-        })
-    translations_files = save_translations(output_dir, translations)
+        # category = str
+        category: str = entry_key.split('/')[0]
+        category_key = entry_key+'.category'
+        set_ent(category_key, category)
+        set_msg_by_path('category.' + category, category_key)
 
-    index = {
-        'version': settings.get('VERSION'),
-        'updated_at': datetime.now(timezone.utc).isoformat(),
-        'codex': codex_file,
-        'i18n': translations_files
+        # id
+        id = entry.get('id')
+        if id:
+            set_ent(entry_key + '.id', id)
+
+        # icon
+        icon = entry.get('icon')
+        if icon:
+            set_ent(entry_key+'.icon', icon)
+
+        # tier (for spells)
+        tier = entry.get('tier')
+        if tier:
+            set_ent(entry_key + '.tier', int(tier))
+
+        # spell_type
+        spell_type = entry.get('spell_type')
+        if spell_type:
+            base_value = Converter.convert_key(spell_type)
+            set_ent(entry_key + '.spell_type', base_value)
+            set_msg_by_path('spell_type.'+base_value,
+                            entry_key + '.spell_type')
+
+        # offhand_ability
+        offhand_ability = entry.get('ability')
+        if offhand_ability:
+            set_ent(entry_key + '.offhand_ability', offhand_ability)
+
+        # exotic = 1 | 0
+        exotic = entry.get('exotic')
+        if exotic:
+            exotic_key = entry_key+'.exotic'
+            set_ent(exotic_key, 1)
+            set_msg_by_path('meta.exotic', exotic_key)
+        else:
+            exotic_key = entry_key+'.exotic'
+            if category == 'items':
+                set_ent(exotic_key, 0)
+
+        # aura
+        aura = entry.get('aura')
+        if aura:
+            aura_key = entry_key + '.aura'
+            set_ent(aura_key, aura)
+
+        # stats
+        stats = entry.get('stats')
+        if stats:
+            entry_stats_key = entry_key + '.stats'
+            if any(list(filter(lambda s: s[0] not in {'Targets'}, stats))):
+                set_ent(entry_stats_key, {})
+            for index, stat in enumerate(stats):
+                stat_key = Converter.convert_key(stat[0])
+                entry_stat_key_path = f'{entry_stats_key}.{index}.0'
+                entry_stat_value_path = f'{entry_stats_key}.{index}.1'
+                # targets, move to meta
+                if stat_key == 'targets':
+                    targets = Converter.convert_key(stat[1])
+                    set_msg_by_path('meta.targets', entry_stat_key_path)
+                    set_msg_by_path('targets.'+targets, entry_stat_value_path)
+                    set_ent(entry_key+'.targets', targets)
+                # elements
+                elif stat_key == 'element':
+                    elements = [Converter.convert_key(
+                        elem) for elem in stat[1]]
+                    for i, elem in enumerate(elements):
+                        set_msg_by_path('stats_text.' + elem,
+                                        f'{entry_stat_value_path}.{i}')
+                    set_value_types('stats.' + stat_key, {'type': 'TEXT'})
+                    set_ent(f'{entry_stats_key}.element', elements)
+                elif stat_key == 'power':
+                    set_msg_by_path('stats.' + stat_key, entry_stat_key_path)
+                    set_value_types('stats.' + stat_key, {'type': 'TEXT'})
+                    set_ent(f'{entry_stats_key}.power', stat[1])
+                else:
+
+                    # patch for bestial_bond_level
+                    if stat_key == 'bestial_bond' and stat[1][-1].isdigit():
+                        stat_key = 'bestial_bond_level'
+
+                    # set stats key
+                    set_msg_by_path('stats.' + stat_key, entry_stat_key_path)
+
+                    # stat_value = Converter.convert_key(stat[1])
+                    if len(stat) == 1:
+                        set_value_types('stats.' + stat_key, {'type': 'FLAG'})
+                        set_ent(f'{entry_stats_key}.{stat_key}', True)
+                    else:
+                        set_stat(entry_key, [
+                                 stat_key, stat[1]], entry_stat_value_path)
+
+        # drops = list[tuple[str, list[Any]]]
+        drops = entry.get('drops')
+        if drops:
+            for index, drop in enumerate(drops):
+                key = Converter.convert_key(drop[0])
+                set_msg_by_path('meta.'+key, f'{entry_key}.drops.{index}.0')
+                drop_value_path = f'drops.{index}.1'
+                if key == 'abilities':
+                    set_abilities(entry_key, drop_value_path)
+                elif key == 'bestial_bond':
+                    set_bestial_bond(entry_key, drop_value_path)
+                else:
+                    drops_list = []
+                    for i, d in enumerate(drop[1]):
+                        href: str = d.get('href')
+                        # deal href
+                        if href:
+                            drops_list.append(
+                                '/'.join(Exctractor.extract_codex_id(href)))
+                            continue
+
+                        icon = d.get('icon')
+                        chance = d.get('chance')
+                        if icon:
+                            unique_key = icon_key_generator.generate_unique_key(
+                                (d.get('name'), icon))
+                            set_icon(unique_key, icon)
+                            tmp = {'name': unique_key}
+                            if chance:
+                                tmp['chance'] = int(chance.strip('%'))
+                            # status
+                            set_msg_by_path('status.'+unique_key,
+                                            f'{entry_key}.drops.{index}.1.{i}.name')
+                            drops_list.append(tmp)
+                            continue
+
+                    # collect drops
+                    if any(drops_list):
+                        set_ent(f'{entry_key}.{key}', drops_list)
+
+        # check spell level
+        drops = entry.get('drops')
+        if drops and category == 'classes':
+            for index, drop in enumerate(drops):
+                key = Converter.convert_key(drop[0])
+                if key == 'skills':
+                    skills_level = {Exctractor.extract_codex_key(
+                        d['href']): Exctractor.extract_spell_level(d['name']) for d in drop[1]}
+                    set_ent(entry_key + '.skills_level', skills_level)
+
+        # follower = ['Follower', {'name', 'icon'}]
+        follower = entry.get('follower')
+        if follower:
+            follower_key = entry_key + '.follower'
+            set_msg_by_path('meta.follower', f'{follower_key}.0')
+            unique_key = icon_key_generator.generate_unique_key(
+                tuple(follower[1].values())
+            )
+            set_ent(follower_key, unique_key)
+            set_icon(unique_key, follower[1]['icon'])
+            set_msg_by_path(f'follower.'+unique_key, f'{follower_key}.1.name')
+
+        # tags = list[str]
+        tags = entry.get('tags')
+        if tags:
+            tags_list = [Converter.convert_key(tag) for tag in tags]
+            tags_key = entry_key + '.tags'
+            set_ent(tags_key, tags_list)
+            for index, tag in enumerate(tags_list):
+                set_msg_by_path('tags.' + tag, f'{tags_key}.{index}')
+
+        # meta = list[tuple[str, str]]
+        metas: list[tuple[str, str]] | None = entry.get('meta')
+        if metas:
+            for index, meta in enumerate(metas):
+                key = Converter.convert_key(meta[0])
+                value_key = entry_key + '.' + key
+                set_msg_by_path('meta.'+key, f'{entry_key}.meta.{index}.0')
+                if key == 'tier':
+                    set_ent(value_key, int(meta[1].strip('★')))
+                elif key == 'hp':
+                    set_ent(value_key, int(meta[1].replace(',', '')))
+                else:
+                    value = Converter.convert_key(meta[1])
+                    set_ent(value_key, value)
+                    set_msg_by_path(f'{key}.{value}',
+                                    f'{entry_key}.meta.{index}.1')
+
+    # events
+    unordered_events = {
+        lang: {} for lang in languages
     }
-    with open(output_dir.joinpath('index.json'), 'w') as f:
-        json.dump(index, f)
 
-    print(f'=== Output: {str(output_dir)} ===')
-    print(json.dumps(index, indent=4, ensure_ascii=False))
+    def set_conflict_events(event, index_key):
+        for language in languages:
+            used_entries = entries[language]
+            value = glom.glom(used_entries, glom.Coalesce(
+                index_key, default=None))
+            if unordered_events[language].get(event, None) is None:
+                unordered_events[language][event] = value
+
+    for entry_key, entry in base_entries.items():
+        events = entry.get('events')
+        if events:
+            events_list = [Converter.convert_key(event) for event in events]
+            value_key = entry_key+'.events'
+            set_ent(value_key, events_list)
+            if len(events_list) == 1:
+                set_msg_by_path('events.'+events_list[0], value_key + '.0')
+            else:
+                for index, event in enumerate(events_list):
+                    set_conflict_events(event, f'{value_key}.{index}')
+    # mitigate bug of unordered events
+    for language, translation in translations.items():
+        translation['msg']['events'].update(unordered_events[language])
+
+    item_types = load_item_types(input_dir.itemtypes, languages)
+
+    return {
+        'icons': icons,
+        'entries': tmp_entries,
+        'translations': translations,
+        'attached_spells': attached_spells,
+        'value_types': value_types,
+        'ability_stats': ability_stats,
+        'item_types': item_types,
+    }
+
+
+def analyze(scanned: dict, settings: Settings):
+    base_language = settings.get('BASE_LANGUAGE')
+    languages = settings.get('SUPPORTED_LANGUAGES')
+
+    entries = scanned['entries']
+    translations = scanned['translations']
+    attached_spells = scanned['attached_spells']
+    value_types = scanned['value_types']
+    item_types = scanned['item_types']
+
+    # set item_types
+    for its in item_types[base_language]:
+        for id in its['items']:
+            entries['items/' + id]['item_type'] = its['type']
+
+    # set two_handed
+    for entry_key, entry in entries.items():
+        is_weapon = entry.get('item_type') == 'weapon'
+        if is_weapon:
+            is_two_handed = entry.get('stats', {}).get('two_handed') == 1
+            entries[entry_key]['two_handed'] = 1 if is_two_handed else 0
+
+    # offhand_skills = { name: entry_key }
+    skills_filp = {entry['name']: entry_key for entry_key,
+                   entry in translations[base_language]['entries'].items()}
+
+    for entry_key, entry in entries.items():
+        offhand_ability = entry.get('offhand_ability')
+        if offhand_ability:
+            name = offhand_ability[0] + ' (Off-hand)'
+            spell_key = skills_filp.get(name)
+            spell_entry = entries[spell_key]
+            # add off_hands items to spells
+            if 'off_hands' not in spell_entry:
+                spell_entry['off_hands'] = []
+            spell_entry['off_hands'].append(entry_key)
+            # replace offhand_ability
+            entry['offhand_ability'] = spell_key
+
+    # attached_spells
+    attached_ability = {}
+    for id, name in attached_spells.items():
+        spell_key = skills_filp.get(name)
+        attached_ability[id] = spell_key or name
+
+    # used_by, spells used by enemies
+    for entry_key, entry in entries.items():
+        skills = entry.get('skills')
+        if entry['category'] != 'classes' and skills:
+            for key in skills:
+                spell_entry = entries[key]
+                if 'used_by' not in spell_entry:
+                    spell_entry['used_by'] = []
+                spell_entry['used_by'].append(entry_key)
+
+    # materials
+    for entry_key, entry in entries.items():
+        upgrade_materials = entry.get('upgrade_materials')
+        if upgrade_materials:
+            for key in upgrade_materials:
+                material_entry = entries[key]
+                if 'dismantled_by' not in material_entry:
+                    material_entry['dismantled_by'] = []
+                material_entry['dismantled_by'].append(entry_key)
+
+    # patch value types
+    for key in ['follower_stats', 'summon_stats']:
+        val = value_types.get('stats.' + key)
+        value_types['_' + key] = val
+
+    # patch translation
+    for language in languages:
+        msg = translations[language]['msg']
+        for it in item_types[language]:
+            type, name = it['type'], it['name']
+            msg['item_type'][type] = name
+
+        for key in ['follower_stats', 'summon_stats']:
+            val = msg['stats'][key]
+            msg['stats']['_' + key] = '+' + val
+
+    # get options
+    options_dict_set = defaultdict(set)
+    options_key_set = {'category', 'tier', 'events', 'exotic',  'item_type',
+                       'rarity',  'family', 'place', 'type', 'useable_by', 'two_handed',
+                       'causes',  'gives', 'cures', 'immunities', 'summons',  # status
+                       'abilities',  # abilities
+                       'spell_type', 'targets', 'tags', }
+    for entry in entries.values():
+        for key in entry.keys():
+            value = entry.get(key)
+
+            if key in options_key_set:
+                if isinstance(value, list):
+                    for v in value:
+                        options_dict_set[key].add(
+                            v['name'] if isinstance(v, dict) else v
+                        )
+                else:
+                    options_dict_set[key].add(value)
+
+            if key == 'stats':
+                stats = value
+                for k in stats.keys():
+                    if isSpellKey(k) or k == 'element':
+                        for v in stats.get(k, []):
+                            options_dict_set['stats.' + k].add(
+                                v['name'] if isinstance(v, dict) else v
+                            )
+
+    options = {k: sorted(v) for k, v in options_dict_set.items()}
+    ###
+
+    # get sorts
+    sorts_dict_set = {
+        'items': set(),
+        'followers': set(),
+        'spells': set(),
+        'raids': {'hp'},
+    }
+    skip_sorts_set = {'power', 'element'}
+    for entry in entries.values():
+        category = entry['category']
+        stats = entry.get('stats')
+        if category in sorts_dict_set and stats:
+            for key in stats.keys():
+                if key in skip_sorts_set or isSpellKey(key):
+                    continue
+                sorts_dict_set[category].add('stats.' + key)
+    sorts = {k: sorted(v) for k, v in sorts_dict_set.items()}
+    ###
+
+    # trans translations
+    locales = {language: {
+        'msg': translations[language]['msg'],
+        'entries': [],
+        'abilities': [],
+    } for language in languages}
+
+    for language, t in translations.items():
+        for entry_key, e in t['entries'].items():
+            entry = entries[entry_key]
+            ent = {
+                **e,
+                'language': language,
+                'category': entry['category'],
+                'id': entry['id'],
+
+            }
+            locales[language]['entries'].append(ent)
+        for key, e in t['abilities'].items():
+            ability = {
+                **e,
+                'language': language,
+                'id': key,
+
+            }
+            locales[language]['abilities'].append(ability)
+
+    return (
+        {
+            'entries': list(entries.values()),
+            'meta': {
+                'value_types': value_types,
+                'icons': scanned['icons'],
+                'ability_stats': scanned['ability_stats'],
+                'attached_ability': attached_ability,
+                'options': options,
+                'sorts': sorts,
+            }
+        },
+        locales
+    )
+
+
+
+
+def main(settings: Settings, input: Path = None, output: Path = None):
+    input_dir = TmpPathConfig(input or 'tmp')
+    output_dir = Path(output or 'output')
+
+    print('scanning entries...')
+    scanned = scan(settings, input_dir)
+
+    print('analyzing entries...')
+    analyzed = analyze(scanned, settings)
+    codex, locales = analyzed
+
+    if (output_dir.exists() and output_dir.is_dir()):
+        shutil.rmtree(output_dir)
+    output_dir.mkdir(parents=True, exist_ok=True)
+    output_dir.joinpath('locales').mkdir()
+
+    files = {
+        'codex': '',
+        'locales': {},
+    }
+
+    # save codex
+    file_content = json.dumps(codex, ensure_ascii=False)
+    file_hash = get_hash(file_content)
+    file_name = f'codex.{file_hash}.json'
+    with open(output_dir.joinpath(file_name), 'w') as f:
+        f.write(file_content)
+    files['codex'] = file_name
+    print('save file:', file_name)
+
+    # save locales
+    for languange, locale in locales.items():
+        file_content = json.dumps(locale, ensure_ascii=False)
+        file_hash = get_hash(file_content)
+        file_name = f'{languange}.{file_hash}.json'
+        with open(output_dir.joinpath('locales', file_name), 'w') as f:
+            f.write(file_content)
+        files['locales'][languange] = file_name
+        print('save file:', file_name)
+
+    manifest = {
+        'version': settings.get('VERSION'),
+        'last_updated': datetime.now(timezone.utc).isoformat(timespec='seconds'),
+        'files': files
+    }
+
+    with open(output_dir.joinpath('manifest.json'), 'w') as f:
+        json.dump(manifest, f, ensure_ascii=False)
+    print('save file:', 'manifest.json')
+
+    ###
+    print('=== Manifest ===')
+    print(json.dumps(manifest, ensure_ascii=False, indent=4))
+
+
+def run(settings: Settings, **kwargs):
+    main(settings=settings, **kwargs)

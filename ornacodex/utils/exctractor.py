@@ -1,3 +1,4 @@
+import ast
 import re
 
 from scrapy.selector.unified import SelectorList
@@ -8,8 +9,9 @@ split_pattern = re.compile(r':|：')
 chance_pattern = re.compile(r'(?P<NAME>.+) \((?P<VALUE>\d+(\.\d+)?\%)\)$')
 ability_pattern = re.compile(r'^\+(?P<NAME>.+)\: (?P<VALUE>.+)$')
 bonus_pattern = re.compile(r'^(?!\+)(?P<NAME>.+)\: (?P<VALUE>.+)$')
-condition_pattern = re.compile(r'(?P<TEXT>.+) \((?P<CONDITIONS>.+)\)')
-number_pattern = re.compile(r'^(?P<NUMBER>(\+|\-)?\d+(\.\d+)*).*')
+condition_pattern = re.compile(r'(?P<VALUE>.+) \((?P<CONDITIONS>.+)\)')
+number_pattern = re.compile(r'^(\+)?(?P<NUMBER>\-?\d+(\.\d+)*).*')
+spell_level_pattern = re.compile(r'.+ \((.+) (?P<LEVEL>\d+)\)')
 
 class Exctractor:
 
@@ -18,28 +20,54 @@ class Exctractor:
         return tuple(s.strip() for s in split_pattern.split(text, maxsplit=1))
 
     @classmethod
-    def extract_chance(cls, s: str) -> tuple[str, str] | None:
+    def extract_chance(cls, s: str) -> tuple[str, str| None]:
         match = chance_pattern.search(s.strip())
         if match:
             name = match.group('NAME')
             chance = match.group('VALUE')
             return name, chance
-        return None
+        return s, None
 
     @classmethod
     def extract_drop(cls, drop):
         drop_struct = {}
+        # bestial bonds
         bond = drop.xpath('./span[@class="emph"]')
         if any(bond):
             drop_struct['name'] = split_pattern.split(
                 bond.xpath('string()').get())[0]
-            drop_struct['description'] = ''.join(
+            drop_struct['stats'] = ''.join(
                 bond.xpath('../text()').getall()).strip()
             return drop_struct
+        # passive ability
+        ability = drop.xpath('./self::div[@class="spaced"]')
+        if any(ability):
+            name = drop.xpath('.//span').xpath('string()').get().strip()
+            drop_struct['name'] = name
+            description = drop.xpath('./div[@class="emph"]').xpath('string()')
+            if any(description):
+                drop_struct['description'] = description.get().strip()
+            stats = drop.xpath('.//div[@class="codex-stats"]')
+            if any(stats):
+                stats_list = []
+                for s in stats.xpath('./div[@class="codex-stat"]'):
+                    stat = s.xpath('string()').get()
+                    if ' / ' in stat:
+                        for ss in stat.split('/'):
+                            stats_list.append(
+                                Exctractor.extract_kv(ss.strip()))
+                    else:
+                        stats_list.append(Exctractor.extract_kv(stat))
+                if any(stats_list):
+                    drop_struct['stats'] = stats_list
+            icon = ability.xpath('.//img/@src').get()
+            if icon:
+                drop_struct['icon'] = UrlParser.icon(icon)
+            return drop_struct
+        # else
         name = drop.xpath('.//span').xpath('string()').get().strip()
-        match = cls.extract_chance(name)
-        if match:
-            name, chance = match
+        name, chance = cls.extract_chance(name)
+        if chance:
             drop_struct['chance'] = chance
         drop_struct['name'] = name
         icon = drop.xpath('.//img/@src').get()
@@ -56,6 +84,10 @@ class Exctractor:
     @classmethod
     def extract_codex_id(cls, codex: str) -> list[str]:
         return codex.strip('/').split('/')[-2:]
+    
+    @classmethod
+    def extract_codex_key(cls, codex: str) -> list[str]:
+        return codex.strip('/')[6:]
 
     @classmethod
     def extract_bond(cls, bond_text: str) -> list:
@@ -65,7 +97,7 @@ class Exctractor:
             if m:
                 bb.append({
                     'name': m.group('NAME'),
-                    'chance': m.group('VALUE'),
+                    'value': int(m.group('VALUE').strip('%')),
                     'type': 'BOND'
                 })
                 continue
@@ -84,9 +116,10 @@ class Exctractor:
                     'type': 'BONUS'
                 })
                 continue
+            # else
             bb.append({
-                'name': b.strip('+'),
-                'type': 'BUFF'
+                'name': b,
+                'type': 'BONUS'
             })
 
         return bb
@@ -102,23 +135,28 @@ class Exctractor:
         return [k, {'name': name, 'icon': icon}]
 
     @classmethod
-    def extract_condition(cls, text: str) -> dict:
+    def extract_conditions(cls, text: str) -> tuple[str, list[str] | None]:
         m = condition_pattern.match(text)
         if m:
-            t: str = m.group('TEXT')
+            v: str = m.group('VALUE')
             c: str = m.group('CONDITIONS')
-            return {
-                'text': t,
-                'conditions': [s.strip() for s in c.split(',')]
-            }
+            return [v, [s.strip() for s in c.split(',')]]
         else:
-            return {'text': text}
+            return [text, None]
 
     @classmethod
-    def extract_number(cls, text: str) -> str:
+    def extract_spell_level(cls, text: str):
+        m = spell_level_pattern.match(text)
+        if m:
+            level: str = m.group('LEVEL')
+            return level
+        return None
+
+    @classmethod
+    def extract_number(cls, text: str) -> int | str:
         m = number_pattern.match(text)
         if m:
             num: str = m.group('NUMBER')
-            return num
+            return ast.literal_eval(num)
         else:
             return text

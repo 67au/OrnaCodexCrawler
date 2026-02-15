@@ -1,10 +1,6 @@
 name: Crawl Codex
 
-on:
-  # push:
-  #   branches:
-  #     # - main 
-      
+on:      
   workflow_dispatch:
 
 permissions:
@@ -29,11 +25,11 @@ jobs:
           python-version: 3.13
       - run: uv sync
       - name: Download Codex
-        run: uv run main.py download
+        run: uv run main.py download --output "tmp"
       - name: Parse Codex
-        run: uv run main.py codex
+        run: uv run main.py codex --input "tmp" --output "output"
       - name: Dump Toml
-        run: uv run main.py dump_toml --dump "dump/tarball"
+        run: uv run main.py dump_toml --input "output" --output "dump/tarball"
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:

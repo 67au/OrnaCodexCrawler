@@ -1,0 +1,10 @@
+urls = [
+    '/codex/monsters/giant-tortoise/',
+    '/codex/monsters/mountain-gorilla/',
+    '/codex/monsters/coral-reef/',
+    '/codex/monsters/timber-the-beaver/',
+    '/codex/monsters/giant-panda/',
+    '/codex/monsters/bone-mammoth/',
+    '/codex/monsters/macaroni-penguin/',
+]
+unindexed_urls = set(urls)

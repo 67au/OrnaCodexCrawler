@@ -64,6 +64,8 @@ def update_enemies(entries: list, translations: dict, extra_dir: ExtraPathConfig
             with enemy_file.open('r+') as f:
                 enemy_doc = tomlkit.load(f)
                 enemy_doc['name'] = get_names(translations, key)
+                if 'data' not in enemy_doc:
+                    print('No Data Enemy Found:', enemy_doc['id'])
         else:
             # add new enemies
             print('New Enemy Found:', key)

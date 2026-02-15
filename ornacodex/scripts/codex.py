@@ -144,7 +144,7 @@ def scan(settings: Settings, input_dir: Path):
         key, value = stat
         if key in {'bestial_bond_level', 'mana_rush'}:
             base_value = Converter.convert_key(value)
-            set_value_types('stats.'+key, {'type': 'TEXT'})
+            set_value_types('abilities.'+key, {'type': 'TEXT'})
             stats[key] = base_value
             for language in languages:
                 val = glom.glom(entries[language], value_path)
@@ -153,7 +153,7 @@ def scan(settings: Settings, input_dir: Path):
 
         # normal type
         value_type = get_value_type(value)
-        set_value_types('stats.'+key, value_type)
+        set_value_types('abilities.'+key, value_type)
         if any(value_type) or value[-1].isdigit():
             stats[key] = Exctractor.extract_number(value)
             return
@@ -206,13 +206,10 @@ def scan(settings: Settings, input_dir: Path):
                     if stat_key == 'bestial_bond' and stat[1][-1].isdigit():
                         stat_key = 'bestial_bond_level'
 
-                    if stat_key == 'ward':
-                        stat_key = 'ward_signed'
-
                     set_msg_by_path('stats.'+stat_key,
                                     stat_key_path)
                     if len(stat) == 1:
-                        set_value_types('stats.' +
+                        set_value_types('abilities.' +
                                         stat_key, {'type': 'FLAG'})
                         ability_stats[unique_key][stat_key] = True
                     else:
@@ -243,19 +240,16 @@ def scan(settings: Settings, input_dir: Path):
             for bb in Exctractor.extract_bond(base_bond['stats']):
                 bb_key = Converter.convert_key(bb['name'])
 
-                if bb_key == 'crit_chance':
-                    bb_key = 'crit_chance_signed'
-
                 bb_dict = {**bb, 'name': bb_key}
                 if bb['type'] == 'ABILITY':
                     set_attached_spells(bb_key, bb['name'])
                 if bb['type'] == 'BONUS':
                     if bb.get('value') is None:
                         bb_dict['value'] = 1
-                        set_value_types(bb_key, {'type': 'FLAG'})
+                        set_value_types('bonds.'+bb_key, {'type': 'FLAG'})
                     else:
                         value_type = get_value_type(bb['value'])
-                        set_value_types(bb_key, value_type)
+                        set_value_types('bonds.'+bb_key, value_type)
                         bb_dict['value'] = Exctractor.extract_number(
                             bb['value'])
                 if bb['type'] == 'BOND':
@@ -285,7 +279,8 @@ def scan(settings: Settings, input_dir: Path):
         key, value = stat
         value, conditions = Exctractor.extract_conditions(value)
         if conditions:
-            is_empty = glom.glom(tmp_entries, glom.Coalesce(f'{entry_key}.stats_conditions', default=None)) is None
+            is_empty = glom.glom(tmp_entries, glom.Coalesce(
+                f'{entry_key}.stats_conditions', default=None)) is None
             if is_empty:
                 glom.assign(tmp_entries, f'{entry_key}.stats_conditions', {})
             base_conds = [Converter.convert_key(cond) for cond in conditions]
@@ -741,8 +736,6 @@ def analyze(scanned: dict, settings: Settings):
         },
         locales
     )
-
-
 
 
 def main(settings: Settings, input: Path = None, output: Path = None):

@@ -5486,7 +5486,7 @@ protect_chance = 12
 spell_rate = 25
 
 [entries."followers/coral-varmint"]
-bestial_bond = [[{name = "crit_chance_signed", value = 4, type = "BONUS"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 4, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}]]
+bestial_bond = [[{name = "crit_chance", value = 4, type = "BONUS"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 4, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}]]
 category = "followers"
 family = "lizarr_forces"
 icon = "/img/monsters/coral_lizard_noble.png"
@@ -5862,7 +5862,7 @@ attack_rate = 5
 heal_rate = 25
 
 [entries."followers/fenrir"]
-bestial_bond = [[{name = "crit_chance_signed", value = 4, type = "BONUS"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 4, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}]]
+bestial_bond = [[{name = "crit_chance", value = 4, type = "BONUS"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 4, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}]]
 category = "followers"
 family = "animal"
 icon = "/img/bosses/fenrir.png"
@@ -5998,7 +5998,7 @@ buff_rate = 20
 spell_rate = 10
 
 [entries."followers/fjalar"]
-bestial_bond = [[{name = "crit_chance_signed", value = 4, type = "BONUS"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 4, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}]]
+bestial_bond = [[{name = "crit_chance", value = 4, type = "BONUS"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 4, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}]]
 category = "followers"
 family = "animal"
 icon = "/img/monsters/fjalar.png"
@@ -6265,7 +6265,7 @@ debuff_rate = 10
 spell_rate = 10
 
 [entries."followers/great-lizarr-warrior"]
-bestial_bond = [[{name = "crit_chance_signed", value = 4, type = "BONUS"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 4, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}]]
+bestial_bond = [[{name = "crit_chance", value = 4, type = "BONUS"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 4, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}]]
 category = "followers"
 family = "lizarr_forces"
 icon = "/img/monsters/great_lizard_warrior.png"
@@ -6783,7 +6783,7 @@ attack_rate = 10
 spell_rate = 60
 
 [entries."followers/lizarr"]
-bestial_bond = [[{name = "crit_chance_signed", value = 4, type = "BONUS"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 4, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}]]
+bestial_bond = [[{name = "crit_chance", value = 4, type = "BONUS"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 4, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}]]
 category = "followers"
 family = "lizarr_forces"
 icon = "/img/monsters/lizard_warrior.png"
@@ -6843,7 +6843,7 @@ debuff_rate = 15
 spell_rate = 15
 
 [entries."followers/macaroni-penguin"]
-bestial_bond = [[{name = "crit_chance_signed", value = 4, type = "BONUS"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 4, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}]]
+bestial_bond = [[{name = "crit_chance", value = 4, type = "BONUS"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 4, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}]]
 category = "followers"
 events = ["terra_s_legacy__natureblight"]
 family = "common"
@@ -6917,7 +6917,7 @@ buff_rate = 100
 spell_rate = 5
 
 [entries."followers/mighty-slime"]
-bestial_bond = [[{name = "crit_chance_signed", value = 4, type = "BONUS"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 4, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}]]
+bestial_bond = [[{name = "crit_chance", value = 4, type = "BONUS"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 4, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}]]
 category = "followers"
 family = "common"
 icon = "/img/monsters/mighty_slime.png"
@@ -7492,7 +7492,7 @@ protect_chance = 5
 spell_rate = 10
 
 [entries."followers/sif"]
-bestial_bond = [[{name = "crit_chance_signed", value = 4, type = "BONUS"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 4, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}]]
+bestial_bond = [[{name = "crit_chance", value = 4, type = "BONUS"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 4, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}]]
 category = "followers"
 family = "animal"
 icon = "/img/monsters/sif.png"
@@ -94929,7 +94929,7 @@ collateral_damage_hp_recovery = 10
 counter_chance__pve_ = 20
 counter_damage = 75
 two_handed_power = 20
-ward_signed = 30
+ward = 30
 
 [meta.ability_stats.valhallan_dissonance]
 follower_act = 12
@@ -95500,9 +95500,6 @@ items = ["stats._arch_alchemy", "stats._attack_from_low_defense", "stats.accurac
 raids = ["hp"]
 spells = ["stats.costs", "stats.crit_chance"]
 
-[meta.value_types._arch_alchemy]
-type = "FLAG"
-
 [meta.value_types._follower_stats]
 type = "SIGNED"
 unit = "PERCENT"
@@ -95511,85 +95508,393 @@ unit = "PERCENT"
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types.accuracy]
+[meta.value_types."abilities._dorado"]
+type = "FLAG"
+
+[meta.value_types."abilities._guidelight"]
+type = "FLAG"
+
+[meta.value_types."abilities._second_chance"]
+type = "FLAG"
+
+[meta.value_types."abilities._summon_ascension"]
+type = "FLAG"
+
+[meta.value_types."abilities._weaved_elements"]
+type = "FLAG"
+
+[meta.value_types."abilities.apex"]
+unit = "PERCENT"
+
+[meta.value_types."abilities.apex_effect"]
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types.crit_chance_signed]
+[meta.value_types."abilities.apex_rate"]
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types.crit_damage]
+[meta.value_types."abilities.apex_start"]
+unit = "PERCENT"
+
+[meta.value_types."abilities.apex_used_r_stats"]
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types.damage_at_full_hp]
+[meta.value_types."abilities.auto_summon"]
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types.damage_from_animals]
-unit = "PERCENT"
-
-[meta.value_types.dark_res]
+[meta.value_types."abilities.avidity"]
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types.earthen_damage]
+[meta.value_types."abilities.bastille"]
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types.earthen_res]
+[meta.value_types."abilities.bestial_bond"]
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types.elemental_weaknesses]
+[meta.value_types."abilities.bestial_bond_level"]
+type = "TEXT"
+
+[meta.value_types."abilities.bloodflasks"]
+type = "SIGNED"
+
+[meta.value_types."abilities.buff_duration"]
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types.exp_bonus]
+[meta.value_types."abilities.collateral_chance"]
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types.exp_walk]
+[meta.value_types."abilities.collateral_damage"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.collateral_damage_hp_recovery"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.counter_chance__pve_"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.counter_damage"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.crit_chance"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.crit_damage"]
+unit = "PERCENT"
+
+[meta.value_types."abilities.crit_status_fade_chance"]
+unit = "PERCENT"
+
+[meta.value_types."abilities.critical_chain"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.damage_limit_break"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.damage_to_ward"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.dark_damage"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.debuff_fade"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.effect_chance"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.elemental_immunity_damage"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.elemental_weaknesses"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.exp_walk"]
 unit = "PER_M"
 
-[meta.value_types.fire_damage]
+[meta.value_types."abilities.follower_act"]
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types.fire_res]
+[meta.value_types."abilities.follower_protect"]
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types.gold_bonus]
+[meta.value_types."abilities.follower_stats"]
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types.holy_damage]
+[meta.value_types."abilities.follower_summon_ai"]
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types.hybrid_damage]
+[meta.value_types."abilities.follower_turn_chance"]
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types.lightning_damage]
+[meta.value_types."abilities.gold_bonus"]
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types.lightning_res]
+[meta.value_types."abilities.healing"]
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types.memory_hunting]
+[meta.value_types."abilities.holy_damage"]
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types.orn_bonus]
+[meta.value_types."abilities.hybrid_damage"]
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types.settlement_area_defense]
+[meta.value_types."abilities.life_siphon"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.low_hp_r_stats"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.low_mana_r_stats"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.mana_recovery"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.mana_reduction"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.mana_rush"]
+type = "TEXT"
+
+[meta.value_types."abilities.mana_siphon"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.mana_walk"]
+unit = "PER_M"
+
+[meta.value_types."abilities.mana_ward_recovery"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.manaflasks"]
+type = "SIGNED"
+
+[meta.value_types."abilities.max_dodge_chance"]
+unit = "PERCENT"
+
+[meta.value_types."abilities.off_hands"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.recharge_hp_on_crit"]
+unit = "PERCENT"
+
+[meta.value_types."abilities.sacrifice_effects"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.second_chance"]
+unit = "PERCENT"
+
+[meta.value_types."abilities.self_damage_reduction"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.settlement_area_defense"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.sigils"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.souls_collected_r_stats"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.spell_casting_damage"]
+unit = "PERCENT"
+
+[meta.value_types."abilities.status_protection"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.summon_pacts"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.summon_protection"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.summon_stats"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.turn_chance"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.two_handed_power"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.valhalla_power"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.view_distance"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.ward"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.ward_power"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.ward_recovery"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."abilities.ward_start"]
+type = "SIGNED"
+unit = "TURN"
+
+[meta.value_types."bonds._arch_alchemy"]
+type = "FLAG"
+
+[meta.value_types."bonds.accuracy"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.crit_chance"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.crit_damage"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.damage_at_full_hp"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.damage_from_animals"]
+unit = "PERCENT"
+
+[meta.value_types."bonds.dark_res"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.earthen_damage"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.earthen_res"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.elemental_weaknesses"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.exp_bonus"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.exp_walk"]
+unit = "PER_M"
+
+[meta.value_types."bonds.fire_damage"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.fire_res"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.gold_bonus"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.holy_damage"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.hybrid_damage"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.lightning_damage"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.lightning_res"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.memory_hunting"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.orn_bonus"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.settlement_area_defense"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.status_protection"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.tower_shards"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.view_distance"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.ward_start"]
+type = "SIGNED"
+unit = "TURN"
+
+[meta.value_types."bonds.water_damage"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.water_res"]
 type = "SIGNED"
 unit = "PERCENT"
 
@@ -95600,32 +95905,17 @@ type = "FLAG"
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types."stats._dorado"]
-type = "FLAG"
-
 [meta.value_types."stats._follower_summon_skill"]
 type = "TEXT"
 
 [meta.value_types."stats._follower_summon_spell"]
 type = "TEXT"
 
-[meta.value_types."stats._guidelight"]
-type = "FLAG"
-
-[meta.value_types."stats._second_chance"]
-type = "FLAG"
-
 [meta.value_types."stats._skill"]
 type = "TEXT"
 
 [meta.value_types."stats._spell"]
 type = "TEXT"
-
-[meta.value_types."stats._summon_ascension"]
-type = "FLAG"
-
-[meta.value_types."stats._weaved_elements"]
-type = "FLAG"
 
 [meta.value_types."stats.accuracy"]
 type = "SIGNED"
@@ -95643,10 +95933,6 @@ unit = "PERCENT"
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types."stats.apex_effect"]
-type = "SIGNED"
-unit = "PERCENT"
-
 [meta.value_types."stats.apex_rate"]
 type = "SIGNED"
 unit = "PERCENT"
@@ -95654,23 +95940,11 @@ unit = "PERCENT"
 [meta.value_types."stats.apex_start"]
 unit = "PERCENT"
 
-[meta.value_types."stats.apex_used_r_stats"]
-type = "SIGNED"
-unit = "PERCENT"
-
 [meta.value_types."stats.arcane_damage"]
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types."stats.auto_summon"]
-type = "SIGNED"
-unit = "PERCENT"
-
 [meta.value_types."stats.avidity"]
-type = "SIGNED"
-unit = "PERCENT"
-
-[meta.value_types."stats.bastille"]
 type = "SIGNED"
 unit = "PERCENT"
 
@@ -95691,9 +95965,6 @@ unit = "PERCENT"
 [meta.value_types."stats.blacksmith_time"]
 unit = "PERCENT"
 
-[meta.value_types."stats.bloodflasks"]
-type = "SIGNED"
-
 [meta.value_types."stats.buff_duration"]
 type = "SIGNED"
 unit = "PERCENT"
@@ -95710,33 +95981,17 @@ unit = "PERCENT"
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types."stats.collateral_damage_hp_recovery"]
-type = "SIGNED"
-unit = "PERCENT"
-
 [meta.value_types."stats.costs"]
 unit = "MANA"
-
-[meta.value_types."stats.counter_chance__pve_"]
-type = "SIGNED"
-unit = "PERCENT"
-
-[meta.value_types."stats.counter_damage"]
-type = "SIGNED"
-unit = "PERCENT"
 
 [meta.value_types."stats.crit"]
 unit = "PERCENT"
 
 [meta.value_types."stats.crit_chance"]
-type = "SIGNED"
 unit = "PERCENT"
 
 [meta.value_types."stats.crit_damage"]
 type = "SIGNED"
-unit = "PERCENT"
-
-[meta.value_types."stats.crit_status_fade_chance"]
 unit = "PERCENT"
 
 [meta.value_types."stats.critical_chain"]
@@ -95815,20 +96070,12 @@ unit = "PERCENT"
 [meta.value_types."stats.earthen_damage"]
 unit = "PERCENT"
 
-[meta.value_types."stats.effect_chance"]
-type = "SIGNED"
-unit = "PERCENT"
-
 [meta.value_types."stats.effect_damage"]
 type = "SIGNED"
 unit = "PERCENT"
 
 [meta.value_types."stats.element"]
 type = "TEXT"
-
-[meta.value_types."stats.elemental_immunity_damage"]
-type = "SIGNED"
-unit = "PERCENT"
 
 [meta.value_types."stats.elemental_weaknesses"]
 type = "SIGNED"
@@ -95841,9 +96088,6 @@ unit = "PERCENT"
 [meta.value_types."stats.exp_bonus"]
 type = "SIGNED"
 unit = "PERCENT"
-
-[meta.value_types."stats.exp_walk"]
-unit = "PER_M"
 
 [meta.value_types."stats.extra_materials_dropped"]
 type = "SIGNED"
@@ -95864,19 +96108,11 @@ unit = "PERCENT"
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types."stats.follower_protect"]
-type = "SIGNED"
-unit = "PERCENT"
-
 [meta.value_types."stats.follower_stats"]
 type = "SIGNED"
 unit = "PERCENT"
 
 [meta.value_types."stats.follower_summon_ai"]
-type = "SIGNED"
-unit = "PERCENT"
-
-[meta.value_types."stats.follower_turn_chance"]
 type = "SIGNED"
 unit = "PERCENT"
 
@@ -95935,23 +96171,11 @@ unit = "PERCENT"
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types."stats.low_hp_r_stats"]
-type = "SIGNED"
-unit = "PERCENT"
-
-[meta.value_types."stats.low_mana_r_stats"]
-type = "SIGNED"
-unit = "PERCENT"
-
 [meta.value_types."stats.luck_bonus"]
 type = "SIGNED"
 unit = "PERCENT"
 
 [meta.value_types."stats.mana_overspend_chance"]
-type = "SIGNED"
-unit = "PERCENT"
-
-[meta.value_types."stats.mana_recovery"]
 type = "SIGNED"
 unit = "PERCENT"
 
@@ -95963,16 +96187,6 @@ unit = "PERCENT"
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types."stats.mana_rush"]
-type = "TEXT"
-
-[meta.value_types."stats.mana_siphon"]
-type = "SIGNED"
-unit = "PERCENT"
-
-[meta.value_types."stats.mana_walk"]
-unit = "PER_M"
-
 [meta.value_types."stats.mana_ward_recovery"]
 type = "SIGNED"
 unit = "PERCENT"
@@ -95983,12 +96197,6 @@ unit = "PERCENT"
 
 [meta.value_types."stats.manaflask_power"]
 type = "SIGNED"
-unit = "PERCENT"
-
-[meta.value_types."stats.manaflasks"]
-type = "SIGNED"
-
-[meta.value_types."stats.max_dodge_chance"]
 unit = "PERCENT"
 
 [meta.value_types."stats.memory_hunting"]
@@ -96008,10 +96216,6 @@ type = "SIGNED"
 unit = "PERCENT"
 
 [meta.value_types."stats.no_follower_bonus"]
-type = "SIGNED"
-unit = "PERCENT"
-
-[meta.value_types."stats.off_hands"]
 type = "SIGNED"
 unit = "PERCENT"
 
@@ -96041,13 +96245,6 @@ unit = "PERCENT"
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types."stats.recharge_hp_on_crit"]
-unit = "PERCENT"
-
-[meta.value_types."stats.sacrifice_effects"]
-type = "SIGNED"
-unit = "PERCENT"
-
 [meta.value_types."stats.second_chance"]
 unit = "PERCENT"
 
@@ -96057,17 +96254,6 @@ unit = "PERCENT"
 
 [meta.value_types."stats.settlement_area_defense"]
 type = "SIGNED"
-unit = "PERCENT"
-
-[meta.value_types."stats.sigils"]
-type = "SIGNED"
-unit = "PERCENT"
-
-[meta.value_types."stats.souls_collected_r_stats"]
-type = "SIGNED"
-unit = "PERCENT"
-
-[meta.value_types."stats.spell_casting_damage"]
 unit = "PERCENT"
 
 [meta.value_types."stats.stat_bonus"]
@@ -96108,10 +96294,6 @@ unit = "PERCENT"
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types."stats.turn_chance"]
-type = "SIGNED"
-unit = "PERCENT"
-
 [meta.value_types."stats.turn_reduction"]
 type = "SIGNED"
 unit = "PERCENT"
@@ -96124,10 +96306,6 @@ type = "SIGNED"
 unit = "PERCENT"
 
 [meta.value_types."stats.ult_defense"]
-type = "SIGNED"
-unit = "PERCENT"
-
-[meta.value_types."stats.valhalla_power"]
 type = "SIGNED"
 unit = "PERCENT"
 
@@ -96153,10 +96331,6 @@ unit = "PERCENT"
 [meta.value_types."stats.ward_recovery_turn"]
 type = "SIGNED"
 
-[meta.value_types."stats.ward_signed"]
-type = "SIGNED"
-unit = "PERCENT"
-
 [meta.value_types."stats.ward_start"]
 type = "SIGNED"
 unit = "TURN"
@@ -96174,27 +96348,3 @@ unit = "PERCENT"
 
 [meta.value_types."stats.world_horde_opponents"]
 type = "SIGNED"
-
-[meta.value_types.status_protection]
-type = "SIGNED"
-unit = "PERCENT"
-
-[meta.value_types.tower_shards]
-type = "SIGNED"
-unit = "PERCENT"
-
-[meta.value_types.view_distance]
-type = "SIGNED"
-unit = "PERCENT"
-
-[meta.value_types.ward_start]
-type = "SIGNED"
-unit = "TURN"
-
-[meta.value_types.water_damage]
-type = "SIGNED"
-unit = "PERCENT"
-
-[meta.value_types.water_res]
-type = "SIGNED"
-unit = "PERCENT"

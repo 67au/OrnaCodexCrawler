@@ -3689,6 +3689,13 @@ id = "fire-dragon"
 language = "zh-hans"
 name = "火龙"
 
+[entries."followers/fire-horse"]
+category = "followers"
+description = "期间限定。"
+id = "fire-horse"
+language = "zh-hans"
+name = "Fire Horse"
+
 [entries."followers/fjalar"]
 category = "followers"
 description = "稀有的法亚拉。能提升你的敏捷和暴击机率。"

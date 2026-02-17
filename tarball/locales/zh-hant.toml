@@ -3689,6 +3689,13 @@ id = "fire-dragon"
 language = "zh-hant"
 name = "火龍"
 
+[entries."followers/fire-horse"]
+category = "followers"
+description = "期間限定。"
+id = "fire-horse"
+language = "zh-hant"
+name = "Fire Horse"
+
 [entries."followers/fjalar"]
 category = "followers"
 description = "稀有的法亞拉.能提升你的敏捷和暴擊機率."

@@ -3689,6 +3689,13 @@ id = "fire-dragon"
 language = "en"
 name = "Fire Dragon"
 
+[entries."followers/fire-horse"]
+category = "followers"
+description = "Available for a limited time only."
+id = "fire-horse"
+language = "en"
+name = "Fire Horse"
+
 [entries."followers/fjalar"]
 category = "followers"
 description = "A rare Fjalar. It can assist one in battle by increasing dexterity and critical hit rate."

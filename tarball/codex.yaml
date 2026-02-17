@@ -5997,6 +5997,21 @@ tier = 5
 buff_rate = 20
 spell_rate = 10
 
+[entries."followers/fire-horse"]
+bestial_bond = [[{name = "accuracy", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 12, type = "BOND"}, {name = "bonded_dexterity", value = 7, type = "BOND"}], [{name = "bonded_attack", value = 12, type = "BOND"}, {name = "bonded_dexterity", value = 15, type = "BOND"}]]
+category = "followers"
+family = "animal"
+icon = "/img/followers/firehorse.png"
+id = "fire-horse"
+rarity = "steward"
+skills = ["spells/deific-channel", "spells/emberseal-ii", "spells/emberstrike-ii", "spells/lusus-naturae-iii"]
+tier = 10
+
+[entries."followers/fire-horse".stats]
+buff_rate = 3
+protect_chance = 3
+spell_rate = 5
+
 [entries."followers/fjalar"]
 bestial_bond = [[{name = "crit_chance", value = 4, type = "BONUS"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 4, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}]]
 category = "followers"
@@ -78357,7 +78372,7 @@ learned_by = ["classes/46", "classes/48", "classes/47", "classes/49"]
 spell_type = "spell"
 targets = "yourself"
 tier = 9
-used_by = ["bosses/sumner-aphrodite", "followers/ashen-phoenix", "followers/ashen-phoenix-3fc74a3d", "followers/ashen-phoenix-46c214e1", "followers/ashen-phoenix-728b14e4", "followers/ashen-phoenix-aa06bca6", "followers/ashen-phoenix-d872c62d", "followers/ashen-turkey", "followers/macaroni-penguin", "followers/phoenix", "monsters/darkrift-counsel-1ac216f1", "monsters/macaroni-penguin", "monsters/runeblade-of-finesse-5679c8ce", "monsters/runeblade-of-finesse-6501e0c6", "raids/arisen-phoenix", "raids/ashen-phoenix", "raids/the-creator", "raids/the-last-hippogriff", "raids/the-mightiest-mimic"]
+used_by = ["bosses/sumner-aphrodite", "followers/ashen-phoenix", "followers/ashen-phoenix-3fc74a3d", "followers/ashen-phoenix-46c214e1", "followers/ashen-phoenix-728b14e4", "followers/ashen-phoenix-aa06bca6", "followers/ashen-phoenix-d872c62d", "followers/ashen-turkey", "followers/fire-horse", "followers/macaroni-penguin", "followers/phoenix", "monsters/darkrift-counsel-1ac216f1", "monsters/macaroni-penguin", "monsters/runeblade-of-finesse-5679c8ce", "monsters/runeblade-of-finesse-6501e0c6", "raids/arisen-phoenix", "raids/ashen-phoenix", "raids/the-creator", "raids/the-last-hippogriff", "raids/the-mightiest-mimic"]
 
 [[entries."spells/deific-channel".gives]]
 chance = 100
@@ -79896,7 +79911,7 @@ learned_by = ["classes/46"]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 9
-used_by = ["bosses/arisen-dagda", "bosses/titan-prometheus", "followers/apollyons-apprentice", "followers/ashen-phoenix", "followers/ashen-phoenix-3fc74a3d", "followers/ashen-phoenix-46c214e1", "followers/ashen-phoenix-728b14e4", "followers/ashen-phoenix-aa06bca6", "followers/ashen-phoenix-d872c62d", "followers/ashen-turkey", "followers/untamed-cerus"]
+used_by = ["bosses/arisen-dagda", "bosses/titan-prometheus", "followers/apollyons-apprentice", "followers/ashen-phoenix", "followers/ashen-phoenix-3fc74a3d", "followers/ashen-phoenix-46c214e1", "followers/ashen-phoenix-728b14e4", "followers/ashen-phoenix-aa06bca6", "followers/ashen-phoenix-d872c62d", "followers/ashen-turkey", "followers/fire-horse", "followers/untamed-cerus"]
 
 [[entries."spells/emberseal-ii".causes]]
 chance = 25
@@ -79953,7 +79968,7 @@ learned_by = ["classes/46"]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 9
-used_by = ["bosses/titan-prometheus", "followers/apollyons-apprentice", "followers/ashen-phoenix", "followers/ashen-phoenix-3fc74a3d", "followers/ashen-phoenix-46c214e1", "followers/ashen-phoenix-728b14e4", "followers/ashen-phoenix-aa06bca6", "followers/ashen-phoenix-d872c62d", "followers/ashen-turkey", "followers/raging-cerus", "monsters/anteros-knave", "raids/arisen-phoenix", "raids/ashen-phoenix"]
+used_by = ["bosses/titan-prometheus", "followers/apollyons-apprentice", "followers/ashen-phoenix", "followers/ashen-phoenix-3fc74a3d", "followers/ashen-phoenix-46c214e1", "followers/ashen-phoenix-728b14e4", "followers/ashen-phoenix-aa06bca6", "followers/ashen-phoenix-d872c62d", "followers/ashen-turkey", "followers/fire-horse", "followers/raging-cerus", "monsters/anteros-knave", "raids/arisen-phoenix", "raids/ashen-phoenix"]
 
 [[entries."spells/emberstrike-ii".causes]]
 chance = 25
@@ -84486,7 +84501,7 @@ learned_by = ["classes/71"]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 10
-used_by = ["bosses/gorynych-son-of-mountains", "bosses/oillipheist", "followers/ashen-phoenix", "followers/ashen-phoenix-3fc74a3d", "followers/ashen-phoenix-46c214e1", "followers/ashen-phoenix-728b14e4", "followers/ashen-phoenix-aa06bca6", "followers/ashen-phoenix-d872c62d", "followers/ashen-turkey", "monsters/nidhogg", "raids/arisen-quetzalcoatl"]
+used_by = ["bosses/gorynych-son-of-mountains", "bosses/oillipheist", "followers/ashen-phoenix", "followers/ashen-phoenix-3fc74a3d", "followers/ashen-phoenix-46c214e1", "followers/ashen-phoenix-728b14e4", "followers/ashen-phoenix-aa06bca6", "followers/ashen-phoenix-d872c62d", "followers/ashen-turkey", "followers/fire-horse", "monsters/nidhogg", "raids/arisen-quetzalcoatl"]
 
 [[entries."spells/lusus-naturae-iii".causes]]
 chance = 25

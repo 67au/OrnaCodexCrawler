@@ -75928,7 +75928,7 @@ used_by = ["followers/cupid", "followers/heartbreaker-cupid", "followers/heartme
 
 [[entries."spells/arrowstorm-3".causes]]
 chance = 20
-name = "stunned"
+name = "lulled"
 
 [entries."spells/arrowstorm-3".stats]
 costs = 80

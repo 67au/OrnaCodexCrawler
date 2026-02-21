@@ -39,7 +39,7 @@ def main(settings: Settings, input: Path = None, output: Path = None):
 
     with open(input_dir.joinpath(manifest['files']['codex'])) as f:
         codex = json.load(f)
-        icons = codex['icons'].values()
+        icons = codex['meta']['icons'].values()
         entry_icons = [entry['icon'] for entry in codex['entries']]
     
     images = [*icons, *entry_icons, *image_urls]

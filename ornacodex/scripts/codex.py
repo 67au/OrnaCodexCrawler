@@ -245,7 +245,7 @@ def scan(settings: Settings, input_dir: Path):
                     set_attached_spells(bb_key, bb['name'])
                 if bb['type'] == 'BONUS':
                     if bb.get('value') is None:
-                        bb_dict['value'] = 1
+                        bb_dict['value'] = True
                         set_value_types('bonds.'+bb_key, {'type': 'FLAG'})
                     else:
                         value_type = get_value_type(bb['value'])

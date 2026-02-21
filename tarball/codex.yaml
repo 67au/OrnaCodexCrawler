@@ -5000,7 +5000,7 @@ protect_chance = 3
 spell_rate = 5
 
 [entries."followers/asteria-of-olympia"]
-bestial_bond = [[{name = "_arch_alchemy", type = "BONUS", value = 1}, {name = "view_distance", value = 2, type = "BONUS"}], [{name = "bonded_ward", value = 20, type = "BOND"}, {name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}], [{name = "bonded_ward", value = 80, type = "BOND"}, {name = "bonded_attack", value = 30, type = "BOND"}, {name = "bonded_magic", value = 30, type = "BOND"}, {name = "build_tower", type = "ABILITY"}]]
+bestial_bond = [[{name = "_arch_alchemy", type = "BONUS", value = true}, {name = "view_distance", value = 2, type = "BONUS"}], [{name = "bonded_ward", value = 20, type = "BOND"}, {name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}], [{name = "bonded_ward", value = 80, type = "BOND"}, {name = "bonded_attack", value = 30, type = "BOND"}, {name = "bonded_magic", value = 30, type = "BOND"}, {name = "build_tower", type = "ABILITY"}]]
 category = "followers"
 events = ["of_giants_and_titans"]
 family = "titans"
@@ -5017,7 +5017,7 @@ protect_chance = 3
 spell_rate = 12
 
 [entries."followers/atlas-of-olympia"]
-bestial_bond = [[{name = "_arch_alchemy", type = "BONUS", value = 1}, {name = "view_distance", value = 2, type = "BONUS"}], [{name = "bonded_ward", value = 20, type = "BOND"}, {name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}], [{name = "bonded_ward", value = 80, type = "BOND"}, {name = "bonded_attack", value = 30, type = "BOND"}, {name = "bonded_magic", value = 30, type = "BOND"}, {name = "build_tower", type = "ABILITY"}]]
+bestial_bond = [[{name = "_arch_alchemy", type = "BONUS", value = true}, {name = "view_distance", value = 2, type = "BONUS"}], [{name = "bonded_ward", value = 20, type = "BOND"}, {name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}], [{name = "bonded_ward", value = 80, type = "BOND"}, {name = "bonded_attack", value = 30, type = "BOND"}, {name = "bonded_magic", value = 30, type = "BOND"}, {name = "build_tower", type = "ABILITY"}]]
 category = "followers"
 events = ["of_giants_and_titans"]
 family = "titans"
@@ -7069,7 +7069,7 @@ debuff_rate = 8
 spell_rate = 8
 
 [entries."followers/ophion-of-olympia"]
-bestial_bond = [[{name = "_arch_alchemy", type = "BONUS", value = 1}, {name = "view_distance", value = 2, type = "BONUS"}], [{name = "bonded_ward", value = 20, type = "BOND"}, {name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}], [{name = "bonded_ward", value = 80, type = "BOND"}, {name = "bonded_attack", value = 30, type = "BOND"}, {name = "bonded_magic", value = 30, type = "BOND"}, {name = "build_tower", type = "ABILITY"}]]
+bestial_bond = [[{name = "_arch_alchemy", type = "BONUS", value = true}, {name = "view_distance", value = 2, type = "BONUS"}], [{name = "bonded_ward", value = 20, type = "BOND"}, {name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}], [{name = "bonded_ward", value = 80, type = "BOND"}, {name = "bonded_attack", value = 30, type = "BOND"}, {name = "bonded_magic", value = 30, type = "BOND"}, {name = "build_tower", type = "ABILITY"}]]
 category = "followers"
 events = ["of_giants_and_titans"]
 family = "titans"
@@ -7282,7 +7282,7 @@ tier = 5
 spell_rate = 20
 
 [entries."followers/replica-eos"]
-bestial_bond = [[{name = "tower_shards", value = 5, type = "BONUS"}, {name = "_arch_alchemy", type = "BONUS", value = 1}, {name = "view_distance", value = 2, type = "BONUS"}], [{name = "bonded_ward", value = 20, type = "BOND"}, {name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}], [{name = "bonded_ward", value = 40, type = "BOND"}, {name = "bonded_attack", value = 20, type = "BOND"}, {name = "bonded_magic", value = 20, type = "BOND"}]]
+bestial_bond = [[{name = "tower_shards", value = 5, type = "BONUS"}, {name = "_arch_alchemy", type = "BONUS", value = true}, {name = "view_distance", value = 2, type = "BONUS"}], [{name = "bonded_ward", value = 20, type = "BOND"}, {name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}], [{name = "bonded_ward", value = 40, type = "BOND"}, {name = "bonded_attack", value = 20, type = "BOND"}, {name = "bonded_magic", value = 20, type = "BOND"}]]
 category = "followers"
 family = "titans"
 icon = "/img/monsters/prototype_eos.png"
@@ -7298,7 +7298,7 @@ protect_chance = 2
 spell_rate = 8
 
 [entries."followers/replica-oceanus"]
-bestial_bond = [[{name = "tower_shards", value = 5, type = "BONUS"}, {name = "_arch_alchemy", type = "BONUS", value = 1}, {name = "view_distance", value = 2, type = "BONUS"}], [{name = "bonded_ward", value = 20, type = "BOND"}, {name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}], [{name = "bonded_ward", value = 40, type = "BOND"}, {name = "bonded_attack", value = 20, type = "BOND"}, {name = "bonded_magic", value = 20, type = "BOND"}]]
+bestial_bond = [[{name = "tower_shards", value = 5, type = "BONUS"}, {name = "_arch_alchemy", type = "BONUS", value = true}, {name = "view_distance", value = 2, type = "BONUS"}], [{name = "bonded_ward", value = 20, type = "BOND"}, {name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}], [{name = "bonded_ward", value = 40, type = "BOND"}, {name = "bonded_attack", value = 20, type = "BOND"}, {name = "bonded_magic", value = 20, type = "BOND"}]]
 category = "followers"
 family = "titans"
 icon = "/img/monsters/prototype_oceanus.png"
@@ -7314,7 +7314,7 @@ protect_chance = 2
 spell_rate = 8
 
 [entries."followers/replica-prometheus"]
-bestial_bond = [[{name = "tower_shards", value = 5, type = "BONUS"}, {name = "_arch_alchemy", type = "BONUS", value = 1}, {name = "view_distance", value = 2, type = "BONUS"}], [{name = "bonded_ward", value = 20, type = "BOND"}, {name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}], [{name = "bonded_ward", value = 40, type = "BOND"}, {name = "bonded_attack", value = 20, type = "BOND"}, {name = "bonded_magic", value = 20, type = "BOND"}]]
+bestial_bond = [[{name = "tower_shards", value = 5, type = "BONUS"}, {name = "_arch_alchemy", type = "BONUS", value = true}, {name = "view_distance", value = 2, type = "BONUS"}], [{name = "bonded_ward", value = 20, type = "BOND"}, {name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}], [{name = "bonded_ward", value = 40, type = "BOND"}, {name = "bonded_attack", value = 20, type = "BOND"}, {name = "bonded_magic", value = 20, type = "BOND"}]]
 category = "followers"
 family = "titans"
 icon = "/img/monsters/prototype_prometheus.png"
@@ -7330,7 +7330,7 @@ protect_chance = 2
 spell_rate = 8
 
 [entries."followers/replica-selene"]
-bestial_bond = [[{name = "tower_shards", value = 5, type = "BONUS"}, {name = "_arch_alchemy", type = "BONUS", value = 1}, {name = "view_distance", value = 2, type = "BONUS"}], [{name = "bonded_ward", value = 20, type = "BOND"}, {name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}], [{name = "bonded_ward", value = 40, type = "BOND"}, {name = "bonded_attack", value = 20, type = "BOND"}, {name = "bonded_magic", value = 20, type = "BOND"}]]
+bestial_bond = [[{name = "tower_shards", value = 5, type = "BONUS"}, {name = "_arch_alchemy", type = "BONUS", value = true}, {name = "view_distance", value = 2, type = "BONUS"}], [{name = "bonded_ward", value = 20, type = "BOND"}, {name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}], [{name = "bonded_ward", value = 40, type = "BOND"}, {name = "bonded_attack", value = 20, type = "BOND"}, {name = "bonded_magic", value = 20, type = "BOND"}]]
 category = "followers"
 family = "titans"
 icon = "/img/monsters/prototype_selene.png"
@@ -7346,7 +7346,7 @@ protect_chance = 2
 spell_rate = 8
 
 [entries."followers/replica-themis"]
-bestial_bond = [[{name = "tower_shards", value = 5, type = "BONUS"}, {name = "_arch_alchemy", type = "BONUS", value = 1}, {name = "view_distance", value = 2, type = "BONUS"}], [{name = "bonded_ward", value = 20, type = "BOND"}, {name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}], [{name = "bonded_ward", value = 40, type = "BOND"}, {name = "bonded_attack", value = 20, type = "BOND"}, {name = "bonded_magic", value = 20, type = "BOND"}]]
+bestial_bond = [[{name = "tower_shards", value = 5, type = "BONUS"}, {name = "_arch_alchemy", type = "BONUS", value = true}, {name = "view_distance", value = 2, type = "BONUS"}], [{name = "bonded_ward", value = 20, type = "BOND"}, {name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}], [{name = "bonded_ward", value = 40, type = "BOND"}, {name = "bonded_attack", value = 20, type = "BOND"}, {name = "bonded_magic", value = 20, type = "BOND"}]]
 category = "followers"
 family = "titans"
 icon = "/img/monsters/prototype_themis.png"

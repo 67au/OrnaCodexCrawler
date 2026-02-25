@@ -14324,10 +14324,10 @@ name = "戈夫努护臂"
 
 [entries."items/gold-half-locket"]
 category = "items"
-description = "一枚已修补的半心吊饰，曾为玛莱所佩戴。"
+description = "一枚已修补的半心吊坠，曾为玛莱所佩戴。"
 id = "gold-half-locket"
 language = "zh-hans"
-name = "金质半心吊饰"
+name = "金质半心吊坠"
 
 [entries."items/gold-medal"]
 category = "items"

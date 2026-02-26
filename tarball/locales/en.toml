@@ -2046,11 +2046,35 @@ id = "shade-of-mnemosyne"
 language = "en"
 name = "Shade of Mnemosyne"
 
+[entries."bosses/shade-of-neith"]
+category = "bosses"
+id = "shade-of-neith"
+language = "en"
+name = "Shade of Neith"
+
+[entries."bosses/shade-of-osiris"]
+category = "bosses"
+id = "shade-of-osiris"
+language = "en"
+name = "Shade of Osiris"
+
+[entries."bosses/shade-of-ptah"]
+category = "bosses"
+id = "shade-of-ptah"
+language = "en"
+name = "Shade of Ptah"
+
 [entries."bosses/shade-of-rhada-the-great-shield"]
 category = "bosses"
 id = "shade-of-rhada-the-great-shield"
 language = "en"
 name = "Shade of Rhada, the Great Shield"
+
+[entries."bosses/shade-of-sekhmet"]
+category = "bosses"
+id = "shade-of-sekhmet"
+language = "en"
+name = "Shade of Sekhmet"
 
 [entries."bosses/shadow-of-achlys-the-red-dagger"]
 category = "bosses"
@@ -3752,6 +3776,13 @@ id = "giant-tortoise"
 language = "en"
 name = "Giant Tortoise"
 
+[entries."followers/gilded-kheper"]
+category = "followers"
+description = "Available for a limited time only."
+id = "gilded-kheper"
+language = "en"
+name = "Gilded Kheper"
+
 [entries."followers/glashtyn"]
 category = "followers"
 description = "Available for a limited time only."
@@ -4732,12 +4763,26 @@ id = "aaru-boots"
 language = "en"
 name = "Aaru Boots"
 
+[entries."items/aaru-circlet"]
+category = "items"
+description = "Headwear of Thronemaker Ptah. It reduces the MP cost of spells that hit multiple opponents."
+id = "aaru-circlet"
+language = "en"
+name = "Aaru Circlet"
+
 [entries."items/aaru-crucible"]
 category = "items"
 description = "An crucible used by Ancient Aaru. Aaru had the most efficient of blacksmiths. Using this item will reduce the materials required for Blacksmith item upgrades by 20% for 1 hour."
 id = "aaru-crucible"
 language = "en"
 name = "Aaru Crucible"
+
+[entries."items/aaru-dagger"]
+category = "items"
+description = "Small blade of Thronemaker Sekhmet. It will deal extra damage for each of an opponent's status effects that causes damage per turn."
+id = "aaru-dagger"
+language = "en"
+name = "Aaru Dagger"
 
 [entries."items/aaru-garb"]
 category = "items"
@@ -4781,12 +4826,26 @@ id = "aaru-robe"
 language = "en"
 name = "Aaru Robe"
 
+[entries."items/aaru-shield"]
+category = "items"
+description = "Shield of Thronemaker Neith."
+id = "aaru-shield"
+language = "en"
+name = "Aaru Shield"
+
 [entries."items/aaru-skirt"]
 category = "items"
 description = "Armor of Thronemaker Ptah. When wearing this skirt, one will often be granted temporary defense or resistance in battle."
 id = "aaru-skirt"
 language = "en"
 name = "Aaru Skirt"
+
+[entries."items/aarus-secret"]
+category = "items"
+description = "A scroll containing the ancient skill, \"Sands of Aaru\". Read it to teach oneself this skill."
+id = "aarus-secret"
+language = "en"
+name = "Aaru's Secret"
 
 [entries."items/abyssal-armor"]
 category = "items"
@@ -5565,12 +5624,26 @@ id = "arisen-aaru-robe"
 language = "en"
 name = "Arisen Aaru Robe"
 
+[entries."items/arisen-aaru-sandals"]
+category = "items"
+description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+id = "arisen-aaru-sandals"
+language = "en"
+name = "Arisen Aaru Sandals"
+
 [entries."items/arisen-aaru-skirt"]
 category = "items"
 description = "Armor of Thronemaker Ptah. When wearing this skirt, one will often be granted temporary defense or resistance in battle."
 id = "arisen-aaru-skirt"
 language = "en"
 name = "Arisen Aaru Skirt"
+
+[entries."items/arisen-aaru-tunic"]
+category = "items"
+description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+id = "arisen-aaru-tunic"
+language = "en"
+name = "Arisen Aaru Tunic"
 
 [entries."items/arisen-ankh"]
 category = "items"
@@ -10626,6 +10699,13 @@ id = "cursed-sumner-crested-shield"
 language = "en"
 name = "Cursed Sumner Crested Shield"
 
+[entries."items/cursed-tail-of-a-sphinx"]
+category = "items"
+description = "Cut tail of a beast of Aaru. Surely he will grow another. When carrying this item, one's thirst for the ornate will deepen, allowing items of higher quality to be found ever so slightly more often."
+id = "cursed-tail-of-a-sphinx"
+language = "en"
+name = "Cursed Tail of a Sphinx"
+
 [entries."items/cursed-wintara-crested-shield"]
 category = "items"
 description = "Shield of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
@@ -11886,6 +11966,13 @@ id = "earthstone"
 language = "en"
 name = "Earthstone"
 
+[entries."items/eastern-mask"]
+category = "items"
+description = "If the brother and sisters were to reunite, it is often suggested that they would admit to their mistakes and banish any beast that tried to beguile them. But, would Lyonesse, Avalon, and Annwn then crumble? Do great kingdoms rely on their makers to such a degree?\n\nWhen one wears a mask such as this, they denounce the allure of beasts. Classes that can take a follower become stronger without one."
+id = "eastern-mask"
+language = "en"
+name = "Eastern Mask"
+
 [entries."items/eastern-regalia"]
 category = "items"
 description = "If the brother and sisters were to reunite, it is often suggested that they would admit to their mistakes and banish any beast that tried to beguile them. But, would Lyonesse, Avalon, and Annwn then crumble? Do great kingdoms rely on their makers to such a degree?\n\nWhen one carries a weapon such as this, they denounce the allure of beasts. Classes that can take a follower become stronger without one."
@@ -12266,7 +12353,7 @@ name = "Elysian Candle"
 
 [entries."items/elysian-coin"]
 category = "items"
-description = "An aged azure coin, currency of Elysia. Using it will increase rewards earned when completing Memory Hunts for 48 hours."
+description = "An aged azure coin, currency of Elysium. Using it will increase rewards earned when completing Memory Hunts for 48 hours."
 id = "elysian-coin"
 language = "en"
 name = "Elysian Coin"
@@ -12480,6 +12567,34 @@ description = "A stone imbued with the most curious of magic. Using it may guide
 id = "explorers-waystone"
 language = "en"
 name = "Explorer's Waystone"
+
+[entries."items/eye-of-neith"]
+category = "items"
+description = "Eye of Thronemaker Neith."
+id = "eye-of-neith"
+language = "en"
+name = "Eye of Neith"
+
+[entries."items/eye-of-osiris"]
+category = "items"
+description = "Eye of Thronemaker Osiris."
+id = "eye-of-osiris"
+language = "en"
+name = "Eye of Osiris"
+
+[entries."items/eye-of-ptah"]
+category = "items"
+description = "Eye of Thronemaker Ptah."
+id = "eye-of-ptah"
+language = "en"
+name = "Eye of Ptah"
+
+[entries."items/eye-of-sekhmet"]
+category = "items"
+description = "Eye of Thronemaker Sekhmet."
+id = "eye-of-sekhmet"
+language = "en"
+name = "Eye of Sekhmet"
 
 [entries."items/eye-of-the-feyger"]
 category = "items"
@@ -13412,6 +13527,13 @@ id = "fey-yeti-horns"
 language = "en"
 name = "Fey Yeti Horns"
 
+[entries."items/final-decree"]
+category = "items"
+description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+id = "final-decree"
+language = "en"
+name = "Final Decree"
+
 [entries."items/final-horsemans-armor"]
 category = "items"
 description = "Armor of the Fourth Horseman, often associated with untimely demise. It reduces the damage taken from the ultimate attacks of Raid Bosses."
@@ -13741,10 +13863,10 @@ id = "fomoria-plated-robe-427f8b42"
 language = "en"
 name = "Fomoria Plated Robe"
 
-[entries."items/fomoria-plated-robe-946a26b9"]
+[entries."items/fomoria-plated-robe-fb3188b6"]
 category = "items"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "fomoria-plated-robe-946a26b9"
+id = "fomoria-plated-robe-fb3188b6"
 language = "en"
 name = "Fomoria Plated Robe"
 
@@ -14202,6 +14324,13 @@ description = "Aspect of a monster that one may have encountered while traveling
 id = "giant-monster-aspect"
 language = "en"
 name = "Giant Monster Aspect"
+
+[entries."items/gilded-scarab-amulet"]
+category = "items"
+description = "A rare amulet, forged of the remains of a Gilded Kheper."
+id = "gilded-scarab-amulet"
+language = "en"
+name = "Gilded Scarab Amulet"
 
 [entries."items/gizmo"]
 category = "items"
@@ -15154,6 +15283,13 @@ description = "Shield carried by the great Heimdall of the Northern lands. It pr
 id = "heimdalls-shield"
 language = "en"
 name = "Heimdall's Shield"
+
+[entries."items/heka"]
+category = "items"
+description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+id = "heka"
+language = "en"
+name = "Heka"
 
 [entries."items/helhest"]
 category = "items"
@@ -16156,10 +16292,10 @@ id = "kerberos-claws"
 language = "en"
 name = "Kerberos Claws"
 
-[entries."items/kerberos-claws-81b67c8d"]
+[entries."items/kerberos-claws-e7f61ea1"]
 category = "items"
 description = "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
-id = "kerberos-claws-81b67c8d"
+id = "kerberos-claws-e7f61ea1"
 language = "en"
 name = "Kerberos Claws"
 
@@ -17829,6 +17965,13 @@ id = "needles"
 language = "en"
 name = "Needles"
 
+[entries."items/nekhakha"]
+category = "items"
+description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+id = "nekhakha"
+language = "en"
+name = "Nekhakha"
+
 [entries."items/nekromancers-staff"]
 category = "items"
 description = "A staff often used in forbidden magic. It slightly increases the power of summons and pacts with your summons."
@@ -18269,6 +18412,13 @@ description = "Old seal of Aaru, marking a new land."
 id = "old-seal-of-avalon"
 language = "en"
 name = "Old Seal of Avalon"
+
+[entries."items/old-seal-of-elysium"]
+category = "items"
+description = "Old seal of Aaru, marking a new land."
+id = "old-seal-of-elysium"
+language = "en"
+name = "Old Seal of Elysium"
 
 [entries."items/old-seal-of-lyonesse"]
 category = "items"
@@ -20011,6 +20161,13 @@ description = "A chunk of nearly fossilized scales. Useful for upgrading rare we
 id = "scalestone"
 language = "en"
 name = "Scalestone"
+
+[entries."items/scarab-amulet"]
+category = "items"
+description = "A rare amulet, forged of the remains of a Kheper."
+id = "scarab-amulet"
+language = "en"
+name = "Scarab Amulet"
 
 [entries."items/scimitar"]
 category = "items"
@@ -22814,35 +22971,35 @@ name = "Yokai's Staff"
 
 [entries."items/zagreus-bident"]
 category = "items"
-description = "Weapon of Zagreus, fallen Judge of Elysia. Zagreus carried two items -- one polearm and one net."
+description = "Weapon of Zagreus, fallen Judge of Elysium. Zagreus carried two items -- one polearm and one net."
 id = "zagreus-bident"
 language = "en"
 name = "Zagreus Bident"
 
 [entries."items/zagreus-chestplate"]
 category = "items"
-description = "Gear of Zagreus, fallen Judge of Elysia. Zagreus was once a Judge of Elysia, but fell within the Rift during Whiterift while flaunting his beastly antics. His followers followed him to the Underworld below."
+description = "Gear of Zagreus, fallen Judge of Elysium. Zagreus was once a Judge of Elysium, but fell within the Rift during Whiterift while flaunting his beastly antics. His followers followed him to the Underworld below."
 id = "zagreus-chestplate"
 language = "en"
 name = "Zagreus Chestplate"
 
 [entries."items/zagreus-headwrap"]
 category = "items"
-description = "Gear of Zagreus, fallen Judge of Elysia. Zagreus was once a Judge of Elysia, but fell within the Rift during Whiterift while flaunting his beastly antics. His followers followed him to the Underworld below."
+description = "Gear of Zagreus, fallen Judge of Elysium. Zagreus was once a Judge of Elysium, but fell within the Rift during Whiterift while flaunting his beastly antics. His followers followed him to the Underworld below."
 id = "zagreus-headwrap"
 language = "en"
 name = "Zagreus Headwrap"
 
 [entries."items/zagreus-legwraps"]
 category = "items"
-description = "Gear of Zagreus, fallen Judge of Elysia. Zagreus was once a Judge of Elysia, but fell within the Rift during Whiterift while flaunting his beastly antics. His followers followed him to the Underworld below."
+description = "Gear of Zagreus, fallen Judge of Elysium. Zagreus was once a Judge of Elysium, but fell within the Rift during Whiterift while flaunting his beastly antics. His followers followed him to the Underworld below."
 id = "zagreus-legwraps"
 language = "en"
 name = "Zagreus Legwraps"
 
 [entries."items/zagreus-rete"]
 category = "items"
-description = "Weapon of Zagreus, fallen Judge of Elysia. Zagreus carried two items -- one polearm and one net."
+description = "Weapon of Zagreus, fallen Judge of Elysium. Zagreus carried two items -- one polearm and one net."
 id = "zagreus-rete"
 language = "en"
 name = "Zagreus Rete"
@@ -22973,6 +23130,12 @@ id = "zeta-olympia-warsword"
 language = "en"
 name = "Zeta Olympia Warsword"
 
+[entries."monsters/aaru-cobra"]
+category = "monsters"
+id = "aaru-cobra"
+language = "en"
+name = "Aaru Cobra"
+
 [entries."monsters/adamantine-knight"]
 category = "monsters"
 id = "adamantine-knight"
@@ -23001,13 +23164,13 @@ name = "Alfar (Arisen)"
 category = "monsters"
 id = "alfar-mage"
 language = "en"
-name = "Alfar Mage (Arisen)"
-
-[entries."monsters/alfar-mage-fe8adf12"]
-category = "monsters"
-id = "alfar-mage-fe8adf12"
-language = "en"
 name = "Alfar Mage"
+
+[entries."monsters/alfar-mage-36d8dea2"]
+category = "monsters"
+id = "alfar-mage-36d8dea2"
+language = "en"
+name = "Alfar Mage (Arisen)"
 
 [entries."monsters/amarok"]
 category = "monsters"
@@ -23152,6 +23315,12 @@ category = "monsters"
 id = "apollyons-pupil-x-96eb070f"
 language = "en"
 name = "Apollyon's Pupil X"
+
+[entries."monsters/apshait"]
+category = "monsters"
+id = "apshait"
+language = "en"
+name = "Apshait"
 
 [entries."monsters/arachne-e15f8316"]
 category = "monsters"
@@ -24293,6 +24462,12 @@ id = "giant-tortoise"
 language = "en"
 name = "Giant Tortoise"
 
+[entries."monsters/gilded-kheper"]
+category = "monsters"
+id = "gilded-kheper"
+language = "en"
+name = "Gilded Kheper"
+
 [entries."monsters/glashtyn"]
 category = "monsters"
 id = "glashtyn"
@@ -24665,6 +24840,12 @@ id = "jinn"
 language = "en"
 name = "Jinn"
 
+[entries."monsters/kheper"]
+category = "monsters"
+id = "kheper"
+language = "en"
+name = "Kheper"
+
 [entries."monsters/kobold"]
 category = "monsters"
 id = "kobold"
@@ -24832,6 +25013,12 @@ category = "monsters"
 id = "mammon-acolyte"
 language = "en"
 name = "Mammon Acolyte"
+
+[entries."monsters/medjed"]
+category = "monsters"
+id = "medjed"
+language = "en"
+name = "Medjed"
 
 [entries."monsters/merrow"]
 category = "monsters"
@@ -25144,6 +25331,12 @@ category = "monsters"
 id = "pumpkin-spider"
 language = "en"
 name = "Pumpkin Spider"
+
+[entries."monsters/ramesses-of-the-east"]
+category = "monsters"
+id = "ramesses-of-the-east"
+language = "en"
+name = "Ramesses of the East"
 
 [entries."monsters/rat"]
 category = "monsters"
@@ -25948,6 +26141,13 @@ description = "A Goddess of wisdom, Neith migrated to the North."
 id = "arisen-thronemaker-neith"
 language = "en"
 name = "Arisen Thronemaker Neith"
+
+[entries."raids/arisen-thronemaker-osiris"]
+category = "raids"
+description = "Follower:\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tGilded Kheper"
+id = "arisen-thronemaker-osiris"
+language = "en"
+name = "Arisen Thronemaker Osiris"
 
 [entries."raids/arisen-thronemaker-ptah"]
 category = "raids"
@@ -27232,7 +27432,7 @@ name = "Blood-ray Flask"
 
 [entries."spells/bloodflask-infusion"]
 category = "spells"
-description = "Converts all Manaflasks to Bloodflasks. The current change of each flask will remain."
+description = "Converts all Manaflasks to Bloodflasks. The current charge of each flask will remain."
 id = "bloodflask-infusion"
 language = "en"
 name = "Bloodflask Infusion"
@@ -28703,6 +28903,13 @@ id = "focus"
 language = "en"
 name = "Focus"
 
+[entries."spells/focused-guard"]
+category = "spells"
+description = "Defend for 1 turn, granting 2 turns of Ward and restoring a portion of mana."
+id = "focused-guard"
+language = "en"
+name = "Focused Guard (Off-hand)"
+
 [entries."spells/forbid"]
 category = "spells"
 description = "50 percent chance to temporarily greatly hinder an opponent's attack power."
@@ -30153,7 +30360,7 @@ name = "Mana-surge Flask"
 
 [entries."spells/manaflask-infusion"]
 category = "spells"
-description = "Converts all Bloodflasks to Manaflasks. The current change of each flask will remain."
+description = "Converts all Bloodflasks to Manaflasks. The current charge of each flask will remain."
 id = "manaflask-infusion"
 language = "en"
 name = "Manaflask Infusion"
@@ -31416,6 +31623,13 @@ id = "sea-strikes"
 language = "en"
 name = "Sea Strikes (Off-hand)"
 
+[entries."spells/sekhmets-curse"]
+category = "spells"
+description = "When afflicted with this curse, it will not be possible to heal or revive oneself. Additionally, one will take damage each turn."
+id = "sekhmets-curse"
+language = "en"
+name = "Sekhmet's Curse"
+
 [entries."spells/shadow"]
 category = "spells"
 description = "Deals moderate dark damage."
@@ -32220,6 +32434,20 @@ description = "Summon a beast to assist you. Requires 3 turns in battle."
 id = "summon-kelpie"
 language = "en"
 name = "Summon Kelpie"
+
+[entries."spells/summon-kheper-swarm"]
+category = "spells"
+description = "Summon many beasts to assist you. Requires 3 turns in battle."
+id = "summon-kheper-swarm"
+language = "en"
+name = "Summon Kheper Swarm"
+
+[entries."spells/summon-kheper-swarm-2"]
+category = "spells"
+description = "Summon many beasts to assist you. Requires 2 turns in battle."
+id = "summon-kheper-swarm-2"
+language = "en"
+name = "Summon Kheper Swarm (Off-hand)"
 
 [entries."spells/summon-llamrai"]
 category = "spells"
@@ -33421,6 +33649,7 @@ titans = "Titans"
 undead_horde = "Undead Horde"
 
 [msg.follower]
+aaru_cobra = "Aaru Cobra"
 anubis = "Anubis"
 ashen_phoenix = "Ashen Phoenix"
 bat = "Bat"
@@ -33435,6 +33664,7 @@ evil_eye = "Evil Eye"
 fenrir = "Fenrir"
 fire_dragon = "Fire Dragon"
 gargoyle = "Gargoyle"
+gilded_kheper = "Gilded Kheper"
 gnome = "Gnome"
 great_bear = "Great Bear"
 great_yeti = "Great Yeti"
@@ -33576,6 +33806,7 @@ damage_from_animals = "Damage from Animals"
 damage_limit_break = "Damage Limit Break"
 damage_per_turn_r_stats = "Damage per Turn → Stats"
 damage_protect = "Damage Protect"
+damage_to_damage_per_turn = "Damage to Damage per Turn"
 damage_to_ward = "Damage to Ward"
 dark_damage = "Dark Damage"
 dark_res = "Dark Res"
@@ -33654,6 +33885,7 @@ memory_hunting = "Memory Hunting"
 monster_encounters = "Monster Encounters"
 monster_power = "Monster Power"
 multi_target_damage = "Multi-target Damage"
+multi_target_mana_reduction = "Multi-target Mana Reduction"
 no_follower_bonus = "No Follower Bonus"
 off_hands = "Off-hands"
 orn_bonus = "Orn Bonus"
@@ -33732,21 +33964,29 @@ beheading_sweep = "Beheading Sweep"
 berserk = "Berserk"
 blessed_shield = "Blessed Shield"
 bloodshift = "Bloodshift"
+build_tower = "Build Tower"
 call_of_zagreus = "Call of Zagreus"
+chain_lightning_ii = "Chain Lightning II"
+cleanse = "Cleanse"
 curse_of_sekhmet = "Curse of Sekhmet"
 dark = "Dark"
 dragon = "Dragon"
+earth_sigil_ = "Earth Sigil+"
 earthen = "Earthen"
 exploit_ii = "Exploit II"
 fire = "Fire"
+fire_sigil_ = "Fire Sigil+"
 giant_s_protection = "Giant's Protection"
 gods_of_aaru = "Gods of Aaru"
 great_meditation = "Great Meditation"
 holy = "Holy"
+ice_sigil_ = "Ice Sigil+"
 level_1 = "Level 1"
 level_2 = "Level 2"
 level_3 = "Level 3"
 lightning = "Lightning"
+lightning_sigil_ = "Lightning Sigil+"
+natura_ii = "Natura II"
 physical = "Physical"
 ponder = "Ponder"
 pumpkin_gaze = "Pumpkin Gaze"
@@ -33755,12 +33995,15 @@ reraise = "Reraise"
 resolve_darkriftus = "Resolve Darkriftus"
 shadowveil = "Shadowveil"
 sharpen_iii = "Sharpen III"
+stonefire = "Stonefire"
 swordplay = "Swordplay"
 ursa_s_edge = "Ursa's Edge"
 walls_of_aaru = "Walls of Aaru"
 ward_of_mythril = "Ward of Mythril"
 ward_of_ortanite = "Ward of Ortanite"
 water = "Water"
+wildfire_ii = "Wildfire II"
+winter_wind_ii = "Winter Wind II"
 
 [msg.status]
 aegir = "Aegir"
@@ -33873,6 +34116,7 @@ frozen = "Frozen"
 garm = "Garm"
 giant_panda = "Giant Panda"
 giant_tortoise = "Giant Tortoise"
+gilded_kheper = "Gilded Kheper"
 glashtyn = "Glashtyn"
 great_ancient_dragon = "Great Ancient Dragon"
 great_gazer = "Great Gazer"
@@ -33904,6 +34148,7 @@ jord_u = "Jord ↑"
 jord_uu = "Jord ↑↑"
 jord_uuu = "Jord ↑↑↑"
 kelpie = "Kelpie"
+kheper = "Kheper"
 "kára" = "Kára"
 lightning_aligned = "Lightning Aligned"
 lightning_att = "Lightning Att"

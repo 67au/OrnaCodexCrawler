@@ -2046,11 +2046,35 @@ id = "shade-of-mnemosyne"
 language = "zh-hant"
 name = "寧默辛妮之影"
 
+[entries."bosses/shade-of-neith"]
+category = "bosses"
+id = "shade-of-neith"
+language = "zh-hant"
+name = "Shade of Neith"
+
+[entries."bosses/shade-of-osiris"]
+category = "bosses"
+id = "shade-of-osiris"
+language = "zh-hant"
+name = "Shade of Osiris"
+
+[entries."bosses/shade-of-ptah"]
+category = "bosses"
+id = "shade-of-ptah"
+language = "zh-hant"
+name = "Shade of Ptah"
+
 [entries."bosses/shade-of-rhada-the-great-shield"]
 category = "bosses"
 id = "shade-of-rhada-the-great-shield"
 language = "zh-hant"
 name = "大盾拉達之影"
+
+[entries."bosses/shade-of-sekhmet"]
+category = "bosses"
+id = "shade-of-sekhmet"
+language = "zh-hant"
+name = "Shade of Sekhmet"
 
 [entries."bosses/shadow-of-achlys-the-red-dagger"]
 category = "bosses"
@@ -3694,7 +3718,7 @@ category = "followers"
 description = "期間限定。"
 id = "fire-horse"
 language = "zh-hant"
-name = "Fire Horse"
+name = "火馬"
 
 [entries."followers/fjalar"]
 category = "followers"
@@ -3751,6 +3775,13 @@ description = "大自然的一份子，對抗淤濁的夥伴。"
 id = "giant-tortoise"
 language = "zh-hant"
 name = "巨型陸龜"
+
+[entries."followers/gilded-kheper"]
+category = "followers"
+description = "期間限定。"
+id = "gilded-kheper"
+language = "zh-hant"
+name = "Gilded Kheper"
 
 [entries."followers/glashtyn"]
 category = "followers"
@@ -4732,12 +4763,26 @@ id = "aaru-boots"
 language = "zh-hant"
 name = "雅盧長靴"
 
+[entries."items/aaru-circlet"]
+category = "items"
+description = "Headwear of Thronemaker Ptah. It reduces the MP cost of spells that hit multiple opponents."
+id = "aaru-circlet"
+language = "zh-hant"
+name = "Aaru Circlet"
+
 [entries."items/aaru-crucible"]
 category = "items"
 description = "An crucible used by Ancient Aaru. Aaru had the most efficient of blacksmiths. Using this item will reduce the materials required for Blacksmith item upgrades by 20% for 1 hour."
 id = "aaru-crucible"
 language = "zh-hant"
 name = "雅盧坩堝"
+
+[entries."items/aaru-dagger"]
+category = "items"
+description = "Small blade of Thronemaker Sekhmet. It will deal extra damage for each of an opponent's status effects that causes damage per turn."
+id = "aaru-dagger"
+language = "zh-hant"
+name = "Aaru Dagger"
 
 [entries."items/aaru-garb"]
 category = "items"
@@ -4781,12 +4826,26 @@ id = "aaru-robe"
 language = "zh-hant"
 name = "雅盧法袍"
 
+[entries."items/aaru-shield"]
+category = "items"
+description = "Shield of Thronemaker Neith."
+id = "aaru-shield"
+language = "zh-hant"
+name = "Aaru Shield"
+
 [entries."items/aaru-skirt"]
 category = "items"
 description = "造王者普塔的盔甲。當穿著這件裙，使用者常常可以在戰鬥中暫時提升物防或魔防。"
 id = "aaru-skirt"
 language = "zh-hant"
 name = "雅盧裙"
+
+[entries."items/aarus-secret"]
+category = "items"
+description = "A scroll containing the ancient skill, \"Sands of Aaru\". Read it to teach oneself this skill."
+id = "aarus-secret"
+language = "zh-hant"
+name = "Aaru's Secret"
 
 [entries."items/abyssal-armor"]
 category = "items"
@@ -5565,12 +5624,26 @@ id = "arisen-aaru-robe"
 language = "zh-hant"
 name = "重生雅盧法袍"
 
+[entries."items/arisen-aaru-sandals"]
+category = "items"
+description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+id = "arisen-aaru-sandals"
+language = "zh-hant"
+name = "Arisen Aaru Sandals"
+
 [entries."items/arisen-aaru-skirt"]
 category = "items"
 description = "造王者普塔的盔甲。當穿著這件裙，使用者常常可以在戰鬥中暫時提升物防或魔防。"
 id = "arisen-aaru-skirt"
 language = "zh-hant"
 name = "重生雅盧裙子"
+
+[entries."items/arisen-aaru-tunic"]
+category = "items"
+description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+id = "arisen-aaru-tunic"
+language = "zh-hant"
+name = "Arisen Aaru Tunic"
 
 [entries."items/arisen-ankh"]
 category = "items"
@@ -10626,6 +10699,13 @@ id = "cursed-sumner-crested-shield"
 language = "zh-hant"
 name = "受詛咒的薩姆納紋章盾"
 
+[entries."items/cursed-tail-of-a-sphinx"]
+category = "items"
+description = "雅盧野獸被切斷的尾巴。牠當然會再長出另一條。當攜帶此物品時，人們對華麗的渴望會加深，從而更頻繁地發現更高品質的物品。"
+id = "cursed-tail-of-a-sphinx"
+language = "zh-hant"
+name = "詛咒的斯芬克斯之尾"
+
 [entries."items/cursed-wintara-crested-shield"]
 category = "items"
 description = "弗摩爾之盾，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
@@ -11886,6 +11966,13 @@ id = "earthstone"
 language = "zh-hant"
 name = "地之石"
 
+[entries."items/eastern-mask"]
+category = "items"
+description = "If the brother and sisters were to reunite, it is often suggested that they would admit to their mistakes and banish any beast that tried to beguile them. But, would Lyonesse, Avalon, and Annwn then crumble? Do great kingdoms rely on their makers to such a degree?\n\nWhen one wears a mask such as this, they denounce the allure of beasts. Classes that can take a follower become stronger without one."
+id = "eastern-mask"
+language = "zh-hant"
+name = "Eastern Mask"
+
 [entries."items/eastern-regalia"]
 category = "items"
 description = "人們常建議說若能與弟兄姊妹重聚的話定該承認自己過去曾犯的錯誤，並驅逐任何試圖欺騙他們的野獸。但是，里昂內斯、阿瓦隆和安溫豈會因此而衰敗？這些偉大的王國真如此仰賴於他們的立國者嗎？\n\n當一個人裝備此樣武器時，他們就當拒絕野獸的誘惑。可帶上跟隨者的職業在沒有跟隨者時會變得更強。"
@@ -12480,6 +12567,34 @@ description = "附有最奇妙魔法的石頭.使用它能引導你到一些有�
 id = "explorers-waystone"
 language = "zh-hant"
 name = "探險者的引路石"
+
+[entries."items/eye-of-neith"]
+category = "items"
+description = "Eye of Thronemaker Neith."
+id = "eye-of-neith"
+language = "zh-hant"
+name = "Eye of Neith"
+
+[entries."items/eye-of-osiris"]
+category = "items"
+description = "Eye of Thronemaker Osiris."
+id = "eye-of-osiris"
+language = "zh-hant"
+name = "Eye of Osiris"
+
+[entries."items/eye-of-ptah"]
+category = "items"
+description = "Eye of Thronemaker Ptah."
+id = "eye-of-ptah"
+language = "zh-hant"
+name = "Eye of Ptah"
+
+[entries."items/eye-of-sekhmet"]
+category = "items"
+description = "Eye of Thronemaker Sekhmet."
+id = "eye-of-sekhmet"
+language = "zh-hant"
+name = "Eye of Sekhmet"
 
 [entries."items/eye-of-the-feyger"]
 category = "items"
@@ -13412,6 +13527,13 @@ id = "fey-yeti-horns"
 language = "zh-hant"
 name = "變異雪怪角"
 
+[entries."items/final-decree"]
+category = "items"
+description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+id = "final-decree"
+language = "zh-hant"
+name = "Final Decree"
+
 [entries."items/final-horsemans-armor"]
 category = "items"
 description = "最終騎士的盔甲.能降低副本頭目究極攻擊的傷害."
@@ -13741,10 +13863,10 @@ id = "fomoria-plated-robe-427f8b42"
 language = "zh-hant"
 name = "弗摩爾族板甲袍"
 
-[entries."items/fomoria-plated-robe-946a26b9"]
+[entries."items/fomoria-plated-robe-fb3188b6"]
 category = "items"
 description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
-id = "fomoria-plated-robe-946a26b9"
+id = "fomoria-plated-robe-fb3188b6"
 language = "zh-hant"
 name = "弗摩爾族板甲袍"
 
@@ -14202,6 +14324,13 @@ description = "在旅行時可能遇到魔物的靈魂。魔魂可在你的旅�
 id = "giant-monster-aspect"
 language = "zh-hant"
 name = "巨人魔魂"
+
+[entries."items/gilded-scarab-amulet"]
+category = "items"
+description = "A rare amulet, forged of the remains of a Gilded Kheper."
+id = "gilded-scarab-amulet"
+language = "zh-hant"
+name = "Gilded Scarab Amulet"
 
 [entries."items/gizmo"]
 category = "items"
@@ -15154,6 +15283,13 @@ description = "北族君主海姆達爾的盾牌.能夠禦寒."
 id = "heimdalls-shield"
 language = "zh-hant"
 name = "海姆達爾之盾"
+
+[entries."items/heka"]
+category = "items"
+description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+id = "heka"
+language = "zh-hant"
+name = "Heka"
 
 [entries."items/helhest"]
 category = "items"
@@ -16156,10 +16292,10 @@ id = "kerberos-claws"
 language = "zh-hant"
 name = "刻耳柏洛斯之爪"
 
-[entries."items/kerberos-claws-81b67c8d"]
+[entries."items/kerberos-claws-e7f61ea1"]
 category = "items"
 description = "由刻耳柏洛斯那尖銳、強大、鋒利如刃的爪所製成。攻擊有機會造成流血及冰凍狀態。"
-id = "kerberos-claws-81b67c8d"
+id = "kerberos-claws-e7f61ea1"
 language = "zh-hant"
 name = "刻耳柏洛斯之爪"
 
@@ -17829,6 +17965,13 @@ id = "needles"
 language = "zh-hant"
 name = "飛針"
 
+[entries."items/nekhakha"]
+category = "items"
+description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+id = "nekhakha"
+language = "zh-hant"
+name = "Nekhakha"
+
 [entries."items/nekromancers-staff"]
 category = "items"
 description = "一柄經常在禁忌魔法中使用的法杖。它會略微增加小夥伴的力量與契約效果。"
@@ -18269,6 +18412,13 @@ description = "舊雅盧印記，標記新土地。"
 id = "old-seal-of-avalon"
 language = "zh-hant"
 name = "舊阿瓦隆印記"
+
+[entries."items/old-seal-of-elysium"]
+category = "items"
+description = "舊雅盧印記，標記新土地。"
+id = "old-seal-of-elysium"
+language = "zh-hant"
+name = "Old Seal of Elysium"
 
 [entries."items/old-seal-of-lyonesse"]
 category = "items"
@@ -20011,6 +20161,13 @@ description = "非常堅硬的鱗片.可用來強化稀有的武器."
 id = "scalestone"
 language = "zh-hant"
 name = "鱗石"
+
+[entries."items/scarab-amulet"]
+category = "items"
+description = "A rare amulet, forged of the remains of a Kheper."
+id = "scarab-amulet"
+language = "zh-hant"
+name = "Scarab Amulet"
 
 [entries."items/scimitar"]
 category = "items"
@@ -22973,6 +23130,12 @@ id = "zeta-olympia-warsword"
 language = "zh-hant"
 name = "ζ梅爾丁戰刃"
 
+[entries."monsters/aaru-cobra"]
+category = "monsters"
+id = "aaru-cobra"
+language = "zh-hant"
+name = "雅盧眼鏡蛇"
+
 [entries."monsters/adamantine-knight"]
 category = "monsters"
 id = "adamantine-knight"
@@ -23001,13 +23164,13 @@ name = "古精靈 (重生者)"
 category = "monsters"
 id = "alfar-mage"
 language = "zh-hant"
-name = "古精靈法師 (重生者)"
-
-[entries."monsters/alfar-mage-fe8adf12"]
-category = "monsters"
-id = "alfar-mage-fe8adf12"
-language = "zh-hant"
 name = "古精靈法師"
+
+[entries."monsters/alfar-mage-36d8dea2"]
+category = "monsters"
+id = "alfar-mage-36d8dea2"
+language = "zh-hant"
+name = "古精靈法師 (重生者)"
 
 [entries."monsters/amarok"]
 category = "monsters"
@@ -23152,6 +23315,12 @@ category = "monsters"
 id = "apollyons-pupil-x-96eb070f"
 language = "zh-hant"
 name = "亞坡倫的弟子 X"
+
+[entries."monsters/apshait"]
+category = "monsters"
+id = "apshait"
+language = "zh-hant"
+name = "Apshait"
 
 [entries."monsters/arachne-e15f8316"]
 category = "monsters"
@@ -24293,6 +24462,12 @@ id = "giant-tortoise"
 language = "zh-hant"
 name = "巨型陸龜"
 
+[entries."monsters/gilded-kheper"]
+category = "monsters"
+id = "gilded-kheper"
+language = "zh-hant"
+name = "Gilded Kheper"
+
 [entries."monsters/glashtyn"]
 category = "monsters"
 id = "glashtyn"
@@ -24665,6 +24840,12 @@ id = "jinn"
 language = "zh-hant"
 name = "神燈精靈"
 
+[entries."monsters/kheper"]
+category = "monsters"
+id = "kheper"
+language = "zh-hant"
+name = "Kheper"
+
 [entries."monsters/kobold"]
 category = "monsters"
 id = "kobold"
@@ -24832,6 +25013,12 @@ category = "monsters"
 id = "mammon-acolyte"
 language = "zh-hant"
 name = "瑪門追隨者"
+
+[entries."monsters/medjed"]
+category = "monsters"
+id = "medjed"
+language = "zh-hant"
+name = "Medjed"
 
 [entries."monsters/merrow"]
 category = "monsters"
@@ -25144,6 +25331,12 @@ category = "monsters"
 id = "pumpkin-spider"
 language = "zh-hant"
 name = "南瓜蜘蛛"
+
+[entries."monsters/ramesses-of-the-east"]
+category = "monsters"
+id = "ramesses-of-the-east"
+language = "zh-hant"
+name = "Ramesses of the East"
 
 [entries."monsters/rat"]
 category = "monsters"
@@ -25948,6 +26141,13 @@ description = "智慧之神妮絲，漂向北方。"
 id = "arisen-thronemaker-neith"
 language = "zh-hant"
 name = "重生造王者妮絲"
+
+[entries."raids/arisen-thronemaker-osiris"]
+category = "raids"
+description = "跟隨者：\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\tGilded Kheper"
+id = "arisen-thronemaker-osiris"
+language = "zh-hant"
+name = "Arisen Thronemaker Osiris"
 
 [entries."raids/arisen-thronemaker-ptah"]
 category = "raids"
@@ -28703,6 +28903,13 @@ id = "focus"
 language = "zh-hant"
 name = "專注"
 
+[entries."spells/focused-guard"]
+category = "spells"
+description = "Defend for 1 turn, granting 2 turns of Ward and restoring a portion of mana."
+id = "focused-guard"
+language = "zh-hant"
+name = "Focused Guard (副手)"
+
 [entries."spells/forbid"]
 category = "spells"
 description = "有 50% 的機率暫時大幅降低對手的物攻。"
@@ -31416,6 +31623,13 @@ id = "sea-strikes"
 language = "zh-hant"
 name = "大海無量 (副手)"
 
+[entries."spells/sekhmets-curse"]
+category = "spells"
+description = "當受到這個詛咒影響時，將無法自行恢復或復活。此外，每回合都會受到傷害。"
+id = "sekhmets-curse"
+language = "zh-hant"
+name = "Sekhmet's Curse"
+
 [entries."spells/shadow"]
 category = "spells"
 description = "造成中等的黑暗傷害。"
@@ -31477,14 +31691,14 @@ category = "spells"
 description = "暫時性的增加物理攻擊力。"
 id = "sharpen-ii"
 language = "zh-hant"
-name = "Sharpen II"
+name = "磨刀術 II"
 
 [entries."spells/sharpen-iii"]
 category = "spells"
 description = "暫時性的增加物理攻擊力。"
 id = "sharpen-iii"
 language = "zh-hant"
-name = "Sharpen III"
+name = "磨刀術 III"
 
 [entries."spells/shield-bash"]
 category = "spells"
@@ -32220,6 +32434,20 @@ description = "召喚一隻野獸來協助你。召喚需要3回合。"
 id = "summon-kelpie"
 language = "zh-hant"
 name = "召喚凱爾皮"
+
+[entries."spells/summon-kheper-swarm"]
+category = "spells"
+description = "Summon many beasts to assist you. Requires 3 turns in battle."
+id = "summon-kheper-swarm"
+language = "zh-hant"
+name = "Summon Kheper Swarm"
+
+[entries."spells/summon-kheper-swarm-2"]
+category = "spells"
+description = "Summon many beasts to assist you. Requires 2 turns in battle."
+id = "summon-kheper-swarm-2"
+language = "zh-hant"
+name = "Summon Kheper Swarm (副手)"
 
 [entries."spells/summon-llamrai"]
 category = "spells"
@@ -33421,6 +33649,7 @@ titans = "泰坦"
 undead_horde = "不死族"
 
 [msg.follower]
+aaru_cobra = "雅盧眼鏡蛇"
 anubis = "阿努比斯"
 ashen_phoenix = "蒼白鳳凰"
 bat = "蝙蝠"
@@ -33435,6 +33664,7 @@ evil_eye = "邪眼"
 fenrir = "芬里爾"
 fire_dragon = "火龍"
 gargoyle = "石像魔"
+gilded_kheper = "Gilded Kheper"
 gnome = "侏儒"
 great_bear = "強大的熊"
 great_yeti = "大雪怪"
@@ -33580,6 +33810,7 @@ damage_from_animals = "來自動物類傷害"
 damage_limit_break = "傷害極限突破"
 damage_per_turn_r_stats = "每回合傷害 → 體質"
 damage_protect = "傷害保護"
+damage_to_damage_per_turn = "Damage to Damage per Turn"
 damage_to_ward = "對護盾傷害"
 dark_damage = "黑暗傷害"
 dark_res = "黑暗抗性"
@@ -33662,6 +33893,7 @@ memory_hunting = "記憶追尋"
 monster_encounters = "遭遇魔物"
 monster_power = "魔物威能"
 multi_target_damage = "多目標傷害"
+multi_target_mana_reduction = "Multi-target Mana Reduction"
 natura_ii = "+能力：天然魔法 II"
 no_follower_bonus = "無跟隨者加成"
 off_hands = "副手裝備"
@@ -33766,7 +33998,7 @@ rebirth = "再生術"
 reraise = "死者所生"
 resolve_darkriftus = "黑箱臨時動議"
 shadowveil = "影身"
-sharpen_iii = "Sharpen III"
+sharpen_iii = "磨刀術 III"
 swordplay = "劍擊"
 ursa_s_edge = "大熊座之刃"
 walls_of_aaru = "雅盧之壁"
@@ -33885,6 +34117,7 @@ frozen = "冰凍"
 garm = "加姆"
 giant_panda = "巨型熊貓"
 giant_tortoise = "巨型陸龜"
+gilded_kheper = "Gilded Kheper"
 glashtyn = "格拉斯汀"
 great_ancient_dragon = "古老巨龍"
 great_gazer = "強大的凝視者"
@@ -33916,6 +34149,7 @@ jord_u = "嬌德 ↑"
 jord_uu = "嬌德 ↑↑"
 jord_uuu = "嬌德 ↑↑↑"
 kelpie = "凱爾皮"
+kheper = "Kheper"
 "kára" = "卡拉"
 lightning_aligned = "雷行者"
 lightning_att = "雷 攻"

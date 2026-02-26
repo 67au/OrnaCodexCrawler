@@ -25,8 +25,9 @@ class Spider(BaseSpider):
         struct['icon'] = UrlParser.icon(icon)
 
         description = response.xpath(
-            "//div[@class='codex-page-description']").xpath('string()').get().strip()
-        struct['description'] = description
+            "//div[@class='codex-page-description' and count(*) = 0]").xpath('string()').get()
+        if description:
+            struct['description'] = description.strip()
 
         events = response.xpath(
             '//div[@class="codex-page-description codex-page-description-highlight"]').xpath('string()')

@@ -13,6 +13,7 @@ condition_pattern = re.compile(r'(?P<VALUE>.+) \((?P<CONDITIONS>.+)\)')
 number_pattern = re.compile(r'^(\+)?(?P<NUMBER>\-?\d+(\.\d+)*).*')
 spell_level_pattern = re.compile(r'.+ \((.+) (?P<LEVEL>\d+)\)')
 
+
 class Exctractor:
 
     @classmethod
@@ -20,7 +21,7 @@ class Exctractor:
         return tuple(s.strip() for s in split_pattern.split(text, maxsplit=1))
 
     @classmethod
-    def extract_chance(cls, s: str) -> tuple[str, str| None]:
+    def extract_chance(cls, s: str) -> tuple[str, str | None]:
         match = chance_pattern.search(s.strip())
         if match:
             name = match.group('NAME')
@@ -84,7 +85,7 @@ class Exctractor:
     @classmethod
     def extract_codex_id(cls, codex: str) -> list[str]:
         return codex.strip('/').split('/')[-2:]
-    
+
     @classmethod
     def extract_codex_key(cls, codex: str) -> list[str]:
         return codex.strip('/')[6:]
@@ -119,7 +120,8 @@ class Exctractor:
             # else
             bb.append({
                 'name': b,
-                'type': 'BONUS'
+                'type': 'BONUS',
+                'value': True
             })
 
         return bb

@@ -84,15 +84,6 @@ def scan(settings: Settings, input_dir: Path):
             return
         icons[key] = new_icon
 
-    # attached spells
-    attached_spells = dict()
-
-    def set_attached_spells(key, name):
-        spell = attached_spells.get(key)
-        if spell:
-            return
-        attached_spells[key] = name
-
     # value type
     value_types = dict()
 
@@ -242,10 +233,9 @@ def scan(settings: Settings, input_dir: Path):
 
                 bb_dict = {**bb, 'name': bb_key}
                 if bb['type'] == 'ABILITY':
-                    set_attached_spells(bb_key, bb['name'])
+                    pass
                 if bb['type'] == 'BONUS':
-                    if bb.get('value') is None:
-                        bb_dict['value'] = True
+                    if bb.get('value') == True:
                         set_value_types('bonds.'+bb_key, {'type': 'FLAG'})
                     else:
                         value_type = get_value_type(bb['value'])
@@ -264,7 +254,9 @@ def scan(settings: Settings, input_dir: Path):
                 for i, bb in enumerate(Exctractor.extract_bond(bond['stats'])):
                     base_bb = base_bbs[index][i]
                     if bb['type'] == 'ABILITY':
-                        continue
+                        # 'ABILITY' merge to stats_text
+                        set_msg(
+                            language, f'stats_text.{base_bb["name"]}', bb["name"])
                     if bb['type'] == 'BONUS':
                         # 'BONUS' merge to stats
                         set_msg(
@@ -313,7 +305,6 @@ def scan(settings: Settings, input_dir: Path):
         # spells key
         if isSpellKey(key):
             base_value = Converter.convert_key(value)
-            set_attached_spells(base_value, value)
             spells = glom.glom(tmp_entries, glom.Coalesce(
                 f'{entry_key}.stats.{key}', default=[]))
             spells.append({'name': base_value})
@@ -556,7 +547,6 @@ def scan(settings: Settings, input_dir: Path):
         'icons': icons,
         'entries': tmp_entries,
         'translations': translations,
-        'attached_spells': attached_spells,
         'value_types': value_types,
         'ability_stats': ability_stats,
         'item_types': item_types,
@@ -569,7 +559,6 @@ def analyze(scanned: dict, settings: Settings):
 
     entries = scanned['entries']
     translations = scanned['translations']
-    attached_spells = scanned['attached_spells']
     value_types = scanned['value_types']
     item_types = scanned['item_types']
 
@@ -603,10 +592,25 @@ def analyze(scanned: dict, settings: Settings):
             entry['offhand_ability'] = spell_key
 
     # attached_spells
-    attached_ability = {}
-    for id, name in attached_spells.items():
-        spell_key = skills_filp.get(name)
-        attached_ability[id] = spell_key or name
+    spell_names = translations[base_language]['msg']['stats_text']
+    for entry_key, entry in entries.items():
+        if entry['category'] == 'items':
+            for key in entry.get('stats', {}).keys():
+                if isSpellKey(key):
+                    spells = entry['stats'][key]
+                    for spell in spells:
+                        name = spell_names.get(spell['name'])
+                        spell_key = skills_filp.get(name)
+                        if spell_key:
+                            spell['key'] = spell_key
+        if entry['category'] == 'followers':
+            for i, bonds in enumerate(entry.get('bestial_bond', [])):
+                for ii, bond in enumerate(bonds):
+                    if bond['type'] == 'ABILITY':
+                        name = spell_names.get(bond['name'])
+                        spell_key = skills_filp.get(name)
+                        if spell_key:
+                            bond['key'] = spell_key
 
     # used_by, spells used by enemies
     for entry_key, entry in entries.items():
@@ -729,7 +733,6 @@ def analyze(scanned: dict, settings: Settings):
                 'value_types': value_types,
                 'icons': scanned['icons'],
                 'ability_stats': scanned['ability_stats'],
-                'attached_ability': attached_ability,
                 'options': options,
                 'sorts': sorts,
             }

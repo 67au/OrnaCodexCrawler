@@ -8361,10 +8361,9 @@ useable_by = "magic_users"
 [entries."items/aaru-circlet".stats]
 adornment_slots = 2
 defense = 30
-mana = 12
+mana = 80
 multi_target_mana_reduction = 15
-resistance = 128
-ward = 19
+resistance = 116
 
 [entries."items/aaru-crucible"]
 aura = "legendary"
@@ -35014,7 +35013,7 @@ useable_by = "all_classes"
 
 [entries."items/eye-of-sekhmet".stats]
 attack = 20
-crit = 3
+crit = 2
 
 [entries."items/eye-of-the-feyger"]
 aura = "rare"
@@ -69510,10 +69509,10 @@ category = "monsters"
 drops = ["items/platinum"]
 events = ["thronemakers"]
 family = "animal"
-icon = "/img/monsters/firefly.png"
+icon = "/img/monsters/apshait.png"
 id = "apshait"
 rarity = "common"
-skills = ["spells/sekhmets-curse"]
+skills = ["spells/bite", "spells/sekhmets-curse", "spells/quick-attack"]
 tier = 5
 
 [entries."monsters/arachne-e15f8316"]
@@ -74006,7 +74005,7 @@ follower = "wolf"
 icon = "/img/monsters/wolfman_warrior.png"
 id = "wolfman-warrior"
 rarity = "common"
-skills = ["spells/bite", "spells/lunge", "spells/heal"]
+skills = ["spells/bite", "spells/heal", "spells/lunge"]
 tier = 4
 
 [entries."monsters/woodland-elf"]
@@ -77044,7 +77043,7 @@ id = "bite"
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 1
-used_by = ["bosses/aengus-og-of-fomoria", "bosses/artio-of-fomoria", "bosses/atepomarus-of-fomoria", "bosses/belenus-of-fomoria", "bosses/giant-basilisk", "bosses/giant-red-basilisk", "bosses/king-fomor-nocturna", "bosses/mullo-of-fomoria", "bosses/vampire-lord", "followers/coral-varmint", "followers/great-lizarr-warrior", "followers/orthrus", "followers/wolf", "monsters/basilisk", "monsters/bat", "monsters/black-widow", "monsters/cave-bat", "monsters/cobra", "monsters/crow", "monsters/dark-wolfman", "monsters/garm", "monsters/greater-snake", "monsters/grey-wolfman", "monsters/gull", "monsters/hawk", "monsters/lord-of-wolves", "monsters/poison-wyvern", "monsters/rat", "monsters/ratman", "monsters/red-basilisk", "monsters/sea-serpent", "monsters/undead-a47061cd", "monsters/vile-rat", "monsters/walking-dead", "monsters/warg", "monsters/wild-wolf", "monsters/wolfman-warrior", "raids/fey-chimera"]
+used_by = ["bosses/aengus-og-of-fomoria", "bosses/artio-of-fomoria", "bosses/atepomarus-of-fomoria", "bosses/belenus-of-fomoria", "bosses/giant-basilisk", "bosses/giant-red-basilisk", "bosses/king-fomor-nocturna", "bosses/mullo-of-fomoria", "bosses/vampire-lord", "followers/coral-varmint", "followers/great-lizarr-warrior", "followers/orthrus", "followers/wolf", "monsters/apshait", "monsters/basilisk", "monsters/bat", "monsters/black-widow", "monsters/cave-bat", "monsters/cobra", "monsters/crow", "monsters/dark-wolfman", "monsters/garm", "monsters/greater-snake", "monsters/grey-wolfman", "monsters/gull", "monsters/hawk", "monsters/lord-of-wolves", "monsters/poison-wyvern", "monsters/rat", "monsters/ratman", "monsters/red-basilisk", "monsters/sea-serpent", "monsters/undead-a47061cd", "monsters/vile-rat", "monsters/walking-dead", "monsters/warg", "monsters/wild-wolf", "monsters/wolfman-warrior", "raids/fey-chimera"]
 
 [entries."spells/bite".stats]
 costs = 10
@@ -88026,7 +88025,7 @@ learned_by = ["classes/90", "classes/28"]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 6
-used_by = ["bosses/shade-of-neith", "followers/bloodwarg", "followers/dire-wolf", "followers/experienced-wolpertinger", "followers/gwyllgi", "followers/mountain-gorilla", "followers/naggeneen", "followers/steward-gwyllgi", "followers/steward-wolf", "followers/worldly-wolpertinger", "monsters/bloodwarg", "monsters/coral-beast", "monsters/gwyllgi", "monsters/kheper", "monsters/mountain-gorilla", "monsters/swordbearer-of-finesse-0a53d84d", "monsters/swordbearer-of-finesse-de62c6bd", "raids/arisen-hel", "raids/arisen-kerberos", "raids/arisen-naggeneen", "raids/arisen-thronemaker-neith", "raids/hel", "raids/kerberos", "raids/mochi", "raids/naggeneen", "raids/thronemaker-neith"]
+used_by = ["bosses/shade-of-neith", "followers/bloodwarg", "followers/dire-wolf", "followers/experienced-wolpertinger", "followers/gwyllgi", "followers/mountain-gorilla", "followers/naggeneen", "followers/steward-gwyllgi", "followers/steward-wolf", "followers/worldly-wolpertinger", "monsters/apshait", "monsters/bloodwarg", "monsters/coral-beast", "monsters/gwyllgi", "monsters/kheper", "monsters/mountain-gorilla", "monsters/swordbearer-of-finesse-0a53d84d", "monsters/swordbearer-of-finesse-de62c6bd", "raids/arisen-hel", "raids/arisen-kerberos", "raids/arisen-naggeneen", "raids/arisen-thronemaker-neith", "raids/hel", "raids/kerberos", "raids/mochi", "raids/naggeneen", "raids/thronemaker-neith"]
 
 [[entries."spells/quick-attack".causes]]
 chance = 10

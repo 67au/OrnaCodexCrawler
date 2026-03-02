@@ -2050,19 +2050,19 @@ name = "寧默辛妮之影"
 category = "bosses"
 id = "shade-of-neith"
 language = "zh-hant"
-name = "Shade of Neith"
+name = "妮絲之影"
 
 [entries."bosses/shade-of-osiris"]
 category = "bosses"
 id = "shade-of-osiris"
 language = "zh-hant"
-name = "Shade of Osiris"
+name = "歐西里斯之影"
 
 [entries."bosses/shade-of-ptah"]
 category = "bosses"
 id = "shade-of-ptah"
 language = "zh-hant"
-name = "Shade of Ptah"
+name = "普塔之影"
 
 [entries."bosses/shade-of-rhada-the-great-shield"]
 category = "bosses"
@@ -2074,7 +2074,7 @@ name = "大盾拉達之影"
 category = "bosses"
 id = "shade-of-sekhmet"
 language = "zh-hant"
-name = "Shade of Sekhmet"
+name = "塞赫麥特之影"
 
 [entries."bosses/shadow-of-achlys-the-red-dagger"]
 category = "bosses"
@@ -4768,7 +4768,7 @@ category = "items"
 description = "Headwear of Thronemaker Ptah. It reduces the MP cost of spells that hit multiple opponents."
 id = "aaru-circlet"
 language = "zh-hant"
-name = "Aaru Circlet"
+name = "雅盧髮環"
 
 [entries."items/aaru-crucible"]
 category = "items"
@@ -4782,7 +4782,7 @@ category = "items"
 description = "Small blade of Thronemaker Sekhmet. It will deal extra damage for each of an opponent's status effects that causes damage per turn."
 id = "aaru-dagger"
 language = "zh-hant"
-name = "Aaru Dagger"
+name = "雅盧匕首"
 
 [entries."items/aaru-garb"]
 category = "items"
@@ -4828,10 +4828,10 @@ name = "雅盧法袍"
 
 [entries."items/aaru-shield"]
 category = "items"
-description = "Shield of Thronemaker Neith."
+description = "造王者妮絲的盾牌。"
 id = "aaru-shield"
 language = "zh-hant"
-name = "Aaru Shield"
+name = "雅盧盾牌"
 
 [entries."items/aaru-skirt"]
 category = "items"
@@ -4845,7 +4845,7 @@ category = "items"
 description = "A scroll containing the ancient skill, \"Sands of Aaru\". Read it to teach oneself this skill."
 id = "aarus-secret"
 language = "zh-hant"
-name = "Aaru's Secret"
+name = "雅盧之秘"
 
 [entries."items/abyssal-armor"]
 category = "items"
@@ -5629,7 +5629,7 @@ category = "items"
 description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
 id = "arisen-aaru-sandals"
 language = "zh-hant"
-name = "Arisen Aaru Sandals"
+name = "重生雅盧涼鞋"
 
 [entries."items/arisen-aaru-skirt"]
 category = "items"
@@ -5643,7 +5643,7 @@ category = "items"
 description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
 id = "arisen-aaru-tunic"
 language = "zh-hant"
-name = "Arisen Aaru Tunic"
+name = "重生雅盧束腰外衣"
 
 [entries."items/arisen-ankh"]
 category = "items"
@@ -11971,7 +11971,7 @@ category = "items"
 description = "If the brother and sisters were to reunite, it is often suggested that they would admit to their mistakes and banish any beast that tried to beguile them. But, would Lyonesse, Avalon, and Annwn then crumble? Do great kingdoms rely on their makers to such a degree?\n\nWhen one wears a mask such as this, they denounce the allure of beasts. Classes that can take a follower become stronger without one."
 id = "eastern-mask"
 language = "zh-hant"
-name = "Eastern Mask"
+name = "東方面具"
 
 [entries."items/eastern-regalia"]
 category = "items"
@@ -12570,31 +12570,31 @@ name = "探險者的引路石"
 
 [entries."items/eye-of-neith"]
 category = "items"
-description = "Eye of Thronemaker Neith."
+description = "造王者妮絲之眼。"
 id = "eye-of-neith"
 language = "zh-hant"
-name = "Eye of Neith"
+name = "妮絲之眼"
 
 [entries."items/eye-of-osiris"]
 category = "items"
-description = "Eye of Thronemaker Osiris."
+description = "造王者歐西里斯之眼。"
 id = "eye-of-osiris"
 language = "zh-hant"
-name = "Eye of Osiris"
+name = "歐西里斯之眼"
 
 [entries."items/eye-of-ptah"]
 category = "items"
-description = "Eye of Thronemaker Ptah."
+description = "造王者普塔之眼。"
 id = "eye-of-ptah"
 language = "zh-hant"
-name = "Eye of Ptah"
+name = "普塔之眼"
 
 [entries."items/eye-of-sekhmet"]
 category = "items"
-description = "Eye of Thronemaker Sekhmet."
+description = "造王者塞赫麥特之眼。"
 id = "eye-of-sekhmet"
 language = "zh-hant"
-name = "Eye of Sekhmet"
+name = "塞赫麥特之眼"
 
 [entries."items/eye-of-the-feyger"]
 category = "items"
@@ -18418,7 +18418,7 @@ category = "items"
 description = "舊雅盧印記，標記新土地。"
 id = "old-seal-of-elysium"
 language = "zh-hant"
-name = "Old Seal of Elysium"
+name = "舊淨土印記"
 
 [entries."items/old-seal-of-lyonesse"]
 category = "items"
@@ -26146,7 +26146,7 @@ name = "重生造王者妮絲"
 category = "raids"
 id = "arisen-thronemaker-osiris"
 language = "zh-hant"
-name = "Arisen Thronemaker Osiris"
+name = "重生造王者歐西里斯"
 
 [entries."raids/arisen-thronemaker-ptah"]
 category = "raids"

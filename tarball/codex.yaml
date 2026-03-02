@@ -33094,16 +33094,11 @@ chance = 5
 name = "dmg_u"
 
 [entries."items/eastern-mask".stats]
-adornment_slots = 5
-attack = 11
-defense = 14
-hp = 95
-magic = 11
-mana = 95
+adornment_slots = 2
+crit = 9
 no_follower_bonus = 9
-resistance = 14
 two_handed_power = 9
-ward = 1
+ward = 9
 
 [entries."items/eastern-regalia"]
 aura = "rare"
@@ -72471,6 +72466,7 @@ tier = 10
 abilities = ["mystic_feather", "avidity"]
 category = "monsters"
 drops = ["items/old-seal-of-annwn", "items/old-seal-of-avalon", "items/old-seal-of-elysium", "items/old-seal-of-lyonesse", "items/bedsheet"]
+events = ["thronemakers"]
 family = "animal"
 icon = "/img/monsters/medjed.png"
 id = "medjed"

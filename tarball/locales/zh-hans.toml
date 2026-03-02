@@ -4768,7 +4768,7 @@ category = "items"
 description = "造王者普塔的头饰。将减少能命中复数对手的法术的魔力消耗。"
 id = "aaru-circlet"
 language = "zh-hans"
-name = "雅卢头饰"
+name = "雅卢发环"
 
 [entries."items/aaru-crucible"]
 category = "items"
@@ -25336,7 +25336,7 @@ name = "南瓜蜘蛛"
 category = "monsters"
 id = "ramesses-of-the-east"
 language = "zh-hans"
-name = "东方的拉美西斯"
+name = "东方拉美西斯"
 
 [entries."monsters/rat"]
 category = "monsters"

@@ -4765,7 +4765,7 @@ name = "Aaru Boots"
 
 [entries."items/aaru-circlet"]
 category = "items"
-description = "Headwear of Thronemaker Ptah. It reduces the MP cost of spells that hit multiple opponents."
+description = "Headwear of Thronemaker Ptah. It reduces the mana cost of spells that hit multiple opponents."
 id = "aaru-circlet"
 language = "en"
 name = "Aaru Circlet"
@@ -5626,7 +5626,7 @@ name = "Arisen Aaru Robe"
 
 [entries."items/arisen-aaru-sandals"]
 category = "items"
-description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built upon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
 id = "arisen-aaru-sandals"
 language = "en"
 name = "Arisen Aaru Sandals"
@@ -5640,7 +5640,7 @@ name = "Arisen Aaru Skirt"
 
 [entries."items/arisen-aaru-tunic"]
 category = "items"
-description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built upon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
 id = "arisen-aaru-tunic"
 language = "en"
 name = "Arisen Aaru Tunic"
@@ -13529,7 +13529,7 @@ name = "Fey Yeti Horns"
 
 [entries."items/final-decree"]
 category = "items"
-description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built upon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
 id = "final-decree"
 language = "en"
 name = "Final Decree"
@@ -15286,7 +15286,7 @@ name = "Heimdall's Shield"
 
 [entries."items/heka"]
 category = "items"
-description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built upon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
 id = "heka"
 language = "en"
 name = "Heka"
@@ -17967,7 +17967,7 @@ name = "Needles"
 
 [entries."items/nekhakha"]
 category = "items"
-description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built upon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
 id = "nekhakha"
 language = "en"
 name = "Nekhakha"
@@ -31372,7 +31372,7 @@ name = "Requiem III (Off-hand)"
 
 [entries."spells/reraise"]
 category = "spells"
-description = "Grants a blessing that will automatically revive a party member when falling in battle."
+description = "Grants a blessing that may automatically revive a party member when falling in battle."
 id = "reraise"
 language = "en"
 name = "Reraise"

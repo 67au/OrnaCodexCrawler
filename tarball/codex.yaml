@@ -11380,7 +11380,7 @@ place = "torso"
 rarity = "famed"
 tier = 10
 upgrade_materials = ["items/platinum", "items/silver", "items/silk"]
-useable_by = "magic_users"
+useable_by = "valhallan_summoner_classes"
 
 [[entries."items/arisen-aaru-tunic".immunities]]
 name = "cursed"
@@ -38210,7 +38210,7 @@ tier = 10
 two_handed = 1
 type = "archistaffs"
 upgrade_materials = ["items/platinum", "items/silver", "items/silk"]
-useable_by = "magic_users"
+useable_by = "valhallan_summoner_classes"
 
 [entries."items/final-decree".stats]
 adornment_slots = 9
@@ -72175,7 +72175,7 @@ family = "animal"
 icon = "/img/monsters/kheper.png"
 id = "kheper"
 rarity = "common"
-skills = ["spells/quick-attack", "spells/sekhmets-curse"]
+skills = ["spells/sekhmets-curse", "spells/quick-attack"]
 tier = 6
 
 [entries."monsters/kobold"]

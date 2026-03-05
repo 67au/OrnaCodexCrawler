@@ -31372,7 +31372,7 @@ name = "安魂曲 III (副手)"
 
 [entries."spells/reraise"]
 category = "spells"
-description = "赋予祝福来自动复活在战斗中被击败的队友。"
+description = "Grants a blessing that may automatically revive a party member when falling in battle."
 id = "reraise"
 language = "zh-hans"
 name = "死者苏生"

@@ -3781,7 +3781,7 @@ category = "followers"
 description = "期間限定。"
 id = "gilded-kheper"
 language = "zh-hant"
-name = "Gilded Kheper"
+name = "鍍金聖甲蟲"
 
 [entries."followers/glashtyn"]
 category = "followers"
@@ -4765,7 +4765,7 @@ name = "雅盧長靴"
 
 [entries."items/aaru-circlet"]
 category = "items"
-description = "Headwear of Thronemaker Ptah. It reduces the MP cost of spells that hit multiple opponents."
+description = "造王者普塔的頭飾。能降低範圍攻擊法術消耗的MP。"
 id = "aaru-circlet"
 language = "zh-hant"
 name = "雅盧髮環"
@@ -4779,7 +4779,7 @@ name = "雅盧坩堝"
 
 [entries."items/aaru-dagger"]
 category = "items"
-description = "Small blade of Thronemaker Sekhmet. It will deal extra damage for each of an opponent's status effects that causes damage per turn."
+description = "造王者塞赫麥特的短劍。對手身上每具備一個每回合造成傷害的狀態效果，此武器便會造成額外傷害。"
 id = "aaru-dagger"
 language = "zh-hant"
 name = "雅盧匕首"
@@ -4842,7 +4842,7 @@ name = "雅盧裙"
 
 [entries."items/aarus-secret"]
 category = "items"
-description = "A scroll containing the ancient skill, \"Sands of Aaru\". Read it to teach oneself this skill."
+description = "這是一卷記載著遠古秘技「雅盧之沙」的卷軸。研讀此卷軸即可習得該技能。"
 id = "aarus-secret"
 language = "zh-hant"
 name = "雅盧之秘"
@@ -5626,7 +5626,7 @@ name = "重生雅盧法袍"
 
 [entries."items/arisen-aaru-sandals"]
 category = "items"
-description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+description = "歐西里斯，一名對那幾位兄妹而言十分陌生的男子，在普塔離開後不久也逃離了雅盧，因為他也對權力與榮耀抱持著宏大的幻想。他一路向西旅行，追隨他認為是根根維爾所留下的蹤跡。\n\n雖然他並未找到根根維爾，卻發現了從那隻巨鳥身上落下的成簇羽毛。在這些羽毛落下的地方，魔獸的力量被喚醒了。\n\n諸王國隨之興起。首先是建於通往冥府的裂隙之上的極樂淨土，那是歐西里斯注定要統治的地方。\n\n而當風將羽毛帶往此地以南時，北族的崛起已成定局。"
 id = "arisen-aaru-sandals"
 language = "zh-hant"
 name = "重生雅盧涼鞋"
@@ -5640,7 +5640,7 @@ name = "重生雅盧裙子"
 
 [entries."items/arisen-aaru-tunic"]
 category = "items"
-description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+description = "歐西里斯，一名對那幾位兄妹而言十分陌生的男子，在普塔離開後不久也逃離了雅盧，因為他也對權力與榮耀抱持著宏大的幻想。他一路向西旅行，追隨他認為是根根維爾所留下的蹤跡。\n\n雖然他並未找到根根維爾，卻發現了從那隻巨鳥身上落下的成簇羽毛。在這些羽毛落下的地方，魔獸的力量被喚醒了。\n\n諸王國隨之興起。首先是建於通往冥府的裂隙之上的極樂淨土，那是歐西里斯注定要統治的地方。\n\n而當風將羽毛帶往此地以南時，北族的崛起已成定局。"
 id = "arisen-aaru-tunic"
 language = "zh-hant"
 name = "重生雅盧束腰外衣"
@@ -11968,7 +11968,7 @@ name = "地之石"
 
 [entries."items/eastern-mask"]
 category = "items"
-description = "If the brother and sisters were to reunite, it is often suggested that they would admit to their mistakes and banish any beast that tried to beguile them. But, would Lyonesse, Avalon, and Annwn then crumble? Do great kingdoms rely on their makers to such a degree?\n\nWhen one wears a mask such as this, they denounce the allure of beasts. Classes that can take a follower become stronger without one."
+description = "若這幾位兄妹得以重聚，世人常言他們將會承認過錯，並驅逐任何企圖蠱惑他們的魔獸。然而，里昂內斯、阿瓦隆與安溫是否會隨之瓦解？偉大的王國難道竟如此依賴其締造者嗎？\n\n凡戴上此面具者，便等同摒棄了魔獸的誘惑。能夠帶領跟隨者的職業，在不攜帶跟隨者時將變得更加強大。"
 id = "eastern-mask"
 language = "zh-hant"
 name = "東方面具"
@@ -13529,10 +13529,10 @@ name = "變異雪怪角"
 
 [entries."items/final-decree"]
 category = "items"
-description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+description = "歐西里斯，一名對那幾位兄妹而言十分陌生的男子，在普塔離開後不久也逃離了雅盧，因為他也對權力與榮耀抱持著宏大的幻想。他一路向西旅行，追隨他認為是根根維爾所留下的蹤跡。\n\n雖然他並未找到根根維爾，卻發現了從那隻巨鳥身上落下的成簇羽毛。在這些羽毛落下的地方，魔獸的力量被喚醒了。\n\n諸王國隨之興起。首先是建於通往冥府的裂隙之上的極樂淨土，那是歐西里斯注定要統治的地方。\n\n而當風將羽毛帶往此地以南時，北族的崛起已成定局。"
 id = "final-decree"
 language = "zh-hant"
-name = "Final Decree"
+name = "最高判決"
 
 [entries."items/final-horsemans-armor"]
 category = "items"
@@ -14327,10 +14327,10 @@ name = "巨人魔魂"
 
 [entries."items/gilded-scarab-amulet"]
 category = "items"
-description = "A rare amulet, forged of the remains of a Gilded Kheper."
+description = "用鍍金聖甲蟲的渣渣打造的稀有護身符。"
 id = "gilded-scarab-amulet"
 language = "zh-hant"
-name = "Gilded Scarab Amulet"
+name = "鍍金聖甲蟲護符"
 
 [entries."items/gizmo"]
 category = "items"
@@ -15286,10 +15286,10 @@ name = "海姆達爾之盾"
 
 [entries."items/heka"]
 category = "items"
-description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+description = "歐西里斯，一名對那幾位兄妹而言十分陌生的男子，在普塔離開後不久也逃離了雅盧，因為他也對權力與榮耀抱持著宏大的幻想。他一路向西旅行，追隨他認為是根根維爾所留下的蹤跡。\n\n雖然他並未找到根根維爾，卻發現了從那隻巨鳥身上落下的成簇羽毛。在這些羽毛落下的地方，魔獸的力量被喚醒了。\n\n諸王國隨之興起。首先是建於通往冥府的裂隙之上的極樂淨土，那是歐西里斯注定要統治的地方。\n\n而當風將羽毛帶往此地以南時，北族的崛起已成定局。"
 id = "heka"
 language = "zh-hant"
-name = "Heka"
+name = "赫卡"
 
 [entries."items/helhest"]
 category = "items"
@@ -17967,10 +17967,10 @@ name = "飛針"
 
 [entries."items/nekhakha"]
 category = "items"
-description = "Osiris, a man unknown to the siblings, fled Aaru not long after Ptah's departure, for he too had grand illusions of power and glory. He travelled West, following what he thought to be Gengen-Wer's trail.\n\nAnd while he did not find Gengen-Wer, he found plumes of feathers, fallen from the great bird. And where these feathers lay, the power of beasts was awakened.\n\nKingdoms arose. First Elysium, built apon a rift to the underworld, where Osiris was destined to rule.\n\nAnd as the wind took the feathers South of here, Nothren was sure to rise."
+description = "歐西里斯，一名對那幾位兄妹而言十分陌生的男子，在普塔離開後不久也逃離了雅盧，因為他也對權力與榮耀抱持著宏大的幻想。他一路向西旅行，追隨他認為是根根維爾所留下的蹤跡。\n\n雖然他並未找到根根維爾，卻發現了從那隻巨鳥身上落下的成簇羽毛。在這些羽毛落下的地方，魔獸的力量被喚醒了。\n\n諸王國隨之興起。首先是建於通往冥府的裂隙之上的極樂淨土，那是歐西里斯注定要統治的地方。\n\n而當風將羽毛帶往此地以南時，北族的崛起已成定局。"
 id = "nekhakha"
 language = "zh-hant"
-name = "Nekhakha"
+name = "連枷"
 
 [entries."items/nekromancers-staff"]
 category = "items"
@@ -20164,10 +20164,10 @@ name = "鱗石"
 
 [entries."items/scarab-amulet"]
 category = "items"
-description = "A rare amulet, forged of the remains of a Kheper."
+description = "用聖甲蟲的渣渣打造的稀有護身符。"
 id = "scarab-amulet"
 language = "zh-hant"
-name = "Scarab Amulet"
+name = "聖甲蟲護符"
 
 [entries."items/scimitar"]
 category = "items"
@@ -23320,7 +23320,7 @@ name = "亞坡倫的弟子 X"
 category = "monsters"
 id = "apshait"
 language = "zh-hant"
-name = "Apshait"
+name = "阿普什艾特"
 
 [entries."monsters/arachne-e15f8316"]
 category = "monsters"
@@ -24466,7 +24466,7 @@ name = "巨型陸龜"
 category = "monsters"
 id = "gilded-kheper"
 language = "zh-hant"
-name = "Gilded Kheper"
+name = "鍍金聖甲蟲"
 
 [entries."monsters/glashtyn"]
 category = "monsters"
@@ -24844,7 +24844,7 @@ name = "神燈精靈"
 category = "monsters"
 id = "kheper"
 language = "zh-hant"
-name = "Kheper"
+name = "聖甲蟲"
 
 [entries."monsters/kobold"]
 category = "monsters"
@@ -25018,7 +25018,7 @@ name = "瑪門追隨者"
 category = "monsters"
 id = "medjed"
 language = "zh-hant"
-name = "Medjed"
+name = "梅傑德"
 
 [entries."monsters/merrow"]
 category = "monsters"
@@ -25336,7 +25336,7 @@ name = "南瓜蜘蛛"
 category = "monsters"
 id = "ramesses-of-the-east"
 language = "zh-hant"
-name = "Ramesses of the East"
+name = "東之拉美西斯"
 
 [entries."monsters/rat"]
 category = "monsters"
@@ -28904,10 +28904,10 @@ name = "專注"
 
 [entries."spells/focused-guard"]
 category = "spells"
-description = "Defend for 1 turn, granting 2 turns of Ward and restoring a portion of mana."
+description = "防禦1回合，獲得2回合護盾並恢復部分魔力值。"
 id = "focused-guard"
 language = "zh-hant"
-name = "Focused Guard (副手)"
+name = "專注防禦 (副手)"
 
 [entries."spells/forbid"]
 category = "spells"
@@ -31372,7 +31372,7 @@ name = "安魂曲 III (副手)"
 
 [entries."spells/reraise"]
 category = "spells"
-description = "給予祝福，當一名隊友在戰鬥中倒下時，該祝福將自動使其復活。"
+description = "Grants a blessing that may automatically revive a party member when falling in battle."
 id = "reraise"
 language = "zh-hant"
 name = "死者所生"
@@ -31627,7 +31627,7 @@ category = "spells"
 description = "當受到這個詛咒影響時，將無法自行恢復或復活。此外，每回合都會受到傷害。"
 id = "sekhmets-curse"
 language = "zh-hant"
-name = "Sekhmet's Curse"
+name = "塞赫麥特的詛咒"
 
 [entries."spells/shadow"]
 category = "spells"
@@ -32436,17 +32436,17 @@ name = "召喚凱爾皮"
 
 [entries."spells/summon-kheper-swarm"]
 category = "spells"
-description = "Summon many beasts to assist you. Requires 3 turns in battle."
+description = "召喚眾多野獸來協助你。在戰鬥中需要 3 回合。"
 id = "summon-kheper-swarm"
 language = "zh-hant"
-name = "Summon Kheper Swarm"
+name = "召喚聖甲蟲群"
 
 [entries."spells/summon-kheper-swarm-2"]
 category = "spells"
-description = "Summon many beasts to assist you. Requires 2 turns in battle."
+description = "召喚眾多野獸來協助你。在戰鬥中需要2回合。"
 id = "summon-kheper-swarm-2"
 language = "zh-hant"
-name = "Summon Kheper Swarm (副手)"
+name = "召喚聖甲蟲群 (副手)"
 
 [entries."spells/summon-llamrai"]
 category = "spells"
@@ -33663,7 +33663,7 @@ evil_eye = "邪眼"
 fenrir = "芬里爾"
 fire_dragon = "火龍"
 gargoyle = "石像魔"
-gilded_kheper = "Gilded Kheper"
+gilded_kheper = "鍍金聖甲蟲"
 gnome = "侏儒"
 great_bear = "強大的熊"
 great_yeti = "大雪怪"
@@ -33809,7 +33809,7 @@ damage_from_animals = "來自動物類傷害"
 damage_limit_break = "傷害極限突破"
 damage_per_turn_r_stats = "每回合傷害 → 體質"
 damage_protect = "傷害保護"
-damage_to_damage_per_turn = "Damage to Damage per Turn"
+damage_to_damage_per_turn = "對回合持續傷害增傷"
 damage_to_ward = "對護盾傷害"
 dark_damage = "黑暗傷害"
 dark_res = "黑暗抗性"
@@ -33892,7 +33892,7 @@ memory_hunting = "記憶追尋"
 monster_encounters = "遭遇魔物"
 monster_power = "魔物威能"
 multi_target_damage = "多目標傷害"
-multi_target_mana_reduction = "Multi-target Mana Reduction"
+multi_target_mana_reduction = "多目標魔力降低"
 natura_ii = "+能力：天然魔法 II"
 no_follower_bonus = "無跟隨者加成"
 off_hands = "副手裝備"
@@ -34116,7 +34116,7 @@ frozen = "冰凍"
 garm = "加姆"
 giant_panda = "巨型熊貓"
 giant_tortoise = "巨型陸龜"
-gilded_kheper = "Gilded Kheper"
+gilded_kheper = "鍍金聖甲蟲"
 glashtyn = "格拉斯汀"
 great_ancient_dragon = "古老巨龍"
 great_gazer = "強大的凝視者"
@@ -34148,7 +34148,7 @@ jord_u = "嬌德 ↑"
 jord_uu = "嬌德 ↑↑"
 jord_uuu = "嬌德 ↑↑↑"
 kelpie = "凱爾皮"
-kheper = "Kheper"
+kheper = "聖甲蟲"
 "kára" = "卡拉"
 lightning_aligned = "雷行者"
 lightning_att = "雷 攻"

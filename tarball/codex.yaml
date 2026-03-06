@@ -4865,13 +4865,30 @@ bestial_bond = [[{name = "elemental_weaknesses", value = 15, type = "BONUS"}], [
 category = "followers"
 events = ["the_mischievous_clurichauns"]
 family = "magical"
-icon = "/img/bosses/arisen_naggeneen.png"
+icon = "/img/followers/naggeneen_arisen.png"
 id = "arisen-naggeneen"
-rarity = "cryptid"
+rarity = "steward"
 skills = ["spells/miasma", "spells/frostfire", "spells/heat-lightning", "spells/ice-storm", "spells/iced-earth", "spells/quakestorm"]
 tier = 9
 
 [entries."followers/arisen-naggeneen".stats]
+attack_rate = 5
+debuff_rate = 8
+protect_chance = 1
+spell_rate = 20
+
+[entries."followers/arisen-naggeneen-9794fe53"]
+bestial_bond = [[{name = "elemental_weaknesses", value = 15, type = "BONUS"}], [{name = "t__mag_u", value = 7, type = "BOND"}, {name = "t__mag_uu", value = 2, type = "BOND"}], [{name = "bonded_magic", value = 20, type = "BOND"}]]
+category = "followers"
+events = ["the_mischievous_clurichauns"]
+family = "magical"
+icon = "/img/bosses/arisen_naggeneen.png"
+id = "arisen-naggeneen-9794fe53"
+rarity = "cryptid"
+skills = ["spells/miasma", "spells/frostfire", "spells/heat-lightning", "spells/ice-storm", "spells/iced-earth", "spells/quakestorm"]
+tier = 9
+
+[entries."followers/arisen-naggeneen-9794fe53".stats]
 attack_rate = 5
 debuff_rate = 8
 protect_chance = 1
@@ -34974,6 +34991,7 @@ useable_by = "all_classes"
 [entries."items/eye-of-osiris".stats]
 follower_act = 1
 follower_stats = 1
+summon_stats = 1
 
 [entries."items/eye-of-ptah"]
 aura = "rare"
@@ -38215,9 +38233,12 @@ useable_by = "valhallan_summoner_classes"
 [entries."items/final-decree".stats]
 adornment_slots = 9
 attack = 50
+chain_damage_chance = 5
 magic = 205
 mana = 55
+summon_pacts = 60
 two_handed = true
+ward = 22
 
 [entries."items/final-horsemans-armor"]
 aura = "famed"
@@ -82064,7 +82085,7 @@ learned_by = ["classes/52"]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 9
-used_by = ["bosses/arisen-king-meliodas", "followers/arisen-naggeneen", "raids/arisen-naggeneen", "raids/arisen-warlock-trevelyan"]
+used_by = ["bosses/arisen-king-meliodas", "followers/arisen-naggeneen", "followers/arisen-naggeneen-9794fe53", "raids/arisen-naggeneen", "raids/arisen-warlock-trevelyan"]
 
 [[entries."spells/frostfire".causes]]
 chance = 20
@@ -83304,7 +83325,7 @@ learned_by = ["classes/52"]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 9
-used_by = ["followers/arisen-naggeneen", "followers/quetzalcoatl-feathered-one", "raids/arisen-naggeneen"]
+used_by = ["followers/arisen-naggeneen", "followers/arisen-naggeneen-9794fe53", "followers/quetzalcoatl-feathered-one", "raids/arisen-naggeneen"]
 
 [[entries."spells/heat-lightning".causes]]
 chance = 20
@@ -83783,7 +83804,7 @@ learned_by = ["classes/52"]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 9
-used_by = ["followers/arisen-naggeneen", "followers/quetzalcoatl-feathered-one", "monsters/immortal-magus", "raids/arisen-naggeneen"]
+used_by = ["followers/arisen-naggeneen", "followers/arisen-naggeneen-9794fe53", "followers/quetzalcoatl-feathered-one", "monsters/immortal-magus", "raids/arisen-naggeneen"]
 
 [[entries."spells/ice-storm".causes]]
 chance = 20
@@ -83877,7 +83898,7 @@ learned_by = ["classes/52"]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 9
-used_by = ["bosses/arisen-cursed-caturix-of-fomoria", "bosses/arisen-cursed-king-fomor-wintara", "bosses/arisen-cursed-lero-of-fomoria", "bosses/arisen-king-meliodas", "followers/arisen-naggeneen", "followers/quetzalcoatl-feathered-one", "monsters/immortal-magus", "raids/arisen-warlock-trevelyan", "raids/fallen-warlock-trevelyan"]
+used_by = ["bosses/arisen-cursed-caturix-of-fomoria", "bosses/arisen-cursed-king-fomor-wintara", "bosses/arisen-cursed-lero-of-fomoria", "bosses/arisen-king-meliodas", "followers/arisen-naggeneen", "followers/arisen-naggeneen-9794fe53", "followers/quetzalcoatl-feathered-one", "monsters/immortal-magus", "raids/arisen-warlock-trevelyan", "raids/fallen-warlock-trevelyan"]
 
 [[entries."spells/iced-earth".causes]]
 chance = 20
@@ -85873,7 +85894,7 @@ spell_type = "spell"
 tags = ["found_in_arcanists"]
 targets = "a_single_opponent"
 tier = 8
-used_by = ["bosses/amadan", "bosses/anubis", "bosses/caoranach", "bosses/manticore", "bosses/odin", "followers/aaru-cobra", "followers/arisen-naggeneen", "followers/charmed-mamba", "followers/great-cockatrice", "followers/naggeneen", "followers/scruug", "followers/spawn-of-anguish", "monsters/aine", "monsters/amergin", "monsters/ankou", "monsters/arachne-e15f8316", "monsters/beag", "monsters/bricriu", "monsters/carman-5458cf68", "monsters/chimera", "monsters/cormac", "monsters/cthulhu-edf67d83", "monsters/fallen-nekromancer", "monsters/fergus", "monsters/finn", "monsters/great-reaper", "monsters/lost-pharaoh", "monsters/mighty-mimic", "raids/arisen-ebon-scruug", "raids/arisen-gerd", "raids/arisen-merlin", "raids/arisen-naggeneen", "raids/ebon-scruug", "raids/fallen-merlin", "raids/gerd", "raids/second-horseman", "raids/thronemaker-ptah"]
+used_by = ["bosses/amadan", "bosses/anubis", "bosses/caoranach", "bosses/manticore", "bosses/odin", "followers/aaru-cobra", "followers/arisen-naggeneen", "followers/arisen-naggeneen-9794fe53", "followers/charmed-mamba", "followers/great-cockatrice", "followers/naggeneen", "followers/scruug", "followers/spawn-of-anguish", "monsters/aine", "monsters/amergin", "monsters/ankou", "monsters/arachne-e15f8316", "monsters/beag", "monsters/bricriu", "monsters/carman-5458cf68", "monsters/chimera", "monsters/cormac", "monsters/cthulhu-edf67d83", "monsters/fallen-nekromancer", "monsters/fergus", "monsters/finn", "monsters/great-reaper", "monsters/lost-pharaoh", "monsters/mighty-mimic", "raids/arisen-ebon-scruug", "raids/arisen-gerd", "raids/arisen-merlin", "raids/arisen-naggeneen", "raids/ebon-scruug", "raids/fallen-merlin", "raids/gerd", "raids/second-horseman", "raids/thronemaker-ptah"]
 
 [[entries."spells/miasma".causes]]
 chance = 90
@@ -87954,7 +87975,7 @@ learned_by = ["classes/52"]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 9
-used_by = ["followers/arisen-naggeneen", "monsters/immortal-magus", "raids/tricky-aries"]
+used_by = ["followers/arisen-naggeneen", "followers/arisen-naggeneen-9794fe53", "monsters/immortal-magus", "raids/tricky-aries"]
 
 [[entries."spells/quakestorm".causes]]
 chance = 20

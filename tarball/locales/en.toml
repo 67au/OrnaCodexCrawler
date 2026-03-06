@@ -3167,6 +3167,13 @@ id = "arisen-naggeneen"
 language = "en"
 name = "Arisen Naggeneen"
 
+[entries."followers/arisen-naggeneen-9794fe53"]
+category = "followers"
+description = "Oh, the foul fairy Naggeneen. Available for a limited time."
+id = "arisen-naggeneen-9794fe53"
+language = "en"
+name = "Arisen Naggeneen"
+
 [entries."followers/arisen-spiritgarm"]
 category = "followers"
 description = "Available for a limited time only."

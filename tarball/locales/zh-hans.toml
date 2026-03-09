@@ -19857,14 +19857,14 @@ name = "鲁尔克之斧"
 
 [entries."items/ruairc-boots"]
 category = "items"
-description = "诅咒巨龙奥利菲斯特是被诅咒的阿尔斯特王所余下的残躯。不管是人族还是怪物都在追猎奥利菲斯特。在地牢的浪潮模式中，它的气味将引来更多的怪物。\n\n当穿戴该装备时，你的属性将随着遭受触发每回合伤害的状态效果的种类而提升。"
+description = "诅咒巨龙奥利菲斯特是被诅咒的阿尔斯特王所余下的残躯。不管是人族还是怪物都在追猎奥利菲斯特。在地牢的浪潮模式中，它的气味将引来更多的怪物。\n\n当穿戴该装备时，你的属性将随着遭受触发持续伤害的状态效果的种类而提升。"
 id = "ruairc-boots"
 language = "zh-hans"
 name = "鲁尔克长靴"
 
 [entries."items/ruairc-cowl"]
 category = "items"
-description = "诅咒巨龙奥利菲斯特是被诅咒的阿尔斯特王所余下的残躯。不管是人族还是怪物都在追猎奥利菲斯特。在地牢的浪潮模式中，它的气味将引来更多的怪物。\n\n当穿戴该装备时，你的属性将随着遭受触发每回合伤害的状态效果的种类而提升。"
+description = "诅咒巨龙奥利菲斯特是被诅咒的阿尔斯特王所余下的残躯。不管是人族还是怪物都在追猎奥利菲斯特。在地牢的浪潮模式中，它的气味将引来更多的怪物。\n\n当穿戴该装备时，你的属性将随着遭受触发持续伤害的状态效果的种类而提升。"
 id = "ruairc-cowl"
 language = "zh-hans"
 name = "鲁尔克风帽"
@@ -19878,7 +19878,7 @@ name = "鲁尔克胸甲"
 
 [entries."items/ruairc-garb"]
 category = "items"
-description = "诅咒巨龙奥利菲斯特是被诅咒的阿尔斯特王所余下的残躯。不管是人族还是怪物都在追猎奥利菲斯特。在地牢的浪潮模式中，它的气味将引来更多的怪物。\n\n当穿戴该装备时，你的属性将随着遭受触发每回合伤害的状态效果的种类而提升。"
+description = "诅咒巨龙奥利菲斯特是被诅咒的阿尔斯特王所余下的残躯。不管是人族还是怪物都在追猎奥利菲斯特。在地牢的浪潮模式中，它的气味将引来更多的怪物。\n\n当穿戴该装备时，你的属性将随着遭受触发持续伤害的状态效果的种类而提升。"
 id = "ruairc-garb"
 language = "zh-hans"
 name = "鲁尔克皮甲"
@@ -26596,6 +26596,20 @@ id = "purrly"
 language = "zh-hans"
 name = "Purrly"
 
+[entries."raids/rainforest-destroyer-murk"]
+category = "raids"
+description = "Deal damage to this Murk if you would like us to collectively save the Rainforests this year."
+id = "rainforest-destroyer-murk"
+language = "zh-hans"
+name = "Rainforest Destroyer Murk"
+
+[entries."raids/reef-destroyer-murk"]
+category = "raids"
+description = "Deal damage to this Murk if you would like us to collectively save the Great Reefs this year."
+id = "reef-destroyer-murk"
+language = "zh-hans"
+name = "Reef Destroyer Murk"
+
 [entries."raids/rift-judgement"]
 category = "raids"
 description = "巨盾拉达。\n赤刃艾柯吕斯。\n冠位召唤师卡戎。"
@@ -31379,7 +31393,7 @@ name = "安魂曲 III (副手)"
 
 [entries."spells/reraise"]
 category = "spells"
-description = "Grants a blessing that may automatically revive a party member when falling in battle."
+description = "赋予祝福来有机率自动复活在战斗中被击败的队友。"
 id = "reraise"
 language = "zh-hans"
 name = "死者苏生"
@@ -33623,6 +33637,7 @@ sumner_games = "夏季运动会"
 terra_s_day = "泰拉日"
 terra_s_legacy = "泰拉的遗产"
 terra_s_legacy__natureblight = "泰拉的遗产: 萎化自然"
+terra_s_legacy__of_reefs_and_forests = "Terra's Legacy: Of Reefs and Forests"
 the_crimson_festival = "绯红节"
 the_cursed_queens = "诅咒女王"
 the_hallowed = "万圣异闻录"

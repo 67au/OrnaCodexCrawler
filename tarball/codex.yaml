@@ -19696,6 +19696,7 @@ name = "t__def_dd"
 [entries."items/astralseed"]
 aura = "famed"
 category = "items"
+dropped_by = ["raids/rainforest-destroyer-murk", "raids/reef-destroyer-murk"]
 exotic = 0
 icon = "/img/useables/favorstone.png"
 id = "astralseed"
@@ -30315,7 +30316,7 @@ mana = 12
 [entries."items/dayleaf"]
 aura = "rare"
 category = "items"
-dropped_by = ["bosses/carman", "monsters/carman-5458cf68", "bosses/carman-of-the-underworld", "monsters/fallen-witch", "monsters/frightening-skeleton", "monsters/witch", "raids/arisen-yggdrasil", "raids/yggdrasil"]
+dropped_by = ["bosses/carman", "monsters/carman-5458cf68", "bosses/carman-of-the-underworld", "monsters/fallen-witch", "monsters/frightening-skeleton", "monsters/witch", "raids/arisen-yggdrasil", "raids/rainforest-destroyer-murk", "raids/reef-destroyer-murk", "raids/yggdrasil"]
 exotic = 0
 icon = "/img/materials/dayleaf.png"
 id = "dayleaf"
@@ -31884,7 +31885,7 @@ ward = 19
 [entries."items/dowsing-rod"]
 aura = "famed"
 category = "items"
-dropped_by = ["monsters/mimic-king", "bosses/mimic-king-a90b8f0c", "raids/arisen-kerberos", "raids/arisen-naggeneen", "raids/fomor", "raids/grand-knight-lugus", "raids/kerberos", "raids/last-titan", "raids/maelor", "raids/naggeneen", "raids/starlord"]
+dropped_by = ["monsters/mimic-king", "bosses/mimic-king-a90b8f0c", "raids/arisen-kerberos", "raids/arisen-naggeneen", "raids/fomor", "raids/grand-knight-lugus", "raids/kerberos", "raids/last-titan", "raids/maelor", "raids/naggeneen", "raids/rainforest-destroyer-murk", "raids/reef-destroyer-murk", "raids/starlord"]
 exotic = 0
 icon = "/img/useables/dowsing_rod.png"
 id = "dowsing-rod"
@@ -34933,7 +34934,7 @@ crit = 1
 [entries."items/exp-potion"]
 aura = "common"
 category = "items"
-dropped_by = ["raids/arisen-kerberos", "raids/cerus", "raids/dracon", "raids/fallen-king-arthus", "raids/ferocious-cerus", "raids/fomor", "raids/furious-cerus", "raids/kerberos", "raids/last-titan", "raids/maelor", "raids/mimic-king-of-kings", "raids/starlord"]
+dropped_by = ["raids/arisen-kerberos", "raids/cerus", "raids/dracon", "raids/fallen-king-arthus", "raids/ferocious-cerus", "raids/fomor", "raids/furious-cerus", "raids/kerberos", "raids/last-titan", "raids/maelor", "raids/mimic-king-of-kings", "raids/rainforest-destroyer-murk", "raids/reef-destroyer-murk", "raids/starlord"]
 exotic = 0
 icon = "/img/useables/exp_potion.png"
 id = "exp-potion"
@@ -36020,6 +36021,7 @@ weapon_proficiency = 1
 [entries."items/farsight"]
 aura = "rare"
 category = "items"
+dropped_by = ["raids/rainforest-destroyer-murk", "raids/reef-destroyer-murk"]
 exotic = 0
 icon = "/img/useables/eye_potion.png"
 id = "farsight"
@@ -53234,6 +53236,7 @@ ward = 2
 [entries."items/nurtured-nature"]
 aura = "rare"
 category = "items"
+dropped_by = ["raids/rainforest-destroyer-murk", "raids/reef-destroyer-murk"]
 exotic = 0
 icon = "/img/useables/nurtured_nature.png"
 id = "nurtured-nature"
@@ -54922,7 +54925,7 @@ ward = 21
 [entries."items/panacea"]
 aura = "rare"
 category = "items"
-dropped_by = ["bosses/fafnir-66402ab7", "raids/arisen-ebon-scruug", "raids/arisen-kerberos", "raids/arisen-naggeneen", "raids/arisen-pumpkinhead", "raids/ebon-scruug", "raids/fey-yeti", "raids/kerberos", "raids/mimic-king-of-kings", "raids/naggeneen", "raids/pumpkinhead", "raids/scruug"]
+dropped_by = ["bosses/fafnir-66402ab7", "raids/arisen-ebon-scruug", "raids/arisen-kerberos", "raids/arisen-naggeneen", "raids/arisen-pumpkinhead", "raids/ebon-scruug", "raids/fey-yeti", "raids/kerberos", "raids/mimic-king-of-kings", "raids/naggeneen", "raids/pumpkinhead", "raids/rainforest-destroyer-murk", "raids/reef-destroyer-murk", "raids/scruug"]
 exotic = 0
 icon = "/img/useables/panacea.png"
 id = "panacea"
@@ -75082,6 +75085,26 @@ id = "purrly"
 skills = ["spells/catastrophe-ii", "spells/great-rally-of-charon", "spells/summon-very-scary-skeleton", "spells/transference-ii", "spells/summon-ancient-jinn", "spells/wail-ii"]
 tier = 8
 
+[entries."raids/rainforest-destroyer-murk"]
+category = "raids"
+drops = ["items/astralseed", "items/exp-potion", "items/dayleaf", "items/dowsing-rod", "items/nurtured-nature", "items/panacea", "items/farsight"]
+events = ["terra_s_legacy__of_reefs_and_forests"]
+hp = 19565000
+icon = "/img/bosses/great_murk2.png"
+id = "rainforest-destroyer-murk"
+skills = ["spells/sap", "spells/alpha-dart", "spells/barrier-ii", "spells/putrid-breath", "spells/darkstrike-iii"]
+tier = 4
+
+[entries."raids/reef-destroyer-murk"]
+category = "raids"
+drops = ["items/astralseed", "items/exp-potion", "items/dayleaf", "items/dowsing-rod", "items/nurtured-nature", "items/panacea", "items/farsight"]
+events = ["terra_s_legacy__of_reefs_and_forests"]
+hp = 19565000
+icon = "/img/bosses/great_murk3.png"
+id = "reef-destroyer-murk"
+skills = ["spells/sap", "spells/alpha-dart", "spells/barrier-ii", "spells/putrid-breath", "spells/darkstrike-iii"]
+tier = 4
+
 [entries."raids/rift-judgement"]
 category = "raids"
 drops = ["items/soul", "items/titanium", "items/fogstone", "items/distorted-manablades", "items/distorted-rift-armor", "items/distorted-rift-boots", "items/distorted-rift-chestguard", "items/distorted-rift-chestplate", "items/distorted-rift-cowl", "items/distorted-rift-headdress", "items/distorted-rift-helmet", "items/distorted-rift-leggings", "items/distorted-rift-legwraps", "items/distorted-riftshield", "items/distorted-riftstaff", "items/distorted-riftsword", "items/soul-of-achlys", "items/soul-of-charon", "items/soul-of-rhada"]
@@ -75568,7 +75591,7 @@ id = "alpha-dart"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 3
-used_by = ["bosses/damona-of-fomoria", "bosses/niskus-of-fomoria", "bosses/sequana-of-fomoria", "monsters/aine", "monsters/beheaded-trickster", "monsters/finn", "monsters/murk", "monsters/murk-066bec2c", "monsters/murk-503f0bb5"]
+used_by = ["bosses/damona-of-fomoria", "bosses/niskus-of-fomoria", "bosses/sequana-of-fomoria", "monsters/aine", "monsters/beheaded-trickster", "monsters/finn", "monsters/murk", "monsters/murk-066bec2c", "monsters/murk-503f0bb5", "raids/rainforest-destroyer-murk", "raids/reef-destroyer-murk"]
 
 [[entries."spells/alpha-dart".causes]]
 chance = 25
@@ -76679,7 +76702,7 @@ learned_by = ["classes/24"]
 spell_type = "spell"
 targets = "yourself"
 tier = 4
-used_by = ["bosses/caturix-of-fomoria", "bosses/imona-of-fomoria", "bosses/king-fomor-wintara", "bosses/ogmios-of-fomoria"]
+used_by = ["bosses/caturix-of-fomoria", "bosses/imona-of-fomoria", "bosses/king-fomor-wintara", "bosses/ogmios-of-fomoria", "raids/rainforest-destroyer-murk", "raids/reef-destroyer-murk"]
 
 [[entries."spells/barrier-ii".gives]]
 chance = 100
@@ -78872,7 +78895,7 @@ learned_by = ["classes/31"]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 7
-used_by = ["bosses/ankou-eef994e0", "bosses/kelpie", "bosses/queen-of-dokkalfar", "bosses/racul", "bosses/spooky-ghost", "bosses/vritra-the-steadfast", "followers/fafnir", "followers/pumpkinhead", "followers/shade-of-achlys-the-red-dagger", "followers/shadow-of-achlys-the-red-dagger", "monsters/ankou", "monsters/apollyons-apprentice", "monsters/apollyons-apprentice-x", "monsters/aries-acolyte-738a517f", "monsters/aries-acolyte-a1881496", "monsters/cerus-acolyte", "monsters/cerus-acolyte-5965f9aa", "monsters/elite-draconian-warrior", "monsters/elite-fomorian", "monsters/final-stable-keeper", "monsters/first-stable-keeper", "monsters/great-reaper", "monsters/perseus-acolyte", "monsters/perseus-acolyte-ff80be87", "monsters/second-stable-keeper", "monsters/sluagh", "monsters/third-stable-keeper", "raids/arisen-merlin", "raids/arisen-pumpkinhead", "raids/covyn", "raids/fallen-merlin", "raids/ferocious-cerus", "raids/furious-cerus", "raids/pumpkinhead", "raids/untarnished-perseus"]
+used_by = ["bosses/ankou-eef994e0", "bosses/kelpie", "bosses/queen-of-dokkalfar", "bosses/racul", "bosses/spooky-ghost", "bosses/vritra-the-steadfast", "followers/fafnir", "followers/pumpkinhead", "followers/shade-of-achlys-the-red-dagger", "followers/shadow-of-achlys-the-red-dagger", "monsters/ankou", "monsters/apollyons-apprentice", "monsters/apollyons-apprentice-x", "monsters/aries-acolyte-738a517f", "monsters/aries-acolyte-a1881496", "monsters/cerus-acolyte", "monsters/cerus-acolyte-5965f9aa", "monsters/elite-draconian-warrior", "monsters/elite-fomorian", "monsters/final-stable-keeper", "monsters/first-stable-keeper", "monsters/great-reaper", "monsters/perseus-acolyte", "monsters/perseus-acolyte-ff80be87", "monsters/second-stable-keeper", "monsters/sluagh", "monsters/third-stable-keeper", "raids/arisen-merlin", "raids/arisen-pumpkinhead", "raids/covyn", "raids/fallen-merlin", "raids/ferocious-cerus", "raids/furious-cerus", "raids/pumpkinhead", "raids/rainforest-destroyer-murk", "raids/reef-destroyer-murk", "raids/untarnished-perseus"]
 
 [[entries."spells/darkstrike-iii".causes]]
 chance = 25
@@ -87853,7 +87876,7 @@ id = "putrid-breath"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 6
-used_by = ["raids/age-old-mimic", "raids/arisen-naggeneen", "raids/mimic-king-of-kings", "raids/naggeneen", "raids/the-fool", "raids/the-fool-ef1c6cb2", "raids/the-mightiest-mimic"]
+used_by = ["raids/age-old-mimic", "raids/arisen-naggeneen", "raids/mimic-king-of-kings", "raids/naggeneen", "raids/rainforest-destroyer-murk", "raids/reef-destroyer-murk", "raids/the-fool", "raids/the-fool-ef1c6cb2", "raids/the-mightiest-mimic"]
 
 [[entries."spells/putrid-breath".causes]]
 chance = 100
@@ -89131,7 +89154,7 @@ spell_type = "spell"
 tags = ["found_in_arcanists"]
 targets = "a_single_opponent"
 tier = 2
-used_by = ["monsters/murk", "monsters/murk-066bec2c", "monsters/murk-503f0bb5"]
+used_by = ["monsters/murk", "monsters/murk-066bec2c", "monsters/murk-503f0bb5", "raids/rainforest-destroyer-murk", "raids/reef-destroyer-murk"]
 
 [entries."spells/sap".stats]
 costs = 15
@@ -96110,7 +96133,7 @@ abilities = ["adept_summoner", "apex", "apex__ara_", "apex__ursa_", "apex_ii", "
 category = ["bosses", "classes", "followers", "items", "monsters", "raids", "spells"]
 causes = ["aquila_sigil", "asleep", "att_d", "bleeding", "blight", "blind", "burning", "carina_sigil", "confused", "crux_sigil", "curse_of_sekhmet", "cursed", "dark_sigil", "darkblight", "def_d", "def_dd", "dmg_dd", "doom", "draco_sigil", "dragon_sigil", "drakeblight", "drenched", "earth_sigil", "earthblight", "eos", "fire_sigil", "fireblight", "foresight_d", "frozen", "holy_sigil", "holyblight", "lightning_sigil", "lightningblight", "lulled", "lyon_s_mark", "lyra_sigil", "mag_d", "morrigan_s_curse", "oceanus", "paralyzed", "petrified", "phoenix_s_pledge", "poisoned", "prometheus", "res_d", "res_dd", "rot", "selene", "starstruck", "stasis", "stunned", "t__all_d", "t__att_d", "t__att_dd", "t__def_d", "t__def_dd", "t__dex_d", "t__mag_d", "t__mag_dd", "t__res_d", "t__res_dd", "tempered_d", "tempered_dd", "themis", "toxic", "water_sigil", "waterblight", "windblight", "windswept"]
 cures = ["aegir", "all_u", "all_uu", "aquila_sigil", "arcane_aligned", "arcane_uu", "asleep", "asteria_of_olympia", "atlas_of_olympia", "att_d", "att_u", "att_uu", "bleeding", "blight", "blind", "bloodshift", "brittle", "brynhild_u", "brynhild_uu", "brynhild_uuu", "burning", "carina_sigil", "castor", "confused", "crit_u", "crux_sigil", "curse_of_sekhmet", "cursed", "dark_aligned", "dark_def", "dark_sigil", "darkblight", "def_d", "def_dd", "def_u", "def_uu", "defending", "defending_65018b2c", "defending_fc3de31f", "dex_u", "dmg_dd", "dmg_u", "doom", "draco_sigil", "dragon_aligned", "dragon_sigil", "dragon_uu", "drakeblight", "drenched", "dumbr", "earth_aligned", "earth_att", "earth_def", "earth_sigil", "earthblight", "eir", "eistla", "elementless", "eos", "fire_aligned", "fire_att", "fire_def", "fire_sigil", "fireblight", "foresight_d", "foresight_u", "foresight_uu", "frenzy", "frog", "frozen", "gunnr", "gymir", "hildr", "holy_aligned", "holy_def", "holy_sigil", "holyblight", "idun_u", "idun_uu", "idun_uuu", "iron_greaves", "iron_pauldrons", "jord_u", "jord_uu", "jord_uuu", "kára", "lightning_aligned", "lightning_att", "lightning_def", "lightning_sigil", "lightningblight", "lulled", "lyon_s_mark", "lyra_sigil", "mag_d", "mag_u", "mag_uu", "manaseep", "morrigan_s_curse", "mythril_greaves", "mythril_pauldrons", "oceanus", "ophion_of_olympia", "paralyzed", "petrified", "phoenix_s_pledge", "poisoned", "pollux", "power_of_titan_eos", "power_of_titan_oceanus", "power_of_titan_prometheus", "power_of_titan_selene", "power_of_titan_themis", "prometheus", "puzzlemaker_s_ambrosia", "rand_uu", "reraise", "res_d", "res_dd", "res_u", "res_uu", "rot", "selene", "shadowveil", "skadi_u", "skadi_uu", "skadi_uuu", "snotra", "spiked_greaves", "spiked_pauldrons", "starstruck", "stasis", "stunned", "t__?_uuu", "t__all_d", "t__all_u", "t__all_uuu", "t__att_d", "t__att_dd", "t__att_u", "t__att_uu", "t__att_uuu", "t__crit_u", "t__crit_uu", "t__crit_uuu", "t__dark_immune", "t__dark_immune_uu", "t__def_d", "t__def_dd", "t__def_ddd", "t__def_u", "t__def_uu", "t__def_uuu", "t__dex_d", "t__dex_u", "t__dex_uuu", "t__earth_immune", "t__earth_immune_uu", "t__fire_immune", "t__fire_immune_uu", "t__holy_immune", "t__holy_immune_uu", "t__lightning_immune", "t__lightning_immune_uu", "t__mag_d", "t__mag_dd", "t__mag_u", "t__mag_uu", "t__mag_uuu", "t__res_d", "t__res_dd", "t__res_u", "t__res_uu", "t__res_uuu", "t__target_d", "t__target_dd", "t__target_u", "t__target_uu", "t__water_immune", "t__water_immune_uu", "target__all", "tempered_d", "tempered_dd", "themis", "thrud", "towering", "toxic", "tree_of_demise", "tree_of_life", "water_aligned", "water_att", "water_def", "water_sigil", "waterblight", "wind_aligned", "wind_sigil", "windblight", "windswept", "zagreus"]
-events = ["balor_invades", "beastfelled", "canada_d_eh", "fallen_heroes_of_avalon", "fool_of_april", "legend_of_lyonesse", "menders_of_hearts", "merlin", "none", "nothren_legends__ragnarok", "of_giants_and_titans", "ornaversary", "paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara", "phoenixrise", "riftfall", "stop_scruug!", "summer_solstice", "sumner_games", "terra_s_day", "terra_s_legacy", "terra_s_legacy__natureblight", "the_crimson_festival", "the_cursed_queens", "the_hallowed", "the_mimics_are_loose", "the_mischievous_clurichauns", "the_plight_of_apollyon", "the_winter_wild_hunts", "thronemakers", "winter_solstice", "wyrmhunt"]
+events = ["balor_invades", "beastfelled", "canada_d_eh", "fallen_heroes_of_avalon", "fool_of_april", "legend_of_lyonesse", "menders_of_hearts", "merlin", "none", "nothren_legends__ragnarok", "of_giants_and_titans", "ornaversary", "paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara", "phoenixrise", "riftfall", "stop_scruug!", "summer_solstice", "sumner_games", "terra_s_day", "terra_s_legacy", "terra_s_legacy__natureblight", "terra_s_legacy__of_reefs_and_forests", "the_crimson_festival", "the_cursed_queens", "the_hallowed", "the_mimics_are_loose", "the_mischievous_clurichauns", "the_plight_of_apollyon", "the_winter_wild_hunts", "thronemakers", "winter_solstice", "wyrmhunt"]
 exotic = [0, 1]
 family = ["ancient", "animal", "balor_forces", "common", "draconian_forces", "dragons", "elven_forces", "giant", "goblin_horde", "human", "lizarr_forces", "lyonesse_forces", "magical", "mimics", "nothren_forces", "orc_horde", "titans", "undead_horde"]
 gives = ["all_u", "all_uu", "arcane_aligned", "arcane_uu", "asleep", "att_d", "att_u", "att_uu", "bleeding", "blight", "blind", "bloodshift", "brittle", "burning", "castor", "crit_u", "cursed", "dark_aligned", "dark_def", "def_d", "def_dd", "def_u", "def_uu", "defending", "defending_fc3de31f", "dex_u", "dmg_u", "dragon_aligned", "dragon_uu", "earth_aligned", "earth_att", "earth_def", "eir", "elementless", "fire_aligned", "fire_att", "fire_def", "foresight_u", "frenzy", "frozen", "gunnr", "hildr", "holy_aligned", "holy_def", "kára", "lightning_aligned", "lightning_att", "lightning_def", "mag_u", "mag_uu", "paralyzed", "poisoned", "pollux", "puzzlemaker_s_ambrosia", "reraise", "res_dd", "res_u", "res_uu", "rot", "shadowveil", "skadi_uu", "snotra", "stunned", "t__?_uuu", "t__all_u", "t__all_uuu", "t__att_d", "t__att_u", "t__att_uu", "t__att_uuu", "t__crit_u", "t__crit_uu", "t__crit_uuu", "t__dark_immune", "t__dark_immune_uu", "t__def_d", "t__def_u", "t__def_uu", "t__def_uuu", "t__dex_d", "t__dex_u", "t__dex_uuu", "t__earth_immune", "t__earth_immune_uu", "t__fire_immune", "t__fire_immune_uu", "t__holy_immune", "t__holy_immune_uu", "t__lightning_immune", "t__lightning_immune_uu", "t__mag_d", "t__mag_u", "t__mag_uu", "t__mag_uuu", "t__res_d", "t__res_u", "t__res_uu", "t__res_uuu", "t__target_d", "t__target_dd", "t__target_u", "t__target_uu", "t__water_immune", "t__water_immune_uu", "target__all", "thrud", "towering", "toxic", "tree_of_demise", "tree_of_life", "water_aligned", "water_att", "water_def", "wind_aligned"]

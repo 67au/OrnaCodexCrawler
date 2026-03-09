@@ -26596,6 +26596,20 @@ id = "purrly"
 language = "en"
 name = "Purrly"
 
+[entries."raids/rainforest-destroyer-murk"]
+category = "raids"
+description = "Deal damage to this Murk if you would like us to collectively save the Rainforests this year."
+id = "rainforest-destroyer-murk"
+language = "en"
+name = "Rainforest Destroyer Murk"
+
+[entries."raids/reef-destroyer-murk"]
+category = "raids"
+description = "Deal damage to this Murk if you would like us to collectively save the Great Reefs this year."
+id = "reef-destroyer-murk"
+language = "en"
+name = "Reef Destroyer Murk"
+
 [entries."raids/rift-judgement"]
 category = "raids"
 description = "Rhada, the Great Shield.\nAchlys, the Red Dagger.\nCharon, the Grand Summoner."
@@ -33623,6 +33637,7 @@ sumner_games = "Sumner Games"
 terra_s_day = "Terra's Day"
 terra_s_legacy = "Terra's Legacy"
 terra_s_legacy__natureblight = "Terra's Legacy: Natureblight"
+terra_s_legacy__of_reefs_and_forests = "Terra's Legacy: Of Reefs and Forests"
 the_crimson_festival = "The Crimson Festival"
 the_cursed_queens = "The Cursed Queens"
 the_hallowed = "The Hallowed"

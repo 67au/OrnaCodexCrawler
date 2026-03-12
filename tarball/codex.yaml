@@ -684,6 +684,7 @@ family = "animal"
 icon = "/img/bosses/behemoth.png"
 id = "behemoth-9697d9ae"
 rarity = "common"
+related_to = ["spells/summon-behemoth"]
 skills = ["spells/meteor-ii", "spells/onslaught", "spells/ravage"]
 tier = 6
 
@@ -69910,7 +69911,6 @@ family = "animal"
 icon = "/img/bosses/behemoth.png"
 id = "behemoth"
 rarity = "rare"
-related_to = ["spells/summon-behemoth"]
 skills = ["spells/meteor-ii", "spells/onslaught", "spells/ravage"]
 tier = 9
 
@@ -90981,7 +90981,7 @@ costs = 150
 category = "spells"
 icon = "/img/bosses/behemoth.png"
 id = "summon-behemoth"
-related_to = ["monsters/behemoth"]
+related_to = ["bosses/behemoth-9697d9ae"]
 spell_type = "spell"
 targets = "yourself"
 tier = 6

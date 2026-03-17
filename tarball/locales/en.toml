@@ -3517,6 +3517,20 @@ id = "cupid"
 language = "en"
 name = "Cupid"
 
+[entries."followers/dagda-disciple"]
+category = "followers"
+description = "Available for a limited time only."
+id = "dagda-disciple"
+language = "en"
+name = "Dagda Disciple"
+
+[entries."followers/dagda-disciple-9d47d282"]
+category = "followers"
+description = "Available for a limited time only."
+id = "dagda-disciple-9d47d282"
+language = "en"
+name = "Dagda Disciple"
+
 [entries."followers/dark-dragon"]
 category = "followers"
 description = "An ebony dragon. It can assist one in battle with dark magic."
@@ -4144,6 +4158,13 @@ name = "Macaroni Penguin"
 category = "followers"
 description = "Follower of Mammon. It will deal damage depending on the amount of monsters you have recently slain, but may miss its mark."
 id = "mammon-acolyte"
+language = "en"
+name = "Mammon Acolyte"
+
+[entries."followers/mammon-acolyte-368d75ad"]
+category = "followers"
+description = "Follower of Mammon. It will deal damage depending on the amount of monsters you have recently slain, but may miss its mark."
+id = "mammon-acolyte-368d75ad"
 language = "en"
 name = "Mammon Acolyte"
 

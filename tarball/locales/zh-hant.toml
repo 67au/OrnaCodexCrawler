@@ -3517,6 +3517,20 @@ id = "cupid"
 language = "zh-hant"
 name = "邱比特"
 
+[entries."followers/dagda-disciple"]
+category = "followers"
+description = "期間限定。"
+id = "dagda-disciple"
+language = "zh-hant"
+name = "Dagda Disciple"
+
+[entries."followers/dagda-disciple-9d47d282"]
+category = "followers"
+description = "期間限定。"
+id = "dagda-disciple-9d47d282"
+language = "zh-hant"
+name = "Dagda Disciple"
+
 [entries."followers/dark-dragon"]
 category = "followers"
 description = "漆黑的龍.能用暗黑魔法幫助你戰鬥."
@@ -4144,6 +4158,13 @@ name = "冠企鵝"
 category = "followers"
 description = "瑪門的追隨者。會依據你最近屠殺的怪物數量來造成傷害，但有時沒帶準星。"
 id = "mammon-acolyte"
+language = "zh-hant"
+name = "瑪門追隨者"
+
+[entries."followers/mammon-acolyte-368d75ad"]
+category = "followers"
+description = "瑪門的追隨者。會依據你最近屠殺的怪物數量來造成傷害，但有時沒帶準星。"
+id = "mammon-acolyte-368d75ad"
 language = "zh-hant"
 name = "瑪門追隨者"
 

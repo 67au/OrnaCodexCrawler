@@ -455,7 +455,7 @@ category = "bosses"
 drops = ["items/arisen-dagda-armor", "items/arisen-dagda-boots", "items/arisen-dagda-cowl", "items/arisen-dagda-garb", "items/arisen-dagda-helmet", "items/arisen-dagda-hood", "items/arisen-dagda-leggings", "items/arisen-dagda-robe", "items/arisen-dagda-shoes"]
 events = ["balor_invades"]
 family = "balor_forces"
-icon = "/img/bosses/dagda.png"
+icon = "/img/bosses/dagda_arisen.png"
 id = "arisen-dagda"
 rarity = "common"
 skills = ["spells/onslaught", "spells/prism-wall", "spells/emberseal-ii", "spells/lacunus-ii", "spells/wildfire-iii", "spells/flame-vi", "spells/sacreseal-ii"]
@@ -542,7 +542,7 @@ aura = "superboss"
 category = "bosses"
 drops = ["items/huge-empty-bottle", "items/arisen-armor", "items/arisen-boots", "items/arisen-cowl", "items/arisen-gandring", "items/arisen-garb", "items/arisen-greaves", "items/arisen-helmet", "items/arisen-hood", "items/arisen-kaladanda", "items/arisen-labrys", "items/arisen-qatvanga", "items/arisen-robe", "items/arisen-shield", "items/arisen-shoes", "items/arisen-teardrop"]
 family = "undead_horde"
-icon = "/img/bosses/mammon.png"
+icon = "/img/bosses/mammon_arisen.png"
 id = "arisen-mammon"
 rarity = "common"
 skills = ["spells/despair", "spells/envy", "spells/greed", "spells/hubris"]
@@ -5648,6 +5648,38 @@ tier = 10
 [entries."followers/cupid".stats]
 spell_rate = 20
 
+[entries."followers/dagda-disciple"]
+bestial_bond = [[{name = "fire_res", value = 20, type = "BONUS"}], [{name = "bonded_attack", value = 5, type = "BOND"}, {name = "bonded_magic", value = 5, type = "BOND"}], [{name = "bonded_attack", value = 15, type = "BOND"}, {name = "bonded_magic", value = 15, type = "BOND"}, {name = "stonefire", type = "ABILITY", key = "spells/stonefire"}]]
+category = "followers"
+events = ["balor_invades"]
+family = "common"
+icon = "/img/monsters/dagda_disciple.png"
+id = "dagda-disciple"
+rarity = "cryptid"
+skills = ["spells/doublecut-ii", "spells/firestrike-ii", "spells/onslaught", "spells/prism-wall", "spells/rebirth", "spells/flame-iv"]
+tier = 6
+
+[entries."followers/dagda-disciple".stats]
+buff_rate = 8
+heal_rate = 2
+spell_rate = 7
+
+[entries."followers/dagda-disciple-9d47d282"]
+bestial_bond = [[{name = "fire_res", value = 20, type = "BONUS"}], [{name = "bonded_attack", value = 5, type = "BOND"}, {name = "bonded_magic", value = 5, type = "BOND"}], [{name = "bonded_attack", value = 15, type = "BOND"}, {name = "bonded_magic", value = 15, type = "BOND"}, {name = "stonefire", type = "ABILITY", key = "spells/stonefire"}]]
+category = "followers"
+events = ["balor_invades"]
+family = "common"
+icon = "/img/followers/dagda_disciple.png"
+id = "dagda-disciple-9d47d282"
+rarity = "steward"
+skills = ["spells/doublecut-ii", "spells/firestrike-ii", "spells/onslaught", "spells/prism-wall", "spells/rebirth", "spells/flame-iv"]
+tier = 6
+
+[entries."followers/dagda-disciple-9d47d282".stats]
+buff_rate = 8
+heal_rate = 2
+spell_rate = 7
+
 [entries."followers/dark-dragon"]
 bestial_bond = [[{name = "lightning_res", value = 20, type = "BONUS"}], [{name = "bonded_attack", value = 10, type = "BOND"}, {name = "bonded_magic", value = 10, type = "BOND"}], [{name = "bonded_attack", value = 10, type = "BOND"}, {name = "bonded_magic", value = 10, type = "BOND"}]]
 category = "followers"
@@ -6976,6 +7008,22 @@ skills = ["spells/nekrosis-iii", "spells/despair", "spells/envy"]
 tier = 10
 
 [entries."followers/mammon-acolyte".stats]
+buff_rate = 12
+debuff_rate = 12
+spell_rate = 12
+
+[entries."followers/mammon-acolyte-368d75ad"]
+bestial_bond = [[{name = "elemental_weaknesses", value = 15, type = "BONUS"}], [{name = "t__mag_u", value = 7, type = "BOND"}, {name = "t__mag_uu", value = 2, type = "BOND"}], [{name = "bonded_magic", value = 20, type = "BOND"}]]
+category = "followers"
+events = ["balor_invades"]
+family = "magical"
+icon = "/img/followers/mammon_acolyte.png"
+id = "mammon-acolyte-368d75ad"
+rarity = "steward"
+skills = ["spells/nekrosis-iii", "spells/despair", "spells/envy"]
+tier = 10
+
+[entries."followers/mammon-acolyte-368d75ad".stats]
 buff_rate = 12
 debuff_rate = 12
 spell_rate = 12
@@ -38247,7 +38295,7 @@ useable_by = "valhallan_summoner_classes"
 [entries."items/final-decree".stats]
 adornment_slots = 9
 attack = 50
-chain_damage_chance = 5
+chain_damage_chance = 15
 magic = 205
 mana = 55
 summon_pacts = 60
@@ -70280,7 +70328,7 @@ aura = "arisen"
 category = "monsters"
 drops = ["items/skeleton-key", "items/pure-waterstone", "items/arisen-horror", "items/arisen-terror"]
 family = "common"
-icon = "/img/bosses/cthulhu.png"
+icon = "/img/bosses/cthulhu_arisen.png"
 id = "cthulhu-edf67d83"
 rarity = "rare"
 skills = ["spells/drain", "spells/prism-wall", "spells/blast-iii", "spells/omnistrike-iii", "spells/osmostrike-iii", "spells/drain-iii", "spells/miasma", "spells/flame-vi", "spells/frost-vi", "spells/octoblast", "spells/spark-vi", "spells/tremor-vi"]
@@ -79148,7 +79196,7 @@ id = "despair"
 spell_type = "spell"
 targets = "every_opponent_in_a_battle"
 tier = 9
-used_by = ["bosses/arisen-mammon", "bosses/mammon", "followers/ebon-scruug", "followers/mammon-acolyte", "monsters/carman-5458cf68", "raids/arisen-ebon-scruug", "raids/ebon-scruug", "raids/mimic-king-of-kings"]
+used_by = ["bosses/arisen-mammon", "bosses/mammon", "followers/ebon-scruug", "followers/mammon-acolyte", "followers/mammon-acolyte-368d75ad", "monsters/carman-5458cf68", "raids/arisen-ebon-scruug", "raids/ebon-scruug", "raids/mimic-king-of-kings"]
 
 [[entries."spells/despair".causes]]
 chance = 25
@@ -80077,7 +80125,7 @@ learned_by = ["classes/24"]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 4
-used_by = ["bosses/dagda", "followers/agathodaemon", "followers/camazotz", "followers/dire-wolf", "followers/greater-lobster", "followers/harpy", "followers/steward-wolf", "followers/triton", "monsters/beheaded-duelist", "monsters/greater-lobster", "monsters/minotaur", "monsters/swordbearer-of-finesse-82f67d6f", "monsters/triton", "monsters/turul", "raids/almighty-balin", "raids/arisen-balin", "raids/fey-cockatrice", "raids/fey-dragon", "raids/finesse", "raids/sister-badb", "raids/the-dioscuri"]
+used_by = ["bosses/dagda", "followers/agathodaemon", "followers/camazotz", "followers/dagda-disciple", "followers/dagda-disciple-9d47d282", "followers/dire-wolf", "followers/greater-lobster", "followers/harpy", "followers/steward-wolf", "followers/triton", "monsters/beheaded-duelist", "monsters/greater-lobster", "monsters/minotaur", "monsters/swordbearer-of-finesse-82f67d6f", "monsters/triton", "monsters/turul", "raids/almighty-balin", "raids/arisen-balin", "raids/fey-cockatrice", "raids/fey-dragon", "raids/finesse", "raids/sister-badb", "raids/the-dioscuri"]
 
 [entries."spells/doublecut-ii".stats]
 costs = 40
@@ -80710,7 +80758,7 @@ id = "envy"
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 9
-used_by = ["bosses/arisen-mammon", "bosses/mammon", "bosses/medea-arisen-queen", "followers/mammon-acolyte", "raids/arisen-ebon-scruug", "raids/arisen-morrigan", "raids/ebon-scruug", "raids/great-anguish", "raids/mimic-king-of-kings", "raids/sister-badb", "raids/sister-macha", "raids/sister-neman", "raids/the-morrigan"]
+used_by = ["bosses/arisen-mammon", "bosses/mammon", "bosses/medea-arisen-queen", "followers/mammon-acolyte", "followers/mammon-acolyte-368d75ad", "raids/arisen-ebon-scruug", "raids/arisen-morrigan", "raids/ebon-scruug", "raids/great-anguish", "raids/mimic-king-of-kings", "raids/sister-badb", "raids/sister-macha", "raids/sister-neman", "raids/the-morrigan"]
 
 [[entries."spells/envy".causes]]
 chance = 10
@@ -81568,7 +81616,7 @@ learned_by = ["classes/94", "classes/25", "classes/32"]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 5
-used_by = ["bosses/arisen-vulcan-the-red-knight", "bosses/cavelord", "bosses/dagda", "bosses/fallen-vulcan-the-red-knight", "bosses/pyre", "bosses/sumner-artemis", "followers/apollyons-pupil-9d70a08e", "monsters/apollyons-pupil-88e5ba1c", "monsters/apollyons-pupil-x-6d17e31f", "monsters/balor-flame", "monsters/elite-balor-flame", "monsters/guivre", "raids/cerus", "raids/mmmpizza"]
+used_by = ["bosses/arisen-vulcan-the-red-knight", "bosses/cavelord", "bosses/dagda", "bosses/fallen-vulcan-the-red-knight", "bosses/pyre", "bosses/sumner-artemis", "followers/apollyons-pupil-9d70a08e", "followers/dagda-disciple", "followers/dagda-disciple-9d47d282", "monsters/apollyons-pupil-88e5ba1c", "monsters/apollyons-pupil-x-6d17e31f", "monsters/balor-flame", "monsters/elite-balor-flame", "monsters/guivre", "raids/cerus", "raids/mmmpizza"]
 
 [[entries."spells/firestrike-ii".causes]]
 chance = 15
@@ -81699,7 +81747,7 @@ spell_type = "spell"
 tags = ["found_in_arcanists"]
 targets = "a_single_opponent"
 tier = 6
-used_by = ["bosses/dagda", "followers/alfar-mage", "followers/apollyons-pupil-9d70a08e", "followers/balor-flame", "followers/carman", "monsters/apollyons-pupil-88e5ba1c", "monsters/apollyons-pupil-x-6d17e31f", "monsters/runeblade-of-finesse-ad34c73a"]
+used_by = ["bosses/dagda", "followers/alfar-mage", "followers/apollyons-pupil-9d70a08e", "followers/balor-flame", "followers/carman", "followers/dagda-disciple", "followers/dagda-disciple-9d47d282", "monsters/apollyons-pupil-88e5ba1c", "monsters/apollyons-pupil-x-6d17e31f", "monsters/runeblade-of-finesse-ad34c73a"]
 
 [[entries."spells/flame-iv".causes]]
 chance = 10
@@ -86735,7 +86783,7 @@ id = "nekrosis-iii"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 8
-used_by = ["followers/mammon-acolyte"]
+used_by = ["followers/mammon-acolyte", "followers/mammon-acolyte-368d75ad"]
 
 [entries."spells/nekrosis-iii".stats]
 costs = 225
@@ -87216,7 +87264,7 @@ id = "onslaught"
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 5
-used_by = ["bosses/arisen-balor-king", "bosses/arisen-dagda", "bosses/arisen-gymir", "bosses/baldr", "bosses/balor-king", "bosses/behemoth-9697d9ae", "bosses/colossus", "bosses/cursed-bormana-of-fomoria", "bosses/cursed-eostre-of-fomoria", "bosses/dagda", "bosses/elite-orc-lord", "bosses/fey-kelpie", "bosses/griffin", "bosses/kelpie", "bosses/manticore", "bosses/nin-kilim", "bosses/odok-golem", "bosses/orc-lord-aae6c979", "bosses/pollux", "bosses/sumner-apollo", "followers/balor-worm", "followers/colossus", "followers/fey-kelpie", "followers/gwyllgi", "followers/hengreon", "followers/sif", "followers/steward-gwyllgi", "followers/steward-hengreon", "followers/war-horse", "monsters/ancient-cyclops", "monsters/behemoth", "monsters/dark-pegasus", "monsters/elite-nothren-berserker", "monsters/elite-nothren-valkyrie", "monsters/follower-of-kerberos", "monsters/follower-of-kerberos-ac5dc474", "monsters/follower-of-kerberos-ca288318", "monsters/follower-of-kerberos-eb83ccd1", "monsters/frost-troll", "monsters/great-eel", "monsters/great-orc", "monsters/greater-triton", "monsters/gwyllgi", "monsters/headless", "monsters/hengreon", "monsters/infernal-bear", "monsters/minotaur", "monsters/nothren-berserker", "monsters/nothren-valkyrie", "monsters/orc-lord", "monsters/pegasus", "monsters/succubus", "monsters/swordbearer-of-finesse-3574bce3", "monsters/triton", "raids/almighty-balin", "raids/apollyon", "raids/arisen-asteria-of-olympia", "raids/arisen-atlas-of-olympia", "raids/arisen-balin", "raids/arisen-ebon-scruug", "raids/arisen-pumpkinhead", "raids/arisen-pumpkinless", "raids/arisen-surtr", "raids/asteria-of-olympia", "raids/atlas-of-olympia", "raids/cerus", "raids/ebon-scruug", "raids/ferocious-cerus", "raids/fey-yeti", "raids/final-horseman", "raids/finesse", "raids/furious-cerus", "raids/grand-knight-lugus", "raids/havel", "raids/last-titan", "raids/maelor", "raids/mmmpizza", "raids/pumpkinhead", "raids/pumpkinless", "raids/scruug", "raids/sister-badb", "raids/surtr", "raids/the-creator", "raids/the-dioscuri", "raids/the-last-hippogriff", "raids/third-horseman"]
+used_by = ["bosses/arisen-balor-king", "bosses/arisen-dagda", "bosses/arisen-gymir", "bosses/baldr", "bosses/balor-king", "bosses/behemoth-9697d9ae", "bosses/colossus", "bosses/cursed-bormana-of-fomoria", "bosses/cursed-eostre-of-fomoria", "bosses/dagda", "bosses/elite-orc-lord", "bosses/fey-kelpie", "bosses/griffin", "bosses/kelpie", "bosses/manticore", "bosses/nin-kilim", "bosses/odok-golem", "bosses/orc-lord-aae6c979", "bosses/pollux", "bosses/sumner-apollo", "followers/balor-worm", "followers/colossus", "followers/dagda-disciple", "followers/dagda-disciple-9d47d282", "followers/fey-kelpie", "followers/gwyllgi", "followers/hengreon", "followers/sif", "followers/steward-gwyllgi", "followers/steward-hengreon", "followers/war-horse", "monsters/ancient-cyclops", "monsters/behemoth", "monsters/dark-pegasus", "monsters/elite-nothren-berserker", "monsters/elite-nothren-valkyrie", "monsters/follower-of-kerberos", "monsters/follower-of-kerberos-ac5dc474", "monsters/follower-of-kerberos-ca288318", "monsters/follower-of-kerberos-eb83ccd1", "monsters/frost-troll", "monsters/great-eel", "monsters/great-orc", "monsters/greater-triton", "monsters/gwyllgi", "monsters/headless", "monsters/hengreon", "monsters/infernal-bear", "monsters/minotaur", "monsters/nothren-berserker", "monsters/nothren-valkyrie", "monsters/orc-lord", "monsters/pegasus", "monsters/succubus", "monsters/swordbearer-of-finesse-3574bce3", "monsters/triton", "raids/almighty-balin", "raids/apollyon", "raids/arisen-asteria-of-olympia", "raids/arisen-atlas-of-olympia", "raids/arisen-balin", "raids/arisen-ebon-scruug", "raids/arisen-pumpkinhead", "raids/arisen-pumpkinless", "raids/arisen-surtr", "raids/asteria-of-olympia", "raids/atlas-of-olympia", "raids/cerus", "raids/ebon-scruug", "raids/ferocious-cerus", "raids/fey-yeti", "raids/final-horseman", "raids/finesse", "raids/furious-cerus", "raids/grand-knight-lugus", "raids/havel", "raids/last-titan", "raids/maelor", "raids/mmmpizza", "raids/pumpkinhead", "raids/pumpkinless", "raids/scruug", "raids/sister-badb", "raids/surtr", "raids/the-creator", "raids/the-dioscuri", "raids/the-last-hippogriff", "raids/third-horseman"]
 
 [[entries."spells/onslaught".causes]]
 chance = 25
@@ -87691,7 +87739,7 @@ id = "prism-wall"
 spell_type = "spell"
 targets = "any_member_of_your_party"
 tier = 5
-used_by = ["bosses/arisen-balor-king", "bosses/arisen-dagda", "bosses/balor-king", "bosses/cthulhu", "bosses/dagda", "bosses/fallen-hero-lover-lost", "bosses/fallen-ra-the-seer", "bosses/mimic-king-a90b8f0c", "bosses/sumner-apollo", "bosses/titan-mnemosyne", "followers/castor", "followers/cthulhu", "followers/fey-yeti", "followers/giant-tortoise", "followers/steward-golem", "monsters/balor-guardian", "monsters/cthulhu-edf67d83", "monsters/elite-balor-guardian", "monsters/elite-nothren-warlock", "monsters/elite-riftguard", "monsters/enlightened-guardian", "monsters/giant-tortoise", "monsters/mimic-king", "monsters/nothren-lord", "monsters/nothren-warlock", "monsters/riftguard", "raids/arisen-cade", "raids/dangy", "raids/fey-yeti", "raids/havel", "raids/ingenious-cade", "raids/last-titan", "raids/ob"]
+used_by = ["bosses/arisen-balor-king", "bosses/arisen-dagda", "bosses/balor-king", "bosses/cthulhu", "bosses/dagda", "bosses/fallen-hero-lover-lost", "bosses/fallen-ra-the-seer", "bosses/mimic-king-a90b8f0c", "bosses/sumner-apollo", "bosses/titan-mnemosyne", "followers/castor", "followers/cthulhu", "followers/dagda-disciple", "followers/dagda-disciple-9d47d282", "followers/fey-yeti", "followers/giant-tortoise", "followers/steward-golem", "monsters/balor-guardian", "monsters/cthulhu-edf67d83", "monsters/elite-balor-guardian", "monsters/elite-nothren-warlock", "monsters/elite-riftguard", "monsters/enlightened-guardian", "monsters/giant-tortoise", "monsters/mimic-king", "monsters/nothren-lord", "monsters/nothren-warlock", "monsters/riftguard", "raids/arisen-cade", "raids/dangy", "raids/fey-yeti", "raids/havel", "raids/ingenious-cade", "raids/last-titan", "raids/ob"]
 
 [[entries."spells/prism-wall".gives]]
 chance = 100
@@ -88403,7 +88451,7 @@ related_to = ["items/manticore-hood"]
 spell_type = "spell"
 targets = "yourself"
 tier = 5
-used_by = ["bosses/ankou-eef994e0", "bosses/anubis", "bosses/dagda", "bosses/enlightened-king", "bosses/enlightened-prince", "bosses/enlightened-queen", "bosses/hades", "bosses/kraken", "bosses/manticore", "bosses/sluagh-a557fcc4", "bosses/sumner-aphrodite", "bosses/sumner-apollo", "bosses/sumner-ares", "monsters/ankou", "monsters/failed-phoenix", "monsters/failed-phoenix-40f6a0b6", "monsters/great-phoenix-pledge", "monsters/great-phoenix-pledge-19c34e4d", "monsters/headless", "monsters/phoenix-halfling", "monsters/phoenix-halfling-805cc50e", "monsters/sluagh", "monsters/swordbearer-of-finesse-0a53d84d", "monsters/swordbearer-of-finesse-3574bce3", "monsters/swordbearer-of-finesse-de62c6bd"]
+used_by = ["bosses/ankou-eef994e0", "bosses/anubis", "bosses/dagda", "bosses/enlightened-king", "bosses/enlightened-prince", "bosses/enlightened-queen", "bosses/hades", "bosses/kraken", "bosses/manticore", "bosses/sluagh-a557fcc4", "bosses/sumner-aphrodite", "bosses/sumner-apollo", "bosses/sumner-ares", "followers/dagda-disciple", "followers/dagda-disciple-9d47d282", "monsters/ankou", "monsters/failed-phoenix", "monsters/failed-phoenix-40f6a0b6", "monsters/great-phoenix-pledge", "monsters/great-phoenix-pledge-19c34e4d", "monsters/headless", "monsters/phoenix-halfling", "monsters/phoenix-halfling-805cc50e", "monsters/sluagh", "monsters/swordbearer-of-finesse-0a53d84d", "monsters/swordbearer-of-finesse-3574bce3", "monsters/swordbearer-of-finesse-de62c6bd"]
 
 [[entries."spells/rebirth".cures]]
 name = "poisoned"
@@ -90563,7 +90611,7 @@ power = "1500"
 category = "spells"
 icon = "/img/spells/flame.png"
 id = "stonefire"
-related_to = ["followers/balor-flame", "followers/balor-worm", "followers/banshee", "followers/cruel-banshee", "followers/death-worm", "followers/great-reaper", "followers/medusa", "followers/reaper"]
+related_to = ["followers/balor-flame", "followers/balor-worm", "followers/banshee", "followers/cruel-banshee", "followers/dagda-disciple", "followers/dagda-disciple-9d47d282", "followers/death-worm", "followers/great-reaper", "followers/medusa", "followers/reaper"]
 spell_type = "spell"
 targets = "every_opponent_in_a_battle"
 tier = 9
@@ -91650,12 +91698,16 @@ chance = 100
 name = "kheper"
 
 [[entries."spells/summon-kheper-swarm".summons]]
-chance = 75
-name = "gilded_kheper"
+chance = 100
+name = "kheper"
 
 [[entries."spells/summon-kheper-swarm".summons]]
 chance = 100
 name = "kheper"
+
+[[entries."spells/summon-kheper-swarm".summons]]
+chance = 100
+name = "gilded_kheper"
 
 [entries."spells/summon-kheper-swarm".stats]
 costs = 500

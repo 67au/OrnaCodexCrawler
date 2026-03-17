@@ -3517,6 +3517,20 @@ id = "cupid"
 language = "zh-hans"
 name = "丘比特"
 
+[entries."followers/dagda-disciple"]
+category = "followers"
+description = "期间限定。"
+id = "dagda-disciple"
+language = "zh-hans"
+name = "Dagda Disciple"
+
+[entries."followers/dagda-disciple-9d47d282"]
+category = "followers"
+description = "期间限定。"
+id = "dagda-disciple-9d47d282"
+language = "zh-hans"
+name = "Dagda Disciple"
+
 [entries."followers/dark-dragon"]
 category = "followers"
 description = "漆黑的龙。能用暗黑魔法帮助你战斗。"
@@ -4144,6 +4158,13 @@ name = "长眉企鹅"
 category = "followers"
 description = "玛门的追随者。会依据你最近击杀的怪物数量来造成伤害，但有时会错失目标。"
 id = "mammon-acolyte"
+language = "zh-hans"
+name = "玛门追随者"
+
+[entries."followers/mammon-acolyte-368d75ad"]
+category = "followers"
+description = "玛门的追随者。会依据你最近击杀的怪物数量来造成伤害，但有时会错失目标。"
+id = "mammon-acolyte-368d75ad"
 language = "zh-hans"
 name = "玛门追随者"
 

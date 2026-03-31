@@ -1926,9 +1926,9 @@ id = "mimic-king-a90b8f0c"
 language = "zh-hans"
 name = "宝箱王"
 
-[entries."bosses/minotaur-db4e0c60689b5789486e695c6ae30fb9"]
+[entries."bosses/minotaur"]
 category = "bosses"
-id = "minotaur-db4e0c60689b5789486e695c6ae30fb9"
+id = "minotaur"
 language = "zh-hans"
 name = "牛头怪"
 
@@ -10272,6 +10272,20 @@ id = "crest-of-wintara"
 language = "zh-hans"
 name = "温塔拉纹章"
 
+[entries."items/cretan-arrows"]
+category = "items"
+description = "Arrows of Centaurus, fallen beast king of Lerna. It was fabled that an arrow loosed by Centaurus could hit more than one foe, gaining momentum with each target."
+id = "cretan-arrows"
+language = "zh-hans"
+name = "Cretan Arrows"
+
+[entries."items/cretan-compound-bow"]
+category = "items"
+description = "Bow of Centaurus, fallen beast king of Lerna. It was fabled that an arrow loosed by Centaurus could hit more than one foe, gaining momentum with each target."
+id = "cretan-compound-bow"
+language = "zh-hans"
+name = "Cretan Compound Bow"
+
 [entries."items/crimson-eye"]
 category = "items"
 description = "充满神秘魔法的绯红眼球。将其掌握在手中会稍微提高所有属性。"
@@ -10279,12 +10293,26 @@ id = "crimson-eye"
 language = "zh-hans"
 name = "绯红之眼"
 
+[entries."items/crimson-eye-of-centaurus"]
+category = "items"
+description = "Eye of Centaurus, fallen beast king of Lerna. It was fabled that an arrow loosed by Centaurus could hit more than one foe, gaining momentum with each target."
+id = "crimson-eye-of-centaurus"
+language = "zh-hans"
+name = "Crimson Eye of Centaurus"
+
 [entries."items/crimson-pinion"]
 category = "items"
 description = "从被诅咒的鸡蛇遗骸上拔下的羽毛。以牺牲物理防御和魔力值为代价提供额外的物理攻击。"
 id = "crimson-pinion"
 language = "zh-hans"
 name = "绯红羽毛"
+
+[entries."items/crimson-proof-of-sparring"]
+category = "items"
+description = "A token issued by the Blades of Finesse to signify that one has won in battle against another member of the Guild during the Crimson Festival."
+id = "crimson-proof-of-sparring"
+language = "zh-hans"
+name = "Crimson Proof of Sparring"
 
 [entries."items/crimson-snapper"]
 category = "items"
@@ -12570,15 +12598,15 @@ name = "不灭火炬"
 
 [entries."items/excalibur"]
 category = "items"
-description = "阿瓦隆王国亚瑟王的神兵，它可以保护持有者免疫流血。"
+description = "???"
 id = "excalibur"
 language = "zh-hans"
 name = "誓约圣剑"
 
-[entries."items/excalibur-eec7bf3e"]
+[entries."items/excalibur-32be53bc"]
 category = "items"
-description = "???"
-id = "excalibur-eec7bf3e"
+description = "阿瓦隆王国亚瑟王的神兵，它可以保护持有者免疫流血。"
+id = "excalibur-32be53bc"
 language = "zh-hans"
 name = "誓约圣剑"
 
@@ -15739,6 +15767,13 @@ id = "horned-armor"
 language = "zh-hans"
 name = "角铠"
 
+[entries."items/horned-corinthian-helmet"]
+category = "items"
+description = "Armor of Centaurus, fallen beast king of Lerna. In an effort to bring Lerna into an age of prosperity, Centaurus looked to the skies for the Celestial might of three Gods in particular. After council, these Gods granted him a fraction of their Celestial power. But Centaurus was of no stature to control this power. Centaurus and a many of the people of Lerna were transformed to strange beasts, akin to the shapes of some stars."
+id = "horned-corinthian-helmet"
+language = "zh-hans"
+name = "Horned Corinthian Helmet"
+
 [entries."items/horned-helmet"]
 category = "items"
 description = "桀骜金牛凯鲁斯的头盔。能减少魔力消耗并且很适合镶嵌装饰。"
@@ -15759,6 +15794,13 @@ description = "由溺死旅人的尸体变造而成的可怕法杖。能够会�
 id = "horror"
 language = "zh-hans"
 name = "恐惧杖"
+
+[entries."items/horseshoes"]
+category = "items"
+description = "Armor of Centaurus, fallen beast king of Lerna. In an effort to bring Lerna into an age of prosperity, Centaurus looked to the skies for the Celestial might of three Gods in particular. After council, these Gods granted him a fraction of their Celestial power. But Centaurus was of no stature to control this power. Centaurus and a many of the people of Lerna were transformed to strange beasts, akin to the shapes of some stars."
+id = "horseshoes"
+language = "zh-hans"
+name = "Horseshoes"
 
 [entries."items/horuss-robe"]
 category = "items"
@@ -16320,10 +16362,10 @@ id = "kerberos-claws"
 language = "zh-hans"
 name = "刻耳柏洛斯之爪"
 
-[entries."items/kerberos-claws-e7f61ea1"]
+[entries."items/kerberos-claws-81b67c8d"]
 category = "items"
 description = "由刻耳柏洛斯那尖锐锋利的爪所制成。攻击有机率对对手造成流血和冰冻。"
-id = "kerberos-claws-e7f61ea1"
+id = "kerberos-claws-81b67c8d"
 language = "zh-hans"
 name = "刻耳柏洛斯之爪"
 
@@ -16726,6 +16768,13 @@ id = "legs-of-themis"
 language = "zh-hans"
 name = "忒弥斯之腿"
 
+[entries."items/lerna-summoning-scroll"]
+category = "items"
+description = "A scroll documenting the long forgetton history of Lerna, a land of human-beasts and treason. Reading this scroll with summon a projection of King Centaurus, fallen King of Lerna."
+id = "lerna-summoning-scroll"
+language = "zh-hans"
+name = "Lerna Summoning Scroll"
+
 [entries."items/leros-hood"]
 category = "items"
 description = "弗摩尔之温塔拉家族的「魔法之神」勒罗所穿戴的兜帽。勒罗，未经磨炼，恃才放纵，但在摩莉甘的入侵中匆匆败走。穿戴这件装备时，施放的增益效果会传递到队友身上，且增益效果会持续更长的时间。"
@@ -16823,6 +16872,13 @@ description = "日之精灵的兵器所使用的白色光泽材料。"
 id = "lightstone"
 language = "zh-hans"
 name = "光之石"
+
+[entries."items/linothorax"]
+category = "items"
+description = "Armor of Centaurus, fallen beast king of Lerna. In an effort to bring Lerna into an age of prosperity, Centaurus looked to the skies for the Celestial might of three Gods in particular. After council, these Gods granted him a fraction of their Celestial power. But Centaurus was of no stature to control this power. Centaurus and a many of the people of Lerna were transformed to strange beasts, akin to the shapes of some stars."
+id = "linothorax"
+language = "zh-hans"
+name = "Linothorax"
 
 [entries."items/liver-of-prometheus"]
 category = "items"
@@ -19008,6 +19064,13 @@ id = "platinum-amulet"
 language = "zh-hans"
 name = "白金护身符"
 
+[entries."items/playing-cards"]
+category = "items"
+description = "A Card dropped from a strange entity during the \"Fool of April\" event."
+id = "playing-cards"
+language = "zh-hans"
+name = "Playing Cards"
+
 [entries."items/poison-arrows"]
 category = "items"
 description = "一袋涂抹毒药的弓箭。装备在副手时会牺牲护盾，但有机率使对手中毒。"
@@ -19560,6 +19623,13 @@ description = "这把巨大的镰刀是令人生畏的亚玻伦追随者所选�
 id = "reaping-sickle"
 language = "zh-hans"
 name = "收割者镰刀"
+
+[entries."items/red-chloris"]
+category = "items"
+description = "A flower that blooms in Stardust. This flower grows during the Crimson Festival world event."
+id = "red-chloris"
+language = "zh-hans"
+name = "Red Chloris"
 
 [entries."items/red-crystal"]
 category = "items"
@@ -20234,10 +20304,17 @@ name = "重生裂隙扭曲卷轴"
 
 [entries."items/scroll-of-chaos"]
 category = "items"
-description = "使世界变为深红色的混沌卷轴。使用它会在 1 小时内显示任何栖息地的敌人，但他们可能会更难击败。"
+description = "A scroll containing a terrible incantation that will turn the world magenta. For one hour, this scroll will increase the chance of encountering rare monsters or those belonging to an active World Event. Less monsters will be encountered and more monsters may spawn berserk.\n\nFor T6+ players, Community Raid Events may also be found when exploring your world."
 id = "scroll-of-chaos"
 language = "zh-hans"
 name = "混沌卷轴"
+
+[entries."items/scroll-of-crimson-chaos"]
+category = "items"
+description = "A scroll containing stories of Lerna's Crimson Festival. Reading it will bring these stories to life, enveloping your world in chaos and greatly increasing the chances of encountering monsters belonging to the Crimson Festival world event. This item may only be used during the Crimson Festival.\n\nFor T6+ players, Community Raid Events of the Crimson Festival's celestial Gods may also be found when exploring your world."
+id = "scroll-of-crimson-chaos"
+language = "zh-hans"
+name = "Scroll of Crimson Chaos"
 
 [entries."items/scroll-of-dynasty"]
 category = "items"
@@ -23386,17 +23463,23 @@ id = "aries-acolyte"
 language = "zh-hans"
 name = "亚力士侍从"
 
-[entries."monsters/aries-acolyte-738a517f"]
+[entries."monsters/aries-apostle"]
 category = "monsters"
-id = "aries-acolyte-738a517f"
+id = "aries-apostle"
 language = "zh-hans"
-name = "亚力士侍从"
+name = "Aries Apostle"
 
-[entries."monsters/aries-acolyte-a1881496"]
+[entries."monsters/aries-disciple"]
 category = "monsters"
-id = "aries-acolyte-a1881496"
+id = "aries-disciple"
 language = "zh-hans"
-name = "亚力士侍从"
+name = "Aries Disciple"
+
+[entries."monsters/aries-zealot"]
+category = "monsters"
+id = "aries-zealot"
+language = "zh-hans"
+name = "Aries Zealot"
 
 [entries."monsters/balor-assassin"]
 category = "monsters"
@@ -23674,17 +23757,23 @@ id = "cerus-acolyte"
 language = "zh-hans"
 name = "凯鲁斯侍从"
 
-[entries."monsters/cerus-acolyte-5965f9aa"]
+[entries."monsters/cerus-apostle"]
 category = "monsters"
-id = "cerus-acolyte-5965f9aa"
+id = "cerus-apostle"
 language = "zh-hans"
-name = "凯鲁斯侍从"
+name = "Cerus Apostle"
 
-[entries."monsters/cerus-acolyte-73d59be2"]
+[entries."monsters/cerus-disciple"]
 category = "monsters"
-id = "cerus-acolyte-73d59be2"
+id = "cerus-disciple"
 language = "zh-hans"
-name = "凯鲁斯侍从"
+name = "Cerus Disciple"
+
+[entries."monsters/cerus-zealot"]
+category = "monsters"
+id = "cerus-zealot"
+language = "zh-hans"
+name = "Cerus Zealot"
 
 [entries."monsters/chimera"]
 category = "monsters"
@@ -23872,15 +23961,33 @@ id = "dokkalfar"
 language = "zh-hans"
 name = "夜之精灵"
 
+[entries."monsters/dokkalfar-96ab6077"]
+category = "monsters"
+id = "dokkalfar-96ab6077"
+language = "zh-hans"
+name = "夜之精灵"
+
 [entries."monsters/dokkalfar-knight"]
 category = "monsters"
 id = "dokkalfar-knight"
 language = "zh-hans"
 name = "夜之精灵骑士"
 
+[entries."monsters/dokkalfar-knight-bd7c1342"]
+category = "monsters"
+id = "dokkalfar-knight-bd7c1342"
+language = "zh-hans"
+name = "夜之精灵骑士"
+
 [entries."monsters/dokkalfar-warlock"]
 category = "monsters"
 id = "dokkalfar-warlock"
+language = "zh-hans"
+name = "夜之精灵术士"
+
+[entries."monsters/dokkalfar-warlock-ed64b1cf"]
+category = "monsters"
+id = "dokkalfar-warlock-ed64b1cf"
 language = "zh-hans"
 name = "夜之精灵术士"
 
@@ -24952,15 +25059,33 @@ id = "ljosalfar"
 language = "zh-hans"
 name = "日之精灵"
 
+[entries."monsters/ljosalfar-31b25e32"]
+category = "monsters"
+id = "ljosalfar-31b25e32"
+language = "zh-hans"
+name = "日之精灵"
+
 [entries."monsters/ljosalfar-knight"]
 category = "monsters"
 id = "ljosalfar-knight"
 language = "zh-hans"
 name = "日之精灵骑士"
 
+[entries."monsters/ljosalfar-knight-c43a9903"]
+category = "monsters"
+id = "ljosalfar-knight-c43a9903"
+language = "zh-hans"
+name = "日之精灵骑士"
+
 [entries."monsters/ljosalfar-mage"]
 category = "monsters"
 id = "ljosalfar-mage"
+language = "zh-hans"
+name = "日之精灵法师"
+
+[entries."monsters/ljosalfar-mage-b163ef83"]
+category = "monsters"
+id = "ljosalfar-mage-b163ef83"
 language = "zh-hans"
 name = "日之精灵法师"
 
@@ -25096,9 +25221,9 @@ id = "mimic-king"
 language = "zh-hans"
 name = "宝箱王 (重生者)"
 
-[entries."monsters/minotaur"]
+[entries."monsters/minotaur-935686b0"]
 category = "monsters"
-id = "minotaur"
+id = "minotaur-935686b0"
 language = "zh-hans"
 name = "牛头怪 (重生者)"
 
@@ -25300,17 +25425,23 @@ id = "perseus-acolyte"
 language = "zh-hans"
 name = "珀尔修斯侍从"
 
-[entries."monsters/perseus-acolyte-f1d8afb3"]
+[entries."monsters/perseus-apostle"]
 category = "monsters"
-id = "perseus-acolyte-f1d8afb3"
+id = "perseus-apostle"
 language = "zh-hans"
-name = "珀尔修斯侍从"
+name = "Perseus Apostle"
 
-[entries."monsters/perseus-acolyte-ff80be87"]
+[entries."monsters/perseus-disciple"]
 category = "monsters"
-id = "perseus-acolyte-ff80be87"
+id = "perseus-disciple"
 language = "zh-hans"
-name = "珀尔修斯侍从"
+name = "Perseus Disciple"
+
+[entries."monsters/perseus-zealot"]
+category = "monsters"
+id = "perseus-zealot"
+language = "zh-hans"
+name = "Perseus Zealot"
 
 [entries."monsters/phaethon"]
 category = "monsters"
@@ -26309,6 +26440,13 @@ id = "fallen-king-arthus"
 language = "zh-hans"
 name = "堕落亚瑟王"
 
+[entries."raids/fallen-king-centaurus"]
+category = "raids"
+description = "Fallen King of Lerna, Centaurus."
+id = "fallen-king-centaurus"
+language = "zh-hans"
+name = "Fallen King Centaurus"
+
 [entries."raids/fallen-merlin"]
 category = "raids"
 description = "梅林是阿瓦隆王国中最具代表性的巫师，他的消逝也间接影响了王国的兴亡。"
@@ -26710,14 +26848,14 @@ name = "狄奥斯库洛伊兄弟"
 
 [entries."raids/the-fool"]
 category = "raids"
-description = "那是…卡尔？"
+description = "一为愚者，再为愚者，三亦为愚者。愚者还是智者，仅在他一念干戈之间。"
 id = "the-fool"
 language = "zh-hans"
 name = "愚人"
 
 [entries."raids/the-fool-ef1c6cb2"]
 category = "raids"
-description = "???"
+description = "一为愚者，再为愚者，三亦为愚者。愚者还是智者，仅在他一念干戈之间。"
 id = "the-fool-ef1c6cb2"
 language = "zh-hans"
 name = "愚人"
@@ -33655,8 +33793,8 @@ riftfall = "裂隙陷落"
 "stop_scruug!" = "史古基别捣乱！"
 summer_solstice = "冬至"
 sumner_games = "夏季运动会"
-terra_s_day = "Terra's Legacy: Of Reefs and Forests"
-terra_s_legacy = "泰拉日"
+terra_s_day = "泰拉日"
+terra_s_legacy = "泰拉的遗产"
 terra_s_legacy__natureblight = "泰拉的遗产: 萎化自然"
 terra_s_legacy__of_reefs_and_forests = "泰拉的遗产: 萎化自然"
 the_crimson_festival = "绯红节"
@@ -33987,6 +34125,7 @@ dual_wielding = "双手持武"
 duelist = "决斗家"
 high_cleric = "高阶牧师"
 merchant = "商人"
+ranger = "游侠"
 swashbuckler = "侠客"
 trickster = "诈术师"
 warden = "守护者"
@@ -34276,6 +34415,7 @@ t__all_u = "T. All ↑"
 t__all_uuu = "T. All ↑↑↑"
 t__att_d = "T. Att ↓"
 t__att_dd = "T. Att ↓↓"
+t__att_ddd = "T. Att ↓↓↓"
 t__att_u = "T. Att ↑"
 t__att_uu = "T. Att ↑↑"
 t__att_uuu = "T. Att ↑↑↑"
@@ -34292,6 +34432,7 @@ t__def_uu = "T. Def ↑↑"
 t__def_uuu = "T. Def ↑↑↑"
 t__dex_d = "T. Dex ↓"
 t__dex_u = "T. Dex ↑"
+t__dex_uu = "T. Dex ↑↑"
 t__dex_uuu = "T. Dex ↑↑↑"
 t__earth_immune = "T. 土免疫"
 t__earth_immune_uu = "T. 土免疫 ↑↑"
@@ -34303,11 +34444,13 @@ t__lightning_immune = "T. 雷免疫"
 t__lightning_immune_uu = "T. 雷免疫 ↑↑"
 t__mag_d = "T. Mag ↓"
 t__mag_dd = "T. Mag ↓↓"
+t__mag_ddd = "T. Mag ↓↓↓"
 t__mag_u = "T. Mag ↑"
 t__mag_uu = "T. Mag ↑↑"
 t__mag_uuu = "T. Mag ↑↑↑"
 t__res_d = "T. Res ↓"
 t__res_dd = "T. Res ↓↓"
+t__res_ddd = "T. Res ↓↓↓"
 t__res_u = "T. Res ↑"
 t__res_uu = "T. Res ↑↑"
 t__res_uuu = "T. Res ↑↑↑"

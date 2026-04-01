@@ -27693,6 +27693,13 @@ id = "boulder-toss"
 language = "zh-hant"
 name = "巨石飛擲"
 
+[entries."spells/bouncing-arrow"]
+category = "spells"
+description = "Loose an arrow that may hit an additional opponent."
+id = "bouncing-arrow"
+language = "zh-hant"
+name = "Bouncing Arrow (副手)"
+
 [entries."spells/break"]
 category = "spells"
 description = "施展破滅性的魔法,雖然傷害極小但能降低對手所有的素質.需要2回合施展."

@@ -27693,6 +27693,13 @@ id = "boulder-toss"
 language = "zh-hans"
 name = "巨石飞掷"
 
+[entries."spells/bouncing-arrow"]
+category = "spells"
+description = "Loose an arrow that may hit an additional opponent."
+id = "bouncing-arrow"
+language = "zh-hans"
+name = "Bouncing Arrow (副手)"
+
 [entries."spells/break"]
 category = "spells"
 description = "施展破灭性的魔法，虽然伤害极小但能降低对手的所有属性。在战斗中需要 2 回合发动。"

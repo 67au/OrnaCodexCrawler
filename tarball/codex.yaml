@@ -27509,7 +27509,7 @@ exotic = 1
 icon = "/img/wards/cretan_arrows.png"
 id = "cretan-arrows"
 item_type = "armor"
-offhand_ability = "spells/arrowstorm-2"
+offhand_ability = "spells/bouncing-arrow"
 place = "off_hand"
 rarity = "rare"
 tier = 10
@@ -77011,7 +77011,7 @@ power = "250-750 (x5)"
 category = "spells"
 icon = "/img/spells/multi_attack.png"
 id = "arrowstorm-2"
-off_hands = ["items/bricrius-bow", "items/cretan-arrows", "items/pizza"]
+off_hands = ["items/bricrius-bow", "items/pizza"]
 spell_type = "skill"
 tags = ["off_hand_ability"]
 targets = "every_opponent_in_a_battle"
@@ -78064,6 +78064,20 @@ name = "t__dex_d"
 [entries."spells/boulder-toss".stats]
 costs = 60
 power = "700-2100 (x4)"
+
+[entries."spells/bouncing-arrow"]
+category = "spells"
+icon = "/img/spells/blight.png"
+id = "bouncing-arrow"
+off_hands = ["items/cretan-arrows"]
+spell_type = "skill"
+tags = ["off_hand_ability"]
+targets = "a_single_opponent"
+tier = 10
+
+[entries."spells/bouncing-arrow".stats]
+crit_chance = 5
+power = "1700"
 
 [entries."spells/break"]
 category = "spells"

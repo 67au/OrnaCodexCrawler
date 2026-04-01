@@ -27693,6 +27693,13 @@ id = "boulder-toss"
 language = "en"
 name = "Boulder Toss"
 
+[entries."spells/bouncing-arrow"]
+category = "spells"
+description = "Loose an arrow that may hit an additional opponent."
+id = "bouncing-arrow"
+language = "en"
+name = "Bouncing Arrow (Off-hand)"
+
 [entries."spells/break"]
 category = "spells"
 description = "Cast extremely destructive magic, dealing minimal damage but lowering all of an opponent's stats. Requires 2 turns in battle."

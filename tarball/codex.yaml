@@ -11020,7 +11020,7 @@ ward = 8
 [entries."items/arena-token"]
 aura = "common"
 category = "items"
-dropped_by = ["bosses/ankou-eef994e0", "bosses/arachne", "bosses/bandit-lord", "bosses/camazotz-ebd4bcbf", "bosses/carman", "bosses/carmans-gargoyle-3e02da46", "bosses/cerberus", "bosses/death-worm", "bosses/demon-knight", "bosses/demon-prince", "bosses/draconian-lord-4938a8df668fd665508d59b6b053a26d", "bosses/elite-kobold-lord", "bosses/elite-orc-lord", "bosses/fafnir-66402ab7", "monsters/fallen-archmage", "monsters/fallen-knight", "monsters/fallen-mage", "monsters/fallen-rogue", "monsters/fallen-thief", "monsters/fallen-warrior", "monsters/fallen-witch", "monsters/fenrir", "bosses/fenrir-b21e25dd", "bosses/finfolk", "bosses/goblin-lord", "bosses/great-gazer", "bosses/great-jinn", "bosses/hobgoblin-lord", "bosses/lizarr-lord", "bosses/ljosalfar-lord", "bosses/lord-of-wolves-6d199a0f", "bosses/lost-pharaoh-0f685085", "monsters/mimic-king", "bosses/mimic-king-a90b8f0c", "bosses/minotaur", "bosses/orc-lord-aae6c979", "bosses/ronin", "bosses/sluagh-a557fcc4", "bosses/tiamat", "bosses/vampire-lord", "raids/arisen-cade", "raids/arisen-kerberos", "raids/arisen-merlin", "raids/arisen-naggeneen", "raids/cerus", "raids/fallen-merlin", "raids/ferocious-cerus", "raids/furious-cerus", "raids/ingenious-cade", "raids/kerberos", "raids/last-titan", "raids/maelor", "raids/naggeneen", "raids/starlord", "raids/the-fool", "raids/the-fool-ef1c6cb2"]
+dropped_by = ["bosses/ankou-eef994e0", "bosses/arachne", "monsters/aries-acolyte", "monsters/aries-apostle", "monsters/aries-disciple", "monsters/aries-zealot", "bosses/bandit-lord", "bosses/camazotz-ebd4bcbf", "bosses/carman", "bosses/carmans-gargoyle-3e02da46", "bosses/cerberus", "monsters/cerus-acolyte", "monsters/cerus-apostle", "monsters/cerus-disciple", "monsters/cerus-zealot", "bosses/death-worm", "bosses/demon-knight", "bosses/demon-prince", "bosses/draconian-lord-4938a8df668fd665508d59b6b053a26d", "bosses/elite-kobold-lord", "bosses/elite-orc-lord", "bosses/fafnir-66402ab7", "monsters/fallen-archmage", "monsters/fallen-knight", "monsters/fallen-mage", "monsters/fallen-rogue", "monsters/fallen-thief", "monsters/fallen-warrior", "monsters/fallen-witch", "monsters/fenrir", "bosses/fenrir-b21e25dd", "bosses/finfolk", "bosses/goblin-lord", "bosses/great-gazer", "bosses/great-jinn", "bosses/hobgoblin-lord", "bosses/lizarr-lord", "bosses/ljosalfar-lord", "bosses/lord-of-wolves-6d199a0f", "bosses/lost-pharaoh-0f685085", "monsters/mimic-king", "bosses/mimic-king-a90b8f0c", "bosses/minotaur", "bosses/orc-lord-aae6c979", "monsters/perseus-acolyte", "monsters/perseus-apostle", "monsters/perseus-disciple", "monsters/perseus-zealot", "bosses/ronin", "monsters/runeblade-of-finesse", "monsters/runeblade-of-finesse-5679c8ce", "monsters/runeblade-of-finesse-6501e0c6", "monsters/runeblade-of-finesse-7eb0c126", "monsters/runeblade-of-finesse-ad34c73a", "monsters/runeblade-of-finesse-c7b29611", "monsters/runeblade-of-finesse-e0553900", "bosses/sluagh-a557fcc4", "monsters/swordbearer-of-finesse", "monsters/swordbearer-of-finesse-de62c6bd", "monsters/swordbearer-of-finesse-0a53d84d", "monsters/swordbearer-of-finesse-3574bce3", "monsters/swordbearer-of-finesse-612600e2", "monsters/swordbearer-of-finesse-82f67d6f", "monsters/swordbearer-of-finesse-91560eaf", "bosses/tiamat", "bosses/vampire-lord", "raids/arisen-cade", "raids/arisen-kerberos", "raids/arisen-merlin", "raids/arisen-naggeneen", "raids/cerus", "raids/fallen-merlin", "raids/ferocious-cerus", "raids/furious-cerus", "raids/ingenious-cade", "raids/kerberos", "raids/last-titan", "raids/maelor", "raids/naggeneen", "raids/starlord", "raids/the-fool", "raids/the-fool-ef1c6cb2"]
 exotic = 0
 icon = "/img/useables/arena_token.png"
 id = "arena-token"
@@ -69953,45 +69953,45 @@ tier = 10
 
 [entries."monsters/aries-acolyte"]
 category = "monsters"
-drops = ["items/essence-of-aries"]
+drops = ["items/arena-token", "items/essence-of-aries"]
 events = ["the_crimson_festival"]
 family = "human"
 icon = "/img/monsters/aries_acolyte4.png"
 id = "aries-acolyte"
-rarity = "rare"
+rarity = "common"
 skills = ["spells/counterattack", "spells/cursed-glare", "spells/dark-sigil", "spells/darkstrike-iii", "spells/magic-strikes-iii"]
 tier = 9
 
 [entries."monsters/aries-apostle"]
 category = "monsters"
-drops = ["items/red-chloris"]
+drops = ["items/arena-token", "items/red-chloris"]
 events = ["the_crimson_festival"]
 family = "human"
 icon = "/img/monsters/aries_acolyte1.png"
 id = "aries-apostle"
-rarity = "rare"
+rarity = "common"
 skills = ["spells/darkstrike", "spells/full-bend"]
 tier = 4
 
 [entries."monsters/aries-disciple"]
 category = "monsters"
-drops = ["items/essence-of-aries"]
+drops = ["items/arena-token", "items/essence-of-aries"]
 events = ["the_crimson_festival"]
 family = "human"
 icon = "/img/monsters/aries_acolyte3.png"
 id = "aries-disciple"
-rarity = "rare"
+rarity = "common"
 skills = ["spells/counterattack", "spells/cursed-glare", "spells/dark-sigil", "spells/darkstrike-iii"]
 tier = 6
 
 [entries."monsters/aries-zealot"]
 category = "monsters"
-drops = ["items/red-chloris"]
+drops = ["items/arena-token", "items/red-chloris"]
 events = ["the_crimson_festival"]
 family = "human"
 icon = "/img/monsters/aries_acolyte2.png"
 id = "aries-zealot"
-rarity = "rare"
+rarity = "common"
 skills = ["spells/darkstrike-ii", "spells/counterattack", "spells/cursed-glare", "spells/dark-sigil", "spells/magic-sword-ii"]
 tier = 5
 
@@ -70474,45 +70474,45 @@ tier = 7
 
 [entries."monsters/cerus-acolyte"]
 category = "monsters"
-drops = ["items/essence-of-cerus"]
+drops = ["items/arena-token", "items/essence-of-cerus"]
 events = ["the_crimson_festival"]
 family = "human"
 icon = "/img/monsters/cerus_acolyte4.png"
 id = "cerus-acolyte"
-rarity = "rare"
+rarity = "common"
 skills = ["spells/counterattack", "spells/cursed-glare", "spells/dark-sigil", "spells/darkstrike-iii", "spells/magic-strikes-iii"]
 tier = 9
 
 [entries."monsters/cerus-apostle"]
 category = "monsters"
-drops = ["items/red-chloris"]
+drops = ["items/arena-token", "items/red-chloris"]
 events = ["the_crimson_festival"]
 family = "human"
 icon = "/img/monsters/cerus_acolyte1.png"
 id = "cerus-apostle"
-rarity = "rare"
+rarity = "common"
 skills = ["spells/darkstrike", "spells/rampart-ii"]
 tier = 4
 
 [entries."monsters/cerus-disciple"]
 category = "monsters"
-drops = ["items/essence-of-cerus"]
+drops = ["items/arena-token", "items/essence-of-cerus"]
 events = ["the_crimson_festival"]
 family = "human"
 icon = "/img/monsters/cerus_acolyte3.png"
 id = "cerus-disciple"
-rarity = "rare"
+rarity = "common"
 skills = ["spells/counterattack", "spells/cursed-glare", "spells/dark-sigil", "spells/darkstrike-iii"]
 tier = 6
 
 [entries."monsters/cerus-zealot"]
 category = "monsters"
-drops = ["items/red-chloris"]
+drops = ["items/arena-token", "items/red-chloris"]
 events = ["the_crimson_festival"]
 family = "human"
 icon = "/img/monsters/cerus_acolyte2.png"
 id = "cerus-zealot"
-rarity = "rare"
+rarity = "common"
 skills = ["spells/darkstrike-ii", "spells/counterattack", "spells/cursed-glare", "spells/dark-sigil", "spells/magic-sword-ii"]
 tier = 5
 
@@ -73431,45 +73431,45 @@ tier = 10
 
 [entries."monsters/perseus-acolyte"]
 category = "monsters"
-drops = ["items/essence-of-perseus"]
+drops = ["items/arena-token", "items/essence-of-perseus"]
 events = ["the_crimson_festival"]
 family = "human"
 icon = "/img/monsters/perseus_acolyte4.png"
 id = "perseus-acolyte"
-rarity = "rare"
+rarity = "common"
 skills = ["spells/counterattack", "spells/cursed-glare", "spells/dark-sigil", "spells/darkstrike-iii", "spells/magic-strikes-iii"]
 tier = 9
 
 [entries."monsters/perseus-apostle"]
 category = "monsters"
-drops = ["items/red-chloris"]
+drops = ["items/arena-token", "items/red-chloris"]
 events = ["the_crimson_festival"]
 family = "human"
 icon = "/img/monsters/perseus_acolyte1.png"
 id = "perseus-apostle"
-rarity = "rare"
+rarity = "common"
 skills = ["spells/alpha-dart", "spells/darkstrike"]
 tier = 4
 
 [entries."monsters/perseus-disciple"]
 category = "monsters"
-drops = ["items/essence-of-perseus"]
+drops = ["items/arena-token", "items/essence-of-perseus"]
 events = ["the_crimson_festival"]
 family = "human"
 icon = "/img/monsters/perseus_acolyte3.png"
 id = "perseus-disciple"
-rarity = "rare"
+rarity = "common"
 skills = ["spells/counterattack", "spells/cursed-glare", "spells/dark-sigil", "spells/darkstrike-iii"]
 tier = 6
 
 [entries."monsters/perseus-zealot"]
 category = "monsters"
-drops = ["items/red-chloris"]
+drops = ["items/arena-token", "items/red-chloris"]
 events = ["the_crimson_festival"]
 family = "human"
 icon = "/img/monsters/perseus_acolyte2.png"
 id = "perseus-zealot"
-rarity = "rare"
+rarity = "common"
 skills = ["spells/darkstrike-ii", "spells/counterattack", "spells/cursed-glare", "spells/dark-sigil", "spells/magic-sword-ii"]
 tier = 5
 
@@ -73705,7 +73705,7 @@ tier = 2
 [entries."monsters/runeblade-of-finesse"]
 abilities = ["second_chance", "finesse_s_training"]
 category = "monsters"
-drops = ["items/soul"]
+drops = ["items/arena-token", "items/soul"]
 family = "human"
 icon = "/img/npcs/blades/24_m.png"
 id = "runeblade-of-finesse"
@@ -73716,7 +73716,7 @@ tier = 8
 [entries."monsters/runeblade-of-finesse-5679c8ce"]
 abilities = ["second_chance", "finesse_s_training"]
 category = "monsters"
-drops = ["items/soul"]
+drops = ["items/arena-token", "items/soul"]
 family = "human"
 icon = "/img/npcs/blades/15_m.png"
 id = "runeblade-of-finesse-5679c8ce"
@@ -73727,7 +73727,7 @@ tier = 10
 [entries."monsters/runeblade-of-finesse-6501e0c6"]
 abilities = ["second_chance", "finesse_s_training"]
 category = "monsters"
-drops = ["items/soul"]
+drops = ["items/arena-token", "items/soul"]
 family = "human"
 icon = "/img/npcs/blades/15_f.png"
 id = "runeblade-of-finesse-6501e0c6"
@@ -73738,7 +73738,7 @@ tier = 9
 [entries."monsters/runeblade-of-finesse-7eb0c126"]
 abilities = ["second_chance", "finesse_s_training"]
 category = "monsters"
-drops = ["items/soul"]
+drops = ["items/arena-token", "items/soul"]
 family = "human"
 icon = "/img/npcs/blades/4_m.png"
 id = "runeblade-of-finesse-7eb0c126"
@@ -73749,7 +73749,7 @@ tier = 7
 [entries."monsters/runeblade-of-finesse-ad34c73a"]
 abilities = ["second_chance", "finesse_s_training"]
 category = "monsters"
-drops = ["items/soul"]
+drops = ["items/arena-token", "items/soul"]
 family = "human"
 icon = "/img/npcs/blades/4_f.png"
 id = "runeblade-of-finesse-ad34c73a"
@@ -73760,18 +73760,18 @@ tier = 6
 [entries."monsters/runeblade-of-finesse-c7b29611"]
 abilities = ["second_chance", "finesse_s_training"]
 category = "monsters"
-drops = ["items/soul"]
+drops = ["items/arena-token", "items/soul"]
 family = "human"
 icon = "/img/npcs/blades/2_m.png"
 id = "runeblade-of-finesse-c7b29611"
 rarity = "rare"
-skills = ["spells/bolt-iii", "spells/magic-hammer", "spells/magic-shield-ii", "spells/magic-strikes", "spells/meteor-ii", "spells/storm-ii"]
+skills = ["spells/magic-shield-ii", "spells/bolt-iii", "spells/magic-hammer", "spells/magic-strikes", "spells/meteor-ii", "spells/storm-ii"]
 tier = 4
 
 [entries."monsters/runeblade-of-finesse-e0553900"]
 abilities = ["second_chance", "finesse_s_training"]
 category = "monsters"
-drops = ["items/soul"]
+drops = ["items/arena-token", "items/soul"]
 family = "human"
 icon = "/img/npcs/blades/2_f.png"
 id = "runeblade-of-finesse-e0553900"
@@ -74203,7 +74203,7 @@ tier = 8
 [entries."monsters/swordbearer-of-finesse"]
 abilities = ["second_chance", "finesse_s_training"]
 category = "monsters"
-drops = ["items/soul"]
+drops = ["items/arena-token", "items/soul"]
 family = "human"
 icon = "/img/npcs/blades/12_f.png"
 id = "swordbearer-of-finesse"
@@ -74214,7 +74214,7 @@ tier = 8
 [entries."monsters/swordbearer-of-finesse-0a53d84d"]
 abilities = ["second_chance", "finesse_s_training"]
 category = "monsters"
-drops = ["items/soul"]
+drops = ["items/arena-token", "items/soul"]
 family = "human"
 icon = "/img/npcs/blades/14_f.png"
 id = "swordbearer-of-finesse-0a53d84d"
@@ -74225,18 +74225,18 @@ tier = 6
 [entries."monsters/swordbearer-of-finesse-3574bce3"]
 abilities = ["second_chance", "finesse_s_training"]
 category = "monsters"
-drops = ["items/soul"]
+drops = ["items/arena-token", "items/soul"]
 family = "human"
 icon = "/img/npcs/blades/8_m.png"
 id = "swordbearer-of-finesse-3574bce3"
 rarity = "rare"
-skills = ["spells/arcane-strikes", "spells/blightstrike", "spells/darkstrike-ii", "spells/onslaught", "spells/rebirth", "spells/scout-weakness", "spells/ward-of-steel", "spells/wyvern-speed-ii"]
+skills = ["spells/blightstrike", "spells/arcane-strikes", "spells/darkstrike-ii", "spells/onslaught", "spells/rebirth", "spells/scout-weakness", "spells/ward-of-steel", "spells/wyvern-speed-ii"]
 tier = 5
 
 [entries."monsters/swordbearer-of-finesse-612600e2"]
 abilities = ["second_chance", "finesse_s_training"]
 category = "monsters"
-drops = ["items/soul"]
+drops = ["items/arena-token", "items/soul"]
 family = "human"
 icon = "/img/npcs/blades/23_m.png"
 id = "swordbearer-of-finesse-612600e2"
@@ -74247,7 +74247,7 @@ tier = 9
 [entries."monsters/swordbearer-of-finesse-82f67d6f"]
 abilities = ["second_chance", "finesse_s_training"]
 category = "monsters"
-drops = ["items/soul"]
+drops = ["items/arena-token", "items/soul"]
 family = "human"
 icon = "/img/npcs/blades/6_m.png"
 id = "swordbearer-of-finesse-82f67d6f"
@@ -74258,7 +74258,7 @@ tier = 4
 [entries."monsters/swordbearer-of-finesse-91560eaf"]
 abilities = ["second_chance", "finesse_s_training"]
 category = "monsters"
-drops = ["items/soul"]
+drops = ["items/arena-token", "items/soul"]
 family = "human"
 icon = "/img/npcs/blades/26_f.png"
 id = "swordbearer-of-finesse-91560eaf"
@@ -74269,7 +74269,7 @@ tier = 10
 [entries."monsters/swordbearer-of-finesse-de62c6bd"]
 abilities = ["second_chance", "finesse_s_training"]
 category = "monsters"
-drops = ["items/soul"]
+drops = ["items/arena-token", "items/soul"]
 family = "human"
 icon = "/img/npcs/blades/9_m.png"
 id = "swordbearer-of-finesse-de62c6bd"
@@ -78135,9 +78135,13 @@ tags = ["off_hand_ability"]
 targets = "a_single_opponent"
 tier = 10
 
+[[entries."spells/bouncing-arrow".causes]]
+chance = 30
+name = "stunned"
+
 [entries."spells/bouncing-arrow".stats]
-crit_chance = 5
-power = "1700"
+crit_chance = 15
+power = "2200"
 
 [entries."spells/break"]
 category = "spells"

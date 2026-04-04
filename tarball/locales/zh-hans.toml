@@ -19069,7 +19069,7 @@ category = "items"
 description = "A Card dropped from a strange entity during the \"Fool of April\" event."
 id = "playing-cards"
 language = "zh-hans"
-name = "Playing Cards"
+name = "游戏卡牌"
 
 [entries."items/poison-arrows"]
 category = "items"
@@ -32630,7 +32630,7 @@ name = "圣甲虫群召唤"
 
 [entries."spells/summon-kheper-swarm-2"]
 category = "spells"
-description = "Summon many beasts to assist you."
+description = "召唤更多野兽来协助你。"
 id = "summon-kheper-swarm-2"
 language = "zh-hans"
 name = "圣甲虫群召唤 (副手)"

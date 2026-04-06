@@ -27573,11 +27573,10 @@ chain_damage_chance = 8
 crit_chance = 25
 critical_chain = 3
 magic = 30
-ward = 8
+ward = 10
 
 [entries."items/cretan-arrows".stats_conditions]
 crit_chance = ["ranger"]
-critical_chain = ["ranger"]
 
 [entries."items/cretan-compound-bow"]
 aura = "rare"
@@ -27606,10 +27605,6 @@ crit = 7
 critical_chain = 3
 magic = 244
 mana = 200
-ward = -5
-
-[entries."items/cretan-compound-bow".stats_conditions]
-critical_chain = ["ranger"]
 
 [entries."items/crimson-eye"]
 aura = "rare"
@@ -27652,7 +27647,7 @@ name = "t__crit_uu"
 
 [entries."items/crimson-eye-of-centaurus".stats]
 accuracy = 1
-dexterity = -50
+dexterity = -20
 foresight = 5
 hp = 25
 mana = 25
@@ -45284,7 +45279,7 @@ name = "blind"
 accuracy = 3
 adornment_slots = 5
 attack = 5
-critical_chain = 1
+critical_chain = 3
 defense = 205
 dexterity = 150
 foresight = 50
@@ -48868,14 +48863,14 @@ name = "stunned"
 accuracy = 3
 adornment_slots = 5
 attack = 5
-critical_chain = 1
-defense = 140
+critical_chain = 3
+defense = 205
 dexterity = 150
 foresight = 50
 hp = 300
 magic = 5
 mana = -300
-resistance = 140
+resistance = 205
 ward = 1
 
 [entries."items/liver-of-prometheus"]

@@ -31559,7 +31559,7 @@ name = "Requiem III (Off-hand)"
 
 [entries."spells/reraise"]
 category = "spells"
-description = "Grants a blessing that may automatically revive a party member when falling in battle."
+description = "Grants a blessing that may automatically revive a party member when falling in battle (PvE only)."
 id = "reraise"
 language = "en"
 name = "Reraise"

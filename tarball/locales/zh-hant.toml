@@ -20311,7 +20311,7 @@ name = "混沌卷軸"
 
 [entries."items/scroll-of-crimson-chaos"]
 category = "items"
-description = "A scroll containing stories of Lerna's Crimson Festival. Reading it will bring these stories to life, enveloping your world in chaos and greatly increasing the chances of encountering monsters belonging to the Crimson Festival world event. This item may only be used during the Crimson Festival.\n\nFor T6+ players, Community Raid Events of the Crimson Festival's celestial Gods may also be found when exploring your world."
+description = "這是一卷記載著勒拿緋紅祭故事的卷軸。閱讀它將使這些故事化為現實，讓混沌壟罩你的世界，並大幅增加遭遇屬於緋紅祭世界活動怪物的機率。此道具僅限於緋紅祭期間使用。\n\nT6+ 玩家，在探索世界時，也可能會發現屬於緋紅祭星天之神的社群副本活動。"
 id = "scroll-of-crimson-chaos"
 language = "zh-hant"
 name = "緋紅混沌卷軸"

@@ -45282,11 +45282,14 @@ attack = 5
 critical_chain = 3
 defense = 205
 dexterity = 150
+follower_act = 3
 foresight = 50
 hp = 300
 magic = 5
-mana = -300
+mana_reduction = 3
 resistance = 205
+status_protection = 6
+summon_stats = 8
 ward = 1
 
 [entries."items/horned-helmet"]
@@ -45381,10 +45384,13 @@ name = "t__dex_uuu"
 adornment_slots = 2
 defense = 205
 dexterity = 180
+follower_act = 3
 foresight = 50
 hp = 150
 luck_bonus = 15
 resistance = 205
+status_protection = 6
+summon_stats = 8
 ward = 7
 
 [entries."items/horuss-robe"]
@@ -48862,15 +48868,17 @@ name = "stunned"
 [entries."items/linothorax".stats]
 accuracy = 3
 adornment_slots = 5
-attack = 5
+attack = 35
 critical_chain = 3
 defense = 205
 dexterity = 150
+follower_act = 3
 foresight = 50
-hp = 300
-magic = 5
-mana = -300
+magic = 35
+mana = 500
 resistance = 205
+status_protection = 6
+summon_stats = 8
 ward = 1
 
 [entries."items/liver-of-prometheus"]
@@ -57304,7 +57312,8 @@ resistance = -24
 [entries."items/raging-bulls-eye"]
 aura = "famed"
 category = "items"
-exotic = 0
+dropped_by = ["raids/cerus"]
+exotic = 1
 icon = "/img/jewels/57.png"
 id = "raging-bulls-eye"
 item_type = "adornment"
@@ -75058,7 +75067,7 @@ tier = 10
 
 [entries."raids/cerus"]
 category = "raids"
-drops = ["items/arena-token", "items/exp-potion", "items/attack-tonic", "items/monster-remains", "items/skeleton-key", "items/greater-attack-tonic", "items/greater-magic-tonic", "items/affinity-candle", "items/belt-of-cerus", "items/bulls-eye", "items/horned-armor", "items/horned-helmet", "items/horned-hood", "items/raging-bull", "items/untamed-bull"]
+drops = ["items/arena-token", "items/exp-potion", "items/attack-tonic", "items/monster-remains", "items/skeleton-key", "items/greater-attack-tonic", "items/greater-magic-tonic", "items/affinity-candle", "items/belt-of-cerus", "items/bulls-eye", "items/horned-armor", "items/horned-helmet", "items/horned-hood", "items/raging-bull", "items/raging-bulls-eye", "items/untamed-bull"]
 events = ["the_crimson_festival"]
 hp = 1520000
 icon = "/img/bosses/cerus.png"

@@ -5268,7 +5268,7 @@ spell_rate = 20
 [entries."followers/bone-mammoth"]
 bestial_bond = [[{name = "exp_bonus", value = 3, type = "BONUS"}, {name = "orn_bonus", value = 3, type = "BONUS"}], [{name = "bonded_hp", value = 80, type = "BOND"}], [{name = "bonded_hp", value = 80, type = "BOND"}]]
 category = "followers"
-events = ["terra_s_legacy__natureblight"]
+events = ["terra_s_day"]
 family = "common"
 icon = "/img/monsters/terras/bone_mammoth.png"
 id = "bone-mammoth"
@@ -5557,7 +5557,7 @@ spell_rate = 3
 [entries."followers/coral-reef"]
 bestial_bond = [[{name = "accuracy", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 12, type = "BOND"}, {name = "bonded_dexterity", value = 7, type = "BOND"}], [{name = "bonded_attack", value = 12, type = "BOND"}, {name = "bonded_dexterity", value = 15, type = "BOND"}]]
 category = "followers"
-events = ["terra_s_legacy__natureblight"]
+events = ["terra_s_day"]
 family = "common"
 icon = "/img/monsters/terras/great_coral.png"
 id = "coral-reef"
@@ -6222,7 +6222,7 @@ spell_rate = 5
 [entries."followers/giant-panda"]
 bestial_bond = [[{name = "accuracy", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 12, type = "BOND"}, {name = "bonded_dexterity", value = 7, type = "BOND"}], [{name = "bonded_attack", value = 12, type = "BOND"}, {name = "bonded_dexterity", value = 15, type = "BOND"}]]
 category = "followers"
-events = ["terra_s_legacy__natureblight"]
+events = ["terra_s_day"]
 family = "common"
 icon = "/img/monsters/terras/giant_panda.png"
 id = "giant-panda"
@@ -6236,7 +6236,7 @@ spell_rate = 12
 [entries."followers/giant-tortoise"]
 bestial_bond = [[{name = "ward_start", value = 2, type = "BONUS"}, {name = "earthen_res", value = 20, type = "BONUS"}], [{name = "bonded_ward", value = 50, type = "BOND"}, {name = "bonded_defense", value = 8, type = "BOND"}, {name = "bonded_resistance", value = 8, type = "BOND"}, {name = "t__def_u", value = 7, type = "BOND"}, {name = "t__res_u", value = 2, type = "BOND"}], [{name = "bonded_ward", value = 80, type = "BOND"}, {name = "bonded_defense", value = 9, type = "BOND"}, {name = "bonded_resistance", value = 9, type = "BOND"}]]
 category = "followers"
-events = ["terra_s_legacy__natureblight"]
+events = ["terra_s_day"]
 family = "common"
 icon = "/img/monsters/terras/giant_tortoise.png"
 id = "giant-tortoise"
@@ -7000,7 +7000,7 @@ spell_rate = 15
 [entries."followers/macaroni-penguin"]
 bestial_bond = [[{name = "crit_chance", value = 4, type = "BONUS"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 4, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}, {name = "crit_damage", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_crit", value = 20, type = "BOND"}]]
 category = "followers"
-events = ["terra_s_legacy__natureblight"]
+events = ["terra_s_day"]
 family = "common"
 icon = "/img/monsters/terras/macaroni_penguin.png"
 id = "macaroni-penguin"
@@ -7153,7 +7153,7 @@ spell_rate = 5
 [entries."followers/mountain-gorilla"]
 bestial_bond = [[{name = "damage_at_full_hp", value = 15, type = "BONUS"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_defense", value = 8, type = "BOND"}], [{name = "bonded_attack", value = 12, type = "BOND"}, {name = "bonded_defense", value = 12, type = "BOND"}, {name = "berserk", type = "ABILITY", key = "spells/berserk"}]]
 category = "followers"
-events = ["terra_s_legacy__natureblight"]
+events = ["terra_s_day"]
 family = "common"
 icon = "/img/monsters/terras/mountain_gorilla.png"
 id = "mountain-gorilla"
@@ -9104,7 +9104,7 @@ name = "asleep"
 [entries."items/aengus-ogs-lute".stats]
 adornment_slots = 2
 attack = 30
-beast_taming = 15
+beast_taming = -15
 follower_stats = 4
 magic = 30
 ward = 12
@@ -11121,7 +11121,7 @@ useable_by = "all_classes"
 [entries."items/argos".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defend_power = 20
@@ -12561,7 +12561,7 @@ name = "asleep"
 [entries."items/arisen-cursed-aengus-ogs-lute".stats]
 adornment_slots = 2
 attack = 75
-beast_taming = 25
+beast_taming = -25
 follower_stats = 8
 magic = 75
 summon_stats = 8
@@ -12586,7 +12586,7 @@ name = "paralyzed"
 
 [entries."items/arisen-cursed-artios-hide".stats]
 adornment_slots = 4
-beast_taming = 25
+beast_taming = -25
 defense = 175
 follower_stats = 8
 resistance = 175
@@ -12615,7 +12615,7 @@ name = "confused"
 
 [entries."items/arisen-cursed-atepomarus-mail".stats]
 adornment_slots = 4
-beast_taming = 27
+beast_taming = -27
 defense = 212
 follower_stats = 10
 resistance = 212
@@ -12639,7 +12639,7 @@ useable_by = "thief_classes"
 [entries."items/arisen-cursed-autumna-crested-shield".stats]
 adornment_slots = 2
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 175
@@ -12674,7 +12674,7 @@ name = "blight"
 
 [entries."items/arisen-cursed-belenuss-boots".stats]
 adornment_slots = 4
-beast_taming = 25
+beast_taming = -25
 defense = 175
 follower_stats = 8
 resistance = 175
@@ -12878,7 +12878,7 @@ useable_by = "thief_classes"
 [entries."items/arisen-cursed-fomoria-plated-boots".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 175
@@ -12907,7 +12907,7 @@ useable_by = "warrior_classes"
 [entries."items/arisen-cursed-fomoria-plated-boots-56e4841c".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 237
@@ -12936,7 +12936,7 @@ useable_by = "magic_users"
 [entries."items/arisen-cursed-fomoria-plated-boots-7aefba00".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = -200
@@ -12965,7 +12965,7 @@ useable_by = "valhallan_summoner_classes"
 [entries."items/arisen-cursed-fomoria-plated-boots-b2c283ff".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 150
@@ -12994,7 +12994,7 @@ useable_by = "warrior_classes"
 [entries."items/arisen-cursed-fomoria-plated-robe".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 237
@@ -13023,7 +13023,7 @@ useable_by = "thief_classes"
 [entries."items/arisen-cursed-fomoria-plated-robe-9a5a1cdd".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 175
@@ -13052,7 +13052,7 @@ useable_by = "magic_users"
 [entries."items/arisen-cursed-fomoria-plated-robe-ca4ddba5".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = -200
@@ -13081,7 +13081,7 @@ useable_by = "valhallan_summoner_classes"
 [entries."items/arisen-cursed-fomoria-plated-robe-d5d338d8".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 150
@@ -13110,7 +13110,7 @@ useable_by = "warrior_classes"
 [entries."items/arisen-cursed-fomors-crown".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 237
@@ -13140,7 +13140,7 @@ useable_by = "thief_classes"
 [entries."items/arisen-cursed-fomors-crown-276564a1".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 175
@@ -13170,7 +13170,7 @@ useable_by = "magic_users"
 [entries."items/arisen-cursed-fomors-crown-2cb9b4e6".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = -200
@@ -13200,7 +13200,7 @@ useable_by = "valhallan_summoner_classes"
 [entries."items/arisen-cursed-fomors-crown-3a4a918b".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 150
@@ -13335,7 +13335,7 @@ name = "blind"
 
 [entries."items/arisen-cursed-mullos-blinders".stats]
 adornment_slots = 4
-beast_taming = 25
+beast_taming = -25
 defense = 175
 follower_stats = 8
 resistance = 175
@@ -13386,7 +13386,7 @@ useable_by = "valhallan_summoner_classes"
 [entries."items/arisen-cursed-nocturna-crested-shield".stats]
 adornment_slots = 2
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 150
@@ -13497,7 +13497,7 @@ useable_by = "warrior_classes"
 [entries."items/arisen-cursed-sumner-crested-shield".stats]
 adornment_slots = 2
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 237
@@ -13527,7 +13527,7 @@ useable_by = "magic_users"
 [entries."items/arisen-cursed-wintara-crested-shield".stats]
 adornment_slots = 2
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = -200
@@ -18803,7 +18803,7 @@ name = "paralyzed"
 
 [entries."items/artios-hide".stats]
 adornment_slots = 4
-beast_taming = 15
+beast_taming = -15
 defense = 70
 follower_stats = 6
 resistance = 70
@@ -19814,7 +19814,7 @@ name = "confused"
 
 [entries."items/atepomarus-mail".stats]
 adornment_slots = 4
-beast_taming = 16
+beast_taming = -16
 defense = 85
 follower_stats = 5
 resistance = 85
@@ -19965,7 +19965,7 @@ useable_by = "thief_classes"
 [entries."items/autumna-crested-shield".stats]
 adornment_slots = 2
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 70
@@ -23597,7 +23597,7 @@ name = "blight"
 
 [entries."items/belenuss-boots".stats]
 adornment_slots = 4
-beast_taming = 15
+beast_taming = -15
 defense = 70
 follower_stats = 4
 resistance = 70
@@ -28172,7 +28172,7 @@ name = "asleep"
 [entries."items/cursed-aengus-ogs-lute".stats]
 adornment_slots = 2
 attack = 60
-beast_taming = 20
+beast_taming = -20
 follower_stats = 8
 magic = 60
 summon_stats = 8
@@ -28197,7 +28197,7 @@ name = "paralyzed"
 
 [entries."items/cursed-artios-hide".stats]
 adornment_slots = 4
-beast_taming = 20
+beast_taming = -20
 defense = 140
 follower_stats = 8
 resistance = 140
@@ -28226,7 +28226,7 @@ name = "confused"
 
 [entries."items/cursed-atepomarus-mail".stats]
 adornment_slots = 4
-beast_taming = 22
+beast_taming = -22
 defense = 170
 follower_stats = 8
 resistance = 170
@@ -28250,7 +28250,7 @@ useable_by = "thief_classes"
 [entries."items/cursed-autumna-crested-shield".stats]
 adornment_slots = 2
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 140
@@ -28285,7 +28285,7 @@ name = "blight"
 
 [entries."items/cursed-belenuss-boots".stats]
 adornment_slots = 4
-beast_taming = 20
+beast_taming = -20
 defense = 140
 follower_stats = 8
 resistance = 140
@@ -28510,7 +28510,7 @@ useable_by = "thief_classes"
 [entries."items/cursed-fomoria-plated-boots".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 140
@@ -28539,7 +28539,7 @@ useable_by = "magic_users"
 [entries."items/cursed-fomoria-plated-boots-7a9f5efc".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = -160
@@ -28568,7 +28568,7 @@ useable_by = "warrior_classes"
 [entries."items/cursed-fomoria-plated-boots-c6787dd8".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 190
@@ -28597,7 +28597,7 @@ useable_by = "valhallan_summoner_classes"
 [entries."items/cursed-fomoria-plated-boots-e03e2c7a".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 120
@@ -28626,7 +28626,7 @@ useable_by = "magic_users"
 [entries."items/cursed-fomoria-plated-robe".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = -160
@@ -28655,7 +28655,7 @@ useable_by = "warrior_classes"
 [entries."items/cursed-fomoria-plated-robe-5d09a4d7".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 190
@@ -28684,7 +28684,7 @@ useable_by = "thief_classes"
 [entries."items/cursed-fomoria-plated-robe-62b00ff5".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 140
@@ -28713,7 +28713,7 @@ useable_by = "valhallan_summoner_classes"
 [entries."items/cursed-fomoria-plated-robe-858bfe6c".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 120
@@ -28742,7 +28742,7 @@ useable_by = "thief_classes"
 [entries."items/cursed-fomors-crown".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 140
@@ -28772,7 +28772,7 @@ useable_by = "warrior_classes"
 [entries."items/cursed-fomors-crown-440afac8".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 190
@@ -28802,7 +28802,7 @@ useable_by = "magic_users"
 [entries."items/cursed-fomors-crown-af8c4b7d".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = -160
@@ -28832,7 +28832,7 @@ useable_by = "valhallan_summoner_classes"
 [entries."items/cursed-fomors-crown-e4efc526".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 120
@@ -29021,7 +29021,7 @@ name = "blind"
 
 [entries."items/cursed-mullos-blinders".stats]
 adornment_slots = 4
-beast_taming = 20
+beast_taming = -20
 defense = 140
 follower_stats = 8
 resistance = 140
@@ -29072,7 +29072,7 @@ useable_by = "valhallan_summoner_classes"
 [entries."items/cursed-nocturna-crested-shield".stats]
 adornment_slots = 2
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 120
@@ -29261,7 +29261,7 @@ useable_by = "warrior_classes"
 [entries."items/cursed-sumner-crested-shield".stats]
 adornment_slots = 2
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 190
@@ -29309,7 +29309,7 @@ useable_by = "magic_users"
 [entries."items/cursed-wintara-crested-shield".stats]
 adornment_slots = 2
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = -160
@@ -39405,7 +39405,7 @@ useable_by = "valhallan_summoner_classes"
 [entries."items/fomoria-plated-boots".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 60
@@ -39434,7 +39434,7 @@ useable_by = "warrior_classes"
 [entries."items/fomoria-plated-boots-12aa0ab8".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 95
@@ -39463,7 +39463,7 @@ useable_by = "thief_classes"
 [entries."items/fomoria-plated-boots-8a5bd211".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 70
@@ -39492,7 +39492,7 @@ useable_by = "magic_users"
 [entries."items/fomoria-plated-boots-b9357c84".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = -80
@@ -39521,7 +39521,7 @@ useable_by = "valhallan_summoner_classes"
 [entries."items/fomoria-plated-robe".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 60
@@ -39550,7 +39550,7 @@ useable_by = "magic_users"
 [entries."items/fomoria-plated-robe-272802ec".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = -80
@@ -39579,7 +39579,7 @@ useable_by = "thief_classes"
 [entries."items/fomoria-plated-robe-427f8b42".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 70
@@ -39608,7 +39608,7 @@ useable_by = "warrior_classes"
 [entries."items/fomoria-plated-robe-fb3188b6".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 95
@@ -39836,7 +39836,7 @@ useable_by = "valhallan_summoner_classes"
 [entries."items/fomors-crown".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 60
@@ -39866,7 +39866,7 @@ useable_by = "warrior_classes"
 [entries."items/fomors-crown-2cca9537".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 95
@@ -39896,7 +39896,7 @@ useable_by = "magic_users"
 [entries."items/fomors-crown-d8f79592".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = -80
@@ -39926,7 +39926,7 @@ useable_by = "thief_classes"
 [entries."items/fomors-crown-faad302c".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 70
@@ -50391,7 +50391,7 @@ useable_by = "all_classes"
 
 [entries."items/manticore-eye".stats]
 attack = 3
-beast_taming = 2
+beast_taming = -2
 defense = 3
 hp = 4
 magic = 3
@@ -51812,7 +51812,7 @@ name = "blind"
 
 [entries."items/mullos-blinders".stats]
 adornment_slots = 4
-beast_taming = 15
+beast_taming = -15
 defense = 70
 follower_stats = 4
 resistance = 70
@@ -52764,7 +52764,7 @@ useable_by = "valhallan_summoner_classes"
 [entries."items/nocturna-crested-shield".stats]
 adornment_slots = 2
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 60
@@ -56944,7 +56944,7 @@ useable_by = "all_classes"
 [entries."items/purrlys-hood".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 150
@@ -57001,7 +57001,7 @@ name = "lulled"
 [entries."items/purrlys-less-favourite-staff".stats]
 adornment_slots = 2
 attack = 75
-beast_taming = 25
+beast_taming = -25
 follower_stats = 8
 magic = 75
 summon_stats = 8
@@ -57024,7 +57024,7 @@ useable_by = "all_classes"
 [entries."items/purrlys-old-hat".stats]
 adornment_slots = 4
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 120
@@ -57086,7 +57086,7 @@ name = "lulled"
 [entries."items/purrlys-old-staff".stats]
 adornment_slots = 2
 attack = 60
-beast_taming = 20
+beast_taming = -20
 follower_stats = 8
 magic = 60
 summon_stats = 8
@@ -63522,7 +63522,7 @@ useable_by = "warrior_classes"
 [entries."items/sumner-crested-shield".stats]
 adornment_slots = 2
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = 95
@@ -66977,7 +66977,7 @@ useable_by = "magic_users"
 [entries."items/wintara-crested-shield".stats]
 adornment_slots = 2
 ally_effect_chance = 5
-beast_taming = 10
+beast_taming = -10
 buff_duration = 5
 chain_damage_chance = 5
 defense = -80
@@ -70330,7 +70330,7 @@ tier = 1
 [entries."monsters/bone-mammoth"]
 abilities = ["collateral_damage_iii"]
 category = "monsters"
-events = ["terra_s_legacy__natureblight"]
+events = ["terra_s_day"]
 family = "common"
 icon = "/img/monsters/terras/bone_mammoth.png"
 id = "bone-mammoth"
@@ -70565,7 +70565,7 @@ tier = 8
 
 [entries."monsters/coral-reef"]
 category = "monsters"
-events = ["terra_s_legacy__natureblight"]
+events = ["terra_s_day"]
 family = "common"
 icon = "/img/monsters/terras/great_coral.png"
 id = "coral-reef"
@@ -71970,7 +71970,7 @@ tier = 3
 [entries."monsters/giant-panda"]
 abilities = ["collateral_damage_iii"]
 category = "monsters"
-events = ["terra_s_legacy__natureblight"]
+events = ["terra_s_day"]
 family = "common"
 icon = "/img/monsters/terras/giant_panda.png"
 id = "giant-panda"
@@ -71982,7 +71982,7 @@ tier = 9
 [entries."monsters/giant-tortoise"]
 abilities = ["collateral_damage_iii"]
 category = "monsters"
-events = ["terra_s_legacy__natureblight"]
+events = ["terra_s_day"]
 family = "common"
 icon = "/img/monsters/terras/giant_tortoise.png"
 id = "giant-tortoise"
@@ -72962,7 +72962,7 @@ tier = 10
 [entries."monsters/macaroni-penguin"]
 abilities = ["collateral_damage_iii"]
 category = "monsters"
-events = ["terra_s_legacy__natureblight"]
+events = ["terra_s_day"]
 family = "common"
 icon = "/img/monsters/terras/macaroni_penguin.png"
 id = "macaroni-penguin"
@@ -73121,7 +73121,7 @@ tier = 3
 [entries."monsters/mountain-gorilla"]
 abilities = ["collateral_damage_iii"]
 category = "monsters"
-events = ["terra_s_legacy__natureblight"]
+events = ["terra_s_day"]
 family = "common"
 icon = "/img/monsters/terras/mountain_gorilla.png"
 id = "mountain-gorilla"
@@ -73144,7 +73144,7 @@ tier = 3
 
 [entries."monsters/murk"]
 category = "monsters"
-events = ["terra_s_day", "terra_s_legacy", "terra_s_legacy__natureblight", "terra_s_legacy__of_reefs_and_forests"]
+events = ["terra_s_day"]
 family = "common"
 icon = "/img/monsters/murk2.png"
 id = "murk"
@@ -73155,7 +73155,7 @@ tier = 6
 [entries."monsters/murk-066bec2c"]
 abilities = ["collateral_damage_iv"]
 category = "monsters"
-events = ["terra_s_day", "terra_s_legacy", "terra_s_legacy__natureblight", "terra_s_legacy__of_reefs_and_forests"]
+events = ["terra_s_day"]
 family = "common"
 icon = "/img/monsters/murk3.png"
 id = "murk-066bec2c"
@@ -73165,7 +73165,7 @@ tier = 9
 
 [entries."monsters/murk-503f0bb5"]
 category = "monsters"
-events = ["terra_s_day", "terra_s_legacy", "terra_s_legacy__natureblight", "terra_s_legacy__of_reefs_and_forests"]
+events = ["terra_s_day"]
 family = "common"
 icon = "/img/monsters/murk.png"
 id = "murk-503f0bb5"
@@ -74305,7 +74305,7 @@ tier = 10
 [entries."monsters/timber-the-beaver"]
 abilities = ["collateral_damage_iii"]
 category = "monsters"
-events = ["terra_s_legacy__natureblight"]
+events = ["terra_s_day"]
 family = "common"
 icon = "/img/monsters/terras/timber.png"
 id = "timber-the-beaver"
@@ -96970,7 +96970,7 @@ abilities = ["adept_summoner", "apex", "apex__ara_", "apex__ursa_", "apex_ii", "
 category = ["bosses", "classes", "followers", "items", "monsters", "raids", "spells"]
 causes = ["aquila_sigil", "asleep", "att_d", "bleeding", "blight", "blind", "burning", "carina_sigil", "confused", "crux_sigil", "curse_of_sekhmet", "cursed", "dark_sigil", "darkblight", "def_d", "def_dd", "dmg_dd", "doom", "draco_sigil", "dragon_sigil", "drakeblight", "drenched", "earth_sigil", "earthblight", "eos", "fire_sigil", "fireblight", "foresight_d", "frozen", "holy_sigil", "holyblight", "lightning_sigil", "lightningblight", "lulled", "lyon_s_mark", "lyra_sigil", "mag_d", "morrigan_s_curse", "oceanus", "paralyzed", "petrified", "phoenix_s_pledge", "poisoned", "prometheus", "res_d", "res_dd", "rot", "selene", "starstruck", "stasis", "stunned", "t__all_d", "t__att_d", "t__att_dd", "t__def_d", "t__def_dd", "t__dex_d", "t__mag_d", "t__mag_dd", "t__res_d", "t__res_dd", "tempered_d", "tempered_dd", "themis", "toxic", "water_sigil", "waterblight", "windblight", "windswept"]
 cures = ["aegir", "all_u", "all_uu", "aquila_sigil", "arcane_aligned", "arcane_uu", "asleep", "asteria_of_olympia", "atlas_of_olympia", "att_d", "att_u", "att_uu", "bleeding", "blight", "blind", "bloodshift", "brittle", "brynhild_u", "brynhild_uu", "brynhild_uuu", "burning", "carina_sigil", "castor", "confused", "crit_u", "crux_sigil", "curse_of_sekhmet", "cursed", "dark_aligned", "dark_def", "dark_sigil", "darkblight", "def_d", "def_dd", "def_u", "def_uu", "defending", "defending_65018b2c", "defending_fc3de31f", "dex_u", "dmg_dd", "dmg_u", "doom", "draco_sigil", "dragon_aligned", "dragon_sigil", "dragon_uu", "drakeblight", "drenched", "dumbr", "earth_aligned", "earth_att", "earth_def", "earth_sigil", "earthblight", "eir", "eistla", "elementless", "eos", "fire_aligned", "fire_att", "fire_def", "fire_sigil", "fireblight", "foresight_d", "foresight_u", "foresight_uu", "frenzy", "frog", "frozen", "gunnr", "gymir", "hildr", "holy_aligned", "holy_def", "holy_sigil", "holyblight", "idun_u", "idun_uu", "idun_uuu", "iron_greaves", "iron_pauldrons", "jord_u", "jord_uu", "jord_uuu", "kára", "lightning_aligned", "lightning_att", "lightning_def", "lightning_sigil", "lightningblight", "lulled", "lyon_s_mark", "lyra_sigil", "mag_d", "mag_u", "mag_uu", "manaseep", "morrigan_s_curse", "mythril_greaves", "mythril_pauldrons", "oceanus", "ophion_of_olympia", "paralyzed", "petrified", "phoenix_s_pledge", "poisoned", "pollux", "power_of_titan_eos", "power_of_titan_oceanus", "power_of_titan_prometheus", "power_of_titan_selene", "power_of_titan_themis", "prometheus", "puzzlemaker_s_ambrosia", "rand_uu", "reraise", "res_d", "res_dd", "res_u", "res_uu", "rot", "selene", "shadowveil", "skadi_u", "skadi_uu", "skadi_uuu", "snotra", "spiked_greaves", "spiked_pauldrons", "starstruck", "stasis", "stunned", "t__?_uuu", "t__all_d", "t__all_u", "t__all_uuu", "t__att_d", "t__att_dd", "t__att_ddd", "t__att_u", "t__att_uu", "t__att_uuu", "t__crit_u", "t__crit_uu", "t__crit_uuu", "t__dark_immune", "t__dark_immune_uu", "t__def_d", "t__def_dd", "t__def_ddd", "t__def_u", "t__def_uu", "t__def_uuu", "t__dex_d", "t__dex_u", "t__dex_uu", "t__dex_uuu", "t__earth_immune", "t__earth_immune_uu", "t__fire_immune", "t__fire_immune_uu", "t__holy_immune", "t__holy_immune_uu", "t__lightning_immune", "t__lightning_immune_uu", "t__mag_d", "t__mag_dd", "t__mag_ddd", "t__mag_u", "t__mag_uu", "t__mag_uuu", "t__res_d", "t__res_dd", "t__res_ddd", "t__res_u", "t__res_uu", "t__res_uuu", "t__target_d", "t__target_dd", "t__target_u", "t__target_uu", "t__water_immune", "t__water_immune_uu", "target__all", "tempered_d", "tempered_dd", "themis", "thrud", "towering", "toxic", "tree_of_demise", "tree_of_life", "water_aligned", "water_att", "water_def", "water_sigil", "waterblight", "wind_aligned", "wind_sigil", "windblight", "windswept", "zagreus"]
-events = ["balor_invades", "beastfelled", "canada_d_eh", "fallen_heroes_of_avalon", "fool_of_april", "legend_of_lyonesse", "menders_of_hearts", "merlin", "none", "nothren_legends__ragnarok", "of_giants_and_titans", "ornaversary", "paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara", "phoenixrise", "riftfall", "stop_scruug!", "summer_solstice", "sumner_games", "terra_s_day", "terra_s_legacy", "terra_s_legacy__natureblight", "terra_s_legacy__of_reefs_and_forests", "the_crimson_festival", "the_cursed_queens", "the_hallowed", "the_mimics_are_loose", "the_mischievous_clurichauns", "the_plight_of_apollyon", "the_winter_wild_hunts", "thronemakers", "winter_solstice", "wyrmhunt"]
+events = ["balor_invades", "beastfelled", "canada_d_eh", "fallen_heroes_of_avalon", "fool_of_april", "legend_of_lyonesse", "menders_of_hearts", "merlin", "none", "nothren_legends__ragnarok", "of_giants_and_titans", "ornaversary", "paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara", "phoenixrise", "riftfall", "stop_scruug!", "summer_solstice", "sumner_games", "terra_s_day", "terra_s_legacy__natureblight", "terra_s_legacy__of_reefs_and_forests", "the_crimson_festival", "the_cursed_queens", "the_hallowed", "the_mimics_are_loose", "the_mischievous_clurichauns", "the_plight_of_apollyon", "the_winter_wild_hunts", "thronemakers", "winter_solstice", "wyrmhunt"]
 exotic = [0, 1]
 family = ["ancient", "animal", "balor_forces", "common", "draconian_forces", "dragons", "elven_forces", "giant", "goblin_horde", "human", "lizarr_forces", "lyonesse_forces", "magical", "mimics", "nothren_forces", "orc_horde", "titans", "undead_horde"]
 gives = ["all_u", "all_uu", "arcane_aligned", "arcane_uu", "asleep", "att_d", "att_u", "att_uu", "bleeding", "blight", "blind", "bloodshift", "brittle", "burning", "castor", "crit_u", "cursed", "dark_aligned", "dark_def", "def_d", "def_dd", "def_u", "def_uu", "defending", "defending_fc3de31f", "dex_u", "dmg_u", "dragon_aligned", "dragon_uu", "earth_aligned", "earth_att", "earth_def", "eir", "elementless", "fire_aligned", "fire_att", "fire_def", "foresight_u", "frenzy", "frozen", "gunnr", "hildr", "holy_aligned", "holy_def", "kára", "lightning_aligned", "lightning_att", "lightning_def", "mag_u", "mag_uu", "paralyzed", "poisoned", "pollux", "puzzlemaker_s_ambrosia", "reraise", "res_dd", "res_u", "res_uu", "rot", "shadowveil", "skadi_uu", "snotra", "stunned", "t__?_uuu", "t__all_u", "t__all_uuu", "t__att_d", "t__att_u", "t__att_uu", "t__att_uuu", "t__crit_u", "t__crit_uu", "t__crit_uuu", "t__dark_immune", "t__dark_immune_uu", "t__def_d", "t__def_u", "t__def_uu", "t__def_uuu", "t__dex_d", "t__dex_u", "t__dex_uu", "t__dex_uuu", "t__earth_immune", "t__earth_immune_uu", "t__fire_immune", "t__fire_immune_uu", "t__holy_immune", "t__holy_immune_uu", "t__lightning_immune", "t__lightning_immune_uu", "t__mag_d", "t__mag_u", "t__mag_uu", "t__mag_uuu", "t__res_d", "t__res_u", "t__res_uu", "t__res_uuu", "t__target_d", "t__target_dd", "t__target_u", "t__target_uu", "t__water_immune", "t__water_immune_uu", "target__all", "thrud", "towering", "toxic", "tree_of_demise", "tree_of_life", "water_aligned", "water_att", "water_def", "wind_aligned"]
@@ -97447,7 +97447,6 @@ type = "SIGNED"
 unit = "PERCENT"
 
 [meta.value_types."stats.beast_taming"]
-type = "SIGNED"
 unit = "PERCENT"
 
 [meta.value_types."stats.bestial_bond"]

@@ -2376,13 +2376,6 @@ id = "18"
 language = "zh-hant"
 name = "軍團士兵"
 
-[entries."classes/19"]
-category = "classes"
-description = "來自風暴之力的士兵，遠望天際之處皆為主場。"
-id = "19"
-language = "zh-hant"
-name = "暴風騎士 / 風暴女武神"
-
 [entries."classes/2"]
 category = "classes"
 description = "擅長速度及傷害更甚於防禦的狡猾格鬥家。他可以使用輕裝甲，匕首，弓箭。"
@@ -2396,13 +2389,6 @@ description = "購買此類以支持遊戲並獲得特別造型和被動技能�
 id = "20"
 language = "zh-hant"
 name = "法術師"
-
-[entries."classes/21"]
-category = "classes"
-description = "購買此類以支持遊戲並獲得特別造型和被動技能。"
-id = "21"
-language = "zh-hant"
-name = "符文騎士 / 符文女騎士"
 
 [entries."classes/22"]
 category = "classes"
@@ -2536,27 +2522,6 @@ description = "一位學習了魔法基礎知識的阿瓦隆法師。可以使�
 id = "4"
 language = "zh-hant"
 name = "大法師 / 女巫"
-
-[entries."classes/40"]
-category = "classes"
-description = "巫師另一個可選的版本。購買這個職業來支持本遊戲，還可以獲得額外的角色造型。"
-id = "40"
-language = "zh-hant"
-name = "咒法者 / 女咒法者"
-
-[entries."classes/41"]
-category = "classes"
-description = "百夫長另一個可選的版本。購買這個職業來支持本遊戲，還可以獲得額外的角色造型。"
-id = "41"
-language = "zh-hant"
-name = "重矛兵"
-
-[entries."classes/42"]
-category = "classes"
-description = "戰鬥大師另一個可選的版本。購買這個職業來支持本遊戲，還可以獲得額外的角色造型。"
-id = "42"
-language = "zh-hant"
-name = "總督"
 
 [entries."classes/43"]
 category = "classes"
@@ -3055,61 +3020,33 @@ id = "anubis"
 language = "zh-hant"
 name = "阿努比斯"
 
-[entries."followers/apollyons-apprentice"]
+[entries."followers/apprentice-of-earthen-might"]
 category = "followers"
 description = "期間限定。"
-id = "apollyons-apprentice"
+id = "apprentice-of-earthen-might"
 language = "zh-hant"
-name = "亞坡倫的學徒"
+name = "Apprentice of Earthen Might"
 
-[entries."followers/apollyons-apprentice-91d096c2"]
+[entries."followers/apprentice-of-flames-renewed"]
 category = "followers"
 description = "期間限定。"
-id = "apollyons-apprentice-91d096c2"
+id = "apprentice-of-flames-renewed"
 language = "zh-hant"
-name = "亞坡倫的學徒"
+name = "Apprentice of Flames Renewed"
 
-[entries."followers/apollyons-apprentice-d370c676"]
+[entries."followers/apprentice-of-lightning-contained"]
 category = "followers"
 description = "期間限定。"
-id = "apollyons-apprentice-d370c676"
+id = "apprentice-of-lightning-contained"
 language = "zh-hant"
-name = "亞坡倫的學徒"
+name = "Apprentice of Lightning Contained"
 
-[entries."followers/apollyons-apprentice-e9f91df6"]
+[entries."followers/apprentice-of-tidal-fury"]
 category = "followers"
 description = "期間限定。"
-id = "apollyons-apprentice-e9f91df6"
+id = "apprentice-of-tidal-fury"
 language = "zh-hant"
-name = "亞坡倫的學徒"
-
-[entries."followers/apollyons-pupil"]
-category = "followers"
-description = "期間限定。"
-id = "apollyons-pupil"
-language = "zh-hant"
-name = "亞坡倫的弟子"
-
-[entries."followers/apollyons-pupil-9d70a08e"]
-category = "followers"
-description = "期間限定。"
-id = "apollyons-pupil-9d70a08e"
-language = "zh-hant"
-name = "亞坡倫的弟子"
-
-[entries."followers/apollyons-pupil-dde6d90b"]
-category = "followers"
-description = "期間限定。"
-id = "apollyons-pupil-dde6d90b"
-language = "zh-hant"
-name = "亞坡倫的弟子"
-
-[entries."followers/apollyons-pupil-e453d6d9"]
-category = "followers"
-description = "期間限定。"
-id = "apollyons-pupil-e453d6d9"
-language = "zh-hant"
-name = "亞坡倫的弟子"
+name = "憤怒潮汐的學徒"
 
 [entries."followers/arcane-flame"]
 category = "followers"
@@ -3572,6 +3509,34 @@ description = "被馴服的野狼.能用攻擊和提升敏捷的技能幫助你.
 id = "dire-wolf"
 language = "zh-hant"
 name = "恐狼"
+
+[entries."followers/disciple-of-destructive-quakes"]
+category = "followers"
+description = "期間限定。"
+id = "disciple-of-destructive-quakes"
+language = "zh-hant"
+name = "Disciple of Destructive Quakes"
+
+[entries."followers/disciple-of-magmic-forces"]
+category = "followers"
+description = "期間限定。"
+id = "disciple-of-magmic-forces"
+language = "zh-hant"
+name = "Disciple of Magmic Forces"
+
+[entries."followers/disciple-of-oceans-combined"]
+category = "followers"
+description = "期間限定。"
+id = "disciple-of-oceans-combined"
+language = "zh-hant"
+name = "Disciple of Oceans Combined"
+
+[entries."followers/disciple-of-tempests-abound"]
+category = "followers"
+description = "期間限定。"
+id = "disciple-of-tempests-abound"
+language = "zh-hant"
+name = "Disciple of Tempests Abound"
 
 [entries."followers/dog"]
 category = "followers"
@@ -5379,6 +5344,13 @@ id = "antlers"
 language = "zh-hant"
 name = "鹿角盔"
 
+[entries."items/apollyons-pledge"]
+category = "items"
+description = "Small piece of Apollyon's eternal pledge to mastering the destructive nature of the elements. Adorning this upon a weapon will increase the damage dealt with one's own Faction's element."
+id = "apollyons-pledge"
+language = "zh-hant"
+name = "Apollyon's Pledge"
+
 [entries."items/appraisers-loupe"]
 category = "items"
 description = "老練鑑定師的放大鏡。使用於任一裝備後，其評價將自此清晰可見。"
@@ -6044,17 +6016,17 @@ id = "arisen-cursed-fomoria-plated-boots"
 language = "zh-hant"
 name = "重生受詛咒的弗摩爾族板甲靴"
 
+[entries."items/arisen-cursed-fomoria-plated-boots-4de3e61d"]
+category = "items"
+description = "弗摩爾長靴，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
+id = "arisen-cursed-fomoria-plated-boots-4de3e61d"
+language = "zh-hant"
+name = "重生受詛咒的弗摩爾族板甲靴"
+
 [entries."items/arisen-cursed-fomoria-plated-boots-56e4841c"]
 category = "items"
 description = "弗摩爾長靴，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 id = "arisen-cursed-fomoria-plated-boots-56e4841c"
-language = "zh-hant"
-name = "重生受詛咒的弗摩爾族板甲靴"
-
-[entries."items/arisen-cursed-fomoria-plated-boots-7aefba00"]
-category = "items"
-description = "弗摩爾長靴，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
-id = "arisen-cursed-fomoria-plated-boots-7aefba00"
 language = "zh-hant"
 name = "重生受詛咒的弗摩爾族板甲靴"
 
@@ -6100,13 +6072,6 @@ id = "arisen-cursed-fomors-crown"
 language = "zh-hant"
 name = "重生受詛咒的弗摩爾王冠"
 
-[entries."items/arisen-cursed-fomors-crown-276564a1"]
-category = "items"
-description = "弗摩爾王冠，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
-id = "arisen-cursed-fomors-crown-276564a1"
-language = "zh-hant"
-name = "重生受詛咒的弗摩爾王冠"
-
 [entries."items/arisen-cursed-fomors-crown-2cb9b4e6"]
 category = "items"
 description = "弗摩爾王冠，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
@@ -6118,6 +6083,13 @@ name = "重生受詛咒的弗摩爾王冠"
 category = "items"
 description = "弗摩爾王冠，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 id = "arisen-cursed-fomors-crown-3a4a918b"
+language = "zh-hant"
+name = "重生受詛咒的弗摩爾王冠"
+
+[entries."items/arisen-cursed-fomors-crown-612a024c"]
+category = "items"
+description = "弗摩爾王冠，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
+id = "arisen-cursed-fomors-crown-612a024c"
 language = "zh-hant"
 name = "重生受詛咒的弗摩爾王冠"
 
@@ -10552,17 +10524,17 @@ id = "cursed-fomoria-plated-boots"
 language = "zh-hant"
 name = "受詛咒的弗摩爾族板甲靴"
 
+[entries."items/cursed-fomoria-plated-boots-0ebf6063"]
+category = "items"
+description = "弗摩爾長靴，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
+id = "cursed-fomoria-plated-boots-0ebf6063"
+language = "zh-hant"
+name = "受詛咒的弗摩爾族板甲靴"
+
 [entries."items/cursed-fomoria-plated-boots-7a9f5efc"]
 category = "items"
 description = "弗摩爾長靴，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 id = "cursed-fomoria-plated-boots-7a9f5efc"
-language = "zh-hant"
-name = "受詛咒的弗摩爾族板甲靴"
-
-[entries."items/cursed-fomoria-plated-boots-c6787dd8"]
-category = "items"
-description = "弗摩爾長靴，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
-id = "cursed-fomoria-plated-boots-c6787dd8"
 language = "zh-hant"
 name = "受詛咒的弗摩爾族板甲靴"
 
@@ -11461,6 +11433,13 @@ description = "赤刃艾柯呂斯隨身攜帶的一串連環匕首。這些匕�
 id = "distorted-manablades"
 language = "zh-hant"
 name = "扭曲魔力雙刃"
+
+[entries."items/distorted-mnemonic"]
+category = "items"
+description = "A catalyst with an area's lost memories trapped within. Using it will begin a hunt for shattered memories in your area. Distorted Mnemonics will produce longer hunts that reward higher quality Amities when completed."
+id = "distorted-mnemonic"
+language = "zh-hant"
+name = "Distorted Mnemonic"
 
 [entries."items/distorted-rift-armor"]
 category = "items"
@@ -13919,10 +13898,10 @@ id = "fomoria-plated-robe-427f8b42"
 language = "zh-hant"
 name = "弗摩爾族板甲袍"
 
-[entries."items/fomoria-plated-robe-fb3188b6"]
+[entries."items/fomoria-plated-robe-946a26b9"]
 category = "items"
 description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
-id = "fomoria-plated-robe-fb3188b6"
+id = "fomoria-plated-robe-946a26b9"
 language = "zh-hant"
 name = "弗摩爾族板甲袍"
 
@@ -16998,6 +16977,13 @@ description = "一把可靠的長劍。"
 id = "longsword"
 language = "zh-hant"
 name = "長劍"
+
+[entries."items/loomstone"]
+category = "items"
+description = "A stone used by those who study the past to rewrite the present's manifestations. This item can be used at an Oracle Temple to reroll the negative effects that an Amity possesses through a process called Reweaving."
+id = "loomstone"
+language = "zh-hant"
+name = "Loomstone"
 
 [entries."items/lordly-monster-tome"]
 category = "items"
@@ -20304,7 +20290,7 @@ name = "重生的裂痕扭曲卷軸"
 
 [entries."items/scroll-of-chaos"]
 category = "items"
-description = "A scroll containing a terrible incantation that will turn the world magenta. For one hour, this scroll will increase the chance of encountering rare monsters or those belonging to an active World Event. Less monsters will be encountered and more monsters may spawn berserk.\n\nFor T6+ players, Community Raid Events may also be found when exploring your world."
+description = "這份卷軸記載著一段恐怖的咒語，能將世界染成一片洋紅。在一個小時內，此卷軸將提高遭遇稀有怪物或當前世界活動相關怪物的機率。期間遭遇怪物的頻率會降低，但更多怪物可能會以狂暴狀態現身。\n\nT6+ 玩家在探索世界時，也可能會發現社群副本活動。"
 id = "scroll-of-chaos"
 language = "zh-hant"
 name = "混沌卷軸"
@@ -22157,6 +22143,118 @@ id = "ulsters-wine"
 language = "zh-hant"
 name = "阿爾斯特的紅酒"
 
+[entries."items/umbral-acolytes-dagger"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-acolytes-dagger"
+language = "zh-hant"
+name = "Umbral Acolyte's Dagger"
+
+[entries."items/umbral-acolytes-shield"]
+category = "items"
+description = "Spectral shield of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, decreasing the damage you receive of your Faction's element."
+id = "umbral-acolytes-shield"
+language = "zh-hant"
+name = "Umbral Acolyte's Shield"
+
+[entries."items/umbral-acolytes-staff"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-acolytes-staff"
+language = "zh-hant"
+name = "Umbral Acolyte's Staff"
+
+[entries."items/umbral-acolytes-sword"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-acolytes-sword"
+language = "zh-hant"
+name = "Umbral Acolyte's Sword"
+
+[entries."items/umbral-apprentices-dagger"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-apprentices-dagger"
+language = "zh-hant"
+name = "Umbral Apprentice's Dagger"
+
+[entries."items/umbral-apprentices-shield"]
+category = "items"
+description = "Spectral shield of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, decreasing the damage you receive of your Faction's element."
+id = "umbral-apprentices-shield"
+language = "zh-hant"
+name = "Umbral Apprentice's Shield"
+
+[entries."items/umbral-apprentices-staff"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-apprentices-staff"
+language = "zh-hant"
+name = "本影學徒法杖"
+
+[entries."items/umbral-apprentices-sword"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-apprentices-sword"
+language = "zh-hant"
+name = "Umbral Apprentice's Sword"
+
+[entries."items/umbral-disciples-dagger"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-disciples-dagger"
+language = "zh-hant"
+name = "本影信徒匕首"
+
+[entries."items/umbral-disciples-shield"]
+category = "items"
+description = "Spectral shield of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, decreasing the damage you receive of your Faction's element."
+id = "umbral-disciples-shield"
+language = "zh-hant"
+name = "Umbral Disciple's Shield"
+
+[entries."items/umbral-disciples-staff"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-disciples-staff"
+language = "zh-hant"
+name = "Umbral Disciple's Staff"
+
+[entries."items/umbral-disciples-sword"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-disciples-sword"
+language = "zh-hant"
+name = "Umbral Disciple's Sword"
+
+[entries."items/umbral-pupils-dagger"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-pupils-dagger"
+language = "zh-hant"
+name = "Umbral Pupil's Dagger"
+
+[entries."items/umbral-pupils-shield"]
+category = "items"
+description = "Spectral shield of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, decreasing the damage you receive of your Faction's element."
+id = "umbral-pupils-shield"
+language = "zh-hant"
+name = "本影學生之盾"
+
+[entries."items/umbral-pupils-staff"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-pupils-staff"
+language = "zh-hant"
+name = "Umbral Pupil's Staff"
+
+[entries."items/umbral-pupils-sword"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-pupils-sword"
+language = "zh-hant"
+name = "Umbral Pupil's Sword"
+
 [entries."items/undead-bone"]
 category = "items"
 description = "不死族的骨頭難得這麼強壯。"
@@ -23241,6 +23339,30 @@ id = "aaru-cobra"
 language = "zh-hant"
 name = "雅盧眼鏡蛇"
 
+[entries."monsters/acolyte-of-arcane-secrets"]
+category = "monsters"
+id = "acolyte-of-arcane-secrets"
+language = "zh-hant"
+name = "Acolyte of Arcane Secrets"
+
+[entries."monsters/acolyte-of-the-divine-light"]
+category = "monsters"
+id = "acolyte-of-the-divine-light"
+language = "zh-hant"
+name = "Acolyte of the Divine Light"
+
+[entries."monsters/acolyte-of-the-eternal-darkness"]
+category = "monsters"
+id = "acolyte-of-the-eternal-darkness"
+language = "zh-hant"
+name = "永恆黑暗的追隨者"
+
+[entries."monsters/acolyte-of-the-great-dragons"]
+category = "monsters"
+id = "acolyte-of-the-great-dragons"
+language = "zh-hant"
+name = "Acolyte of the Great Dragons"
+
 [entries."monsters/adamantine-knight"]
 category = "monsters"
 id = "adamantine-knight"
@@ -23361,65 +23483,29 @@ id = "anteros-warrior"
 language = "zh-hant"
 name = "安特羅斯戰士"
 
-[entries."monsters/apollyons-apprentice"]
+[entries."monsters/apprentice-of-earthen-might"]
 category = "monsters"
-id = "apollyons-apprentice"
+id = "apprentice-of-earthen-might"
 language = "zh-hant"
-name = "亞坡倫的學徒"
+name = "Apprentice of Earthen Might"
 
-[entries."monsters/apollyons-apprentice-x"]
+[entries."monsters/apprentice-of-flames-renewed"]
 category = "monsters"
-id = "apollyons-apprentice-x"
+id = "apprentice-of-flames-renewed"
 language = "zh-hant"
-name = "亞坡倫的學徒 X"
+name = "Apprentice of Flames Renewed"
 
-[entries."monsters/apollyons-pupil"]
+[entries."monsters/apprentice-of-lightning-contained"]
 category = "monsters"
-id = "apollyons-pupil"
+id = "apprentice-of-lightning-contained"
 language = "zh-hant"
-name = "亞坡倫的弟子"
+name = "Apprentice of Lightning Contained"
 
-[entries."monsters/apollyons-pupil-55495ffd"]
+[entries."monsters/apprentice-of-tidal-fury"]
 category = "monsters"
-id = "apollyons-pupil-55495ffd"
+id = "apprentice-of-tidal-fury"
 language = "zh-hant"
-name = "亞坡倫的弟子"
-
-[entries."monsters/apollyons-pupil-88e5ba1c"]
-category = "monsters"
-id = "apollyons-pupil-88e5ba1c"
-language = "zh-hant"
-name = "亞坡倫的弟子"
-
-[entries."monsters/apollyons-pupil-e22d143d"]
-category = "monsters"
-id = "apollyons-pupil-e22d143d"
-language = "zh-hant"
-name = "亞坡倫的弟子"
-
-[entries."monsters/apollyons-pupil-x"]
-category = "monsters"
-id = "apollyons-pupil-x"
-language = "zh-hant"
-name = "亞坡倫的弟子 X"
-
-[entries."monsters/apollyons-pupil-x-6d17e31f"]
-category = "monsters"
-id = "apollyons-pupil-x-6d17e31f"
-language = "zh-hant"
-name = "亞坡倫的弟子 X"
-
-[entries."monsters/apollyons-pupil-x-90410b58"]
-category = "monsters"
-id = "apollyons-pupil-x-90410b58"
-language = "zh-hant"
-name = "亞坡倫的弟子 X"
-
-[entries."monsters/apollyons-pupil-x-96eb070f"]
-category = "monsters"
-id = "apollyons-pupil-x-96eb070f"
-language = "zh-hant"
-name = "亞坡倫的弟子 X"
+name = "憤怒潮汐的學徒"
 
 [entries."monsters/apshait"]
 category = "monsters"
@@ -23954,6 +24040,36 @@ category = "monsters"
 id = "demon"
 language = "zh-hant"
 name = "惡魔"
+
+[entries."monsters/disciple-of-destructive-quakes"]
+category = "monsters"
+id = "disciple-of-destructive-quakes"
+language = "zh-hant"
+name = "Disciple of Destructive Quakes"
+
+[entries."monsters/disciple-of-magmic-forces"]
+category = "monsters"
+id = "disciple-of-magmic-forces"
+language = "zh-hant"
+name = "Disciple of Magmic Forces"
+
+[entries."monsters/disciple-of-oceans-combined"]
+category = "monsters"
+id = "disciple-of-oceans-combined"
+language = "zh-hant"
+name = "Disciple of Oceans Combined"
+
+[entries."monsters/disciple-of-tempests-abound"]
+category = "monsters"
+id = "disciple-of-tempests-abound"
+language = "zh-hant"
+name = "Disciple of Tempests Abound"
+
+[entries."monsters/disciple-of-the-lost-arts-combined"]
+category = "monsters"
+id = "disciple-of-the-lost-arts-combined"
+language = "zh-hant"
+name = "Disciple of the Lost Arts Combined"
 
 [entries."monsters/dokkalfar"]
 category = "monsters"
@@ -25490,6 +25606,30 @@ category = "monsters"
 id = "pumpkin-spider"
 language = "zh-hant"
 name = "南瓜蜘蛛"
+
+[entries."monsters/pupil-of-earthen-might"]
+category = "monsters"
+id = "pupil-of-earthen-might"
+language = "zh-hant"
+name = "大地之力學生"
+
+[entries."monsters/pupil-of-the-flame"]
+category = "monsters"
+id = "pupil-of-the-flame"
+language = "zh-hant"
+name = "烈火的學生"
+
+[entries."monsters/pupil-of-the-storm"]
+category = "monsters"
+id = "pupil-of-the-storm"
+language = "zh-hant"
+name = "Pupil of the Storm"
+
+[entries."monsters/pupil-of-the-tides"]
+category = "monsters"
+id = "pupil-of-the-tides"
+language = "zh-hant"
+name = "潮之學生"
 
 [entries."monsters/ramesses-of-the-east"]
 category = "monsters"
@@ -32474,6 +32614,13 @@ id = "summon-dragon"
 language = "zh-hant"
 name = "召喚龍"
 
+[entries."spells/summon-earth-disciple"]
+category = "spells"
+description = "召喚一隻野獸來協助你。召喚需要2回合。"
+id = "summon-earth-disciple"
+language = "zh-hant"
+name = "Summon Earth Disciple"
+
 [entries."spells/summon-fafnir"]
 category = "spells"
 description = "召喚一隻野獸來協助你。"
@@ -32494,6 +32641,13 @@ description = "召喚一隻野獸來協助你。召喚需要3回合。"
 id = "summon-fey-kelpie"
 language = "zh-hant"
 name = "召喚變異凱爾皮"
+
+[entries."spells/summon-fire-disciple"]
+category = "spells"
+description = "召喚一隻野獸來協助你。召喚需要2回合。"
+id = "summon-fire-disciple"
+language = "zh-hant"
+name = "Summon Fire Disciple"
 
 [entries."spells/summon-garm"]
 category = "spells"
@@ -32614,6 +32768,13 @@ id = "summon-hydra"
 language = "zh-hant"
 name = "召喚九頭蛇"
 
+[entries."spells/summon-ice-disciple"]
+category = "spells"
+description = "召喚一隻野獸來協助你。召喚需要2回合。"
+id = "summon-ice-disciple"
+language = "zh-hant"
+name = "Summon Ice Disciple"
+
 [entries."spells/summon-kelpie"]
 category = "spells"
 description = "召喚一隻野獸來協助你。召喚需要3回合。"
@@ -32732,6 +32893,13 @@ description = "召喚一隻動物來協助你。需要兩回合施放。"
 id = "summon-stonewarg"
 language = "zh-hant"
 name = "召喚岩石座狼 (副手)"
+
+[entries."spells/summon-storm-disciple"]
+category = "spells"
+description = "召喚一隻野獸來協助你。召喚需要2回合。"
+id = "summon-storm-disciple"
+language = "zh-hant"
+name = "Summon Storm Disciple"
 
 [entries."spells/summon-timber"]
 category = "spells"
@@ -33790,7 +33958,7 @@ merlin = "梅林"
 none = "None"
 nothren_legends__ragnarok = "北族傳說：諸神黃昏"
 of_giants_and_titans = "巨人與泰坦"
-ornaversary = "Orna 周年慶"
+"ornaversary!" = "Ornaversary!"
 paths_of_fomoria__house_of_autumna = "弗摩爾族之路：阿圖娜家族"
 paths_of_fomoria__house_of_nocturna = "弗摩爾族之路：諾克圖娜家族"
 paths_of_fomoria__house_of_sumner = "弗摩爾族之路：薩姆納家族"
@@ -33801,6 +33969,7 @@ riftfall = "裂痕崩落"
 summer_solstice = "冬至"
 sumner_games = "夏日運動會"
 terra_s_day = "泰菈之日"
+terra_s_legacy = "泰菈的遺產"
 terra_s_legacy__natureblight = "泰菈的遺產：萎化自然"
 terra_s_legacy__of_reefs_and_forests = "泰菈的遺產：礁岩與森林"
 the_crimson_festival = "緋紅祭"
@@ -33966,7 +34135,6 @@ attack_rate = "攻擊機率"
 auto_summon = "自動召喚"
 avidity = "貪慾"
 bastille = "堡壘術"
-beast_taming = "野獸馴服"
 berserk = "+能力：狂暴"
 bestial_bond = "野獸羈絆"
 bestial_bond_level = "野獸羈絆"
@@ -34010,7 +34178,6 @@ disperse_status_effect_chance = "狀態分配機會"
 dodge_chance = "迴避機率"
 double_summon_chance = "雙重召喚機率"
 dragon_damage = "龍系傷害"
-drop_quality = "掉落物品質"
 dullahan_s_pursuit = "無頭騎士的追殺"
 dungeon_cooldown = "地城冷卻"
 dungeon_horde_bonus = "地城浪潮加成"
@@ -34026,16 +34193,19 @@ event_encounters = "活動怪遭遇"
 exp_bonus = "經驗加成"
 exp_walk = "經驗之步"
 extra_materials_dropped = "額外材料掉落"
-faction_damage = "陣營傷害"
+faction_element_damage = "Faction Element Damage"
+faction_element_resistance = "Faction Element Resistance"
 fire_damage = "火系傷害"
 fire_res = "火系抗性"
 fire_sigil_ = "+能力：火之印記+"
+fishing_line_catches = "Fishing Line Catches"
 flask_charge_on_defeat = "禁瓶擊殺充能"
 follower_act = "追隨者行動"
 follower_ascension_level = "跟隨者通天等級"
 follower_protect = "跟隨者守護"
 follower_stats = "追隨者狀態"
 follower_summon_ai = "跟隨者/小夥伴 AI"
+follower_summon_damage_taken = "Follower/Summon Damage Taken"
 follower_turn_chance = "跟隨者回合機率"
 foresight = "預知"
 frenzy = "激鬥"
@@ -34045,6 +34215,7 @@ godforge_chance = "神賜機率"
 gold_bonus = "金幣加成"
 heal_rate = "治癒機率"
 healing = "治療技能"
+higher_quality_item_chance = "Higher Quality Item Chance"
 holy_damage = "神聖傷害"
 holy_res = "神聖抗性"
 hp = "血量"
@@ -34057,7 +34228,6 @@ life_siphon = "生命虹吸"
 lightning_damage = "雷系傷害"
 lightning_res = "雷系抗性"
 lightning_sigil_ = "+能力：雷之印記+"
-line_catches = "漁獲量"
 low_hp_r_stats = "低HP → 體質"
 low_mana_r_stats = "低MP → 體質"
 luck_bonus = "幸運加成"
@@ -34075,7 +34245,7 @@ manaflask_charge = "魔禁瓶充能"
 manaflask_power = "魔禁瓶威力"
 manaflasks = "魔禁瓶"
 max_dodge_chance = "最大閃避率"
-memory_hunting = "記憶追尋"
+memory_hunting_rewards = "Memory Hunting Rewards"
 monster_encounters = "遭遇魔物"
 monster_power = "魔物威能"
 multi_target_damage = "多目標傷害"
@@ -34271,6 +34441,10 @@ defending = "防禦中"
 defending_65018b2c = "防禦中"
 defending_fc3de31f = "防禦中"
 dex_u = "Dex ↑"
+disciple_of_destructive_quakes = "Disciple of Destructive Quakes"
+disciple_of_magmic_forces = "Disciple of Magmic Forces"
+disciple_of_oceans_combined = "Disciple of Oceans Combined"
+disciple_of_tempests_abound = "Disciple of Tempests Abound"
 dmg_dd = "Dmg ↓↓"
 dmg_u = "Dmg ↑"
 doom = "厄運"

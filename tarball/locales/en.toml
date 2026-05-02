@@ -2376,13 +2376,6 @@ id = "18"
 language = "en"
 name = "Legionnaire"
 
-[entries."classes/19"]
-category = "classes"
-description = "A soldier of Stormforce that has mastered the arts of the sky above them."
-id = "19"
-language = "en"
-name = "Storm Knight / Storm Valkyrie"
-
 [entries."classes/2"]
 category = "classes"
 description = "A tricky fighting class that favors speed and damage over defense. It can wield light armor, daggers, bows."
@@ -2396,13 +2389,6 @@ description = "Purchase this class to support the game and gain an alternative s
 id = "20"
 language = "en"
 name = "Warlock"
-
-[entries."classes/21"]
-category = "classes"
-description = "Purchase this class to support the game and gain an alternative sprite and passives."
-id = "21"
-language = "en"
-name = "Rune Knight / Rune Knightess"
 
 [entries."classes/22"]
 category = "classes"
@@ -2536,27 +2522,6 @@ description = "An Avalon mage who has learned the basics of conjuring magic. It 
 id = "4"
 language = "en"
 name = "Archmage / Witch"
-
-[entries."classes/40"]
-category = "classes"
-description = "An alternative version of the Sorcerer class. Purchase this class to support the game and gain an alternative sprite."
-id = "40"
-language = "en"
-name = "Conjuror / Conjuress"
-
-[entries."classes/41"]
-category = "classes"
-description = "An alternative version of the Centurion class. Purchase this class to support the game and gain an alternative sprite."
-id = "41"
-language = "en"
-name = "Phalanx"
-
-[entries."classes/42"]
-category = "classes"
-description = "An alternative version of the Battle Master class. Purchase this class to support the game and gain an alternative sprite."
-id = "42"
-language = "en"
-name = "Warlord"
 
 [entries."classes/43"]
 category = "classes"
@@ -3055,61 +3020,33 @@ id = "anubis"
 language = "en"
 name = "Anubis"
 
-[entries."followers/apollyons-apprentice"]
+[entries."followers/apprentice-of-earthen-might"]
 category = "followers"
 description = "Available for a limited time only."
-id = "apollyons-apprentice"
+id = "apprentice-of-earthen-might"
 language = "en"
-name = "Apollyon's Apprentice"
+name = "Apprentice of Earthen Might"
 
-[entries."followers/apollyons-apprentice-91d096c2"]
+[entries."followers/apprentice-of-flames-renewed"]
 category = "followers"
 description = "Available for a limited time only."
-id = "apollyons-apprentice-91d096c2"
+id = "apprentice-of-flames-renewed"
 language = "en"
-name = "Apollyon's Apprentice"
+name = "Apprentice of Flames Renewed"
 
-[entries."followers/apollyons-apprentice-d370c676"]
+[entries."followers/apprentice-of-lightning-contained"]
 category = "followers"
 description = "Available for a limited time only."
-id = "apollyons-apprentice-d370c676"
+id = "apprentice-of-lightning-contained"
 language = "en"
-name = "Apollyon's Apprentice"
+name = "Apprentice of Lightning Contained"
 
-[entries."followers/apollyons-apprentice-e9f91df6"]
+[entries."followers/apprentice-of-tidal-fury"]
 category = "followers"
 description = "Available for a limited time only."
-id = "apollyons-apprentice-e9f91df6"
+id = "apprentice-of-tidal-fury"
 language = "en"
-name = "Apollyon's Apprentice"
-
-[entries."followers/apollyons-pupil"]
-category = "followers"
-description = "Available for a limited time only."
-id = "apollyons-pupil"
-language = "en"
-name = "Apollyon's Pupil"
-
-[entries."followers/apollyons-pupil-9d70a08e"]
-category = "followers"
-description = "Available for a limited time only."
-id = "apollyons-pupil-9d70a08e"
-language = "en"
-name = "Apollyon's Pupil"
-
-[entries."followers/apollyons-pupil-dde6d90b"]
-category = "followers"
-description = "Available for a limited time only."
-id = "apollyons-pupil-dde6d90b"
-language = "en"
-name = "Apollyon's Pupil"
-
-[entries."followers/apollyons-pupil-e453d6d9"]
-category = "followers"
-description = "Available for a limited time only."
-id = "apollyons-pupil-e453d6d9"
-language = "en"
-name = "Apollyon's Pupil"
+name = "Apprentice of Tidal Fury"
 
 [entries."followers/arcane-flame"]
 category = "followers"
@@ -3572,6 +3509,34 @@ description = "A tamed dire wolf. It can assist you in battle with attack and de
 id = "dire-wolf"
 language = "en"
 name = "Dire Wolf"
+
+[entries."followers/disciple-of-destructive-quakes"]
+category = "followers"
+description = "Available for a limited time only."
+id = "disciple-of-destructive-quakes"
+language = "en"
+name = "Disciple of Destructive Quakes"
+
+[entries."followers/disciple-of-magmic-forces"]
+category = "followers"
+description = "Available for a limited time only."
+id = "disciple-of-magmic-forces"
+language = "en"
+name = "Disciple of Magmic Forces"
+
+[entries."followers/disciple-of-oceans-combined"]
+category = "followers"
+description = "Available for a limited time only."
+id = "disciple-of-oceans-combined"
+language = "en"
+name = "Disciple of Oceans Combined"
+
+[entries."followers/disciple-of-tempests-abound"]
+category = "followers"
+description = "Available for a limited time only."
+id = "disciple-of-tempests-abound"
+language = "en"
+name = "Disciple of Tempests Abound"
 
 [entries."followers/dog"]
 category = "followers"
@@ -5379,6 +5344,13 @@ id = "antlers"
 language = "en"
 name = "Antlers"
 
+[entries."items/apollyons-pledge"]
+category = "items"
+description = "Small piece of Apollyon's eternal pledge to mastering the destructive nature of the elements. Adorning this upon a weapon will increase the damage dealt with one's own Faction's element."
+id = "apollyons-pledge"
+language = "en"
+name = "Apollyon's Pledge"
+
 [entries."items/appraisers-loupe"]
 category = "items"
 description = "The loupe of a skilled appraiser. When using this item on a piece of equipment, its rating will forever be known."
@@ -6044,17 +6016,17 @@ id = "arisen-cursed-fomoria-plated-boots"
 language = "en"
 name = "Arisen Cursed Fomoria Plated Boots"
 
+[entries."items/arisen-cursed-fomoria-plated-boots-4de3e61d"]
+category = "items"
+description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
+id = "arisen-cursed-fomoria-plated-boots-4de3e61d"
+language = "en"
+name = "Arisen Cursed Fomoria Plated Boots"
+
 [entries."items/arisen-cursed-fomoria-plated-boots-56e4841c"]
 category = "items"
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 id = "arisen-cursed-fomoria-plated-boots-56e4841c"
-language = "en"
-name = "Arisen Cursed Fomoria Plated Boots"
-
-[entries."items/arisen-cursed-fomoria-plated-boots-7aefba00"]
-category = "items"
-description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "arisen-cursed-fomoria-plated-boots-7aefba00"
 language = "en"
 name = "Arisen Cursed Fomoria Plated Boots"
 
@@ -6100,13 +6072,6 @@ id = "arisen-cursed-fomors-crown"
 language = "en"
 name = "Arisen Cursed Fomor's Crown"
 
-[entries."items/arisen-cursed-fomors-crown-276564a1"]
-category = "items"
-description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "arisen-cursed-fomors-crown-276564a1"
-language = "en"
-name = "Arisen Cursed Fomor's Crown"
-
 [entries."items/arisen-cursed-fomors-crown-2cb9b4e6"]
 category = "items"
 description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
@@ -6118,6 +6083,13 @@ name = "Arisen Cursed Fomor's Crown"
 category = "items"
 description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 id = "arisen-cursed-fomors-crown-3a4a918b"
+language = "en"
+name = "Arisen Cursed Fomor's Crown"
+
+[entries."items/arisen-cursed-fomors-crown-612a024c"]
+category = "items"
+description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
+id = "arisen-cursed-fomors-crown-612a024c"
 language = "en"
 name = "Arisen Cursed Fomor's Crown"
 
@@ -10552,17 +10524,17 @@ id = "cursed-fomoria-plated-boots"
 language = "en"
 name = "Cursed Fomoria Plated Boots"
 
+[entries."items/cursed-fomoria-plated-boots-0ebf6063"]
+category = "items"
+description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
+id = "cursed-fomoria-plated-boots-0ebf6063"
+language = "en"
+name = "Cursed Fomoria Plated Boots"
+
 [entries."items/cursed-fomoria-plated-boots-7a9f5efc"]
 category = "items"
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 id = "cursed-fomoria-plated-boots-7a9f5efc"
-language = "en"
-name = "Cursed Fomoria Plated Boots"
-
-[entries."items/cursed-fomoria-plated-boots-c6787dd8"]
-category = "items"
-description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "cursed-fomoria-plated-boots-c6787dd8"
 language = "en"
 name = "Cursed Fomoria Plated Boots"
 
@@ -11461,6 +11433,13 @@ description = "Daggers conjoined with a chain, carried by the Achlys, the Red Da
 id = "distorted-manablades"
 language = "en"
 name = "Distorted Manablades"
+
+[entries."items/distorted-mnemonic"]
+category = "items"
+description = "A catalyst with an area's lost memories trapped within. Using it will begin a hunt for shattered memories in your area. Distorted Mnemonics will produce longer hunts that reward higher quality Amities when completed."
+id = "distorted-mnemonic"
+language = "en"
+name = "Distorted Mnemonic"
 
 [entries."items/distorted-rift-armor"]
 category = "items"
@@ -13919,10 +13898,10 @@ id = "fomoria-plated-robe-427f8b42"
 language = "en"
 name = "Fomoria Plated Robe"
 
-[entries."items/fomoria-plated-robe-fb3188b6"]
+[entries."items/fomoria-plated-robe-946a26b9"]
 category = "items"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "fomoria-plated-robe-fb3188b6"
+id = "fomoria-plated-robe-946a26b9"
 language = "en"
 name = "Fomoria Plated Robe"
 
@@ -16998,6 +16977,13 @@ description = "A trusty longsword."
 id = "longsword"
 language = "en"
 name = "Longsword"
+
+[entries."items/loomstone"]
+category = "items"
+description = "A stone used by those who study the past to rewrite the present's manifestations. This item can be used at an Oracle Temple to reroll the negative effects that an Amity possesses through a process called Reweaving."
+id = "loomstone"
+language = "en"
+name = "Loomstone"
 
 [entries."items/lordly-monster-tome"]
 category = "items"
@@ -22157,6 +22143,118 @@ id = "ulsters-wine"
 language = "en"
 name = "Ulster's Wine"
 
+[entries."items/umbral-acolytes-dagger"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-acolytes-dagger"
+language = "en"
+name = "Umbral Acolyte's Dagger"
+
+[entries."items/umbral-acolytes-shield"]
+category = "items"
+description = "Spectral shield of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, decreasing the damage you receive of your Faction's element."
+id = "umbral-acolytes-shield"
+language = "en"
+name = "Umbral Acolyte's Shield"
+
+[entries."items/umbral-acolytes-staff"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-acolytes-staff"
+language = "en"
+name = "Umbral Acolyte's Staff"
+
+[entries."items/umbral-acolytes-sword"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-acolytes-sword"
+language = "en"
+name = "Umbral Acolyte's Sword"
+
+[entries."items/umbral-apprentices-dagger"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-apprentices-dagger"
+language = "en"
+name = "Umbral Apprentice's Dagger"
+
+[entries."items/umbral-apprentices-shield"]
+category = "items"
+description = "Spectral shield of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, decreasing the damage you receive of your Faction's element."
+id = "umbral-apprentices-shield"
+language = "en"
+name = "Umbral Apprentice's Shield"
+
+[entries."items/umbral-apprentices-staff"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-apprentices-staff"
+language = "en"
+name = "Umbral Apprentice's Staff"
+
+[entries."items/umbral-apprentices-sword"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-apprentices-sword"
+language = "en"
+name = "Umbral Apprentice's Sword"
+
+[entries."items/umbral-disciples-dagger"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-disciples-dagger"
+language = "en"
+name = "Umbral Disciple's Dagger"
+
+[entries."items/umbral-disciples-shield"]
+category = "items"
+description = "Spectral shield of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, decreasing the damage you receive of your Faction's element."
+id = "umbral-disciples-shield"
+language = "en"
+name = "Umbral Disciple's Shield"
+
+[entries."items/umbral-disciples-staff"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-disciples-staff"
+language = "en"
+name = "Umbral Disciple's Staff"
+
+[entries."items/umbral-disciples-sword"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-disciples-sword"
+language = "en"
+name = "Umbral Disciple's Sword"
+
+[entries."items/umbral-pupils-dagger"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-pupils-dagger"
+language = "en"
+name = "Umbral Pupil's Dagger"
+
+[entries."items/umbral-pupils-shield"]
+category = "items"
+description = "Spectral shield of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, decreasing the damage you receive of your Faction's element."
+id = "umbral-pupils-shield"
+language = "en"
+name = "Umbral Pupil's Shield"
+
+[entries."items/umbral-pupils-staff"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-pupils-staff"
+language = "en"
+name = "Umbral Pupil's Staff"
+
+[entries."items/umbral-pupils-sword"]
+category = "items"
+description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+id = "umbral-pupils-sword"
+language = "en"
+name = "Umbral Pupil's Sword"
+
 [entries."items/undead-bone"]
 category = "items"
 description = "Bones of the undead can rarely be so strong."
@@ -23241,6 +23339,30 @@ id = "aaru-cobra"
 language = "en"
 name = "Aaru Cobra"
 
+[entries."monsters/acolyte-of-arcane-secrets"]
+category = "monsters"
+id = "acolyte-of-arcane-secrets"
+language = "en"
+name = "Acolyte of Arcane Secrets"
+
+[entries."monsters/acolyte-of-the-divine-light"]
+category = "monsters"
+id = "acolyte-of-the-divine-light"
+language = "en"
+name = "Acolyte of the Divine Light"
+
+[entries."monsters/acolyte-of-the-eternal-darkness"]
+category = "monsters"
+id = "acolyte-of-the-eternal-darkness"
+language = "en"
+name = "Acolyte of the Eternal Darkness"
+
+[entries."monsters/acolyte-of-the-great-dragons"]
+category = "monsters"
+id = "acolyte-of-the-great-dragons"
+language = "en"
+name = "Acolyte of the Great Dragons"
+
 [entries."monsters/adamantine-knight"]
 category = "monsters"
 id = "adamantine-knight"
@@ -23361,65 +23483,29 @@ id = "anteros-warrior"
 language = "en"
 name = "Anteros Warrior"
 
-[entries."monsters/apollyons-apprentice"]
+[entries."monsters/apprentice-of-earthen-might"]
 category = "monsters"
-id = "apollyons-apprentice"
+id = "apprentice-of-earthen-might"
 language = "en"
-name = "Apollyon's Apprentice"
+name = "Apprentice of Earthen Might"
 
-[entries."monsters/apollyons-apprentice-x"]
+[entries."monsters/apprentice-of-flames-renewed"]
 category = "monsters"
-id = "apollyons-apprentice-x"
+id = "apprentice-of-flames-renewed"
 language = "en"
-name = "Apollyon's Apprentice X"
+name = "Apprentice of Flames Renewed"
 
-[entries."monsters/apollyons-pupil"]
+[entries."monsters/apprentice-of-lightning-contained"]
 category = "monsters"
-id = "apollyons-pupil"
+id = "apprentice-of-lightning-contained"
 language = "en"
-name = "Apollyon's Pupil"
+name = "Apprentice of Lightning Contained"
 
-[entries."monsters/apollyons-pupil-55495ffd"]
+[entries."monsters/apprentice-of-tidal-fury"]
 category = "monsters"
-id = "apollyons-pupil-55495ffd"
+id = "apprentice-of-tidal-fury"
 language = "en"
-name = "Apollyon's Pupil"
-
-[entries."monsters/apollyons-pupil-88e5ba1c"]
-category = "monsters"
-id = "apollyons-pupil-88e5ba1c"
-language = "en"
-name = "Apollyon's Pupil"
-
-[entries."monsters/apollyons-pupil-e22d143d"]
-category = "monsters"
-id = "apollyons-pupil-e22d143d"
-language = "en"
-name = "Apollyon's Pupil"
-
-[entries."monsters/apollyons-pupil-x"]
-category = "monsters"
-id = "apollyons-pupil-x"
-language = "en"
-name = "Apollyon's Pupil X"
-
-[entries."monsters/apollyons-pupil-x-6d17e31f"]
-category = "monsters"
-id = "apollyons-pupil-x-6d17e31f"
-language = "en"
-name = "Apollyon's Pupil X"
-
-[entries."monsters/apollyons-pupil-x-90410b58"]
-category = "monsters"
-id = "apollyons-pupil-x-90410b58"
-language = "en"
-name = "Apollyon's Pupil X"
-
-[entries."monsters/apollyons-pupil-x-96eb070f"]
-category = "monsters"
-id = "apollyons-pupil-x-96eb070f"
-language = "en"
-name = "Apollyon's Pupil X"
+name = "Apprentice of Tidal Fury"
 
 [entries."monsters/apshait"]
 category = "monsters"
@@ -23954,6 +24040,36 @@ category = "monsters"
 id = "demon"
 language = "en"
 name = "Demon"
+
+[entries."monsters/disciple-of-destructive-quakes"]
+category = "monsters"
+id = "disciple-of-destructive-quakes"
+language = "en"
+name = "Disciple of Destructive Quakes"
+
+[entries."monsters/disciple-of-magmic-forces"]
+category = "monsters"
+id = "disciple-of-magmic-forces"
+language = "en"
+name = "Disciple of Magmic Forces"
+
+[entries."monsters/disciple-of-oceans-combined"]
+category = "monsters"
+id = "disciple-of-oceans-combined"
+language = "en"
+name = "Disciple of Oceans Combined"
+
+[entries."monsters/disciple-of-tempests-abound"]
+category = "monsters"
+id = "disciple-of-tempests-abound"
+language = "en"
+name = "Disciple of Tempests Abound"
+
+[entries."monsters/disciple-of-the-lost-arts-combined"]
+category = "monsters"
+id = "disciple-of-the-lost-arts-combined"
+language = "en"
+name = "Disciple of the Lost Arts Combined"
 
 [entries."monsters/dokkalfar"]
 category = "monsters"
@@ -25490,6 +25606,30 @@ category = "monsters"
 id = "pumpkin-spider"
 language = "en"
 name = "Pumpkin Spider"
+
+[entries."monsters/pupil-of-earthen-might"]
+category = "monsters"
+id = "pupil-of-earthen-might"
+language = "en"
+name = "Pupil of Earthen Might"
+
+[entries."monsters/pupil-of-the-flame"]
+category = "monsters"
+id = "pupil-of-the-flame"
+language = "en"
+name = "Pupil of the Flame"
+
+[entries."monsters/pupil-of-the-storm"]
+category = "monsters"
+id = "pupil-of-the-storm"
+language = "en"
+name = "Pupil of the Storm"
+
+[entries."monsters/pupil-of-the-tides"]
+category = "monsters"
+id = "pupil-of-the-tides"
+language = "en"
+name = "Pupil of the Tides"
 
 [entries."monsters/ramesses-of-the-east"]
 category = "monsters"
@@ -32474,6 +32614,13 @@ id = "summon-dragon"
 language = "en"
 name = "Summon Dragon"
 
+[entries."spells/summon-earth-disciple"]
+category = "spells"
+description = "Summon a beast to assist you. Requires 2 turns in battle."
+id = "summon-earth-disciple"
+language = "en"
+name = "Summon Earth Disciple"
+
 [entries."spells/summon-fafnir"]
 category = "spells"
 description = "Summon a beast to assist you."
@@ -32494,6 +32641,13 @@ description = "Summon a beast to assist you. Requires 3 turns in battle."
 id = "summon-fey-kelpie"
 language = "en"
 name = "Summon Fey Kelpie"
+
+[entries."spells/summon-fire-disciple"]
+category = "spells"
+description = "Summon a beast to assist you. Requires 2 turns in battle."
+id = "summon-fire-disciple"
+language = "en"
+name = "Summon Fire Disciple"
 
 [entries."spells/summon-garm"]
 category = "spells"
@@ -32614,6 +32768,13 @@ id = "summon-hydra"
 language = "en"
 name = "Summon Hydra"
 
+[entries."spells/summon-ice-disciple"]
+category = "spells"
+description = "Summon a beast to assist you. Requires 2 turns in battle."
+id = "summon-ice-disciple"
+language = "en"
+name = "Summon Ice Disciple"
+
 [entries."spells/summon-kelpie"]
 category = "spells"
 description = "Summon a beast to assist you. Requires 3 turns in battle."
@@ -32732,6 +32893,13 @@ description = "Summon an animal to assist you. Requires 2 turns in battle."
 id = "summon-stonewarg"
 language = "en"
 name = "Summon Stonewarg (Off-hand)"
+
+[entries."spells/summon-storm-disciple"]
+category = "spells"
+description = "Summon a beast to assist you. Requires 2 turns in battle."
+id = "summon-storm-disciple"
+language = "en"
+name = "Summon Storm Disciple"
 
 [entries."spells/summon-timber"]
 category = "spells"
@@ -33790,7 +33958,7 @@ merlin = "Merlin"
 none = "None"
 nothren_legends__ragnarok = "Nothren Legends: Ragnarok"
 of_giants_and_titans = "Of Giants and Titans"
-ornaversary = "Ornaversary"
+"ornaversary!" = "Ornaversary!"
 paths_of_fomoria__house_of_autumna = "Paths of Fomoria: House of Autumna"
 paths_of_fomoria__house_of_nocturna = "Paths of Fomoria: House of Nocturna"
 paths_of_fomoria__house_of_sumner = "Paths of Fomoria: House of Sumner"
@@ -33801,6 +33969,7 @@ riftfall = "Riftfall"
 summer_solstice = "Summer Solstice"
 sumner_games = "Sumner Games"
 terra_s_day = "Terra's Day"
+terra_s_legacy = "Terra's Legacy"
 terra_s_legacy__natureblight = "Terra's Legacy: Natureblight"
 terra_s_legacy__of_reefs_and_forests = "Terra's Legacy: Of Reefs and Forests"
 the_crimson_festival = "The Crimson Festival"
@@ -33966,7 +34135,6 @@ attack_rate = "Attack rate"
 auto_summon = "Auto Summon"
 avidity = "Avidity"
 bastille = "Bastille"
-beast_taming = "Beast Taming"
 bestial_bond = "Bestial Bond"
 bestial_bond_level = "Bestial Bond"
 blacksmith_material_cost = "Blacksmith Material Cost"
@@ -34006,7 +34174,6 @@ disperse_status_effect_chance = "Disperse Status Effect Chance"
 dodge_chance = "Dodge Chance"
 double_summon_chance = "Double Summon Chance"
 dragon_damage = "Dragon Damage"
-drop_quality = "Drop Quality"
 dullahan_s_pursuit = "Dullahan's Pursuit"
 dungeon_cooldown = "Dungeon Cooldown"
 dungeon_horde_bonus = "Dungeon Horde Bonus"
@@ -34021,15 +34188,18 @@ event_encounters = "Event Encounters"
 exp_bonus = "EXP Bonus"
 exp_walk = "EXP Walk"
 extra_materials_dropped = "Extra Materials Dropped"
-faction_damage = "Faction Damage"
+faction_element_damage = "Faction Element Damage"
+faction_element_resistance = "Faction Element Resistance"
 fire_damage = "Fire Damage"
 fire_res = "Fire Res"
+fishing_line_catches = "Fishing Line Catches"
 flask_charge_on_defeat = "Flask Charge on Defeat"
 follower_act = "Follower Act"
 follower_ascension_level = "Follower Ascension Level"
 follower_protect = "Follower Protect"
 follower_stats = "Follower Stats"
 follower_summon_ai = "Follower/Summon AI"
+follower_summon_damage_taken = "Follower/Summon Damage Taken"
 follower_turn_chance = "Follower Turn Chance"
 foresight = "Foresight"
 frenzy = "Frenzy"
@@ -34039,6 +34209,7 @@ godforge_chance = "Godforge Chance"
 gold_bonus = "Gold Bonus"
 heal_rate = "Heal rate"
 healing = "Healing"
+higher_quality_item_chance = "Higher Quality Item Chance"
 holy_damage = "Holy Damage"
 holy_res = "Holy Res"
 hp = "HP"
@@ -34049,7 +34220,6 @@ instant_summon_chance = "Instant Summon Chance"
 life_siphon = "Life Siphon"
 lightning_damage = "Lightning Damage"
 lightning_res = "Lightning Res"
-line_catches = "Line Catches"
 low_hp_r_stats = "Low HP → Stats"
 low_mana_r_stats = "Low Mana → Stats"
 luck_bonus = "Luck Bonus"
@@ -34067,7 +34237,7 @@ manaflask_charge = "Manaflask Charge"
 manaflask_power = "Manaflask Power"
 manaflasks = "Manaflasks"
 max_dodge_chance = "Max Dodge Chance"
-memory_hunting = "Memory Hunting"
+memory_hunting_rewards = "Memory Hunting Rewards"
 monster_encounters = "Monster Encounters"
 monster_power = "Monster Power"
 multi_target_damage = "Multi-target Damage"
@@ -34270,6 +34440,10 @@ defending = "Defending"
 defending_65018b2c = "Defending"
 defending_fc3de31f = "Defending"
 dex_u = "Dex ↑"
+disciple_of_destructive_quakes = "Disciple of Destructive Quakes"
+disciple_of_magmic_forces = "Disciple of Magmic Forces"
+disciple_of_oceans_combined = "Disciple of Oceans Combined"
+disciple_of_tempests_abound = "Disciple of Tempests Abound"
 dmg_dd = "Dmg ↓↓"
 dmg_u = "Dmg ↑"
 doom = "Doom"

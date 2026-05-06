@@ -3025,28 +3025,28 @@ category = "followers"
 description = "期间限定。"
 id = "apprentice-of-earthen-might"
 language = "zh-hans"
-name = "Apprentice of Earthen Might"
+name = "撼地神力之学徒"
 
 [entries."followers/apprentice-of-flames-renewed"]
 category = "followers"
 description = "期间限定。"
 id = "apprentice-of-flames-renewed"
 language = "zh-hans"
-name = "Apprentice of Flames Renewed"
+name = "不灭烈焰之学徒"
 
 [entries."followers/apprentice-of-lightning-contained"]
 category = "followers"
 description = "期间限定。"
 id = "apprentice-of-lightning-contained"
 language = "zh-hans"
-name = "Apprentice of Lightning Contained"
+name = "缚雷锁电之随者"
 
 [entries."followers/apprentice-of-tidal-fury"]
 category = "followers"
 description = "期间限定。"
 id = "apprentice-of-tidal-fury"
 language = "zh-hans"
-name = "Apprentice of Tidal Fury"
+name = "惊涛怒潮之学徒"
 
 [entries."followers/arcane-flame"]
 category = "followers"
@@ -3515,28 +3515,28 @@ category = "followers"
 description = "期间限定。"
 id = "disciple-of-destructive-quakes"
 language = "zh-hans"
-name = "Disciple of Destructive Quakes"
+name = "地裂山崩之信徒"
 
 [entries."followers/disciple-of-magmic-forces"]
 category = "followers"
 description = "期间限定。"
 id = "disciple-of-magmic-forces"
 language = "zh-hans"
-name = "Disciple of Magmic Forces"
+name = "熔火威能之信徒"
 
 [entries."followers/disciple-of-oceans-combined"]
 category = "followers"
 description = "期间限定。"
 id = "disciple-of-oceans-combined"
 language = "zh-hans"
-name = "Disciple of Oceans Combined"
+name = "沧海合流之信徒"
 
 [entries."followers/disciple-of-tempests-abound"]
 category = "followers"
 description = "期间限定。"
 id = "disciple-of-tempests-abound"
 language = "zh-hans"
-name = "Disciple of Tempests Abound"
+name = "激荡风雷之信徒"
 
 [entries."followers/dog"]
 category = "followers"
@@ -5346,10 +5346,10 @@ name = "鹿角盔"
 
 [entries."items/apollyons-pledge"]
 category = "items"
-description = "Small piece of Apollyon's eternal pledge to mastering the destructive nature of the elements. Adorning this upon a weapon will increase the damage dealt with one's own Faction's element."
+description = "亚玻伦驾驭自然元素的毁灭力量所约束的永恒誓言之其中一节。镶嵌该物品于武器时能提升所属阵营元素所造成的伤害。"
 id = "apollyons-pledge"
 language = "zh-hans"
-name = "Apollyon's Pledge"
+name = "亚玻伦的誓约"
 
 [entries."items/appraisers-loupe"]
 category = "items"
@@ -11436,10 +11436,10 @@ name = "扭曲魔力链刃"
 
 [entries."items/distorted-mnemonic"]
 category = "items"
-description = "A catalyst with an area's lost memories trapped within. Using it will begin a hunt for shattered memories in your area. Distorted Mnemonics will produce longer hunts that reward higher quality Amities when completed."
+description = "封印着此地遗忘记忆的媒介。使用该物品能在该区域开启对破碎记忆的追寻。扭曲追忆会提供更多流程的追寻，同时在完成追寻时会获得高品质谐忆符。"
 id = "distorted-mnemonic"
 language = "zh-hans"
-name = "Distorted Mnemonic"
+name = "扭曲追忆"
 
 [entries."items/distorted-rift-armor"]
 category = "items"
@@ -16980,10 +16980,10 @@ name = "长剑"
 
 [entries."items/loomstone"]
 category = "items"
-description = "A stone used by those who study the past to rewrite the present's manifestations. This item can be used at an Oracle Temple to reroll the negative effects that an Amity possesses through a process called Reweaving."
+description = "一块石头，用于某人从过往的研习中来重写现世的事象。该物品能用于神域圣殿中，通过「洗练」的仪式来重置谐忆符的负面效果。"
 id = "loomstone"
 language = "zh-hans"
-name = "Loomstone"
+name = "洗练石"
 
 [entries."items/lordly-monster-tome"]
 category = "items"
@@ -22145,115 +22145,115 @@ name = "阿尔斯特的红酒"
 
 [entries."items/umbral-acolytes-dagger"]
 category = "items"
-description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+description = "被遗忘的亚玻伦追随者所使用的幽影武器。该物品能强化所属阵营的羁绊，从而提升所属阵营元素的伤害。"
 id = "umbral-acolytes-dagger"
 language = "zh-hans"
-name = "Umbral Acolyte's Dagger"
+name = "蚀影随者匕首"
 
 [entries."items/umbral-acolytes-shield"]
 category = "items"
-description = "Spectral shield of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, decreasing the damage you receive of your Faction's element."
+description = "被遗忘的亚玻伦追随者所使用的幽影盾牌。该物品能强化所属阵营的羁绊，从而减少受到所属阵营元素的伤害。"
 id = "umbral-acolytes-shield"
 language = "zh-hans"
-name = "Umbral Acolyte's Shield"
+name = "蚀影随者之盾"
 
 [entries."items/umbral-acolytes-staff"]
 category = "items"
-description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+description = "被遗忘的亚玻伦追随者所使用的幽影武器。该物品能强化所属阵营的羁绊，从而提升所属阵营元素的伤害。"
 id = "umbral-acolytes-staff"
 language = "zh-hans"
-name = "Umbral Acolyte's Staff"
+name = "蚀影随者法杖"
 
 [entries."items/umbral-acolytes-sword"]
 category = "items"
-description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+description = "被遗忘的亚玻伦追随者所使用的幽影武器。该物品能强化所属阵营的羁绊，从而提升所属阵营元素的伤害。"
 id = "umbral-acolytes-sword"
 language = "zh-hans"
-name = "Umbral Acolyte's Sword"
+name = "蚀影随者之剑"
 
 [entries."items/umbral-apprentices-dagger"]
 category = "items"
-description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+description = "被遗忘的亚玻伦追随者所使用的幽影武器。该物品能强化所属阵营的羁绊，从而提升所属阵营元素的伤害。"
 id = "umbral-apprentices-dagger"
 language = "zh-hans"
-name = "Umbral Apprentice's Dagger"
+name = "蚀影学徒匕首"
 
 [entries."items/umbral-apprentices-shield"]
 category = "items"
-description = "Spectral shield of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, decreasing the damage you receive of your Faction's element."
+description = "被遗忘的亚玻伦追随者所使用的幽影盾牌。该物品能强化所属阵营的羁绊，从而减少受到所属阵营元素的伤害。"
 id = "umbral-apprentices-shield"
 language = "zh-hans"
-name = "Umbral Apprentice's Shield"
+name = "蚀影学徒之盾"
 
 [entries."items/umbral-apprentices-staff"]
 category = "items"
-description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+description = "被遗忘的亚玻伦追随者所使用的幽影武器。该物品能强化所属阵营的羁绊，从而提升所属阵营元素的伤害。"
 id = "umbral-apprentices-staff"
 language = "zh-hans"
-name = "Umbral Apprentice's Staff"
+name = "蚀影学徒法杖"
 
 [entries."items/umbral-apprentices-sword"]
 category = "items"
-description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+description = "被遗忘的亚玻伦追随者所使用的幽影武器。该物品能强化所属阵营的羁绊，从而提升所属阵营元素的伤害。"
 id = "umbral-apprentices-sword"
 language = "zh-hans"
-name = "Umbral Apprentice's Sword"
+name = "蚀影学徒之剑"
 
 [entries."items/umbral-disciples-dagger"]
 category = "items"
-description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+description = "被遗忘的亚玻伦追随者所使用的幽影武器。该物品能强化所属阵营的羁绊，从而提升所属阵营元素的伤害。"
 id = "umbral-disciples-dagger"
 language = "zh-hans"
-name = "Umbral Disciple's Dagger"
+name = "蚀影信徒匕首"
 
 [entries."items/umbral-disciples-shield"]
 category = "items"
-description = "Spectral shield of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, decreasing the damage you receive of your Faction's element."
+description = "被遗忘的亚玻伦追随者所使用的幽影盾牌。该物品能强化所属阵营的羁绊，从而减少受到所属阵营元素的伤害。"
 id = "umbral-disciples-shield"
 language = "zh-hans"
-name = "Umbral Disciple's Shield"
+name = "蚀影信徒之盾"
 
 [entries."items/umbral-disciples-staff"]
 category = "items"
-description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+description = "被遗忘的亚玻伦追随者所使用的幽影武器。该物品能强化所属阵营的羁绊，从而提升所属阵营元素的伤害。"
 id = "umbral-disciples-staff"
 language = "zh-hans"
-name = "Umbral Disciple's Staff"
+name = "蚀影信徒法杖"
 
 [entries."items/umbral-disciples-sword"]
 category = "items"
-description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+description = "被遗忘的亚玻伦追随者所使用的幽影武器。该物品能强化所属阵营的羁绊，从而提升所属阵营元素的伤害。"
 id = "umbral-disciples-sword"
 language = "zh-hans"
-name = "Umbral Disciple's Sword"
+name = "蚀影信徒之剑"
 
 [entries."items/umbral-pupils-dagger"]
 category = "items"
-description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+description = "被遗忘的亚玻伦追随者所使用的幽影武器。该物品能强化所属阵营的羁绊，从而提升所属阵营元素的伤害。"
 id = "umbral-pupils-dagger"
 language = "zh-hans"
-name = "Umbral Pupil's Dagger"
+name = "蚀影弟子匕首"
 
 [entries."items/umbral-pupils-shield"]
 category = "items"
-description = "Spectral shield of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, decreasing the damage you receive of your Faction's element."
+description = "被遗忘的亚玻伦追随者所使用的幽影盾牌。该物品能强化所属阵营的羁绊，从而减少受到所属阵营元素的伤害。"
 id = "umbral-pupils-shield"
 language = "zh-hans"
-name = "Umbral Pupil's Shield"
+name = "蚀影弟子之盾"
 
 [entries."items/umbral-pupils-staff"]
 category = "items"
-description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+description = "被遗忘的亚玻伦追随者所使用的幽影武器。该物品能强化所属阵营的羁绊，从而提升所属阵营元素的伤害。"
 id = "umbral-pupils-staff"
 language = "zh-hans"
-name = "Umbral Pupil's Staff"
+name = "蚀影弟子法杖"
 
 [entries."items/umbral-pupils-sword"]
 category = "items"
-description = "Spectral weapon of a forgotten follower of Apollyon. This item will increase the bond you have with your Faction, increasing the damage dealt by your Faction's element."
+description = "被遗忘的亚玻伦追随者所使用的幽影武器。该物品能强化所属阵营的羁绊，从而提升所属阵营元素的伤害。"
 id = "umbral-pupils-sword"
 language = "zh-hans"
-name = "Umbral Pupil's Sword"
+name = "蚀影弟子之剑"
 
 [entries."items/undead-bone"]
 category = "items"
@@ -23343,25 +23343,25 @@ name = "雅卢眼镜蛇"
 category = "monsters"
 id = "acolyte-of-arcane-secrets"
 language = "zh-hans"
-name = "Acolyte of Arcane Secrets"
+name = "隐秘奥术之随者"
 
 [entries."monsters/acolyte-of-the-divine-light"]
 category = "monsters"
 id = "acolyte-of-the-divine-light"
 language = "zh-hans"
-name = "Acolyte of the Divine Light"
+name = "神圣光辉之随者"
 
 [entries."monsters/acolyte-of-the-eternal-darkness"]
 category = "monsters"
 id = "acolyte-of-the-eternal-darkness"
 language = "zh-hans"
-name = "Acolyte of the Eternal Darkness"
+name = "永恒黑暗之随者"
 
 [entries."monsters/acolyte-of-the-great-dragons"]
 category = "monsters"
 id = "acolyte-of-the-great-dragons"
 language = "zh-hans"
-name = "Acolyte of the Great Dragons"
+name = "远古巨龙之随者"
 
 [entries."monsters/adamantine-knight"]
 category = "monsters"
@@ -23487,25 +23487,25 @@ name = "安忒洛斯战士"
 category = "monsters"
 id = "apprentice-of-earthen-might"
 language = "zh-hans"
-name = "Apprentice of Earthen Might"
+name = "撼地神力之学徒"
 
 [entries."monsters/apprentice-of-flames-renewed"]
 category = "monsters"
 id = "apprentice-of-flames-renewed"
 language = "zh-hans"
-name = "Apprentice of Flames Renewed"
+name = "不灭烈焰之学徒"
 
 [entries."monsters/apprentice-of-lightning-contained"]
 category = "monsters"
 id = "apprentice-of-lightning-contained"
 language = "zh-hans"
-name = "Apprentice of Lightning Contained"
+name = "缚雷锁电之随者"
 
 [entries."monsters/apprentice-of-tidal-fury"]
 category = "monsters"
 id = "apprentice-of-tidal-fury"
 language = "zh-hans"
-name = "Apprentice of Tidal Fury"
+name = "惊涛怒潮之学徒"
 
 [entries."monsters/apshait"]
 category = "monsters"
@@ -24045,31 +24045,31 @@ name = "恶魔"
 category = "monsters"
 id = "disciple-of-destructive-quakes"
 language = "zh-hans"
-name = "Disciple of Destructive Quakes"
+name = "地裂山崩之信徒"
 
 [entries."monsters/disciple-of-magmic-forces"]
 category = "monsters"
 id = "disciple-of-magmic-forces"
 language = "zh-hans"
-name = "Disciple of Magmic Forces"
+name = "熔火威能之信徒"
 
 [entries."monsters/disciple-of-oceans-combined"]
 category = "monsters"
 id = "disciple-of-oceans-combined"
 language = "zh-hans"
-name = "Disciple of Oceans Combined"
+name = "沧海合流之信徒"
 
 [entries."monsters/disciple-of-tempests-abound"]
 category = "monsters"
 id = "disciple-of-tempests-abound"
 language = "zh-hans"
-name = "Disciple of Tempests Abound"
+name = "激荡风雷之信徒"
 
 [entries."monsters/disciple-of-the-lost-arts-combined"]
 category = "monsters"
 id = "disciple-of-the-lost-arts-combined"
 language = "zh-hans"
-name = "Disciple of the Lost Arts Combined"
+name = "失落秘术之信徒"
 
 [entries."monsters/dokkalfar"]
 category = "monsters"
@@ -25611,25 +25611,25 @@ name = "南瓜蜘蛛"
 category = "monsters"
 id = "pupil-of-earthen-might"
 language = "zh-hans"
-name = "Pupil of Earthen Might"
+name = "地威之弟子"
 
 [entries."monsters/pupil-of-the-flame"]
 category = "monsters"
 id = "pupil-of-the-flame"
 language = "zh-hans"
-name = "Pupil of the Flame"
+name = "烈焰之弟子"
 
 [entries."monsters/pupil-of-the-storm"]
 category = "monsters"
 id = "pupil-of-the-storm"
 language = "zh-hans"
-name = "Pupil of the Storm"
+name = "风暴之弟子"
 
 [entries."monsters/pupil-of-the-tides"]
 category = "monsters"
 id = "pupil-of-the-tides"
 language = "zh-hans"
-name = "Pupil of the Tides"
+name = "潮涌之弟子"
 
 [entries."monsters/ramesses-of-the-east"]
 category = "monsters"
@@ -27835,10 +27835,10 @@ name = "巨石飞掷"
 
 [entries."spells/bouncing-arrow"]
 category = "spells"
-description = "Loose an arrow that may hit an additional opponent."
+description = "射出的箭矢将有机率额外命中一名对手。"
 id = "bouncing-arrow"
 language = "zh-hans"
-name = "Bouncing Arrow (副手)"
+name = "弹射箭矢 (副手)"
 
 [entries."spells/break"]
 category = "spells"
@@ -32619,7 +32619,7 @@ category = "spells"
 description = "召唤一只野兽来协助你。在战斗中需要 2 回合发动。"
 id = "summon-earth-disciple"
 language = "zh-hans"
-name = "Summon Earth Disciple"
+name = "地之信徒召唤"
 
 [entries."spells/summon-fafnir"]
 category = "spells"
@@ -32647,7 +32647,7 @@ category = "spells"
 description = "召唤一只野兽来协助你。在战斗中需要 2 回合发动。"
 id = "summon-fire-disciple"
 language = "zh-hans"
-name = "Summon Fire Disciple"
+name = "火之信徒召唤"
 
 [entries."spells/summon-garm"]
 category = "spells"
@@ -32773,7 +32773,7 @@ category = "spells"
 description = "召唤一只野兽来协助你。在战斗中需要 2 回合发动。"
 id = "summon-ice-disciple"
 language = "zh-hans"
-name = "Summon Ice Disciple"
+name = "冰之信徒召唤"
 
 [entries."spells/summon-kelpie"]
 category = "spells"
@@ -32899,7 +32899,7 @@ category = "spells"
 description = "召唤一只野兽来协助你。在战斗中需要 2 回合发动。"
 id = "summon-storm-disciple"
 language = "zh-hans"
-name = "Summon Storm Disciple"
+name = "雷之信徒召唤"
 
 [entries."spells/summon-timber"]
 category = "spells"
@@ -34188,18 +34188,18 @@ event_encounters = "活动遇怪"
 exp_bonus = "经验加成"
 exp_walk = "经验之步"
 extra_materials_dropped = "额外材料掉落"
-faction_element_damage = "Faction Element Damage"
-faction_element_resistance = "Faction Element Resistance"
+faction_element_damage = "阵营元素伤害"
+faction_element_resistance = "阵营元素抗性"
 fire_damage = "火属性伤害"
 fire_res = "火属性抗性"
-fishing_line_catches = "Fishing Line Catches"
+fishing_line_catches = "愿者上钩"
 flask_charge_on_defeat = "击杀充能汲魔瓶"
 follower_act = "追随者行动率"
 follower_ascension_level = "追随者通天等级"
 follower_protect = "追随者保护"
 follower_stats = "追随者属性"
 follower_summon_ai = "追随者/召唤物AI"
-follower_summon_damage_taken = "Follower/Summon Damage Taken"
+follower_summon_damage_taken = "承受追随者/召唤物伤害"
 follower_turn_chance = "追随者额外回合机率"
 foresight = "预知"
 frenzy = "狂化"
@@ -34209,7 +34209,7 @@ godforge_chance = "神赐机率"
 gold_bonus = "金币加成"
 heal_rate = "治愈机率"
 healing = "治疗效果"
-higher_quality_item_chance = "Higher Quality Item Chance"
+higher_quality_item_chance = "高品质物品机率"
 holy_damage = "光属性伤害"
 holy_res = "光属性抗性"
 hp = "血量"
@@ -34237,7 +34237,7 @@ manaflask_charge = "汲魔瓶充能"
 manaflask_power = "汲魔瓶威力"
 manaflasks = "汲魔瓶"
 max_dodge_chance = "最大闪避机率"
-memory_hunting_rewards = "Memory Hunting Rewards"
+memory_hunting_rewards = "记忆追寻奖励"
 monster_encounters = "遇怪"
 monster_power = "强力怪物"
 multi_target_damage = "多重目标伤害"
@@ -34440,10 +34440,10 @@ defending = "防御中"
 defending_65018b2c = "防御中"
 defending_fc3de31f = "防御中"
 dex_u = "Dex ↑"
-disciple_of_destructive_quakes = "Disciple of Destructive Quakes"
-disciple_of_magmic_forces = "Disciple of Magmic Forces"
-disciple_of_oceans_combined = "Disciple of Oceans Combined"
-disciple_of_tempests_abound = "Disciple of Tempests Abound"
+disciple_of_destructive_quakes = "地裂山崩之信徒"
+disciple_of_magmic_forces = "熔火威能之信徒"
+disciple_of_oceans_combined = "沧海合流之信徒"
+disciple_of_tempests_abound = "激荡风雷之信徒"
 dmg_dd = "Dmg ↓↓"
 dmg_u = "Dmg ↑"
 doom = "厄运"

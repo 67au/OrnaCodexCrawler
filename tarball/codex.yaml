@@ -92194,7 +92194,7 @@ costs = 90
 
 [entries."spells/summon-earth-disciple"]
 category = "spells"
-icon = "/img/monsters/apollyons_apprentice_earth_red.png"
+icon = "/img/monsters/disciple_earth.png"
 id = "summon-earth-disciple"
 related_to = ["monsters/disciple-of-destructive-quakes"]
 spell_type = "spell"
@@ -92263,7 +92263,7 @@ costs = 290
 
 [entries."spells/summon-fire-disciple"]
 category = "spells"
-icon = "/img/monsters/apollyons_apprentice_fire_red.png"
+icon = "/img/monsters/disciple_fire.png"
 id = "summon-fire-disciple"
 related_to = ["monsters/disciple-of-magmic-forces"]
 spell_type = "spell"
@@ -92579,7 +92579,7 @@ costs = 170
 
 [entries."spells/summon-ice-disciple"]
 category = "spells"
-icon = "/img/monsters/apollyons_apprentice_water_red.png"
+icon = "/img/monsters/disciple_water.png"
 id = "summon-ice-disciple"
 related_to = ["monsters/disciple-of-oceans-combined"]
 spell_type = "spell"
@@ -92923,7 +92923,7 @@ name = "stonewarg_68f86843"
 
 [entries."spells/summon-storm-disciple"]
 category = "spells"
-icon = "/img/monsters/apollyons_apprentice_lightning_red.png"
+icon = "/img/monsters/disciple_lightning.png"
 id = "summon-storm-disciple"
 related_to = ["monsters/disciple-of-tempests-abound"]
 spell_type = "spell"

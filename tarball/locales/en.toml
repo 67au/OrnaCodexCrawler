@@ -1278,6 +1278,12 @@ id = "colossus"
 language = "en"
 name = "Colossus"
 
+[entries."bosses/covyn"]
+category = "bosses"
+id = "covyn"
+language = "en"
+name = "Covyn"
+
 [entries."bosses/cthulhu"]
 category = "bosses"
 id = "cthulhu"
@@ -1439,6 +1445,12 @@ category = "bosses"
 id = "damona-of-fomoria"
 language = "en"
 name = "Damona of Fomoria"
+
+[entries."bosses/dangy"]
+category = "bosses"
+id = "dangy"
+language = "en"
+name = "Dangy"
 
 [entries."bosses/dark-elf-lord"]
 category = "bosses"
@@ -1644,6 +1656,12 @@ id = "flames"
 language = "en"
 name = "Flames"
 
+[entries."bosses/flax44"]
+category = "bosses"
+id = "flax44"
+language = "en"
+name = "Flax44"
+
 [entries."bosses/fomorian-lord"]
 category = "bosses"
 id = "fomorian-lord"
@@ -1745,6 +1763,12 @@ category = "bosses"
 id = "hades"
 language = "en"
 name = "Hades"
+
+[entries."bosses/havel"]
+category = "bosses"
+id = "havel"
+language = "en"
+name = "Havel"
 
 [entries."bosses/heimdall"]
 category = "bosses"
@@ -1932,6 +1956,18 @@ id = "minotaur"
 language = "en"
 name = "Minotaur"
 
+[entries."bosses/mmmpizza"]
+category = "bosses"
+id = "mmmpizza"
+language = "en"
+name = "MmmPizza"
+
+[entries."bosses/mochi"]
+category = "bosses"
+id = "mochi"
+language = "en"
+name = "Mochi"
+
 [entries."bosses/mullo-of-fomoria"]
 category = "bosses"
 id = "mullo-of-fomoria"
@@ -1949,6 +1985,12 @@ category = "bosses"
 id = "niskus-of-fomoria"
 language = "en"
 name = "Niskus of Fomoria"
+
+[entries."bosses/ob"]
+category = "bosses"
+id = "ob"
+language = "en"
+name = "ob"
 
 [entries."bosses/odin"]
 category = "bosses"
@@ -1985,6 +2027,12 @@ category = "bosses"
 id = "pollux"
 language = "en"
 name = "Pollux"
+
+[entries."bosses/purrly"]
+category = "bosses"
+id = "purrly"
+language = "en"
+name = "Purrly"
 
 [entries."bosses/pyre"]
 category = "bosses"
@@ -2094,9 +2142,9 @@ id = "shadow-of-rhada-the-great-shield"
 language = "en"
 name = "Shadow of Rhada, the Great Shield"
 
-[entries."bosses/sluagh-a557fcc4"]
+[entries."bosses/sluagh"]
 category = "bosses"
-id = "sluagh-a557fcc4"
+id = "sluagh"
 language = "en"
 name = "Sluagh"
 
@@ -2183,6 +2231,12 @@ category = "bosses"
 id = "terrifying-ghost"
 language = "en"
 name = "Terrifying Ghost"
+
+[entries."bosses/the-creator"]
+category = "bosses"
+id = "the-creator"
+language = "en"
+name = "The Creator"
 
 [entries."bosses/the-dullahan"]
 category = "bosses"
@@ -3559,6 +3613,13 @@ id = "draugr-mage"
 language = "en"
 name = "Draugr Mage"
 
+[entries."followers/drone"]
+category = "followers"
+description = "A Northern follower."
+id = "drone"
+language = "en"
+name = "Drone"
+
 [entries."followers/earthen-dragon"]
 category = "followers"
 description = "A dragon with the power of the earth. It can imbue your weapon with earthen power and cast earthen magic."
@@ -3713,6 +3774,13 @@ id = "fjalar"
 language = "en"
 name = "Fjalar"
 
+[entries."followers/gandalf"]
+category = "followers"
+description = "A Northern follower."
+id = "gandalf"
+language = "en"
+name = "Gandalf"
+
 [entries."followers/gargoyle"]
 category = "followers"
 description = "A living gargoyle. It can assist in battle by rarely petrifying your opponent."
@@ -3789,6 +3857,13 @@ description = "A gnome. It can assist you in battle with its spells."
 id = "gnome"
 language = "en"
 name = "Gnome"
+
+[entries."followers/goldie"]
+category = "followers"
+description = "A Northern follower."
+id = "goldie"
+language = "en"
+name = "Goldie"
 
 [entries."followers/gorynych-son-of-mountains"]
 category = "followers"
@@ -4000,6 +4075,13 @@ id = "imp"
 language = "en"
 name = "Imp"
 
+[entries."followers/kady"]
+category = "followers"
+description = "A Northern follower."
+id = "kady"
+language = "en"
+name = "Kady"
+
 [entries."followers/kerberos"]
 category = "followers"
 description = "Arisen from the deep depths of the underworld. Available for a limited time only."
@@ -4034,6 +4116,13 @@ description = "A tamed slime. It is not very powerful, but may assist you in bat
 id = "lesser-slime"
 language = "en"
 name = "Lesser Slime"
+
+[entries."followers/lily"]
+category = "followers"
+description = "A Northern follower."
+id = "lily"
+language = "en"
+name = "Lily"
 
 [entries."followers/lindworm"]
 category = "followers"
@@ -4139,6 +4228,13 @@ description = "Available for a limited time only."
 id = "medusa"
 language = "en"
 name = "Medusa"
+
+[entries."followers/melon"]
+category = "followers"
+description = "A Northern follower."
+id = "melon"
+language = "en"
+name = "Melon"
 
 [entries."followers/mighty-griffin"]
 category = "followers"
@@ -4602,6 +4698,13 @@ id = "traveled-wolpertinger"
 language = "en"
 name = "Traveled Wolpertinger"
 
+[entries."followers/trek"]
+category = "followers"
+description = "A Northern follower."
+id = "trek"
+language = "en"
+name = "Trek"
+
 [entries."followers/triton"]
 category = "followers"
 description = "A brown crustacean. It can cause your opponents to bleed while slightly healing you."
@@ -4664,6 +4767,13 @@ description = "A tamed warg. It will assist in battle with dark strikes."
 id = "warg"
 language = "en"
 name = "Warg"
+
+[entries."followers/whiskey"]
+category = "followers"
+description = "A Northern follower."
+id = "whiskey"
+language = "en"
+name = "Whiskey"
 
 [entries."followers/wisp"]
 category = "followers"
@@ -6016,17 +6126,17 @@ id = "arisen-cursed-fomoria-plated-boots"
 language = "en"
 name = "Arisen Cursed Fomoria Plated Boots"
 
-[entries."items/arisen-cursed-fomoria-plated-boots-4de3e61d"]
-category = "items"
-description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "arisen-cursed-fomoria-plated-boots-4de3e61d"
-language = "en"
-name = "Arisen Cursed Fomoria Plated Boots"
-
 [entries."items/arisen-cursed-fomoria-plated-boots-56e4841c"]
 category = "items"
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 id = "arisen-cursed-fomoria-plated-boots-56e4841c"
+language = "en"
+name = "Arisen Cursed Fomoria Plated Boots"
+
+[entries."items/arisen-cursed-fomoria-plated-boots-7aefba00"]
+category = "items"
+description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
+id = "arisen-cursed-fomoria-plated-boots-7aefba00"
 language = "en"
 name = "Arisen Cursed Fomoria Plated Boots"
 
@@ -6072,6 +6182,13 @@ id = "arisen-cursed-fomors-crown"
 language = "en"
 name = "Arisen Cursed Fomor's Crown"
 
+[entries."items/arisen-cursed-fomors-crown-276564a1"]
+category = "items"
+description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
+id = "arisen-cursed-fomors-crown-276564a1"
+language = "en"
+name = "Arisen Cursed Fomor's Crown"
+
 [entries."items/arisen-cursed-fomors-crown-2cb9b4e6"]
 category = "items"
 description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
@@ -6083,13 +6200,6 @@ name = "Arisen Cursed Fomor's Crown"
 category = "items"
 description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 id = "arisen-cursed-fomors-crown-3a4a918b"
-language = "en"
-name = "Arisen Cursed Fomor's Crown"
-
-[entries."items/arisen-cursed-fomors-crown-612a024c"]
-category = "items"
-description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "arisen-cursed-fomors-crown-612a024c"
 language = "en"
 name = "Arisen Cursed Fomor's Crown"
 
@@ -10083,6 +10193,13 @@ id = "covyns-dark-mask"
 language = "en"
 name = "Covyn's Dark Mask"
 
+[entries."items/covyns-eye"]
+category = "items"
+description = "Eye of Covyn, the evil northern organizer of pixels."
+id = "covyns-eye"
+language = "en"
+name = "Covyn's Eye"
+
 [entries."items/covyns-great-scythe"]
 category = "items"
 description = "Scythe of Covyn, the evil northern organizer of pixels."
@@ -10111,6 +10228,13 @@ id = "covyns-hood"
 language = "en"
 name = "Covyn's Hood"
 
+[entries."items/covyns-porcelain-mask"]
+category = "items"
+description = "Secondary Mask of Covyn, the evil northern organizer of pixels.\n\nWhen one wears a mask such as this, they denounce the allure of beasts. Classes that can take a follower become stronger without one."
+id = "covyns-porcelain-mask"
+language = "en"
+name = "Covyn's Porcelain Mask"
+
 [entries."items/covyns-robe"]
 category = "items"
 description = "Robe of Covyn, the evil northern organizer of pixels."
@@ -10124,6 +10248,13 @@ description = "Scythe of Covyn, the evil northern organizer of pixels."
 id = "covyns-scythe"
 language = "en"
 name = "Covyn's Scythe"
+
+[entries."items/covyns-side-sword"]
+category = "items"
+description = "Secondary Weapon of Covyn, the evil northern organizer of pixels.\n\nWhen one carries a weapon such as this, they denounce the allure of beasts. Classes that can take a follower become stronger without one."
+id = "covyns-side-sword"
+language = "en"
+name = "Covyn's Side Sword"
 
 [entries."items/covyns-skirt"]
 category = "items"
@@ -10552,10 +10683,10 @@ id = "cursed-fomoria-plated-robe"
 language = "en"
 name = "Cursed Fomoria Plated Robe"
 
-[entries."items/cursed-fomoria-plated-robe-5d09a4d7"]
+[entries."items/cursed-fomoria-plated-robe-49122feb"]
 category = "items"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "cursed-fomoria-plated-robe-5d09a4d7"
+id = "cursed-fomoria-plated-robe-49122feb"
 language = "en"
 name = "Cursed Fomoria Plated Robe"
 
@@ -10838,6 +10969,13 @@ description = "Wet shield of Damona, river Goddess of the Fomorian house of Autu
 id = "damonas-shield"
 language = "en"
 name = "Damona's Shield"
+
+[entries."items/dangys-alarm-clock"]
+category = "items"
+description = "Gear of the community hero."
+id = "dangys-alarm-clock"
+language = "en"
+name = "Dangy's Alarm Clock"
 
 [entries."items/dangys-arisen-glasses"]
 category = "items"
@@ -13786,6 +13924,13 @@ id = "flax44s-staff"
 language = "en"
 name = "Flax44's Staff"
 
+[entries."items/flaxs-universal-remote"]
+category = "items"
+description = "Gear of the great businessmage."
+id = "flaxs-universal-remote"
+language = "en"
+name = "Flax's Universal Remote"
+
 [entries."items/fleshy-monster-aspect"]
 category = "items"
 description = "Aspect of a monster that one may have encountered while traveling these lands. Aspects can be charged simply by walking after being slotted in your Traveler's Guild menu. Fully charged Aspects are converted into Manifestations for use in Guild Trials. This aspect will produce Human or Elven manifests."
@@ -13898,10 +14043,10 @@ id = "fomoria-plated-robe-427f8b42"
 language = "en"
 name = "Fomoria Plated Robe"
 
-[entries."items/fomoria-plated-robe-946a26b9"]
+[entries."items/fomoria-plated-robe-fb3188b6"]
 category = "items"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "fomoria-plated-robe-946a26b9"
+id = "fomoria-plated-robe-fb3188b6"
 language = "en"
 name = "Fomoria Plated Robe"
 
@@ -14044,6 +14189,13 @@ description = "Legs of Aries, the forest goat. Wearing them will increase your p
 id = "forest-goats-legs"
 language = "en"
 name = "Forest Goat's Legs"
+
+[entries."items/four-leaf-clover"]
+category = "items"
+description = "1, 2, 3, 4."
+id = "four-leaf-clover"
+language = "en"
+name = "Four-leaf Clover"
 
 [entries."items/fragment-of-olympic-memory"]
 category = "items"
@@ -15186,6 +15338,13 @@ id = "havels-old-sword"
 language = "en"
 name = "Havel's Old Sword"
 
+[entries."items/havels-perfectly-sized-mug"]
+category = "items"
+description = "A mug, larger than most. It will increase your character's size in battle."
+id = "havels-perfectly-sized-mug"
+language = "en"
+name = "Havel's Perfectly-Sized Mug"
+
 [entries."items/havels-shield"]
 category = "items"
 description = "Gear of the giant knight."
@@ -15815,6 +15974,13 @@ description = "Archistaff forged of the remains of a great Hydra. It can provide
 id = "hydra-staff"
 language = "en"
 name = "Hydra Staff"
+
+[entries."items/hymnbook-of-nature"]
+category = "items"
+description = "Old Grimoire of Terra, allowing one to summon Terra's beasts."
+id = "hymnbook-of-nature"
+language = "en"
+name = "Hymnbook of Nature"
 
 [entries."items/hyperion-boots"]
 category = "items"
@@ -17643,6 +17809,13 @@ id = "mirror"
 language = "en"
 name = "Mirror"
 
+[entries."items/mmmpizzas-pizza-cutter-for-cutting-pizza"]
+category = "items"
+description = "Don't worry, that's just marinara."
+id = "mmmpizzas-pizza-cutter-for-cutting-pizza"
+language = "en"
+name = "MmmPizza's Pizza Cutter for cutting Pizza"
+
 [entries."items/mnemonic-of-mnemosyne"]
 category = "items"
 description = "Mnemosyne, a Titan or tricks and puzzles, invites you to her Tower or Puzzles, \"Mnemosyne's Ascent\". This item is part of the \"Of Giants and Titans\" world event."
@@ -17692,6 +17865,13 @@ id = "mochis-boots-of-mercy"
 language = "en"
 name = "Mochi's Boots of Mercy"
 
+[entries."items/mochis-boots-with-the-fur"]
+category = "items"
+description = "With great support."
+id = "mochis-boots-with-the-fur"
+language = "en"
+name = "Mochi’s Boots with the Fur"
+
 [entries."items/mochis-bracer-of-mercy"]
 category = "items"
 description = "Gear of Mochi."
@@ -17719,6 +17899,13 @@ description = "Gear of Mochi."
 id = "mochis-garb-of-mercy"
 language = "en"
 name = "Mochi's Garb of Mercy"
+
+[entries."items/mochis-sweetroll"]
+category = "items"
+description = "With great support."
+id = "mochis-sweetroll"
+language = "en"
+name = "Mochi’s Sweetroll"
 
 [entries."items/mochis-tome"]
 category = "items"
@@ -18329,6 +18516,13 @@ id = "nurtured-nature"
 language = "en"
 name = "Nurtured Nature"
 
+[entries."items/obs-ski-goggles"]
+category = "items"
+description = "Gear from the slopes."
+id = "obs-ski-goggles"
+language = "en"
+name = "ob's Ski Goggles"
+
 [entries."items/occult-candle"]
 category = "items"
 description = "A mysterious candle that draws more enemies to you for 1 hour when lit."
@@ -18734,6 +18928,13 @@ description = "Each Titan preferred working with a type of mortar. When applied 
 id = "orichalcum-mortar"
 language = "en"
 name = "Orichalcum Mortar"
+
+[entries."items/ornaversary-token"]
+category = "items"
+description = "A token to be exchanged for rewards during Ornaversary."
+id = "ornaversary-token"
+language = "en"
+name = "Ornaversary Token"
 
 [entries."items/ortanite"]
 category = "items"
@@ -19364,6 +19565,20 @@ description = "A stone used by the Conqueror's Guild to purify plunders cursed b
 id = "purification-stone"
 language = "en"
 name = "Purification Stone"
+
+[entries."items/purrlys-boots-and-cats"]
+category = "items"
+description = "and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats. And Boots"
+id = "purrlys-boots-and-cats"
+language = "en"
+name = "Purrly’s Boots and Cats"
+
+[entries."items/purrlys-cat-treats"]
+category = "items"
+description = "Pspspsps"
+id = "purrlys-cat-treats"
+language = "en"
+name = "Purrly's Cat Treats"
 
 [entries."items/purrlys-favourite-staff"]
 category = "items"
@@ -20959,6 +21174,13 @@ description = "Each Titan preferred working with a type of mortar. When applied 
 id = "solarite-mortar"
 language = "en"
 name = "Solarite Mortar"
+
+[entries."items/songbook-of-nature"]
+category = "items"
+description = "Old Grimoire of Terra, allowing one to summon Terra's beasts."
+id = "songbook-of-nature"
+language = "en"
+name = "Songbook of Nature"
 
 [entries."items/sorcerers-scroll"]
 category = "items"
@@ -22779,6 +23001,13 @@ description = "Chapter VIII: Bashe, the World Eater -- hungry as ever -- drove h
 id = "world-eater"
 language = "en"
 name = "World Eater"
+
+[entries."items/wristwatch"]
+category = "items"
+description = "A watch typically worn around the wrist. When wearing this watch upon your wrist, the speed of animations in battle will increase."
+id = "wristwatch"
+language = "en"
+name = "Wristwatch"
 
 [entries."items/wyvern-armor"]
 category = "items"
@@ -25883,9 +26112,9 @@ id = "skoll"
 language = "en"
 name = "Skoll"
 
-[entries."monsters/sluagh"]
+[entries."monsters/sluagh-1999e7d6"]
 category = "monsters"
-id = "sluagh"
+id = "sluagh-1999e7d6"
 language = "en"
 name = "Sluagh (Arisen)"
 
@@ -26099,9 +26328,9 @@ id = "undead"
 language = "en"
 name = "Undead"
 
-[entries."monsters/undead-a47061cd"]
+[entries."monsters/undead-634b7e5e"]
 category = "monsters"
-id = "undead-a47061cd"
+id = "undead-634b7e5e"
 language = "en"
 name = "Undead"
 
@@ -26895,16 +27124,8 @@ id = "purrly"
 language = "en"
 name = "Purrly"
 
-[entries."raids/rainforest-destroyer-murk"]
-category = "raids"
-description = "Deal damage to this Murk if you would like us to collectively save the Rainforests this year."
-id = "rainforest-destroyer-murk"
-language = "en"
-name = "Rainforest Destroyer Murk"
-
 [entries."raids/reef-destroyer-murk"]
 category = "raids"
-description = "Deal damage to this Murk if you would like us to collectively save the Great Reefs this year."
 id = "reef-destroyer-murk"
 language = "en"
 name = "Reef Destroyer Murk"
@@ -31508,6 +31729,13 @@ id = "ragnarok"
 language = "en"
 name = "Ragnarok"
 
+[entries."spells/rainsong"]
+category = "spells"
+description = "Play the Rainsong, a beautiful melody that will fill the air with water and lull your opponents."
+id = "rainsong"
+language = "en"
+name = "Rainsong"
+
 [entries."spells/rally-of-charon"]
 category = "spells"
 description = "Has the potential to temporarily boost the offensive or defensive abilities of all summoned allies. Requires 2 turns in battle."
@@ -32123,6 +32351,13 @@ description = "Attempt to blind an enemy, making them more likely to miss attack
 id = "smoke-bomb"
 language = "en"
 name = "Smoke Bomb"
+
+[entries."spells/snooze"]
+category = "spells"
+description = "Snooze for 3 turns, then wake up with a variety of buffs."
+id = "snooze"
+language = "en"
+name = "Snooze (Off-hand)"
 
 [entries."spells/solarseals"]
 category = "spells"
@@ -32823,6 +33058,20 @@ description = "Summon a beast to assist you. Requires 3 turns in battle."
 id = "summon-mountain-gorilla"
 language = "en"
 name = "Summon Mountain Gorilla"
+
+[entries."spells/summon-natureblight"]
+category = "spells"
+description = "Summon an animal to assist you."
+id = "summon-natureblight"
+language = "en"
+name = "Summon Natureblight (Off-hand)"
+
+[entries."spells/summon-natureblight-ii"]
+category = "spells"
+description = "Summon an animal to assist you."
+id = "summon-natureblight-ii"
+language = "en"
+name = "Summon Natureblight II (Off-hand)"
 
 [entries."spells/summon-onryo"]
 category = "spells"
@@ -34014,21 +34263,27 @@ crow = "Crow"
 dark_dragon = "Dark Dragon"
 dire_wolf = "Dire Wolf"
 dog = "Dog"
+drone = "Drone"
 earthen_dragon = "Earthen Dragon"
 evil_eye = "Evil Eye"
 fenrir = "Fenrir"
 fire_dragon = "Fire Dragon"
+gandalf = "Gandalf"
 gargoyle = "Gargoyle"
 gilded_kheper = "Gilded Kheper"
 gnome = "Gnome"
+goldie = "Goldie"
 great_bear = "Great Bear"
 great_yeti = "Great Yeti"
 guivre = "Guivre"
 hellhound = "Hellhound"
 ice_dragon = "Ice Dragon"
+kady = "Kady"
 lesser_red_slime = "Lesser Red Slime"
+lily = "Lily"
 lindworm = "Lindworm"
 lizarr = "Lizarr"
+melon = "Melon"
 mighty_slime = "Mighty Slime"
 mimic = "Mimic"
 odok = "Odok"
@@ -34039,8 +34294,10 @@ snake = "Snake"
 spooky_ghost = "Spooky Ghost"
 steward_wolf = "Steward Wolf"
 storm_dragon = "Storm Dragon"
+trek = "Trek"
 twilight_wisp = "Twilight Wisp"
 warg = "Warg"
+whiskey = "Whiskey"
 wisp = "Wisp"
 wolf = "Wolf"
 wyvern = "Wyvern"
@@ -34135,6 +34392,7 @@ attack_rate = "Attack rate"
 auto_summon = "Auto Summon"
 avidity = "Avidity"
 bastille = "Bastille"
+battle_speed = "Battle Speed"
 bestial_bond = "Bestial Bond"
 bestial_bond_level = "Bestial Bond"
 blacksmith_material_cost = "Blacksmith Material Cost"
@@ -34142,6 +34400,7 @@ blacksmith_time = "Blacksmith Time"
 bloodflasks = "Bloodflasks"
 buff_duration = "Buff Duration"
 buff_rate = "Buff rate"
+cats = "Cats"
 causes = "Causes"
 chain_damage_chance = "Chain Damage Chance"
 collateral_chance = "Collateral Chance"
@@ -34182,6 +34441,7 @@ earthen_damage = "Earthen Damage"
 earthen_res = "Earthen Res"
 effect_chance = "Effect Chance"
 effect_damage = "Effect Damage"
+elemental_damage_taken = "Elemental Damage Taken"
 elemental_immunity_damage = "Elemental Immunity Damage"
 elemental_weaknesses = "Elemental Weaknesses"
 event_encounters = "Event Encounters"
@@ -34262,6 +34522,7 @@ sigils = "Sigils"
 souls_collected_r_stats = "Souls Collected → Stats"
 spell_casting_damage = "Spell Casting Damage"
 spell_rate = "Spell rate"
+sprite_size = "Sprite Size"
 stat_bonus = "Stat Bonus"
 status_effect_chance = "Status Effect Chance"
 status_effect_duration = "Status Effect Duration"
@@ -34309,6 +34570,7 @@ zwei_fencer = "Zwei-Fencer"
 
 [msg.stats_text]
 "100%_max_hp_damage" = "100% Max HP Damage"
+3x = "3x"
 "50%_mana" = "50% mana"
 "_1%_anguish_level" = "+1%/Anguish Level"
 ara_s_edge = "Ara's Edge"

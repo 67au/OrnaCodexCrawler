@@ -1278,6 +1278,12 @@ id = "colossus"
 language = "zh-hant"
 name = "巨像"
 
+[entries."bosses/covyn"]
+category = "bosses"
+id = "covyn"
+language = "zh-hant"
+name = "Covyn"
+
 [entries."bosses/cthulhu"]
 category = "bosses"
 id = "cthulhu"
@@ -1439,6 +1445,12 @@ category = "bosses"
 id = "damona-of-fomoria"
 language = "zh-hant"
 name = "弗摩爾族之達摩娜"
+
+[entries."bosses/dangy"]
+category = "bosses"
+id = "dangy"
+language = "zh-hant"
+name = "Dangy"
 
 [entries."bosses/dark-elf-lord"]
 category = "bosses"
@@ -1644,6 +1656,12 @@ id = "flames"
 language = "zh-hant"
 name = "火焰"
 
+[entries."bosses/flax44"]
+category = "bosses"
+id = "flax44"
+language = "zh-hant"
+name = "Flax44"
+
 [entries."bosses/fomorian-lord"]
 category = "bosses"
 id = "fomorian-lord"
@@ -1745,6 +1763,12 @@ category = "bosses"
 id = "hades"
 language = "zh-hant"
 name = "黑帝斯"
+
+[entries."bosses/havel"]
+category = "bosses"
+id = "havel"
+language = "zh-hant"
+name = "Havel"
 
 [entries."bosses/heimdall"]
 category = "bosses"
@@ -1932,6 +1956,18 @@ id = "minotaur"
 language = "zh-hant"
 name = "牛頭怪"
 
+[entries."bosses/mmmpizza"]
+category = "bosses"
+id = "mmmpizza"
+language = "zh-hant"
+name = "MmmPizza"
+
+[entries."bosses/mochi"]
+category = "bosses"
+id = "mochi"
+language = "zh-hant"
+name = "Mochi"
+
 [entries."bosses/mullo-of-fomoria"]
 category = "bosses"
 id = "mullo-of-fomoria"
@@ -1949,6 +1985,12 @@ category = "bosses"
 id = "niskus-of-fomoria"
 language = "zh-hant"
 name = "弗摩爾族之尼斯庫斯"
+
+[entries."bosses/ob"]
+category = "bosses"
+id = "ob"
+language = "zh-hant"
+name = "ob"
 
 [entries."bosses/odin"]
 category = "bosses"
@@ -1985,6 +2027,12 @@ category = "bosses"
 id = "pollux"
 language = "zh-hant"
 name = "波魯克斯"
+
+[entries."bosses/purrly"]
+category = "bosses"
+id = "purrly"
+language = "zh-hant"
+name = "Purrly"
 
 [entries."bosses/pyre"]
 category = "bosses"
@@ -2094,9 +2142,9 @@ id = "shadow-of-rhada-the-great-shield"
 language = "zh-hant"
 name = "大盾拉達之暗影"
 
-[entries."bosses/sluagh-a557fcc4"]
+[entries."bosses/sluagh"]
 category = "bosses"
-id = "sluagh-a557fcc4"
+id = "sluagh"
 language = "zh-hant"
 name = "勾魂者"
 
@@ -2183,6 +2231,12 @@ category = "bosses"
 id = "terrifying-ghost"
 language = "zh-hant"
 name = "恐慌幽靈"
+
+[entries."bosses/the-creator"]
+category = "bosses"
+id = "the-creator"
+language = "zh-hant"
+name = "造物者"
 
 [entries."bosses/the-dullahan"]
 category = "bosses"
@@ -3559,6 +3613,13 @@ id = "draugr-mage"
 language = "zh-hant"
 name = "屍鬼法師"
 
+[entries."followers/drone"]
+category = "followers"
+description = "A Northern follower."
+id = "drone"
+language = "zh-hant"
+name = "Drone"
+
 [entries."followers/earthen-dragon"]
 category = "followers"
 description = "擁有大地魔力的龍.能施展土系魔法並賦予你的武器大地屬性."
@@ -3713,6 +3774,13 @@ id = "fjalar"
 language = "zh-hant"
 name = "法亞拉"
 
+[entries."followers/gandalf"]
+category = "followers"
+description = "A Northern follower."
+id = "gandalf"
+language = "zh-hant"
+name = "Gandalf"
+
 [entries."followers/gargoyle"]
 category = "followers"
 description = "會動的石像鬼.有極低機會石化你的對手."
@@ -3789,6 +3857,13 @@ description = "就是個侏儒.能用他的魔法掩護你."
 id = "gnome"
 language = "zh-hant"
 name = "侏儒"
+
+[entries."followers/goldie"]
+category = "followers"
+description = "A Northern follower."
+id = "goldie"
+language = "zh-hant"
+name = "Goldie"
 
 [entries."followers/gorynych-son-of-mountains"]
 category = "followers"
@@ -4000,6 +4075,13 @@ id = "imp"
 language = "zh-hant"
 name = "小惡魔"
 
+[entries."followers/kady"]
+category = "followers"
+description = "A Northern follower."
+id = "kady"
+language = "zh-hant"
+name = "Kady"
+
 [entries."followers/kerberos"]
 category = "followers"
 description = "從冥府深淵重生.期間限定."
@@ -4034,6 +4116,13 @@ description = "被馴服的史萊姆. 雖然不太強, 但能協助你戰鬥."
 id = "lesser-slime"
 language = "zh-hant"
 name = "低階史萊姆"
+
+[entries."followers/lily"]
+category = "followers"
+description = "A Northern follower."
+id = "lily"
+language = "zh-hant"
+name = "Lily"
 
 [entries."followers/lindworm"]
 category = "followers"
@@ -4139,6 +4228,13 @@ description = "期間限定。"
 id = "medusa"
 language = "zh-hant"
 name = "梅杜莎"
+
+[entries."followers/melon"]
+category = "followers"
+description = "A Northern follower."
+id = "melon"
+language = "zh-hant"
+name = "Melon"
 
 [entries."followers/mighty-griffin"]
 category = "followers"
@@ -4602,6 +4698,13 @@ id = "traveled-wolpertinger"
 language = "zh-hant"
 name = "見多識廣的鹿角翼兔"
 
+[entries."followers/trek"]
+category = "followers"
+description = "A Northern follower."
+id = "trek"
+language = "zh-hant"
+name = "Trek"
+
 [entries."followers/triton"]
 category = "followers"
 description = "棕色的蝦蝦.能讓你的對手流血同時也稍微治療你."
@@ -4664,6 +4767,13 @@ description = "被馴服的座狼.能使用暗黑的攻擊."
 id = "warg"
 language = "zh-hant"
 name = "座狼"
+
+[entries."followers/whiskey"]
+category = "followers"
+description = "A Northern follower."
+id = "whiskey"
+language = "zh-hant"
+name = "Whiskey"
 
 [entries."followers/wisp"]
 category = "followers"
@@ -6016,17 +6126,17 @@ id = "arisen-cursed-fomoria-plated-boots"
 language = "zh-hant"
 name = "重生受詛咒的弗摩爾族板甲靴"
 
-[entries."items/arisen-cursed-fomoria-plated-boots-4de3e61d"]
-category = "items"
-description = "弗摩爾長靴，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
-id = "arisen-cursed-fomoria-plated-boots-4de3e61d"
-language = "zh-hant"
-name = "重生受詛咒的弗摩爾族板甲靴"
-
 [entries."items/arisen-cursed-fomoria-plated-boots-56e4841c"]
 category = "items"
 description = "弗摩爾長靴，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 id = "arisen-cursed-fomoria-plated-boots-56e4841c"
+language = "zh-hant"
+name = "重生受詛咒的弗摩爾族板甲靴"
+
+[entries."items/arisen-cursed-fomoria-plated-boots-7aefba00"]
+category = "items"
+description = "弗摩爾長靴，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
+id = "arisen-cursed-fomoria-plated-boots-7aefba00"
 language = "zh-hant"
 name = "重生受詛咒的弗摩爾族板甲靴"
 
@@ -6072,6 +6182,13 @@ id = "arisen-cursed-fomors-crown"
 language = "zh-hant"
 name = "重生受詛咒的弗摩爾王冠"
 
+[entries."items/arisen-cursed-fomors-crown-276564a1"]
+category = "items"
+description = "弗摩爾王冠，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
+id = "arisen-cursed-fomors-crown-276564a1"
+language = "zh-hant"
+name = "重生受詛咒的弗摩爾王冠"
+
 [entries."items/arisen-cursed-fomors-crown-2cb9b4e6"]
 category = "items"
 description = "弗摩爾王冠，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
@@ -6083,13 +6200,6 @@ name = "重生受詛咒的弗摩爾王冠"
 category = "items"
 description = "弗摩爾王冠，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 id = "arisen-cursed-fomors-crown-3a4a918b"
-language = "zh-hant"
-name = "重生受詛咒的弗摩爾王冠"
-
-[entries."items/arisen-cursed-fomors-crown-612a024c"]
-category = "items"
-description = "弗摩爾王冠，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
-id = "arisen-cursed-fomors-crown-612a024c"
 language = "zh-hant"
 name = "重生受詛咒的弗摩爾王冠"
 
@@ -10083,6 +10193,13 @@ id = "covyns-dark-mask"
 language = "zh-hant"
 name = "Covyn的黑暗面具"
 
+[entries."items/covyns-eye"]
+category = "items"
+description = "Eye of Covyn, the evil northern organizer of pixels."
+id = "covyns-eye"
+language = "zh-hant"
+name = "Covyn's Eye"
+
 [entries."items/covyns-great-scythe"]
 category = "items"
 description = "邪惡的北族像素組織者Covyn的鐮刀。"
@@ -10111,6 +10228,13 @@ id = "covyns-hood"
 language = "zh-hant"
 name = "Covyn 的兜帽"
 
+[entries."items/covyns-porcelain-mask"]
+category = "items"
+description = "Secondary Mask of Covyn, the evil northern organizer of pixels.\n\nWhen one wears a mask such as this, they denounce the allure of beasts. Classes that can take a follower become stronger without one."
+id = "covyns-porcelain-mask"
+language = "zh-hant"
+name = "Covyn's Porcelain Mask"
+
 [entries."items/covyns-robe"]
 category = "items"
 description = "邪惡的北族像素組織者Covyn的法袍。"
@@ -10124,6 +10248,13 @@ description = "邪惡的北族像素組織者Covyn的鐮刀。"
 id = "covyns-scythe"
 language = "zh-hant"
 name = "Covyn 的鐮刀"
+
+[entries."items/covyns-side-sword"]
+category = "items"
+description = "Secondary Weapon of Covyn, the evil northern organizer of pixels.\n\nWhen one carries a weapon such as this, they denounce the allure of beasts. Classes that can take a follower become stronger without one."
+id = "covyns-side-sword"
+language = "zh-hant"
+name = "Covyn's Side Sword"
 
 [entries."items/covyns-skirt"]
 category = "items"
@@ -10552,10 +10683,10 @@ id = "cursed-fomoria-plated-robe"
 language = "zh-hant"
 name = "受詛咒的弗摩爾族板甲袍"
 
-[entries."items/cursed-fomoria-plated-robe-5d09a4d7"]
+[entries."items/cursed-fomoria-plated-robe-49122feb"]
 category = "items"
 description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
-id = "cursed-fomoria-plated-robe-5d09a4d7"
+id = "cursed-fomoria-plated-robe-49122feb"
 language = "zh-hant"
 name = "受詛咒的弗摩爾族板甲袍"
 
@@ -10838,6 +10969,13 @@ description = "達摩娜的濕盾，弗摩爾族阿圖娜家族的女河神。�
 id = "damonas-shield"
 language = "zh-hant"
 name = "達摩娜之盾"
+
+[entries."items/dangys-alarm-clock"]
+category = "items"
+description = "社群英雄的工具。"
+id = "dangys-alarm-clock"
+language = "zh-hant"
+name = "Dangy's Alarm Clock"
 
 [entries."items/dangys-arisen-glasses"]
 category = "items"
@@ -13786,6 +13924,13 @@ id = "flax44s-staff"
 language = "zh-hant"
 name = "Flax44的法杖"
 
+[entries."items/flaxs-universal-remote"]
+category = "items"
+description = "偉大商業法師的工具。"
+id = "flaxs-universal-remote"
+language = "zh-hant"
+name = "Flax's Universal Remote"
+
 [entries."items/fleshy-monster-aspect"]
 category = "items"
 description = "在旅行時可能遇到魔物的靈魂。魔魂可在你的旅行者公會選單選擇，只需步行即可為其充能。 充能全滿的魔魂會轉化為覺醒魔魂，可用於公會試煉。這個魔魂可以獲得人族或精靈族的覺醒魔魂。"
@@ -13898,10 +14043,10 @@ id = "fomoria-plated-robe-427f8b42"
 language = "zh-hant"
 name = "弗摩爾族板甲袍"
 
-[entries."items/fomoria-plated-robe-946a26b9"]
+[entries."items/fomoria-plated-robe-fb3188b6"]
 category = "items"
 description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
-id = "fomoria-plated-robe-946a26b9"
+id = "fomoria-plated-robe-fb3188b6"
 language = "zh-hant"
 name = "弗摩爾族板甲袍"
 
@@ -14044,6 +14189,13 @@ description = "森林牡羊亞力士的腿。穿戴這件物品可以提高你�
 id = "forest-goats-legs"
 language = "zh-hant"
 name = "森林牡羊的腿"
+
+[entries."items/four-leaf-clover"]
+category = "items"
+description = "1, 2, 3, 4."
+id = "four-leaf-clover"
+language = "zh-hant"
+name = "Four-leaf Clover"
 
 [entries."items/fragment-of-olympic-memory"]
 category = "items"
@@ -15186,6 +15338,13 @@ id = "havels-old-sword"
 language = "zh-hant"
 name = "Havel的舊劍"
 
+[entries."items/havels-perfectly-sized-mug"]
+category = "items"
+description = "A mug, larger than most. It will increase your character's size in battle."
+id = "havels-perfectly-sized-mug"
+language = "zh-hant"
+name = "Havel's Perfectly-Sized Mug"
+
 [entries."items/havels-shield"]
 category = "items"
 description = "巨人騎士的工具。"
@@ -15815,6 +15974,13 @@ description = "利用九頭蛇的遺骸所製成的權杖。能獲得元素防�
 id = "hydra-staff"
 language = "zh-hant"
 name = "九頭蛇之杖"
+
+[entries."items/hymnbook-of-nature"]
+category = "items"
+description = "Old Grimoire of Terra, allowing one to summon Terra's beasts."
+id = "hymnbook-of-nature"
+language = "zh-hant"
+name = "Hymnbook of Nature"
 
 [entries."items/hyperion-boots"]
 category = "items"
@@ -17643,6 +17809,13 @@ id = "mirror"
 language = "zh-hant"
 name = "鏡子"
 
+[entries."items/mmmpizzas-pizza-cutter-for-cutting-pizza"]
+category = "items"
+description = "Don't worry, that's just marinara."
+id = "mmmpizzas-pizza-cutter-for-cutting-pizza"
+language = "zh-hant"
+name = "MmmPizza's Pizza Cutter for cutting Pizza"
+
 [entries."items/mnemonic-of-mnemosyne"]
 category = "items"
 description = "寧默辛妮─掌管詭計與謎題的泰坦，邀請你挑戰她的謎題之塔「寧默辛妮的攀登」。此道具屬於「巨人與泰坦」世界事件的一部分。"
@@ -17692,6 +17865,13 @@ id = "mochis-boots-of-mercy"
 language = "zh-hant"
 name = "Mochi的慈悲長靴"
 
+[entries."items/mochis-boots-with-the-fur"]
+category = "items"
+description = "客服已上線。"
+id = "mochis-boots-with-the-fur"
+language = "zh-hant"
+name = "Mochi’s Boots with the Fur"
+
 [entries."items/mochis-bracer-of-mercy"]
 category = "items"
 description = "Mochi噴的裝。"
@@ -17719,6 +17899,13 @@ description = "Mochi噴的裝。"
 id = "mochis-garb-of-mercy"
 language = "zh-hant"
 name = "Mochi的慈悲皮甲"
+
+[entries."items/mochis-sweetroll"]
+category = "items"
+description = "客服已上線。"
+id = "mochis-sweetroll"
+language = "zh-hant"
+name = "Mochi’s Sweetroll"
 
 [entries."items/mochis-tome"]
 category = "items"
@@ -18329,6 +18516,13 @@ id = "nurtured-nature"
 language = "zh-hant"
 name = "水潤自然"
 
+[entries."items/obs-ski-goggles"]
+category = "items"
+description = "雪道裡的裝備。"
+id = "obs-ski-goggles"
+language = "zh-hant"
+name = "ob's Ski Goggles"
+
 [entries."items/occult-candle"]
 category = "items"
 description = "一個點燃後會在一小時內吸引更多敵人的神秘蠟燭。"
@@ -18734,6 +18928,13 @@ description = "每個泰坦都偏好使用某種灰漿。當塗抹到武器上�
 id = "orichalcum-mortar"
 language = "zh-hant"
 name = "奧利哈鋼灰漿"
+
+[entries."items/ornaversary-token"]
+category = "items"
+description = "A token to be exchanged for rewards during Ornaversary."
+id = "ornaversary-token"
+language = "zh-hant"
+name = "Ornaversary Token"
 
 [entries."items/ortanite"]
 category = "items"
@@ -19364,6 +19565,20 @@ description = "一塊由征服者公會使用的石頭，用來淨化被莫莉�
 id = "purification-stone"
 language = "zh-hant"
 name = "淨化石"
+
+[entries."items/purrlys-boots-and-cats"]
+category = "items"
+description = "and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats. And Boots"
+id = "purrlys-boots-and-cats"
+language = "zh-hant"
+name = "Purrly’s Boots and Cats"
+
+[entries."items/purrlys-cat-treats"]
+category = "items"
+description = "Pspspsps"
+id = "purrlys-cat-treats"
+language = "zh-hant"
+name = "Purrly's Cat Treats"
 
 [entries."items/purrlys-favourite-staff"]
 category = "items"
@@ -20959,6 +21174,13 @@ description = "每個泰坦都偏好使用某種灰漿。當塗抹到武器上�
 id = "solarite-mortar"
 language = "zh-hant"
 name = "太陽靈石灰漿"
+
+[entries."items/songbook-of-nature"]
+category = "items"
+description = "Old Grimoire of Terra, allowing one to summon Terra's beasts."
+id = "songbook-of-nature"
+language = "zh-hant"
+name = "Songbook of Nature"
 
 [entries."items/sorcerers-scroll"]
 category = "items"
@@ -22779,6 +23001,13 @@ description = "第八章：如往常一樣飢腸轆轆的吞世者巴蛇，用�
 id = "world-eater"
 language = "zh-hant"
 name = "吞世者"
+
+[entries."items/wristwatch"]
+category = "items"
+description = "A watch typically worn around the wrist. When wearing this watch upon your wrist, the speed of animations in battle will increase."
+id = "wristwatch"
+language = "zh-hant"
+name = "Wristwatch"
 
 [entries."items/wyvern-armor"]
 category = "items"
@@ -25883,9 +26112,9 @@ id = "skoll"
 language = "zh-hant"
 name = "斯科爾"
 
-[entries."monsters/sluagh"]
+[entries."monsters/sluagh-1999e7d6"]
 category = "monsters"
-id = "sluagh"
+id = "sluagh-1999e7d6"
 language = "zh-hant"
 name = "勾魂者 (重生者)"
 
@@ -26099,9 +26328,9 @@ id = "undead"
 language = "zh-hant"
 name = "不死者"
 
-[entries."monsters/undead-a47061cd"]
+[entries."monsters/undead-634b7e5e"]
 category = "monsters"
-id = "undead-a47061cd"
+id = "undead-634b7e5e"
 language = "zh-hant"
 name = "不死者"
 
@@ -26895,16 +27124,8 @@ id = "purrly"
 language = "zh-hant"
 name = "Purrly"
 
-[entries."raids/rainforest-destroyer-murk"]
-category = "raids"
-description = "如果你希望我們今年能共同拯救雨林，請對這個淤濁造成傷害。"
-id = "rainforest-destroyer-murk"
-language = "zh-hant"
-name = "雨林毀滅者淤濁"
-
 [entries."raids/reef-destroyer-murk"]
 category = "raids"
-description = "如果你想讓我們今年共同拯救大礁岩，請對此淤濁造成傷害。"
 id = "reef-destroyer-murk"
 language = "zh-hant"
 name = "礁岩毀滅者淤濁"
@@ -31508,6 +31729,13 @@ id = "ragnarok"
 language = "zh-hant"
 name = "諸神黃昏"
 
+[entries."spells/rainsong"]
+category = "spells"
+description = "Play the Rainsong, a beautiful melody that will fill the air with water and lull your opponents."
+id = "rainsong"
+language = "zh-hant"
+name = "Rainsong"
+
 [entries."spells/rally-of-charon"]
 category = "spells"
 description = "有機會暫時性地提升所有小夥伴的攻擊或是防禦能力。需要兩回合發動。"
@@ -32123,6 +32351,13 @@ description = "嘗試使對手目盲，使他們更有機會攻擊失誤。"
 id = "smoke-bomb"
 language = "zh-hant"
 name = "煙霧彈"
+
+[entries."spells/snooze"]
+category = "spells"
+description = "貪睡 3 回合，隨後甦醒並獲得多種增益效果。"
+id = "snooze"
+language = "zh-hant"
+name = "再睡5分鐘 (副手)"
 
 [entries."spells/solarseals"]
 category = "spells"
@@ -32823,6 +33058,20 @@ description = "召喚一隻野獸來協助你。召喚需要3回合。"
 id = "summon-mountain-gorilla"
 language = "zh-hant"
 name = "召喚山地大猩猩"
+
+[entries."spells/summon-natureblight"]
+category = "spells"
+description = "Summon an animal to assist you."
+id = "summon-natureblight"
+language = "zh-hant"
+name = "Summon Natureblight (副手)"
+
+[entries."spells/summon-natureblight-ii"]
+category = "spells"
+description = "Summon an animal to assist you."
+id = "summon-natureblight-ii"
+language = "zh-hant"
+name = "Summon Natureblight II (副手)"
 
 [entries."spells/summon-onryo"]
 category = "spells"
@@ -33958,7 +34207,7 @@ merlin = "梅林"
 none = "None"
 nothren_legends__ragnarok = "北族傳說：諸神黃昏"
 of_giants_and_titans = "巨人與泰坦"
-"ornaversary!" = "Ornaversary!"
+"ornaversary!" = "Orna 周年慶！"
 paths_of_fomoria__house_of_autumna = "弗摩爾族之路：阿圖娜家族"
 paths_of_fomoria__house_of_nocturna = "弗摩爾族之路：諾克圖娜家族"
 paths_of_fomoria__house_of_sumner = "弗摩爾族之路：薩姆納家族"
@@ -33971,7 +34220,7 @@ sumner_games = "夏日運動會"
 terra_s_day = "泰菈之日"
 terra_s_legacy = "泰菈的遺產"
 terra_s_legacy__natureblight = "泰菈的遺產：萎化自然"
-terra_s_legacy__of_reefs_and_forests = "泰菈的遺產：礁岩與森林"
+terra_s_legacy__of_reefs_and_forests = "泰菈的遺產：萎化自然"
 the_crimson_festival = "緋紅祭"
 the_cursed_queens = "詛咒女王"
 the_hallowed = "The。萬聖"
@@ -34014,21 +34263,27 @@ crow = "烏鴉"
 dark_dragon = "暗黑龍"
 dire_wolf = "恐狼"
 dog = "狗狗"
+drone = "Drone"
 earthen_dragon = "地龍"
 evil_eye = "邪眼"
 fenrir = "芬里爾"
 fire_dragon = "火龍"
+gandalf = "Gandalf"
 gargoyle = "石像魔"
 gilded_kheper = "鍍金聖甲蟲"
 gnome = "侏儒"
+goldie = "Goldie"
 great_bear = "強大的熊"
 great_yeti = "大雪怪"
 guivre = "蛇龍基威爾"
 hellhound = "地獄犬"
 ice_dragon = "冰龍"
+kady = "Kady"
 lesser_red_slime = "低階紅色史萊姆"
+lily = "Lily"
 lindworm = "林德蟲"
 lizarr = "蜥蜴人"
+melon = "Melon"
 mighty_slime = "究極史萊姆"
 mimic = "寶箱怪"
 odok = "亡骸"
@@ -34039,8 +34294,10 @@ snake = "蛇"
 spooky_ghost = "詭異幽靈"
 steward_wolf = "眷族之狼"
 storm_dragon = "暴風龍"
+trek = "Trek"
 twilight_wisp = "黎明幽光"
 warg = "座狼"
+whiskey = "Whiskey"
 wisp = "幽光"
 wolf = "狼"
 wyvern = "飛龍"
@@ -34135,6 +34392,7 @@ attack_rate = "攻擊機率"
 auto_summon = "自動召喚"
 avidity = "貪慾"
 bastille = "堡壘術"
+battle_speed = "戰鬥速度"
 berserk = "+能力：狂暴"
 bestial_bond = "野獸羈絆"
 bestial_bond_level = "野獸羈絆"
@@ -34144,6 +34402,7 @@ bloodflasks = "血禁瓶"
 buff_duration = "增益持續時間"
 buff_rate = "增益機率"
 build_tower = "+能力：建塔"
+cats = "貓貓"
 causes = "造成"
 chain_damage_chance = "連鎖傷害機率"
 chain_lightning_ii = "+能力：連鎖閃電 II"
@@ -34187,6 +34446,7 @@ earthen_damage = "土系傷害"
 earthen_res = "土系抗性"
 effect_chance = "效果機率"
 effect_damage = "狀態傷害"
+elemental_damage_taken = "元素傷害承受度"
 elemental_immunity_damage = "元素免疫傷害"
 elemental_weaknesses = "元素弱點"
 event_encounters = "活動怪遭遇"
@@ -34271,6 +34531,7 @@ sigils = "印記"
 souls_collected_r_stats = "吸魂 → 體質"
 spell_casting_damage = "施法中減傷"
 spell_rate = "技能施放機率"
+sprite_size = "造型尺寸"
 stat_bonus = "狀態加成"
 status_effect_chance = "狀態生效機率"
 status_effect_duration = "狀態效果持續"
@@ -34321,6 +34582,7 @@ zwei_fencer = "重武悍將"
 
 [msg.stats_text]
 "100%_max_hp_damage" = "100% 最大生命值傷害"
+3x = "3x"
 "50%_mana" = "50% 魔力"
 "_1%_anguish_level" = "+1%/煎熬等級"
 ara_s_edge = "天壇座之刃"

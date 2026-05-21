@@ -3615,10 +3615,10 @@ name = "尸鬼法师"
 
 [entries."followers/drone"]
 category = "followers"
-description = "A Northern follower."
+description = "北族萌宠。"
 id = "drone"
 language = "zh-hans"
-name = "Drone"
+name = "无人机"
 
 [entries."followers/earthen-dragon"]
 category = "followers"
@@ -3776,10 +3776,10 @@ name = "法亚拉"
 
 [entries."followers/gandalf"]
 category = "followers"
-description = "A Northern follower."
+description = "北族萌宠。"
 id = "gandalf"
 language = "zh-hans"
-name = "Gandalf"
+name = "甘道夫"
 
 [entries."followers/gargoyle"]
 category = "followers"
@@ -3860,10 +3860,10 @@ name = "侏儒"
 
 [entries."followers/goldie"]
 category = "followers"
-description = "A Northern follower."
+description = "北族萌宠。"
 id = "goldie"
 language = "zh-hans"
-name = "Goldie"
+name = "歌蒂"
 
 [entries."followers/gorynych-son-of-mountains"]
 category = "followers"
@@ -4077,10 +4077,10 @@ name = "小恶魔"
 
 [entries."followers/kady"]
 category = "followers"
-description = "A Northern follower."
+description = "北族萌宠。"
 id = "kady"
 language = "zh-hans"
-name = "Kady"
+name = "卡迪"
 
 [entries."followers/kerberos"]
 category = "followers"
@@ -4119,10 +4119,10 @@ name = "低阶史莱姆"
 
 [entries."followers/lily"]
 category = "followers"
-description = "A Northern follower."
+description = "北族萌宠。"
 id = "lily"
 language = "zh-hans"
-name = "Lily"
+name = "莉莉"
 
 [entries."followers/lindworm"]
 category = "followers"
@@ -4231,10 +4231,10 @@ name = "美杜莎"
 
 [entries."followers/melon"]
 category = "followers"
-description = "A Northern follower."
+description = "北族萌宠。"
 id = "melon"
 language = "zh-hans"
-name = "Melon"
+name = "瓜"
 
 [entries."followers/mighty-griffin"]
 category = "followers"
@@ -4700,10 +4700,10 @@ name = "游历广阔的鹿角翼兔"
 
 [entries."followers/trek"]
 category = "followers"
-description = "A Northern follower."
+description = "北族萌宠。"
 id = "trek"
 language = "zh-hans"
-name = "Trek"
+name = "崔克"
 
 [entries."followers/triton"]
 category = "followers"
@@ -4770,10 +4770,10 @@ name = "座狼"
 
 [entries."followers/whiskey"]
 category = "followers"
-description = "A Northern follower."
+description = "北族萌宠。"
 id = "whiskey"
 language = "zh-hans"
-name = "Whiskey"
+name = "威士忌"
 
 [entries."followers/wisp"]
 category = "followers"
@@ -10195,10 +10195,10 @@ name = "Covyn暗黑面具"
 
 [entries."items/covyns-eye"]
 category = "items"
-description = "Eye of Covyn, the evil northern organizer of pixels."
+description = "邪恶的北族像素画师 Covyn 之眼。"
 id = "covyns-eye"
 language = "zh-hans"
-name = "Covyn's Eye"
+name = "Covyn之眼"
 
 [entries."items/covyns-great-scythe"]
 category = "items"
@@ -10230,10 +10230,10 @@ name = "Covyn兜帽"
 
 [entries."items/covyns-porcelain-mask"]
 category = "items"
-description = "Secondary Mask of Covyn, the evil northern organizer of pixels.\n\nWhen one wears a mask such as this, they denounce the allure of beasts. Classes that can take a follower become stronger without one."
+description = "邪恶的北族像素画师 Covyn 的备用面具。\n\n佩戴如此面具之人，当会拒绝万恶之兽的诱惑。能够使用追随者的职业会在不携带追随者时变得更加强大。"
 id = "covyns-porcelain-mask"
 language = "zh-hans"
-name = "Covyn's Porcelain Mask"
+name = "Covyn 的白瓷面具"
 
 [entries."items/covyns-robe"]
 category = "items"
@@ -10251,10 +10251,10 @@ name = "Covyn镰刀"
 
 [entries."items/covyns-side-sword"]
 category = "items"
-description = "Secondary Weapon of Covyn, the evil northern organizer of pixels.\n\nWhen one carries a weapon such as this, they denounce the allure of beasts. Classes that can take a follower become stronger without one."
+description = "邪恶的北族像素画师 Covyn 的备用面具。\n\n持有如此武器之人，当会拒绝万恶之兽的诱惑。能够使用追随者的职业会在不携带追随者时变得更加强大。"
 id = "covyns-side-sword"
 language = "zh-hans"
-name = "Covyn's Side Sword"
+name = "Coyvn的副剑"
 
 [entries."items/covyns-skirt"]
 category = "items"
@@ -10975,7 +10975,7 @@ category = "items"
 description = "社群英雄的装备。"
 id = "dangys-alarm-clock"
 language = "zh-hans"
-name = "Dangy's Alarm Clock"
+name = "Dangy的闹钟"
 
 [entries."items/dangys-arisen-glasses"]
 category = "items"
@@ -13929,7 +13929,7 @@ category = "items"
 description = "生意魔术师的装备。"
 id = "flaxs-universal-remote"
 language = "zh-hans"
-name = "Flax's Universal Remote"
+name = "Flax的万能遥控"
 
 [entries."items/fleshy-monster-aspect"]
 category = "items"
@@ -14192,10 +14192,10 @@ name = "林中白羊之腿"
 
 [entries."items/four-leaf-clover"]
 category = "items"
-description = "1, 2, 3, 4."
+description = "1，2，3，4。"
 id = "four-leaf-clover"
 language = "zh-hans"
-name = "Four-leaf Clover"
+name = "幸运四叶草"
 
 [entries."items/fragment-of-olympic-memory"]
 category = "items"
@@ -15340,10 +15340,10 @@ name = "Havel之旧剑"
 
 [entries."items/havels-perfectly-sized-mug"]
 category = "items"
-description = "A mug, larger than most. It will increase your character's size in battle."
+description = "非比寻常之大的马克杯。在战斗中能够增加角色造型的尺寸。"
 id = "havels-perfectly-sized-mug"
 language = "zh-hans"
-name = "Havel's Perfectly-Sized Mug"
+name = "Havel 的完美尺寸马克杯"
 
 [entries."items/havels-shield"]
 category = "items"
@@ -15977,10 +15977,10 @@ name = "九头蛇之杖"
 
 [entries."items/hymnbook-of-nature"]
 category = "items"
-description = "Old Grimoire of Terra, allowing one to summon Terra's beasts."
+description = "古老的泰拉魔典，能够从中召唤泰拉的野兽。"
 id = "hymnbook-of-nature"
 language = "zh-hans"
-name = "Hymnbook of Nature"
+name = "自然的赞美诗集"
 
 [entries."items/hyperion-boots"]
 category = "items"
@@ -17811,10 +17811,10 @@ name = "镜子"
 
 [entries."items/mmmpizzas-pizza-cutter-for-cutting-pizza"]
 category = "items"
-description = "Don't worry, that's just marinara."
+description = "别担心，这只是马里纳拉酱。"
 id = "mmmpizzas-pizza-cutter-for-cutting-pizza"
 language = "zh-hans"
-name = "MmmPizza's Pizza Cutter for cutting Pizza"
+name = "MmmPizza切披萨的披萨刀"
 
 [entries."items/mnemonic-of-mnemosyne"]
 category = "items"
@@ -17870,7 +17870,7 @@ category = "items"
 description = "客服已上线。"
 id = "mochis-boots-with-the-fur"
 language = "zh-hans"
-name = "Mochi’s Boots with the Fur"
+name = "Mochi的毛毛靴子"
 
 [entries."items/mochis-bracer-of-mercy"]
 category = "items"
@@ -17905,7 +17905,7 @@ category = "items"
 description = "客服已上线。"
 id = "mochis-sweetroll"
 language = "zh-hans"
-name = "Mochi’s Sweetroll"
+name = "Mochi的甜卷"
 
 [entries."items/mochis-tome"]
 category = "items"
@@ -18521,7 +18521,7 @@ category = "items"
 description = "滑雪场里的装备。"
 id = "obs-ski-goggles"
 language = "zh-hans"
-name = "ob's Ski Goggles"
+name = "ob的滑雪护目镜"
 
 [entries."items/occult-candle"]
 category = "items"
@@ -18931,10 +18931,10 @@ name = "奥利哈钢砂浆"
 
 [entries."items/ornaversary-token"]
 category = "items"
-description = "A token to be exchanged for rewards during Ornaversary."
+description = "Orna 周年庆期间用于兑换奖励的代币。"
 id = "ornaversary-token"
 language = "zh-hans"
-name = "Ornaversary Token"
+name = "Orna周年庆代币"
 
 [entries."items/ortanite"]
 category = "items"
@@ -19568,17 +19568,17 @@ name = "净化之石"
 
 [entries."items/purrlys-boots-and-cats"]
 category = "items"
-description = "and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats. And Boots"
+description = "动次打次 and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats and Boots and Cats. And Boots"
 id = "purrlys-boots-and-cats"
 language = "zh-hans"
-name = "Purrly’s Boots and Cats"
+name = "Purrly的长靴与猫猫"
 
 [entries."items/purrlys-cat-treats"]
 category = "items"
 description = "Pspspsps"
 id = "purrlys-cat-treats"
 language = "zh-hans"
-name = "Purrly's Cat Treats"
+name = "Purrly的猫猫零嘴"
 
 [entries."items/purrlys-favourite-staff"]
 category = "items"
@@ -21177,10 +21177,10 @@ name = "太阳灵石砂浆"
 
 [entries."items/songbook-of-nature"]
 category = "items"
-description = "Old Grimoire of Terra, allowing one to summon Terra's beasts."
+description = "古老的泰拉魔典，能够从中召唤泰拉的野兽。"
 id = "songbook-of-nature"
 language = "zh-hans"
-name = "Songbook of Nature"
+name = "自然的歌谱合集"
 
 [entries."items/sorcerers-scroll"]
 category = "items"
@@ -23004,10 +23004,10 @@ name = "世界吞噬者"
 
 [entries."items/wristwatch"]
 category = "items"
-description = "A watch typically worn around the wrist. When wearing this watch upon your wrist, the speed of animations in battle will increase."
+description = "通常佩戴在手腕上的手表。带穿戴该表时，战斗动画速度将会加快。"
 id = "wristwatch"
 language = "zh-hans"
-name = "Wristwatch"
+name = "腕表"
 
 [entries."items/wyvern-armor"]
 category = "items"
@@ -31731,10 +31731,10 @@ name = "诸神黄昏"
 
 [entries."spells/rainsong"]
 category = "spells"
-description = "Play the Rainsong, a beautiful melody that will fill the air with water and lull your opponents."
+description = "优美的雨歌旋律会使空气潮湿并让对手恍惚。"
 id = "rainsong"
 language = "zh-hans"
-name = "Rainsong"
+name = "雨歌"
 
 [entries."spells/rally-of-charon"]
 category = "spells"
@@ -33061,17 +33061,17 @@ name = "山地大猩猩召唤"
 
 [entries."spells/summon-natureblight"]
 category = "spells"
-description = "Summon an animal to assist you."
+description = "召唤一只动物来协助你。"
 id = "summon-natureblight"
 language = "zh-hans"
-name = "Summon Natureblight (副手)"
+name = "萎化自然召唤 (副手)"
 
 [entries."spells/summon-natureblight-ii"]
 category = "spells"
-description = "Summon an animal to assist you."
+description = "召唤一只动物来协助你。"
 id = "summon-natureblight-ii"
 language = "zh-hans"
-name = "Summon Natureblight II (副手)"
+name = "萎化自然召唤 II (副手)"
 
 [entries."spells/summon-onryo"]
 category = "spells"
@@ -34263,27 +34263,27 @@ crow = "乌鸦"
 dark_dragon = "暗黑龙"
 dire_wolf = "恐狼"
 dog = "狗狗"
-drone = "Drone"
+drone = "无人机"
 earthen_dragon = "地龙"
 evil_eye = "邪眼"
 fenrir = "芬里尔"
 fire_dragon = "火龙"
-gandalf = "Gandalf"
+gandalf = "甘道夫"
 gargoyle = "石像鬼"
 gilded_kheper = "镀金圣甲虫"
 gnome = "侏儒"
-goldie = "Goldie"
+goldie = "歌蒂"
 great_bear = "强大的熊"
 great_yeti = "大雪怪"
 guivre = "蛇龙基威尔"
 hellhound = "地狱犬"
 ice_dragon = "冰龙"
-kady = "Kady"
+kady = "卡迪"
 lesser_red_slime = "低阶红色史莱姆"
-lily = "Lily"
+lily = "莉莉"
 lindworm = "林德虫"
 lizarr = "蜥蜴人"
-melon = "Melon"
+melon = "瓜"
 mighty_slime = "究极史莱姆"
 mimic = "宝箱怪"
 odok = "亡骸"
@@ -34294,10 +34294,10 @@ snake = "蛇"
 spooky_ghost = "诡异幽灵"
 steward_wolf = "眷族之狼"
 storm_dragon = "暴风龙"
-trek = "Trek"
+trek = "崔克"
 twilight_wisp = "黎明幽光"
 warg = "座狼"
-whiskey = "Whiskey"
+whiskey = "威士忌"
 wisp = "幽光"
 wolf = "狼"
 wyvern = "飞龙"

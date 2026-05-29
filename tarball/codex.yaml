@@ -78280,9 +78280,9 @@ name = "bleeding"
 
 [entries."spells/aerial-barrage".stats]
 costs = 20
-crit_chance = 15
 element = ["physical"]
 power = "500-1500 (x5)"
+spell_crit_chance = 15
 
 [entries."spells/aglostrike"]
 category = "spells"
@@ -78311,9 +78311,9 @@ chance = 3
 name = "rot"
 
 [entries."spells/aglostrike".stats]
-crit_chance = 5
 element = ["arcane"]
 power = "1300"
+spell_crit_chance = 5
 
 [entries."spells/aglostrike-ii"]
 category = "spells"
@@ -78342,9 +78342,9 @@ chance = 6
 name = "rot"
 
 [entries."spells/aglostrike-ii".stats]
-crit_chance = 15
 element = ["arcane"]
 power = "2000"
+spell_crit_chance = 15
 
 [entries."spells/aligned-sigilflask"]
 category = "spells"
@@ -78744,8 +78744,8 @@ tier = 9
 
 [entries."spells/ara-vesta".stats]
 costs = 180
-crit_chance = 5
 power = "2200 | PvP: 1980"
+spell_crit_chance = 5
 
 [entries."spells/ara-vesta-ii"]
 category = "spells"
@@ -78758,8 +78758,8 @@ tier = 10
 
 [entries."spells/ara-vesta-ii".stats]
 costs = 180
-crit_chance = 5
 power = "2300 | PvP: 2070"
+spell_crit_chance = 5
 
 [entries."spells/ara-vesta-iii"]
 category = "spells"
@@ -78772,8 +78772,8 @@ tier = 10
 
 [entries."spells/ara-vesta-iii".stats]
 costs = 290
-crit_chance = 10
 power = "2400 | PvP: 2160"
+spell_crit_chance = 10
 
 [entries."spells/ara-vesta-iv"]
 category = "spells"
@@ -78786,8 +78786,8 @@ tier = 10
 
 [entries."spells/ara-vesta-iv".stats]
 costs = 400
-crit_chance = 5
 power = "2000 | PvP: 1800"
+spell_crit_chance = 5
 
 [entries."spells/ara-vestaga"]
 category = "spells"
@@ -78800,8 +78800,8 @@ tier = 10
 
 [entries."spells/ara-vestaga".stats]
 costs = 250
-crit_chance = 5
 power = "1000 | PvP: 900"
+spell_crit_chance = 5
 
 [entries."spells/ara-vestala"]
 category = "spells"
@@ -78814,8 +78814,8 @@ tier = 9
 
 [entries."spells/ara-vestala".stats]
 costs = 200
-crit_chance = 10
 power = "2300 | PvP: 2070"
+spell_crit_chance = 10
 
 [entries."spells/aras-edge"]
 category = "spells"
@@ -79588,8 +79588,8 @@ tier = 7
 
 [entries."spells/beastslayer".stats]
 costs = 100
-crit_chance = 5
 power = "1000"
+spell_crit_chance = 5
 
 [entries."spells/beastslayer-ii"]
 category = "spells"
@@ -79601,8 +79601,8 @@ tier = 9
 
 [entries."spells/beastslayer-ii".stats]
 costs = 120
-crit_chance = 5
 power = "1000"
+spell_crit_chance = 5
 
 [entries."spells/beaststrike"]
 category = "spells"
@@ -79620,9 +79620,9 @@ name = "blight"
 
 [entries."spells/beaststrike".stats]
 costs = 50
-crit_chance = 5
 element = ["dragon"]
 power = "1300"
+spell_crit_chance = 5
 
 [entries."spells/beaststrike-ii"]
 category = "spells"
@@ -79640,9 +79640,9 @@ name = "blight"
 
 [entries."spells/beaststrike-ii".stats]
 costs = 90
-crit_chance = 5
 element = ["dragon"]
 power = "1750"
+spell_crit_chance = 5
 
 [entries."spells/beaststrike-iii"]
 category = "spells"
@@ -79660,9 +79660,9 @@ name = "blight"
 
 [entries."spells/beaststrike-iii".stats]
 costs = 120
-crit_chance = 15
 element = ["dragon"]
 power = "2000"
+spell_crit_chance = 15
 
 [entries."spells/beaststrike-iv"]
 category = "spells"
@@ -79680,9 +79680,9 @@ name = "blight"
 
 [entries."spells/beaststrike-iv".stats]
 costs = 170
-crit_chance = 20
 element = ["dragon"]
 power = "2200"
+spell_crit_chance = 20
 
 [entries."spells/beaststrikes"]
 category = "spells"
@@ -79700,9 +79700,9 @@ name = "blight"
 
 [entries."spells/beaststrikes".stats]
 costs = 80
-crit_chance = 15
 element = ["dragon"]
 power = "500-1100 (x3)"
+spell_crit_chance = 15
 
 [entries."spells/beheading-cleave"]
 category = "spells"
@@ -79728,9 +79728,9 @@ name = "cursed"
 
 [entries."spells/beheading-cleave".stats]
 costs = 100
-crit_chance = 25
 element = ["dark"]
 power = "1900"
+spell_crit_chance = 25
 
 [entries."spells/beheading-slice"]
 category = "spells"
@@ -79756,9 +79756,9 @@ name = "cursed"
 
 [entries."spells/beheading-slice".stats]
 costs = 100
-crit_chance = 15
 element = ["dark"]
 power = "2500"
+spell_crit_chance = 15
 
 [entries."spells/beheading-sweep"]
 category = "spells"
@@ -79950,8 +79950,8 @@ name = "bleeding"
 
 [entries."spells/bleed".stats]
 costs = 15
-crit_chance = 25
 power = "1000"
+spell_crit_chance = 25
 
 [entries."spells/blessed-shield"]
 category = "spells"
@@ -79989,9 +79989,9 @@ chance = 10
 name = "blight"
 
 [entries."spells/blight-arrow".stats]
-crit_chance = 5
 element = ["dragon"]
 power = "1700"
+spell_crit_chance = 5
 
 [entries."spells/blightblast"]
 category = "spells"
@@ -80008,9 +80008,9 @@ chance = 10
 name = "blight"
 
 [entries."spells/blightblast".stats]
-crit_chance = 5
 element = ["dragon"]
 power = "1700"
+spell_crit_chance = 5
 
 [entries."spells/blightstrike"]
 category = "spells"
@@ -80028,9 +80028,9 @@ name = "blight"
 
 [entries."spells/blightstrike".stats]
 costs = 75
-crit_chance = 5
 element = ["dragon"]
 power = "1300"
+spell_crit_chance = 5
 
 [entries."spells/blightstrike-2"]
 category = "spells"
@@ -80047,9 +80047,9 @@ chance = 10
 name = "blight"
 
 [entries."spells/blightstrike-2".stats]
-crit_chance = 5
 element = ["dragon"]
 power = "1700"
+spell_crit_chance = 5
 
 [entries."spells/blightstrike-ii"]
 category = "spells"
@@ -80067,9 +80067,9 @@ name = "blight"
 
 [entries."spells/blightstrike-ii".stats]
 costs = 90
-crit_chance = 5
 element = ["dragon"]
 power = "1750"
+spell_crit_chance = 5
 
 [entries."spells/blightstrike-iii"]
 category = "spells"
@@ -80087,9 +80087,9 @@ name = "blight"
 
 [entries."spells/blightstrike-iii".stats]
 costs = 120
-crit_chance = 5
 element = ["dragon"]
 power = "2000"
+spell_crit_chance = 5
 
 [entries."spells/blizzard"]
 category = "spells"
@@ -80176,8 +80176,8 @@ targets = "a_single_opponent"
 tier = 8
 
 [entries."spells/blood-ray-flask".stats]
-crit_chance = 25
 power = "2000-3500"
+spell_crit_chance = 25
 
 [entries."spells/bloodflask-infusion"]
 category = "spells"
@@ -80330,8 +80330,8 @@ tier = 2
 used_by = ["followers/experienced-wolpertinger", "followers/traveled-wolpertinger", "followers/wolpertinger", "followers/worldly-wolpertinger"]
 
 [entries."spells/bonded-strikes".stats]
-crit_chance = 20
 power = "500-1100 (x3)"
+spell_crit_chance = 20
 
 [entries."spells/boulder-toss"]
 category = "spells"
@@ -80364,8 +80364,8 @@ chance = 30
 name = "stunned"
 
 [entries."spells/bouncing-arrow".stats]
-crit_chance = 15
 power = "2500"
+spell_crit_chance = 15
 
 [entries."spells/break"]
 category = "spells"
@@ -80487,8 +80487,8 @@ chance = 20
 name = "blind"
 
 [entries."spells/brilliant-lights-ii".stats]
-crit_chance = 5
 power = "700-1000 (x3)"
+spell_crit_chance = 5
 
 [entries."spells/brittle-break"]
 category = "spells"
@@ -80893,8 +80893,8 @@ name = "starstruck"
 
 [entries."spells/celestial-arrow".stats]
 costs = 300
-crit_chance = 25
 power = "3700"
+spell_crit_chance = 25
 
 [entries."spells/chain-lightning"]
 category = "spells"
@@ -80994,9 +80994,9 @@ used_by = ["bosses/aengus-og-of-fomoria", "bosses/arisen-thor-the-storm-god", "b
 
 [entries."spells/charge".stats]
 costs = 20
-crit_chance = 5
 element = ["physical"]
 power = "1200"
+spell_crit_chance = 5
 
 [entries."spells/charge-ii"]
 category = "spells"
@@ -81009,9 +81009,9 @@ used_by = ["bosses/artio-of-fomoria", "bosses/atepomarus-of-fomoria", "bosses/be
 
 [entries."spells/charge-ii".stats]
 costs = 40
-crit_chance = 5
 element = ["physical"]
 power = "1400"
+spell_crit_chance = 5
 
 [entries."spells/charon-pact"]
 category = "spells"
@@ -81156,9 +81156,9 @@ name = "bleeding"
 
 [entries."spells/cleave".stats]
 costs = 20
-crit_chance = 25
 element = ["physical"]
 power = "1800"
+spell_crit_chance = 25
 
 [entries."spells/cleave-2"]
 category = "spells"
@@ -81175,9 +81175,9 @@ chance = 30
 name = "bleeding"
 
 [entries."spells/cleave-2".stats]
-crit_chance = 25
 element = ["physical"]
 power = "1800"
+spell_crit_chance = 25
 
 [entries."spells/cockatrice-breath"]
 category = "spells"
@@ -81355,9 +81355,9 @@ used_by = ["followers/amarok", "followers/oslo"]
 
 [entries."spells/crown-feller".stats]
 costs = 50
-crit_chance = 5
 element = ["holy"]
 power = "1400"
+spell_crit_chance = 5
 
 [entries."spells/crown-feller-ii"]
 category = "spells"
@@ -81370,9 +81370,9 @@ used_by = ["followers/great-amarok", "followers/great-oslo", "monsters/amarok"]
 
 [entries."spells/crown-feller-ii".stats]
 costs = 150
-crit_chance = 8
 element = ["holy"]
 power = "2400"
+spell_crit_chance = 8
 
 [entries."spells/crush"]
 category = "spells"
@@ -81389,9 +81389,9 @@ chance = 25
 name = "stunned"
 
 [entries."spells/crush".stats]
-crit_chance = 10
 element = ["physical"]
 power = "1900"
+spell_crit_chance = 10
 
 [entries."spells/crux-sigil"]
 category = "spells"
@@ -81685,9 +81685,9 @@ name = "asleep"
 
 [entries."spells/darkstrike".stats]
 costs = 35
-crit_chance = 5
 element = ["dark"]
 power = "1200"
+spell_crit_chance = 5
 
 [entries."spells/darkstrike-ii"]
 category = "spells"
@@ -81705,9 +81705,9 @@ name = "asleep"
 
 [entries."spells/darkstrike-ii".stats]
 costs = 80
-crit_chance = 5
 element = ["dark"]
 power = "1500"
+spell_crit_chance = 5
 
 [entries."spells/darkstrike-iii"]
 category = "spells"
@@ -81725,9 +81725,9 @@ name = "asleep"
 
 [entries."spells/darkstrike-iii".stats]
 costs = 150
-crit_chance = 7
 element = ["dark"]
 power = "2000"
+spell_crit_chance = 7
 
 [entries."spells/decay"]
 category = "spells"
@@ -81814,8 +81814,8 @@ used_by = ["bosses/fallen-brunor"]
 
 [entries."spells/delay-strike".stats]
 costs = 90
-crit_chance = 5
 power = "990-1320"
+spell_crit_chance = 5
 
 [entries."spells/delay-strike-ii"]
 category = "spells"
@@ -81829,8 +81829,8 @@ used_by = ["monsters/anteros-knave"]
 
 [entries."spells/delay-strike-ii".stats]
 costs = 100
-crit_chance = 5
 power = "1080-1560"
+spell_crit_chance = 5
 
 [entries."spells/delay-strike-iii"]
 category = "spells"
@@ -81844,8 +81844,8 @@ used_by = ["followers/sphinx-kit", "monsters/sphinx-kit", "monsters/swordbearer-
 
 [entries."spells/delay-strike-iii".stats]
 costs = 160
-crit_chance = 5
 power = "1890-2730"
+spell_crit_chance = 5
 
 [entries."spells/delay-strike-x"]
 category = "spells"
@@ -81930,8 +81930,8 @@ tier = 5
 
 [entries."spells/desperation".stats]
 costs = 50
-crit_chance = 5
 power = "1000"
+spell_crit_chance = 5
 
 [entries."spells/diffuse-ward"]
 category = "spells"
@@ -82920,9 +82920,9 @@ chance = 3
 name = "blight"
 
 [entries."spells/dragon-tail-sweep".stats]
-crit_chance = 5
 element = ["dragon"]
 power = "1100"
+spell_crit_chance = 5
 
 [entries."spells/dragons-vengeance"]
 category = "spells"
@@ -82973,9 +82973,9 @@ tier = 5
 
 [entries."spells/dragonslayer".stats]
 costs = 100
-crit_chance = 5
 element = ["dragon"]
 power = "1750"
+spell_crit_chance = 5
 
 [entries."spells/dragonstrike"]
 category = "spells"
@@ -82989,9 +82989,9 @@ used_by = ["raids/fey-cockatrice", "raids/fey-dragon"]
 
 [entries."spells/dragonstrike".stats]
 costs = 10
-crit_chance = 5
 element = ["dragon"]
 power = "1100"
+spell_crit_chance = 5
 
 [entries."spells/drain"]
 category = "spells"
@@ -83209,9 +83209,9 @@ name = "rot"
 
 [entries."spells/earthstrike".stats]
 costs = 25
-crit_chance = 5
 element = ["earthen"]
 power = "1100"
+spell_crit_chance = 5
 
 [entries."spells/earthstrike-ii"]
 category = "spells"
@@ -83229,9 +83229,9 @@ name = "rot"
 
 [entries."spells/earthstrike-ii".stats]
 costs = 75
-crit_chance = 5
 element = ["earthen"]
 power = "1500"
+spell_crit_chance = 5
 
 [entries."spells/earthstrike-iii"]
 category = "spells"
@@ -83249,9 +83249,9 @@ name = "rot"
 
 [entries."spells/earthstrike-iii".stats]
 costs = 120
-crit_chance = 5
 element = ["earthen"]
 power = "2000"
+spell_crit_chance = 5
 
 [entries."spells/eistla-stance"]
 category = "spells"
@@ -83376,9 +83376,9 @@ name = "burning"
 
 [entries."spells/emberseal-iii".stats]
 costs = 220
-crit_chance = 5
 element = ["fire"]
 power = "2400"
+spell_crit_chance = 5
 
 [entries."spells/emberstrike"]
 category = "spells"
@@ -83432,9 +83432,9 @@ name = "burning"
 
 [entries."spells/emberstrike-iii".stats]
 costs = 220
-crit_chance = 5
 element = ["fire"]
 power = "2400"
+spell_crit_chance = 5
 
 [entries."spells/envy"]
 category = "spells"
@@ -83451,9 +83451,9 @@ name = "cursed"
 
 [entries."spells/envy".stats]
 costs = 10
-crit_chance = 5
 element = ["arcane"]
 power = "1100"
+spell_crit_chance = 5
 
 [entries."spells/envy-2"]
 category = "spells"
@@ -83470,9 +83470,9 @@ chance = 3
 name = "cursed"
 
 [entries."spells/envy-2".stats]
-crit_chance = 5
 element = ["arcane"]
 power = "1100"
+spell_crit_chance = 5
 
 [entries."spells/eoss-blessing"]
 category = "spells"
@@ -83630,9 +83630,9 @@ name = "rot"
 
 [entries."spells/fey-cataclysm".stats]
 costs = 300
-crit_chance = 25
 element = ["earthen"]
 power = "9000-11000 | PvP: 4500-5500"
+spell_crit_chance = 25
 
 [entries."spells/fey-flame"]
 category = "spells"
@@ -83650,9 +83650,9 @@ name = "burning"
 
 [entries."spells/fey-flame".stats]
 costs = 60
-crit_chance = 10
 element = ["fire"]
 power = "1000"
+spell_crit_chance = 10
 
 [entries."spells/fey-flame-ii"]
 category = "spells"
@@ -83670,9 +83670,9 @@ name = "burning"
 
 [entries."spells/fey-flame-ii".stats]
 costs = 80
-crit_chance = 10
 element = ["fire"]
 power = "1200"
+spell_crit_chance = 10
 
 [entries."spells/fey-flame-iii"]
 category = "spells"
@@ -83690,9 +83690,9 @@ name = "burning"
 
 [entries."spells/fey-flame-iii".stats]
 costs = 100
-crit_chance = 25
 element = ["fire"]
 power = "1300"
+spell_crit_chance = 25
 
 [entries."spells/fey-flame-iv"]
 category = "spells"
@@ -83710,9 +83710,9 @@ name = "burning"
 
 [entries."spells/fey-flame-iv".stats]
 costs = 180
-crit_chance = 25
 element = ["fire"]
 power = "1500"
+spell_crit_chance = 25
 
 [entries."spells/fey-flame-v"]
 category = "spells"
@@ -83730,9 +83730,9 @@ name = "burning"
 
 [entries."spells/fey-flame-v".stats]
 costs = 280
-crit_chance = 20
 element = ["fire"]
 power = "2000"
+spell_crit_chance = 20
 
 [entries."spells/fey-frost"]
 category = "spells"
@@ -83750,9 +83750,9 @@ name = "frozen"
 
 [entries."spells/fey-frost".stats]
 costs = 60
-crit_chance = 10
 element = ["water"]
 power = "1000"
+spell_crit_chance = 10
 
 [entries."spells/fey-frost-ii"]
 category = "spells"
@@ -83770,9 +83770,9 @@ name = "frozen"
 
 [entries."spells/fey-frost-ii".stats]
 costs = 80
-crit_chance = 10
 element = ["water"]
 power = "1200"
+spell_crit_chance = 10
 
 [entries."spells/fey-frost-iii"]
 category = "spells"
@@ -83790,9 +83790,9 @@ name = "frozen"
 
 [entries."spells/fey-frost-iii".stats]
 costs = 100
-crit_chance = 25
 element = ["water"]
 power = "1300"
+spell_crit_chance = 25
 
 [entries."spells/fey-frost-iv"]
 category = "spells"
@@ -83810,9 +83810,9 @@ name = "frozen"
 
 [entries."spells/fey-frost-iv".stats]
 costs = 180
-crit_chance = 25
 element = ["water"]
 power = "1500"
+spell_crit_chance = 25
 
 [entries."spells/fey-frost-v"]
 category = "spells"
@@ -83830,9 +83830,9 @@ name = "frozen"
 
 [entries."spells/fey-frost-v".stats]
 costs = 280
-crit_chance = 20
 element = ["water"]
 power = "2000"
+spell_crit_chance = 20
 
 [entries."spells/fey-fulmination"]
 category = "spells"
@@ -83854,9 +83854,9 @@ name = "paralyzed"
 
 [entries."spells/fey-fulmination".stats]
 costs = 300
-crit_chance = 25
 element = ["lightning"]
 power = "9000-11000 | PvP: 4500-5500"
+spell_crit_chance = 25
 
 [entries."spells/fey-glacier"]
 category = "spells"
@@ -83878,9 +83878,9 @@ name = "frozen"
 
 [entries."spells/fey-glacier".stats]
 costs = 300
-crit_chance = 25
 element = ["water"]
 power = "9000-11000 | PvP: 4500-5500"
+spell_crit_chance = 25
 
 [entries."spells/fey-inferno"]
 category = "spells"
@@ -83902,9 +83902,9 @@ name = "burning"
 
 [entries."spells/fey-inferno".stats]
 costs = 300
-crit_chance = 25
 element = ["fire"]
 power = "9000-11000 | PvP: 4500-5500"
+spell_crit_chance = 25
 
 [entries."spells/fey-spark"]
 category = "spells"
@@ -83922,9 +83922,9 @@ name = "paralyzed"
 
 [entries."spells/fey-spark".stats]
 costs = 60
-crit_chance = 10
 element = ["lightning"]
 power = "1000"
+spell_crit_chance = 10
 
 [entries."spells/fey-spark-ii"]
 category = "spells"
@@ -83942,9 +83942,9 @@ name = "paralyzed"
 
 [entries."spells/fey-spark-ii".stats]
 costs = 80
-crit_chance = 10
 element = ["lightning"]
 power = "1200"
+spell_crit_chance = 10
 
 [entries."spells/fey-spark-iii"]
 category = "spells"
@@ -83962,9 +83962,9 @@ name = "paralyzed"
 
 [entries."spells/fey-spark-iii".stats]
 costs = 100
-crit_chance = 25
 element = ["lightning"]
 power = "1300"
+spell_crit_chance = 25
 
 [entries."spells/fey-spark-iv"]
 category = "spells"
@@ -83982,9 +83982,9 @@ name = "paralyzed"
 
 [entries."spells/fey-spark-iv".stats]
 costs = 180
-crit_chance = 25
 element = ["lightning"]
 power = "1500"
+spell_crit_chance = 25
 
 [entries."spells/fey-spark-v"]
 category = "spells"
@@ -84002,9 +84002,9 @@ name = "paralyzed"
 
 [entries."spells/fey-spark-v".stats]
 costs = 280
-crit_chance = 20
 element = ["lightning"]
 power = "2000"
+spell_crit_chance = 20
 
 [entries."spells/fey-tremor"]
 category = "spells"
@@ -84022,9 +84022,9 @@ name = "rot"
 
 [entries."spells/fey-tremor".stats]
 costs = 60
-crit_chance = 10
 element = ["earthen"]
 power = "1000"
+spell_crit_chance = 10
 
 [entries."spells/fey-tremor-ii"]
 category = "spells"
@@ -84042,9 +84042,9 @@ name = "rot"
 
 [entries."spells/fey-tremor-ii".stats]
 costs = 80
-crit_chance = 10
 element = ["earthen"]
 power = "1200"
+spell_crit_chance = 10
 
 [entries."spells/fey-tremor-iii"]
 category = "spells"
@@ -84062,9 +84062,9 @@ name = "rot"
 
 [entries."spells/fey-tremor-iii".stats]
 costs = 100
-crit_chance = 25
 element = ["earthen"]
 power = "1300"
+spell_crit_chance = 25
 
 [entries."spells/fey-tremor-iv"]
 category = "spells"
@@ -84082,9 +84082,9 @@ name = "rot"
 
 [entries."spells/fey-tremor-iv".stats]
 costs = 180
-crit_chance = 25
 element = ["earthen"]
 power = "1500"
+spell_crit_chance = 25
 
 [entries."spells/fey-tremor-v"]
 category = "spells"
@@ -84102,9 +84102,9 @@ name = "rot"
 
 [entries."spells/fey-tremor-v".stats]
 costs = 280
-crit_chance = 20
 element = ["earthen"]
 power = "2000"
+spell_crit_chance = 20
 
 [entries."spells/fire-affinity"]
 category = "spells"
@@ -84167,9 +84167,9 @@ name = "burning"
 
 [entries."spells/fire-arrow".stats]
 costs = 25
-crit_chance = 5
 element = ["fire"]
 power = "1100"
+spell_crit_chance = 5
 
 [entries."spells/fire-sigil"]
 category = "spells"
@@ -84289,9 +84289,9 @@ name = "burning"
 
 [entries."spells/firestrike".stats]
 costs = 25
-crit_chance = 5
 element = ["fire"]
 power = "1100"
+spell_crit_chance = 5
 
 [entries."spells/firestrike-ii"]
 category = "spells"
@@ -84309,9 +84309,9 @@ name = "burning"
 
 [entries."spells/firestrike-ii".stats]
 costs = 75
-crit_chance = 5
 element = ["fire"]
 power = "1500"
+spell_crit_chance = 5
 
 [entries."spells/firestrike-iii"]
 category = "spells"
@@ -84329,9 +84329,9 @@ name = "burning"
 
 [entries."spells/firestrike-iii".stats]
 costs = 120
-crit_chance = 5
 element = ["fire"]
 power = "2000"
+spell_crit_chance = 5
 
 [entries."spells/first-aid"]
 category = "spells"
@@ -84364,9 +84364,9 @@ name = "t__def_dd"
 
 [entries."spells/fist-flurry".stats]
 costs = 200
-crit_chance = 20
 element = ["physical"]
 power = "550-825 (x5)"
+spell_crit_chance = 20
 
 [entries."spells/flame"]
 category = "spells"
@@ -85019,8 +85019,8 @@ name = "def_d"
 
 [entries."spells/full-bend-ii".stats]
 costs = 120
-crit_chance = 3
 power = "3000"
+spell_crit_chance = 3
 
 [entries."spells/full-bend-iii"]
 category = "spells"
@@ -85037,8 +85037,8 @@ name = "def_d"
 
 [entries."spells/full-bend-iii".stats]
 costs = 150
-crit_chance = 10
 power = "5000"
+spell_crit_chance = 10
 
 [entries."spells/fulmination"]
 category = "spells"
@@ -85285,9 +85285,9 @@ name = "paralyzed"
 
 [entries."spells/galeseal-iii".stats]
 costs = 220
-crit_chance = 5
 element = ["lightning"]
 power = "2400"
+spell_crit_chance = 5
 
 [entries."spells/galestrike"]
 category = "spells"
@@ -85341,9 +85341,9 @@ name = "paralyzed"
 
 [entries."spells/galestrike-iii".stats]
 costs = 220
-crit_chance = 5
 element = ["lightning"]
 power = "2400"
+spell_crit_chance = 5
 
 [entries."spells/gamma-dart"]
 category = "spells"
@@ -85528,9 +85528,9 @@ name = "asleep"
 
 [entries."spells/gloomseal-iii".stats]
 costs = 220
-crit_chance = 5
 element = ["dark"]
 power = "2400"
+spell_crit_chance = 5
 
 [entries."spells/gloomstrike"]
 category = "spells"
@@ -85585,9 +85585,9 @@ name = "asleep"
 
 [entries."spells/gloomstrike-iii".stats]
 costs = 220
-crit_chance = 5
 element = ["dark"]
 power = "2400"
+spell_crit_chance = 5
 
 [entries."spells/gods-of-aaru"]
 category = "spells"
@@ -85999,8 +85999,8 @@ used_by = ["bosses/arisen-mammon", "bosses/mammon", "bosses/medea-arisen-queen",
 
 [entries."spells/greed".stats]
 costs = 10
-crit_chance = 5
 power = "1100"
+spell_crit_chance = 5
 
 [entries."spells/greed-2"]
 category = "spells"
@@ -86013,8 +86013,8 @@ targets = "a_single_opponent"
 tier = 9
 
 [entries."spells/greed-2".stats]
-crit_chance = 5
 power = "1100"
+spell_crit_chance = 5
 
 [entries."spells/guard"]
 category = "spells"
@@ -86044,8 +86044,8 @@ used_by = ["bosses/heimdall", "bosses/king-gradlon", "followers/beaver", "follow
 
 [entries."spells/guarding-strike".stats]
 costs = 50
-crit_chance = 5
 power = "1000"
+spell_crit_chance = 5
 
 [entries."spells/guarding-strikes"]
 category = "spells"
@@ -86114,9 +86114,9 @@ used_by = ["followers/bloodwarg", "followers/greater-lobster", "followers/lobste
 
 [entries."spells/guts".stats]
 costs = 3
-crit_chance = 100
 element = ["physical"]
 power = "1000"
+spell_crit_chance = 100
 
 [entries."spells/gymir-stance"]
 category = "spells"
@@ -86161,9 +86161,9 @@ chance = 25
 name = "t__res_dd"
 
 [entries."spells/halberd-sweep".stats]
-crit_chance = 5
 element = ["physical"]
 power = "1100"
+spell_crit_chance = 5
 
 [entries."spells/haste"]
 category = "spells"
@@ -86417,9 +86417,9 @@ name = "blind"
 
 [entries."spells/holystrike".stats]
 costs = 35
-crit_chance = 5
 element = ["holy"]
 power = "1200"
+spell_crit_chance = 5
 
 [entries."spells/holystrike-ii"]
 category = "spells"
@@ -86437,9 +86437,9 @@ name = "blind"
 
 [entries."spells/holystrike-ii".stats]
 costs = 80
-crit_chance = 5
 element = ["holy"]
 power = "1500"
+spell_crit_chance = 5
 
 [entries."spells/holystrike-iii"]
 category = "spells"
@@ -86457,9 +86457,9 @@ name = "blind"
 
 [entries."spells/holystrike-iii".stats]
 costs = 150
-crit_chance = 5
 element = ["holy"]
 power = "2000"
+spell_crit_chance = 5
 
 [entries."spells/horizontal-slash"]
 category = "spells"
@@ -86477,8 +86477,8 @@ name = "def_d"
 
 [entries."spells/horizontal-slash".stats]
 costs = 40
-crit_chance = 5
 power = "1400"
+spell_crit_chance = 5
 
 [entries."spells/horizontal-slash-2"]
 category = "spells"
@@ -86495,8 +86495,8 @@ chance = 50
 name = "def_d"
 
 [entries."spells/horizontal-slash-2".stats]
-crit_chance = 5
 power = "1400"
+spell_crit_chance = 5
 
 [entries."spells/horizontal-slash-ii"]
 category = "spells"
@@ -86514,8 +86514,8 @@ name = "def_d"
 
 [entries."spells/horizontal-slash-ii".stats]
 costs = 90
-crit_chance = 5
 power = "1800"
+spell_crit_chance = 5
 
 [entries."spells/horizontal-slash-iii"]
 category = "spells"
@@ -86533,8 +86533,8 @@ name = "def_d"
 
 [entries."spells/horizontal-slash-iii".stats]
 costs = 110
-crit_chance = 5
 power = "2600"
+spell_crit_chance = 5
 
 [entries."spells/hubris"]
 category = "spells"
@@ -86652,9 +86652,9 @@ name = "frozen"
 
 [entries."spells/ice-arrow".stats]
 costs = 25
-crit_chance = 5
 element = ["water"]
 power = "1100"
+spell_crit_chance = 5
 
 [entries."spells/ice-sigil"]
 category = "spells"
@@ -86845,9 +86845,9 @@ name = "frozen"
 
 [entries."spells/icestrike".stats]
 costs = 25
-crit_chance = 5
 element = ["water"]
 power = "1100"
+spell_crit_chance = 5
 
 [entries."spells/icestrike-ii"]
 category = "spells"
@@ -86865,9 +86865,9 @@ name = "frozen"
 
 [entries."spells/icestrike-ii".stats]
 costs = 75
-crit_chance = 5
 element = ["water"]
 power = "1500"
+spell_crit_chance = 5
 
 [entries."spells/icestrike-iii"]
 category = "spells"
@@ -86885,9 +86885,9 @@ name = "frozen"
 
 [entries."spells/icestrike-iii".stats]
 costs = 120
-crit_chance = 5
 element = ["water"]
 power = "2000"
+spell_crit_chance = 5
 
 [entries."spells/imbue-earth"]
 category = "spells"
@@ -86967,8 +86967,8 @@ chance = 75
 name = "t__dmg_d"
 
 [entries."spells/impale".stats]
-crit_chance = 5
 power = "1500"
+spell_crit_chance = 5
 
 [entries."spells/impale-2"]
 category = "spells"
@@ -86985,8 +86985,8 @@ name = "t__dmg_d"
 
 [entries."spells/impale-2".stats]
 costs = 80
-crit_chance = 5
 power = "1500"
+spell_crit_chance = 5
 
 [entries."spells/impale-3"]
 category = "spells"
@@ -87004,8 +87004,8 @@ chance = 100
 name = "t__dmg_d"
 
 [entries."spells/impale-3".stats]
-crit_chance = 5
 power = "1500"
+spell_crit_chance = 5
 
 [entries."spells/impale-ii"]
 category = "spells"
@@ -87022,8 +87022,8 @@ chance = 100
 name = "t__dmg_dd"
 
 [entries."spells/impale-ii".stats]
-crit_chance = 5
 power = "1500"
+spell_crit_chance = 5
 
 [entries."spells/inferna-eventualus"]
 category = "spells"
@@ -87340,9 +87340,9 @@ targets = "every_opponent_in_a_battle"
 tier = 10
 
 [entries."spells/kings-rage".stats]
-crit_chance = 5
 element = ["physical"]
 power = "1100"
+spell_crit_chance = 5
 
 [entries."spells/kings-reign"]
 category = "spells"
@@ -87692,9 +87692,9 @@ name = "paralyzed"
 
 [entries."spells/lightningstrike".stats]
 costs = 25
-crit_chance = 5
 element = ["lightning"]
 power = "1100"
+spell_crit_chance = 5
 
 [entries."spells/lightningstrike-ii"]
 category = "spells"
@@ -87712,9 +87712,9 @@ name = "paralyzed"
 
 [entries."spells/lightningstrike-ii".stats]
 costs = 75
-crit_chance = 5
 element = ["lightning"]
 power = "1500"
+spell_crit_chance = 5
 
 [entries."spells/lightningstrike-iii"]
 category = "spells"
@@ -87732,9 +87732,9 @@ name = "paralyzed"
 
 [entries."spells/lightningstrike-iii".stats]
 costs = 120
-crit_chance = 5
 element = ["lightning"]
 power = "2000"
+spell_crit_chance = 5
 
 [entries."spells/lostseal"]
 category = "spells"
@@ -87825,9 +87825,9 @@ name = "rot"
 
 [entries."spells/lostseal-iii".stats]
 costs = 220
-crit_chance = 5
 element = ["arcane"]
 power = "2400"
+spell_crit_chance = 5
 
 [entries."spells/loststrike"]
 category = "spells"
@@ -87919,9 +87919,9 @@ name = "rot"
 
 [entries."spells/loststrike-iii".stats]
 costs = 220
-crit_chance = 5
 element = ["arcane"]
 power = "2400"
+spell_crit_chance = 5
 
 [entries."spells/lunarstrikes"]
 category = "spells"
@@ -87934,9 +87934,9 @@ used_by = ["bosses/titan-selene", "followers/replica-selene"]
 
 [entries."spells/lunarstrikes".stats]
 costs = 50
-crit_chance = 5
 element = ["holy"]
 power = "700-1100 (x3)"
+spell_crit_chance = 5
 
 [entries."spells/lunge"]
 category = "spells"
@@ -87950,9 +87950,9 @@ used_by = ["bosses/bandit-lord", "bosses/lizarr-lord", "bosses/lord-of-wolves-6d
 
 [entries."spells/lunge".stats]
 costs = 25
-crit_chance = 50
 element = ["physical"]
 power = "1000"
+spell_crit_chance = 50
 
 [entries."spells/lunge-ii"]
 category = "spells"
@@ -87966,9 +87966,9 @@ used_by = ["monsters/great-lizarr-knight", "monsters/murk", "monsters/murk-503f0
 
 [entries."spells/lunge-ii".stats]
 costs = 40
-crit_chance = 25
 element = ["physical"]
 power = "1300"
+spell_crit_chance = 25
 
 [entries."spells/lunge-iii"]
 category = "spells"
@@ -87982,9 +87982,9 @@ used_by = ["bosses/fallen-hero-lover-lost", "bosses/pyre", "monsters/coral-beast
 
 [entries."spells/lunge-iii".stats]
 costs = 100
-crit_chance = 25
 element = ["physical"]
 power = "1500"
+spell_crit_chance = 25
 
 [entries."spells/lusus-naturae"]
 category = "spells"
@@ -88157,9 +88157,9 @@ name = "att_d"
 
 [entries."spells/magic-arrow".stats]
 costs = 10
-crit_chance = 5
 element = ["physical"]
 power = "1000"
+spell_crit_chance = 5
 
 [entries."spells/magic-arrow-ii"]
 category = "spells"
@@ -88177,9 +88177,9 @@ name = "att_d"
 
 [entries."spells/magic-arrow-ii".stats]
 costs = 40
-crit_chance = 5
 element = ["physical"]
 power = "1200"
+spell_crit_chance = 5
 
 [entries."spells/magic-arrow-iii"]
 category = "spells"
@@ -88197,9 +88197,9 @@ name = "att_d"
 
 [entries."spells/magic-arrow-iii".stats]
 costs = 80
-crit_chance = 5
 element = ["physical"]
 power = "1400"
+spell_crit_chance = 5
 
 [entries."spells/magic-arrow-iv"]
 category = "spells"
@@ -88217,9 +88217,9 @@ name = "att_d"
 
 [entries."spells/magic-arrow-iv".stats]
 costs = 160
-crit_chance = 5
 element = ["physical"]
 power = "1800"
+spell_crit_chance = 5
 
 [entries."spells/magic-boost"]
 category = "spells"
@@ -88250,9 +88250,9 @@ used_by = ["bosses/medusa", "bosses/the-creator", "followers/medusa", "raids/gre
 
 [entries."spells/magic-chakram".stats]
 costs = 200
-crit_chance = 10
 element = ["physical"]
 power = "600-900 (x6)"
+spell_crit_chance = 10
 
 [entries."spells/magic-dagger"]
 category = "spells"
@@ -88270,9 +88270,9 @@ name = "bleeding"
 
 [entries."spells/magic-dagger".stats]
 costs = 10
-crit_chance = 5
 element = ["physical"]
 power = "1000"
+spell_crit_chance = 5
 
 [entries."spells/magic-dagger-ii"]
 category = "spells"
@@ -88290,9 +88290,9 @@ name = "bleeding"
 
 [entries."spells/magic-dagger-ii".stats]
 costs = 40
-crit_chance = 5
 element = ["physical"]
 power = "1200"
+spell_crit_chance = 5
 
 [entries."spells/magic-dagger-iii"]
 category = "spells"
@@ -88310,9 +88310,9 @@ name = "bleeding"
 
 [entries."spells/magic-dagger-iii".stats]
 costs = 80
-crit_chance = 5
 element = ["physical"]
 power = "1400"
+spell_crit_chance = 5
 
 [entries."spells/magic-dagger-iv"]
 category = "spells"
@@ -88330,9 +88330,9 @@ name = "bleeding"
 
 [entries."spells/magic-dagger-iv".stats]
 costs = 160
-crit_chance = 5
 element = ["physical"]
 power = "1800"
+spell_crit_chance = 5
 
 [entries."spells/magic-hammer"]
 category = "spells"
@@ -88350,9 +88350,9 @@ name = "def_d"
 
 [entries."spells/magic-hammer".stats]
 costs = 10
-crit_chance = 5
 element = ["physical"]
 power = "1000"
+spell_crit_chance = 5
 
 [entries."spells/magic-hammer-ii"]
 category = "spells"
@@ -88370,9 +88370,9 @@ name = "def_d"
 
 [entries."spells/magic-hammer-ii".stats]
 costs = 40
-crit_chance = 5
 element = ["physical"]
 power = "1200"
+spell_crit_chance = 5
 
 [entries."spells/magic-hammer-iii"]
 category = "spells"
@@ -88390,9 +88390,9 @@ name = "def_d"
 
 [entries."spells/magic-hammer-iii".stats]
 costs = 80
-crit_chance = 5
 element = ["physical"]
 power = "1400"
+spell_crit_chance = 5
 
 [entries."spells/magic-hammer-iv"]
 category = "spells"
@@ -88410,9 +88410,9 @@ name = "def_d"
 
 [entries."spells/magic-hammer-iv".stats]
 costs = 160
-crit_chance = 5
 element = ["physical"]
 power = "1800"
+spell_crit_chance = 5
 
 [entries."spells/magic-scythe"]
 category = "spells"
@@ -88430,9 +88430,9 @@ name = "t__dex_u"
 
 [entries."spells/magic-scythe".stats]
 costs = 220
-crit_chance = 8
 element = ["physical"]
 power = "2600"
+spell_crit_chance = 8
 
 [entries."spells/magic-shield"]
 category = "spells"
@@ -88543,9 +88543,9 @@ name = "res_d"
 
 [entries."spells/magic-sword".stats]
 costs = 10
-crit_chance = 5
 element = ["physical"]
 power = "1000"
+spell_crit_chance = 5
 
 [entries."spells/magic-sword-ii"]
 category = "spells"
@@ -88563,9 +88563,9 @@ name = "res_d"
 
 [entries."spells/magic-sword-ii".stats]
 costs = 40
-crit_chance = 5
 element = ["physical"]
 power = "1200"
+spell_crit_chance = 5
 
 [entries."spells/magic-sword-iii"]
 category = "spells"
@@ -88583,9 +88583,9 @@ name = "res_d"
 
 [entries."spells/magic-sword-iii".stats]
 costs = 80
-crit_chance = 5
 element = ["physical"]
 power = "1400"
+spell_crit_chance = 5
 
 [entries."spells/magic-sword-iv"]
 category = "spells"
@@ -88603,9 +88603,9 @@ name = "res_d"
 
 [entries."spells/magic-sword-iv".stats]
 costs = 160
-crit_chance = 5
 element = ["physical"]
 power = "1800"
+spell_crit_chance = 5
 
 [entries."spells/magic-thinblade"]
 category = "spells"
@@ -88619,9 +88619,9 @@ used_by = ["bosses/covyn", "followers/worldly-wolpertinger", "raids/arisen-covyn
 
 [entries."spells/magic-thinblade".stats]
 costs = 2
-crit_chance = 5
 element = ["physical"]
 power = "2200"
+spell_crit_chance = 5
 
 [entries."spells/mana-burn"]
 category = "spells"
@@ -88964,9 +88964,9 @@ used_by = ["bosses/kelpie", "followers/fey-yeti", "followers/great-yeti", "follo
 
 [entries."spells/mighty-charge".stats]
 costs = 60
-crit_chance = 5
 element = ["physical"]
 power = "1750"
+spell_crit_chance = 5
 
 [entries."spells/mimics-mischief"]
 category = "spells"
@@ -89891,8 +89891,8 @@ name = "mag_d"
 
 [entries."spells/omnistrike".stats]
 costs = 75
-crit_chance = 5
 power = "1300"
+spell_crit_chance = 5
 
 [entries."spells/omnistrike-ii"]
 category = "spells"
@@ -89922,8 +89922,8 @@ name = "mag_d"
 
 [entries."spells/omnistrike-ii".stats]
 costs = 90
-crit_chance = 5
 power = "1500"
+spell_crit_chance = 5
 
 [entries."spells/omnistrike-iii"]
 category = "spells"
@@ -89953,8 +89953,8 @@ name = "mag_d"
 
 [entries."spells/omnistrike-iii".stats]
 costs = 175
-crit_chance = 5
 power = "2000"
+spell_crit_chance = 5
 
 [entries."spells/omnistrikes"]
 category = "spells"
@@ -90060,8 +90060,8 @@ used_by = ["bosses/bormana-of-fomoria", "bosses/caticatona-of-fomoria", "bosses/
 
 [entries."spells/osmostrike".stats]
 costs = 40
-crit_chance = 5
 power = "1100"
+spell_crit_chance = 5
 
 [entries."spells/osmostrike-ii"]
 category = "spells"
@@ -90075,8 +90075,8 @@ used_by = ["bosses/ancient-draugr-lord", "bosses/arisen-demeter-the-earth-magus"
 
 [entries."spells/osmostrike-ii".stats]
 costs = 80
-crit_chance = 5
 power = "1500"
+spell_crit_chance = 5
 
 [entries."spells/osmostrike-iii"]
 category = "spells"
@@ -90090,8 +90090,8 @@ used_by = ["bosses/arisen-cursed-bormana-of-fomoria", "bosses/arisen-cursed-cati
 
 [entries."spells/osmostrike-iii".stats]
 costs = 150
-crit_chance = 5
 power = "2000"
+spell_crit_chance = 5
 
 [entries."spells/osmostrikes"]
 category = "spells"
@@ -90148,8 +90148,8 @@ tier = 9
 used_by = ["bosses/baldr", "raids/almighty-balin", "raids/arisen-balin", "raids/finesse"]
 
 [entries."spells/parry".stats]
-crit_chance = 10
 power = "1500"
+spell_crit_chance = 10
 
 [entries."spells/parry-2"]
 category = "spells"
@@ -90179,9 +90179,9 @@ name = "bleeding"
 
 [entries."spells/peck".stats]
 costs = 20
-crit_chance = 5
 element = ["physical"]
 power = "1100"
+spell_crit_chance = 5
 
 [entries."spells/pendulus"]
 category = "spells"
@@ -90230,9 +90230,9 @@ used_by = ["bosses/mochi", "followers/shade-of-achlys-the-red-dagger", "follower
 
 [entries."spells/perfect-shot".stats]
 costs = 80
-crit_chance = 5
 element = ["physical"]
 power = "750"
+spell_crit_chance = 5
 
 [entries."spells/petrify"]
 category = "spells"
@@ -90319,8 +90319,8 @@ name = "t__def_d"
 
 [entries."spells/pierce".stats]
 costs = 15
-crit_chance = 5
 power = "1000"
+spell_crit_chance = 5
 
 [entries."spells/poison"]
 category = "spells"
@@ -90426,9 +90426,9 @@ name = "stunned"
 
 [entries."spells/pommel-strike".stats]
 costs = 5
-crit_chance = 10
 element = ["physical"]
 power = "1000"
+spell_crit_chance = 10
 
 [entries."spells/pommel-strike-2"]
 category = "spells"
@@ -90445,9 +90445,9 @@ chance = 20
 name = "stunned"
 
 [entries."spells/pommel-strike-2".stats]
-crit_chance = 10
 element = ["physical"]
 power = "1000"
+spell_crit_chance = 10
 
 [entries."spells/ponder"]
 category = "spells"
@@ -91001,8 +91001,8 @@ name = "blind"
 
 [entries."spells/quick-attack".stats]
 costs = 10
-crit_chance = 5
 power = "500-1500"
+spell_crit_chance = 5
 
 [entries."spells/ragnarok"]
 category = "spells"
@@ -91054,9 +91054,9 @@ name = "lulled"
 
 [entries."spells/rainsong".stats]
 costs = 200
-crit_chance = 5
 element = ["water"]
 power = "1000-1800 (x2)"
+spell_crit_chance = 5
 
 [entries."spells/rally-of-charon"]
 category = "spells"
@@ -91184,8 +91184,8 @@ used_by = ["bosses/arisen-cursed-clota-of-fomoria", "bosses/arisen-cursed-damona
 
 [entries."spells/realm-strikes".stats]
 costs = 200
-crit_chance = 20
 power = "750-1250 (x4)"
+spell_crit_chance = 20
 
 [entries."spells/realm-strikes-ii"]
 category = "spells"
@@ -91198,8 +91198,8 @@ tier = 10
 
 [entries."spells/realm-strikes-ii".stats]
 costs = 240
-crit_chance = 20
 power = "900-1300 (x4)"
+spell_crit_chance = 20
 
 [entries."spells/realmshift"]
 category = "spells"
@@ -91431,8 +91431,8 @@ tier = 9
 
 [entries."spells/rend-daggers".stats]
 costs = 140
-crit_chance = 4
 power = "360-6000 (x3)"
+spell_crit_chance = 4
 
 [entries."spells/rend-epee"]
 category = "spells"
@@ -91444,8 +91444,8 @@ tier = 9
 
 [entries."spells/rend-epee".stats]
 costs = 130
-crit_chance = 4
 power = "1500-3000"
+spell_crit_chance = 4
 
 [entries."spells/rend-heavy-blade"]
 category = "spells"
@@ -91458,8 +91458,8 @@ used_by = ["bosses/sumner-zeus"]
 
 [entries."spells/rend-heavy-blade".stats]
 costs = 90
-crit_chance = 4
 power = "2200-4400"
+spell_crit_chance = 4
 
 [entries."spells/rend-thin-blade"]
 category = "spells"
@@ -91472,8 +91472,8 @@ used_by = ["bosses/sumner-hera"]
 
 [entries."spells/rend-thin-blade".stats]
 costs = 90
-crit_chance = 4
 power = "2160-3120"
+spell_crit_chance = 4
 
 [entries."spells/repetition-flask"]
 category = "spells"
@@ -91514,8 +91514,8 @@ chance = 3
 name = "lulled"
 
 [entries."spells/requiem".stats]
-crit_chance = 10
 power = "900-1600"
+spell_crit_chance = 10
 
 [entries."spells/requiem-ii"]
 category = "spells"
@@ -91531,8 +91531,8 @@ chance = 3
 name = "lulled"
 
 [entries."spells/requiem-ii".stats]
-crit_chance = 10
 power = "1200-1600"
+spell_crit_chance = 10
 
 [entries."spells/requiem-iii"]
 category = "spells"
@@ -91549,8 +91549,8 @@ chance = 3
 name = "lulled"
 
 [entries."spells/requiem-iii".stats]
-crit_chance = 10
 power = "1600-2400"
+spell_crit_chance = 10
 
 [entries."spells/reraise"]
 category = "spells"
@@ -91723,8 +91723,8 @@ name = "t__def_u"
 
 [entries."spells/riposte".stats]
 costs = 75
-crit_chance = 5
 power = "1400"
+spell_crit_chance = 5
 
 [entries."spells/riposte-ii"]
 category = "spells"
@@ -91745,8 +91745,8 @@ name = "t__def_u"
 
 [entries."spells/riposte-ii".stats]
 costs = 120
-crit_chance = 5
 power = "1800"
+spell_crit_chance = 5
 
 [entries."spells/riposte-iii"]
 category = "spells"
@@ -91768,8 +91768,8 @@ name = "t__def_u"
 
 [entries."spells/riposte-iii".stats]
 costs = 170
-crit_chance = 5
 power = "2100"
+spell_crit_chance = 5
 
 [entries."spells/rock-toss"]
 category = "spells"
@@ -91803,9 +91803,9 @@ chance = 100
 name = "lulled"
 
 [entries."spells/ruaircs-requiem".stats]
-crit_chance = 5
 element = ["physical"]
 power = "1200"
+spell_crit_chance = 5
 
 [entries."spells/rune-of-eos"]
 category = "spells"
@@ -92025,9 +92025,9 @@ name = "blind"
 
 [entries."spells/sacreseal-iii".stats]
 costs = 220
-crit_chance = 5
 element = ["holy"]
 power = "2400"
+spell_crit_chance = 5
 
 [entries."spells/sacrestrike"]
 category = "spells"
@@ -92083,9 +92083,9 @@ name = "blind"
 
 [entries."spells/sacrestrike-iii".stats]
 costs = 220
-crit_chance = 5
 element = ["holy"]
 power = "2400"
+spell_crit_chance = 5
 
 [entries."spells/sacrificial-pact"]
 category = "spells"
@@ -92220,9 +92220,9 @@ name = "bleeding"
 
 [entries."spells/scratch".stats]
 costs = 10
-crit_chance = 5
 element = ["physical"]
 power = "1100"
+spell_crit_chance = 5
 
 [entries."spells/scythestrike"]
 category = "spells"
@@ -92239,8 +92239,8 @@ name = "bleeding"
 
 [entries."spells/scythestrike".stats]
 costs = 75
-crit_chance = 5
 power = "1500"
+spell_crit_chance = 5
 
 [entries."spells/scythestrike-ii"]
 category = "spells"
@@ -92257,8 +92257,8 @@ name = "bleeding"
 
 [entries."spells/scythestrike-ii".stats]
 costs = 150
-crit_chance = 5
 power = "1700"
+spell_crit_chance = 5
 
 [entries."spells/sea-strikes"]
 category = "spells"
@@ -92346,9 +92346,9 @@ name = "stunned"
 
 [entries."spells/shadowed-earthstrike".stats]
 costs = 120
-crit_chance = 5
 element = ["physical", "earthen", "dark"]
 power = "2000"
+spell_crit_chance = 5
 
 [entries."spells/shadowed-firestrike"]
 category = "spells"
@@ -92373,9 +92373,9 @@ name = "stunned"
 
 [entries."spells/shadowed-firestrike".stats]
 costs = 120
-crit_chance = 5
 element = ["physical", "fire", "dark"]
 power = "2000"
+spell_crit_chance = 5
 
 [entries."spells/shadowed-icestrike"]
 category = "spells"
@@ -92400,9 +92400,9 @@ name = "stunned"
 
 [entries."spells/shadowed-icestrike".stats]
 costs = 120
-crit_chance = 5
 element = ["physical", "water", "dark"]
 power = "2000"
+spell_crit_chance = 5
 
 [entries."spells/shadowed-lightningstrike"]
 category = "spells"
@@ -92427,9 +92427,9 @@ name = "stunned"
 
 [entries."spells/shadowed-lightningstrike".stats]
 costs = 120
-crit_chance = 5
 element = ["physical", "lightning", "dark"]
 power = "2000"
+spell_crit_chance = 5
 
 [entries."spells/shadowveil"]
 category = "spells"
@@ -92617,9 +92617,9 @@ name = "bleeding"
 
 [entries."spells/slash".stats]
 costs = 10
-crit_chance = 5
 element = ["physical"]
 power = "1200"
+spell_crit_chance = 5
 
 [entries."spells/sleep"]
 category = "spells"
@@ -92669,9 +92669,9 @@ chance = 10
 name = "bleeding"
 
 [entries."spells/slice".stats]
-crit_chance = 15
 element = ["physical"]
 power = "2400"
+spell_crit_chance = 15
 
 [entries."spells/slow"]
 category = "spells"
@@ -92723,9 +92723,9 @@ name = "stunned"
 
 [entries."spells/smite".stats]
 costs = 120
-crit_chance = 5
 element = ["holy"]
 power = "2500-3500"
+spell_crit_chance = 5
 
 [entries."spells/smoke-bomb"]
 category = "spells"
@@ -92792,9 +92792,9 @@ tier = 7
 
 [entries."spells/solarseals".stats]
 costs = 50
-crit_chance = 5
 element = ["holy"]
 power = "700-800 (x3)"
+spell_crit_chance = 5
 
 [entries."spells/solarstrikes"]
 category = "spells"
@@ -92806,9 +92806,9 @@ tier = 7
 
 [entries."spells/solarstrikes".stats]
 costs = 50
-crit_chance = 5
 element = ["holy"]
 power = "700-800 (x3)"
+spell_crit_chance = 5
 
 [entries."spells/sonata-of-defense"]
 category = "spells"
@@ -93099,8 +93099,8 @@ used_by = ["bosses/arisen-cursed-clota-of-fomoria", "bosses/arisen-cursed-damona
 
 [entries."spells/sortie".stats]
 costs = 40
-crit_chance = 15
 power = "1800"
+spell_crit_chance = 15
 
 [entries."spells/sortie-ii"]
 category = "spells"
@@ -93114,8 +93114,8 @@ used_by = ["bosses/arisen-cursed-clota-of-fomoria", "bosses/arisen-cursed-king-f
 
 [entries."spells/sortie-ii".stats]
 costs = 80
-crit_chance = 18
 power = "1900"
+spell_crit_chance = 18
 
 [entries."spells/sow-ward"]
 category = "spells"
@@ -93304,8 +93304,8 @@ used_by = ["bosses/sumner-ares", "monsters/elite-riftguard", "monsters/enlighten
 
 [entries."spells/spellbreaker".stats]
 costs = 40
-crit_chance = 5
 power = "1000"
+spell_crit_chance = 5
 
 [entries."spells/spiked-greaves"]
 category = "spells"
@@ -95145,8 +95145,8 @@ chance = 15
 name = "lulled"
 
 [entries."spells/swansong".stats]
-crit_chance = 5
 power = "1100"
+spell_crit_chance = 5
 
 [entries."spells/sweep"]
 category = "spells"
@@ -95362,8 +95362,8 @@ name = "tempered_d"
 
 [entries."spells/tempering-seal".stats]
 costs = 75
-crit_chance = 5
 power = "1300"
+spell_crit_chance = 5
 
 [entries."spells/tempering-seal-ii"]
 category = "spells"
@@ -95380,8 +95380,8 @@ name = "tempered_dd"
 
 [entries."spells/tempering-seal-ii".stats]
 costs = 90
-crit_chance = 5
 power = "1600"
+spell_crit_chance = 5
 
 [entries."spells/tempering-strike"]
 category = "spells"
@@ -95399,8 +95399,8 @@ name = "tempered_d"
 
 [entries."spells/tempering-strike".stats]
 costs = 75
-crit_chance = 5
 power = "1300"
+spell_crit_chance = 5
 
 [entries."spells/tempering-strike-ii"]
 category = "spells"
@@ -95418,8 +95418,8 @@ name = "tempered_dd"
 
 [entries."spells/tempering-strike-ii".stats]
 costs = 90
-crit_chance = 5
 power = "1600"
+spell_crit_chance = 5
 
 [entries."spells/tempest"]
 category = "spells"
@@ -95583,9 +95583,9 @@ name = "rot"
 
 [entries."spells/terraseal-iii".stats]
 costs = 220
-crit_chance = 5
 element = ["earthen"]
 power = "2400"
+spell_crit_chance = 5
 
 [entries."spells/terrastrike"]
 category = "spells"
@@ -95639,9 +95639,9 @@ name = "rot"
 
 [entries."spells/terrastrike-iii".stats]
 costs = 220
-crit_chance = 5
 element = ["earthen"]
 power = "2400"
+spell_crit_chance = 5
 
 [entries."spells/threaten"]
 category = "spells"
@@ -95671,9 +95671,9 @@ used_by = ["monsters/beheaded-merchant"]
 
 [entries."spells/throw-gold".stats]
 costs = 20
-crit_chance = 10
 element = ["physical"]
 power = "600-900 (x5)"
+spell_crit_chance = 10
 
 [entries."spells/tiamats-breath"]
 category = "spells"
@@ -95824,9 +95824,9 @@ name = "frozen"
 
 [entries."spells/tidalseal-iii".stats]
 costs = 220
-crit_chance = 5
 element = ["water"]
 power = "2400"
+spell_crit_chance = 5
 
 [entries."spells/tidalstrike"]
 category = "spells"
@@ -95880,9 +95880,9 @@ name = "frozen"
 
 [entries."spells/tidalstrike-iii".stats]
 costs = 220
-crit_chance = 5
 element = ["water"]
 power = "2400"
+spell_crit_chance = 5
 
 [entries."spells/titans-lesser-wall"]
 category = "spells"
@@ -95951,8 +95951,8 @@ used_by = ["bosses/titan-mnemosyne", "followers/replica-eos", "followers/replica
 
 [entries."spells/titans-seal".stats]
 costs = 180
-crit_chance = 5
 power = "1800 | PvP: 900"
+spell_crit_chance = 5
 
 [entries."spells/titans-strike"]
 category = "spells"
@@ -95965,8 +95965,8 @@ used_by = ["followers/replica-prometheus", "followers/replica-themis"]
 
 [entries."spells/titans-strike".stats]
 costs = 180
-crit_chance = 5
 power = "1800 | PvP: 900"
+spell_crit_chance = 5
 
 [entries."spells/torchstrike"]
 category = "spells"
@@ -95982,9 +95982,9 @@ name = "burning"
 
 [entries."spells/torchstrike".stats]
 costs = 4
-crit_chance = 5
 element = ["fire"]
 power = "900"
+spell_crit_chance = 5
 
 [entries."spells/tower-of-strength"]
 category = "spells"
@@ -96775,9 +96775,9 @@ name = "rot"
 
 [entries."spells/tree-trunk".stats]
 costs = 4
-crit_chance = 5
 element = ["earthen"]
 power = "900"
+spell_crit_chance = 5
 
 [entries."spells/tremor"]
 category = "spells"
@@ -96984,8 +96984,8 @@ chance = 10
 name = "t__def_d"
 
 [entries."spells/twin-attack".stats]
-crit_chance = 5
 power = "800"
+spell_crit_chance = 5
 
 [entries."spells/twin-blast"]
 category = "spells"
@@ -97002,8 +97002,8 @@ chance = 10
 name = "t__res_d"
 
 [entries."spells/twin-blast".stats]
-crit_chance = 5
 power = "1200"
+spell_crit_chance = 5
 
 [entries."spells/twofold-blast"]
 category = "spells"
@@ -97016,8 +97016,8 @@ used_by = ["bosses/arisen-eistla", "bosses/eistla"]
 
 [entries."spells/twofold-blast".stats]
 costs = 4
-crit_chance = 5
 power = "800-1000 (x2)"
+spell_crit_chance = 5
 
 [entries."spells/twofold-strike"]
 category = "spells"
@@ -97072,9 +97072,9 @@ name = "blight"
 
 [entries."spells/ultima".stats]
 costs = 360
-crit_chance = 25
 element = ["earthen", "fire", "water", "lightning", "dragon", "dark", "holy", "arcane"]
 power = "4000 | PvP: 3000"
+spell_crit_chance = 25
 
 [entries."spells/ultima-ii"]
 category = "spells"
@@ -97116,9 +97116,9 @@ name = "blight"
 
 [entries."spells/ultima-ii".stats]
 costs = 400
-crit_chance = 25
 element = ["earthen", "fire", "water", "lightning", "dragon", "dark", "holy", "arcane"]
 power = "6000 | PvP: 4500"
+spell_crit_chance = 25
 
 [entries."spells/ultima-iii"]
 category = "spells"
@@ -97158,9 +97158,9 @@ name = "blight"
 
 [entries."spells/ultima-iii".stats]
 costs = 500
-crit_chance = 25
 element = ["earthen", "fire", "water", "lightning", "dragon", "dark", "holy", "arcane"]
 power = "6000 | PvP: 4500"
+spell_crit_chance = 25
 
 [entries."spells/ultimastrikes"]
 category = "spells"
@@ -97202,9 +97202,9 @@ name = "blight"
 
 [entries."spells/ultimastrikes".stats]
 costs = 400
-crit_chance = 25
 element = ["earthen", "fire", "water", "lightning", "dragon", "dark", "holy", "arcane"]
 power = "1500-4500 (x2) | PvP: 1125-3375 (x2)"
+spell_crit_chance = 25
 
 [entries."spells/unrelenting-fury"]
 category = "spells"
@@ -97354,8 +97354,8 @@ name = "t__res_d"
 
 [entries."spells/verse-iii".stats]
 costs = 240
-crit_chance = 5
 power = "2400"
+spell_crit_chance = 5
 
 [entries."spells/verse-iv"]
 category = "spells"
@@ -97377,8 +97377,8 @@ name = "t__res_d"
 
 [entries."spells/verse-iv".stats]
 costs = 280
-crit_chance = 5
 power = "2700"
+spell_crit_chance = 5
 
 [entries."spells/viperseal"]
 category = "spells"
@@ -97433,9 +97433,9 @@ name = "blight"
 
 [entries."spells/viperseal-iii".stats]
 costs = 220
-crit_chance = 5
 element = ["dragon"]
 power = "2400"
+spell_crit_chance = 5
 
 [entries."spells/viperstrike"]
 category = "spells"
@@ -97491,9 +97491,9 @@ name = "blight"
 
 [entries."spells/viperstrike-iii".stats]
 costs = 220
-crit_chance = 5
 element = ["dragon"]
 power = "2400"
+spell_crit_chance = 5
 
 [entries."spells/volley"]
 category = "spells"
@@ -99526,7 +99526,7 @@ useable_by = ["all_classes", "magic_users", "melee_classes", "thief_classes", "v
 followers = ["stats.attack_rate", "stats.buff_rate", "stats.debuff_rate", "stats.heal_rate", "stats.protect_chance", "stats.spell_rate"]
 items = ["stats._arch_alchemy", "stats._attack_from_low_defense", "stats._instrument_proficiency", "stats._weapon_proficiency", "stats.accuracy", "stats.act_first_chance__pve_", "stats.adornment_slots", "stats.ally_effect_chance", "stats.apex", "stats.apex_rate", "stats.apex_start", "stats.arcane_damage", "stats.attack", "stats.avidity", "stats.battle_animation_time", "stats.berserk_encounters", "stats.bestial_bond", "stats.bestial_bond_level", "stats.blacksmith_material_cost", "stats.blacksmith_time", "stats.buff_duration", "stats.cats", "stats.chain_damage_chance", "stats.collateral_chance", "stats.collateral_damage", "stats.crit", "stats.crit_chance", "stats.crit_damage", "stats.critical_chain", "stats.damage_limit_break", "stats.damage_per_turn_r_stats", "stats.damage_protect", "stats.damage_to_damage_per_turn", "stats.damage_to_ward", "stats.dark_damage", "stats.dark_res", "stats.debuff_fade", "stats.def_res_penetration", "stats.defend_power", "stats.defense", "stats.dexterity", "stats.disperse_status_effect_chance", "stats.dodge_chance", "stats.double_summon_chance", "stats.dragon_damage", "stats.dullahan_s_pursuit", "stats.dungeon_cooldown", "stats.dungeon_horde_bonus", "stats.dungeon_rewards", "stats.earthen_damage", "stats.effect_damage", "stats.elemental_damage_taken", "stats.elemental_weaknesses", "stats.event_encounters", "stats.exp_bonus", "stats.extra_materials_dropped", "stats.faction_element_damage", "stats.faction_element_resistance", "stats.fire_damage", "stats.fishing_line_catches", "stats.flask_charge_on_defeat", "stats.follower_act", "stats.follower_stats", "stats.follower_summon_ai", "stats.follower_summon_damage_taken", "stats.follower_turn_chance", "stats.foresight", "stats.frenzy", "stats.gifts", "stats.godforge_chance", "stats.gold_bonus", "stats.healing", "stats.higher_quality_item_chance", "stats.holy_damage", "stats.holy_res", "stats.hp", "stats.hp_regen", "stats.hp_ward_recovery", "stats.hybrid_damage", "stats.instant_summon_chance", "stats.life_siphon", "stats.lightning_damage", "stats.luck_bonus", "stats.magic", "stats.mana", "stats.mana_overspend_chance", "stats.mana_reduction", "stats.mana_regen", "stats.mana_ward_recovery", "stats.manaflask_charge", "stats.manaflask_power", "stats.memory_hunting_rewards", "stats.monster_encounters", "stats.monster_power", "stats.multi_target_damage", "stats.multi_target_mana_reduction", "stats.no_follower_bonus", "stats.orn_bonus", "stats.physical_damage", "stats.player_r_follower_ability_chance", "stats.quest_rewards", "stats.questing", "stats.raid_rewards", "stats.resistance", "stats.second_chance", "stats.self_damage_reduction", "stats.settlement_area_defense", "stats.sprite_size", "stats.stat_bonus", "stats.status_effect_chance", "stats.status_effect_duration", "stats.status_protection", "stats.status_reflection", "stats.summon_pacts", "stats.summon_protection", "stats.summon_stats", "stats.summon_turns", "stats.swap_defense_resistance", "stats.tower_shards", "stats.turn_reduction", "stats.two_handed", "stats.two_handed_power", "stats.ult_defense", "stats.view_distance", "stats.ward", "stats.ward_absorption", "stats.ward_bypass", "stats.ward_power", "stats.ward_recovery", "stats.ward_recovery_turn", "stats.ward_start", "stats.water_damage", "stats.weapon_power", "stats.world_horde_opponents"]
 raids = ["hp"]
-spells = ["stats.costs", "stats.crit_chance"]
+spells = ["stats.costs", "stats.spell_crit_chance"]
 
 [meta.value_types._follower_stats]
 type = "SIGNED"
@@ -100327,6 +100327,9 @@ unit = "PERCENT"
 
 [meta.value_types."stats.settlement_area_defense"]
 type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."stats.spell_crit_chance"]
 unit = "PERCENT"
 
 [meta.value_types."stats.sprite_size"]

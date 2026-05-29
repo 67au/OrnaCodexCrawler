@@ -1320,6 +1320,12 @@ id = "cursed-bormana-of-fomoria"
 language = "en"
 name = "Cursed Bormana of Fomoria"
 
+[entries."bosses/cursed-brunor"]
+category = "bosses"
+id = "cursed-brunor"
+language = "en"
+name = "Cursed Brunor"
+
 [entries."bosses/cursed-caticatona-of-fomoria"]
 category = "bosses"
 id = "cursed-caticatona-of-fomoria"
@@ -1337,6 +1343,12 @@ category = "bosses"
 id = "cursed-clota-of-fomoria"
 language = "en"
 name = "Cursed Clota of Fomoria"
+
+[entries."bosses/cursed-dagonet"]
+category = "bosses"
+id = "cursed-dagonet"
+language = "en"
+name = "Cursed Dagonet"
 
 [entries."bosses/cursed-damona-of-fomoria"]
 category = "bosses"
@@ -1398,6 +1410,12 @@ id = "cursed-king-fomor-wintara"
 language = "en"
 name = "Cursed King Fomor, Wintara"
 
+[entries."bosses/cursed-lancelot"]
+category = "bosses"
+id = "cursed-lancelot"
+language = "en"
+name = "Cursed Lancelot"
+
 [entries."bosses/cursed-lero-of-fomoria"]
 category = "bosses"
 id = "cursed-lero-of-fomoria"
@@ -1433,6 +1451,12 @@ category = "bosses"
 id = "cursed-sequana-of-fomoria"
 language = "en"
 name = "Cursed Sequana of Fomoria"
+
+[entries."bosses/cursed-severause"]
+category = "bosses"
+id = "cursed-severause"
+language = "en"
+name = "Cursed Severause"
 
 [entries."bosses/dagda"]
 category = "bosses"
@@ -1560,6 +1584,18 @@ id = "fallen-beowulf"
 language = "en"
 name = "Fallen Beowulf"
 
+[entries."bosses/fallen-brunor"]
+category = "bosses"
+id = "fallen-brunor"
+language = "en"
+name = "Fallen Brunor"
+
+[entries."bosses/fallen-dagonet"]
+category = "bosses"
+id = "fallen-dagonet"
+language = "en"
+name = "Fallen Dagonet"
+
 [entries."bosses/fallen-deity"]
 category = "bosses"
 id = "fallen-deity"
@@ -1602,6 +1638,12 @@ id = "fallen-judge-zagreus"
 language = "en"
 name = "Fallen Judge Zagreus"
 
+[entries."bosses/fallen-lancelot"]
+category = "bosses"
+id = "fallen-lancelot"
+language = "en"
+name = "Fallen Lancelot"
+
 [entries."bosses/fallen-ra-the-seer"]
 category = "bosses"
 id = "fallen-ra-the-seer"
@@ -1613,6 +1655,12 @@ category = "bosses"
 id = "fallen-realmshifter"
 language = "en"
 name = "Fallen Realmshifter"
+
+[entries."bosses/fallen-severause"]
+category = "bosses"
+id = "fallen-severause"
+language = "en"
+name = "Fallen Severause"
 
 [entries."bosses/fallen-thor-the-storm-god"]
 category = "bosses"
@@ -5825,26 +5873,26 @@ id = "arisen-askr-leggings"
 language = "en"
 name = "Arisen Askr Leggings"
 
-[entries."items/arisen-avalon-armor"]
+[entries."items/arisen-avalon-knight-armor"]
 category = "items"
 description = "Heavy armor of prestigious Avalon knights."
-id = "arisen-avalon-armor"
+id = "arisen-avalon-knight-armor"
 language = "en"
-name = "Arisen Avalon Armor"
+name = "Arisen Avalon Knight Armor"
 
-[entries."items/arisen-avalon-helmet"]
+[entries."items/arisen-avalon-knight-helmet"]
 category = "items"
 description = "Heavy armor of prestigious Avalon knights."
-id = "arisen-avalon-helmet"
+id = "arisen-avalon-knight-helmet"
 language = "en"
-name = "Arisen Avalon Helmet"
+name = "Arisen Avalon Knight Helmet"
 
-[entries."items/arisen-avalon-leggings"]
+[entries."items/arisen-avalon-knight-leggings"]
 category = "items"
 description = "Heavy armor of prestigious Avalon knights."
-id = "arisen-avalon-leggings"
+id = "arisen-avalon-knight-leggings"
 language = "en"
-name = "Arisen Avalon Leggings"
+name = "Arisen Avalon Knight Leggings"
 
 [entries."items/arisen-axe-of-tiamat"]
 category = "items"
@@ -6126,10 +6174,10 @@ id = "arisen-cursed-fomoria-plated-boots"
 language = "en"
 name = "Arisen Cursed Fomoria Plated Boots"
 
-[entries."items/arisen-cursed-fomoria-plated-boots-56e4841c"]
+[entries."items/arisen-cursed-fomoria-plated-boots-4de3e61d"]
 category = "items"
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "arisen-cursed-fomoria-plated-boots-56e4841c"
+id = "arisen-cursed-fomoria-plated-boots-4de3e61d"
 language = "en"
 name = "Arisen Cursed Fomoria Plated Boots"
 
@@ -6182,13 +6230,6 @@ id = "arisen-cursed-fomors-crown"
 language = "en"
 name = "Arisen Cursed Fomor's Crown"
 
-[entries."items/arisen-cursed-fomors-crown-276564a1"]
-category = "items"
-description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "arisen-cursed-fomors-crown-276564a1"
-language = "en"
-name = "Arisen Cursed Fomor's Crown"
-
 [entries."items/arisen-cursed-fomors-crown-2cb9b4e6"]
 category = "items"
 description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
@@ -6200,6 +6241,13 @@ name = "Arisen Cursed Fomor's Crown"
 category = "items"
 description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 id = "arisen-cursed-fomors-crown-3a4a918b"
+language = "en"
+name = "Arisen Cursed Fomor's Crown"
+
+[entries."items/arisen-cursed-fomors-crown-612a024c"]
+category = "items"
+description = "Crown of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
+id = "arisen-cursed-fomors-crown-612a024c"
 language = "en"
 name = "Arisen Cursed Fomor's Crown"
 
@@ -8037,26 +8085,12 @@ id = "autumna-crested-shield"
 language = "en"
 name = "Autumna Crested Shield"
 
-[entries."items/avalon-armor"]
-category = "items"
-description = "Heavy armor of Avalon knights."
-id = "avalon-armor"
-language = "en"
-name = "Avalon Armor"
-
 [entries."items/avalon-crown"]
 category = "items"
 description = "The fabled crown of King Arthus. Although it offers little in terms of defense, it can protect its wearer from being cursed or petrified."
 id = "avalon-crown"
 language = "en"
 name = "Avalon Crown"
-
-[entries."items/avalon-helmet"]
-category = "items"
-description = "Heavy armor of Avalon knights."
-id = "avalon-helmet"
-language = "en"
-name = "Avalon Helmet"
 
 [entries."items/avalon-knight-armor"]
 category = "items"
@@ -8078,13 +8112,6 @@ description = "Heavy armor of prestigious Avalon knights."
 id = "avalon-knight-leggings"
 language = "en"
 name = "Avalon Knight Leggings"
-
-[entries."items/avalon-leggings"]
-category = "items"
-description = "Heavy armor of Avalon knights."
-id = "avalon-leggings"
-language = "en"
-name = "Avalon Leggings"
 
 [entries."items/avalon-melody"]
 category = "items"
@@ -9605,6 +9632,13 @@ id = "bronze-medal"
 language = "en"
 name = "Bronze Medal"
 
+[entries."items/brunors-cabochon"]
+category = "items"
+description = "A polished gem often adorned upon Arthus's knights' weapons."
+id = "brunors-cabochon"
+language = "en"
+name = "Brunor's Cabochon"
+
 [entries."items/buckler"]
 category = "items"
 description = "A simple buckler."
@@ -10319,6 +10353,13 @@ id = "cracked-mirror"
 language = "en"
 name = "Cracked Mirror"
 
+[entries."items/crest-of-a-cursed-king"]
+category = "items"
+description = "Crest of a Fallen King. This item will summon a projection of The Cursed King to your location."
+id = "crest-of-a-cursed-king"
+language = "en"
+name = "Crest of a Cursed King"
+
 [entries."items/crest-of-autumna"]
 category = "items"
 description = "Proof of trials complete for the Fomorian house of Autumna. Use this item to summon a mighty projection."
@@ -10333,12 +10374,40 @@ id = "crest-of-avalon"
 language = "en"
 name = "Crest of Avalon"
 
+[entries."items/crest-of-brunor"]
+category = "items"
+description = "Crest of a Fallen Knight of Arthus's court. This item is part of the Kingsfall world event."
+id = "crest-of-brunor"
+language = "en"
+name = "Crest of Brunor"
+
+[entries."items/crest-of-dagonet"]
+category = "items"
+description = "Crest of a Fallen Knight of Arthus's court. This item is part of the Kingsfall world event."
+id = "crest-of-dagonet"
+language = "en"
+name = "Crest of Dagonet"
+
+[entries."items/crest-of-lancelot"]
+category = "items"
+description = "Crest of a Fallen Knight of Arthus's court. This item is part of the Kingsfall world event."
+id = "crest-of-lancelot"
+language = "en"
+name = "Crest of Lancelot"
+
 [entries."items/crest-of-nocturna"]
 category = "items"
 description = "Proof of trials complete for the Fomorian house of Nocturna. Use this item to summon a mighty projection."
 id = "crest-of-nocturna"
 language = "en"
 name = "Crest of Nocturna"
+
+[entries."items/crest-of-severause"]
+category = "items"
+description = "Crest of a Fallen Knight of Arthus's court. This item is part of the Kingsfall world event."
+id = "crest-of-severause"
+language = "en"
+name = "Crest of Severause"
 
 [entries."items/crest-of-sumner"]
 category = "items"
@@ -10585,6 +10654,13 @@ id = "cursed-autumna-crested-shield"
 language = "en"
 name = "Cursed Autumna Crested Shield"
 
+[entries."items/cursed-avalon-melody"]
+category = "items"
+description = "Famed golden flute of an Avalon bard. Playing its songs can temporarily raise one's magical defense."
+id = "cursed-avalon-melody"
+language = "en"
+name = "Cursed Avalon Melody"
+
 [entries."items/cursed-belenuss-boots"]
 category = "items"
 description = "Boots worn by Belenus, healing God of the Fomorian house of Nocturna. Belenus, of three siblings, spent his days attending the sick animals of Fomoria's fields. While wearing this item, you will tame your opponent's followers and summons, causing them to deal less damage to you."
@@ -10627,6 +10703,48 @@ id = "cursed-clotas-garb"
 language = "en"
 name = "Cursed Clota's Garb"
 
+[entries."items/cursed-cowards-blade"]
+category = "items"
+description = "A hooked blade used by Avalon assassins. Some say the great King Arthus had a secretive hobby."
+id = "cursed-cowards-blade"
+language = "en"
+name = "Cursed Coward's Blade"
+
+[entries."items/cursed-cowards-boots"]
+category = "items"
+description = "Boots worn by Avalon assassins. Some say the great King Arthus had a secretive hobby."
+id = "cursed-cowards-boots"
+language = "en"
+name = "Cursed Coward's Boots"
+
+[entries."items/cursed-cowards-cloak"]
+category = "items"
+description = "Cloak worn by Avalon assassins. Some say the great King Arthus had a secretive hobby."
+id = "cursed-cowards-cloak"
+language = "en"
+name = "Cursed Coward's Cloak"
+
+[entries."items/cursed-cowards-cowl"]
+category = "items"
+description = "Headpiece worn by Avalon assassins. Some say the great King Arthus had a secretive hobby."
+id = "cursed-cowards-cowl"
+language = "en"
+name = "Cursed Coward's Cowl"
+
+[entries."items/cursed-crown-of-the-fallen-king"]
+category = "items"
+description = "Crown of the Cursed King."
+id = "cursed-crown-of-the-fallen-king"
+language = "en"
+name = "Cursed Crown of the Fallen King"
+
+[entries."items/cursed-dagonets-epee"]
+category = "items"
+description = "Dagger of Sir Dagonet, fallen Knight of Arthus's Round Table."
+id = "cursed-dagonets-epee"
+language = "en"
+name = "Cursed Dagonet's Epee"
+
 [entries."items/cursed-damonas-shield"]
 category = "items"
 description = "Wet shield of Damona, river Goddess of the Fomorian house of Autumna. Damona was the youngest but bravest of her sisters. While wearing this item, debuffs will be easier to cast on your opponent. Additionally, it increases the maximum damage of status effects on your opponent."
@@ -10648,6 +10766,13 @@ id = "cursed-esuss-pillar"
 language = "en"
 name = "Cursed Esus's Pillar"
 
+[entries."items/cursed-excalibur"]
+category = "items"
+description = "The infamous blade presented to Arthus by the Lady of the Lake. This blade has taken 10,000 souls, all to build that wretched sea."
+id = "cursed-excalibur"
+language = "en"
+name = "Cursed Excalibur"
+
 [entries."items/cursed-fomoria-plated-boots"]
 category = "items"
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
@@ -10655,17 +10780,17 @@ id = "cursed-fomoria-plated-boots"
 language = "en"
 name = "Cursed Fomoria Plated Boots"
 
-[entries."items/cursed-fomoria-plated-boots-0ebf6063"]
-category = "items"
-description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "cursed-fomoria-plated-boots-0ebf6063"
-language = "en"
-name = "Cursed Fomoria Plated Boots"
-
 [entries."items/cursed-fomoria-plated-boots-7a9f5efc"]
 category = "items"
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 id = "cursed-fomoria-plated-boots-7a9f5efc"
+language = "en"
+name = "Cursed Fomoria Plated Boots"
+
+[entries."items/cursed-fomoria-plated-boots-c6787dd8"]
+category = "items"
+description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
+id = "cursed-fomoria-plated-boots-c6787dd8"
 language = "en"
 name = "Cursed Fomoria Plated Boots"
 
@@ -10683,10 +10808,10 @@ id = "cursed-fomoria-plated-robe"
 language = "en"
 name = "Cursed Fomoria Plated Robe"
 
-[entries."items/cursed-fomoria-plated-robe-49122feb"]
+[entries."items/cursed-fomoria-plated-robe-5d09a4d7"]
 category = "items"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "cursed-fomoria-plated-robe-49122feb"
+id = "cursed-fomoria-plated-robe-5d09a4d7"
 language = "en"
 name = "Cursed Fomoria Plated Robe"
 
@@ -10760,6 +10885,41 @@ id = "cursed-imonas-slippers"
 language = "en"
 name = "Cursed Imona's Slippers"
 
+[entries."items/cursed-jewel-of-avalon"]
+category = "items"
+description = "A small adornment of Avalon capable of increasing many attributes of a piece of equipment when adorned upon it."
+id = "cursed-jewel-of-avalon"
+language = "en"
+name = "Cursed Jewel of Avalon"
+
+[entries."items/cursed-kings-boots"]
+category = "items"
+description = "Formal attire of a King."
+id = "cursed-kings-boots"
+language = "en"
+name = "Cursed King's Boots"
+
+[entries."items/cursed-kings-hood"]
+category = "items"
+description = "Formal attire of a King."
+id = "cursed-kings-hood"
+language = "en"
+name = "Cursed King's Hood"
+
+[entries."items/cursed-kings-robe"]
+category = "items"
+description = "Formal attire of a King."
+id = "cursed-kings-robe"
+language = "en"
+name = "Cursed King's Robe"
+
+[entries."items/cursed-lancelots-reach"]
+category = "items"
+description = "Lance of Sir Lancelot, fallen Knight of Arthus's Round Table. Sir Lancelot was often seen as the leader of Arthus's trusted knights."
+id = "cursed-lancelots-reach"
+language = "en"
+name = "Cursed Lancelot's Reach"
+
 [entries."items/cursed-leros-hood"]
 category = "items"
 description = "Hood of Lero, apprentice God of the Fomorian house of Wintara. Lero, untrained, youthful, and rather brash, was quick to fall during Morrigan's invasion. While wearing this item, buffs cast by its wearer may transfer to a party mate. Additionally, positive status effects will last longer."
@@ -10816,6 +10976,41 @@ id = "cursed-ortanite"
 language = "en"
 name = "Cursed Ortanite"
 
+[entries."items/cursed-pendrake-armor"]
+category = "items"
+description = "Heavy armor of Avalon knights."
+id = "cursed-pendrake-armor"
+language = "en"
+name = "Cursed Pendrake Armor"
+
+[entries."items/cursed-pendrake-helmet"]
+category = "items"
+description = "Heavy armor of Avalon knights."
+id = "cursed-pendrake-helmet"
+language = "en"
+name = "Cursed Pendrake Helmet"
+
+[entries."items/cursed-pendrake-leggings"]
+category = "items"
+description = "Heavy armor of Avalon knights."
+id = "cursed-pendrake-leggings"
+language = "en"
+name = "Cursed Pendrake Leggings"
+
+[entries."items/cursed-quillon-dagger"]
+category = "items"
+description = "Dagger of Sir Brunor, fallen Knight of Arthus's Round Table."
+id = "cursed-quillon-dagger"
+language = "en"
+name = "Cursed Quillon Dagger"
+
+[entries."items/cursed-rhongomiant"]
+category = "items"
+description = "Famous staff of the great King Arthus himself. Before being presented the Excalibur, Arthus carried this staff into battle after battle."
+id = "cursed-rhongomiant"
+language = "en"
+name = "Cursed Rhongomiant"
+
 [entries."items/cursed-ring"]
 category = "items"
 description = "A ring of the cursed Fafnir. Increases your attack and magic power at the expense of your longevity."
@@ -10844,6 +11039,13 @@ id = "cursed-sequanas-chestpiece"
 language = "en"
 name = "Cursed Sequana's Chestpiece"
 
+[entries."items/cursed-severauses-halberd"]
+category = "items"
+description = "Halberd of Sir Severause, fallen Knight of Arthus's Round Table. Sir Severause preferred fighting a rare beast to a human, and often dismissed his knightly duties to pursue many a beast."
+id = "cursed-severauses-halberd"
+language = "en"
+name = "Cursed Severause's Halberd"
+
 [entries."items/cursed-spine-shard"]
 category = "items"
 description = "The air grows still, the candles dim,\nAs mortals dream and think of him.\nA trickster, herald, phantom, friend,\nWhose tale begins but will not end."
@@ -10864,6 +11066,13 @@ description = "Cut tail of a beast of Aaru. Surely he will grow another. When ca
 id = "cursed-tail-of-a-sphinx"
 language = "en"
 name = "Cursed Tail of a Sphinx"
+
+[entries."items/cursed-teardrop-of-the-king"]
+category = "items"
+description = "A small adornment of Avalon capable of increasing many attributes of a piece of equipment when adorned upon it."
+id = "cursed-teardrop-of-the-king"
+language = "en"
+name = "Cursed Teardrop of the King"
 
 [entries."items/cursed-wintara-crested-shield"]
 category = "items"
@@ -10948,6 +11157,20 @@ description = "A small blade ideal for close quartered combat."
 id = "dagger"
 language = "en"
 name = "Dagger"
+
+[entries."items/dagonets-cabochon"]
+category = "items"
+description = "A polished gem often adorned upon Arthus's knights' weapons."
+id = "dagonets-cabochon"
+language = "en"
+name = "Dagonet's Cabochon"
+
+[entries."items/dagonets-epee"]
+category = "items"
+description = "Dagger of Sir Dagonet, fallen Knight of Arthus's Round Table."
+id = "dagonets-epee"
+language = "en"
+name = "Dagonet's Epee"
 
 [entries."items/dalans-hood"]
 category = "items"
@@ -12722,7 +12945,7 @@ name = "Excalibur"
 
 [entries."items/excalibur-32be53bc"]
 category = "items"
-description = "The mythic weapon of Arthus, the king of Avalon. It protects its wielder from bleeding."
+description = "The infamous blade presented to Arthus by the Lady of the Lake."
 id = "excalibur-32be53bc"
 language = "en"
 name = "Excalibur"
@@ -12887,6 +13110,13 @@ description = "Hood worn by acolytes of Mammon, the demon of hubris."
 id = "fallen-hood"
 language = "en"
 name = "Fallen Hood"
+
+[entries."items/fallen-kings-aspect"]
+category = "items"
+description = "When awakened, this Aspect will summon part of Nimue's Lake to your location."
+id = "fallen-kings-aspect"
+language = "en"
+name = "Fallen King's Aspect"
 
 [entries."items/fallen-knights-axe"]
 category = "items"
@@ -15149,6 +15379,13 @@ id = "grotesque-monster-aspect"
 language = "en"
 name = "Grotesque Monster Aspect"
 
+[entries."items/guineveres-hairpin"]
+category = "items"
+description = "Pristine jewelry of Queen Guinevere. Guinevere was seemingly immune to the enrapturing allure of Nimue's vast sea, which made her the favored prey of the most vicious of beasts.\n\nThus, she avoided the coasts and fled to the mountains, living the life of a recluse."
+id = "guineveres-hairpin"
+language = "en"
+name = "Guinevere's Hairpin"
+
 [entries."items/gungnir"]
 category = "items"
 description = "A mighty spear forged by dwarves for the great Nothren god, Odin. This spear can easily pierce an opponent's defenses, but must be wielded with both hands. Additionally, it increases the collateral damage dealt."
@@ -15968,12 +16205,26 @@ id = "hurricane-arc"
 language = "en"
 name = "Hurricane Arc"
 
+[entries."items/hyades-wreath"]
+category = "items"
+description = "Headwear of the Hyades, ancient songsayers of Terra."
+id = "hyades-wreath"
+language = "en"
+name = "Hyades Wreath"
+
 [entries."items/hydra-staff"]
 category = "items"
 description = "Archistaff forged of the remains of a great Hydra. It can provide one with various elemental resistances."
 id = "hydra-staff"
 language = "en"
 name = "Hydra Staff"
+
+[entries."items/hymnbook-of-destruction"]
+category = "items"
+description = "Old Grimoire of Terra, allowing one to summon the Final Bloom."
+id = "hymnbook-of-destruction"
+language = "en"
+name = "Hymnbook of Destruction"
 
 [entries."items/hymnbook-of-nature"]
 category = "items"
@@ -16563,10 +16814,10 @@ id = "kerberos-sword"
 language = "en"
 name = "Kerberos Sword"
 
-[entries."items/kerberos-sword-fa67ff37"]
+[entries."items/kerberos-sword-618dbfce"]
 category = "items"
 description = "Mighty sword, representative of the relentless Kerberos."
-id = "kerberos-sword-fa67ff37"
+id = "kerberos-sword-618dbfce"
 language = "en"
 name = "Kerberos Sword"
 
@@ -16660,6 +16911,20 @@ description = "A relic of Merlin's eccentric collection, this sword grants incre
 id = "lady-of-the-lake"
 language = "en"
 name = "Lady of the Lake"
+
+[entries."items/lancelets-cabochon"]
+category = "items"
+description = "A polished gem often adorned upon Arthus's knights' weapons."
+id = "lancelets-cabochon"
+language = "en"
+name = "Lancelet's Cabochon"
+
+[entries."items/lancelots-reach"]
+category = "items"
+description = "Lance of Sir Lancelot, fallen Knight of Arthus's Round Table. Sir Lancelot was often seen as the leader of Arthus's trusted knights."
+id = "lancelots-reach"
+language = "en"
+name = "Lancelot's Reach"
 
 [entries."items/landmark-waystone"]
 category = "items"
@@ -17599,12 +17864,26 @@ id = "marketing-plans"
 language = "en"
 name = "Marketing Plans"
 
+[entries."items/marvelous-item-aspect"]
+category = "items"
+description = "Aspect of a rare item that may have been lost by a traveler before you. Aspects can be charged simply by walking after being slotted in your Traveler's Guild menu. When fully charged, this Aspect will awaken a weapon for you."
+id = "marvelous-item-aspect"
+language = "en"
+name = "Marvelous Item Aspect"
+
 [entries."items/masamune"]
 category = "items"
 description = "A beautiful blade that resemble stars in the night sky."
 id = "masamune"
 language = "en"
 name = "Masamune"
+
+[entries."items/material-aspect"]
+category = "items"
+description = "Aspect of a pile of materials that may have been lost by a traveler before you. Aspects can be charged simply by walking after being slotted in your Traveler's Guild menu. When fully charged, this Aspect will awaken a weapon for you."
+id = "material-aspect"
+language = "en"
+name = "Material Aspect"
 
 [entries."items/medeas-hairpin"]
 category = "items"
@@ -17626,6 +17905,13 @@ description = "Chestplate of Medusa. It offers protection from poison and petrif
 id = "medusas-chestplate"
 language = "en"
 name = "Medusa's Chestplate"
+
+[entries."items/memory-of-a-king"]
+category = "items"
+description = "Faint memory of a Fallen King's royal court. This item is part of the Kingsfall world event."
+id = "memory-of-a-king"
+language = "en"
+name = "Memory of a King"
 
 [entries."items/menjas-battlerobe"]
 category = "items"
@@ -17818,7 +18104,7 @@ name = "MmmPizza's Pizza Cutter for cutting Pizza"
 
 [entries."items/mnemonic-of-mnemosyne"]
 category = "items"
-description = "Mnemosyne, a Titan or tricks and puzzles, invites you to her Tower or Puzzles, \"Mnemosyne's Ascent\". This item is part of the \"Of Giants and Titans\" world event."
+description = "Mnemosyne, a Titan of tricks and puzzles, invites you to her Tower or Puzzles, \"Mnemosyne's Ascent\". This item is part of the \"Of Giants and Titans\" world event."
 id = "mnemonic-of-mnemosyne"
 language = "en"
 name = "Mnemonic of Mnemosyne"
@@ -19041,6 +19327,27 @@ id = "parrying-dagger"
 language = "en"
 name = "Parrying Dagger"
 
+[entries."items/pendrake-armor"]
+category = "items"
+description = "Heavy armor of Avalon knights."
+id = "pendrake-armor"
+language = "en"
+name = "Pendrake Armor"
+
+[entries."items/pendrake-helmet"]
+category = "items"
+description = "Heavy armor of Avalon knights."
+id = "pendrake-helmet"
+language = "en"
+name = "Pendrake Helmet"
+
+[entries."items/pendrake-leggings"]
+category = "items"
+description = "Heavy armor of Avalon knights."
+id = "pendrake-leggings"
+language = "en"
+name = "Pendrake Leggings"
+
 [entries."items/perfect-baldur"]
 category = "items"
 description = "A perfect chunk of Baldur, favored by the raiders of Nothren. It is useful for upgrading powerful equipment."
@@ -19678,6 +19985,13 @@ id = "questing-staff"
 language = "en"
 name = "Questing Staff"
 
+[entries."items/quillon-dagger"]
+category = "items"
+description = "Dagger of Sir Brunor, fallen Knight of Arthus's Round Table."
+id = "quillon-dagger"
+language = "en"
+name = "Quillon Dagger"
+
 [entries."items/racul-blade"]
 category = "items"
 description = "An evil blade wielded by Racul, King of vampires. Attacks with this weapon can slightly restore HP."
@@ -19925,7 +20239,7 @@ name = "Rhada Shadow Greatsword"
 
 [entries."items/rhongomiant"]
 category = "items"
-description = "Great staff of Avalon court mages."
+description = "Famous staff of the great King Arthus himself. Before being presented the Excalibur, Arthus carried this staff into battle after battle."
 id = "rhongomiant"
 language = "en"
 name = "Rhongomiant"
@@ -20212,7 +20526,7 @@ name = "Ruairc Legwraps"
 
 [entries."items/ruairc-robe"]
 category = "items"
-description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nThis garb will cause one to allows act first in battle."
+description = "Oillipheist is what remains of the cursed King Ulster, a gigantic cursed dragon. Oillipheist was hunted by humans and monsters alike. Its scent may draw extra monsters to you during Horde Mode dungeons.\n\nThis garb will cause one to always act first in battle."
 id = "ruairc-robe"
 language = "en"
 name = "Ruairc Robe"
@@ -20691,6 +21005,20 @@ description = "A simple Crownguard for use by the Conqueror's Guild. Crownguards
 id = "settlers-crownguard"
 language = "en"
 name = "Settler's Crownguard"
+
+[entries."items/severauses-cabochon"]
+category = "items"
+description = "A polished gem often adorned upon Arthus's knights' weapons."
+id = "severauses-cabochon"
+language = "en"
+name = "Severause's Cabochon"
+
+[entries."items/severauses-halberd"]
+category = "items"
+description = "Halberd of Sir Severause, fallen Knight of Arthus's Round Table. Sir Severause preferred fighting a rare beast to a human, and often dismissed his knightly duties to pursue many a beast."
+id = "severauses-halberd"
+language = "en"
+name = "Severause's Halberd"
 
 [entries."items/shadow-boots"]
 category = "items"
@@ -22190,6 +22518,20 @@ id = "tower-shield"
 language = "en"
 name = "Tower Shield"
 
+[entries."items/travelers-armor-aspect"]
+category = "items"
+description = "Aspect of a piece of armor that may have been lost by a traveler before you. Aspects can be charged simply by walking after being slotted in your Traveler's Guild menu. When fully charged, this Aspect will awaken a weapon for you."
+id = "travelers-armor-aspect"
+language = "en"
+name = "Traveler's Armor Aspect"
+
+[entries."items/travelers-weapon-aspect"]
+category = "items"
+description = "Aspect of a weapon that may have been lost by a traveler before you. Aspects can be charged simply by walking after being slotted in your Traveler's Guild menu. When fully charged, this Aspect will awaken a weapon for you."
+id = "travelers-weapon-aspect"
+language = "en"
+name = "Traveler's Weapon Aspect"
+
 [entries."items/tree-nut"]
 category = "items"
 description = "Giants often carried large rations of tree fruits to sate their appetite. Gymir's rations increase the chance of collateral damage."
@@ -22595,6 +22937,13 @@ description = "Lunar Catalyst of Verrick, fallen king of the Enlightened."
 id = "verricks-ring"
 language = "en"
 name = "Verrick's Ring"
+
+[entries."items/vial-of-lakewater"]
+category = "items"
+description = "A vile of the water of a renowned lake. Pouring this liquid upon the ground will summon part of Nimue's Lake to this area for 24 hours. This item is only useable during the Kingsfall world event."
+id = "vial-of-lakewater"
+language = "en"
+name = "Vial of Lakewater"
 
 [entries."items/viper-armor"]
 category = "items"
@@ -26760,6 +27109,13 @@ id = "covyn"
 language = "en"
 name = "Covyn"
 
+[entries."raids/cursed-king-arthus"]
+category = "raids"
+description = "Great King Arthus, Fallen then Cursed. He still draws his sword for the Lady's will."
+id = "cursed-king-arthus"
+language = "en"
+name = "Cursed King Arthus"
+
 [entries."raids/dangy"]
 category = "raids"
 description = "The community hero."
@@ -26804,7 +27160,7 @@ name = "Fallen Judge Rhada"
 
 [entries."raids/fallen-king-arthus"]
 category = "raids"
-description = "Many see Arthus as perhaps the greatest ruler this land has seen. When the Falling took him, Avalon suffered quite the loss."
+description = "King Arthus of Avalon, fallen after many a battle for the Lady's will."
 id = "fallen-king-arthus"
 language = "en"
 name = "Fallen King Arthus"
@@ -28095,6 +28451,13 @@ description = "Unstable elementless magic that can blind an opponent while deali
 id = "brilliant-lights"
 language = "en"
 name = "Brilliant Lights"
+
+[entries."spells/brilliant-lights-2"]
+category = "spells"
+description = "Unstable elementless magic that can blind an opponent while dealing damage thrice to all opponents."
+id = "brilliant-lights-2"
+language = "en"
+name = "Brilliant Lights (Off-hand)"
 
 [entries."spells/brilliant-lights-ii"]
 category = "spells"
@@ -29975,6 +30338,13 @@ id = "hack-and-slash"
 language = "en"
 name = "Hack and Slash"
 
+[entries."spells/halberd-sweep"]
+category = "spells"
+description = "Deals physical damage to all opponents with a chance to break their defenses."
+id = "halberd-sweep"
+language = "en"
+name = "Halberd Sweep (Off-hand)"
+
 [entries."spells/haste"]
 category = "spells"
 description = "Temporarily increases a party member's foresight."
@@ -30297,6 +30667,13 @@ id = "impale-3"
 language = "en"
 name = "Impale (Off-hand)"
 
+[entries."spells/impale-ii"]
+category = "spells"
+description = "Attack with your weapon extended, dealing moderate damage but mitigating damage from your opponent's next attack."
+id = "impale-ii"
+language = "en"
+name = "Impale II (Off-hand)"
+
 [entries."spells/inferna-eventualus"]
 category = "spells"
 description = "Consumes all of your Apex meter to deal immense fire damage to all opponents. This spell can only be cast when your Apex meter is full and will use either your magic or attack stat, depending on which is greater."
@@ -30409,12 +30786,26 @@ id = "jump-ii"
 language = "en"
 name = "Jump II"
 
+[entries."spells/kings-rage"]
+category = "spells"
+description = "Deals physical damage to all opponents."
+id = "kings-rage"
+language = "en"
+name = "King's Rage (Off-hand)"
+
 [entries."spells/kings-reign"]
 category = "spells"
 description = "Unstable royal magic that can deal immense damage."
 id = "kings-reign"
 language = "en"
 name = "King's Reign"
+
+[entries."spells/kings-wrath"]
+category = "spells"
+description = "Deals magical damage to all opponents and marks them with a Dark Sigil."
+id = "kings-wrath"
+language = "en"
+name = "King's Wrath (Off-hand)"
 
 [entries."spells/lacuna"]
 category = "spells"
@@ -32877,6 +33268,13 @@ id = "summon-fey-kelpie"
 language = "en"
 name = "Summon Fey Kelpie"
 
+[entries."spells/summon-final-bloom"]
+category = "spells"
+description = "Summon a Final Boom member to assist you."
+id = "summon-final-bloom"
+language = "en"
+name = "Summon Final Bloom (Off-hand)"
+
 [entries."spells/summon-fire-disciple"]
 category = "spells"
 description = "Summon a beast to assist you. Requires 2 turns in battle."
@@ -34199,11 +34597,10 @@ spells = "Skills & Spells"
 balor_invades = "Balor Invades"
 beastfelled = "Beastfelled"
 canada_d_eh = "Canada D'eh"
-fallen_heroes_of_avalon = "Fallen Heroes of Avalon"
 fool_of_april = "Fool of April"
+kingsfall = "Kingsfall"
 legend_of_lyonesse = "Legend of Lyonesse"
 menders_of_hearts = "Menders of Hearts"
-merlin = "Merlin"
 none = "None"
 nothren_legends__ragnarok = "Nothren Legends: Ragnarok"
 of_giants_and_titans = "Of Giants and Titans"
@@ -34276,6 +34673,7 @@ goldie = "Goldie"
 great_bear = "Great Bear"
 great_yeti = "Great Yeti"
 guivre = "Guivre"
+gwyllgi = "Gwyllgi"
 hellhound = "Hellhound"
 ice_dragon = "Ice Dragon"
 kady = "Kady"
@@ -34283,6 +34681,7 @@ lesser_red_slime = "Lesser Red Slime"
 lily = "Lily"
 lindworm = "Lindworm"
 lizarr = "Lizarr"
+llamrai = "Llamrai"
 melon = "Melon"
 mighty_slime = "Mighty Slime"
 mimic = "Mimic"
@@ -34292,6 +34691,9 @@ seer = "Seer"
 sif = "Sif"
 snake = "Snake"
 spooky_ghost = "Spooky Ghost"
+steward_gwyllgi = "Steward Gwyllgi"
+steward_llamrai = "Steward Llamrai"
+steward_pegasus = "Steward Pegasus"
 steward_wolf = "Steward Wolf"
 storm_dragon = "Storm Dragon"
 trek = "Trek"
@@ -34371,11 +34773,13 @@ _follower_stats = "+Follower Stats"
 _follower_summon_skill = "+Follower/Summon Skill"
 _follower_summon_spell = "+Follower/Summon Spell"
 _guidelight = "+Guidelight"
+_instrument_proficiency = "+Instrument Proficiency"
 _second_chance = "+Second Chance"
 _skill = "+Skill"
 _spell = "+Spell"
 _summon_ascension = "+Summon Ascension"
 _summon_stats = "+Summon Stats"
+_weapon_proficiency = "+Weapon Proficiency"
 _weaved_elements = "+Weaved Elements"
 accuracy = "Accuracy"
 act_first_chance__pve_ = "Act First Chance (PvE)"
@@ -34392,7 +34796,8 @@ attack_rate = "Attack rate"
 auto_summon = "Auto Summon"
 avidity = "Avidity"
 bastille = "Bastille"
-battle_speed = "Battle Speed"
+battle_animation_time = "Battle Animation Time"
+berserk_encounters = "Berserk Encounters"
 bestial_bond = "Bestial Bond"
 bestial_bond_level = "Bestial Bond"
 blacksmith_material_cost = "Blacksmith Material Cost"
@@ -34505,6 +34910,7 @@ multi_target_mana_reduction = "Multi-target Mana Reduction"
 no_follower_bonus = "No Follower Bonus"
 off_hands = "Off-hands"
 orn_bonus = "Orn Bonus"
+physical_damage = "Physical Damage"
 player_r_follower_ability_chance = "Player → Follower Ability Chance"
 power = "Power"
 protect_chance = "Protect chance"
@@ -34543,6 +34949,7 @@ valhalla_power = "Valhalla Power"
 view_distance = "View Distance"
 ward = "Ward"
 ward_absorption = "Ward Absorption"
+ward_bypass = "Ward Bypass"
 ward_power = "Ward Power"
 ward_recovery = "Ward Recovery"
 ward_recovery_turn = "Ward Recovery/Turn"
@@ -34550,7 +34957,6 @@ ward_start = "Ward Start"
 water_damage = "Water Damage"
 water_res = "Water Res"
 weapon_power = "Weapon Power"
-weapon_proficiency = "Weapon Proficiency"
 world_horde_opponents = "World Horde Opponents"
 
 [msg.stats_conditions]
@@ -34589,6 +34995,7 @@ chain_lightning_ii = "Chain Lightning II"
 cleanse = "Cleanse"
 curse_of_sekhmet = "Curse of Sekhmet"
 dark = "Dark"
+dark_sigil = "Dark Sigil"
 dragon = "Dragon"
 earth_sigil_ = "Earth Sigil+"
 earthen = "Earthen"
@@ -34609,9 +35016,11 @@ natura_ii = "Natura II"
 physical = "Physical"
 ponder = "Ponder"
 pumpkin_gaze = "Pumpkin Gaze"
+rainsong = "Rainsong"
 rebirth = "Rebirth"
 reraise = "Reraise"
 resolve_darkriftus = "Resolve Darkriftus"
+riposte = "Riposte"
 shadowveil = "Shadowveil"
 sharpen_iii = "Sharpen III"
 stonefire = "Stonefire"
@@ -34623,6 +35032,7 @@ ward_of_ortanite = "Ward of Ortanite"
 water = "Water"
 wildfire_ii = "Wildfire II"
 winter_wind_ii = "Winter Wind II"
+wyrm_s_song = "Wyrm's Song"
 
 [msg.status]
 aegir = "Aegir"
@@ -34654,6 +35064,8 @@ blind = "Blind"
 bloodshift = "Bloodshift"
 bloodwarg = "Bloodwarg"
 bloodwarg_cb7510b7 = "Bloodwarg"
+bloom_requiem = "Bloom Requiem"
+bloom_requiem_ee502254 = "Bloom Requiem"
 bonded_attack = "Bonded Attack"
 bonded_crit = "Bonded Crit"
 bonded_defense = "Bonded Defense"
@@ -34706,7 +35118,6 @@ disciple_of_destructive_quakes = "Disciple of Destructive Quakes"
 disciple_of_magmic_forces = "Disciple of Magmic Forces"
 disciple_of_oceans_combined = "Disciple of Oceans Combined"
 disciple_of_tempests_abound = "Disciple of Tempests Abound"
-dmg_dd = "Dmg ↓↓"
 dmg_u = "Dmg ↑"
 doom = "Doom"
 draco_sigil = "Draco Sigil"
@@ -34876,6 +35287,8 @@ t__dex_d = "T. Dex ↓"
 t__dex_u = "T. Dex ↑"
 t__dex_uu = "T. Dex ↑↑"
 t__dex_uuu = "T. Dex ↑↑↑"
+t__dmg_d = "T. Dmg ↓"
+t__dmg_dd = "T. Dmg ↓↓"
 t__earth_immune = "T. Earth Immune"
 t__earth_immune_uu = "T. Earth Immune ↑↑"
 t__fire_immune = "T. Fire Immune"

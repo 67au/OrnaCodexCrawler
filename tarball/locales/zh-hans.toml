@@ -1320,6 +1320,12 @@ id = "cursed-bormana-of-fomoria"
 language = "zh-hans"
 name = "弗摩尔之诅咒的波尔玛纳"
 
+[entries."bosses/cursed-brunor"]
+category = "bosses"
+id = "cursed-brunor"
+language = "zh-hans"
+name = "Cursed Brunor"
+
 [entries."bosses/cursed-caticatona-of-fomoria"]
 category = "bosses"
 id = "cursed-caticatona-of-fomoria"
@@ -1337,6 +1343,12 @@ category = "bosses"
 id = "cursed-clota-of-fomoria"
 language = "zh-hans"
 name = "弗摩尔之诅咒的克洛塔"
+
+[entries."bosses/cursed-dagonet"]
+category = "bosses"
+id = "cursed-dagonet"
+language = "zh-hans"
+name = "Cursed Dagonet"
 
 [entries."bosses/cursed-damona-of-fomoria"]
 category = "bosses"
@@ -1398,6 +1410,12 @@ id = "cursed-king-fomor-wintara"
 language = "zh-hans"
 name = "诅咒的弗摩尔王温塔拉"
 
+[entries."bosses/cursed-lancelot"]
+category = "bosses"
+id = "cursed-lancelot"
+language = "zh-hans"
+name = "Cursed Lancelot"
+
 [entries."bosses/cursed-lero-of-fomoria"]
 category = "bosses"
 id = "cursed-lero-of-fomoria"
@@ -1433,6 +1451,12 @@ category = "bosses"
 id = "cursed-sequana-of-fomoria"
 language = "zh-hans"
 name = "弗摩尔之诅咒的塞夸纳"
+
+[entries."bosses/cursed-severause"]
+category = "bosses"
+id = "cursed-severause"
+language = "zh-hans"
+name = "Cursed Severause"
 
 [entries."bosses/dagda"]
 category = "bosses"
@@ -1560,6 +1584,18 @@ id = "fallen-beowulf"
 language = "zh-hans"
 name = "堕落的贝奥武夫"
 
+[entries."bosses/fallen-brunor"]
+category = "bosses"
+id = "fallen-brunor"
+language = "zh-hans"
+name = "Fallen Brunor"
+
+[entries."bosses/fallen-dagonet"]
+category = "bosses"
+id = "fallen-dagonet"
+language = "zh-hans"
+name = "Fallen Dagonet"
+
 [entries."bosses/fallen-deity"]
 category = "bosses"
 id = "fallen-deity"
@@ -1602,6 +1638,12 @@ id = "fallen-judge-zagreus"
 language = "zh-hans"
 name = "堕落判官扎格列欧斯"
 
+[entries."bosses/fallen-lancelot"]
+category = "bosses"
+id = "fallen-lancelot"
+language = "zh-hans"
+name = "Fallen Lancelot"
+
 [entries."bosses/fallen-ra-the-seer"]
 category = "bosses"
 id = "fallen-ra-the-seer"
@@ -1613,6 +1655,12 @@ category = "bosses"
 id = "fallen-realmshifter"
 language = "zh-hans"
 name = "堕落的域界易形者"
+
+[entries."bosses/fallen-severause"]
+category = "bosses"
+id = "fallen-severause"
+language = "zh-hans"
+name = "Fallen Severause"
 
 [entries."bosses/fallen-thor-the-storm-god"]
 category = "bosses"
@@ -4234,7 +4282,7 @@ category = "followers"
 description = "北族萌宠。"
 id = "melon"
 language = "zh-hans"
-name = "瓜"
+name = "瓜瓜"
 
 [entries."followers/mighty-griffin"]
 category = "followers"
@@ -5825,26 +5873,26 @@ id = "arisen-askr-leggings"
 language = "zh-hans"
 name = "重生阿斯克腿甲"
 
-[entries."items/arisen-avalon-armor"]
+[entries."items/arisen-avalon-knight-armor"]
 category = "items"
 description = "德高望重的阿瓦隆骑士所穿戴的重装甲。"
-id = "arisen-avalon-armor"
+id = "arisen-avalon-knight-armor"
 language = "zh-hans"
-name = "重生阿瓦隆盔甲"
+name = "Arisen Avalon Knight Armor"
 
-[entries."items/arisen-avalon-helmet"]
+[entries."items/arisen-avalon-knight-helmet"]
 category = "items"
 description = "德高望重的阿瓦隆骑士所穿戴的重装甲。"
-id = "arisen-avalon-helmet"
+id = "arisen-avalon-knight-helmet"
 language = "zh-hans"
-name = "重生阿瓦隆头盔"
+name = "Arisen Avalon Knight Helmet"
 
-[entries."items/arisen-avalon-leggings"]
+[entries."items/arisen-avalon-knight-leggings"]
 category = "items"
 description = "德高望重的阿瓦隆骑士所穿戴的重装甲。"
-id = "arisen-avalon-leggings"
+id = "arisen-avalon-knight-leggings"
 language = "zh-hans"
-name = "重生阿瓦隆腿甲"
+name = "Arisen Avalon Knight Leggings"
 
 [entries."items/arisen-axe-of-tiamat"]
 category = "items"
@@ -6126,10 +6174,10 @@ id = "arisen-cursed-fomoria-plated-boots"
 language = "zh-hans"
 name = "重生诅咒的弗摩尔镀金长靴"
 
-[entries."items/arisen-cursed-fomoria-plated-boots-56e4841c"]
+[entries."items/arisen-cursed-fomoria-plated-boots-4de3e61d"]
 category = "items"
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的长靴。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
-id = "arisen-cursed-fomoria-plated-boots-56e4841c"
+id = "arisen-cursed-fomoria-plated-boots-4de3e61d"
 language = "zh-hans"
 name = "重生诅咒的弗摩尔镀金长靴"
 
@@ -6182,13 +6230,6 @@ id = "arisen-cursed-fomors-crown"
 language = "zh-hans"
 name = "重生诅咒的弗摩尔王冠"
 
-[entries."items/arisen-cursed-fomors-crown-276564a1"]
-category = "items"
-description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的王冠。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
-id = "arisen-cursed-fomors-crown-276564a1"
-language = "zh-hans"
-name = "重生诅咒的弗摩尔王冠"
-
 [entries."items/arisen-cursed-fomors-crown-2cb9b4e6"]
 category = "items"
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的王冠。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
@@ -6200,6 +6241,13 @@ name = "重生诅咒的弗摩尔王冠"
 category = "items"
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的王冠。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 id = "arisen-cursed-fomors-crown-3a4a918b"
+language = "zh-hans"
+name = "重生诅咒的弗摩尔王冠"
+
+[entries."items/arisen-cursed-fomors-crown-612a024c"]
+category = "items"
+description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的王冠。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
+id = "arisen-cursed-fomors-crown-612a024c"
 language = "zh-hans"
 name = "重生诅咒的弗摩尔王冠"
 
@@ -8037,26 +8085,12 @@ id = "autumna-crested-shield"
 language = "zh-hans"
 name = "奥图娜纹章盾"
 
-[entries."items/avalon-armor"]
-category = "items"
-description = "阿瓦隆骑士的重甲。"
-id = "avalon-armor"
-language = "zh-hans"
-name = "阿瓦隆盔甲"
-
 [entries."items/avalon-crown"]
 category = "items"
 description = "亚瑟王的传奇王冠。虽然提供防御不多，但保护穿戴者免疫诅咒和石化。"
 id = "avalon-crown"
 language = "zh-hans"
 name = "阿瓦隆王冠"
-
-[entries."items/avalon-helmet"]
-category = "items"
-description = "阿瓦隆骑士的重甲。"
-id = "avalon-helmet"
-language = "zh-hans"
-name = "阿瓦隆头盔"
 
 [entries."items/avalon-knight-armor"]
 category = "items"
@@ -8078,13 +8112,6 @@ description = "德高望重的阿瓦隆骑士所穿戴的重装甲。"
 id = "avalon-knight-leggings"
 language = "zh-hans"
 name = "阿瓦隆骑士腿甲"
-
-[entries."items/avalon-leggings"]
-category = "items"
-description = "阿瓦隆骑士的重甲。"
-id = "avalon-leggings"
-language = "zh-hans"
-name = "阿瓦隆腿甲"
 
 [entries."items/avalon-melody"]
 category = "items"
@@ -9605,6 +9632,13 @@ id = "bronze-medal"
 language = "zh-hans"
 name = "铜牌"
 
+[entries."items/brunors-cabochon"]
+category = "items"
+description = "A polished gem often adorned upon Arthus's knights' weapons."
+id = "brunors-cabochon"
+language = "zh-hans"
+name = "Brunor's Cabochon"
+
 [entries."items/buckler"]
 category = "items"
 description = "就是个小盾。"
@@ -10251,10 +10285,10 @@ name = "Covyn镰刀"
 
 [entries."items/covyns-side-sword"]
 category = "items"
-description = "邪恶的北族像素画师 Covyn 的备用面具。\n\n持有如此武器之人，当会拒绝万恶之兽的诱惑。能够使用追随者的职业会在不携带追随者时变得更加强大。"
+description = "邪恶的北族像素画师 Covyn 的备用武器。\n\n持有如此武器之人，当会拒绝万恶之兽的诱惑。能够使用追随者的职业会在不携带追随者时变得更加强大。"
 id = "covyns-side-sword"
 language = "zh-hans"
-name = "Coyvn的副剑"
+name = "Covyn的副剑"
 
 [entries."items/covyns-skirt"]
 category = "items"
@@ -10319,6 +10353,13 @@ id = "cracked-mirror"
 language = "zh-hans"
 name = "破裂的镜子"
 
+[entries."items/crest-of-a-cursed-king"]
+category = "items"
+description = "Crest of a Fallen King. This item will summon a projection of The Cursed King to your location."
+id = "crest-of-a-cursed-king"
+language = "zh-hans"
+name = "Crest of a Cursed King"
+
 [entries."items/crest-of-autumna"]
 category = "items"
 description = "奥图娜家族赋予的试炼之证。使用该物品能进行一次究极投影。"
@@ -10333,12 +10374,40 @@ id = "crest-of-avalon"
 language = "zh-hans"
 name = "阿瓦隆纹章"
 
+[entries."items/crest-of-brunor"]
+category = "items"
+description = "Crest of a Fallen Knight of Arthus's court. This item is part of the Kingsfall world event."
+id = "crest-of-brunor"
+language = "zh-hans"
+name = "Crest of Brunor"
+
+[entries."items/crest-of-dagonet"]
+category = "items"
+description = "Crest of a Fallen Knight of Arthus's court. This item is part of the Kingsfall world event."
+id = "crest-of-dagonet"
+language = "zh-hans"
+name = "Crest of Dagonet"
+
+[entries."items/crest-of-lancelot"]
+category = "items"
+description = "Crest of a Fallen Knight of Arthus's court. This item is part of the Kingsfall world event."
+id = "crest-of-lancelot"
+language = "zh-hans"
+name = "Crest of Lancelot"
+
 [entries."items/crest-of-nocturna"]
 category = "items"
 description = "诺特纳家族赋予的试炼之证。使用该物品能进行一次究极投影。"
 id = "crest-of-nocturna"
 language = "zh-hans"
 name = "诺特纳纹章"
+
+[entries."items/crest-of-severause"]
+category = "items"
+description = "Crest of a Fallen Knight of Arthus's court. This item is part of the Kingsfall world event."
+id = "crest-of-severause"
+language = "zh-hans"
+name = "Crest of Severause"
 
 [entries."items/crest-of-sumner"]
 category = "items"
@@ -10585,6 +10654,13 @@ id = "cursed-autumna-crested-shield"
 language = "zh-hans"
 name = "诅咒的奥图娜纹章盾"
 
+[entries."items/cursed-avalon-melody"]
+category = "items"
+description = "阿瓦隆诗人所持有的着名金色长笛，演奏时可以暂时增加魔防。"
+id = "cursed-avalon-melody"
+language = "zh-hans"
+name = "Cursed Avalon Melody"
+
 [entries."items/cursed-belenuss-boots"]
 category = "items"
 description = "弗摩尔之诺特纳家族的「疗愈之神」百勒努斯所穿戴的长靴。百勒努斯，三个兄弟姐妹之一，他整日以治疗弗摩尔族土地上的患病牲畜为任。穿戴这件装备时，你能调教对手的追随者与召唤物，来减少他们对你造成的伤害。"
@@ -10627,6 +10703,48 @@ id = "cursed-clotas-garb"
 language = "zh-hans"
 name = "诅咒的克洛塔皮甲"
 
+[entries."items/cursed-cowards-blade"]
+category = "items"
+description = "阿瓦隆刺客所使用的钩形刀。谣传亚瑟王有一些神秘的癖好。"
+id = "cursed-cowards-blade"
+language = "zh-hans"
+name = "Cursed Coward's Blade"
+
+[entries."items/cursed-cowards-boots"]
+category = "items"
+description = "阿瓦隆刺客所穿的长靴。谣传亚瑟王有一些神秘的癖好。"
+id = "cursed-cowards-boots"
+language = "zh-hans"
+name = "Cursed Coward's Boots"
+
+[entries."items/cursed-cowards-cloak"]
+category = "items"
+description = "阿瓦隆刺客所穿的斗篷。谣传亚瑟王有一些神秘的癖好。"
+id = "cursed-cowards-cloak"
+language = "zh-hans"
+name = "Cursed Coward's Cloak"
+
+[entries."items/cursed-cowards-cowl"]
+category = "items"
+description = "阿瓦隆刺客所穿的头巾。谣传亚瑟王有一些神秘的癖好。"
+id = "cursed-cowards-cowl"
+language = "zh-hans"
+name = "Cursed Coward's Cowl"
+
+[entries."items/cursed-crown-of-the-fallen-king"]
+category = "items"
+description = "Crown of the Cursed King."
+id = "cursed-crown-of-the-fallen-king"
+language = "zh-hans"
+name = "Cursed Crown of the Fallen King"
+
+[entries."items/cursed-dagonets-epee"]
+category = "items"
+description = "Dagger of Sir Dagonet, fallen Knight of Arthus's Round Table."
+id = "cursed-dagonets-epee"
+language = "zh-hans"
+name = "Cursed Dagonet's Epee"
+
 [entries."items/cursed-damonas-shield"]
 category = "items"
 description = "弗摩尔之奥图娜家族的「河流女神」达默纳所穿戴的湿滑盾牌。达默纳虽是她们姐妹之中最年轻的，但却是最勇猛的。穿戴这件装备时，你对对手释放的减益效果更容易生效，且异常状态造成伤害的上限提高。"
@@ -10648,6 +10766,13 @@ id = "cursed-esuss-pillar"
 language = "zh-hans"
 name = "诅咒的埃苏斯支柱"
 
+[entries."items/cursed-excalibur"]
+category = "items"
+description = "The infamous blade presented to Arthus by the Lady of the Lake. This blade has taken 10,000 souls, all to build that wretched sea."
+id = "cursed-excalibur"
+language = "zh-hans"
+name = "Cursed Excalibur"
+
 [entries."items/cursed-fomoria-plated-boots"]
 category = "items"
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的长靴。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
@@ -10655,17 +10780,17 @@ id = "cursed-fomoria-plated-boots"
 language = "zh-hans"
 name = "诅咒的弗摩尔镀金长靴"
 
-[entries."items/cursed-fomoria-plated-boots-0ebf6063"]
-category = "items"
-description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的长靴。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
-id = "cursed-fomoria-plated-boots-0ebf6063"
-language = "zh-hans"
-name = "诅咒的弗摩尔镀金长靴"
-
 [entries."items/cursed-fomoria-plated-boots-7a9f5efc"]
 category = "items"
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的长靴。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 id = "cursed-fomoria-plated-boots-7a9f5efc"
+language = "zh-hans"
+name = "诅咒的弗摩尔镀金长靴"
+
+[entries."items/cursed-fomoria-plated-boots-c6787dd8"]
+category = "items"
+description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的长靴。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
+id = "cursed-fomoria-plated-boots-c6787dd8"
 language = "zh-hans"
 name = "诅咒的弗摩尔镀金长靴"
 
@@ -10683,10 +10808,10 @@ id = "cursed-fomoria-plated-robe"
 language = "zh-hans"
 name = "诅咒的弗摩尔镀金法袍"
 
-[entries."items/cursed-fomoria-plated-robe-49122feb"]
+[entries."items/cursed-fomoria-plated-robe-5d09a4d7"]
 category = "items"
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的链甲。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
-id = "cursed-fomoria-plated-robe-49122feb"
+id = "cursed-fomoria-plated-robe-5d09a4d7"
 language = "zh-hans"
 name = "诅咒的弗摩尔镀金法袍"
 
@@ -10760,6 +10885,41 @@ id = "cursed-imonas-slippers"
 language = "zh-hans"
 name = "诅咒的伊莫娜布鞋"
 
+[entries."items/cursed-jewel-of-avalon"]
+category = "items"
+description = "镶嵌在装备上时能提供很多属性提升的阿瓦隆装饰品。"
+id = "cursed-jewel-of-avalon"
+language = "zh-hans"
+name = "Cursed Jewel of Avalon"
+
+[entries."items/cursed-kings-boots"]
+category = "items"
+description = "国王的正式服装。"
+id = "cursed-kings-boots"
+language = "zh-hans"
+name = "Cursed King's Boots"
+
+[entries."items/cursed-kings-hood"]
+category = "items"
+description = "国王的正式服装。"
+id = "cursed-kings-hood"
+language = "zh-hans"
+name = "Cursed King's Hood"
+
+[entries."items/cursed-kings-robe"]
+category = "items"
+description = "国王的正式服装。"
+id = "cursed-kings-robe"
+language = "zh-hans"
+name = "Cursed King's Robe"
+
+[entries."items/cursed-lancelots-reach"]
+category = "items"
+description = "Lance of Sir Lancelot, fallen Knight of Arthus's Round Table. Sir Lancelot was often seen as the leader of Arthus's trusted knights."
+id = "cursed-lancelots-reach"
+language = "zh-hans"
+name = "Cursed Lancelot's Reach"
+
 [entries."items/cursed-leros-hood"]
 category = "items"
 description = "弗摩尔之温塔拉家族的「魔法之神」勒罗所穿戴的兜帽。勒罗，未经磨炼，恃才放纵，但在摩莉甘的入侵中匆匆败走。穿戴这件装备时，施放的增益效果会传递到队友身上，且增益效果会持续更长的时间。"
@@ -10816,6 +10976,41 @@ id = "cursed-ortanite"
 language = "zh-hans"
 name = "诅咒欧坦尼"
 
+[entries."items/cursed-pendrake-armor"]
+category = "items"
+description = "阿瓦隆骑士的重甲。"
+id = "cursed-pendrake-armor"
+language = "zh-hans"
+name = "Cursed Pendrake Armor"
+
+[entries."items/cursed-pendrake-helmet"]
+category = "items"
+description = "阿瓦隆骑士的重甲。"
+id = "cursed-pendrake-helmet"
+language = "zh-hans"
+name = "Cursed Pendrake Helmet"
+
+[entries."items/cursed-pendrake-leggings"]
+category = "items"
+description = "阿瓦隆骑士的重甲。"
+id = "cursed-pendrake-leggings"
+language = "zh-hans"
+name = "Cursed Pendrake Leggings"
+
+[entries."items/cursed-quillon-dagger"]
+category = "items"
+description = "Dagger of Sir Brunor, fallen Knight of Arthus's Round Table."
+id = "cursed-quillon-dagger"
+language = "zh-hans"
+name = "Cursed Quillon Dagger"
+
+[entries."items/cursed-rhongomiant"]
+category = "items"
+description = "Famous staff of the great King Arthus himself. Before being presented the Excalibur, Arthus carried this staff into battle after battle."
+id = "cursed-rhongomiant"
+language = "zh-hans"
+name = "Cursed Rhongomiant"
+
 [entries."items/cursed-ring"]
 category = "items"
 description = "被诅咒的法夫纳所携带的戒指。能通过折损寿命来换取物攻与魔攻的提升。"
@@ -10844,6 +11039,13 @@ id = "cursed-sequanas-chestpiece"
 language = "zh-hans"
 name = "诅咒的塞夸纳板甲"
 
+[entries."items/cursed-severauses-halberd"]
+category = "items"
+description = "Halberd of Sir Severause, fallen Knight of Arthus's Round Table. Sir Severause preferred fighting a rare beast to a human, and often dismissed his knightly duties to pursue many a beast."
+id = "cursed-severauses-halberd"
+language = "zh-hans"
+name = "Cursed Severause's Halberd"
+
 [entries."items/cursed-spine-shard"]
 category = "items"
 description = "风欲凝，烛渐黯，\n扑朔迷离，夜夜夜思夜梦人。\n诡计客，先兆使，\n幽影故友，无首传说永无止。"
@@ -10864,6 +11066,13 @@ description = "雅卢野兽的断尾。当然它还会再长。携带者对华�
 id = "cursed-tail-of-a-sphinx"
 language = "zh-hans"
 name = "诅咒的斯芬克斯之尾"
+
+[entries."items/cursed-teardrop-of-the-king"]
+category = "items"
+description = "镶嵌在装备上时能提供很多属性提升的阿瓦隆装饰品。"
+id = "cursed-teardrop-of-the-king"
+language = "zh-hans"
+name = "Cursed Teardrop of the King"
 
 [entries."items/cursed-wintara-crested-shield"]
 category = "items"
@@ -10948,6 +11157,20 @@ description = "近身作战时很好用的短刀。"
 id = "dagger"
 language = "zh-hans"
 name = "匕首"
+
+[entries."items/dagonets-cabochon"]
+category = "items"
+description = "A polished gem often adorned upon Arthus's knights' weapons."
+id = "dagonets-cabochon"
+language = "zh-hans"
+name = "Dagonet's Cabochon"
+
+[entries."items/dagonets-epee"]
+category = "items"
+description = "Dagger of Sir Dagonet, fallen Knight of Arthus's Round Table."
+id = "dagonets-epee"
+language = "zh-hans"
+name = "Dagonet's Epee"
 
 [entries."items/dalans-hood"]
 category = "items"
@@ -12722,7 +12945,7 @@ name = "誓约圣剑"
 
 [entries."items/excalibur-32be53bc"]
 category = "items"
-description = "阿瓦隆王国亚瑟王的神兵，它可以保护持有者免疫流血。"
+description = "The infamous blade presented to Arthus by the Lady of the Lake."
 id = "excalibur-32be53bc"
 language = "zh-hans"
 name = "誓约圣剑"
@@ -12887,6 +13110,13 @@ description = "傲慢恶魔玛门手下的追随者所穿的兜帽。"
 id = "fallen-hood"
 language = "zh-hans"
 name = "堕落兜帽"
+
+[entries."items/fallen-kings-aspect"]
+category = "items"
+description = "When awakened, this Aspect will summon part of Nimue's Lake to your location."
+id = "fallen-kings-aspect"
+language = "zh-hans"
+name = "Fallen King's Aspect"
 
 [entries."items/fallen-knights-axe"]
 category = "items"
@@ -15149,6 +15379,13 @@ id = "grotesque-monster-aspect"
 language = "zh-hans"
 name = "奇异怪物之灵"
 
+[entries."items/guineveres-hairpin"]
+category = "items"
+description = "Pristine jewelry of Queen Guinevere. Guinevere was seemingly immune to the enrapturing allure of Nimue's vast sea, which made her the favored prey of the most vicious of beasts.\n\nThus, she avoided the coasts and fled to the mountains, living the life of a recluse."
+id = "guineveres-hairpin"
+language = "zh-hans"
+name = "Guinevere's Hairpin"
+
 [entries."items/gungnir"]
 category = "items"
 description = "由北族主神奥丁打造的究极长矛。它虽能轻松撕裂对手防御，但必须双手使用。此外，能提升附带伤害的效果。"
@@ -15343,7 +15580,7 @@ category = "items"
 description = "非比寻常之大的马克杯。在战斗中能够增加角色造型的尺寸。"
 id = "havels-perfectly-sized-mug"
 language = "zh-hans"
-name = "Havel 的完美尺寸马克杯"
+name = "Havel的完美尺寸马克杯"
 
 [entries."items/havels-shield"]
 category = "items"
@@ -15968,12 +16205,26 @@ id = "hurricane-arc"
 language = "zh-hans"
 name = "飓风弓"
 
+[entries."items/hyades-wreath"]
+category = "items"
+description = "泰拉远古歌者海亚蒂丝的头饰。"
+id = "hyades-wreath"
+language = "zh-hans"
+name = "海亚蒂丝花环"
+
 [entries."items/hydra-staff"]
 category = "items"
 description = "利用九头蛇的遗骸所制成的权杖。能获得多种元素抗性。"
 id = "hydra-staff"
 language = "zh-hans"
 name = "九头蛇之杖"
+
+[entries."items/hymnbook-of-destruction"]
+category = "items"
+description = "Old Grimoire of Terra, allowing one to summon the Final Bloom."
+id = "hymnbook-of-destruction"
+language = "zh-hans"
+name = "Hymnbook of Destruction"
 
 [entries."items/hymnbook-of-nature"]
 category = "items"
@@ -16563,10 +16814,10 @@ id = "kerberos-sword"
 language = "zh-hans"
 name = "刻耳柏洛斯之剑"
 
-[entries."items/kerberos-sword-fa67ff37"]
+[entries."items/kerberos-sword-618dbfce"]
 category = "items"
 description = "代表无情刻耳柏洛斯的强力之剑。"
-id = "kerberos-sword-fa67ff37"
+id = "kerberos-sword-618dbfce"
 language = "zh-hans"
 name = "刻耳柏洛斯之剑"
 
@@ -16660,6 +16911,20 @@ description = "梅林珍稀收藏中的圣物，这把剑能牺牲物理攻击�
 id = "lady-of-the-lake"
 language = "zh-hans"
 name = "湖中妖女"
+
+[entries."items/lancelets-cabochon"]
+category = "items"
+description = "A polished gem often adorned upon Arthus's knights' weapons."
+id = "lancelets-cabochon"
+language = "zh-hans"
+name = "Lancelet's Cabochon"
+
+[entries."items/lancelots-reach"]
+category = "items"
+description = "Lance of Sir Lancelot, fallen Knight of Arthus's Round Table. Sir Lancelot was often seen as the leader of Arthus's trusted knights."
+id = "lancelots-reach"
+language = "zh-hans"
+name = "Lancelot's Reach"
 
 [entries."items/landmark-waystone"]
 category = "items"
@@ -17599,12 +17864,26 @@ id = "marketing-plans"
 language = "zh-hans"
 name = "市场营销计划"
 
+[entries."items/marvelous-item-aspect"]
+category = "items"
+description = "Aspect of a rare item that may have been lost by a traveler before you. Aspects can be charged simply by walking after being slotted in your Traveler's Guild menu. When fully charged, this Aspect will awaken a weapon for you."
+id = "marvelous-item-aspect"
+language = "zh-hans"
+name = "Marvelous Item Aspect"
+
 [entries."items/masamune"]
 category = "items"
 description = "犹如那夜空繁星般的美丽刀刃。"
 id = "masamune"
 language = "zh-hans"
 name = "正宗"
+
+[entries."items/material-aspect"]
+category = "items"
+description = "Aspect of a pile of materials that may have been lost by a traveler before you. Aspects can be charged simply by walking after being slotted in your Traveler's Guild menu. When fully charged, this Aspect will awaken a weapon for you."
+id = "material-aspect"
+language = "zh-hans"
+name = "Material Aspect"
 
 [entries."items/medeas-hairpin"]
 category = "items"
@@ -17626,6 +17905,13 @@ description = "美杜莎的胸甲。能保护穿戴者免疫中毒和石化。"
 id = "medusas-chestplate"
 language = "zh-hans"
 name = "美杜莎胸甲"
+
+[entries."items/memory-of-a-king"]
+category = "items"
+description = "Faint memory of a Fallen King's royal court. This item is part of the Kingsfall world event."
+id = "memory-of-a-king"
+language = "zh-hans"
+name = "Memory of a King"
 
 [entries."items/menjas-battlerobe"]
 category = "items"
@@ -19041,6 +19327,27 @@ id = "parrying-dagger"
 language = "zh-hans"
 name = "招架匕首"
 
+[entries."items/pendrake-armor"]
+category = "items"
+description = "阿瓦隆骑士的重甲。"
+id = "pendrake-armor"
+language = "zh-hans"
+name = "Pendrake Armor"
+
+[entries."items/pendrake-helmet"]
+category = "items"
+description = "阿瓦隆骑士的重甲。"
+id = "pendrake-helmet"
+language = "zh-hans"
+name = "Pendrake Helmet"
+
+[entries."items/pendrake-leggings"]
+category = "items"
+description = "阿瓦隆骑士的重甲。"
+id = "pendrake-leggings"
+language = "zh-hans"
+name = "Pendrake Leggings"
+
 [entries."items/perfect-baldur"]
 category = "items"
 description = "北族强袭者最爱的完美巴德尔光石。能用来升级强力的装备."
@@ -19678,6 +19985,13 @@ id = "questing-staff"
 language = "zh-hans"
 name = "追迹之杖"
 
+[entries."items/quillon-dagger"]
+category = "items"
+description = "Dagger of Sir Brunor, fallen Knight of Arthus's Round Table."
+id = "quillon-dagger"
+language = "zh-hans"
+name = "Quillon Dagger"
+
 [entries."items/racul-blade"]
 category = "items"
 description = "吸血鬼之王路卡尔的邪恶刀刃。用它攻击能稍微回复生命值。"
@@ -19925,7 +20239,7 @@ name = "拉达暗影巨剑"
 
 [entries."items/rhongomiant"]
 category = "items"
-description = "阿瓦隆宫廷法师的法杖。"
+description = "Famous staff of the great King Arthus himself. Before being presented the Excalibur, Arthus carried this staff into battle after battle."
 id = "rhongomiant"
 language = "zh-hans"
 name = "终焉圣枪"
@@ -20691,6 +21005,20 @@ description = "征服者公会使用的简易皇冠守卫。当从其他玩家�
 id = "settlers-crownguard"
 language = "zh-hans"
 name = "据守者的皇冠守卫"
+
+[entries."items/severauses-cabochon"]
+category = "items"
+description = "A polished gem often adorned upon Arthus's knights' weapons."
+id = "severauses-cabochon"
+language = "zh-hans"
+name = "Severause's Cabochon"
+
+[entries."items/severauses-halberd"]
+category = "items"
+description = "Halberd of Sir Severause, fallen Knight of Arthus's Round Table. Sir Severause preferred fighting a rare beast to a human, and often dismissed his knightly duties to pursue many a beast."
+id = "severauses-halberd"
+language = "zh-hans"
+name = "Severause's Halberd"
 
 [entries."items/shadow-boots"]
 category = "items"
@@ -22190,6 +22518,20 @@ id = "tower-shield"
 language = "zh-hans"
 name = "塔盾"
 
+[entries."items/travelers-armor-aspect"]
+category = "items"
+description = "Aspect of a piece of armor that may have been lost by a traveler before you. Aspects can be charged simply by walking after being slotted in your Traveler's Guild menu. When fully charged, this Aspect will awaken a weapon for you."
+id = "travelers-armor-aspect"
+language = "zh-hans"
+name = "Traveler's Armor Aspect"
+
+[entries."items/travelers-weapon-aspect"]
+category = "items"
+description = "Aspect of a weapon that may have been lost by a traveler before you. Aspects can be charged simply by walking after being slotted in your Traveler's Guild menu. When fully charged, this Aspect will awaken a weapon for you."
+id = "travelers-weapon-aspect"
+language = "zh-hans"
+name = "Traveler's Weapon Aspect"
+
 [entries."items/tree-nut"]
 category = "items"
 description = "巨人常携带大量树果以满足其口腹之欲。盖密尔的口粮能提升附带伤害的机率。"
@@ -22595,6 +22937,13 @@ description = "堕落「启蒙者之王」凡列克的太阴触媒。"
 id = "verricks-ring"
 language = "zh-hans"
 name = "凡列克之戒"
+
+[entries."items/vial-of-lakewater"]
+category = "items"
+description = "A vile of the water of a renowned lake. Pouring this liquid upon the ground will summon part of Nimue's Lake to this area for 24 hours. This item is only useable during the Kingsfall world event."
+id = "vial-of-lakewater"
+language = "zh-hans"
+name = "Vial of Lakewater"
 
 [entries."items/viper-armor"]
 category = "items"
@@ -26760,6 +27109,13 @@ id = "covyn"
 language = "zh-hans"
 name = "Covyn"
 
+[entries."raids/cursed-king-arthus"]
+category = "raids"
+description = "Great King Arthus, Fallen then Cursed. He still draws his sword for the Lady's will."
+id = "cursed-king-arthus"
+language = "zh-hans"
+name = "Cursed King Arthus"
+
 [entries."raids/dangy"]
 category = "raids"
 description = "社群英雄。"
@@ -26804,7 +27160,7 @@ name = "堕落判官拉达"
 
 [entries."raids/fallen-king-arthus"]
 category = "raids"
-description = "许多人认为亚瑟可能是这片土地上最伟大的统治者。当他屈服于堕落之力时，阿瓦隆遭受了相当大的损失。"
+description = "King Arthus of Avalon, fallen after many a battle for the Lady's will."
 id = "fallen-king-arthus"
 language = "zh-hans"
 name = "堕落亚瑟王"
@@ -28095,6 +28451,13 @@ description = "不稳定的无属性魔法，造成三次伤害并使对手致�
 id = "brilliant-lights"
 language = "zh-hans"
 name = "辉煌之光"
+
+[entries."spells/brilliant-lights-2"]
+category = "spells"
+description = "不稳定的无属性魔法，对所有对手造成三次伤害并致盲。"
+id = "brilliant-lights-2"
+language = "zh-hans"
+name = "辉煌之光 (副手)"
 
 [entries."spells/brilliant-lights-ii"]
 category = "spells"
@@ -29975,6 +30338,13 @@ id = "hack-and-slash"
 language = "zh-hans"
 name = "砍劈"
 
+[entries."spells/halberd-sweep"]
+category = "spells"
+description = "Deals physical damage to all opponents with a chance to break their defenses."
+id = "halberd-sweep"
+language = "zh-hans"
+name = "Halberd Sweep (副手)"
+
 [entries."spells/haste"]
 category = "spells"
 description = "暂时提升一位队友的预知。"
@@ -30297,6 +30667,13 @@ id = "impale-3"
 language = "zh-hans"
 name = "尖刺穿透 (副手)"
 
+[entries."spells/impale-ii"]
+category = "spells"
+description = "用武器的末端来攻击，伤害一般但能降低对手下次攻击的伤害。"
+id = "impale-ii"
+language = "zh-hans"
+name = "Impale II (副手)"
+
 [entries."spells/inferna-eventualus"]
 category = "spells"
 description = "消耗全部「APEX」能量来对所有对手造成极大的火属性伤害。该法术仅能在「APEX」能量为满时使用，且伤害取决于你的物攻或魔攻更高的一方。"
@@ -30409,12 +30786,26 @@ id = "jump-ii"
 language = "zh-hans"
 name = "跃起 II"
 
+[entries."spells/kings-rage"]
+category = "spells"
+description = "Deals physical damage to all opponents."
+id = "kings-rage"
+language = "zh-hans"
+name = "King's Rage (副手)"
+
 [entries."spells/kings-reign"]
 category = "spells"
 description = "能造成巨量伤害的皇家魔法。"
 id = "kings-reign"
 language = "zh-hans"
 name = "王者统治"
+
+[entries."spells/kings-wrath"]
+category = "spells"
+description = "Deals magical damage to all opponents and marks them with a Dark Sigil."
+id = "kings-wrath"
+language = "zh-hans"
+name = "King's Wrath (副手)"
 
 [entries."spells/lacuna"]
 category = "spells"
@@ -32877,6 +33268,13 @@ id = "summon-fey-kelpie"
 language = "zh-hans"
 name = "变异凯尔皮召唤"
 
+[entries."spells/summon-final-bloom"]
+category = "spells"
+description = "召唤终焉绽放的成员来协助你。"
+id = "summon-final-bloom"
+language = "zh-hans"
+name = "终焉绽放召唤 (副手)"
+
 [entries."spells/summon-fire-disciple"]
 category = "spells"
 description = "召唤一只野兽来协助你。在战斗中需要 2 回合发动。"
@@ -34199,11 +34597,10 @@ spells = "技能 & 法术"
 balor_invades = "巴罗尔大侵略"
 beastfelled = "兽伐记"
 canada_d_eh = "加拿大日"
-fallen_heroes_of_avalon = "堕落的阿瓦隆英雄"
 fool_of_april = "愚人节"
+kingsfall = "Kingsfall"
 legend_of_lyonesse = "里昂内斯传奇"
 menders_of_hearts = "心灵补手"
-merlin = "梅林"
 none = "None"
 nothren_legends__ragnarok = "北族传说: 诸神黄昏"
 of_giants_and_titans = "巨人与泰坦"
@@ -34276,6 +34673,7 @@ goldie = "歌蒂"
 great_bear = "强大的熊"
 great_yeti = "大雪怪"
 guivre = "蛇龙基威尔"
+gwyllgi = "格里吉"
 hellhound = "地狱犬"
 ice_dragon = "冰龙"
 kady = "卡迪"
@@ -34283,7 +34681,8 @@ lesser_red_slime = "低阶红色史莱姆"
 lily = "莉莉"
 lindworm = "林德虫"
 lizarr = "蜥蜴人"
-melon = "瓜"
+llamrai = "拉姆莱"
+melon = "瓜瓜"
 mighty_slime = "究极史莱姆"
 mimic = "宝箱怪"
 odok = "亡骸"
@@ -34292,6 +34691,9 @@ seer = "眼怪"
 sif = "希芙"
 snake = "蛇"
 spooky_ghost = "诡异幽灵"
+steward_gwyllgi = "眷族格里吉"
+steward_llamrai = "眷族拉姆莱"
+steward_pegasus = "眷族天马"
 steward_wolf = "眷族之狼"
 storm_dragon = "暴风龙"
 trek = "崔克"
@@ -34371,11 +34773,13 @@ _follower_stats = "+追随者属性"
 _follower_summon_skill = "+追随者/召唤物技能"
 _follower_summon_spell = "+追随者/召唤物法术"
 _guidelight = "+极乐明灯"
+_instrument_proficiency = "+乐器精通"
 _second_chance = "+第二次机会"
 _skill = "+技能"
 _spell = "+法术"
 _summon_ascension = "+召唤物通天"
 _summon_stats = "+召唤物属性"
+_weapon_proficiency = "+武器精通"
 _weaved_elements = "+元素交织"
 accuracy = "精准"
 act_first_chance__pve_ = "优先行动机率 (PvE)"
@@ -34392,7 +34796,8 @@ attack_rate = "攻击机率"
 auto_summon = "自动召唤"
 avidity = "急切"
 bastille = "堡垒战术"
-battle_speed = "Battle Speed"
+battle_animation_time = "战斗动画时间"
+berserk_encounters = "狂暴遇怪"
 bestial_bond = "野兽羁绊"
 bestial_bond_level = "野兽羁绊"
 blacksmith_material_cost = "铁匠铺材料花费"
@@ -34505,6 +34910,7 @@ multi_target_mana_reduction = "多重目标魔力节能"
 no_follower_bonus = "无追随者加成"
 off_hands = "副手加成"
 orn_bonus = "欧币加成"
+physical_damage = "Physical Damage"
 player_r_follower_ability_chance = "玩家 → 追随者能力机率"
 power = "强度"
 protect_chance = "保护率"
@@ -34543,6 +34949,7 @@ valhalla_power = "瓦尔哈拉之力"
 view_distance = "视野范围"
 ward = "护盾"
 ward_absorption = "护盾吸收率"
+ward_bypass = "护盾穿透"
 ward_power = "护盾技能效果"
 ward_recovery = "护盾恢复"
 ward_recovery_turn = "护盾恢复/回合"
@@ -34550,7 +34957,6 @@ ward_start = "开场护盾"
 water_damage = "水属性伤害"
 water_res = "水属性抗性"
 weapon_power = "武器威力"
-weapon_proficiency = "武器精通"
 world_horde_opponents = "地图浪潮敌人"
 
 [msg.stats_conditions]
@@ -34589,6 +34995,7 @@ chain_lightning_ii = "连锁闪电 II"
 cleanse = "净化"
 curse_of_sekhmet = "塞赫麦特的诅咒"
 dark = "黑暗"
+dark_sigil = "暗之印记"
 dragon = "龙"
 earth_sigil_ = "地之印记+"
 earthen = "地"
@@ -34609,9 +35016,11 @@ natura_ii = "天然魔法 II"
 physical = "物理"
 ponder = "沉思术"
 pumpkin_gaze = "南瓜凝视"
+rainsong = "雨歌"
 rebirth = "自我再生"
 reraise = "死者苏生"
 resolve_darkriftus = "暗域裂隙动议"
+riposte = "回击"
 shadowveil = "影幕"
 sharpen_iii = "磨刀术 III"
 stonefire = "石之炎"
@@ -34623,6 +35032,7 @@ ward_of_ortanite = "欧坦尼护盾"
 water = "水"
 wildfire_ii = "野火 II"
 winter_wind_ii = "冬风 II"
+wyrm_s_song = "飞龙之歌"
 
 [msg.status]
 aegir = "埃吉尔"
@@ -34654,6 +35064,8 @@ blind = "致盲"
 bloodshift = "鲜血转移"
 bloodwarg = "嗜血座狼"
 bloodwarg_cb7510b7 = "嗜血座狼"
+bloom_requiem = "繁华安魂曲"
+bloom_requiem_ee502254 = "繁华安魂曲"
 bonded_attack = "物攻羁绊"
 bonded_crit = "暴击羁绊"
 bonded_defense = "物防羁绊"
@@ -34706,7 +35118,6 @@ disciple_of_destructive_quakes = "地裂山崩之信徒"
 disciple_of_magmic_forces = "熔火威能之信徒"
 disciple_of_oceans_combined = "沧海合流之信徒"
 disciple_of_tempests_abound = "激荡风雷之信徒"
-dmg_dd = "Dmg ↓↓"
 dmg_u = "Dmg ↑"
 doom = "厄运"
 draco_sigil = "天龙座印记"
@@ -34876,6 +35287,8 @@ t__dex_d = "T. Dex ↓"
 t__dex_u = "T. Dex ↑"
 t__dex_uu = "T. Dex ↑↑"
 t__dex_uuu = "T. Dex ↑↑↑"
+t__dmg_d = "T. Dmg ↓"
+t__dmg_dd = "T. Dmg ↓↓"
 t__earth_immune = "T. 土免疫"
 t__earth_immune_uu = "T. 土免疫 ↑↑"
 t__fire_immune = "T. 火免疫"

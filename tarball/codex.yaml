@@ -1146,7 +1146,7 @@ tier = 8
 abilities = ["collateral_damage_v", "second_chance"]
 aura = "superboss"
 category = "bosses"
-drops = ["items/memory-of-a-king", "items/crest-of-lancelot", "items/cursed-lancelots-reach", "items/lancelets-cabochon"]
+drops = ["items/memory-of-a-king", "items/crest-of-lancelot", "items/cursed-lancelots-reach", "items/lancelots-cabochon"]
 events = ["kingsfall"]
 family = "common"
 follower = "steward_pegasus"
@@ -27667,11 +27667,13 @@ useable_by = "thief_classes"
 [entries."items/cowards-blade".stats]
 adornment_slots = 2
 attack = 190
+dark_damage = 20
 dexterity = 50
 hp = 25
 mana = 25
 status_effect_chance = 15
 status_effect_duration = 1
+ward_bypass = 5
 
 [entries."items/cowards-boots"]
 aura = "common"
@@ -27691,7 +27693,9 @@ useable_by = "thief_classes"
 adornment_slots = 2
 defense = 180
 dexterity = 45
+dodge_chance = 5
 resistance = 45
+ward_bypass = 5
 
 [entries."items/cowards-cloak"]
 aura = "common"
@@ -27709,9 +27713,11 @@ useable_by = "thief_classes"
 
 [entries."items/cowards-cloak".stats]
 adornment_slots = 2
+dark_damage = 20
 defense = 180
 dexterity = 45
 resistance = 45
+ward_bypass = 5
 
 [entries."items/cowards-cowl"]
 aura = "common"
@@ -27729,9 +27735,11 @@ useable_by = "thief_classes"
 
 [entries."items/cowards-cowl".stats]
 adornment_slots = 2
+crit_damage = 15
 defense = 180
 dexterity = 45
 resistance = 45
+ward_bypass = 5
 
 [entries."items/cowl-of-dynasty"]
 aura = "famed"
@@ -28860,6 +28868,7 @@ name = "cursed"
 adornment_slots = 10
 attack = 350
 crit = 5
+dark_damage = 20
 dexterity = 120
 hp = -150
 mana = -150
@@ -28867,6 +28876,7 @@ status_effect_chance = 30
 status_effect_duration = 1
 two_handed = true
 ward = 21
+ward_bypass = 10
 
 [entries."items/cursed-cowards-boots"]
 aura = "rare"
@@ -28893,11 +28903,13 @@ dexterity = 220
 element = ["dark"]
 foresight = 40
 hp = -150
+low_hp_r_stats = 20
 mana = -150
 resistance = 120
 status_effect_chance = 30
 status_effect_duration = 1
 ward = 6
+ward_bypass = 5
 
 [entries."items/cursed-cowards-cloak"]
 aura = "rare"
@@ -28919,6 +28931,7 @@ name = "bleeding"
 [entries."items/cursed-cowards-cloak".stats]
 adornment_slots = 6
 crit = 5
+dark_damage = 20
 defense = 220
 dexterity = 220
 element = ["dark"]
@@ -28929,6 +28942,7 @@ resistance = 120
 status_effect_chance = 30
 status_effect_duration = 1
 ward = 6
+ward_bypass = 10
 
 [entries."items/cursed-cowards-cowl"]
 aura = "rare"
@@ -28951,6 +28965,7 @@ name = "blind"
 [entries."items/cursed-cowards-cowl".stats]
 adornment_slots = 6
 crit = 5
+crit_damage = 15
 defense = 220
 dexterity = 220
 element = ["dark"]
@@ -28961,6 +28976,7 @@ resistance = 120
 status_effect_chance = 30
 status_effect_duration = 1
 ward = 6
+ward_bypass = 5
 [[entries."items/cursed-cowards-cowl".stats._follower_summon_skill]]
 key = "spells/riposte"
 name = "riposte"
@@ -28978,7 +28994,7 @@ rarity = "rare"
 related_to = ["spells/swordplay"]
 tier = 10
 upgrade_materials = ["items/cursed-ortanite", "items/avalon-ore"]
-useable_by = "warrior_classes"
+useable_by = "all_classes"
 
 [[entries."items/cursed-crown-of-the-fallen-king".gives]]
 chance = 5
@@ -29032,14 +29048,15 @@ useable_by = "magic_users"
 
 [entries."items/cursed-dagonets-epee".stats]
 adornment_slots = 2
-earthen_damage = 12
-fire_damage = 12
-lightning_damage = 12
+earthen_damage = 15
+fire_damage = 15
+holy_damage = -90
+lightning_damage = 15
 magic = 235
 mana = 20
 manaflask_power = 12
 ward = 4
-water_damage = 12
+water_damage = 15
 
 [entries."items/cursed-damonas-shield"]
 aura = "rare"
@@ -29618,7 +29635,7 @@ attack = 12
 crit = 1
 dexterity = 20
 follower_act = 2
-two_handed_power = 2
+two_handed_power = 1
 ward = 1
 
 [entries."items/cursed-kings-boots"]
@@ -29686,13 +29703,12 @@ name = "paralyzed"
 [entries."items/cursed-kings-hood".stats]
 adornment_slots = 6
 crit = 5
+dark_damage = 15
 defense = 120
 element = ["dark"]
-elemental_weaknesses = 25
 hp = -150
 mana = -75
 manaflask_charge = 5
-manaflask_power = 5
 resistance = 220
 ward = 6
 [[entries."items/cursed-kings-hood".stats._follower_summon_spell]]
@@ -30039,7 +30055,7 @@ useable_by = "thief_classes"
 [entries."items/cursed-quillon-dagger".stats]
 adornment_slots = 2
 attack = 235
-crit_chance = 10
+crit = 10
 dexterity = 80
 dodge_chance = 5
 status_effect_chance = 40
@@ -30285,8 +30301,6 @@ tier = 10
 useable_by = "all_classes"
 
 [entries."items/cursed-teardrop-of-the-king".stats]
-crit = 1
-def_res_penetration = 1
 magic = 12
 mana = 12
 manaflask_power = 2
@@ -30585,7 +30599,7 @@ attack = 10
 magic = 10
 mana = 50
 manaflask_charge = 1
-manaflask_power = 2
+manaflask_power = 1
 
 [entries."items/dagonets-epee"]
 aura = "rare"
@@ -30605,14 +30619,15 @@ useable_by = "magic_users"
 
 [entries."items/dagonets-epee".stats]
 adornment_slots = 2
-earthen_damage = 10
-fire_damage = 10
-lightning_damage = 10
+earthen_damage = 7
+fire_damage = 7
+holy_damage = -90
+lightning_damage = 7
 magic = 142
 mana = 20
 manaflask_power = 10
 ward = 4
-water_damage = 10
+water_damage = 7
 
 [entries."items/dalans-hood"]
 aura = "common"
@@ -49147,20 +49162,20 @@ mana = 44
 resistance = 44
 ward = 2
 
-[entries."items/lancelets-cabochon"]
+[entries."items/lancelots-cabochon"]
 aura = "rare"
 category = "items"
 dropped_by = ["bosses/cursed-lancelot"]
 exotic = 1
 icon = "/img/jewels/cabochon_lancelot.png"
-id = "lancelets-cabochon"
+id = "lancelots-cabochon"
 item_type = "adornment"
 place = "weapon"
 rarity = "rare"
 tier = 9
 useable_by = "all_classes"
 
-[entries."items/lancelets-cabochon".stats]
+[entries."items/lancelots-cabochon".stats]
 attack = 10
 def_res_penetration = 1
 hp = 25
@@ -58845,7 +58860,7 @@ useable_by = "thief_classes"
 [entries."items/quillon-dagger".stats]
 adornment_slots = 2
 attack = 142
-crit_chance = 10
+crit = 10
 dexterity = 80
 dodge_chance = 5
 status_effect_chance = 40
@@ -62051,7 +62066,7 @@ useable_by = "all_classes"
 [entries."items/severauses-cabochon".stats]
 follower_act = 3
 hp = 50
-summon_pacts = 5
+summon_pacts = 2
 
 [entries."items/severauses-halberd"]
 aura = "rare"
@@ -98615,13 +98630,13 @@ avidity = 15
 avidity = 20
 
 [meta.ability_stats.bastille]
-bastille = 100
+_high_ward_r_stats = 50
 ward_power = 50
 ward_recovery = 5
 ward_start = 10
 
 [meta.ability_stats.bastille_ii]
-bastille = 120
+_high_ward_r_stats = 60
 ward_power = 100
 ward_recovery = 7
 ward_start = 12
@@ -99524,7 +99539,7 @@ useable_by = ["all_classes", "magic_users", "melee_classes", "thief_classes", "v
 
 [meta.sorts]
 followers = ["stats.attack_rate", "stats.buff_rate", "stats.debuff_rate", "stats.heal_rate", "stats.protect_chance", "stats.spell_rate"]
-items = ["stats._arch_alchemy", "stats._attack_from_low_defense", "stats._instrument_proficiency", "stats._weapon_proficiency", "stats.accuracy", "stats.act_first_chance__pve_", "stats.adornment_slots", "stats.ally_effect_chance", "stats.apex", "stats.apex_rate", "stats.apex_start", "stats.arcane_damage", "stats.attack", "stats.avidity", "stats.battle_animation_time", "stats.berserk_encounters", "stats.bestial_bond", "stats.bestial_bond_level", "stats.blacksmith_material_cost", "stats.blacksmith_time", "stats.buff_duration", "stats.cats", "stats.chain_damage_chance", "stats.collateral_chance", "stats.collateral_damage", "stats.crit", "stats.crit_chance", "stats.crit_damage", "stats.critical_chain", "stats.damage_limit_break", "stats.damage_per_turn_r_stats", "stats.damage_protect", "stats.damage_to_damage_per_turn", "stats.damage_to_ward", "stats.dark_damage", "stats.dark_res", "stats.debuff_fade", "stats.def_res_penetration", "stats.defend_power", "stats.defense", "stats.dexterity", "stats.disperse_status_effect_chance", "stats.dodge_chance", "stats.double_summon_chance", "stats.dragon_damage", "stats.dullahan_s_pursuit", "stats.dungeon_cooldown", "stats.dungeon_horde_bonus", "stats.dungeon_rewards", "stats.earthen_damage", "stats.effect_damage", "stats.elemental_damage_taken", "stats.elemental_weaknesses", "stats.event_encounters", "stats.exp_bonus", "stats.extra_materials_dropped", "stats.faction_element_damage", "stats.faction_element_resistance", "stats.fire_damage", "stats.fishing_line_catches", "stats.flask_charge_on_defeat", "stats.follower_act", "stats.follower_stats", "stats.follower_summon_ai", "stats.follower_summon_damage_taken", "stats.follower_turn_chance", "stats.foresight", "stats.frenzy", "stats.gifts", "stats.godforge_chance", "stats.gold_bonus", "stats.healing", "stats.higher_quality_item_chance", "stats.holy_damage", "stats.holy_res", "stats.hp", "stats.hp_regen", "stats.hp_ward_recovery", "stats.hybrid_damage", "stats.instant_summon_chance", "stats.life_siphon", "stats.lightning_damage", "stats.luck_bonus", "stats.magic", "stats.mana", "stats.mana_overspend_chance", "stats.mana_reduction", "stats.mana_regen", "stats.mana_ward_recovery", "stats.manaflask_charge", "stats.manaflask_power", "stats.memory_hunting_rewards", "stats.monster_encounters", "stats.monster_power", "stats.multi_target_damage", "stats.multi_target_mana_reduction", "stats.no_follower_bonus", "stats.orn_bonus", "stats.physical_damage", "stats.player_r_follower_ability_chance", "stats.quest_rewards", "stats.questing", "stats.raid_rewards", "stats.resistance", "stats.second_chance", "stats.self_damage_reduction", "stats.settlement_area_defense", "stats.sprite_size", "stats.stat_bonus", "stats.status_effect_chance", "stats.status_effect_duration", "stats.status_protection", "stats.status_reflection", "stats.summon_pacts", "stats.summon_protection", "stats.summon_stats", "stats.summon_turns", "stats.swap_defense_resistance", "stats.tower_shards", "stats.turn_reduction", "stats.two_handed", "stats.two_handed_power", "stats.ult_defense", "stats.view_distance", "stats.ward", "stats.ward_absorption", "stats.ward_bypass", "stats.ward_power", "stats.ward_recovery", "stats.ward_recovery_turn", "stats.ward_start", "stats.water_damage", "stats.weapon_power", "stats.world_horde_opponents"]
+items = ["stats._arch_alchemy", "stats._attack_from_low_defense", "stats._instrument_proficiency", "stats._weapon_proficiency", "stats.accuracy", "stats.act_first_chance__pve_", "stats.adornment_slots", "stats.ally_effect_chance", "stats.apex", "stats.apex_rate", "stats.apex_start", "stats.arcane_damage", "stats.attack", "stats.avidity", "stats.battle_animation_time", "stats.berserk_encounters", "stats.bestial_bond", "stats.bestial_bond_level", "stats.blacksmith_material_cost", "stats.blacksmith_time", "stats.buff_duration", "stats.cats", "stats.chain_damage_chance", "stats.collateral_chance", "stats.collateral_damage", "stats.crit", "stats.crit_chance", "stats.crit_damage", "stats.critical_chain", "stats.damage_limit_break", "stats.damage_per_turn_r_stats", "stats.damage_protect", "stats.damage_to_damage_per_turn", "stats.damage_to_ward", "stats.dark_damage", "stats.dark_res", "stats.debuff_fade", "stats.def_res_penetration", "stats.defend_power", "stats.defense", "stats.dexterity", "stats.disperse_status_effect_chance", "stats.dodge_chance", "stats.double_summon_chance", "stats.dragon_damage", "stats.dullahan_s_pursuit", "stats.dungeon_cooldown", "stats.dungeon_horde_bonus", "stats.dungeon_rewards", "stats.earthen_damage", "stats.effect_damage", "stats.elemental_damage_taken", "stats.elemental_weaknesses", "stats.event_encounters", "stats.exp_bonus", "stats.extra_materials_dropped", "stats.faction_element_damage", "stats.faction_element_resistance", "stats.fire_damage", "stats.fishing_line_catches", "stats.flask_charge_on_defeat", "stats.follower_act", "stats.follower_stats", "stats.follower_summon_ai", "stats.follower_summon_damage_taken", "stats.follower_turn_chance", "stats.foresight", "stats.frenzy", "stats.gifts", "stats.godforge_chance", "stats.gold_bonus", "stats.healing", "stats.higher_quality_item_chance", "stats.holy_damage", "stats.holy_res", "stats.hp", "stats.hp_regen", "stats.hp_ward_recovery", "stats.hybrid_damage", "stats.instant_summon_chance", "stats.life_siphon", "stats.lightning_damage", "stats.low_hp_r_stats", "stats.luck_bonus", "stats.magic", "stats.mana", "stats.mana_overspend_chance", "stats.mana_reduction", "stats.mana_regen", "stats.mana_ward_recovery", "stats.manaflask_charge", "stats.manaflask_power", "stats.memory_hunting_rewards", "stats.monster_encounters", "stats.monster_power", "stats.multi_target_damage", "stats.multi_target_mana_reduction", "stats.no_follower_bonus", "stats.orn_bonus", "stats.physical_damage", "stats.player_r_follower_ability_chance", "stats.quest_rewards", "stats.questing", "stats.raid_rewards", "stats.resistance", "stats.second_chance", "stats.self_damage_reduction", "stats.settlement_area_defense", "stats.sprite_size", "stats.stat_bonus", "stats.status_effect_chance", "stats.status_effect_duration", "stats.status_protection", "stats.status_reflection", "stats.summon_pacts", "stats.summon_protection", "stats.summon_stats", "stats.summon_turns", "stats.swap_defense_resistance", "stats.tower_shards", "stats.turn_reduction", "stats.two_handed", "stats.two_handed_power", "stats.ult_defense", "stats.view_distance", "stats.ward", "stats.ward_absorption", "stats.ward_bypass", "stats.ward_power", "stats.ward_recovery", "stats.ward_recovery_turn", "stats.ward_start", "stats.water_damage", "stats.weapon_power", "stats.world_horde_opponents"]
 raids = ["hp"]
 spells = ["stats.costs", "stats.spell_crit_chance"]
 
@@ -99541,6 +99556,10 @@ type = "FLAG"
 
 [meta.value_types."abilities._guidelight"]
 type = "FLAG"
+
+[meta.value_types."abilities._high_ward_r_stats"]
+type = "SIGNED"
+unit = "PERCENT"
 
 [meta.value_types."abilities._second_chance"]
 type = "FLAG"
@@ -99574,10 +99593,6 @@ type = "SIGNED"
 unit = "PERCENT"
 
 [meta.value_types."abilities.avidity"]
-type = "SIGNED"
-unit = "PERCENT"
-
-[meta.value_types."abilities.bastille"]
 type = "SIGNED"
 unit = "PERCENT"
 
@@ -100233,6 +100248,10 @@ type = "SIGNED"
 unit = "PERCENT"
 
 [meta.value_types."stats.lightning_damage"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."stats.low_hp_r_stats"]
 type = "SIGNED"
 unit = "PERCENT"
 

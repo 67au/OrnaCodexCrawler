@@ -28911,6 +28911,9 @@ status_effect_duration = 1
 ward = 6
 ward_bypass = 5
 
+[entries."items/cursed-cowards-boots".stats_conditions]
+low_hp_r_stats = ["class__shadowmancy"]
+
 [entries."items/cursed-cowards-cloak"]
 aura = "rare"
 category = "items"
@@ -29977,6 +29980,7 @@ hp = -75
 mana = -150
 physical_damage = 20
 resistance = 200
+ward = 6
 
 [entries."items/cursed-pendrake-helmet"]
 aura = "common"
@@ -30004,6 +30008,7 @@ element = ["dark"]
 hp = -75
 mana = -150
 resistance = 200
+ward = 6
 [[entries."items/cursed-pendrake-helmet".stats._follower_summon_spell]]
 key = "spells/wyrms-song"
 name = "wyrm_s_song"
@@ -30034,6 +30039,7 @@ hp = -75
 mana = -150
 resistance = 200
 two_handed_power = 10
+ward = 6
 ward_recovery_turn = 1
 
 [entries."items/cursed-quillon-dagger"]
@@ -56853,6 +56859,7 @@ collateral_damage = 10
 defense = 196
 physical_damage = 10
 resistance = 45
+ward = 3
 
 [entries."items/pendrake-helmet"]
 aura = "common"
@@ -56875,6 +56882,7 @@ collateral_damage = 10
 defense = 196
 physical_damage = 10
 resistance = 45
+ward = 3
 
 [entries."items/pendrake-leggings"]
 aura = "common"
@@ -56897,6 +56905,7 @@ collateral_damage = 10
 defense = 196
 physical_damage = 10
 resistance = 45
+ward = 3
 
 [entries."items/perfect-baldur"]
 aura = "rare"

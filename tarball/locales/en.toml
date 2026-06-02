@@ -10705,28 +10705,28 @@ name = "Cursed Clota's Garb"
 
 [entries."items/cursed-cowards-blade"]
 category = "items"
-description = "A hooked blade used by Avalon assassins. Some say the great King Arthus had a secretive hobby."
+description = "Cursed weapon held by Arthus in a previous life. This weapon may delay an opponent's future turn upon using any skill."
 id = "cursed-cowards-blade"
 language = "en"
 name = "Cursed Coward's Blade"
 
 [entries."items/cursed-cowards-boots"]
 category = "items"
-description = "Boots worn by Avalon assassins. Some say the great King Arthus had a secretive hobby."
+description = "Cursed equipment worn by Arthus in a previous life. This item may delay an opponent's future turn upon using any skill."
 id = "cursed-cowards-boots"
 language = "en"
 name = "Cursed Coward's Boots"
 
 [entries."items/cursed-cowards-cloak"]
 category = "items"
-description = "Cloak worn by Avalon assassins. Some say the great King Arthus had a secretive hobby."
+description = "Cursed equipment worn by Arthus in a previous life. This item may delay an opponent's future turn upon using any skill."
 id = "cursed-cowards-cloak"
 language = "en"
 name = "Cursed Coward's Cloak"
 
 [entries."items/cursed-cowards-cowl"]
 category = "items"
-description = "Headpiece worn by Avalon assassins. Some say the great King Arthus had a secretive hobby."
+description = "Cursed equipment worn by Arthus in a previous life. This item may delay an opponent's future turn upon using any skill."
 id = "cursed-cowards-cowl"
 language = "en"
 name = "Cursed Coward's Cowl"
@@ -22013,6 +22013,13 @@ description = "A scroll containing the ancient Balor techniques of the summon. R
 id = "summoning-scroll"
 language = "en"
 name = "Summoning Scroll"
+
+[entries."items/summoning-scroll-of-merlin"]
+category = "items"
+description = "A scroll containing the knowledge of Merlin himself. Using this scroll will summon a Merlin world raid to your location."
+id = "summoning-scroll-of-merlin"
+language = "en"
+name = "Summoning Scroll of Merlin"
 
 [entries."items/sumner-crested-shield"]
 category = "items"
@@ -34941,6 +34948,7 @@ summon_turns = "Summon Turns"
 swap_defense_resistance = "Swap Defense/Resistance"
 tower_shards = "Tower Shards"
 turn_chance = "Turn Chance"
+turn_delay_chance = "Turn Delay Chance"
 turn_reduction = "Turn Reduction"
 two_handed = "Two handed"
 two_handed_power = "Two-handed Power"

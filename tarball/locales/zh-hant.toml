@@ -10705,28 +10705,28 @@ name = "受詛咒的克洛塔皮甲"
 
 [entries."items/cursed-cowards-blade"]
 category = "items"
-description = "阿瓦隆刺客使用的鉤形刀，謠傳亞瑟王有一些神秘的癖好."
+description = "Cursed weapon held by Arthus in a previous life. This weapon may delay an opponent's future turn upon using any skill."
 id = "cursed-cowards-blade"
 language = "zh-hant"
 name = "詛咒的懦夫之刃"
 
 [entries."items/cursed-cowards-boots"]
 category = "items"
-description = "阿瓦隆刺客穿戴的長靴，謠傳亞瑟王有一些神秘的癖好."
+description = "Cursed equipment worn by Arthus in a previous life. This item may delay an opponent's future turn upon using any skill."
 id = "cursed-cowards-boots"
 language = "zh-hant"
 name = "詛咒的懦夫長靴"
 
 [entries."items/cursed-cowards-cloak"]
 category = "items"
-description = "阿瓦隆刺客所穿戴的披風.謠傳亞瑟王有一些神秘的癖好."
+description = "Cursed equipment worn by Arthus in a previous life. This item may delay an opponent's future turn upon using any skill."
 id = "cursed-cowards-cloak"
 language = "zh-hant"
 name = "詛咒的懦夫披風"
 
 [entries."items/cursed-cowards-cowl"]
 category = "items"
-description = "阿瓦隆刺客配戴的頭巾。謠傳亞瑟王有一些神秘的癖好。"
+description = "Cursed equipment worn by Arthus in a previous life. This item may delay an opponent's future turn upon using any skill."
 id = "cursed-cowards-cowl"
 language = "zh-hant"
 name = "詛咒的懦夫風帽"
@@ -22013,6 +22013,13 @@ description = "內含遠古巴羅爾技術的卷軸。使用後會召喚強力�
 id = "summoning-scroll"
 language = "zh-hant"
 name = "召喚卷軸"
+
+[entries."items/summoning-scroll-of-merlin"]
+category = "items"
+description = "A scroll containing the knowledge of Merlin himself. Using this scroll will summon a Merlin world raid to your location."
+id = "summoning-scroll-of-merlin"
+language = "zh-hant"
+name = "Summoning Scroll of Merlin"
 
 [entries."items/sumner-crested-shield"]
 category = "items"
@@ -34951,6 +34958,7 @@ summon_turns = "召喚回合數"
 swap_defense_resistance = "物防/魔防交換"
 tower_shards = "塔之碎片"
 turn_chance = "回合機率"
+turn_delay_chance = "Turn Delay Chance"
 turn_reduction = "回合省略"
 two_handed = "雙手使用"
 two_handed_power = "合握之力"

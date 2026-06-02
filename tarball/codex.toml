@@ -77337,7 +77337,7 @@ events = ["kingsfall"]
 hp = 27690000
 icon = "/img/bosses/cursed_king.png"
 id = "cursed-king-arthus"
-skills = ["spells/horizontal-slash", "spells/multi-flame", "spells/multi-spark", "spells/riposte", "spells/swordplay", "spells/x-slash", "spells/kings-reign", "spells/pendulus-iii", "spells/arcanus-iii", "spells/miasma-iii"]
+skills = ["spells/horizontal-slash", "spells/multi-flame", "spells/multi-spark", "spells/riposte", "spells/swordplay", "spells/x-slash", "spells/kings-reign", "spells/pendulus-iii", "spells/miasma-iii"]
 tier = 10
 
 [entries."raids/dangy"]
@@ -79262,7 +79262,6 @@ id = "arcanus-iii"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 10
-used_by = ["raids/cursed-king-arthus"]
 
 [[entries."spells/arcanus-iii".causes]]
 chance = 12

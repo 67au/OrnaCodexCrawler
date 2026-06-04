@@ -28673,6 +28673,7 @@ item_type = "weapon"
 offhand_ability = "spells/kings-wrath"
 place = "weapon"
 rarity = "rare"
+related_to = ["spells/casted-shadows-ii"]
 tier = 10
 two_handed = 1
 type = "instruments"
@@ -28687,9 +28688,14 @@ follower_stats = 20
 hp = -150
 magic = 266
 mana = -150
+status_effect_chance = 20
+status_effect_duration = 1
 summon_stats = 20
 two_handed = true
 ward = 21
+[[entries."items/cursed-avalon-melody".stats._follower_summon_spell]]
+key = "spells/casted-shadows-ii"
+name = "casted_shadows_ii"
 
 [entries."items/cursed-belenuss-boots"]
 aura = "rare"
@@ -28901,6 +28907,7 @@ name = "blight"
 [entries."items/cursed-cowards-boots".stats]
 adornment_slots = 6
 crit = 5
+crit_damage = 7
 defense = 220
 dexterity = 220
 element = ["dark"]
@@ -28937,14 +28944,15 @@ name = "bleeding"
 [entries."items/cursed-cowards-cloak".stats]
 adornment_slots = 6
 crit = 5
-defense = 220
+crit_damage = 7
+defense = 120
 dexterity = 220
 element = ["dark"]
 foresight = 40
 hp = -150
 low_hp_r_stats = 12
 mana = -150
-resistance = 120
+resistance = 220
 turn_delay_chance = 5
 ward = 6
 ward_bypass = 10
@@ -28974,6 +28982,7 @@ name = "blind"
 [entries."items/cursed-cowards-cowl".stats]
 adornment_slots = 6
 crit = 5
+crit_damage = 7
 defense = 220
 dexterity = 220
 element = ["dark"]
@@ -29747,11 +29756,13 @@ name = "cursed"
 [entries."items/cursed-kings-robe".stats]
 adornment_slots = 6
 crit = 5
-dark_damage = 20
+dark_damage = 15
 defense = 120
 element = ["dark"]
 hp = -150
 mana = -75
+manaflask_charge = 5
+manaflask_power = 5
 resistance = 220
 ward = 6
 
@@ -80786,6 +80797,7 @@ power = "150-500 (x6)"
 category = "spells"
 icon = "/img/spells/shadow.png"
 id = "casted-shadows-ii"
+related_to = ["items/cursed-avalon-melody"]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 10
@@ -87424,7 +87436,8 @@ chance = 100
 name = "dark_sigil"
 
 [entries."spells/kings-wrath".stats]
-power = "800"
+element = ["dark"]
+power = "1000"
 
 [entries."spells/lacuna"]
 category = "spells"
@@ -99558,7 +99571,7 @@ place = ["accessory", "armor__for_adornments_", "augment__for_celestial_weapons_
 rarity = ["celestial", "common", "cryptid", "famed", "legendary", "rare", "steward", "storied", "uncommon"]
 spell_type = ["skill", "spell"]
 "stats._follower_summon_skill" = ["arrowstorm", "exploit_ii", "riposte", "swordplay"]
-"stats._follower_summon_spell" = ["barrier", "berserk", "blessed_shield", "bloodshift", "dark_sigil", "giant_s_protection", "great_meditation", "ponder", "rebirth", "reraise", "sharpen_iii", "ward_of_mythril", "ward_of_ortanite", "wyrm_s_song"]
+"stats._follower_summon_spell" = ["barrier", "berserk", "blessed_shield", "bloodshift", "casted_shadows_ii", "dark_sigil", "giant_s_protection", "great_meditation", "ponder", "rebirth", "reraise", "sharpen_iii", "ward_of_mythril", "ward_of_ortanite", "wyrm_s_song"]
 "stats._skill" = ["beheading_cleave", "beheading_slice", "beheading_sweep", "ursa_s_edge"]
 "stats._spell" = ["ara_s_edge", "call_of_zagreus", "curse_of_sekhmet", "gods_of_aaru", "pumpkin_gaze", "rainsong", "reraise", "resolve_darkriftus", "shadowveil", "walls_of_aaru"]
 "stats.element" = ["arcane", "dark", "dragon", "earthen", "fire", "holy", "lightning", "physical", "water"]

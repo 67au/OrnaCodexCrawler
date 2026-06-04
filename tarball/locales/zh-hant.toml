@@ -1920,6 +1920,24 @@ id = "kraken"
 language = "zh-hant"
 name = "克拉肯"
 
+[entries."bosses/lamenter"]
+category = "bosses"
+id = "lamenter"
+language = "zh-hant"
+name = "哀嘆的人"
+
+[entries."bosses/lamenter-574c37b2"]
+category = "bosses"
+id = "lamenter-574c37b2"
+language = "zh-hant"
+name = "哀嘆的人"
+
+[entries."bosses/lamenter-9463f223"]
+category = "bosses"
+id = "lamenter-9463f223"
+language = "zh-hant"
+name = "哀嘆的人"
+
 [entries."bosses/large-wisp"]
 category = "bosses"
 id = "large-wisp"
@@ -2021,6 +2039,12 @@ category = "bosses"
 id = "mullo-of-fomoria"
 language = "zh-hant"
 name = "弗摩爾族之穆洛"
+
+[entries."bosses/murk-incarnate"]
+category = "bosses"
+id = "murk-incarnate"
+language = "zh-hant"
+name = "淤濁的化身"
 
 [entries."bosses/nin-kilim"]
 category = "bosses"
@@ -3066,6 +3090,13 @@ id = "aegir"
 language = "zh-hant"
 name = "埃吉爾"
 
+[entries."followers/african-forest-elephant"]
+category = "followers"
+description = "一同抵禦淤濁的自然夥伴。此跟隨者會自動賦予等級1的野獸羈絆。"
+id = "african-forest-elephant"
+language = "zh-hant"
+name = "非洲樹象"
+
 [entries."followers/agathodaemon"]
 category = "followers"
 description = "遠古巨龍能使用諸多技能。限時特賣。"
@@ -3366,6 +3397,13 @@ description = "會動的巨型仙人掌.能發射細針彈幕."
 id = "big-cactus"
 language = "zh-hant"
 name = "大仙人掌"
+
+[entries."followers/bird-of-paradise"]
+category = "followers"
+description = "一同抵禦淤濁的自然夥伴。此跟隨者會自動賦予等級1的野獸羈絆。"
+id = "bird-of-paradise"
+language = "zh-hant"
+name = "天堂鳥"
 
 [entries."followers/bloodwarg"]
 category = "followers"
@@ -4724,6 +4762,13 @@ description = "跟隨者超究極寶箱怪的新造型。期間限定。"
 id = "the-mightiest-murk"
 language = "zh-hant"
 name = "超究極淤濁怪"
+
+[entries."followers/three-toed-sloth"]
+category = "followers"
+description = "一同抵禦淤濁的自然夥伴。此跟隨者會自動賦予等級1的野獸羈絆。"
+id = "three-toed-sloth"
+language = "zh-hant"
+name = "三趾樹懶"
 
 [entries."followers/timber-the-beaver"]
 category = "followers"
@@ -17906,6 +17951,27 @@ id = "medusas-chestplate"
 language = "zh-hant"
 name = "梅杜莎的胸甲"
 
+[entries."items/melody-of-maluku"]
+category = "items"
+description = "一段常由自然茂密雨林原住民吟唱的歌曲旋律。此物品屬於《泰菈的遺產：雨之歌》系列。"
+id = "melody-of-maluku"
+language = "zh-hant"
+name = "摩鹿加之詩"
+
+[entries."items/melody-of-the-amazon"]
+category = "items"
+description = "一段常由自然茂密雨林原住民吟唱的歌曲旋律。此物品屬於《泰菈的遺產：雨之歌》系列。"
+id = "melody-of-the-amazon"
+language = "zh-hant"
+name = "亞馬遜之詩"
+
+[entries."items/melody-of-the-congo"]
+category = "items"
+description = "一段常由自然茂密雨林原住民吟唱的歌曲旋律。此物品屬於《泰菈的遺產：雨之歌》系列。"
+id = "melody-of-the-congo"
+language = "zh-hant"
+name = "剛果之詩"
+
 [entries."items/memory-of-a-king"]
 category = "items"
 description = "惡墮王者宮廷的一段褪色記憶。此物品為「惡墮王者」活動的一部分。"
@@ -24326,6 +24392,18 @@ id = "bloodwarg-dfa97df9"
 language = "zh-hant"
 name = "血腥座狼 (重生者)"
 
+[entries."monsters/bloom-requiem"]
+category = "monsters"
+id = "bloom-requiem"
+language = "zh-hant"
+name = "最後綻放安魂曲"
+
+[entries."monsters/bloom-requiem-bbd759a5"]
+category = "monsters"
+id = "bloom-requiem-bbd759a5"
+language = "zh-hant"
+name = "最後綻放安魂曲"
+
 [entries."monsters/blue-flame"]
 category = "monsters"
 id = "blue-flame"
@@ -24361,6 +24439,18 @@ category = "monsters"
 id = "buried"
 language = "zh-hant"
 name = "活埋者"
+
+[entries."monsters/burning-chorus"]
+category = "monsters"
+id = "burning-chorus"
+language = "zh-hant"
+name = "燃燒頌歌"
+
+[entries."monsters/burning-chorus-1a1ee7f3"]
+category = "monsters"
+id = "burning-chorus-1a1ee7f3"
+language = "zh-hant"
+name = "燃燒頌歌"
 
 [entries."monsters/buzzard"]
 category = "monsters"
@@ -24871,6 +24961,18 @@ category = "monsters"
 id = "elite-riftguard"
 language = "zh-hant"
 name = "高端裂痕守衛"
+
+[entries."monsters/ember-choirist"]
+category = "monsters"
+id = "ember-choirist"
+language = "zh-hant"
+name = "燼火合唱者"
+
+[entries."monsters/ember-choirist-f398eca1"]
+category = "monsters"
+id = "ember-choirist-f398eca1"
+language = "zh-hant"
+name = "燼火合唱者"
 
 [entries."monsters/enlightened-acolyte"]
 category = "monsters"
@@ -27486,6 +27588,13 @@ description = "偉大的行銷商。"
 id = "purrly"
 language = "zh-hant"
 name = "Purrly"
+
+[entries."raids/rainforest-destroyer-murk"]
+category = "raids"
+description = "A great rainforest destroying Murk."
+id = "rainforest-destroyer-murk"
+language = "zh-hant"
+name = "雨林毀滅者淤濁"
 
 [entries."raids/reef-destroyer-murk"]
 category = "raids"
@@ -34625,6 +34734,7 @@ terra_s_day = "泰菈之日"
 terra_s_legacy = "泰菈的遺產"
 terra_s_legacy__natureblight = "泰菈的遺產：萎化自然"
 terra_s_legacy__of_reefs_and_forests = "泰菈的遺產：萎化自然"
+terra_s_legacy__rainsong = "泰菈的遺產：雨之歌"
 the_crimson_festival = "緋紅祭"
 the_cursed_queens = "詛咒女王"
 the_hallowed = "The。萬聖"
@@ -34918,6 +35028,7 @@ manaflask_power = "魔禁瓶威力"
 manaflasks = "魔禁瓶"
 max_dodge_chance = "最大閃避率"
 memory_hunting_rewards = "記憶追尋獎勵"
+mend_wall_ii = "+能力：補牆術 II"
 monster_encounters = "遭遇魔物"
 monster_power = "魔物威能"
 multi_target_damage = "多目標傷害"

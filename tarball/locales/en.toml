@@ -1920,6 +1920,24 @@ id = "kraken"
 language = "en"
 name = "Kraken"
 
+[entries."bosses/lamenter"]
+category = "bosses"
+id = "lamenter"
+language = "en"
+name = "Lamenter"
+
+[entries."bosses/lamenter-574c37b2"]
+category = "bosses"
+id = "lamenter-574c37b2"
+language = "en"
+name = "Lamenter"
+
+[entries."bosses/lamenter-9463f223"]
+category = "bosses"
+id = "lamenter-9463f223"
+language = "en"
+name = "Lamenter"
+
 [entries."bosses/large-wisp"]
 category = "bosses"
 id = "large-wisp"
@@ -2021,6 +2039,12 @@ category = "bosses"
 id = "mullo-of-fomoria"
 language = "en"
 name = "Mullo of Fomoria"
+
+[entries."bosses/murk-incarnate"]
+category = "bosses"
+id = "murk-incarnate"
+language = "en"
+name = "Murk Incarnate"
 
 [entries."bosses/nin-kilim"]
 category = "bosses"
@@ -3066,6 +3090,13 @@ id = "aegir"
 language = "en"
 name = "Aegir"
 
+[entries."followers/african-forest-elephant"]
+category = "followers"
+description = "A member of nature, defender against the Murk. This follower automatically grants its Bestial Bond Level 1."
+id = "african-forest-elephant"
+language = "en"
+name = "African Forest Elephant"
+
 [entries."followers/agathodaemon"]
 category = "followers"
 description = "The Great Dragons will bring many skills to battle. Available for a limited time only."
@@ -3366,6 +3397,13 @@ description = "A giant live cactus. It can assist you in battle with barrages of
 id = "big-cactus"
 language = "en"
 name = "Big Cactus"
+
+[entries."followers/bird-of-paradise"]
+category = "followers"
+description = "A member of nature, defender against the Murk. This follower automatically grants its Bestial Bond Level 1."
+id = "bird-of-paradise"
+language = "en"
+name = "Bird of Paradise"
 
 [entries."followers/bloodwarg"]
 category = "followers"
@@ -4724,6 +4762,13 @@ description = "A new look for the \"The Mightiest Mimic\" follower. Available fo
 id = "the-mightiest-murk"
 language = "en"
 name = "The Mightiest Murk"
+
+[entries."followers/three-toed-sloth"]
+category = "followers"
+description = "A member of nature, defender against the Murk. This follower automatically grants its Bestial Bond Level 1."
+id = "three-toed-sloth"
+language = "en"
+name = "Three-Toed Sloth"
 
 [entries."followers/timber-the-beaver"]
 category = "followers"
@@ -17906,6 +17951,27 @@ id = "medusas-chestplate"
 language = "en"
 name = "Medusa's Chestplate"
 
+[entries."items/melody-of-maluku"]
+category = "items"
+description = "A single note of a song often sung by natives of Terra's lush rainforests. This item is part of the Terra's Legacy: Rainsong event."
+id = "melody-of-maluku"
+language = "en"
+name = "Melody of Maluku"
+
+[entries."items/melody-of-the-amazon"]
+category = "items"
+description = "A single note of a song often sung by natives of Terra's lush rainforests. This item is part of the Terra's Legacy: Rainsong event."
+id = "melody-of-the-amazon"
+language = "en"
+name = "Melody of the Amazon"
+
+[entries."items/melody-of-the-congo"]
+category = "items"
+description = "A single note of a song often sung by natives of Terra's lush rainforests. This item is part of the Terra's Legacy: Rainsong event."
+id = "melody-of-the-congo"
+language = "en"
+name = "Melody of the Congo"
+
 [entries."items/memory-of-a-king"]
 category = "items"
 description = "Faint memory of a Fallen King's royal court. This item is part of the Kingsfall world event."
@@ -24326,6 +24392,18 @@ id = "bloodwarg-dfa97df9"
 language = "en"
 name = "Bloodwarg (Arisen)"
 
+[entries."monsters/bloom-requiem"]
+category = "monsters"
+id = "bloom-requiem"
+language = "en"
+name = "Bloom Requiem"
+
+[entries."monsters/bloom-requiem-bbd759a5"]
+category = "monsters"
+id = "bloom-requiem-bbd759a5"
+language = "en"
+name = "Bloom Requiem"
+
 [entries."monsters/blue-flame"]
 category = "monsters"
 id = "blue-flame"
@@ -24361,6 +24439,18 @@ category = "monsters"
 id = "buried"
 language = "en"
 name = "Buried"
+
+[entries."monsters/burning-chorus"]
+category = "monsters"
+id = "burning-chorus"
+language = "en"
+name = "Burning Chorus"
+
+[entries."monsters/burning-chorus-1a1ee7f3"]
+category = "monsters"
+id = "burning-chorus-1a1ee7f3"
+language = "en"
+name = "Burning Chorus"
 
 [entries."monsters/buzzard"]
 category = "monsters"
@@ -24871,6 +24961,18 @@ category = "monsters"
 id = "elite-riftguard"
 language = "en"
 name = "Elite Riftguard"
+
+[entries."monsters/ember-choirist"]
+category = "monsters"
+id = "ember-choirist"
+language = "en"
+name = "Ember Choirist"
+
+[entries."monsters/ember-choirist-f398eca1"]
+category = "monsters"
+id = "ember-choirist-f398eca1"
+language = "en"
+name = "Ember Choirist"
 
 [entries."monsters/enlightened-acolyte"]
 category = "monsters"
@@ -27486,6 +27588,13 @@ description = "The great marketer."
 id = "purrly"
 language = "en"
 name = "Purrly"
+
+[entries."raids/rainforest-destroyer-murk"]
+category = "raids"
+description = "A great rainforest destroying Murk."
+id = "rainforest-destroyer-murk"
+language = "en"
+name = "Rainforest Destroyer Murk"
 
 [entries."raids/reef-destroyer-murk"]
 category = "raids"
@@ -34625,6 +34734,7 @@ terra_s_day = "Terra's Day"
 terra_s_legacy = "Terra's Legacy"
 terra_s_legacy__natureblight = "Terra's Legacy: Natureblight"
 terra_s_legacy__of_reefs_and_forests = "Terra's Legacy: Of Reefs and Forests"
+terra_s_legacy__rainsong = "Terra's Legacy: Rainsong"
 the_crimson_festival = "The Crimson Festival"
 the_cursed_queens = "The Cursed Queens"
 the_hallowed = "The Hallowed"
@@ -35022,6 +35132,7 @@ level_2 = "Level 2"
 level_3 = "Level 3"
 lightning = "Lightning"
 lightning_sigil_ = "Lightning Sigil+"
+mend_wall_ii = "Mend Wall II"
 natura_ii = "Natura II"
 physical = "Physical"
 ponder = "Ponder"

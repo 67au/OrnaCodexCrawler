@@ -1920,6 +1920,24 @@ id = "kraken"
 language = "zh-hans"
 name = "克拉肯"
 
+[entries."bosses/lamenter"]
+category = "bosses"
+id = "lamenter"
+language = "zh-hans"
+name = "哀悼者"
+
+[entries."bosses/lamenter-574c37b2"]
+category = "bosses"
+id = "lamenter-574c37b2"
+language = "zh-hans"
+name = "哀悼者"
+
+[entries."bosses/lamenter-9463f223"]
+category = "bosses"
+id = "lamenter-9463f223"
+language = "zh-hans"
+name = "哀悼者"
+
 [entries."bosses/large-wisp"]
 category = "bosses"
 id = "large-wisp"
@@ -2021,6 +2039,12 @@ category = "bosses"
 id = "mullo-of-fomoria"
 language = "zh-hans"
 name = "弗摩尔之穆洛"
+
+[entries."bosses/murk-incarnate"]
+category = "bosses"
+id = "murk-incarnate"
+language = "zh-hans"
+name = "泥沼化身"
 
 [entries."bosses/nin-kilim"]
 category = "bosses"
@@ -3066,6 +3090,13 @@ id = "aegir"
 language = "zh-hans"
 name = "埃吉尔"
 
+[entries."followers/african-forest-elephant"]
+category = "followers"
+description = "自然的伙伴，一起对抗泥沼怪。该追随者将自动赋予等级 1 的野兽羁绊。"
+id = "african-forest-elephant"
+language = "zh-hans"
+name = "非洲森林象"
+
 [entries."followers/agathodaemon"]
 category = "followers"
 description = "期间限定。远古巨龙能使用诸多技能。"
@@ -3366,6 +3397,13 @@ description = "会动的巨型仙人掌。能发射细针弹幕。"
 id = "big-cactus"
 language = "zh-hans"
 name = "大仙人掌"
+
+[entries."followers/bird-of-paradise"]
+category = "followers"
+description = "自然的伙伴，一起对抗泥沼怪。该追随者将自动赋予等级 1 的野兽羁绊。"
+id = "bird-of-paradise"
+language = "zh-hans"
+name = "天堂鸟"
 
 [entries."followers/bloodwarg"]
 category = "followers"
@@ -4724,6 +4762,13 @@ description = "期间限定。追随者「超究极宝箱怪」的新外观。"
 id = "the-mightiest-murk"
 language = "zh-hans"
 name = "超究极泥沼怪"
+
+[entries."followers/three-toed-sloth"]
+category = "followers"
+description = "自然的伙伴，一起对抗泥沼怪。该追随者将自动赋予等级 1 的野兽羁绊。"
+id = "three-toed-sloth"
+language = "zh-hans"
+name = "三趾树懒"
 
 [entries."followers/timber-the-beaver"]
 category = "followers"
@@ -17906,6 +17951,27 @@ id = "medusas-chestplate"
 language = "zh-hans"
 name = "美杜莎胸甲"
 
+[entries."items/melody-of-maluku"]
+category = "items"
+description = "泰拉繁密雨林原住民常唱歌曲的其中一个音符。该物品属于「泰拉的遗产: 雨歌」的一部分。"
+id = "melody-of-maluku"
+language = "zh-hans"
+name = "马鲁古之韵"
+
+[entries."items/melody-of-the-amazon"]
+category = "items"
+description = "泰拉繁密雨林原住民常唱歌曲的其中一个音符。该物品属于「泰拉的遗产: 雨歌」的一部分。"
+id = "melody-of-the-amazon"
+language = "zh-hans"
+name = "亚马逊之韵"
+
+[entries."items/melody-of-the-congo"]
+category = "items"
+description = "泰拉繁密雨林原住民常唱歌曲的其中一个音符。该物品属于「泰拉的遗产: 雨歌」的一部分。"
+id = "melody-of-the-congo"
+language = "zh-hans"
+name = "刚果之韵"
+
 [entries."items/memory-of-a-king"]
 category = "items"
 description = "堕落国王宫廷的一段褪色回忆。该物品为「国王的堕落」活动的一部分。"
@@ -24326,6 +24392,18 @@ id = "bloodwarg-dfa97df9"
 language = "zh-hans"
 name = "嗜血座狼 (重生者)"
 
+[entries."monsters/bloom-requiem"]
+category = "monsters"
+id = "bloom-requiem"
+language = "zh-hans"
+name = "繁花镇魂曲"
+
+[entries."monsters/bloom-requiem-bbd759a5"]
+category = "monsters"
+id = "bloom-requiem-bbd759a5"
+language = "zh-hans"
+name = "繁花镇魂曲"
+
 [entries."monsters/blue-flame"]
 category = "monsters"
 id = "blue-flame"
@@ -24361,6 +24439,18 @@ category = "monsters"
 id = "buried"
 language = "zh-hans"
 name = "活埋者"
+
+[entries."monsters/burning-chorus"]
+category = "monsters"
+id = "burning-chorus"
+language = "zh-hans"
+name = "灼燃合唱"
+
+[entries."monsters/burning-chorus-1a1ee7f3"]
+category = "monsters"
+id = "burning-chorus-1a1ee7f3"
+language = "zh-hans"
+name = "灼燃合唱"
 
 [entries."monsters/buzzard"]
 category = "monsters"
@@ -24871,6 +24961,18 @@ category = "monsters"
 id = "elite-riftguard"
 language = "zh-hans"
 name = "精英裂隙守卫"
+
+[entries."monsters/ember-choirist"]
+category = "monsters"
+id = "ember-choirist"
+language = "zh-hans"
+name = "余烬颂歌"
+
+[entries."monsters/ember-choirist-f398eca1"]
+category = "monsters"
+id = "ember-choirist-f398eca1"
+language = "zh-hans"
+name = "余烬颂歌"
 
 [entries."monsters/enlightened-acolyte"]
 category = "monsters"
@@ -27486,6 +27588,13 @@ description = "市场营销专家。"
 id = "purrly"
 language = "zh-hans"
 name = "Purrly"
+
+[entries."raids/rainforest-destroyer-murk"]
+category = "raids"
+description = "被泥沼怪破坏的庞大雨林。"
+id = "rainforest-destroyer-murk"
+language = "zh-hans"
+name = "雨林吞灭泥沼怪"
 
 [entries."raids/reef-destroyer-murk"]
 category = "raids"
@@ -34625,6 +34734,7 @@ terra_s_day = "泰拉日"
 terra_s_legacy = "泰拉的遗产"
 terra_s_legacy__natureblight = "泰拉的遗产: 萎化自然"
 terra_s_legacy__of_reefs_and_forests = "泰拉的遗产: 萎化自然"
+terra_s_legacy__rainsong = "泰拉的遗产: 雨歌"
 the_crimson_festival = "绯红节"
 the_cursed_queens = "诅咒女王"
 the_hallowed = "万圣异闻录"
@@ -35022,6 +35132,7 @@ level_2 = "等级 2"
 level_3 = "等级 3"
 lightning = "雷"
 lightning_sigil_ = "雷之印记+"
+mend_wall_ii = "补墙术 II"
 natura_ii = "天然魔法 II"
 physical = "物理"
 ponder = "沉思术"

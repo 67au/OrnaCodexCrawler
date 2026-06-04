@@ -2109,6 +2109,39 @@ rarity = "common"
 skills = ["spells/rebirth", "spells/frostfire-ii", "spells/heat-lightning-ii", "spells/ice-storm-ii", "spells/iced-earth-ii", "spells/quakestorm-ii", "spells/scorched-earth-ii"]
 tier = 9
 
+[entries."bosses/lamenter"]
+category = "bosses"
+drops = ["items/melody-of-the-congo"]
+events = ["terra_s_legacy__rainsong"]
+family = "common"
+icon = "/img/bosses/firemage3.png"
+id = "lamenter"
+rarity = "common"
+skills = ["spells/fire-sigil-2", "spells/scorched-earth", "spells/sonata-of-magic", "spells/wildfire-iii"]
+tier = 9
+
+[entries."bosses/lamenter-574c37b2"]
+category = "bosses"
+drops = ["items/melody-of-the-congo"]
+events = ["terra_s_legacy__rainsong"]
+family = "common"
+icon = "/img/bosses/firemage2.png"
+id = "lamenter-574c37b2"
+rarity = "common"
+skills = ["spells/fireblight", "spells/flame-iv", "spells/multi-flame", "spells/song-of-defense"]
+tier = 6
+
+[entries."bosses/lamenter-9463f223"]
+category = "bosses"
+drops = ["items/melody-of-the-congo"]
+events = ["terra_s_legacy__rainsong"]
+family = "common"
+icon = "/img/bosses/firemage1.png"
+id = "lamenter-9463f223"
+rarity = "common"
+skills = ["spells/burn", "spells/flame-ii", "spells/song-of-magic"]
+tier = 3
+
 [entries."bosses/large-wisp"]
 category = "bosses"
 drops = ["items/runestone"]
@@ -2303,6 +2336,17 @@ id = "mullo-of-fomoria"
 rarity = "rare"
 skills = ["spells/charge-ii", "spells/charge", "spells/smoke-bomb", "spells/bite"]
 tier = 4
+
+[entries."bosses/murk-incarnate"]
+category = "bosses"
+drops = ["items/melody-of-maluku"]
+events = ["terra_s_legacy__rainsong"]
+family = "common"
+icon = "/img/bosses/murkman2.png"
+id = "murk-incarnate"
+rarity = "common"
+skills = ["spells/drain-iii", "spells/inferno-ward", "spells/terra-ward", "spells/miasma-ii"]
+tier = 7
 
 [entries."bosses/nin-kilim"]
 category = "bosses"
@@ -4665,6 +4709,22 @@ buff_rate = 10
 protect_chance = 4
 spell_rate = 10
 
+[entries."followers/african-forest-elephant"]
+bestial_bond = [[{name = "ward_start", value = 2, type = "BONUS"}, {name = "mend_wall_ii", type = "ABILITY", key = "spells/mend-wall-ii"}], [{name = "bonded_ward", value = 50, type = "BOND"}, {name = "bonded_defense", value = 10, type = "BOND"}, {name = "bonded_resistance", value = 15, type = "BOND"}], [{name = "bonded_ward", value = 80, type = "BOND"}, {name = "bonded_defense", value = 10, type = "BOND"}, {name = "bonded_resistance", value = 15, type = "BOND"}]]
+category = "followers"
+events = ["terra_s_legacy__rainsong"]
+family = "common"
+icon = "/img/followers/elephant.png"
+id = "african-forest-elephant"
+rarity = "steward"
+related_to = ["spells/mend-wall-ii"]
+skills = ["spells/quake", "spells/trample", "spells/ward-of-iron"]
+tier = 3
+
+[entries."followers/african-forest-elephant".stats]
+buff_rate = 60
+spell_rate = 20
+
 [entries."followers/agathodaemon"]
 bestial_bond = [[{name = "lightning_res", value = 20, type = "BONUS"}], [{name = "bonded_attack", value = 10, type = "BOND"}, {name = "bonded_magic", value = 10, type = "BOND"}], [{name = "bonded_attack", value = 10, type = "BOND"}, {name = "bonded_magic", value = 10, type = "BOND"}]]
 category = "followers"
@@ -5328,6 +5388,22 @@ tier = 8
 [entries."followers/big-cactus".stats]
 attack_rate = 1
 spell_rate = 6
+
+[entries."followers/bird-of-paradise"]
+bestial_bond = [[{name = "water_res", value = 25, type = "BONUS"}, {name = "earthen_res", value = 25, type = "BONUS"}], [{name = "bonded_magic", value = 20, type = "BOND"}, {name = "t__mag_u", value = 8, type = "BOND"}], [{name = "bonded_magic", value = 40, type = "BOND"}]]
+category = "followers"
+events = ["terra_s_legacy__rainsong"]
+family = "animal"
+icon = "/img/followers/bird_of_paradise.png"
+id = "bird-of-paradise"
+rarity = "steward"
+skills = ["spells/wail", "spells/cockatrice-breath", "spells/great-meditation", "spells/natura-ii"]
+tier = 7
+
+[entries."followers/bird-of-paradise".stats]
+buff_rate = 25
+debuff_rate = 20
+spell_rate = 15
 
 [entries."followers/bloodwarg"]
 bestial_bond = [[{name = "bonded_attack", value = 7, type = "BOND"}, {name = "bonded_magic", value = 7, type = "BOND"}], [{name = "t__crit_u", value = 7, type = "BOND"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}, {name = "t__crit_uu", value = 7, type = "BOND"}]]
@@ -8281,6 +8357,22 @@ tier = 10
 [entries."followers/the-mightiest-murk".stats]
 buff_rate = 100
 spell_rate = 4
+
+[entries."followers/three-toed-sloth"]
+bestial_bond = [[{name = "bonded_attack", value = 6, type = "BOND"}, {name = "bonded_magic", value = 6, type = "BOND"}, {name = "bonded_defense", value = 6, type = "BOND"}, {name = "bonded_resistance", value = 6, type = "BOND"}, {name = "ult_defense", value = 50, type = "BONUS"}], [{name = "bonded_attack", value = 6, type = "BOND"}, {name = "bonded_magic", value = 6, type = "BOND"}, {name = "bonded_defense", value = 6, type = "BOND"}, {name = "bonded_resistance", value = 6, type = "BOND"}], [{name = "bonded_attack", value = 6, type = "BOND"}, {name = "bonded_magic", value = 6, type = "BOND"}, {name = "bonded_defense", value = 6, type = "BOND"}, {name = "bonded_resistance", value = 6, type = "BOND"}, {name = "t__all_u", value = 3, type = "BOND"}]]
+category = "followers"
+events = ["terra_s_legacy__rainsong"]
+family = "common"
+icon = "/img/followers/sloth.png"
+id = "three-toed-sloth"
+rarity = "steward"
+skills = ["spells/pendulus-ii", "spells/lacunus-ii", "spells/titans-power", "spells/towerfall"]
+tier = 10
+
+[entries."followers/three-toed-sloth".stats]
+buff_rate = 4
+protect_chance = 2
+spell_rate = 15
 
 [entries."followers/timber-the-beaver"]
 bestial_bond = [[{name = "ward_start", value = 2, type = "BONUS"}, {name = "earthen_res", value = 20, type = "BONUS"}], [{name = "bonded_ward", value = 50, type = "BOND"}, {name = "bonded_defense", value = 8, type = "BOND"}, {name = "bonded_resistance", value = 8, type = "BOND"}, {name = "t__def_u", value = 7, type = "BOND"}, {name = "t__res_u", value = 2, type = "BOND"}], [{name = "bonded_ward", value = 80, type = "BOND"}, {name = "bonded_defense", value = 9, type = "BOND"}, {name = "bonded_resistance", value = 9, type = "BOND"}]]
@@ -52010,6 +52102,39 @@ defense = 270
 resistance = 40
 ward = 2
 
+[entries."items/melody-of-maluku"]
+aura = "rare"
+category = "items"
+dropped_by = ["bosses/murk-incarnate"]
+exotic = 1
+icon = "/img/useables/music2.png"
+id = "melody-of-maluku"
+rarity = "rare"
+tier = 3
+useable_by = "all_classes"
+
+[entries."items/melody-of-the-amazon"]
+aura = "rare"
+category = "items"
+dropped_by = ["raids/rainforest-destroyer-murk"]
+exotic = 1
+icon = "/img/useables/music3.png"
+id = "melody-of-the-amazon"
+rarity = "rare"
+tier = 3
+useable_by = "all_classes"
+
+[entries."items/melody-of-the-congo"]
+aura = "rare"
+category = "items"
+dropped_by = ["bosses/lamenter", "bosses/lamenter-574c37b2", "bosses/lamenter-9463f223"]
+exotic = 1
+icon = "/img/useables/music1.png"
+id = "melody-of-the-congo"
+rarity = "rare"
+tier = 3
+useable_by = "all_classes"
+
 [entries."items/memory-of-a-king"]
 aura = "rare"
 category = "items"
@@ -72487,6 +72612,28 @@ related_to = ["spells/summon-arisen-bloodwarg"]
 skills = ["spells/bleed", "spells/cleave", "spells/inquest", "spells/quadcut-ii", "spells/horizontal-slash-iii"]
 tier = 10
 
+[entries."monsters/bloom-requiem"]
+category = "monsters"
+events = ["terra_s_legacy__rainsong"]
+family = "common"
+icon = "/img/monsters/firethief3.png"
+id = "bloom-requiem"
+rarity = "common"
+related_to = ["spells/summon-final-bloom"]
+skills = ["spells/fireblight", "spells/firestrike-iii", "spells/shadowed-firestrike", "spells/sonata-of-power"]
+tier = 9
+
+[entries."monsters/bloom-requiem-bbd759a5"]
+category = "monsters"
+events = ["terra_s_legacy__rainsong"]
+family = "common"
+icon = "/img/monsters/firewarrior3.png"
+id = "bloom-requiem-bbd759a5"
+rarity = "common"
+related_to = ["spells/summon-final-bloom"]
+skills = ["spells/fireblight", "spells/song-of-defense", "spells/firestrike-iii", "spells/tidal-ward", "spells/fire-sigil-2"]
+tier = 9
+
 [entries."monsters/blue-flame"]
 category = "monsters"
 drops = ["items/blue-dagger", "items/blue-gem", "items/blue-wand", "items/red-dagger", "items/red-gem", "items/ruby-wand"]
@@ -72548,6 +72695,26 @@ id = "buried"
 rarity = "rare"
 skills = ["spells/tremor", "spells/tremor-ii"]
 tier = 2
+
+[entries."monsters/burning-chorus"]
+category = "monsters"
+events = ["terra_s_legacy__rainsong"]
+family = "common"
+icon = "/img/monsters/firewarrior2.png"
+id = "burning-chorus"
+rarity = "common"
+skills = ["spells/burn", "spells/firestrike-ii", "spells/fireblight", "spells/song-of-defense"]
+tier = 6
+
+[entries."monsters/burning-chorus-1a1ee7f3"]
+category = "monsters"
+events = ["terra_s_legacy__rainsong"]
+family = "common"
+icon = "/img/monsters/firethief2.png"
+id = "burning-chorus-1a1ee7f3"
+rarity = "common"
+skills = ["spells/burn", "spells/firestrike-ii", "spells/fireblight", "spells/song-of-power"]
+tier = 6
 
 [entries."monsters/buzzard"]
 category = "monsters"
@@ -73459,6 +73626,26 @@ id = "elite-riftguard"
 rarity = "common"
 skills = ["spells/lightningstrike-ii", "spells/lunge-iii", "spells/prism-wall", "spells/spellbreaker", "spells/ward-of-steel"]
 tier = 8
+
+[entries."monsters/ember-choirist"]
+category = "monsters"
+events = ["terra_s_legacy__rainsong"]
+family = "common"
+icon = "/img/monsters/firethief1.png"
+id = "ember-choirist"
+rarity = "common"
+skills = ["spells/burn", "spells/fire-arrow", "spells/firestrike"]
+tier = 3
+
+[entries."monsters/ember-choirist-f398eca1"]
+category = "monsters"
+events = ["terra_s_legacy__rainsong"]
+family = "common"
+icon = "/img/monsters/firewarrior1.png"
+id = "ember-choirist-f398eca1"
+rarity = "common"
+skills = ["spells/burn", "spells/firestrike", "spells/song-of-defense"]
+tier = 3
 
 [entries."monsters/enlightened-acolyte"]
 abilities = ["second_chance"]
@@ -77926,6 +78113,16 @@ id = "purrly"
 skills = ["spells/catastrophe-ii", "spells/great-rally-of-charon", "spells/summon-very-scary-skeleton", "spells/transference-ii", "spells/summon-ancient-jinn", "spells/wail-ii"]
 tier = 8
 
+[entries."raids/rainforest-destroyer-murk"]
+category = "raids"
+drops = ["items/exp-potion", "items/dayleaf", "items/dowsing-rod", "items/melody-of-the-amazon", "items/panacea", "items/farsight"]
+events = ["terra_s_legacy__rainsong"]
+hp = 46475000
+icon = "/img/bosses/great_murk4.png"
+id = "rainforest-destroyer-murk"
+skills = ["spells/sap", "spells/alpha-dart", "spells/barrier-ii", "spells/onslaught", "spells/putrid-breath", "spells/miasma-iii"]
+tier = 10
+
 [entries."raids/reef-destroyer-murk"]
 category = "raids"
 drops = ["items/astralseed", "items/exp-potion", "items/dayleaf", "items/dowsing-rod", "items/panacea", "items/farsight"]
@@ -78421,7 +78618,7 @@ id = "alpha-dart"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 3
-used_by = ["bosses/damona-of-fomoria", "bosses/niskus-of-fomoria", "bosses/sequana-of-fomoria", "monsters/aine", "monsters/beheaded-trickster", "monsters/finn", "monsters/murk", "monsters/murk-066bec2c", "monsters/murk-503f0bb5", "monsters/perseus-apostle", "raids/reef-destroyer-murk"]
+used_by = ["bosses/damona-of-fomoria", "bosses/niskus-of-fomoria", "bosses/sequana-of-fomoria", "monsters/aine", "monsters/beheaded-trickster", "monsters/finn", "monsters/murk", "monsters/murk-066bec2c", "monsters/murk-503f0bb5", "monsters/perseus-apostle", "raids/rainforest-destroyer-murk", "raids/reef-destroyer-murk"]
 
 [[entries."spells/alpha-dart".causes]]
 chance = 25
@@ -79535,7 +79732,7 @@ learned_by = ["classes/24"]
 spell_type = "spell"
 targets = "yourself"
 tier = 4
-used_by = ["bosses/caturix-of-fomoria", "bosses/havel", "bosses/imona-of-fomoria", "bosses/king-fomor-wintara", "bosses/ogmios-of-fomoria", "raids/reef-destroyer-murk"]
+used_by = ["bosses/caturix-of-fomoria", "bosses/havel", "bosses/imona-of-fomoria", "bosses/king-fomor-wintara", "bosses/ogmios-of-fomoria", "raids/rainforest-destroyer-murk", "raids/reef-destroyer-murk"]
 
 [[entries."spells/barrier-ii".gives]]
 chance = 100
@@ -80591,7 +80788,7 @@ learned_by = ["classes/32"]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 2
-used_by = ["bosses/carman", "bosses/carman-of-the-underworld", "bosses/flames", "followers/agathodaemon", "followers/balor-flame", "followers/carman", "followers/cerberus", "followers/greater-yokai", "followers/surtrs-flame", "followers/surtrs-mighty-flame", "monsters/crimson-yokai", "monsters/drake", "monsters/fallen-witch", "monsters/flame"]
+used_by = ["bosses/carman", "bosses/carman-of-the-underworld", "bosses/flames", "bosses/lamenter-9463f223", "followers/agathodaemon", "followers/balor-flame", "followers/carman", "followers/cerberus", "followers/greater-yokai", "followers/surtrs-flame", "followers/surtrs-mighty-flame", "monsters/burning-chorus", "monsters/burning-chorus-1a1ee7f3", "monsters/crimson-yokai", "monsters/drake", "monsters/ember-choirist", "monsters/ember-choirist-f398eca1", "monsters/fallen-witch", "monsters/flame"]
 
 [[entries."spells/burn".causes]]
 chance = 90
@@ -81247,7 +81444,7 @@ learned_by = ["classes/29"]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 7
-used_by = ["followers/great-cockatrice", "raids/age-old-mimic", "raids/fey-cockatrice", "raids/mimic-king-of-kings", "raids/the-fool", "raids/the-fool-ef1c6cb2"]
+used_by = ["followers/bird-of-paradise", "followers/great-cockatrice", "raids/age-old-mimic", "raids/fey-cockatrice", "raids/mimic-king-of-kings", "raids/the-fool", "raids/the-fool-ef1c6cb2"]
 
 [[entries."spells/cockatrice-breath".causes]]
 chance = 20
@@ -83089,7 +83286,7 @@ learned_by = ["classes/37"]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 8
-used_by = ["bosses/anubis", "bosses/arisen-alfar-lord", "bosses/bashe-hungry-one", "followers/bashe-hungry-one", "followers/triton", "monsters/alfar-50af8af8", "monsters/alfar-mage-36d8dea2", "monsters/ankou", "monsters/coral-reef", "monsters/cthulhu-edf67d83", "monsters/fallen-nekromancer", "monsters/fey-finfolk", "monsters/finfolk-ef529612", "monsters/frilled-naga-mage", "monsters/great-gazer-5e49b351", "monsters/mighty-yeti", "monsters/ortanite-golem", "monsters/runeblade-of-finesse"]
+used_by = ["bosses/anubis", "bosses/arisen-alfar-lord", "bosses/bashe-hungry-one", "bosses/murk-incarnate", "followers/bashe-hungry-one", "followers/triton", "monsters/alfar-50af8af8", "monsters/alfar-mage-36d8dea2", "monsters/ankou", "monsters/coral-reef", "monsters/cthulhu-edf67d83", "monsters/fallen-nekromancer", "monsters/fey-finfolk", "monsters/finfolk-ef529612", "monsters/frilled-naga-mage", "monsters/great-gazer-5e49b351", "monsters/mighty-yeti", "monsters/ortanite-golem", "monsters/runeblade-of-finesse"]
 
 [entries."spells/drain-iii".stats]
 costs = 150
@@ -84219,7 +84416,7 @@ learned_by = ["classes/5"]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 2
-used_by = ["monsters/fallen-rogue", "monsters/fomorian-rogue"]
+used_by = ["monsters/ember-choirist", "monsters/fallen-rogue", "monsters/fomorian-rogue"]
 
 [[entries."spells/fire-arrow".causes]]
 chance = 25
@@ -84255,6 +84452,7 @@ related_to = ["followers/ancient-jinn", "followers/anubis"]
 spell_type = "spell"
 targets = "every_opponent_in_a_battle"
 tier = 9
+used_by = ["bosses/lamenter", "monsters/bloom-requiem-bbd759a5"]
 
 [[entries."spells/fire-sigil-2".causes]]
 chance = 75
@@ -84308,7 +84506,7 @@ id = "fireblight"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 6
-used_by = ["bosses/caoranach", "followers/agathodaemon", "followers/quetzalcoatl-feathered-one"]
+used_by = ["bosses/caoranach", "bosses/lamenter-574c37b2", "followers/agathodaemon", "followers/quetzalcoatl-feathered-one", "monsters/bloom-requiem", "monsters/bloom-requiem-bbd759a5", "monsters/burning-chorus", "monsters/burning-chorus-1a1ee7f3"]
 
 [[entries."spells/fireblight".causes]]
 chance = 40
@@ -84341,7 +84539,7 @@ learned_by = ["classes/92", "classes/13", "classes/32"]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 2
-used_by = ["bosses/draconian-lord-4938a8df668fd665508d59b6b053a26d", "bosses/flames", "bosses/twilight-knight", "monsters/bandit", "monsters/blue-flame", "monsters/crimson-yokai", "monsters/drake", "monsters/fallen-knight", "monsters/flame", "monsters/garm", "monsters/hobgoblin", "monsters/odok-brute", "monsters/pupil-of-the-flame", "monsters/scorcher", "monsters/warg", "raids/dracon"]
+used_by = ["bosses/draconian-lord-4938a8df668fd665508d59b6b053a26d", "bosses/flames", "bosses/twilight-knight", "monsters/bandit", "monsters/blue-flame", "monsters/crimson-yokai", "monsters/drake", "monsters/ember-choirist", "monsters/ember-choirist-f398eca1", "monsters/fallen-knight", "monsters/flame", "monsters/garm", "monsters/hobgoblin", "monsters/odok-brute", "monsters/pupil-of-the-flame", "monsters/scorcher", "monsters/warg", "raids/dracon"]
 
 [[entries."spells/firestrike".causes]]
 chance = 5
@@ -84361,7 +84559,7 @@ learned_by = ["classes/94", "classes/25", "classes/32"]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 5
-used_by = ["bosses/arisen-vulcan-the-red-knight", "bosses/cavelord", "bosses/dagda", "bosses/fallen-vulcan-the-red-knight", "bosses/pyre", "bosses/sumner-artemis", "followers/apprentice-of-flames-renewed", "followers/dagda-disciple", "followers/dagda-disciple-9d47d282", "monsters/apprentice-of-flames-renewed", "monsters/balor-flame", "monsters/disciple-of-magmic-forces", "monsters/elite-balor-flame", "monsters/guivre", "raids/cerus", "raids/mmmpizza"]
+used_by = ["bosses/arisen-vulcan-the-red-knight", "bosses/cavelord", "bosses/dagda", "bosses/fallen-vulcan-the-red-knight", "bosses/pyre", "bosses/sumner-artemis", "followers/apprentice-of-flames-renewed", "followers/dagda-disciple", "followers/dagda-disciple-9d47d282", "monsters/apprentice-of-flames-renewed", "monsters/balor-flame", "monsters/burning-chorus", "monsters/burning-chorus-1a1ee7f3", "monsters/disciple-of-magmic-forces", "monsters/elite-balor-flame", "monsters/guivre", "raids/cerus", "raids/mmmpizza"]
 
 [[entries."spells/firestrike-ii".causes]]
 chance = 15
@@ -84381,7 +84579,7 @@ learned_by = ["classes/96", "classes/32"]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 7
-used_by = ["followers/cerberus", "followers/phoenix", "monsters/swordbearer-of-finesse-de62c6bd", "raids/arisen-merlin", "raids/arisen-pumpkinhead", "raids/arisen-surtr", "raids/fallen-merlin", "raids/ferocious-cerus", "raids/furious-cerus", "raids/phoenix", "raids/pumpkinhead", "raids/surtr"]
+used_by = ["followers/cerberus", "followers/phoenix", "monsters/bloom-requiem", "monsters/bloom-requiem-bbd759a5", "monsters/swordbearer-of-finesse-de62c6bd", "raids/arisen-merlin", "raids/arisen-pumpkinhead", "raids/arisen-surtr", "raids/fallen-merlin", "raids/ferocious-cerus", "raids/furious-cerus", "raids/phoenix", "raids/pumpkinhead", "raids/surtr"]
 
 [[entries."spells/firestrike-iii".causes]]
 chance = 25
@@ -84455,7 +84653,7 @@ learned_by = ["classes/1"]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 2
-used_by = ["bosses/arisen-vulcan-the-red-knight", "bosses/demon-prince", "bosses/fallen-vulcan-the-red-knight", "bosses/flames", "bosses/fomorian-lord", "followers/draugr-mage", "followers/gnome", "followers/hellhound", "monsters/blue-flame", "monsters/demon", "monsters/draconian-acolyte", "monsters/draugr-mage", "monsters/fallen-archmage", "monsters/firefly", "monsters/flame", "monsters/flame-core", "monsters/fomorian-mage", "monsters/gazer", "monsters/gnome", "monsters/hellhound", "monsters/hobgoblin-mage", "monsters/jinn", "monsters/phoenix-pledgeling"]
+used_by = ["bosses/arisen-vulcan-the-red-knight", "bosses/demon-prince", "bosses/fallen-vulcan-the-red-knight", "bosses/flames", "bosses/fomorian-lord", "bosses/lamenter-9463f223", "followers/draugr-mage", "followers/gnome", "followers/hellhound", "monsters/blue-flame", "monsters/demon", "monsters/draconian-acolyte", "monsters/draugr-mage", "monsters/fallen-archmage", "monsters/firefly", "monsters/flame", "monsters/flame-core", "monsters/fomorian-mage", "monsters/gazer", "monsters/gnome", "monsters/hellhound", "monsters/hobgoblin-mage", "monsters/jinn", "monsters/phoenix-pledgeling"]
 
 [[entries."spells/flame-ii".causes]]
 chance = 10
@@ -84492,7 +84690,7 @@ spell_type = "spell"
 tags = ["found_in_arcanists"]
 targets = "a_single_opponent"
 tier = 6
-used_by = ["bosses/dagda", "followers/alfar-mage", "followers/apprentice-of-flames-renewed", "followers/balor-flame", "followers/carman", "followers/dagda-disciple", "followers/dagda-disciple-9d47d282", "monsters/apprentice-of-flames-renewed", "monsters/disciple-of-magmic-forces", "monsters/runeblade-of-finesse-ad34c73a"]
+used_by = ["bosses/dagda", "bosses/lamenter-574c37b2", "followers/alfar-mage", "followers/apprentice-of-flames-renewed", "followers/balor-flame", "followers/carman", "followers/dagda-disciple", "followers/dagda-disciple-9d47d282", "monsters/apprentice-of-flames-renewed", "monsters/disciple-of-magmic-forces", "monsters/runeblade-of-finesse-ad34c73a"]
 
 [[entries."spells/flame-iv".causes]]
 chance = 10
@@ -85841,7 +86039,7 @@ related_to = ["items/aaru-robe", "items/arisen-aaru-robe"]
 spell_type = "spell"
 targets = "yourself"
 tier = 7
-used_by = ["bosses/flax44", "followers/archimedes", "followers/arisen-spiritgarm", "followers/arisen-spiritgarm-ef5ee104", "followers/chat-noir", "followers/experienced-wolpertinger", "monsters/follower-of-kerberos-a0c03351", "monsters/follower-of-kerberos-baef9151", "monsters/follower-of-kerberos-bd3f5aeb", "monsters/follower-of-kerberos-c2c56d32", "monsters/spiritgarm-732978de", "raids/arisen-menja", "raids/menja"]
+used_by = ["bosses/flax44", "followers/archimedes", "followers/arisen-spiritgarm", "followers/arisen-spiritgarm-ef5ee104", "followers/bird-of-paradise", "followers/chat-noir", "followers/experienced-wolpertinger", "monsters/follower-of-kerberos-a0c03351", "monsters/follower-of-kerberos-baef9151", "monsters/follower-of-kerberos-bd3f5aeb", "monsters/follower-of-kerberos-c2c56d32", "monsters/spiritgarm-732978de", "raids/arisen-menja", "raids/menja"]
 
 [[entries."spells/great-meditation".gives]]
 chance = 100
@@ -87222,7 +87420,7 @@ learned_by = ["classes/36"]
 spell_type = "spell"
 targets = "yourself"
 tier = 8
-used_by = ["bosses/heimdall"]
+used_by = ["bosses/heimdall", "bosses/murk-incarnate"]
 
 [[entries."spells/inferno-ward".gives]]
 chance = 100
@@ -87531,7 +87729,7 @@ id = "lacunus-ii"
 spell_type = "spell"
 targets = "every_opponent_in_a_battle"
 tier = 9
-used_by = ["bosses/arisen-dagda"]
+used_by = ["bosses/arisen-dagda", "followers/three-toed-sloth"]
 
 [[entries."spells/lacunus-ii".causes]]
 chance = 15
@@ -88810,6 +89008,7 @@ category = "spells"
 icon = "/img/spells/heal.png"
 id = "mend-wall-ii"
 learned_by = ["classes/93", "classes/8"]
+related_to = ["followers/african-forest-elephant"]
 spell_type = "spell"
 targets = "any_member_of_your_party"
 tier = 3
@@ -88919,7 +89118,7 @@ id = "miasma-ii"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 9
-used_by = ["bosses/odin", "bosses/queen-of-dokkalfar", "followers/ebon-scruug", "monsters/carman-5458cf68", "monsters/chimera", "monsters/fey-selkie", "monsters/mimic-king", "raids/arisen-naggeneen", "raids/arisen-thronemaker-osiris", "raids/arisen-thronemaker-ptah", "raids/fey-chimera", "raids/final-horseman", "raids/second-horseman", "raids/third-horseman"]
+used_by = ["bosses/murk-incarnate", "bosses/odin", "bosses/queen-of-dokkalfar", "followers/ebon-scruug", "monsters/carman-5458cf68", "monsters/chimera", "monsters/fey-selkie", "monsters/mimic-king", "raids/arisen-naggeneen", "raids/arisen-thronemaker-osiris", "raids/arisen-thronemaker-ptah", "raids/fey-chimera", "raids/final-horseman", "raids/second-horseman", "raids/third-horseman"]
 
 [[entries."spells/miasma-ii".causes]]
 chance = 25
@@ -88955,7 +89154,7 @@ id = "miasma-iii"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 10
-used_by = ["bosses/oillipheist", "followers/aaru-viper", "followers/charmed-deathadder", "raids/arisen-morrigan", "raids/cursed-king-arthus", "raids/great-anguish", "raids/sister-badb", "raids/sister-macha", "raids/sister-neman", "raids/the-fool", "raids/the-fool-ef1c6cb2", "raids/the-mightiest-mimic", "raids/the-morrigan"]
+used_by = ["bosses/oillipheist", "followers/aaru-viper", "followers/charmed-deathadder", "raids/arisen-morrigan", "raids/cursed-king-arthus", "raids/great-anguish", "raids/rainforest-destroyer-murk", "raids/sister-badb", "raids/sister-macha", "raids/sister-neman", "raids/the-fool", "raids/the-fool-ef1c6cb2", "raids/the-mightiest-mimic", "raids/the-morrigan"]
 
 [[entries."spells/miasma-iii".causes]]
 chance = 15
@@ -89158,7 +89357,7 @@ learned_by = ["classes/88", "classes/27"]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 6
-used_by = ["bosses/arisen-vulcan-the-red-knight", "bosses/cthulhu", "bosses/fallen-vulcan-the-red-knight", "followers/balor-flame", "monsters/balor-flame", "monsters/crimson-yokai", "monsters/dark-dragon", "monsters/elite-balor-flame", "raids/arisen-fenja", "raids/cerus", "raids/cursed-king-arthus", "raids/fallen-king-arthus", "raids/fenja", "raids/menja", "raids/mmmpizza"]
+used_by = ["bosses/arisen-vulcan-the-red-knight", "bosses/cthulhu", "bosses/fallen-vulcan-the-red-knight", "bosses/lamenter-574c37b2", "followers/balor-flame", "monsters/balor-flame", "monsters/crimson-yokai", "monsters/dark-dragon", "monsters/elite-balor-flame", "raids/arisen-fenja", "raids/cerus", "raids/cursed-king-arthus", "raids/fallen-king-arthus", "raids/fenja", "raids/menja", "raids/mmmpizza"]
 
 [[entries."spells/multi-flame".causes]]
 chance = 20
@@ -89525,7 +89724,7 @@ related_to = ["followers/ancient-jinn", "followers/anubis"]
 spell_type = "spell"
 targets = "every_opponent_in_a_battle"
 tier = 7
-used_by = ["bosses/arisen-cursed-caturix-of-fomoria", "bosses/arisen-cursed-esus-of-fomoria", "bosses/arisen-cursed-imona-of-fomoria", "bosses/arisen-cursed-king-fomor-wintara", "bosses/arisen-cursed-lero-of-fomoria", "bosses/arisen-cursed-ogmios-of-fomoria", "bosses/cursed-caturix-of-fomoria", "bosses/cursed-esus-of-fomoria", "bosses/cursed-imona-of-fomoria", "bosses/cursed-lero-of-fomoria", "bosses/cursed-ogmios-of-fomoria", "followers/fey-dragon", "monsters/fallen-starseeker"]
+used_by = ["bosses/arisen-cursed-caturix-of-fomoria", "bosses/arisen-cursed-esus-of-fomoria", "bosses/arisen-cursed-imona-of-fomoria", "bosses/arisen-cursed-king-fomor-wintara", "bosses/arisen-cursed-lero-of-fomoria", "bosses/arisen-cursed-ogmios-of-fomoria", "bosses/cursed-caturix-of-fomoria", "bosses/cursed-esus-of-fomoria", "bosses/cursed-imona-of-fomoria", "bosses/cursed-lero-of-fomoria", "bosses/cursed-ogmios-of-fomoria", "followers/bird-of-paradise", "followers/fey-dragon", "monsters/fallen-starseeker"]
 
 [[entries."spells/natura-ii".causes]]
 chance = 10
@@ -90084,7 +90283,7 @@ id = "onslaught"
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 5
-used_by = ["bosses/arisen-balor-king", "bosses/arisen-dagda", "bosses/arisen-gymir", "bosses/baldr", "bosses/balor-king", "bosses/behemoth-9697d9ae", "bosses/colossus", "bosses/cursed-bormana-of-fomoria", "bosses/cursed-eostre-of-fomoria", "bosses/dagda", "bosses/elite-orc-lord", "bosses/fey-kelpie", "bosses/griffin", "bosses/havel", "bosses/kelpie", "bosses/manticore", "bosses/mmmpizza", "bosses/nin-kilim", "bosses/odok-golem", "bosses/orc-lord-aae6c979", "bosses/pollux", "bosses/sumner-apollo", "bosses/the-creator", "followers/balor-worm", "followers/colossus", "followers/dagda-disciple", "followers/dagda-disciple-9d47d282", "followers/fey-kelpie", "followers/gwyllgi", "followers/hengreon", "followers/lily", "followers/steward-gwyllgi", "followers/steward-hengreon", "followers/war-horse", "monsters/ancient-cyclops", "monsters/behemoth", "monsters/dark-pegasus", "monsters/elite-nothren-berserker", "monsters/elite-nothren-valkyrie", "monsters/follower-of-kerberos", "monsters/follower-of-kerberos-ac5dc474", "monsters/follower-of-kerberos-ca288318", "monsters/follower-of-kerberos-eb83ccd1", "monsters/frost-troll", "monsters/great-eel", "monsters/great-orc", "monsters/greater-triton", "monsters/gwyllgi", "monsters/headless", "monsters/hengreon", "monsters/infernal-bear", "monsters/minotaur-935686b0", "monsters/nothren-berserker", "monsters/nothren-valkyrie", "monsters/orc-lord", "monsters/pegasus", "monsters/succubus", "monsters/swordbearer-of-finesse-3574bce3", "monsters/triton", "raids/almighty-balin", "raids/apollyon", "raids/arisen-asteria-of-olympia", "raids/arisen-atlas-of-olympia", "raids/arisen-balin", "raids/arisen-ebon-scruug", "raids/arisen-pumpkinhead", "raids/arisen-pumpkinless", "raids/arisen-surtr", "raids/asteria-of-olympia", "raids/atlas-of-olympia", "raids/cerus", "raids/ebon-scruug", "raids/ferocious-cerus", "raids/fey-yeti", "raids/final-horseman", "raids/finesse", "raids/furious-cerus", "raids/grand-knight-lugus", "raids/havel", "raids/last-titan", "raids/maelor", "raids/mmmpizza", "raids/pumpkinhead", "raids/pumpkinless", "raids/scruug", "raids/sister-badb", "raids/surtr", "raids/the-creator", "raids/the-dioscuri", "raids/the-last-hippogriff", "raids/third-horseman"]
+used_by = ["bosses/arisen-balor-king", "bosses/arisen-dagda", "bosses/arisen-gymir", "bosses/baldr", "bosses/balor-king", "bosses/behemoth-9697d9ae", "bosses/colossus", "bosses/cursed-bormana-of-fomoria", "bosses/cursed-eostre-of-fomoria", "bosses/dagda", "bosses/elite-orc-lord", "bosses/fey-kelpie", "bosses/griffin", "bosses/havel", "bosses/kelpie", "bosses/manticore", "bosses/mmmpizza", "bosses/nin-kilim", "bosses/odok-golem", "bosses/orc-lord-aae6c979", "bosses/pollux", "bosses/sumner-apollo", "bosses/the-creator", "followers/balor-worm", "followers/colossus", "followers/dagda-disciple", "followers/dagda-disciple-9d47d282", "followers/fey-kelpie", "followers/gwyllgi", "followers/hengreon", "followers/lily", "followers/steward-gwyllgi", "followers/steward-hengreon", "followers/war-horse", "monsters/ancient-cyclops", "monsters/behemoth", "monsters/dark-pegasus", "monsters/elite-nothren-berserker", "monsters/elite-nothren-valkyrie", "monsters/follower-of-kerberos", "monsters/follower-of-kerberos-ac5dc474", "monsters/follower-of-kerberos-ca288318", "monsters/follower-of-kerberos-eb83ccd1", "monsters/frost-troll", "monsters/great-eel", "monsters/great-orc", "monsters/greater-triton", "monsters/gwyllgi", "monsters/headless", "monsters/hengreon", "monsters/infernal-bear", "monsters/minotaur-935686b0", "monsters/nothren-berserker", "monsters/nothren-valkyrie", "monsters/orc-lord", "monsters/pegasus", "monsters/succubus", "monsters/swordbearer-of-finesse-3574bce3", "monsters/triton", "raids/almighty-balin", "raids/apollyon", "raids/arisen-asteria-of-olympia", "raids/arisen-atlas-of-olympia", "raids/arisen-balin", "raids/arisen-ebon-scruug", "raids/arisen-pumpkinhead", "raids/arisen-pumpkinless", "raids/arisen-surtr", "raids/asteria-of-olympia", "raids/atlas-of-olympia", "raids/cerus", "raids/ebon-scruug", "raids/ferocious-cerus", "raids/fey-yeti", "raids/final-horseman", "raids/finesse", "raids/furious-cerus", "raids/grand-knight-lugus", "raids/havel", "raids/last-titan", "raids/maelor", "raids/mmmpizza", "raids/pumpkinhead", "raids/pumpkinless", "raids/rainforest-destroyer-murk", "raids/scruug", "raids/sister-badb", "raids/surtr", "raids/the-creator", "raids/the-dioscuri", "raids/the-last-hippogriff", "raids/third-horseman"]
 
 [[entries."spells/onslaught".causes]]
 chance = 25
@@ -90262,7 +90461,7 @@ id = "pendulus-ii"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 7
-used_by = ["bosses/sumner-hephaestus", "raids/arisen-thronemaker-sekhmet", "raids/thronemaker-sekhmet"]
+used_by = ["bosses/sumner-hephaestus", "followers/three-toed-sloth", "raids/arisen-thronemaker-sekhmet", "raids/thronemaker-sekhmet"]
 
 [entries."spells/pendulus-ii".stats]
 costs = 200
@@ -90861,7 +91060,7 @@ id = "putrid-breath"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 6
-used_by = ["raids/age-old-mimic", "raids/arisen-naggeneen", "raids/mimic-king-of-kings", "raids/naggeneen", "raids/reef-destroyer-murk", "raids/the-fool", "raids/the-fool-ef1c6cb2", "raids/the-mightiest-mimic"]
+used_by = ["raids/age-old-mimic", "raids/arisen-naggeneen", "raids/mimic-king-of-kings", "raids/naggeneen", "raids/rainforest-destroyer-murk", "raids/reef-destroyer-murk", "raids/the-fool", "raids/the-fool-ef1c6cb2", "raids/the-mightiest-mimic"]
 
 [[entries."spells/putrid-breath".causes]]
 chance = 100
@@ -90945,7 +91144,7 @@ learned_by = ["classes/4"]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 3
-used_by = ["bosses/carman", "bosses/carman-of-the-underworld", "bosses/fomorian-lord", "bosses/great-gazer", "bosses/undead-golem-b7ec8937", "followers/earthen-dragon", "followers/great-gazer", "followers/monoceros", "monsters/ancient-draugr-mage", "monsters/ancient-gazer", "monsters/crimson-gazer", "monsters/dark-mage", "monsters/draconian-acolyte", "monsters/earth-core", "monsters/fomorian-mage", "monsters/high-fomorian-mage", "monsters/legionnaire", "monsters/monoceros", "monsters/woodland-elf-mage", "raids/havel", "raids/last-titan"]
+used_by = ["bosses/carman", "bosses/carman-of-the-underworld", "bosses/fomorian-lord", "bosses/great-gazer", "bosses/undead-golem-b7ec8937", "followers/african-forest-elephant", "followers/earthen-dragon", "followers/great-gazer", "followers/monoceros", "monsters/ancient-draugr-mage", "monsters/ancient-gazer", "monsters/crimson-gazer", "monsters/dark-mage", "monsters/draconian-acolyte", "monsters/earth-core", "monsters/fomorian-mage", "monsters/high-fomorian-mage", "monsters/legionnaire", "monsters/monoceros", "monsters/woodland-elf-mage", "raids/havel", "raids/last-titan"]
 
 [[entries."spells/quake".causes]]
 chance = 25
@@ -92197,7 +92396,7 @@ spell_type = "spell"
 tags = ["found_in_arcanists"]
 targets = "a_single_opponent"
 tier = 2
-used_by = ["monsters/murk", "monsters/murk-066bec2c", "monsters/murk-503f0bb5", "raids/reef-destroyer-murk"]
+used_by = ["monsters/murk", "monsters/murk-066bec2c", "monsters/murk-503f0bb5", "raids/rainforest-destroyer-murk", "raids/reef-destroyer-murk"]
 
 [entries."spells/sap".stats]
 costs = 15
@@ -92212,7 +92411,7 @@ learned_by = ["classes/52"]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 9
-used_by = ["bosses/flax44", "followers/quetzalcoatl-feathered-one", "monsters/immortal-magus", "raids/tricky-aries"]
+used_by = ["bosses/flax44", "bosses/lamenter", "followers/quetzalcoatl-feathered-one", "monsters/immortal-magus", "raids/tricky-aries"]
 
 [[entries."spells/scorched-earth".causes]]
 chance = 20
@@ -92419,6 +92618,7 @@ learned_by = ["classes/67"]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 9
+used_by = ["monsters/bloom-requiem"]
 
 [[entries."spells/shadowed-firestrike".causes]]
 chance = 25
@@ -92906,7 +93106,7 @@ id = "sonata-of-magic"
 spell_type = "spell"
 targets = "any_member_of_your_party"
 tier = 9
-used_by = ["followers/arisen-cernunnos", "monsters/lyonesse-warlock"]
+used_by = ["bosses/lamenter", "followers/arisen-cernunnos", "monsters/lyonesse-warlock"]
 
 [[entries."spells/sonata-of-magic".causes]]
 chance = 25
@@ -92934,7 +93134,7 @@ id = "sonata-of-power"
 spell_type = "spell"
 targets = "any_member_of_your_party"
 tier = 9
-used_by = ["followers/arisen-cernunnos", "raids/arisen-thronemaker-neith"]
+used_by = ["followers/arisen-cernunnos", "monsters/bloom-requiem", "raids/arisen-thronemaker-neith"]
 
 [[entries."spells/sonata-of-power".causes]]
 chance = 25
@@ -92990,7 +93190,7 @@ id = "song-of-defense"
 spell_type = "spell"
 targets = "any_member_of_your_party"
 tier = 6
-used_by = ["followers/cernunnos", "followers/scarecrow"]
+used_by = ["bosses/lamenter-574c37b2", "followers/cernunnos", "followers/scarecrow", "monsters/bloom-requiem-bbd759a5", "monsters/burning-chorus", "monsters/ember-choirist-f398eca1"]
 
 [[entries."spells/song-of-defense".causes]]
 chance = 25
@@ -93018,7 +93218,7 @@ id = "song-of-magic"
 spell_type = "spell"
 targets = "any_member_of_your_party"
 tier = 6
-used_by = ["followers/cernunnos", "followers/scarecrow", "monsters/cernunnos"]
+used_by = ["bosses/lamenter-9463f223", "followers/cernunnos", "followers/scarecrow", "monsters/cernunnos"]
 
 [[entries."spells/song-of-magic".causes]]
 chance = 25
@@ -93046,7 +93246,7 @@ id = "song-of-power"
 spell_type = "spell"
 targets = "any_member_of_your_party"
 tier = 6
-used_by = ["bosses/cursed-bormana-of-fomoria", "bosses/cursed-caticatona-of-fomoria", "bosses/cursed-eostre-of-fomoria", "bosses/cursed-gobannos-of-fomoria", "bosses/cursed-king-fomor-sumner", "followers/cernunnos", "followers/scarecrow", "monsters/anteros-ruffian", "raids/thronemaker-neith"]
+used_by = ["bosses/cursed-bormana-of-fomoria", "bosses/cursed-caticatona-of-fomoria", "bosses/cursed-eostre-of-fomoria", "bosses/cursed-gobannos-of-fomoria", "bosses/cursed-king-fomor-sumner", "followers/cernunnos", "followers/scarecrow", "monsters/anteros-ruffian", "monsters/burning-chorus-1a1ee7f3", "raids/thronemaker-neith"]
 
 [[entries."spells/song-of-power".causes]]
 chance = 25
@@ -94269,6 +94469,7 @@ costs = 290
 category = "spells"
 icon = "/img/monsters/terras/giant_tortoise.png"
 id = "summon-final-bloom"
+related_to = ["monsters/bloom-requiem-bbd759a5", "monsters/bloom-requiem"]
 spell_type = "spell"
 tags = ["off_hand_ability"]
 targets = "yourself"
@@ -95584,6 +95785,7 @@ learned_by = ["classes/36"]
 spell_type = "spell"
 targets = "yourself"
 tier = 8
+used_by = ["bosses/murk-incarnate"]
 
 [[entries."spells/terra-ward".gives]]
 chance = 100
@@ -95825,6 +96027,7 @@ learned_by = ["classes/36"]
 spell_type = "spell"
 targets = "yourself"
 tier = 8
+used_by = ["monsters/bloom-requiem-bbd759a5"]
 
 [[entries."spells/tidal-ward".gives]]
 chance = 100
@@ -95964,7 +96167,7 @@ id = "titans-power"
 spell_type = "spell"
 targets = "yourself"
 tier = 10
-used_by = ["bosses/titan-mnemosyne", "followers/replica-eos", "followers/replica-oceanus", "followers/replica-prometheus", "followers/replica-selene", "followers/replica-themis", "raids/hyperion"]
+used_by = ["bosses/titan-mnemosyne", "followers/replica-eos", "followers/replica-oceanus", "followers/replica-prometheus", "followers/replica-selene", "followers/replica-themis", "followers/three-toed-sloth", "raids/hyperion"]
 
 [[entries."spells/titans-power".gives]]
 chance = 75
@@ -96064,7 +96267,7 @@ id = "towerfall"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 10
-used_by = ["followers/asteria-of-olympia", "followers/atlas-of-olympia", "followers/ophion-of-olympia", "followers/replica-eos", "followers/replica-oceanus", "followers/replica-prometheus", "followers/replica-themis"]
+used_by = ["followers/asteria-of-olympia", "followers/atlas-of-olympia", "followers/ophion-of-olympia", "followers/replica-eos", "followers/replica-oceanus", "followers/replica-prometheus", "followers/replica-themis", "followers/three-toed-sloth"]
 
 [[entries."spells/towerfall".causes]]
 chance = 20
@@ -96117,7 +96320,7 @@ id = "trample"
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 4
-used_by = ["bosses/arisen-dullahan", "bosses/fey-kelpie", "bosses/kelpie", "bosses/the-dullahan", "followers/dark-pegasus", "followers/fey-kelpie", "followers/great-monoceros", "followers/great-pegasus", "followers/hengreon", "followers/horse", "followers/monoceros", "followers/pegasus", "followers/steward-hengreon", "followers/steward-pegasus", "followers/war-horse", "monsters/cernunnos", "monsters/dark-pegasus", "monsters/feral-horse", "monsters/great-pegasus", "monsters/hengreon", "monsters/monoceros", "monsters/pegasus", "monsters/phaethon", "monsters/pumpkin-spider", "raids/fallen-king-centaurus", "raids/pumpkin-spider"]
+used_by = ["bosses/arisen-dullahan", "bosses/fey-kelpie", "bosses/kelpie", "bosses/the-dullahan", "followers/african-forest-elephant", "followers/dark-pegasus", "followers/fey-kelpie", "followers/great-monoceros", "followers/great-pegasus", "followers/hengreon", "followers/horse", "followers/monoceros", "followers/pegasus", "followers/steward-hengreon", "followers/steward-pegasus", "followers/war-horse", "monsters/cernunnos", "monsters/dark-pegasus", "monsters/feral-horse", "monsters/great-pegasus", "monsters/hengreon", "monsters/monoceros", "monsters/pegasus", "monsters/phaethon", "monsters/pumpkin-spider", "raids/fallen-king-centaurus", "raids/pumpkin-spider"]
 
 [entries."spells/trample".stats]
 costs = 75
@@ -97614,7 +97817,7 @@ id = "wail"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 5
-used_by = ["bosses/ascended-pledge", "bosses/enlightened-king", "bosses/enlightened-prince", "bosses/enlightened-queen", "bosses/fallen-ashen-phoenix", "followers/banshee", "followers/cruel-banshee", "followers/ebon-scruug", "followers/scruug", "followers/succubus", "followers/turul", "monsters/banshee", "monsters/failed-phoenix", "monsters/great-phoenix-pledge", "monsters/headless", "monsters/lost-pharaoh", "monsters/mimic-king", "monsters/phoenix-halfling-805cc50e", "raids/the-fool", "raids/the-fool-ef1c6cb2"]
+used_by = ["bosses/ascended-pledge", "bosses/enlightened-king", "bosses/enlightened-prince", "bosses/enlightened-queen", "bosses/fallen-ashen-phoenix", "followers/banshee", "followers/bird-of-paradise", "followers/cruel-banshee", "followers/ebon-scruug", "followers/scruug", "followers/succubus", "followers/turul", "monsters/banshee", "monsters/failed-phoenix", "monsters/great-phoenix-pledge", "monsters/headless", "monsters/lost-pharaoh", "monsters/mimic-king", "monsters/phoenix-halfling-805cc50e", "raids/the-fool", "raids/the-fool-ef1c6cb2"]
 
 [[entries."spells/wail".causes]]
 chance = 50
@@ -97905,7 +98108,7 @@ spell_type = "spell"
 tags = ["found_in_arcanists"]
 targets = "yourself"
 tier = 4
-used_by = ["bosses/fallen-lancelot", "bosses/pyre", "followers/alfar", "followers/orichalcum-golem", "monsters/swordbearer-of-finesse-82f67d6f", "raids/perseus"]
+used_by = ["bosses/fallen-lancelot", "bosses/pyre", "followers/african-forest-elephant", "followers/alfar", "followers/orichalcum-golem", "monsters/swordbearer-of-finesse-82f67d6f", "raids/perseus"]
 
 [entries."spells/ward-of-iron".stats]
 costs = 60
@@ -98123,7 +98326,7 @@ id = "wildfire-iii"
 spell_type = "spell"
 targets = "every_opponent_in_a_battle"
 tier = 9
-used_by = ["bosses/arisen-dagda", "bosses/arisen-eistla", "bosses/arisen-king-meliodas", "bosses/eistla", "bosses/fallen-ashen-phoenix", "bosses/kin-of-kerberos", "followers/great-questing-beast", "monsters/ancient-jinn", "monsters/failed-phoenix", "monsters/fallen-zwei-caster", "monsters/follower-of-kerberos-a0c03351", "monsters/follower-of-kerberos-bd3f5aeb", "monsters/great-phoenix-pledge", "raids/arisen-thronemaker-ptah"]
+used_by = ["bosses/arisen-dagda", "bosses/arisen-eistla", "bosses/arisen-king-meliodas", "bosses/eistla", "bosses/fallen-ashen-phoenix", "bosses/kin-of-kerberos", "bosses/lamenter", "followers/great-questing-beast", "monsters/ancient-jinn", "monsters/failed-phoenix", "monsters/fallen-zwei-caster", "monsters/follower-of-kerberos-a0c03351", "monsters/follower-of-kerberos-bd3f5aeb", "monsters/great-phoenix-pledge", "raids/arisen-thronemaker-ptah"]
 
 [[entries."spells/wildfire-iii".causes]]
 chance = 10
@@ -99561,7 +99764,7 @@ abilities = ["adept_summoner", "apex", "apex__ara_", "apex__ursa_", "apex_ii", "
 category = ["bosses", "classes", "followers", "items", "monsters", "raids", "spells"]
 causes = ["aquila_sigil", "asleep", "att_d", "bleeding", "blight", "blind", "burning", "carina_sigil", "confused", "crux_sigil", "curse_of_sekhmet", "cursed", "dark_sigil", "darkblight", "def_d", "def_dd", "doom", "draco_sigil", "dragon_sigil", "drakeblight", "drenched", "earth_sigil", "earthblight", "eos", "fire_sigil", "fireblight", "foresight_d", "frozen", "holy_sigil", "holyblight", "lightning_sigil", "lightningblight", "lulled", "lyon_s_mark", "lyra_sigil", "mag_d", "morrigan_s_curse", "oceanus", "paralyzed", "petrified", "phoenix_s_pledge", "poisoned", "prometheus", "res_d", "res_dd", "rot", "selene", "starstruck", "stasis", "stunned", "t__all_d", "t__att_d", "t__att_dd", "t__def_d", "t__def_dd", "t__dex_d", "t__dmg_d", "t__dmg_dd", "t__mag_d", "t__mag_dd", "t__res_d", "t__res_dd", "tempered_d", "tempered_dd", "themis", "toxic", "water_sigil", "waterblight", "windblight", "windswept"]
 cures = ["aegir", "all_u", "all_uu", "aquila_sigil", "arcane_aligned", "arcane_uu", "asleep", "asteria_of_olympia", "atlas_of_olympia", "att_d", "att_u", "att_uu", "bleeding", "blight", "blind", "bloodshift", "brittle", "brynhild_u", "brynhild_uu", "brynhild_uuu", "burning", "carina_sigil", "castor", "confused", "crit_u", "crux_sigil", "curse_of_sekhmet", "cursed", "dark_aligned", "dark_def", "dark_sigil", "darkblight", "def_d", "def_dd", "def_u", "def_uu", "defending", "defending_65018b2c", "defending_fc3de31f", "dex_u", "dmg_u", "doom", "draco_sigil", "dragon_aligned", "dragon_sigil", "dragon_uu", "drakeblight", "drenched", "dumbr", "earth_aligned", "earth_att", "earth_def", "earth_sigil", "earthblight", "eir", "eistla", "elementless", "eos", "fire_aligned", "fire_att", "fire_def", "fire_sigil", "fireblight", "foresight_d", "foresight_u", "foresight_uu", "frenzy", "frog", "frozen", "gunnr", "gymir", "hildr", "holy_aligned", "holy_def", "holy_sigil", "holyblight", "idun_u", "idun_uu", "idun_uuu", "iron_greaves", "iron_pauldrons", "jord_u", "jord_uu", "jord_uuu", "kára", "lightning_aligned", "lightning_att", "lightning_def", "lightning_sigil", "lightningblight", "lulled", "lyon_s_mark", "lyra_sigil", "mag_d", "mag_u", "mag_uu", "manaseep", "morrigan_s_curse", "mythril_greaves", "mythril_pauldrons", "oceanus", "ophion_of_olympia", "paralyzed", "petrified", "phoenix_s_pledge", "poisoned", "pollux", "power_of_titan_eos", "power_of_titan_oceanus", "power_of_titan_prometheus", "power_of_titan_selene", "power_of_titan_themis", "prometheus", "puzzlemaker_s_ambrosia", "rand_uu", "reraise", "res_d", "res_dd", "res_u", "res_uu", "rot", "selene", "shadowveil", "skadi_u", "skadi_uu", "skadi_uuu", "snotra", "spiked_greaves", "spiked_pauldrons", "starstruck", "stasis", "stunned", "t__?_uuu", "t__all_d", "t__all_u", "t__all_uuu", "t__att_d", "t__att_dd", "t__att_ddd", "t__att_u", "t__att_uu", "t__att_uuu", "t__crit_u", "t__crit_uu", "t__crit_uuu", "t__dark_immune", "t__dark_immune_uu", "t__def_d", "t__def_dd", "t__def_ddd", "t__def_u", "t__def_uu", "t__def_uuu", "t__dex_d", "t__dex_u", "t__dex_uu", "t__dex_uuu", "t__dmg_d", "t__dmg_dd", "t__earth_immune", "t__earth_immune_uu", "t__fire_immune", "t__fire_immune_uu", "t__holy_immune", "t__holy_immune_uu", "t__lightning_immune", "t__lightning_immune_uu", "t__mag_d", "t__mag_dd", "t__mag_ddd", "t__mag_u", "t__mag_uu", "t__mag_uuu", "t__res_d", "t__res_dd", "t__res_ddd", "t__res_u", "t__res_uu", "t__res_uuu", "t__target_d", "t__target_dd", "t__target_u", "t__target_uu", "t__water_immune", "t__water_immune_uu", "target__all", "tempered_d", "tempered_dd", "themis", "thrud", "towering", "toxic", "tree_of_demise", "tree_of_life", "water_aligned", "water_att", "water_def", "water_sigil", "waterblight", "wind_aligned", "wind_sigil", "windblight", "windswept", "zagreus"]
-events = ["balor_invades", "beastfelled", "canada_d_eh", "fool_of_april", "kingsfall", "legend_of_lyonesse", "menders_of_hearts", "none", "nothren_legends__ragnarok", "of_giants_and_titans", "ornaversary!", "paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara", "phoenixrise", "riftfall", "stop_scruug!", "summer_solstice", "sumner_games", "terra_s_day", "terra_s_legacy", "terra_s_legacy__natureblight", "terra_s_legacy__of_reefs_and_forests", "the_crimson_festival", "the_cursed_queens", "the_hallowed", "the_mimics_are_loose", "the_mischievous_clurichauns", "the_plight_of_apollyon", "the_winter_wild_hunts", "thronemakers", "winter_solstice", "wyrmhunt"]
+events = ["balor_invades", "beastfelled", "canada_d_eh", "fool_of_april", "kingsfall", "legend_of_lyonesse", "menders_of_hearts", "none", "nothren_legends__ragnarok", "of_giants_and_titans", "ornaversary!", "paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara", "phoenixrise", "riftfall", "stop_scruug!", "summer_solstice", "sumner_games", "terra_s_day", "terra_s_legacy", "terra_s_legacy__natureblight", "terra_s_legacy__of_reefs_and_forests", "terra_s_legacy__rainsong", "the_crimson_festival", "the_cursed_queens", "the_hallowed", "the_mimics_are_loose", "the_mischievous_clurichauns", "the_plight_of_apollyon", "the_winter_wild_hunts", "thronemakers", "winter_solstice", "wyrmhunt"]
 exotic = [0, 1]
 family = ["ancient", "animal", "balor_forces", "common", "draconian_forces", "dragons", "elven_forces", "giant", "goblin_horde", "human", "lizarr_forces", "lyonesse_forces", "magical", "mimics", "nothren_forces", "orc_horde", "titans", "undead_horde"]
 gives = ["all_u", "all_uu", "arcane_aligned", "arcane_uu", "asleep", "att_d", "att_u", "att_uu", "bleeding", "blight", "blind", "bloodshift", "brittle", "burning", "castor", "crit_u", "cursed", "dark_aligned", "dark_def", "def_d", "def_dd", "def_u", "def_uu", "defending", "defending_fc3de31f", "dex_u", "dmg_u", "dragon_aligned", "dragon_uu", "earth_aligned", "earth_att", "earth_def", "eir", "elementless", "fire_aligned", "fire_att", "fire_def", "foresight_u", "frenzy", "frozen", "gunnr", "hildr", "holy_aligned", "holy_def", "kára", "lightning_aligned", "lightning_att", "lightning_def", "mag_u", "mag_uu", "paralyzed", "poisoned", "pollux", "puzzlemaker_s_ambrosia", "reraise", "res_dd", "res_u", "res_uu", "rot", "shadowveil", "skadi_uu", "snotra", "stunned", "t__?_uuu", "t__all_u", "t__all_uuu", "t__att_d", "t__att_u", "t__att_uu", "t__att_uuu", "t__crit_u", "t__crit_uu", "t__crit_uuu", "t__dark_immune", "t__dark_immune_uu", "t__def_d", "t__def_u", "t__def_uu", "t__def_uuu", "t__dex_d", "t__dex_u", "t__dex_uu", "t__dex_uuu", "t__earth_immune", "t__earth_immune_uu", "t__fire_immune", "t__fire_immune_uu", "t__holy_immune", "t__holy_immune_uu", "t__lightning_immune", "t__lightning_immune_uu", "t__mag_d", "t__mag_u", "t__mag_uu", "t__mag_uuu", "t__res_d", "t__res_u", "t__res_uu", "t__res_uuu", "t__target_d", "t__target_dd", "t__target_u", "t__target_uu", "t__water_immune", "t__water_immune_uu", "target__all", "thrud", "towering", "toxic", "tree_of_demise", "tree_of_life", "water_aligned", "water_att", "water_def", "wind_aligned"]
@@ -99972,6 +100175,10 @@ type = "SIGNED"
 unit = "PERCENT"
 
 [meta.value_types."bonds.tower_shards"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."bonds.ult_defense"]
 type = "SIGNED"
 unit = "PERCENT"
 

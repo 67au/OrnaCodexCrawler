@@ -11086,7 +11086,7 @@ name = "诅咒的塞夸纳板甲"
 
 [entries."items/cursed-severauses-halberd"]
 category = "items"
-description = "西弗勒斯爵士的画戟，西弗勒斯是亚瑟王圆桌骑士的一员。西弗勒斯爵士更偏向于与稀有的野兽战斗，而非人类，所以他经常抛下骑士职责不顾，而区追逐各式各样的野兽。"
+description = "西弗勒斯爵士的画戟，西弗勒斯是亚瑟王圆桌骑士的一员。西弗勒斯爵士更偏向于与稀有的野兽战斗，而非人类，所以他经常抛下骑士职责不顾，而去追逐各式各样的野兽。"
 id = "cursed-severauses-halberd"
 language = "zh-hans"
 name = "诅咒的西弗勒斯之戟"
@@ -21081,7 +21081,7 @@ name = "西弗勒斯的弧面宝石"
 
 [entries."items/severauses-halberd"]
 category = "items"
-description = "西弗勒斯爵士的画戟，西弗勒斯是亚瑟王圆桌骑士的一员。西弗勒斯爵士更偏向于与稀有的野兽战斗，而非人类，所以他经常抛下骑士职责不顾，而区追逐各式各样的野兽。"
+description = "西弗勒斯爵士的画戟，西弗勒斯是亚瑟王圆桌骑士的一员。西弗勒斯爵士更偏向于与稀有的野兽战斗，而非人类，所以他经常抛下骑士职责不顾，而去追逐各式各样的野兽。"
 id = "severauses-halberd"
 language = "zh-hans"
 name = "西弗勒斯之戟"

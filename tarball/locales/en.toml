@@ -23013,7 +23013,7 @@ name = "Verrick's Ring"
 
 [entries."items/vial-of-lakewater"]
 category = "items"
-description = "A vile of the water of a renowned lake. Pouring this liquid upon the ground will summon part of Nimue's Lake to this area for 24 hours. This item is only useable during the Kingsfall world event."
+description = "A vial of the water of a renowned lake. Pouring this liquid upon the ground will summon part of Nimue's Lake to this area for 24 hours. This item is only useable during the Kingsfall world event."
 id = "vial-of-lakewater"
 language = "en"
 name = "Vial of Lakewater"

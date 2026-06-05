@@ -15426,7 +15426,7 @@ name = "屍鬼魔魂"
 
 [entries."items/guineveres-hairpin"]
 category = "items"
-description = "桂妮薇兒之純淨飾物。她似乎不受妮妙之海的惑力影響，因此成為兇惡異獸的獵食對象。其後，她遠離海岸，隱居群山。"
+description = "桂妮薇兒之純淨飾物。她似乎不受妮妙之海的惑力影響，因此成為兇惡異獸的獵食對象。\n\n其後，她遠離海岸，隱居群山。"
 id = "guineveres-hairpin"
 language = "zh-hant"
 name = "桂妮薇兒的髮髻"
@@ -17925,7 +17925,7 @@ name = "正宗"
 
 [entries."items/material-aspect"]
 category = "items"
-description = "Aspect of a pile of materials that may have been lost by a traveler before you. Aspects can be charged simply by walking after being slotted in your Traveler's Guild menu. When fully charged, this Aspect will awaken a weapon for you."
+description = "這道魔魂顯現出一堆材料的模樣，或許是前人留下來的物資。只要在你的「旅行者公會」選單中將其裝備，接下來只需走路，就能為它注入能量。當這道魔魂能量完全充滿時，它將會為你喚醒一把沉睡的武器。"
 id = "material-aspect"
 language = "zh-hant"
 name = "素材魔魂"
@@ -22593,14 +22593,14 @@ name = "塔盾"
 
 [entries."items/travelers-armor-aspect"]
 category = "items"
-description = "Aspect of a piece of armor that may have been lost by a traveler before you. Aspects can be charged simply by walking after being slotted in your Traveler's Guild menu. When fully charged, this Aspect will awaken a weapon for you."
+description = "這道魔魂顯現出一個防具的模樣，或許是前人留下來的物資。只要在你的「旅行者公會」選單中將其裝備，接下來只需走路，就能為它注入能量。當這道魔魂能量完全充滿時，它將會為你喚醒一把沉睡的武器。"
 id = "travelers-armor-aspect"
 language = "zh-hant"
 name = "旅人的盔甲魔魂"
 
 [entries."items/travelers-weapon-aspect"]
 category = "items"
-description = "Aspect of a weapon that may have been lost by a traveler before you. Aspects can be charged simply by walking after being slotted in your Traveler's Guild menu. When fully charged, this Aspect will awaken a weapon for you."
+description = "這道魔魂顯現出一把武器的模樣，或許是前人留下來的物資。只要在你的「旅行者公會」選單中將其裝備，接下來只需走路，就能為它注入能量。當這道魔魂能量完全充滿時，它將會為你喚醒一把沉睡的武器。"
 id = "travelers-weapon-aspect"
 language = "zh-hant"
 name = "旅者的武器魔魂"
@@ -27591,7 +27591,7 @@ name = "Purrly"
 
 [entries."raids/rainforest-destroyer-murk"]
 category = "raids"
-description = "A great rainforest destroying Murk."
+description = "摧殘著宏偉雨林的巨大淤濁。"
 id = "rainforest-destroyer-murk"
 language = "zh-hant"
 name = "雨林毀滅者淤濁"

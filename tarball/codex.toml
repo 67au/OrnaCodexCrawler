@@ -4955,7 +4955,7 @@ spell_rate = 12
 [entries."followers/arisen-bloodwarg"]
 bestial_bond = [[{name = "bonded_attack", value = 7, type = "BOND"}, {name = "bonded_magic", value = 7, type = "BOND"}], [{name = "t__crit_u", value = 7, type = "BOND"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}, {name = "t__crit_uu", value = 7, type = "BOND"}]]
 category = "followers"
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 family = "animal"
 icon = "/img/followers/bloodwarg.png"
 id = "arisen-bloodwarg"
@@ -4971,7 +4971,7 @@ spell_rate = 20
 [entries."followers/arisen-bloodwarg-5b3b213e"]
 bestial_bond = [[{name = "bonded_attack", value = 7, type = "BOND"}, {name = "bonded_magic", value = 7, type = "BOND"}], [{name = "t__crit_u", value = 7, type = "BOND"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}, {name = "t__crit_uu", value = 7, type = "BOND"}]]
 category = "followers"
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 family = "animal"
 icon = "/img/monsters/bloodwarg_arisen.png"
 id = "arisen-bloodwarg-5b3b213e"
@@ -5051,7 +5051,7 @@ spell_rate = 20
 [entries."followers/arisen-spiritgarm"]
 bestial_bond = [[{name = "bonded_attack", value = 7, type = "BOND"}, {name = "bonded_magic", value = 7, type = "BOND"}], [{name = "t__mag_u", value = 7, type = "BOND"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}, {name = "t__mag_uu", value = 7, type = "BOND"}]]
 category = "followers"
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 family = "animal"
 icon = "/img/monsters/spiritgarm_arisen.png"
 id = "arisen-spiritgarm"
@@ -5066,7 +5066,7 @@ spell_rate = 12
 [entries."followers/arisen-spiritgarm-ef5ee104"]
 bestial_bond = [[{name = "bonded_attack", value = 7, type = "BOND"}, {name = "bonded_magic", value = 7, type = "BOND"}], [{name = "t__mag_u", value = 7, type = "BOND"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}, {name = "t__mag_uu", value = 7, type = "BOND"}]]
 category = "followers"
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 family = "animal"
 icon = "/img/followers/spiritgarm.png"
 id = "arisen-spiritgarm-ef5ee104"
@@ -5081,7 +5081,7 @@ spell_rate = 12
 [entries."followers/arisen-stonewarg"]
 bestial_bond = [[{name = "bonded_ward", value = 6, type = "BOND"}, {name = "bonded_defense", value = 7, type = "BOND"}, {name = "bonded_resistance", value = 7, type = "BOND"}], [{name = "bonded_ward", value = 6, type = "BOND"}, {name = "t__def_u", value = 4, type = "BOND"}, {name = "t__res_u", value = 4, type = "BOND"}], [{name = "bonded_ward", value = 6, type = "BOND"}, {name = "bonded_defense", value = 8, type = "BOND"}, {name = "bonded_resistance", value = 8, type = "BOND"}, {name = "t__def_u", value = 4, type = "BOND"}, {name = "t__res_u", value = 4, type = "BOND"}]]
 category = "followers"
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 family = "animal"
 icon = "/img/monsters/stonewarg_arisen.png"
 id = "arisen-stonewarg"
@@ -5098,7 +5098,7 @@ spell_rate = 3
 [entries."followers/arisen-stonewarg-f829d6e1"]
 bestial_bond = [[{name = "bonded_ward", value = 6, type = "BOND"}, {name = "bonded_defense", value = 7, type = "BOND"}, {name = "bonded_resistance", value = 7, type = "BOND"}], [{name = "bonded_ward", value = 6, type = "BOND"}, {name = "t__def_u", value = 4, type = "BOND"}, {name = "t__res_u", value = 4, type = "BOND"}], [{name = "bonded_ward", value = 6, type = "BOND"}, {name = "bonded_defense", value = 8, type = "BOND"}, {name = "bonded_resistance", value = 8, type = "BOND"}, {name = "t__def_u", value = 4, type = "BOND"}, {name = "t__res_u", value = 4, type = "BOND"}]]
 category = "followers"
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 family = "animal"
 icon = "/img/followers/stonewarg.png"
 id = "arisen-stonewarg-f829d6e1"
@@ -5408,7 +5408,7 @@ spell_rate = 15
 [entries."followers/bloodwarg"]
 bestial_bond = [[{name = "bonded_attack", value = 7, type = "BOND"}, {name = "bonded_magic", value = 7, type = "BOND"}], [{name = "t__crit_u", value = 7, type = "BOND"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}, {name = "t__crit_uu", value = 7, type = "BOND"}]]
 category = "followers"
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 family = "animal"
 icon = "/img/monsters/bloodwarg.png"
 id = "bloodwarg"
@@ -6849,7 +6849,7 @@ spell_rate = 12
 [entries."followers/gullinkambi"]
 bestial_bond = [[{name = "water_res", value = 20, type = "BONUS"}, {name = "damage_from_animals", value = -30, type = "BONUS"}], [{name = "bonded_attack", value = 15, type = "BOND"}, {name = "bonded_resistance", value = 15, type = "BOND"}], [{name = "bonded_ward", value = 90, type = "BOND"}, {name = "bonded_defense", value = 15, type = "BOND"}]]
 category = "followers"
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 family = "nothren_forces"
 icon = "/img/monsters/gullinkambi.png"
 id = "gullinkambi"
@@ -8079,7 +8079,7 @@ spell_rate = 12
 [entries."followers/spiritgarm"]
 bestial_bond = [[{name = "bonded_attack", value = 7, type = "BOND"}, {name = "bonded_magic", value = 7, type = "BOND"}], [{name = "t__mag_u", value = 7, type = "BOND"}], [{name = "bonded_attack", value = 8, type = "BOND"}, {name = "bonded_magic", value = 8, type = "BOND"}, {name = "t__mag_uu", value = 7, type = "BOND"}]]
 category = "followers"
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 family = "animal"
 icon = "/img/monsters/spiritgarm.png"
 id = "spiritgarm"
@@ -8255,7 +8255,7 @@ spell_rate = 8
 [entries."followers/stonewarg"]
 bestial_bond = [[{name = "bonded_ward", value = 6, type = "BOND"}, {name = "bonded_defense", value = 7, type = "BOND"}, {name = "bonded_resistance", value = 7, type = "BOND"}], [{name = "bonded_ward", value = 6, type = "BOND"}, {name = "t__def_u", value = 4, type = "BOND"}, {name = "t__res_u", value = 4, type = "BOND"}], [{name = "bonded_ward", value = 6, type = "BOND"}, {name = "bonded_defense", value = 8, type = "BOND"}, {name = "bonded_resistance", value = 8, type = "BOND"}, {name = "t__def_u", value = 4, type = "BOND"}, {name = "t__res_u", value = 4, type = "BOND"}]]
 category = "followers"
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 family = "animal"
 icon = "/img/monsters/stonewarg.png"
 id = "stonewarg"
@@ -8300,7 +8300,7 @@ debuff_rate = 5
 [entries."followers/surtrs-flame"]
 bestial_bond = [[{name = "elemental_weaknesses", value = 15, type = "BONUS"}], [{name = "t__mag_u", value = 7, type = "BOND"}, {name = "t__mag_uu", value = 2, type = "BOND"}], [{name = "bonded_magic", value = 20, type = "BOND"}]]
 category = "followers"
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 family = "magical"
 icon = "/img/monsters/surtrs_flame.png"
 id = "surtrs-flame"
@@ -8316,7 +8316,7 @@ spell_rate = 10
 [entries."followers/surtrs-mighty-flame"]
 bestial_bond = [[{name = "elemental_weaknesses", value = 15, type = "BONUS"}], [{name = "t__mag_u", value = 7, type = "BOND"}, {name = "t__mag_uu", value = 2, type = "BOND"}], [{name = "bonded_magic", value = 20, type = "BOND"}]]
 category = "followers"
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 family = "magical"
 icon = "/img/monsters/surtrs_mighty_flame.png"
 id = "surtrs-mighty-flame"
@@ -30405,8 +30405,8 @@ tier = 8
 useable_by = "all_classes"
 
 [entries."items/cursed-tail-of-a-sphinx".stats]
-higher_quality_item_chance = 2
 hp = -200
+item_drop_quality_bonus = 2
 luck_bonus = 50
 mana = -200
 
@@ -65817,7 +65817,7 @@ tier = 6
 useable_by = "all_classes"
 
 [entries."items/tail-of-a-sphinx".stats]
-higher_quality_item_chance = 1
+item_drop_quality_bonus = 1
 luck_bonus = 25
 mana = 100
 
@@ -72592,7 +72592,7 @@ tier = 2
 [entries."monsters/bloodwarg"]
 category = "monsters"
 drops = ["items/wolfs-blood"]
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 family = "animal"
 icon = "/img/monsters/bloodwarg.png"
 id = "bloodwarg"
@@ -72605,7 +72605,7 @@ tier = 8
 aura = "arisen"
 category = "monsters"
 drops = ["items/wolfs-blood"]
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 family = "animal"
 icon = "/img/monsters/bloodwarg_arisen.png"
 id = "bloodwarg-dfa97df9"
@@ -76579,7 +76579,7 @@ tier = 1
 [entries."monsters/spiritgarm"]
 category = "monsters"
 drops = ["items/perfect-runestone"]
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 family = "animal"
 icon = "/img/monsters/spiritgarm.png"
 id = "spiritgarm"
@@ -76592,7 +76592,7 @@ tier = 8
 aura = "arisen"
 category = "monsters"
 drops = ["items/perfect-runestone"]
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 family = "animal"
 icon = "/img/monsters/spiritgarm_arisen.png"
 id = "spiritgarm-732978de"
@@ -76614,7 +76614,7 @@ tier = 1
 aura = "arisen"
 category = "monsters"
 drops = ["items/ancient-stone"]
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 family = "animal"
 icon = "/img/monsters/stonewarg_arisen.png"
 id = "stonewarg"
@@ -76626,7 +76626,7 @@ tier = 10
 [entries."monsters/stonewarg-b4d838aa"]
 category = "monsters"
 drops = ["items/ancient-stone"]
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 family = "animal"
 icon = "/img/monsters/stonewarg.png"
 id = "stonewarg-b4d838aa"
@@ -77212,7 +77212,7 @@ tier = 10
 [entries."raids/arisen-fenja"]
 category = "raids"
 drops = ["items/attack-tonic", "items/magic-defense-tonic", "items/magic-tonic", "items/rune-of-muninn", "items/super-health-potion", "items/bloodwarg-grimoire", "items/spiritgarm-grimoire", "items/stonewarg-grimoire", "items/arisen-bloodwarg-grimoire", "items/arisen-spiritgarm-grimoire", "items/arisen-stonewarg-grimoire"]
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 hp = 13020000
 icon = "/img/bosses/fenja_arisen.png"
 id = "arisen-fenja"
@@ -77223,7 +77223,7 @@ tier = 10
 [entries."raids/arisen-gerd"]
 category = "raids"
 drops = ["items/attack-tonic", "items/magic-defense-tonic", "items/magic-tonic", "items/rune-of-muninn", "items/super-health-potion", "items/gerds-bullwhip", "items/gerds-chestguard", "items/gerds-headdress", "items/gerds-horsewhip", "items/gerds-legwraps", "items/arisen-gerds-bullwhip", "items/arisen-gerds-chestguard", "items/arisen-gerds-headdress", "items/arisen-gerds-horsewhip", "items/arisen-gerds-legwraps"]
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 follower = "steward_wolf"
 hp = 13020000
 icon = "/img/bosses/gerd_arisen.png"
@@ -77235,7 +77235,7 @@ tier = 10
 [entries."raids/arisen-hel"]
 category = "raids"
 drops = ["items/earthstone", "items/firestone", "items/waterstone", "items/attack-tonic", "items/defense-tonic", "items/magic-defense-tonic", "items/magic-tonic", "items/skeleton-key", "items/hels-boots", "items/hels-feathers", "items/hels-garb", "items/hels-veil", "items/helhest", "items/rune-of-huginn", "items/super-health-potion", "items/lightstone", "items/arisen-hels-boots", "items/arisen-hels-feathers", "items/arisen-hels-garb", "items/arisen-hels-veil", "items/arisen-helhest"]
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 hp = 13560000
 icon = "/img/bosses/arisen_hel.png"
 id = "arisen-hel"
@@ -77290,7 +77290,7 @@ tier = 10
 [entries."raids/arisen-menja"]
 category = "raids"
 drops = ["items/attack-tonic", "items/magic-defense-tonic", "items/magic-tonic", "items/menjas-battlerobe", "items/menjas-hood", "items/menjas-shield", "items/menjas-warstaff", "items/rune-of-muninn", "items/super-health-potion", "items/arisen-menjas-battlerobe", "items/arisen-menjas-hood", "items/arisen-menjas-shield", "items/arisen-menjas-warstaff"]
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 hp = 13020000
 icon = "/img/bosses/menja_arisen.png"
 id = "arisen-menja"
@@ -77399,7 +77399,7 @@ tier = 10
 [entries."raids/arisen-surtr"]
 category = "raids"
 drops = ["items/earthstone", "items/firestone", "items/waterstone", "items/attack-tonic", "items/defense-tonic", "items/magic-defense-tonic", "items/magic-tonic", "items/skeleton-key", "items/rune-of-huginn", "items/surtrs-boots", "items/surtrs-cuirass", "items/surtrs-helmet", "items/surtrs-shield", "items/surtrs-sword", "items/saturns-eye", "items/super-health-potion", "items/lightstone", "items/arisen-surtrs-boots", "items/arisen-surtrs-cuirass", "items/arisen-surtrs-helmet", "items/arisen-surtrs-shield", "items/arisen-surtrs-sword"]
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 hp = 13560000
 icon = "/img/bosses/arisen_surtr.png"
 id = "arisen-surtr"
@@ -77674,7 +77674,7 @@ tier = 6
 [entries."raids/fenja"]
 category = "raids"
 drops = ["items/attack-tonic", "items/magic-defense-tonic", "items/magic-tonic", "items/rune-of-muninn", "items/super-health-potion", "items/bloodwarg-grimoire", "items/spiritgarm-grimoire", "items/stonewarg-grimoire"]
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 hp = 5190000
 icon = "/img/bosses/fenja.png"
 id = "fenja"
@@ -77736,7 +77736,7 @@ tier = 6
 [entries."raids/fey-jormungandr"]
 category = "raids"
 drops = ["items/fey-bloodwarg-grimoire", "items/fey-gerds-bullwhip", "items/fey-gerds-chestguard", "items/fey-gerds-headdress", "items/fey-gerds-horsewhip", "items/fey-gerds-legwraps", "items/fey-hels-boots", "items/fey-hels-feathers", "items/fey-hels-garb", "items/fey-hels-veil", "items/fey-helhest", "items/fey-menjas-battlerobe", "items/fey-menjas-hood", "items/fey-menjas-shield", "items/fey-menjas-warstaff", "items/fey-spiritgarm-grimoire", "items/fey-stonewarg-grimoire", "items/fey-surtrs-boots", "items/fey-surtrs-cuirass", "items/fey-surtrs-helmet", "items/fey-surtrs-shield", "items/fey-surtrs-sword"]
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 hp = 12182500
 icon = "/img/bosses/jormungandr_fey.png"
 id = "fey-jormungandr"
@@ -77819,7 +77819,7 @@ tier = 9
 [entries."raids/gerd"]
 category = "raids"
 drops = ["items/attack-tonic", "items/magic-defense-tonic", "items/magic-tonic", "items/rune-of-muninn", "items/super-health-potion", "items/gerds-bullwhip", "items/gerds-chestguard", "items/gerds-headdress", "items/gerds-horsewhip", "items/gerds-legwraps"]
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 follower = "steward_wolf"
 hp = 5190000
 icon = "/img/bosses/gerd.png"
@@ -77872,7 +77872,7 @@ tier = 6
 [entries."raids/hel"]
 category = "raids"
 drops = ["items/earthstone", "items/firestone", "items/waterstone", "items/attack-tonic", "items/defense-tonic", "items/magic-defense-tonic", "items/magic-tonic", "items/skeleton-key", "items/hels-boots", "items/hels-feathers", "items/hels-garb", "items/hels-veil", "items/helhest", "items/rune-of-huginn", "items/super-health-potion"]
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 hp = 6810000
 icon = "/img/bosses/hel.png"
 id = "hel"
@@ -77905,7 +77905,7 @@ tier = 5
 [entries."raids/jormungandr"]
 category = "raids"
 drops = ["items/hels-boots", "items/hels-feathers", "items/hels-garb", "items/hels-veil", "items/helhest", "items/menjas-battlerobe", "items/menjas-hood", "items/menjas-shield", "items/menjas-warstaff", "items/surtrs-boots", "items/surtrs-cuirass", "items/surtrs-helmet", "items/surtrs-shield", "items/surtrs-sword", "items/bloodwarg-grimoire", "items/gerds-bullwhip", "items/gerds-chestguard", "items/gerds-headdress", "items/gerds-horsewhip", "items/gerds-legwraps", "items/spiritgarm-grimoire", "items/stonewarg-grimoire"]
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 hp = 4800000
 icon = "/img/bosses/jormungandr.png"
 id = "jormungandr"
@@ -77958,7 +77958,7 @@ tier = 7
 [entries."raids/menja"]
 category = "raids"
 drops = ["items/attack-tonic", "items/magic-defense-tonic", "items/magic-tonic", "items/menjas-battlerobe", "items/menjas-hood", "items/menjas-shield", "items/menjas-warstaff", "items/rune-of-muninn", "items/super-health-potion"]
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 hp = 4785000
 icon = "/img/bosses/menja.png"
 id = "menja"
@@ -78212,7 +78212,7 @@ tier = 5
 [entries."raids/surtr"]
 category = "raids"
 drops = ["items/earthstone", "items/firestone", "items/waterstone", "items/attack-tonic", "items/defense-tonic", "items/magic-defense-tonic", "items/magic-tonic", "items/skeleton-key", "items/rune-of-huginn", "items/surtrs-boots", "items/surtrs-cuirass", "items/surtrs-helmet", "items/surtrs-shield", "items/surtrs-sword", "items/saturns-eye", "items/super-health-potion", "items/lightstone"]
-events = ["nothren_legends__ragnarok"]
+events = ["ragnarok"]
 hp = 6810000
 icon = "/img/bosses/surtr_armored.png"
 id = "surtr"
@@ -99767,7 +99767,7 @@ abilities = ["adept_summoner", "apex", "apex__ara_", "apex__ursa_", "apex_ii", "
 category = ["bosses", "classes", "followers", "items", "monsters", "raids", "spells"]
 causes = ["aquila_sigil", "asleep", "att_d", "bleeding", "blight", "blind", "burning", "carina_sigil", "confused", "crux_sigil", "curse_of_sekhmet", "cursed", "dark_sigil", "darkblight", "def_d", "def_dd", "doom", "draco_sigil", "dragon_sigil", "drakeblight", "drenched", "earth_sigil", "earthblight", "eos", "fire_sigil", "fireblight", "foresight_d", "frozen", "holy_sigil", "holyblight", "lightning_sigil", "lightningblight", "lulled", "lyon_s_mark", "lyra_sigil", "mag_d", "morrigan_s_curse", "oceanus", "paralyzed", "petrified", "phoenix_s_pledge", "poisoned", "prometheus", "res_d", "res_dd", "rot", "selene", "starstruck", "stasis", "stunned", "t__all_d", "t__att_d", "t__att_dd", "t__def_d", "t__def_dd", "t__dex_d", "t__dmg_d", "t__dmg_dd", "t__mag_d", "t__mag_dd", "t__res_d", "t__res_dd", "tempered_d", "tempered_dd", "themis", "toxic", "water_sigil", "waterblight", "windblight", "windswept"]
 cures = ["aegir", "all_u", "all_uu", "aquila_sigil", "arcane_aligned", "arcane_uu", "asleep", "asteria_of_olympia", "atlas_of_olympia", "att_d", "att_u", "att_uu", "bleeding", "blight", "blind", "bloodshift", "brittle", "brynhild_u", "brynhild_uu", "brynhild_uuu", "burning", "carina_sigil", "castor", "confused", "crit_u", "crux_sigil", "curse_of_sekhmet", "cursed", "dark_aligned", "dark_def", "dark_sigil", "darkblight", "def_d", "def_dd", "def_u", "def_uu", "defending", "defending_65018b2c", "defending_fc3de31f", "dex_u", "dmg_u", "doom", "draco_sigil", "dragon_aligned", "dragon_sigil", "dragon_uu", "drakeblight", "drenched", "dumbr", "earth_aligned", "earth_att", "earth_def", "earth_sigil", "earthblight", "eir", "eistla", "elementless", "eos", "fire_aligned", "fire_att", "fire_def", "fire_sigil", "fireblight", "foresight_d", "foresight_u", "foresight_uu", "frenzy", "frog", "frozen", "gunnr", "gymir", "hildr", "holy_aligned", "holy_def", "holy_sigil", "holyblight", "idun_u", "idun_uu", "idun_uuu", "iron_greaves", "iron_pauldrons", "jord_u", "jord_uu", "jord_uuu", "kára", "lightning_aligned", "lightning_att", "lightning_def", "lightning_sigil", "lightningblight", "lulled", "lyon_s_mark", "lyra_sigil", "mag_d", "mag_u", "mag_uu", "manaseep", "morrigan_s_curse", "mythril_greaves", "mythril_pauldrons", "oceanus", "ophion_of_olympia", "paralyzed", "petrified", "phoenix_s_pledge", "poisoned", "pollux", "power_of_titan_eos", "power_of_titan_oceanus", "power_of_titan_prometheus", "power_of_titan_selene", "power_of_titan_themis", "prometheus", "puzzlemaker_s_ambrosia", "rand_uu", "reraise", "res_d", "res_dd", "res_u", "res_uu", "rot", "selene", "shadowveil", "skadi_u", "skadi_uu", "skadi_uuu", "snotra", "spiked_greaves", "spiked_pauldrons", "starstruck", "stasis", "stunned", "t__?_uuu", "t__all_d", "t__all_u", "t__all_uuu", "t__att_d", "t__att_dd", "t__att_ddd", "t__att_u", "t__att_uu", "t__att_uuu", "t__crit_u", "t__crit_uu", "t__crit_uuu", "t__dark_immune", "t__dark_immune_uu", "t__def_d", "t__def_dd", "t__def_ddd", "t__def_u", "t__def_uu", "t__def_uuu", "t__dex_d", "t__dex_u", "t__dex_uu", "t__dex_uuu", "t__dmg_d", "t__dmg_dd", "t__earth_immune", "t__earth_immune_uu", "t__fire_immune", "t__fire_immune_uu", "t__holy_immune", "t__holy_immune_uu", "t__lightning_immune", "t__lightning_immune_uu", "t__mag_d", "t__mag_dd", "t__mag_ddd", "t__mag_u", "t__mag_uu", "t__mag_uuu", "t__res_d", "t__res_dd", "t__res_ddd", "t__res_u", "t__res_uu", "t__res_uuu", "t__target_d", "t__target_dd", "t__target_u", "t__target_uu", "t__water_immune", "t__water_immune_uu", "target__all", "tempered_d", "tempered_dd", "themis", "thrud", "towering", "toxic", "tree_of_demise", "tree_of_life", "water_aligned", "water_att", "water_def", "water_sigil", "waterblight", "wind_aligned", "wind_sigil", "windblight", "windswept", "zagreus"]
-events = ["balor_invades", "beastfelled", "canada_d_eh", "fool_of_april", "kingsfall", "legend_of_lyonesse", "menders_of_hearts", "none", "nothren_legends__ragnarok", "of_giants_and_titans", "ornaversary!", "paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara", "phoenixrise", "riftfall", "stop_scruug!", "summer_solstice", "sumner_games", "terra_s_day", "terra_s_legacy", "terra_s_legacy__natureblight", "terra_s_legacy__of_reefs_and_forests", "terra_s_legacy__rainsong", "the_crimson_festival", "the_cursed_queens", "the_hallowed", "the_mimics_are_loose", "the_mischievous_clurichauns", "the_plight_of_apollyon", "the_winter_wild_hunts", "thronemakers", "winter_solstice", "wyrmhunt"]
+events = ["balor_invades", "beastfelled", "canada_d_eh", "fool_of_april", "kingsfall", "legend_of_lyonesse", "menders_of_hearts", "none", "of_giants_and_titans", "ornaversary!", "paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara", "phoenixrise", "ragnarok", "riftfall", "stop_scruug!", "summer_solstice", "sumner_games", "terra_s_day", "terra_s_legacy", "terra_s_legacy__natureblight", "terra_s_legacy__of_reefs_and_forests", "terra_s_legacy__rainsong", "the_crimson_festival", "the_cursed_queens", "the_hallowed", "the_mimics_are_loose", "the_mischievous_clurichauns", "the_plight_of_apollyon", "the_winter_wild_hunts", "thronemakers", "winter_solstice", "wyrmhunt"]
 exotic = [0, 1]
 family = ["ancient", "animal", "balor_forces", "common", "draconian_forces", "dragons", "elven_forces", "giant", "goblin_horde", "human", "lizarr_forces", "lyonesse_forces", "magical", "mimics", "nothren_forces", "orc_horde", "titans", "undead_horde"]
 gives = ["all_u", "all_uu", "arcane_aligned", "arcane_uu", "asleep", "att_d", "att_u", "att_uu", "bleeding", "blight", "blind", "bloodshift", "brittle", "burning", "castor", "crit_u", "cursed", "dark_aligned", "dark_def", "def_d", "def_dd", "def_u", "def_uu", "defending", "defending_fc3de31f", "dex_u", "dmg_u", "dragon_aligned", "dragon_uu", "earth_aligned", "earth_att", "earth_def", "eir", "elementless", "fire_aligned", "fire_att", "fire_def", "foresight_u", "frenzy", "frozen", "gunnr", "hildr", "holy_aligned", "holy_def", "kára", "lightning_aligned", "lightning_att", "lightning_def", "mag_u", "mag_uu", "paralyzed", "poisoned", "pollux", "puzzlemaker_s_ambrosia", "reraise", "res_dd", "res_u", "res_uu", "rot", "shadowveil", "skadi_uu", "snotra", "stunned", "t__?_uuu", "t__all_u", "t__all_uuu", "t__att_d", "t__att_u", "t__att_uu", "t__att_uuu", "t__crit_u", "t__crit_uu", "t__crit_uuu", "t__dark_immune", "t__dark_immune_uu", "t__def_d", "t__def_u", "t__def_uu", "t__def_uuu", "t__dex_d", "t__dex_u", "t__dex_uu", "t__dex_uuu", "t__earth_immune", "t__earth_immune_uu", "t__fire_immune", "t__fire_immune_uu", "t__holy_immune", "t__holy_immune_uu", "t__lightning_immune", "t__lightning_immune_uu", "t__mag_d", "t__mag_u", "t__mag_uu", "t__mag_uuu", "t__res_d", "t__res_u", "t__res_uu", "t__res_uuu", "t__target_d", "t__target_dd", "t__target_u", "t__target_uu", "t__water_immune", "t__water_immune_uu", "target__all", "thrud", "towering", "toxic", "tree_of_demise", "tree_of_life", "water_aligned", "water_att", "water_def", "wind_aligned"]
@@ -99791,7 +99791,7 @@ useable_by = ["all_classes", "magic_users", "melee_classes", "thief_classes", "v
 
 [meta.sorts]
 followers = ["stats.attack_rate", "stats.buff_rate", "stats.debuff_rate", "stats.heal_rate", "stats.protect_chance", "stats.spell_rate"]
-items = ["stats._arch_alchemy", "stats._attack_from_low_defense", "stats._instrument_proficiency", "stats._weapon_proficiency", "stats.accuracy", "stats.act_first_chance__pve_", "stats.adornment_slots", "stats.ally_effect_chance", "stats.apex", "stats.apex_rate", "stats.apex_start", "stats.arcane_damage", "stats.attack", "stats.avidity", "stats.battle_animation_time", "stats.berserk_encounters", "stats.bestial_bond", "stats.bestial_bond_level", "stats.blacksmith_material_cost", "stats.blacksmith_time", "stats.buff_duration", "stats.cats", "stats.chain_damage_chance", "stats.collateral_chance", "stats.collateral_damage", "stats.crit", "stats.crit_chance_bonus", "stats.crit_damage", "stats.critical_chain", "stats.damage_limit_break", "stats.damage_per_turn_r_stats", "stats.damage_protect", "stats.damage_to_damage_per_turn", "stats.damage_to_ward", "stats.dark_damage", "stats.dark_res", "stats.debuff_fade", "stats.def_res_penetration", "stats.defend_power", "stats.defense", "stats.dexterity", "stats.disperse_status_effect_chance", "stats.dodge_chance", "stats.double_summon_chance", "stats.dragon_damage", "stats.dullahan_s_pursuit", "stats.dungeon_cooldown", "stats.dungeon_horde_bonus", "stats.dungeon_rewards", "stats.earthen_damage", "stats.effect_damage", "stats.elemental_damage_taken", "stats.elemental_weaknesses", "stats.event_encounters", "stats.exp_bonus", "stats.extra_materials_dropped", "stats.faction_element_damage", "stats.faction_element_resistance", "stats.fire_damage", "stats.fishing_line_catches", "stats.flask_charge_on_defeat", "stats.follower_act", "stats.follower_stats", "stats.follower_summon_ai", "stats.follower_summon_damage_taken", "stats.follower_turn_chance", "stats.foresight", "stats.frenzy", "stats.gifts", "stats.godforge_chance", "stats.gold_bonus", "stats.healing", "stats.higher_quality_item_chance", "stats.holy_damage", "stats.holy_res", "stats.hp", "stats.hp_regen", "stats.hp_ward_recovery", "stats.hybrid_damage", "stats.instant_summon_chance", "stats.life_siphon", "stats.lightning_damage", "stats.low_hp_r_stats", "stats.luck_bonus", "stats.magic", "stats.mana", "stats.mana_overspend_chance", "stats.mana_reduction", "stats.mana_regen", "stats.mana_ward_recovery", "stats.manaflask_charge", "stats.manaflask_power", "stats.memory_hunting_rewards", "stats.monster_encounters", "stats.monster_power", "stats.multi_target_damage", "stats.multi_target_mana_reduction", "stats.no_follower_bonus", "stats.orn_bonus", "stats.physical_damage", "stats.player_r_follower_ability_chance", "stats.quest_rewards", "stats.questing", "stats.raid_rewards", "stats.resistance", "stats.second_chance", "stats.self_damage_reduction", "stats.settlement_area_defense", "stats.sprite_size", "stats.stat_bonus", "stats.status_effect_chance", "stats.status_effect_duration", "stats.status_protection", "stats.status_reflection", "stats.summon_pacts", "stats.summon_protection", "stats.summon_stats", "stats.summon_turns", "stats.swap_defense_resistance", "stats.tower_shards", "stats.turn_delay_chance", "stats.turn_reduction", "stats.two_handed", "stats.two_handed_power", "stats.ult_defense", "stats.view_distance", "stats.ward", "stats.ward_absorption", "stats.ward_bypass", "stats.ward_power", "stats.ward_recovery", "stats.ward_recovery_turn", "stats.ward_start", "stats.water_damage", "stats.weapon_power", "stats.world_horde_opponents"]
+items = ["stats._arch_alchemy", "stats._attack_from_low_defense", "stats._instrument_proficiency", "stats._weapon_proficiency", "stats.accuracy", "stats.act_first_chance__pve_", "stats.adornment_slots", "stats.ally_effect_chance", "stats.apex", "stats.apex_rate", "stats.apex_start", "stats.arcane_damage", "stats.attack", "stats.avidity", "stats.battle_animation_time", "stats.berserk_encounters", "stats.bestial_bond", "stats.bestial_bond_level", "stats.blacksmith_material_cost", "stats.blacksmith_time", "stats.buff_duration", "stats.cats", "stats.chain_damage_chance", "stats.collateral_chance", "stats.collateral_damage", "stats.crit", "stats.crit_chance_bonus", "stats.crit_damage", "stats.critical_chain", "stats.damage_limit_break", "stats.damage_per_turn_r_stats", "stats.damage_protect", "stats.damage_to_damage_per_turn", "stats.damage_to_ward", "stats.dark_damage", "stats.dark_res", "stats.debuff_fade", "stats.def_res_penetration", "stats.defend_power", "stats.defense", "stats.dexterity", "stats.disperse_status_effect_chance", "stats.dodge_chance", "stats.double_summon_chance", "stats.dragon_damage", "stats.dullahan_s_pursuit", "stats.dungeon_cooldown", "stats.dungeon_horde_bonus", "stats.dungeon_rewards", "stats.earthen_damage", "stats.effect_damage", "stats.elemental_damage_taken", "stats.elemental_weaknesses", "stats.event_encounters", "stats.exp_bonus", "stats.extra_materials_dropped", "stats.faction_element_damage", "stats.faction_element_resistance", "stats.fire_damage", "stats.fishing_line_catches", "stats.flask_charge_on_defeat", "stats.follower_act", "stats.follower_stats", "stats.follower_summon_ai", "stats.follower_summon_damage_taken", "stats.follower_turn_chance", "stats.foresight", "stats.frenzy", "stats.gifts", "stats.godforge_chance", "stats.gold_bonus", "stats.healing", "stats.holy_damage", "stats.holy_res", "stats.hp", "stats.hp_regen", "stats.hp_ward_recovery", "stats.hybrid_damage", "stats.instant_summon_chance", "stats.item_drop_quality_bonus", "stats.life_siphon", "stats.lightning_damage", "stats.low_hp_r_stats", "stats.luck_bonus", "stats.magic", "stats.mana", "stats.mana_overspend_chance", "stats.mana_reduction", "stats.mana_regen", "stats.mana_ward_recovery", "stats.manaflask_charge", "stats.manaflask_power", "stats.memory_hunting_rewards", "stats.monster_encounters", "stats.monster_power", "stats.multi_target_damage", "stats.multi_target_mana_reduction", "stats.no_follower_bonus", "stats.orn_bonus", "stats.physical_damage", "stats.player_r_follower_ability_chance", "stats.quest_rewards", "stats.questing", "stats.raid_rewards", "stats.resistance", "stats.second_chance", "stats.self_damage_reduction", "stats.settlement_area_defense", "stats.sprite_size", "stats.stat_bonus", "stats.status_effect_chance", "stats.status_effect_duration", "stats.status_protection", "stats.status_reflection", "stats.summon_pacts", "stats.summon_protection", "stats.summon_stats", "stats.summon_turns", "stats.swap_defense_resistance", "stats.tower_shards", "stats.turn_delay_chance", "stats.turn_reduction", "stats.two_handed", "stats.two_handed_power", "stats.ult_defense", "stats.view_distance", "stats.ward", "stats.ward_absorption", "stats.ward_bypass", "stats.ward_power", "stats.ward_recovery", "stats.ward_recovery_turn", "stats.ward_start", "stats.water_damage", "stats.weapon_power", "stats.world_horde_opponents"]
 raids = ["hp"]
 spells = ["stats.costs", "stats.crit_chance"]
 
@@ -100474,10 +100474,6 @@ unit = "PERCENT"
 type = "SIGNED"
 unit = "PERCENT"
 
-[meta.value_types."stats.higher_quality_item_chance"]
-type = "SIGNED"
-unit = "PERCENT"
-
 [meta.value_types."stats.holy_damage"]
 type = "SIGNED"
 unit = "PERCENT"
@@ -100499,6 +100495,10 @@ type = "SIGNED"
 unit = "PERCENT"
 
 [meta.value_types."stats.instant_summon_chance"]
+type = "SIGNED"
+unit = "PERCENT"
+
+[meta.value_types."stats.item_drop_quality_bonus"]
 type = "SIGNED"
 unit = "PERCENT"
 

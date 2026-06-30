@@ -656,6 +656,11 @@ id = "second_chance"
 language = "zh-hant"
 name = "第二次機會"
 
+[abilities.seed_of_yggdrasil]
+id = "seed_of_yggdrasil"
+language = "zh-hant"
+name = "Seed of Yggdrasil"
+
 [abilities.shields_up]
 description = "護盾技能在戰鬥時會自動開啟。"
 id = "shields_up"
@@ -1109,6 +1114,24 @@ category = "bosses"
 id = "arisen-mammon"
 language = "zh-hant"
 name = "重生瑪門"
+
+[entries."bosses/arisen-norn-skuld"]
+category = "bosses"
+id = "arisen-norn-skuld"
+language = "zh-hant"
+name = "重生諾倫女神詩蔻蒂"
+
+[entries."bosses/arisen-norn-uthr"]
+category = "bosses"
+id = "arisen-norn-uthr"
+language = "zh-hant"
+name = "重生諾倫女神兀兒德"
+
+[entries."bosses/arisen-norn-verthandi"]
+category = "bosses"
+id = "arisen-norn-verthandi"
+language = "zh-hant"
+name = "重生諾倫女神蓓兒丹娣"
 
 [entries."bosses/arisen-thor-the-storm-god"]
 category = "bosses"
@@ -1692,6 +1715,24 @@ id = "fey-kelpie"
 language = "zh-hant"
 name = "變異凱爾皮"
 
+[entries."bosses/fey-norn-skuld"]
+category = "bosses"
+id = "fey-norn-skuld"
+language = "zh-hant"
+name = "變異諾倫女神詩蔻蒂"
+
+[entries."bosses/fey-norn-uthr"]
+category = "bosses"
+id = "fey-norn-uthr"
+language = "zh-hant"
+name = "變異諾倫女神兀兒德"
+
+[entries."bosses/fey-norn-verthandi"]
+category = "bosses"
+id = "fey-norn-verthandi"
+language = "zh-hant"
+name = "變異諾倫女神蓓兒丹娣"
+
 [entries."bosses/finfolk"]
 category = "bosses"
 id = "finfolk"
@@ -2058,6 +2099,24 @@ id = "niskus-of-fomoria"
 language = "zh-hant"
 name = "弗摩爾族之尼斯庫斯"
 
+[entries."bosses/norn-skuld"]
+category = "bosses"
+id = "norn-skuld"
+language = "zh-hant"
+name = "諾倫女神詩蔻蒂"
+
+[entries."bosses/norn-uthr"]
+category = "bosses"
+id = "norn-uthr"
+language = "zh-hant"
+name = "諾倫女神兀兒德"
+
+[entries."bosses/norn-verthandi"]
+category = "bosses"
+id = "norn-verthandi"
+language = "zh-hant"
+name = "諾倫女神蓓兒丹娣"
+
 [entries."bosses/ob"]
 category = "bosses"
 id = "ob"
@@ -2405,6 +2464,12 @@ category = "bosses"
 id = "yelbeghen"
 language = "zh-hant"
 name = "耶爾貝甘"
+
+[entries."bosses/yggdrasil-seedhusk"]
+category = "bosses"
+id = "yggdrasil-seedhusk"
+language = "zh-hant"
+name = "Yggdrasil Seedhusk"
 
 [entries."bosses/ymir-amphiptere"]
 category = "bosses"
@@ -3271,6 +3336,13 @@ description = "期間限定。"
 id = "arisen-stonewarg-f829d6e1"
 language = "zh-hant"
 name = "重生岩石座狼"
+
+[entries."followers/arisen-yggdrasil-seedhusk"]
+category = "followers"
+description = "Protector of the Seeds of Yggdrasil."
+id = "arisen-yggdrasil-seedhusk"
+language = "zh-hant"
+name = "Arisen Yggdrasil Seedhusk"
 
 [entries."followers/ashen-phoenix"]
 category = "followers"
@@ -4910,6 +4982,13 @@ id = "yeti"
 language = "zh-hant"
 name = "雪怪"
 
+[entries."followers/yggdrasil-seedhusk"]
+category = "followers"
+description = "Protector of the Seeds of Yggdrasil."
+id = "yggdrasil-seedhusk"
+language = "zh-hant"
+name = "Yggdrasil Seedhusk"
+
 [entries."followers/ymir-amphiptere"]
 category = "followers"
 description = "遠古巨龍能使用諸多技能。限時特賣。"
@@ -5161,6 +5240,13 @@ description = "柏修斯著名的盾牌，來自雅典娜的餽贈。它會保�
 id = "aegis-of-athena"
 language = "zh-hant"
 name = "雅典娜的神盾"
+
+[entries."items/aegishjalmr"]
+category = "items"
+description = "Armor of Yggdrasil, the fallen symbol of life. When wearing this armor, there is a chance one's Apex meter will not be depleted upon using an Apex ability."
+id = "aegishjalmr"
+language = "zh-hant"
+name = "Aegishjalmr"
 
 [entries."items/aengus-ogs-lute"]
 category = "items"
@@ -9684,6 +9770,13 @@ id = "brunors-cabochon"
 language = "zh-hant"
 name = "布魯諾的凸圓寶石"
 
+[entries."items/brynja"]
+category = "items"
+description = "Armor of Yggdrasil, the fallen symbol of life. When wearing this armor, there is a chance one's Apex meter will not be depleted upon using an Apex ability."
+id = "brynja"
+language = "zh-hant"
+name = "布林亞"
+
 [entries."items/buckler"]
 category = "items"
 description = "就是個小盾."
@@ -10825,17 +10918,17 @@ id = "cursed-fomoria-plated-boots"
 language = "zh-hant"
 name = "受詛咒的弗摩爾族板甲靴"
 
+[entries."items/cursed-fomoria-plated-boots-0ebf6063"]
+category = "items"
+description = "弗摩爾長靴，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
+id = "cursed-fomoria-plated-boots-0ebf6063"
+language = "zh-hant"
+name = "受詛咒的弗摩爾族板甲靴"
+
 [entries."items/cursed-fomoria-plated-boots-7a9f5efc"]
 category = "items"
 description = "弗摩爾長靴，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 id = "cursed-fomoria-plated-boots-7a9f5efc"
-language = "zh-hant"
-name = "受詛咒的弗摩爾族板甲靴"
-
-[entries."items/cursed-fomoria-plated-boots-c6787dd8"]
-category = "items"
-description = "弗摩爾長靴，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
-id = "cursed-fomoria-plated-boots-c6787dd8"
 language = "zh-hant"
 name = "受詛咒的弗摩爾族板甲靴"
 
@@ -10853,10 +10946,10 @@ id = "cursed-fomoria-plated-robe"
 language = "zh-hant"
 name = "受詛咒的弗摩爾族板甲袍"
 
-[entries."items/cursed-fomoria-plated-robe-5d09a4d7"]
+[entries."items/cursed-fomoria-plated-robe-49122feb"]
 category = "items"
 description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
-id = "cursed-fomoria-plated-robe-5d09a4d7"
+id = "cursed-fomoria-plated-robe-49122feb"
 language = "zh-hant"
 name = "受詛咒的弗摩爾族板甲袍"
 
@@ -12365,6 +12458,13 @@ id = "dynasty"
 language = "zh-hant"
 name = "王朝"
 
+[entries."items/dyrhamr"]
+category = "items"
+description = "Robes of Yggdrasil, the fallen symbol of life."
+id = "dyrhamr"
+language = "zh-hant"
+name = "戴哈默"
+
 [entries."items/dyrnwyn"]
 category = "items"
 description = "出鞘時會燃燒的傳說之刃。"
@@ -12983,15 +13083,15 @@ name = "不滅火炬"
 
 [entries."items/excalibur"]
 category = "items"
-description = "???"
+description = "此為湖中之女贈予亞瑟之惡名之劍。"
 id = "excalibur"
 language = "zh-hant"
 name = "誓約聖劍"
 
-[entries."items/excalibur-32be53bc"]
+[entries."items/excalibur-eec7bf3e"]
 category = "items"
-description = "此為湖中之女贈予亞瑟之惡名之劍。"
-id = "excalibur-32be53bc"
+description = "???"
+id = "excalibur-eec7bf3e"
 language = "zh-hant"
 name = "誓約聖劍"
 
@@ -13898,13 +13998,6 @@ id = "fey-scroll"
 language = "zh-hant"
 name = "變異卷軸"
 
-[entries."items/fey-scroll-of-ragnarok"]
-category = "items"
-description = "記載著諸神黃昏咒語的卷軸。閱讀它們將能召喚出變異耶夢加德。"
-id = "fey-scroll-of-ragnarok"
-language = "zh-hant"
-name = "變異諸神黃昏卷軸"
-
 [entries."items/fey-serpent-pearl"]
 category = "items"
 description = "墮落王者阿爾斯特的飾品。阿爾斯特曾是萬海之王但被其御用藥師摩莉所毒害。\n\n持有此道具時，你的部分物防及魔防會交換。道具品質愈好，交換的量愈多。"
@@ -14150,6 +14243,13 @@ id = "fjalar-mantle"
 language = "zh-hant"
 name = "法亞拉披風"
 
+[entries."items/fjolkyngi"]
+category = "items"
+description = "Robes of Yggdrasil, the fallen symbol of life. When wearing this item, there is a chance one's Manaflask will not be emptied upon using an Manaflask or Bloodflask spell."
+id = "fjolkyngi"
+language = "zh-hant"
+name = "Fjolkyngi"
+
 [entries."items/flamberge"]
 category = "items"
 description = "一把巨大、具有波形的長刀，看似火焰一般。"
@@ -14276,6 +14376,13 @@ id = "fomoria-plated-boots"
 language = "zh-hant"
 name = "弗摩爾族板甲靴"
 
+[entries."items/fomoria-plated-boots-0e3ca45d"]
+category = "items"
+description = "弗摩爾長靴，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
+id = "fomoria-plated-boots-0e3ca45d"
+language = "zh-hant"
+name = "弗摩爾族板甲靴"
+
 [entries."items/fomoria-plated-boots-12aa0ab8"]
 category = "items"
 description = "弗摩爾長靴，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
@@ -14290,13 +14397,6 @@ id = "fomoria-plated-boots-8a5bd211"
 language = "zh-hant"
 name = "弗摩爾族板甲靴"
 
-[entries."items/fomoria-plated-boots-b9357c84"]
-category = "items"
-description = "弗摩爾長靴，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
-id = "fomoria-plated-boots-b9357c84"
-language = "zh-hant"
-name = "弗摩爾族板甲靴"
-
 [entries."items/fomoria-plated-robe"]
 category = "items"
 description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
@@ -14304,17 +14404,17 @@ id = "fomoria-plated-robe"
 language = "zh-hant"
 name = "弗摩爾族板甲袍"
 
-[entries."items/fomoria-plated-robe-272802ec"]
-category = "items"
-description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
-id = "fomoria-plated-robe-272802ec"
-language = "zh-hant"
-name = "弗摩爾族板甲袍"
-
 [entries."items/fomoria-plated-robe-427f8b42"]
 category = "items"
 description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 id = "fomoria-plated-robe-427f8b42"
+language = "zh-hant"
+name = "弗摩爾族板甲袍"
+
+[entries."items/fomoria-plated-robe-946a26b9"]
+category = "items"
+description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
+id = "fomoria-plated-robe-946a26b9"
 language = "zh-hant"
 name = "弗摩爾族板甲袍"
 
@@ -14556,6 +14656,13 @@ id = "furious-helmet"
 language = "zh-hant"
 name = "狂怒頭盔"
 
+[entries."items/fylgja"]
+category = "items"
+description = "Headdress of Yggdrasil, the fallen symbol of life."
+id = "fylgja"
+language = "zh-hant"
+name = "菲爾嘉"
+
 [entries."items/gadget"]
 category = "items"
 description = "偉大發明家卡德的發明之一.這小東西能防止物理防禦被降低."
@@ -14583,6 +14690,13 @@ description = "伽勒爾所用的精良錘子。在鐵匠鋪升級裝備之前�
 id = "galars-hammer"
 language = "zh-hant"
 name = "伽勒爾之錘"
+
+[entries."items/galdr"]
+category = "items"
+description = "Robes of Yggdrasil, the fallen symbol of life. When wearing this item, there is a chance one's Manaflask will not be emptied upon using an Manaflask or Bloodflask spell."
+id = "galdr"
+language = "zh-hant"
+name = "伽爾德"
 
 [entries."items/gales-spear"]
 category = "items"
@@ -15479,6 +15593,13 @@ description = "由無名女巫所配戴的象徵性頭飾，可以免疫四大�
 id = "hallowed-witchs-hat"
 language = "zh-hant"
 name = "萬聖女巫帽"
+
+[entries."items/hamfarir"]
+category = "items"
+description = "Robes of Yggdrasil, the fallen symbol of life. When wearing this item, there is a chance one's Manaflask will not be emptied upon using an Manaflask or Bloodflask spell."
+id = "hamfarir"
+language = "zh-hant"
+name = "Hamfarir"
 
 [entries."items/hammer"]
 category = "items"
@@ -16803,10 +16924,10 @@ id = "kerberos-claws"
 language = "zh-hant"
 name = "刻耳柏洛斯之爪"
 
-[entries."items/kerberos-claws-81b67c8d"]
+[entries."items/kerberos-claws-e7f61ea1"]
 category = "items"
 description = "由刻耳柏洛斯那尖銳、強大、鋒利如刃的爪所製成。攻擊有機會造成流血及冰凍狀態。"
-id = "kerberos-claws-81b67c8d"
+id = "kerberos-claws-e7f61ea1"
 language = "zh-hant"
 name = "刻耳柏洛斯之爪"
 
@@ -16962,7 +17083,7 @@ category = "items"
 description = "亞瑟王騎士武器上的裝飾品，一顆經過打磨的寶石。"
 id = "lancelots-cabochon"
 language = "zh-hant"
-name = "Lancelot's Cabochon"
+name = "蘭斯洛特的凸圓寶石"
 
 [entries."items/lancelots-reach"]
 category = "items"
@@ -20681,6 +20802,27 @@ id = "rune-of-muninn"
 language = "zh-hant"
 name = "霧尼之符文"
 
+[entries."items/rune-of-skuld"]
+category = "items"
+description = "Rune of Norn Skuld. When adorned upon a weapon, it will increase the number of Ward turns you start battle with."
+id = "rune-of-skuld"
+language = "zh-hant"
+name = "詩蔻蒂的符文"
+
+[entries."items/rune-of-uthr"]
+category = "items"
+description = "Rune of Norn Uthr. When adorned upon a weapon, it may increase the targets that your skills or spells will hit."
+id = "rune-of-uthr"
+language = "zh-hant"
+name = "Rune of Uthr"
+
+[entries."items/rune-of-verthandi"]
+category = "items"
+description = "Rune of Norn Verthandi. When adorned upon a piece of armor, it will increase the Berserk encounters you may have."
+id = "rune-of-verthandi"
+language = "zh-hant"
+name = "Rune of Verthandi"
+
 [entries."items/rune-shield"]
 category = "items"
 description = "能提升魔防的秘術盾牌."
@@ -20911,6 +21053,13 @@ id = "scroll-of-earth"
 language = "zh-hant"
 name = "大地卷軸"
 
+[entries."items/scroll-of-fey-jormungandr"]
+category = "items"
+description = "記載著諸神黃昏咒語的卷軸。閱讀它們將能召喚出變異耶夢加德。"
+id = "scroll-of-fey-jormungandr"
+language = "zh-hant"
+name = "變異耶夢加德卷軸"
+
 [entries."items/scroll-of-fire"]
 category = "items"
 description = "具有火之知識的卷軸.能提升魔攻及魔禁瓶的充能率,施法時有機會造成燃燒."
@@ -20924,6 +21073,13 @@ description = "包含冰與水知識的卷軸，它會增加持有者的魔攻�
 id = "scroll-of-ice"
 language = "zh-hant"
 name = "冰之卷軸"
+
+[entries."items/scroll-of-jormungandr"]
+category = "items"
+description = "紀載著諸神黃昏咒語的卷軸。閱讀它們將能召喚出耶夢加德。"
+id = "scroll-of-jormungandr"
+language = "zh-hant"
+name = "耶夢加德卷軸"
 
 [entries."items/scroll-of-lightning"]
 category = "items"
@@ -20939,19 +21095,26 @@ id = "scroll-of-poison"
 language = "zh-hant"
 name = "毒術卷軸"
 
-[entries."items/scroll-of-ragnarok"]
-category = "items"
-description = "紀載著諸神黃昏咒語的卷軸。閱讀它們將能召喚出耶夢加德。"
-id = "scroll-of-ragnarok"
-language = "zh-hant"
-name = "諸神黃昏卷軸"
-
 [entries."items/scroll-of-rift-distortion"]
 category = "items"
 description = "含有混合裂痕崩落咒文的卷軸。使用者應獨立判斷，審慎評估並自負開卷風險。"
 id = "scroll-of-rift-distortion"
 language = "zh-hant"
 name = "裂痕扭曲卷軸"
+
+[entries."items/scroll-of-the-sapling"]
+category = "items"
+description = "A scroll consisting of the lore of the great Yggdrasil's saplings. Read this scroll to summon a Sapling of Yggdrasil to your location."
+id = "scroll-of-the-sapling"
+language = "zh-hant"
+name = "Scroll of the Sapling"
+
+[entries."items/scroll-of-yggdrasil"]
+category = "items"
+description = "A scroll consisting of the lore of the great Yggdrasil. Read this scroll to summon the Yggdrasil super raid to your location."
+id = "scroll-of-yggdrasil"
+language = "zh-hant"
+name = "世界樹的卷軸"
 
 [entries."items/scythe"]
 category = "items"
@@ -21008,6 +21171,13 @@ description = "第二騎士的法杖.能降低副本頭目究極攻擊的傷害�
 id = "second-horsemans-staff"
 language = "zh-hant"
 name = "第二騎士的法杖"
+
+[entries."items/seed-of-yggdrasil"]
+category = "items"
+description = "Seed of the great tree, Yggdrasil. This item is part of the Ragnarok world event."
+id = "seed-of-yggdrasil"
+language = "zh-hant"
+name = "Seed of Yggdrasil"
 
 [entries."items/seekers-candle"]
 category = "items"
@@ -21407,6 +21577,13 @@ description = "雪道裡的裝備。"
 id = "ski-suit"
 language = "zh-hant"
 name = "滑雪裝"
+
+[entries."items/skogarmar"]
+category = "items"
+description = "Legwear of Yggdrasil, the fallen symbol of life."
+id = "skogarmar"
+language = "zh-hant"
+name = "斯高加馬爾"
 
 [entries."items/skyshard"]
 category = "items"
@@ -22941,6 +23118,13 @@ id = "vajra"
 language = "zh-hant"
 name = "金剛杵"
 
+[entries."items/valfjoturr"]
+category = "items"
+description = "Armor of Yggdrasil, the fallen symbol of life. When wearing this armor, there is a chance one's Apex meter will not be depleted upon using an Apex ability."
+id = "valfjoturr"
+language = "zh-hant"
+name = "Valfjoturr"
+
 [entries."items/valhallan-armor"]
 category = "items"
 description = "北族女武神的重鎧甲."
@@ -23760,6 +23944,13 @@ id = "yeti-overcoat"
 language = "zh-hant"
 name = "雪怪大衣"
 
+[entries."items/yggdrasil-crucible"]
+category = "items"
+description = "An crucible holding the remains of Yggdrasil. Use it upon an Anguished item to receive a bonus unique to this item."
+id = "yggdrasil-crucible"
+language = "zh-hant"
+name = "Yggdrasil Crucible"
+
 [entries."items/ymir-agathodaemon-hammer"]
 category = "items"
 description = "第四章：毀滅者阿伽忒俄斯將磐石頂端粉碎成泥土，塗抹在弗栗多的羽翼之上，這便是我們所熟知的大地。阿伽忒俄斯的錘子能粉碎對手的護盾。"
@@ -24218,6 +24409,24 @@ id = "aries-zealot"
 language = "zh-hant"
 name = "亞力士狂熱者"
 
+[entries."monsters/arisen-bloodwarg"]
+category = "monsters"
+id = "arisen-bloodwarg"
+language = "zh-hant"
+name = "重生血腥座狼"
+
+[entries."monsters/arisen-spiritgarm"]
+category = "monsters"
+id = "arisen-spiritgarm"
+language = "zh-hant"
+name = "重生靈獸加姆"
+
+[entries."monsters/arisen-stonewarg"]
+category = "monsters"
+id = "arisen-stonewarg"
+language = "zh-hant"
+name = "重生岩石座狼"
+
 [entries."monsters/balor-assassin"]
 category = "monsters"
 id = "balor-assassin"
@@ -24385,12 +24594,6 @@ category = "monsters"
 id = "bloodwarg"
 language = "zh-hant"
 name = "血腥座狼"
-
-[entries."monsters/bloodwarg-dfa97df9"]
-category = "monsters"
-id = "bloodwarg-dfa97df9"
-language = "zh-hant"
-name = "血腥座狼 (重生者)"
 
 [entries."monsters/bloom-requiem"]
 category = "monsters"
@@ -25172,6 +25375,12 @@ id = "fergus"
 language = "zh-hant"
 name = "弗格斯"
 
+[entries."monsters/fey-bloodwarg"]
+category = "monsters"
+id = "fey-bloodwarg"
+language = "zh-hant"
+name = "Fey Bloodwarg (重生者)"
+
 [entries."monsters/fey-cactus"]
 category = "monsters"
 id = "fey-cactus"
@@ -25195,6 +25404,18 @@ category = "monsters"
 id = "fey-selkie"
 language = "zh-hant"
 name = "變異海豹女"
+
+[entries."monsters/fey-spiritgarm"]
+category = "monsters"
+id = "fey-spiritgarm"
+language = "zh-hant"
+name = "Fey Spiritgarm (重生者)"
+
+[entries."monsters/fey-stonewarg"]
+category = "monsters"
+id = "fey-stonewarg"
+language = "zh-hant"
+name = "Fey Stonewarg (重生者)"
 
 [entries."monsters/final-stable-keeper"]
 category = "monsters"
@@ -26636,12 +26857,6 @@ id = "spiritgarm"
 language = "zh-hant"
 name = "靈獸加姆"
 
-[entries."monsters/spiritgarm-732978de"]
-category = "monsters"
-id = "spiritgarm-732978de"
-language = "zh-hant"
-name = "靈獸加姆 (重生者)"
-
 [entries."monsters/sprout"]
 category = "monsters"
 id = "sprout"
@@ -26651,12 +26866,6 @@ name = "初芽"
 [entries."monsters/stonewarg"]
 category = "monsters"
 id = "stonewarg"
-language = "zh-hant"
-name = "岩石座狼 (重生者)"
-
-[entries."monsters/stonewarg-b4d838aa"]
-category = "monsters"
-id = "stonewarg-b4d838aa"
 language = "zh-hant"
 name = "岩石座狼"
 
@@ -26906,6 +27115,30 @@ id = "yeti"
 language = "zh-hant"
 name = "雪怪"
 
+[entries."monsters/yggdrasil-guardian"]
+category = "monsters"
+id = "yggdrasil-guardian"
+language = "zh-hant"
+name = "Yggdrasil Guardian"
+
+[entries."monsters/yggdrasil-guardian-999e55eb"]
+category = "monsters"
+id = "yggdrasil-guardian-999e55eb"
+language = "zh-hant"
+name = "Yggdrasil Guardian"
+
+[entries."monsters/yggdrasil-guardian-a3c8b253"]
+category = "monsters"
+id = "yggdrasil-guardian-a3c8b253"
+language = "zh-hant"
+name = "Yggdrasil Guardian"
+
+[entries."monsters/yggdrasil-guardian-b0d1c0fd"]
+category = "monsters"
+id = "yggdrasil-guardian-b0d1c0fd"
+language = "zh-hant"
+name = "Yggdrasil Guardian"
+
 [entries."monsters/yokai"]
 category = "monsters"
 id = "yokai"
@@ -27154,13 +27387,6 @@ description = "傳言中特里維廉是梅里歐達斯宮殿中最後一個倒�
 id = "arisen-warlock-trevelyan"
 language = "zh-hant"
 name = "重生術士特里維廉"
-
-[entries."raids/arisen-yggdrasil"]
-category = "raids"
-description = "曾是生命象徵的偉大世界樹，現在墮落且重生。在祂面前，不許提老木。"
-id = "arisen-yggdrasil"
-language = "zh-hant"
-name = "重生世界樹"
 
 [entries."raids/ashen-phoenix"]
 category = "raids"
@@ -27609,6 +27835,13 @@ id = "rift-judgement"
 language = "zh-hant"
 name = "裂痕審判"
 
+[entries."raids/sapling-of-yggdrasil"]
+category = "raids"
+description = "Young tree born of Yggdrasil."
+id = "sapling-of-yggdrasil"
+language = "zh-hant"
+name = "Sapling of Yggdrasil"
+
 [entries."raids/scruug"]
 category = "raids"
 description = "貪婪與忌妒的代名詞.守財奴史古基每年都會從冥府出來摧毀所有一切歡樂."
@@ -27742,6 +27975,13 @@ id = "thronemaker-sekhmet"
 language = "zh-hant"
 name = "造王者塞赫麥特"
 
+[entries."raids/treeling-of-yggdrasil"]
+category = "raids"
+description = "Young tree born of Yggdrasil."
+id = "treeling-of-yggdrasil"
+language = "zh-hant"
+name = "Treeling of Yggdrasil"
+
 [entries."raids/tricky-aries"]
 category = "raids"
 description = "森林牡羊亞力士從天而降。"
@@ -27765,7 +28005,7 @@ name = "無瑕的柏修斯"
 
 [entries."raids/yggdrasil"]
 category = "raids"
-description = "曾經是生命象徵的偉大世界樹，現在墮落。在祂面前，不許提老木。"
+description = "The World Tree."
 id = "yggdrasil"
 language = "zh-hant"
 name = "世界樹"
@@ -33223,27 +33463,6 @@ id = "summon-anubis"
 language = "zh-hant"
 name = "召喚阿努比斯"
 
-[entries."spells/summon-arisen-bloodwarg"]
-category = "spells"
-description = "召喚一隻動物來協助你。需要兩回合施放。"
-id = "summon-arisen-bloodwarg"
-language = "zh-hant"
-name = "召喚重生血腥座狼 (副手)"
-
-[entries."spells/summon-arisen-spiritgarm"]
-category = "spells"
-description = "召喚一隻動物來協助你。需要兩回合施放。"
-id = "summon-arisen-spiritgarm"
-language = "zh-hant"
-name = "召喚重生靈獸加姆 (副手)"
-
-[entries."spells/summon-arisen-stonewarg"]
-category = "spells"
-description = "召喚一隻動物來協助你。需要兩回合施放。"
-id = "summon-arisen-stonewarg"
-language = "zh-hant"
-name = "召喚重生岩石座狼 (副手)"
-
 [entries."spells/summon-basilisk"]
 category = "spells"
 description = "召喚一隻野獸來協助你。"
@@ -33377,12 +33596,33 @@ id = "summon-failed-phoenix"
 language = "zh-hant"
 name = "召喚衰敗鳳凰"
 
+[entries."spells/summon-fey-bloodwarg"]
+category = "spells"
+description = "召喚一隻動物來協助你。需要兩回合施放。"
+id = "summon-fey-bloodwarg"
+language = "zh-hant"
+name = "Summon Fey Bloodwarg (副手)"
+
 [entries."spells/summon-fey-kelpie"]
 category = "spells"
 description = "召喚一隻野獸來協助你。召喚需要3回合。"
 id = "summon-fey-kelpie"
 language = "zh-hant"
 name = "召喚變異凱爾皮"
+
+[entries."spells/summon-fey-spiritgarm"]
+category = "spells"
+description = "召喚一隻動物來協助你。需要兩回合施放。"
+id = "summon-fey-spiritgarm"
+language = "zh-hant"
+name = "Summon Fey Spiritgarm (副手)"
+
+[entries."spells/summon-fey-stonewarg"]
+category = "spells"
+description = "召喚一隻動物來協助你。需要兩回合施放。"
+id = "summon-fey-stonewarg"
+language = "zh-hant"
+name = "Summon Fey Stonewarg (副手)"
 
 [entries."spells/summon-final-bloom"]
 category = "spells"
@@ -34700,6 +34940,62 @@ id = "x-slash-iii"
 language = "zh-hant"
 name = "X 斬擊 III"
 
+[entries."spells/yggdrasils-fortification"]
+category = "spells"
+description = "Grants Ward for 3 turns to the whole party."
+id = "yggdrasils-fortification"
+language = "zh-hant"
+name = "Yggdrasil's Fortification"
+
+[entries."spells/yggdrasils-fortification-ii"]
+category = "spells"
+description = "Grants Ward for 5 turns to the whole party."
+id = "yggdrasils-fortification-ii"
+language = "zh-hant"
+name = "Yggdrasil's Fortification II"
+
+[entries."spells/yggdrasils-fury"]
+category = "spells"
+description = "Deals holy and dark damage to two opponents with the potential to apply an Earthen Sigil. This spell will use either your magic or attack stat, depending on which is greater."
+id = "yggdrasils-fury"
+language = "zh-hant"
+name = "Yggdrasil's Fury"
+
+[entries."spells/yggdrasils-fury-ii"]
+category = "spells"
+description = "Deals holy and dark damage to two opponents with the potential to apply a Dark Sigil. This spell will use either your magic or attack stat, depending on which is greater."
+id = "yggdrasils-fury-ii"
+language = "zh-hant"
+name = "Yggdrasil's Fury II"
+
+[entries."spells/yggdrasils-protection"]
+category = "spells"
+description = "Recovers 20 percent of Ward to the whole party."
+id = "yggdrasils-protection"
+language = "zh-hant"
+name = "Yggdrasil's Protection"
+
+[entries."spells/yggdrasils-protection-ii"]
+category = "spells"
+description = "Recovers 40 percent of Ward to the whole party."
+id = "yggdrasils-protection-ii"
+language = "zh-hant"
+name = "Yggdrasil's Protection II"
+
+[entries."spells/yggdrasils-restoration"]
+category = "spells"
+description = "Restores 1000 HP to a single party member."
+id = "yggdrasils-restoration"
+language = "zh-hant"
+name = "Yggdrasil's Restoration"
+
+[entries."spells/yggdrasils-restoration-ii"]
+category = "spells"
+description = "Restores 2500 HP to a all party members."
+id = "yggdrasils-restoration-ii"
+language = "zh-hant"
+name = "Yggdrasil's Restoration II"
+
 [msg.category]
 bosses = "頭目"
 classes = "職業"
@@ -34903,9 +35199,10 @@ accuracy = "準星"
 act_first_chance__pve_ = "優先行動機率 (PVE)"
 adornment_slots = "鑲嵌槽位"
 ally_effect_chance = "盟友效果機率"
-apex = "Apex"
 apex_effect = "Apex效果"
+apex_power = "Apex Power"
 apex_rate = "Apex充能率"
+apex_saver_chance = "Apex Saver Chance"
 apex_start = "起始Apex"
 apex_used_r_stats = "使用Apex → 體質"
 arcane_damage = "奧術傷害"
@@ -34955,6 +35252,7 @@ debuff_rate = "減益機率"
 def_res_penetration = "物防/魔防穿透"
 defend_power = "防禦力"
 defense = "物防"
+deific_channel = "+能力：引入神力"
 dexterity = "敏捷"
 disperse_status_effect_chance = "狀態分配機會"
 dodge_chance = "迴避機率"
@@ -34983,6 +35281,7 @@ fire_res = "火系抗性"
 fire_sigil_ = "+能力：火之印記+"
 fishing_line_catches = "魚線漁獲量"
 flask_charge_on_defeat = "禁瓶擊殺充能"
+flask_saver_chance = "Flask Saver Chance"
 follower_act = "追隨者行動"
 follower_ascension_level = "跟隨者通天等級"
 follower_protect = "跟隨者守護"
@@ -35171,6 +35470,9 @@ arcane_aligned = "奧術行者"
 arcane_slime = "奧術史萊姆"
 arcane_troll = "奧術巨魔"
 arcane_uu = "奧術 ↑↑"
+arisen_bloodwarg = "重生血腥座狼"
+arisen_spiritgarm = "重生靈獸加姆"
+arisen_stonewarg = "重生岩石座狼"
 asleep = "入睡"
 asteria_of_olympia = "奧林匹亞的阿斯忒里亞"
 atlas_of_olympia = "奧林匹亞的阿特拉斯"
@@ -35185,8 +35487,6 @@ bleeding = "流血"
 blight = "枯萎"
 blind = "致盲"
 bloodshift = "鮮血轉移"
-bloodwarg = "血腥座狼"
-bloodwarg_cb7510b7 = "血腥座狼"
 bloom_requiem = "最後綻放安魂曲"
 bloom_requiem_ee502254 = "最後綻放安魂曲"
 bonded_attack = "羈絆物攻"
@@ -35262,7 +35562,10 @@ eos = "愛奧斯"
 fafnir = "法夫納"
 failed_phoenix = "衰敗鳳凰"
 failed_phoenix_d631a291 = "衰敗鳳凰"
+fey_bloodwarg = "Fey Bloodwarg"
 fey_kelpie = "變異凱爾皮"
+fey_spiritgarm = "Fey Spiritgarm"
+fey_stonewarg = "Fey Stonewarg"
 fire_aligned = "火行者"
 fire_att = "火 攻"
 fire_def = "火 抗"
@@ -35377,17 +35680,14 @@ snotra = "斯洛特拉"
 sphinx_kit = "斯芬克斯幼崽"
 spiked_greaves = "荊棘護脛"
 spiked_pauldrons = "荊棘肩鎧"
-spiritgarm = "靈獸加姆"
-spiritgarm_3faef994 = "靈獸加姆"
 spooky_ghost = "詭異幽靈"
 starstruck = "暈星"
 stasis = "停滯"
-stonewarg = "岩石座狼"
-stonewarg_68f86843 = "岩石座狼"
 stunned = "暈眩"
 "t__?_uuu" = "T. ? ↑↑↑"
 t__all_d = "T. All ↓"
 t__all_u = "T. All ↑"
+t__all_uu = "T. All ↑↑"
 t__all_uuu = "T. All ↑↑↑"
 t__att_d = "T. Att ↓"
 t__att_dd = "T. Att ↓↓"

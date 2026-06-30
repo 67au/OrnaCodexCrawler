@@ -656,6 +656,11 @@ id = "second_chance"
 language = "en"
 name = "Second Chance"
 
+[abilities.seed_of_yggdrasil]
+id = "seed_of_yggdrasil"
+language = "en"
+name = "Seed of Yggdrasil"
+
 [abilities.shields_up]
 description = "Ward is automatically activated in battle."
 id = "shields_up"
@@ -1109,6 +1114,24 @@ category = "bosses"
 id = "arisen-mammon"
 language = "en"
 name = "Arisen Mammon"
+
+[entries."bosses/arisen-norn-skuld"]
+category = "bosses"
+id = "arisen-norn-skuld"
+language = "en"
+name = "Arisen Norn Skuld"
+
+[entries."bosses/arisen-norn-uthr"]
+category = "bosses"
+id = "arisen-norn-uthr"
+language = "en"
+name = "Arisen Norn Uthr"
+
+[entries."bosses/arisen-norn-verthandi"]
+category = "bosses"
+id = "arisen-norn-verthandi"
+language = "en"
+name = "Arisen Norn Verthandi"
 
 [entries."bosses/arisen-thor-the-storm-god"]
 category = "bosses"
@@ -1692,6 +1715,24 @@ id = "fey-kelpie"
 language = "en"
 name = "Fey Kelpie"
 
+[entries."bosses/fey-norn-skuld"]
+category = "bosses"
+id = "fey-norn-skuld"
+language = "en"
+name = "Fey Norn Skuld"
+
+[entries."bosses/fey-norn-uthr"]
+category = "bosses"
+id = "fey-norn-uthr"
+language = "en"
+name = "Fey Norn Uthr"
+
+[entries."bosses/fey-norn-verthandi"]
+category = "bosses"
+id = "fey-norn-verthandi"
+language = "en"
+name = "Fey Norn Verthandi"
+
 [entries."bosses/finfolk"]
 category = "bosses"
 id = "finfolk"
@@ -2058,6 +2099,24 @@ id = "niskus-of-fomoria"
 language = "en"
 name = "Niskus of Fomoria"
 
+[entries."bosses/norn-skuld"]
+category = "bosses"
+id = "norn-skuld"
+language = "en"
+name = "Norn Skuld"
+
+[entries."bosses/norn-uthr"]
+category = "bosses"
+id = "norn-uthr"
+language = "en"
+name = "Norn Uthr"
+
+[entries."bosses/norn-verthandi"]
+category = "bosses"
+id = "norn-verthandi"
+language = "en"
+name = "Norn Verthandi"
+
 [entries."bosses/ob"]
 category = "bosses"
 id = "ob"
@@ -2405,6 +2464,12 @@ category = "bosses"
 id = "yelbeghen"
 language = "en"
 name = "Yelbeghen"
+
+[entries."bosses/yggdrasil-seedhusk"]
+category = "bosses"
+id = "yggdrasil-seedhusk"
+language = "en"
+name = "Yggdrasil Seedhusk"
 
 [entries."bosses/ymir-amphiptere"]
 category = "bosses"
@@ -3271,6 +3336,13 @@ description = "Available for a limited time only."
 id = "arisen-stonewarg-f829d6e1"
 language = "en"
 name = "Arisen Stonewarg"
+
+[entries."followers/arisen-yggdrasil-seedhusk"]
+category = "followers"
+description = "Protector of the Seeds of Yggdrasil."
+id = "arisen-yggdrasil-seedhusk"
+language = "en"
+name = "Arisen Yggdrasil Seedhusk"
 
 [entries."followers/ashen-phoenix"]
 category = "followers"
@@ -4910,6 +4982,13 @@ id = "yeti"
 language = "en"
 name = "Yeti"
 
+[entries."followers/yggdrasil-seedhusk"]
+category = "followers"
+description = "Protector of the Seeds of Yggdrasil."
+id = "yggdrasil-seedhusk"
+language = "en"
+name = "Yggdrasil Seedhusk"
+
 [entries."followers/ymir-amphiptere"]
 category = "followers"
 description = "The Great Dragons will bring many skills to battle. Available for a limited time only."
@@ -5161,6 +5240,13 @@ description = "Perseus's famous shield, gifted by Athena. It will protect one fr
 id = "aegis-of-athena"
 language = "en"
 name = "Aegis of Athena"
+
+[entries."items/aegishjalmr"]
+category = "items"
+description = "Armor of Yggdrasil, the fallen symbol of life. When wearing this armor, there is a chance one's Apex meter will not be depleted upon using an Apex ability."
+id = "aegishjalmr"
+language = "en"
+name = "Aegishjalmr"
 
 [entries."items/aengus-ogs-lute"]
 category = "items"
@@ -5878,42 +5964,42 @@ name = "Arisen Armor"
 
 [entries."items/arisen-askr-armor"]
 category = "items"
-description = "Heavy armor of Yggdrasil, the fallen symbol of life. Wearing it may occasionally greatly increase one's power."
+description = "Heavy armor of a sapling of Yggdrasil, the fallen symbol of life. Wearing it may occasionally greatly increase one's power."
 id = "arisen-askr-armor"
 language = "en"
 name = "Arisen Askr Armor"
 
 [entries."items/arisen-askr-boots"]
 category = "items"
-description = "Boots of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned."
+description = "Boots of a sapling of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned."
 id = "arisen-askr-boots"
 language = "en"
 name = "Arisen Askr Boots"
 
 [entries."items/arisen-askr-cowl"]
 category = "items"
-description = "Cowl of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself."
+description = "Cowl of a sapling of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself."
 id = "arisen-askr-cowl"
 language = "en"
 name = "Arisen Askr Cowl"
 
 [entries."items/arisen-askr-garb"]
 category = "items"
-description = "Garb of Yggdrasil, the fallen symbol of life. Wearing it may occasionally greatly increase one's power."
+description = "Garb of a sapling of Yggdrasil, the fallen symbol of life. Wearing it may occasionally greatly increase one's power."
 id = "arisen-askr-garb"
 language = "en"
 name = "Arisen Askr Garb"
 
 [entries."items/arisen-askr-helmet"]
 category = "items"
-description = "Helmet of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself."
+description = "Helmet of a sapling of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself."
 id = "arisen-askr-helmet"
 language = "en"
 name = "Arisen Askr Helmet"
 
 [entries."items/arisen-askr-leggings"]
 category = "items"
-description = "Heavy leggings of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned."
+description = "Heavy leggings of a sapling of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned."
 id = "arisen-askr-leggings"
 language = "en"
 name = "Arisen Askr Leggings"
@@ -6494,21 +6580,21 @@ name = "Arisen Dullahan Skull"
 
 [entries."items/arisen-embla-hood"]
 category = "items"
-description = "Hood of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself."
+description = "Hood of a sapling of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself."
 id = "arisen-embla-hood"
 language = "en"
 name = "Arisen Embla Hood"
 
 [entries."items/arisen-embla-robe"]
 category = "items"
-description = "Robe of Yggdrasil, the fallen symbol of life. Wearing it may occasionally greatly increase one's power."
+description = "Robe of a sapling of Yggdrasil, the fallen symbol of life. Wearing it may occasionally greatly increase one's power."
 id = "arisen-embla-robe"
 language = "en"
 name = "Arisen Embla Robe"
 
 [entries."items/arisen-embla-shoes"]
 category = "items"
-description = "Shoes of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned."
+description = "Shoes of a sapling of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned."
 id = "arisen-embla-shoes"
 language = "en"
 name = "Arisen Embla Shoes"
@@ -8020,42 +8106,42 @@ name = "Ashen Staff"
 
 [entries."items/askr-armor"]
 category = "items"
-description = "Heavy armor of Yggdrasil, the fallen symbol of life. Wearing it may occasionally greatly increase one's power."
+description = "Heavy armor of a sapling of Yggdrasil, the fallen symbol of life. Wearing it may occasionally greatly increase one's power."
 id = "askr-armor"
 language = "en"
 name = "Askr Armor"
 
 [entries."items/askr-boots"]
 category = "items"
-description = "Boots of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned."
+description = "Boots of a sapling of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned."
 id = "askr-boots"
 language = "en"
 name = "Askr Boots"
 
 [entries."items/askr-cowl"]
 category = "items"
-description = "Cowl of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself."
+description = "Cowl of a sapling of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself."
 id = "askr-cowl"
 language = "en"
 name = "Askr Cowl"
 
 [entries."items/askr-garb"]
 category = "items"
-description = "Garb of Yggdrasil, the fallen symbol of life. Wearing it may occasionally greatly increase one's power."
+description = "Garb of a sapling of Yggdrasil, the fallen symbol of life. Wearing it may occasionally greatly increase one's power."
 id = "askr-garb"
 language = "en"
 name = "Askr Garb"
 
 [entries."items/askr-helmet"]
 category = "items"
-description = "Helmet of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself."
+description = "Helmet of a sapling of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself."
 id = "askr-helmet"
 language = "en"
 name = "Askr Helmet"
 
 [entries."items/askr-leggings"]
 category = "items"
-description = "Heavy leggings of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned."
+description = "Heavy leggings of a sapling of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned."
 id = "askr-leggings"
 language = "en"
 name = "Askr Leggings"
@@ -9684,6 +9770,13 @@ id = "brunors-cabochon"
 language = "en"
 name = "Brunor's Cabochon"
 
+[entries."items/brynja"]
+category = "items"
+description = "Armor of Yggdrasil, the fallen symbol of life. When wearing this armor, there is a chance one's Apex meter will not be depleted upon using an Apex ability."
+id = "brynja"
+language = "en"
+name = "Brynja"
+
 [entries."items/buckler"]
 category = "items"
 description = "A simple buckler."
@@ -10825,17 +10918,17 @@ id = "cursed-fomoria-plated-boots"
 language = "en"
 name = "Cursed Fomoria Plated Boots"
 
+[entries."items/cursed-fomoria-plated-boots-0ebf6063"]
+category = "items"
+description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
+id = "cursed-fomoria-plated-boots-0ebf6063"
+language = "en"
+name = "Cursed Fomoria Plated Boots"
+
 [entries."items/cursed-fomoria-plated-boots-7a9f5efc"]
 category = "items"
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 id = "cursed-fomoria-plated-boots-7a9f5efc"
-language = "en"
-name = "Cursed Fomoria Plated Boots"
-
-[entries."items/cursed-fomoria-plated-boots-c6787dd8"]
-category = "items"
-description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "cursed-fomoria-plated-boots-c6787dd8"
 language = "en"
 name = "Cursed Fomoria Plated Boots"
 
@@ -10853,10 +10946,10 @@ id = "cursed-fomoria-plated-robe"
 language = "en"
 name = "Cursed Fomoria Plated Robe"
 
-[entries."items/cursed-fomoria-plated-robe-5d09a4d7"]
+[entries."items/cursed-fomoria-plated-robe-49122feb"]
 category = "items"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "cursed-fomoria-plated-robe-5d09a4d7"
+id = "cursed-fomoria-plated-robe-49122feb"
 language = "en"
 name = "Cursed Fomoria Plated Robe"
 
@@ -12365,6 +12458,13 @@ id = "dynasty"
 language = "en"
 name = "Dynasty"
 
+[entries."items/dyrhamr"]
+category = "items"
+description = "Robes of Yggdrasil, the fallen symbol of life."
+id = "dyrhamr"
+language = "en"
+name = "Dyrhamr"
+
 [entries."items/dyrnwyn"]
 category = "items"
 description = "A legendary blade that blazes with fire when drawn."
@@ -12871,21 +12971,21 @@ name = "Embered Snapper"
 
 [entries."items/embla-hood"]
 category = "items"
-description = "Hood of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself."
+description = "Hood of a sapling of Yggdrasil, the fallen symbol of life. Wearing it may decrease the damage you may inflict upon yourself."
 id = "embla-hood"
 language = "en"
 name = "Embla Hood"
 
 [entries."items/embla-robe"]
 category = "items"
-description = "Robe of Yggdrasil, the fallen symbol of life. Wearing it may occasionally greatly increase one's power."
+description = "Robe of a sapling of Yggdrasil, the fallen symbol of life. Wearing it may occasionally greatly increase one's power."
 id = "embla-robe"
 language = "en"
 name = "Embla Robe"
 
 [entries."items/embla-shoes"]
 category = "items"
-description = "Shoes of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned."
+description = "Shoes of a sapling of Yggdrasil, the fallen symbol of life. Wearing them will keep one from becoming stunned."
 id = "embla-shoes"
 language = "en"
 name = "Embla Shoes"
@@ -12983,15 +13083,15 @@ name = "Everlasting Torch"
 
 [entries."items/excalibur"]
 category = "items"
-description = "???"
+description = "The infamous blade presented to Arthus by the Lady of the Lake."
 id = "excalibur"
 language = "en"
 name = "Excalibur"
 
-[entries."items/excalibur-32be53bc"]
+[entries."items/excalibur-eec7bf3e"]
 category = "items"
-description = "The infamous blade presented to Arthus by the Lady of the Lake."
-id = "excalibur-32be53bc"
+description = "???"
+id = "excalibur-eec7bf3e"
 language = "en"
 name = "Excalibur"
 
@@ -13898,13 +13998,6 @@ id = "fey-scroll"
 language = "en"
 name = "Fey Scroll"
 
-[entries."items/fey-scroll-of-ragnarok"]
-category = "items"
-description = "A scroll containing the incantations of Ragnarok. Reading them will summon Fey Jormungandr."
-id = "fey-scroll-of-ragnarok"
-language = "en"
-name = "Fey Scroll of Ragnarok"
-
 [entries."items/fey-serpent-pearl"]
 category = "items"
 description = "Charm of a fallen King, Ulster. Ulster was King of the Seas but was poisoned by his own herbalist, Mori.\n\nWhile holding this item, some your Defense and Resistance stats will be swapped. The better the quality of this item, the bigger amount of your Defense and Resistance stats will be exchanged."
@@ -14150,6 +14243,13 @@ id = "fjalar-mantle"
 language = "en"
 name = "Fjalar Mantle"
 
+[entries."items/fjolkyngi"]
+category = "items"
+description = "Robes of Yggdrasil, the fallen symbol of life. When wearing this item, there is a chance one's Manaflask will not be emptied upon using an Manaflask or Bloodflask spell."
+id = "fjolkyngi"
+language = "en"
+name = "Fjolkyngi"
+
 [entries."items/flamberge"]
 category = "items"
 description = "A large, undulating blade said to resemble that of flames."
@@ -14276,6 +14376,13 @@ id = "fomoria-plated-boots"
 language = "en"
 name = "Fomoria Plated Boots"
 
+[entries."items/fomoria-plated-boots-0e3ca45d"]
+category = "items"
+description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
+id = "fomoria-plated-boots-0e3ca45d"
+language = "en"
+name = "Fomoria Plated Boots"
+
 [entries."items/fomoria-plated-boots-12aa0ab8"]
 category = "items"
 description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
@@ -14290,13 +14397,6 @@ id = "fomoria-plated-boots-8a5bd211"
 language = "en"
 name = "Fomoria Plated Boots"
 
-[entries."items/fomoria-plated-boots-b9357c84"]
-category = "items"
-description = "Boots of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "fomoria-plated-boots-b9357c84"
-language = "en"
-name = "Fomoria Plated Boots"
-
 [entries."items/fomoria-plated-robe"]
 category = "items"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
@@ -14304,17 +14404,17 @@ id = "fomoria-plated-robe"
 language = "en"
 name = "Fomoria Plated Robe"
 
-[entries."items/fomoria-plated-robe-272802ec"]
-category = "items"
-description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "fomoria-plated-robe-272802ec"
-language = "en"
-name = "Fomoria Plated Robe"
-
 [entries."items/fomoria-plated-robe-427f8b42"]
 category = "items"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 id = "fomoria-plated-robe-427f8b42"
+language = "en"
+name = "Fomoria Plated Robe"
+
+[entries."items/fomoria-plated-robe-946a26b9"]
+category = "items"
+description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
+id = "fomoria-plated-robe-946a26b9"
 language = "en"
 name = "Fomoria Plated Robe"
 
@@ -14556,6 +14656,13 @@ id = "furious-helmet"
 language = "en"
 name = "Furious Helmet"
 
+[entries."items/fylgja"]
+category = "items"
+description = "Headdress of Yggdrasil, the fallen symbol of life."
+id = "fylgja"
+language = "en"
+name = "Fylgja"
+
 [entries."items/gadget"]
 category = "items"
 description = "One of the concoctions of Cade, the great inventor. This gadget prevents one from having their defense lowered."
@@ -14583,6 +14690,13 @@ description = "A fine hammer used by Galar. Using this item before upgrading equ
 id = "galars-hammer"
 language = "en"
 name = "Galar's Hammer"
+
+[entries."items/galdr"]
+category = "items"
+description = "Robes of Yggdrasil, the fallen symbol of life. When wearing this item, there is a chance one's Manaflask will not be emptied upon using an Manaflask or Bloodflask spell."
+id = "galdr"
+language = "en"
+name = "Galdr"
 
 [entries."items/gales-spear"]
 category = "items"
@@ -15479,6 +15593,13 @@ description = "The symbolic headwear of a nameless witch. It can protect one fro
 id = "hallowed-witchs-hat"
 language = "en"
 name = "Hallowed Witch's Hat"
+
+[entries."items/hamfarir"]
+category = "items"
+description = "Robes of Yggdrasil, the fallen symbol of life. When wearing this item, there is a chance one's Manaflask will not be emptied upon using an Manaflask or Bloodflask spell."
+id = "hamfarir"
+language = "en"
+name = "Hamfarir"
 
 [entries."items/hammer"]
 category = "items"
@@ -16803,10 +16924,10 @@ id = "kerberos-claws"
 language = "en"
 name = "Kerberos Claws"
 
-[entries."items/kerberos-claws-81b67c8d"]
+[entries."items/kerberos-claws-e7f61ea1"]
 category = "items"
 description = "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
-id = "kerberos-claws-81b67c8d"
+id = "kerberos-claws-e7f61ea1"
 language = "en"
 name = "Kerberos Claws"
 
@@ -20681,6 +20802,27 @@ id = "rune-of-muninn"
 language = "en"
 name = "Rune of Muninn"
 
+[entries."items/rune-of-skuld"]
+category = "items"
+description = "Rune of Norn Skuld. When adorned upon a weapon, it will increase the number of Ward turns you start battle with."
+id = "rune-of-skuld"
+language = "en"
+name = "Rune of Skuld"
+
+[entries."items/rune-of-uthr"]
+category = "items"
+description = "Rune of Norn Uthr. When adorned upon a weapon, it may increase the targets that your skills or spells will hit."
+id = "rune-of-uthr"
+language = "en"
+name = "Rune of Uthr"
+
+[entries."items/rune-of-verthandi"]
+category = "items"
+description = "Rune of Norn Verthandi. When adorned upon a piece of armor, it will increase the Berserk encounters you may have."
+id = "rune-of-verthandi"
+language = "en"
+name = "Rune of Verthandi"
+
 [entries."items/rune-shield"]
 category = "items"
 description = "Mystical shield that boasts extra magic defense."
@@ -20911,6 +21053,13 @@ id = "scroll-of-earth"
 language = "en"
 name = "Scroll of Earth"
 
+[entries."items/scroll-of-fey-jormungandr"]
+category = "items"
+description = "A scroll containing the incantations of Ragnarok. Reading them will summon Fey Jormungandr."
+id = "scroll-of-fey-jormungandr"
+language = "en"
+name = "Scroll of Fey Jormungandr"
+
 [entries."items/scroll-of-fire"]
 category = "items"
 description = "A scroll containing knowledge of fire. It improves one's magic and the charge rate of Manaflasks, while adding a chance to burn to spells."
@@ -20924,6 +21073,13 @@ description = "A scroll containing knowledge of ice & water. It improves one's m
 id = "scroll-of-ice"
 language = "en"
 name = "Scroll of Ice"
+
+[entries."items/scroll-of-jormungandr"]
+category = "items"
+description = "A scroll containing the incantations of Ragnarok. Reading them will summon Jormungandr."
+id = "scroll-of-jormungandr"
+language = "en"
+name = "Scroll of Jormungandr"
 
 [entries."items/scroll-of-lightning"]
 category = "items"
@@ -20939,19 +21095,26 @@ id = "scroll-of-poison"
 language = "en"
 name = "Scroll of Poison"
 
-[entries."items/scroll-of-ragnarok"]
-category = "items"
-description = "A scroll containing the incantations of Ragnarok. Reading them will summon Jormungandr."
-id = "scroll-of-ragnarok"
-language = "en"
-name = "Scroll of Ragnarok"
-
 [entries."items/scroll-of-rift-distortion"]
 category = "items"
 description = "A scroll containing mixed incantations of Riftfall. Use at your own risk."
 id = "scroll-of-rift-distortion"
 language = "en"
 name = "Scroll of Rift Distortion"
+
+[entries."items/scroll-of-the-sapling"]
+category = "items"
+description = "A scroll consisting of the lore of the great Yggdrasil's saplings. Read this scroll to summon a Sapling of Yggdrasil to your location."
+id = "scroll-of-the-sapling"
+language = "en"
+name = "Scroll of the Sapling"
+
+[entries."items/scroll-of-yggdrasil"]
+category = "items"
+description = "A scroll consisting of the lore of the great Yggdrasil. Read this scroll to summon the Yggdrasil super raid to your location."
+id = "scroll-of-yggdrasil"
+language = "en"
+name = "Scroll of Yggdrasil"
 
 [entries."items/scythe"]
 category = "items"
@@ -21008,6 +21171,13 @@ description = "Staff of the Second Horseman, often associated with great pestile
 id = "second-horsemans-staff"
 language = "en"
 name = "Second Horseman's Staff"
+
+[entries."items/seed-of-yggdrasil"]
+category = "items"
+description = "Seed of the great tree, Yggdrasil. This item is part of the Ragnarok world event."
+id = "seed-of-yggdrasil"
+language = "en"
+name = "Seed of Yggdrasil"
 
 [entries."items/seekers-candle"]
 category = "items"
@@ -21407,6 +21577,13 @@ description = "Gear from the slopes."
 id = "ski-suit"
 language = "en"
 name = "Ski Suit"
+
+[entries."items/skogarmar"]
+category = "items"
+description = "Legwear of Yggdrasil, the fallen symbol of life."
+id = "skogarmar"
+language = "en"
+name = "Skogarmar"
 
 [entries."items/skyshard"]
 category = "items"
@@ -22941,6 +23118,13 @@ id = "vajra"
 language = "en"
 name = "Vajra"
 
+[entries."items/valfjoturr"]
+category = "items"
+description = "Armor of Yggdrasil, the fallen symbol of life. When wearing this armor, there is a chance one's Apex meter will not be depleted upon using an Apex ability."
+id = "valfjoturr"
+language = "en"
+name = "Valfjoturr"
+
 [entries."items/valhallan-armor"]
 category = "items"
 description = "Heavy armor of Nothren valkyries."
@@ -23760,6 +23944,13 @@ id = "yeti-overcoat"
 language = "en"
 name = "Yeti Overcoat"
 
+[entries."items/yggdrasil-crucible"]
+category = "items"
+description = "An crucible holding the remains of Yggdrasil. Use it upon an Anguished item to receive a bonus unique to this item."
+id = "yggdrasil-crucible"
+language = "en"
+name = "Yggdrasil Crucible"
+
 [entries."items/ymir-agathodaemon-hammer"]
 category = "items"
 description = "Chapter IV: The Agathodaemon, destructive as always, crumbled the tops of the coiled stone into earth and soil. He layed this soil over Vritra's wings, forming the ground as we know it. The Agathodaemon's hammer can crush the Ward of your opponent."
@@ -24218,6 +24409,24 @@ id = "aries-zealot"
 language = "en"
 name = "Aries Zealot"
 
+[entries."monsters/arisen-bloodwarg"]
+category = "monsters"
+id = "arisen-bloodwarg"
+language = "en"
+name = "Arisen Bloodwarg"
+
+[entries."monsters/arisen-spiritgarm"]
+category = "monsters"
+id = "arisen-spiritgarm"
+language = "en"
+name = "Arisen Spiritgarm"
+
+[entries."monsters/arisen-stonewarg"]
+category = "monsters"
+id = "arisen-stonewarg"
+language = "en"
+name = "Arisen Stonewarg"
+
 [entries."monsters/balor-assassin"]
 category = "monsters"
 id = "balor-assassin"
@@ -24385,12 +24594,6 @@ category = "monsters"
 id = "bloodwarg"
 language = "en"
 name = "Bloodwarg"
-
-[entries."monsters/bloodwarg-dfa97df9"]
-category = "monsters"
-id = "bloodwarg-dfa97df9"
-language = "en"
-name = "Bloodwarg (Arisen)"
 
 [entries."monsters/bloom-requiem"]
 category = "monsters"
@@ -25172,6 +25375,12 @@ id = "fergus"
 language = "en"
 name = "Fergus"
 
+[entries."monsters/fey-bloodwarg"]
+category = "monsters"
+id = "fey-bloodwarg"
+language = "en"
+name = "Fey Bloodwarg (Arisen)"
+
 [entries."monsters/fey-cactus"]
 category = "monsters"
 id = "fey-cactus"
@@ -25195,6 +25404,18 @@ category = "monsters"
 id = "fey-selkie"
 language = "en"
 name = "Fey Selkie"
+
+[entries."monsters/fey-spiritgarm"]
+category = "monsters"
+id = "fey-spiritgarm"
+language = "en"
+name = "Fey Spiritgarm (Arisen)"
+
+[entries."monsters/fey-stonewarg"]
+category = "monsters"
+id = "fey-stonewarg"
+language = "en"
+name = "Fey Stonewarg (Arisen)"
 
 [entries."monsters/final-stable-keeper"]
 category = "monsters"
@@ -26636,12 +26857,6 @@ id = "spiritgarm"
 language = "en"
 name = "Spiritgarm"
 
-[entries."monsters/spiritgarm-732978de"]
-category = "monsters"
-id = "spiritgarm-732978de"
-language = "en"
-name = "Spiritgarm (Arisen)"
-
 [entries."monsters/sprout"]
 category = "monsters"
 id = "sprout"
@@ -26651,12 +26866,6 @@ name = "Sprout"
 [entries."monsters/stonewarg"]
 category = "monsters"
 id = "stonewarg"
-language = "en"
-name = "Stonewarg (Arisen)"
-
-[entries."monsters/stonewarg-b4d838aa"]
-category = "monsters"
-id = "stonewarg-b4d838aa"
 language = "en"
 name = "Stonewarg"
 
@@ -26906,6 +27115,30 @@ id = "yeti"
 language = "en"
 name = "Yeti"
 
+[entries."monsters/yggdrasil-guardian"]
+category = "monsters"
+id = "yggdrasil-guardian"
+language = "en"
+name = "Yggdrasil Guardian"
+
+[entries."monsters/yggdrasil-guardian-999e55eb"]
+category = "monsters"
+id = "yggdrasil-guardian-999e55eb"
+language = "en"
+name = "Yggdrasil Guardian"
+
+[entries."monsters/yggdrasil-guardian-a3c8b253"]
+category = "monsters"
+id = "yggdrasil-guardian-a3c8b253"
+language = "en"
+name = "Yggdrasil Guardian"
+
+[entries."monsters/yggdrasil-guardian-b0d1c0fd"]
+category = "monsters"
+id = "yggdrasil-guardian-b0d1c0fd"
+language = "en"
+name = "Yggdrasil Guardian"
+
 [entries."monsters/yokai"]
 category = "monsters"
 id = "yokai"
@@ -27154,13 +27387,6 @@ description = "It is said that Trevelyan was the last of the court of Meliodas t
 id = "arisen-warlock-trevelyan"
 language = "en"
 name = "Arisen Warlock Trevelyan"
-
-[entries."raids/arisen-yggdrasil"]
-category = "raids"
-description = "The great Yggdrasil. Once a symbol of life. Now fallen and arisen."
-id = "arisen-yggdrasil"
-language = "en"
-name = "Arisen Yggdrasil"
 
 [entries."raids/ashen-phoenix"]
 category = "raids"
@@ -27609,6 +27835,13 @@ id = "rift-judgement"
 language = "en"
 name = "Rift Judgement"
 
+[entries."raids/sapling-of-yggdrasil"]
+category = "raids"
+description = "Young tree born of Yggdrasil."
+id = "sapling-of-yggdrasil"
+language = "en"
+name = "Sapling of Yggdrasil"
+
 [entries."raids/scruug"]
 category = "raids"
 description = "An apparition of greed and envy. Once a year, the dreaded Scruug returns from the Underworld with the goal to destroy all happiness."
@@ -27742,6 +27975,13 @@ id = "thronemaker-sekhmet"
 language = "en"
 name = "Thronemaker Sekhmet"
 
+[entries."raids/treeling-of-yggdrasil"]
+category = "raids"
+description = "Young tree born of Yggdrasil."
+id = "treeling-of-yggdrasil"
+language = "en"
+name = "Treeling of Yggdrasil"
+
 [entries."raids/tricky-aries"]
 category = "raids"
 description = "The forest goat Aries has fallen from the skies."
@@ -27765,7 +28005,7 @@ name = "Untarnished Perseus"
 
 [entries."raids/yggdrasil"]
 category = "raids"
-description = "The great Yggdrasil. Once a symbol of life. Now fallen."
+description = "The World Tree."
 id = "yggdrasil"
 language = "en"
 name = "Yggdrasil"
@@ -33223,27 +33463,6 @@ id = "summon-anubis"
 language = "en"
 name = "Summon Anubis"
 
-[entries."spells/summon-arisen-bloodwarg"]
-category = "spells"
-description = "Summon an animal to assist you. Requires 2 turns in battle."
-id = "summon-arisen-bloodwarg"
-language = "en"
-name = "Summon Arisen Bloodwarg (Off-hand)"
-
-[entries."spells/summon-arisen-spiritgarm"]
-category = "spells"
-description = "Summon an animal to assist you. Requires 2 turns in battle."
-id = "summon-arisen-spiritgarm"
-language = "en"
-name = "Summon Arisen Spiritgarm (Off-hand)"
-
-[entries."spells/summon-arisen-stonewarg"]
-category = "spells"
-description = "Summon an animal to assist you. Requires 2 turns in battle."
-id = "summon-arisen-stonewarg"
-language = "en"
-name = "Summon Arisen Stonewarg (Off-hand)"
-
 [entries."spells/summon-basilisk"]
 category = "spells"
 description = "Summon a beast to assist you."
@@ -33377,12 +33596,33 @@ id = "summon-failed-phoenix"
 language = "en"
 name = "Summon Failed Phoenix"
 
+[entries."spells/summon-fey-bloodwarg"]
+category = "spells"
+description = "Summon an animal to assist you. Requires 2 turns in battle."
+id = "summon-fey-bloodwarg"
+language = "en"
+name = "Summon Fey Bloodwarg (Off-hand)"
+
 [entries."spells/summon-fey-kelpie"]
 category = "spells"
 description = "Summon a beast to assist you. Requires 3 turns in battle."
 id = "summon-fey-kelpie"
 language = "en"
 name = "Summon Fey Kelpie"
+
+[entries."spells/summon-fey-spiritgarm"]
+category = "spells"
+description = "Summon an animal to assist you. Requires 2 turns in battle."
+id = "summon-fey-spiritgarm"
+language = "en"
+name = "Summon Fey Spiritgarm (Off-hand)"
+
+[entries."spells/summon-fey-stonewarg"]
+category = "spells"
+description = "Summon an animal to assist you. Requires 2 turns in battle."
+id = "summon-fey-stonewarg"
+language = "en"
+name = "Summon Fey Stonewarg (Off-hand)"
 
 [entries."spells/summon-final-bloom"]
 category = "spells"
@@ -34700,6 +34940,62 @@ id = "x-slash-iii"
 language = "en"
 name = "X Slash III"
 
+[entries."spells/yggdrasils-fortification"]
+category = "spells"
+description = "Grants Ward for 3 turns to the whole party."
+id = "yggdrasils-fortification"
+language = "en"
+name = "Yggdrasil's Fortification"
+
+[entries."spells/yggdrasils-fortification-ii"]
+category = "spells"
+description = "Grants Ward for 5 turns to the whole party."
+id = "yggdrasils-fortification-ii"
+language = "en"
+name = "Yggdrasil's Fortification II"
+
+[entries."spells/yggdrasils-fury"]
+category = "spells"
+description = "Deals holy and dark damage to two opponents with the potential to apply an Earthen Sigil. This spell will use either your magic or attack stat, depending on which is greater."
+id = "yggdrasils-fury"
+language = "en"
+name = "Yggdrasil's Fury"
+
+[entries."spells/yggdrasils-fury-ii"]
+category = "spells"
+description = "Deals holy and dark damage to two opponents with the potential to apply a Dark Sigil. This spell will use either your magic or attack stat, depending on which is greater."
+id = "yggdrasils-fury-ii"
+language = "en"
+name = "Yggdrasil's Fury II"
+
+[entries."spells/yggdrasils-protection"]
+category = "spells"
+description = "Recovers 20 percent of Ward to the whole party."
+id = "yggdrasils-protection"
+language = "en"
+name = "Yggdrasil's Protection"
+
+[entries."spells/yggdrasils-protection-ii"]
+category = "spells"
+description = "Recovers 40 percent of Ward to the whole party."
+id = "yggdrasils-protection-ii"
+language = "en"
+name = "Yggdrasil's Protection II"
+
+[entries."spells/yggdrasils-restoration"]
+category = "spells"
+description = "Restores 1000 HP to a single party member."
+id = "yggdrasils-restoration"
+language = "en"
+name = "Yggdrasil's Restoration"
+
+[entries."spells/yggdrasils-restoration-ii"]
+category = "spells"
+description = "Restores 2500 HP to a all party members."
+id = "yggdrasils-restoration-ii"
+language = "en"
+name = "Yggdrasil's Restoration II"
+
 [msg.category]
 bosses = "Bosses"
 classes = "Classes"
@@ -34903,9 +35199,10 @@ accuracy = "Accuracy"
 act_first_chance__pve_ = "Act First Chance (PvE)"
 adornment_slots = "Adornment Slots"
 ally_effect_chance = "Ally Effect Chance"
-apex = "Apex"
 apex_effect = "Apex Effect"
+apex_power = "Apex Power"
 apex_rate = "Apex Rate"
+apex_saver_chance = "Apex Saver Chance"
 apex_start = "Apex Start"
 apex_used_r_stats = "Apex Used → Stats"
 arcane_damage = "Arcane Damage"
@@ -34977,6 +35274,7 @@ fire_damage = "Fire Damage"
 fire_res = "Fire Res"
 fishing_line_catches = "Fishing Line Catches"
 flask_charge_on_defeat = "Flask Charge on Defeat"
+flask_saver_chance = "Flask Saver Chance"
 follower_act = "Follower Act"
 follower_ascension_level = "Follower Ascension Level"
 follower_protect = "Follower Protect"
@@ -35117,6 +35415,7 @@ cleanse = "Cleanse"
 curse_of_sekhmet = "Curse of Sekhmet"
 dark = "Dark"
 dark_sigil = "Dark Sigil"
+deific_channel = "Deific Channel"
 dragon = "Dragon"
 earth_sigil_ = "Earth Sigil+"
 earthen = "Earthen"
@@ -35170,6 +35469,9 @@ arcane_aligned = "Arcane Aligned"
 arcane_slime = "Arcane Slime"
 arcane_troll = "Arcane Troll"
 arcane_uu = "Arcane ↑↑"
+arisen_bloodwarg = "Arisen Bloodwarg"
+arisen_spiritgarm = "Arisen Spiritgarm"
+arisen_stonewarg = "Arisen Stonewarg"
 asleep = "Asleep"
 asteria_of_olympia = "Asteria of Olympia"
 atlas_of_olympia = "Atlas of Olympia"
@@ -35184,8 +35486,6 @@ bleeding = "Bleeding"
 blight = "Blight"
 blind = "Blind"
 bloodshift = "Bloodshift"
-bloodwarg = "Bloodwarg"
-bloodwarg_cb7510b7 = "Bloodwarg"
 bloom_requiem = "Bloom Requiem"
 bloom_requiem_ee502254 = "Bloom Requiem"
 bonded_attack = "Bonded Attack"
@@ -35261,7 +35561,10 @@ eos = "Eos"
 fafnir = "Fafnir"
 failed_phoenix = "Failed Phoenix"
 failed_phoenix_d631a291 = "Failed Phoenix"
+fey_bloodwarg = "Fey Bloodwarg"
 fey_kelpie = "Fey Kelpie"
+fey_spiritgarm = "Fey Spiritgarm"
+fey_stonewarg = "Fey Stonewarg"
 fire_aligned = "Fire Aligned"
 fire_att = "Fire Att"
 fire_def = "Fire Def"
@@ -35376,17 +35679,14 @@ snotra = "Snotra"
 sphinx_kit = "Sphinx Kit"
 spiked_greaves = "Spiked Greaves"
 spiked_pauldrons = "Spiked Pauldrons"
-spiritgarm = "Spiritgarm"
-spiritgarm_3faef994 = "Spiritgarm"
 spooky_ghost = "Spooky Ghost"
 starstruck = "Starstruck"
 stasis = "Stasis"
-stonewarg = "Stonewarg"
-stonewarg_68f86843 = "Stonewarg"
 stunned = "Stunned"
 "t__?_uuu" = "T. ? ↑↑↑"
 t__all_d = "T. All ↓"
 t__all_u = "T. All ↑"
+t__all_uu = "T. All ↑↑"
 t__all_uuu = "T. All ↑↑↑"
 t__att_d = "T. Att ↓"
 t__att_dd = "T. Att ↓↓"

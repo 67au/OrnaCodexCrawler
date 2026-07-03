@@ -9700,6 +9700,13 @@ id = "bow-of-typhon"
 language = "en"
 name = "Bow of Typhon"
 
+[entries."items/branch-of-yggdrasil"]
+category = "items"
+description = "A branch of Yggdrasil."
+id = "branch-of-yggdrasil"
+language = "en"
+name = "Branch of Yggdrasil"
+
 [entries."items/bricrius-bow"]
 category = "items"
 description = "A small weapon carried by a Clurichaun. Although it is not suitable for your primary hand, it will fit as an obscure off-hand."
@@ -10946,10 +10953,10 @@ id = "cursed-fomoria-plated-robe"
 language = "en"
 name = "Cursed Fomoria Plated Robe"
 
-[entries."items/cursed-fomoria-plated-robe-49122feb"]
+[entries."items/cursed-fomoria-plated-robe-5d09a4d7"]
 category = "items"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "cursed-fomoria-plated-robe-49122feb"
+id = "cursed-fomoria-plated-robe-5d09a4d7"
 language = "en"
 name = "Cursed Fomoria Plated Robe"
 
@@ -13083,15 +13090,15 @@ name = "Everlasting Torch"
 
 [entries."items/excalibur"]
 category = "items"
-description = "The infamous blade presented to Arthus by the Lady of the Lake."
+description = "???"
 id = "excalibur"
 language = "en"
 name = "Excalibur"
 
-[entries."items/excalibur-eec7bf3e"]
+[entries."items/excalibur-32be53bc"]
 category = "items"
-description = "???"
-id = "excalibur-eec7bf3e"
+description = "The infamous blade presented to Arthus by the Lady of the Lake."
+id = "excalibur-32be53bc"
 language = "en"
 name = "Excalibur"
 
@@ -35332,7 +35339,6 @@ power = "Power"
 protect_chance = "Protect chance"
 quest_rewards = "Quest Rewards"
 questing = "Questing"
-quick_summons = "Quick Summons"
 raid_rewards = "Raid Rewards"
 recharge_hp_on_crit = "Recharge HP on Crit"
 resistance = "Resistance"
@@ -35352,6 +35358,7 @@ status_protection = "Status Protection"
 status_reflection = "Status Reflection"
 summon_pacts = "Summon Pacts"
 summon_protection = "Summon Protection"
+summon_spell_start = "Summon Spell Start"
 summon_stats = "Summon Stats"
 summon_turns = "Summon Turns"
 swap_defense_resistance = "Swap Defense/Resistance"
@@ -35387,6 +35394,7 @@ dual_wielding = "Dual-wielding"
 duelist = "Duelist"
 high_cleric = "High Cleric"
 merchant = "Merchant"
+pve = "PvE"
 ranger = "Ranger"
 swashbuckler = "Swashbuckler"
 trickster = "Trickster"

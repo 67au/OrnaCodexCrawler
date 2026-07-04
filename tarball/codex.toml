@@ -71492,14 +71492,14 @@ hp = 40
 resistance = 160
 
 [entries."items/yggdrasil-crucible"]
-aura = "legendary"
+aura = "rare"
 category = "items"
 dropped_by = ["raids/yggdrasil"]
 exotic = 0
 icon = "/img/useables/yggdrasil_crucible.png"
 id = "yggdrasil-crucible"
 item_type = "field"
-rarity = "legendary"
+rarity = "rare"
 tier = 10
 useable_by = "all_classes"
 

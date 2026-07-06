@@ -9608,7 +9608,7 @@ name = "t__att_uu"
 
 [entries."items/aegishjalmr".stats]
 adornment_slots = 5
-apex_power = 15
+apex_power = 25
 apex_saver_chance = 12
 attack = 35
 buff_duration = 20
@@ -10566,7 +10566,7 @@ chance = 15
 name = "t__dark_immune"
 
 [entries."items/ancient-dark-essence".stats]
-apex_power = 20
+apex_power = 50
 apex_rate = 6
 attack = 20
 defense = 20
@@ -10594,7 +10594,7 @@ chance = 15
 name = "t__earth_immune"
 
 [entries."items/ancient-earth-essence".stats]
-apex_power = 20
+apex_power = 50
 apex_rate = 6
 attack = 20
 defense = 20
@@ -10643,7 +10643,7 @@ chance = 15
 name = "t__fire_immune"
 
 [entries."items/ancient-fire-essence".stats]
-apex_power = 20
+apex_power = 50
 apex_rate = 6
 attack = 20
 defense = 20
@@ -10671,7 +10671,7 @@ chance = 15
 name = "t__holy_immune"
 
 [entries."items/ancient-holy-essence".stats]
-apex_power = 20
+apex_power = 50
 apex_rate = 6
 attack = 20
 defense = 20
@@ -10753,7 +10753,7 @@ chance = 15
 name = "t__lightning_immune"
 
 [entries."items/ancient-lightning-essence".stats]
-apex_power = 20
+apex_power = 50
 apex_rate = 6
 attack = 20
 defense = 20
@@ -10870,7 +10870,7 @@ chance = 15
 name = "t__water_immune"
 
 [entries."items/ancient-water-essence".stats]
-apex_power = 20
+apex_power = 50
 apex_rate = 6
 attack = 20
 defense = 20
@@ -25886,7 +25886,7 @@ name = "t__all_uu"
 
 [entries."items/brynja".stats]
 adornment_slots = 5
-apex_power = 15
+apex_power = 25
 apex_saver_chance = 12
 attack = 35
 buff_duration = 20
@@ -31556,7 +31556,7 @@ useable_by = "thief_classes"
 
 [entries."items/darkrift-cowl".stats]
 adornment_slots = 4
-apex_power = 10
+apex_power = 20
 apex_rate = 10
 attack = 12
 defense = 224
@@ -46816,7 +46816,7 @@ tier = 10
 useable_by = "all_classes"
 
 [entries."items/hippogriff-eye".stats]
-apex_power = 1
+apex_power = 2
 ward = 1
 
 [entries."items/hippogriff-quill"]
@@ -69724,13 +69724,13 @@ useable_by = "all_classes"
 
 [entries."items/windtamer-lance".stats]
 adornment_slots = 8
-apex_power = 20
+apex_power = 50
 attack = 288
 crit = 2
 foresight = 18
 magic = 288
 two_handed = true
-ward = 5
+ward = 16
 
 [entries."items/windtamer-robe"]
 aura = "rare"
@@ -71746,7 +71746,7 @@ useable_by = "all_classes"
 
 [entries."items/zagreus-bident".stats]
 adornment_slots = 4
-apex_power = 10
+apex_power = 20
 apex_rate = 3
 apex_start = 25
 attack = 240

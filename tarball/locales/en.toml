@@ -34963,7 +34963,7 @@ name = "Yggdrasil's Fortification II"
 
 [entries."spells/yggdrasils-fury"]
 category = "spells"
-description = "Deals holy and dark damage to two opponents with the potential to apply an Earthen Sigil. This spell will use either your magic or attack stat, depending on which is greater."
+description = "Deals holy and dark damage to two opponents with the potential to apply a Dark Sigil. This spell will use either your magic or attack stat, depending on which is greater."
 id = "yggdrasils-fury"
 language = "en"
 name = "Yggdrasil's Fury"

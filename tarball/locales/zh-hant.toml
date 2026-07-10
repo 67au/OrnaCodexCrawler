@@ -34963,7 +34963,7 @@ name = "世界樹的壁壘 II"
 
 [entries."spells/yggdrasils-fury"]
 category = "spells"
-description = "對兩名對手造成神聖與黑暗傷害，並有機會施加地之印記。此法術傷害取決於你物攻或魔攻較高的一方。"
+description = "對兩名對手造成神聖與黑暗傷害，並有機會施加暗之印記。此法術傷害取決於你物攻或魔攻較高的一方。"
 id = "yggdrasils-fury"
 language = "zh-hant"
 name = "世界樹的狂怒"

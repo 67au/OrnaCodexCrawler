@@ -23821,7 +23821,7 @@ orn_bonus = ["merchant"]
 [entries."items/beheaded-scholars-chargeblade"]
 aura = "rare"
 category = "items"
-dropped_by = ["monsters/beheaded-scholar"]
+dropped_by = ["monsters/beheaded-scholar", "raids/the-mightiest-mimic"]
 exotic = 1
 icon = "/img/weapons/beheaded_scholars_chargeblade.png"
 id = "beheaded-scholars-chargeblade"
@@ -31542,7 +31542,7 @@ name = "call_of_zagreus"
 [entries."items/darkrift-cowl"]
 aura = "legendary"
 category = "items"
-dropped_by = ["monsters/darkrift-counsel"]
+dropped_by = ["monsters/darkrift-counsel", "raids/the-mightiest-mimic"]
 exotic = 1
 icon = "/img/armor/darkrift_cowl.png"
 id = "darkrift-cowl"
@@ -71492,14 +71492,14 @@ hp = 40
 resistance = 160
 
 [entries."items/yggdrasil-crucible"]
-aura = "rare"
+aura = "legendary"
 category = "items"
 dropped_by = ["raids/yggdrasil"]
 exotic = 0
 icon = "/img/useables/yggdrasil_crucible.png"
 id = "yggdrasil-crucible"
 item_type = "field"
-rarity = "rare"
+rarity = "legendary"
 tier = 10
 useable_by = "all_classes"
 
@@ -71731,7 +71731,7 @@ magic = 86
 [entries."items/zagreus-bident"]
 aura = "famed"
 category = "items"
-dropped_by = ["bosses/fallen-judge-zagreus"]
+dropped_by = ["bosses/fallen-judge-zagreus", "raids/the-mightiest-mimic"]
 exotic = 1
 icon = "/img/weapons/zagreus_bident.png"
 id = "zagreus-bident"
@@ -78923,7 +78923,7 @@ tier = 10
 
 [entries."raids/the-mightiest-mimic"]
 category = "raids"
-drops = ["items/berserk-mushroom", "items/hels-feathers", "items/mystic-katar", "items/surtrs-cuirass", "items/arisen-fairys-ring", "items/belt-of-cerus", "items/vulcans-brew", "items/naggeneens-belt", "items/x-elixir", "items/x-health-potion", "items/x-mana-potion", "items/azure-pinion", "items/colada", "items/crimson-pinion", "items/emerald-pinion", "items/gold-pinion", "items/second-horsemans-staff", "items/tizona", "items/vulcan-boots", "items/vulcan-buckler", "items/vulcan-charm", "items/arisen-kings-crown", "items/arisen-naggeneens-hat", "items/band-of-false-gods", "items/charons-shade-staff", "items/fey-yeti-coat", "items/forest-goat-staff", "items/great-phoenician-shield", "items/great-phoenixsong", "items/mightiest-mimic-head", "items/third-horsemans-gada", "items/arisen-hels-feathers", "items/arisen-rift-summoner-boots", "items/arisen-surtrs-cuirass", "items/beguiled-mystic-katar", "items/carls-ring-646f22f4", "items/charons-grimoire"]
+drops = ["items/berserk-mushroom", "items/beheaded-scholars-chargeblade", "items/hels-feathers", "items/mystic-katar", "items/surtrs-cuirass", "items/arisen-fairys-ring", "items/belt-of-cerus", "items/vulcans-brew", "items/naggeneens-belt", "items/x-elixir", "items/x-health-potion", "items/x-mana-potion", "items/azure-pinion", "items/colada", "items/crimson-pinion", "items/emerald-pinion", "items/gold-pinion", "items/second-horsemans-staff", "items/tizona", "items/vulcan-boots", "items/vulcan-buckler", "items/vulcan-charm", "items/arisen-kings-crown", "items/arisen-naggeneens-hat", "items/band-of-false-gods", "items/charons-shade-staff", "items/fey-yeti-coat", "items/forest-goat-staff", "items/great-phoenician-shield", "items/great-phoenixsong", "items/mightiest-mimic-head", "items/third-horsemans-gada", "items/arisen-hels-feathers", "items/arisen-rift-summoner-boots", "items/arisen-surtrs-cuirass", "items/beguiled-mystic-katar", "items/carls-ring-646f22f4", "items/charons-grimoire", "items/darkrift-cowl", "items/zagreus-bident"]
 events = ["the_mimics_are_loose"]
 hp = 5775000
 icon = "/img/bosses/mightiest_mighty_mimic.png"

@@ -483,12 +483,6 @@ id = "mana_feather"
 language = "en"
 name = "Mana Feather"
 
-[abilities.mana_regen]
-description = "Your mana recovers more quickly."
-id = "mana_regen"
-language = "en"
-name = "Mana Regen"
-
 [abilities.mana_rush]
 description = "You may channel mana to escape falling in battle."
 id = "mana_rush"
@@ -35314,7 +35308,6 @@ luck_bonus = "Luck Bonus"
 magic = "Magic"
 mana = "Mana"
 mana_overspend_chance = "Mana Overspend Chance"
-mana_recovery = "Mana Recovery"
 mana_reduction = "Mana Reduction"
 mana_regen = "Mana Regen"
 mana_rush = "Mana Rush"

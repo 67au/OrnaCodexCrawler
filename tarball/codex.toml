@@ -3403,7 +3403,7 @@ tier = 1
 "spells/smoke-bomb" = "25"
 
 [entries."classes/20"]
-abilities = ["mana_step", "mana_regen"]
+abilities = ["mana_siphon", "manaflasks"]
 category = "classes"
 icon = "/img/classes/warlock/default_m.png"
 id = "20"
@@ -5097,7 +5097,7 @@ spell_rate = 20
 [entries."followers/arisen-cernunnos"]
 bestial_bond = [[{name = "accuracy", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 12, type = "BOND"}, {name = "bonded_dexterity", value = 7, type = "BOND"}], [{name = "bonded_attack", value = 12, type = "BOND"}, {name = "bonded_dexterity", value = 15, type = "BOND"}]]
 category = "followers"
-events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
+events = ["paths_of_fomoria__house_of_sumner"]
 family = "animal"
 icon = "/img/monsters/cernunnos.png"
 id = "arisen-cernunnos"
@@ -5112,7 +5112,7 @@ spell_rate = 7
 [entries."followers/arisen-glashtyn"]
 bestial_bond = [[{name = "elemental_weaknesses", value = 15, type = "BONUS"}], [{name = "t__mag_u", value = 7, type = "BOND"}, {name = "t__mag_uu", value = 2, type = "BOND"}], [{name = "bonded_magic", value = 20, type = "BOND"}]]
 category = "followers"
-events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
+events = ["paths_of_fomoria__house_of_sumner"]
 family = "animal"
 icon = "/img/monsters/glashtyn.png"
 id = "arisen-glashtyn"
@@ -5489,7 +5489,7 @@ protect_chance = 3
 [entries."followers/beaver"]
 bestial_bond = [[{name = "ward_start", value = 2, type = "BONUS"}, {name = "earthen_res", value = 20, type = "BONUS"}], [{name = "bonded_ward", value = 50, type = "BOND"}, {name = "bonded_defense", value = 8, type = "BOND"}, {name = "bonded_resistance", value = 8, type = "BOND"}, {name = "t__def_u", value = 7, type = "BOND"}, {name = "t__res_u", value = 2, type = "BOND"}], [{name = "bonded_ward", value = 80, type = "BOND"}, {name = "bonded_defense", value = 9, type = "BOND"}, {name = "bonded_resistance", value = 9, type = "BOND"}]]
 category = "followers"
-events = ["canada_d_eh"]
+events = ["canada_d_eh", "terra_s_legacy__natureblight"]
 family = "common"
 icon = "/img/monsters/terras/timber.png"
 id = "beaver"
@@ -5716,7 +5716,7 @@ spell_rate = 12
 [entries."followers/cernunnos"]
 bestial_bond = [[{name = "accuracy", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 12, type = "BOND"}, {name = "bonded_dexterity", value = 7, type = "BOND"}], [{name = "bonded_attack", value = 12, type = "BOND"}, {name = "bonded_dexterity", value = 15, type = "BOND"}]]
 category = "followers"
-events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
+events = ["paths_of_fomoria__house_of_sumner"]
 family = "animal"
 icon = "/img/monsters/cernunnos.png"
 id = "cernunnos"
@@ -6648,7 +6648,7 @@ protect_chance = 5
 [entries."followers/glashtyn"]
 bestial_bond = [[{name = "elemental_weaknesses", value = 15, type = "BONUS"}], [{name = "t__mag_u", value = 7, type = "BOND"}, {name = "t__mag_uu", value = 2, type = "BOND"}], [{name = "bonded_magic", value = 20, type = "BOND"}]]
 category = "followers"
-events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
+events = ["paths_of_fomoria__house_of_sumner"]
 family = "animal"
 icon = "/img/monsters/glashtyn.png"
 id = "glashtyn"
@@ -73268,7 +73268,7 @@ tier = 6
 
 [entries."monsters/buggane"]
 category = "monsters"
-events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
+events = ["paths_of_fomoria__house_of_sumner"]
 family = "orc_horde"
 icon = "/img/monsters/buggane.png"
 id = "buggane"
@@ -73403,7 +73403,7 @@ tier = 7
 
 [entries."monsters/cernunnos"]
 category = "monsters"
-events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
+events = ["paths_of_fomoria__house_of_sumner"]
 family = "animal"
 icon = "/img/monsters/cernunnos.png"
 id = "cernunnos"
@@ -75060,7 +75060,7 @@ tier = 9
 
 [entries."monsters/glashtyn"]
 category = "monsters"
-events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
+events = ["paths_of_fomoria__house_of_sumner"]
 family = "animal"
 icon = "/img/monsters/glashtyn.png"
 id = "glashtyn"
@@ -99832,9 +99832,6 @@ life_siphon = 15
 [meta.ability_stats.mana_feather]
 max_dodge_chance = 60
 
-[meta.ability_stats.mana_regen]
-mana_recovery = 50
-
 [meta.ability_stats.mana_rush]
 mana_rush = "50%_mana"
 second_chance = 50
@@ -100315,7 +100312,6 @@ mag_d = "/img/statuses/magic_down.png"
 mag_u = "/img/statuses/magic_up.png"
 mag_uu = "/img/statuses/magic_up_double.png"
 mana_feather = "/img/effects/magic_feather.png"
-mana_regen = "/img/effects/mana_regen.png"
 mana_rush = "/img/effects/life.png"
 mana_saver = "/img/effects/mana_regen.png"
 mana_siphon = "/img/effects/siphon.png"
@@ -100382,7 +100378,7 @@ sandstone_golem = "/img/monsters/sandstone_golem.png"
 scarecrow = "/img/monsters/scarecrow.png"
 school_of_avalon = "/img/effects/avalon.png"
 second_chance = "/img/effects/second_chance.png"
-seed_of_yggdrasil = "/img/useables/yggdrasil_seed.png"
+seed_of_yggdrasil = "/img/useables/seed_of_yggdrasil.png"
 seer = "/img/monsters/seer.png"
 selene = "/img/statuses/rune_selene.png"
 shadowveil = "/img/statuses/shadowveil.png"
@@ -100527,7 +100523,7 @@ zagreus = "/img/statuses/zagreus.png"
 zu = "/img/monsters/bluebird.png"
 
 [meta.options]
-abilities = ["adept_summoner", "apex", "apex__ara_", "apex__ursa_", "apex_ii", "apex_iii", "apex_iv", "apothecarist", "apothecarist_ii", "ara", "arcane_mastery", "ascended_summons", "ascension_synergy", "auriga", "auriga_d575c1fa", "autumna_house", "avidity", "avidity_ii", "avidity_iii", "bastille", "bastille_ii", "battalions", "battalions_ii", "battalions_iii", "beast_mode", "bestial_bond", "bestial_bond_ii", "bestial_bond_iii", "bloodflasks", "bloodflasks_ii", "charon_ritual", "charon_ritual_ii", "collateral_damage", "collateral_damage_ii", "collateral_damage_iii", "collateral_damage_iv", "collateral_damage_v", "collateral_damage_vi", "coupled_essence", "crest_of_annwn", "crest_of_lyonesse", "crest_of_lyonesse_ii", "critical_chain", "critical_hits", "critical_poise", "demigod", "demigod__ara_", "demigod__ursa_", "dorado", "dorado_s_guard", "dragon_slayer", "dungeon_crawler", "efficacious", "efficacious_ii", "elysian_balance_ii", "elysian_guidelight", "enhanced_bestial_bonds", "eternal_light", "eternal_light_ii", "exp_step", "experienced_summoner", "finesse_s_training", "gold_bonus", "grand_summoner", "grand_summoner_of_auriga", "grand_summoner_of_hydrus", "great_dragon", "guardian", "hercules", "high_tenacity", "hybrid_monster", "hybrid_monster_ii", "hybrid_monster_iii", "hydrus", "hydrus_50ae067d", "iconoclast", "knight_s_ward", "knight_s_ward_ii", "life_siphon", "life_siphon_ii", "mana_feather", "mana_regen", "mana_rush", "mana_saver", "mana_siphon", "mana_step", "manaflasks", "manaflasks_ii", "manaflasks_iii", "manaflasks_iv", "mystic_feather", "nekromancy", "nocturna_house", "novice_summoner", "omnimancy", "omnimancy_ii", "paired_essence", "paired_essence_ii", "paired_essence_iii", "paired_essence_iv", "power_of_the_gods", "power_of_the_gods_ii", "realm_s_light", "recharge", "resurgence", "resurgence_ii", "saboteur", "saboteur_ii", "school_of_avalon", "second_chance", "seed_of_yggdrasil", "shields_up", "shoulders_of_giants", "shoulders_of_giants_ii", "shoulders_of_giants_iii", "siphon_ward", "staying_power", "steadfast", "steadfast_ii", "steadfast_iii", "summoner_of_auriga", "summoner_of_hydrus", "sumner_house", "the_cataphract", "the_deity", "the_deity__ara_", "the_deity__ursa_", "titan_s_ward", "unstable_omnimancy", "ursa", "valhallan_dissonance", "valhallan_dissonance_ii", "valhallan_protection", "valhallan_strength", "valhallan_strength_ii", "valhallan_strength_iii", "valhallan_training", "valhallan_way", "weaved_elements", "weaved_elements_ii", "wintara_house"]
+abilities = ["adept_summoner", "apex", "apex__ara_", "apex__ursa_", "apex_ii", "apex_iii", "apex_iv", "apothecarist", "apothecarist_ii", "ara", "arcane_mastery", "ascended_summons", "ascension_synergy", "auriga", "auriga_d575c1fa", "autumna_house", "avidity", "avidity_ii", "avidity_iii", "bastille", "bastille_ii", "battalions", "battalions_ii", "battalions_iii", "beast_mode", "bestial_bond", "bestial_bond_ii", "bestial_bond_iii", "bloodflasks", "bloodflasks_ii", "charon_ritual", "charon_ritual_ii", "collateral_damage", "collateral_damage_ii", "collateral_damage_iii", "collateral_damage_iv", "collateral_damage_v", "collateral_damage_vi", "coupled_essence", "crest_of_annwn", "crest_of_lyonesse", "crest_of_lyonesse_ii", "critical_chain", "critical_hits", "critical_poise", "demigod", "demigod__ara_", "demigod__ursa_", "dorado", "dorado_s_guard", "dragon_slayer", "dungeon_crawler", "efficacious", "efficacious_ii", "elysian_balance_ii", "elysian_guidelight", "enhanced_bestial_bonds", "eternal_light", "eternal_light_ii", "exp_step", "experienced_summoner", "finesse_s_training", "gold_bonus", "grand_summoner", "grand_summoner_of_auriga", "grand_summoner_of_hydrus", "great_dragon", "guardian", "hercules", "high_tenacity", "hybrid_monster", "hybrid_monster_ii", "hybrid_monster_iii", "hydrus", "hydrus_50ae067d", "iconoclast", "knight_s_ward", "knight_s_ward_ii", "life_siphon", "life_siphon_ii", "mana_feather", "mana_rush", "mana_saver", "mana_siphon", "mana_step", "manaflasks", "manaflasks_ii", "manaflasks_iii", "manaflasks_iv", "mystic_feather", "nekromancy", "nocturna_house", "novice_summoner", "omnimancy", "omnimancy_ii", "paired_essence", "paired_essence_ii", "paired_essence_iii", "paired_essence_iv", "power_of_the_gods", "power_of_the_gods_ii", "realm_s_light", "recharge", "resurgence", "resurgence_ii", "saboteur", "saboteur_ii", "school_of_avalon", "second_chance", "seed_of_yggdrasil", "shields_up", "shoulders_of_giants", "shoulders_of_giants_ii", "shoulders_of_giants_iii", "siphon_ward", "staying_power", "steadfast", "steadfast_ii", "steadfast_iii", "summoner_of_auriga", "summoner_of_hydrus", "sumner_house", "the_cataphract", "the_deity", "the_deity__ara_", "the_deity__ursa_", "titan_s_ward", "unstable_omnimancy", "ursa", "valhallan_dissonance", "valhallan_dissonance_ii", "valhallan_protection", "valhallan_strength", "valhallan_strength_ii", "valhallan_strength_iii", "valhallan_training", "valhallan_way", "weaved_elements", "weaved_elements_ii", "wintara_house"]
 category = ["bosses", "classes", "followers", "items", "monsters", "raids", "spells"]
 causes = ["aquila_sigil", "asleep", "att_d", "bleeding", "blight", "blind", "burning", "carina_sigil", "confused", "crux_sigil", "curse_of_sekhmet", "cursed", "dark_sigil", "darkblight", "def_d", "def_dd", "doom", "draco_sigil", "dragon_sigil", "drakeblight", "drenched", "earth_sigil", "earthblight", "eos", "fire_sigil", "fireblight", "foresight_d", "frozen", "holy_sigil", "holyblight", "lightning_sigil", "lightningblight", "lulled", "lyon_s_mark", "lyra_sigil", "mag_d", "morrigan_s_curse", "oceanus", "paralyzed", "petrified", "phoenix_s_pledge", "poisoned", "prometheus", "res_d", "res_dd", "rot", "selene", "starstruck", "stasis", "stunned", "t__all_d", "t__att_d", "t__att_dd", "t__def_d", "t__def_dd", "t__dex_d", "t__dmg_d", "t__dmg_dd", "t__mag_d", "t__mag_dd", "t__res_d", "t__res_dd", "tempered_d", "tempered_dd", "themis", "toxic", "water_sigil", "waterblight", "windblight", "windswept"]
 cures = ["aegir", "all_u", "all_uu", "aquila_sigil", "arcane_aligned", "arcane_uu", "asleep", "asteria_of_olympia", "atlas_of_olympia", "att_d", "att_u", "att_uu", "bleeding", "blight", "blind", "bloodshift", "brittle", "brynhild_u", "brynhild_uu", "brynhild_uuu", "burning", "carina_sigil", "castor", "confused", "crit_u", "crux_sigil", "curse_of_sekhmet", "cursed", "dark_aligned", "dark_def", "dark_sigil", "darkblight", "def_d", "def_dd", "def_u", "def_uu", "defending", "defending_65018b2c", "defending_fc3de31f", "dex_u", "dmg_u", "doom", "draco_sigil", "dragon_aligned", "dragon_sigil", "dragon_uu", "drakeblight", "drenched", "dumbr", "earth_aligned", "earth_att", "earth_def", "earth_sigil", "earthblight", "eir", "eistla", "elementless", "eos", "fire_aligned", "fire_att", "fire_def", "fire_sigil", "fireblight", "foresight_d", "foresight_u", "foresight_uu", "frenzy", "frog", "frozen", "gunnr", "gymir", "hildr", "holy_aligned", "holy_def", "holy_sigil", "holyblight", "idun_u", "idun_uu", "idun_uuu", "iron_greaves", "iron_pauldrons", "jord_u", "jord_uu", "jord_uuu", "kára", "lightning_aligned", "lightning_att", "lightning_def", "lightning_sigil", "lightningblight", "lulled", "lyon_s_mark", "lyra_sigil", "mag_d", "mag_u", "mag_uu", "manaseep", "morrigan_s_curse", "mythril_greaves", "mythril_pauldrons", "oceanus", "ophion_of_olympia", "paralyzed", "petrified", "phoenix_s_pledge", "poisoned", "pollux", "power_of_titan_eos", "power_of_titan_oceanus", "power_of_titan_prometheus", "power_of_titan_selene", "power_of_titan_themis", "prometheus", "puzzlemaker_s_ambrosia", "rand_uu", "reraise", "res_d", "res_dd", "res_u", "res_uu", "rot", "selene", "shadowveil", "skadi_u", "skadi_uu", "skadi_uuu", "snotra", "spiked_greaves", "spiked_pauldrons", "starstruck", "stasis", "stunned", "t__?_uuu", "t__all_d", "t__all_u", "t__all_uu", "t__all_uuu", "t__att_d", "t__att_dd", "t__att_ddd", "t__att_u", "t__att_uu", "t__att_uuu", "t__crit_u", "t__crit_uu", "t__crit_uuu", "t__dark_immune", "t__dark_immune_uu", "t__def_d", "t__def_dd", "t__def_ddd", "t__def_u", "t__def_uu", "t__def_uuu", "t__dex_d", "t__dex_u", "t__dex_uu", "t__dex_uuu", "t__dmg_d", "t__dmg_dd", "t__earth_immune", "t__earth_immune_uu", "t__fire_immune", "t__fire_immune_uu", "t__holy_immune", "t__holy_immune_uu", "t__lightning_immune", "t__lightning_immune_uu", "t__mag_d", "t__mag_dd", "t__mag_ddd", "t__mag_u", "t__mag_uu", "t__mag_uuu", "t__res_d", "t__res_dd", "t__res_ddd", "t__res_u", "t__res_uu", "t__res_uuu", "t__target_d", "t__target_dd", "t__target_u", "t__target_uu", "t__water_immune", "t__water_immune_uu", "target__all", "tempered_d", "tempered_dd", "themis", "thrud", "towering", "toxic", "tree_of_demise", "tree_of_life", "water_aligned", "water_att", "water_def", "water_sigil", "waterblight", "wind_aligned", "wind_sigil", "windblight", "windswept", "zagreus"]
@@ -100735,10 +100731,6 @@ type = "SIGNED"
 unit = "PERCENT"
 
 [meta.value_types."abilities.low_mana_r_stats"]
-type = "SIGNED"
-unit = "PERCENT"
-
-[meta.value_types."abilities.mana_recovery"]
 type = "SIGNED"
 unit = "PERCENT"
 

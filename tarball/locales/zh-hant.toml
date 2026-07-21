@@ -483,12 +483,6 @@ id = "mana_feather"
 language = "zh-hant"
 name = "魔力羽毛"
 
-[abilities.mana_regen]
-description = "你的魔力恢復得更快。"
-id = "mana_regen"
-language = "zh-hant"
-name = "魔力回復"
-
 [abilities.mana_rush]
 description = "在戰鬥中被擊倒時你有機會引入魔法值來逃脫。"
 id = "mana_rush"
@@ -35323,7 +35317,6 @@ luck_bonus = "幸運加成"
 magic = "魔攻"
 mana = "魔力"
 mana_overspend_chance = "魔力超支機率"
-mana_recovery = "魔力值回復"
 mana_reduction = "魔力輕減"
 mana_regen = "魔力回復"
 mana_rush = "魔力之潮"

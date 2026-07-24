@@ -22321,6 +22321,13 @@ id = "super-exp-potion"
 language = "zh-hant"
 name = "超級經驗值藥水"
 
+[entries."items/super-farsight"]
+category = "items"
+description = "讓雙眼目明的藥水。使用後會在1小時內提升視野。"
+id = "super-farsight"
+language = "zh-hant"
+name = "Super Farsight"
+
 [entries."items/super-health-potion"]
 category = "items"
 description = "回復 2500 生命值."

@@ -22321,6 +22321,13 @@ id = "super-exp-potion"
 language = "zh-hans"
 name = "超级经验药水"
 
+[entries."items/super-farsight"]
+category = "items"
+description = "提升视野的药水。喝下它能在 1 小时内提升视野范围。"
+id = "super-farsight"
+language = "zh-hans"
+name = "Super Farsight"
+
 [entries."items/super-health-potion"]
 category = "items"
 description = "回复 2500 点生命值。"

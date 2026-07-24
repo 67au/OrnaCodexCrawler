@@ -22321,6 +22321,13 @@ id = "super-exp-potion"
 language = "en"
 name = "Super EXP Potion"
 
+[entries."items/super-farsight"]
+category = "items"
+description = "A tonic that improves eyesight. Consuming this item will increase your view distance for 1 hour."
+id = "super-farsight"
+language = "en"
+name = "Super Farsight"
+
 [entries."items/super-health-potion"]
 category = "items"
 description = "Recovers 2500 health points."

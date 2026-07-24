@@ -5097,7 +5097,7 @@ spell_rate = 20
 [entries."followers/arisen-cernunnos"]
 bestial_bond = [[{name = "accuracy", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 12, type = "BOND"}, {name = "bonded_dexterity", value = 7, type = "BOND"}], [{name = "bonded_attack", value = 12, type = "BOND"}, {name = "bonded_dexterity", value = 15, type = "BOND"}]]
 category = "followers"
-events = ["paths_of_fomoria__house_of_sumner"]
+events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
 family = "animal"
 icon = "/img/monsters/cernunnos.png"
 id = "arisen-cernunnos"
@@ -5112,7 +5112,7 @@ spell_rate = 7
 [entries."followers/arisen-glashtyn"]
 bestial_bond = [[{name = "elemental_weaknesses", value = 15, type = "BONUS"}], [{name = "t__mag_u", value = 7, type = "BOND"}, {name = "t__mag_uu", value = 2, type = "BOND"}], [{name = "bonded_magic", value = 20, type = "BOND"}]]
 category = "followers"
-events = ["paths_of_fomoria__house_of_sumner"]
+events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
 family = "animal"
 icon = "/img/monsters/glashtyn.png"
 id = "arisen-glashtyn"
@@ -5716,7 +5716,7 @@ spell_rate = 12
 [entries."followers/cernunnos"]
 bestial_bond = [[{name = "accuracy", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 12, type = "BOND"}, {name = "bonded_dexterity", value = 7, type = "BOND"}], [{name = "bonded_attack", value = 12, type = "BOND"}, {name = "bonded_dexterity", value = 15, type = "BOND"}]]
 category = "followers"
-events = ["paths_of_fomoria__house_of_sumner"]
+events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
 family = "animal"
 icon = "/img/monsters/cernunnos.png"
 id = "cernunnos"
@@ -6648,7 +6648,7 @@ protect_chance = 5
 [entries."followers/glashtyn"]
 bestial_bond = [[{name = "elemental_weaknesses", value = 15, type = "BONUS"}], [{name = "t__mag_u", value = 7, type = "BOND"}, {name = "t__mag_uu", value = 2, type = "BOND"}], [{name = "bonded_magic", value = 20, type = "BOND"}]]
 category = "followers"
-events = ["paths_of_fomoria__house_of_sumner"]
+events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
 family = "animal"
 icon = "/img/monsters/glashtyn.png"
 id = "glashtyn"
@@ -66054,6 +66054,20 @@ useable_by = "all_classes"
 [entries."items/super-exp-potion".stats]
 exp_bonus = 300
 
+[entries."items/super-farsight"]
+aura = "rare"
+category = "items"
+exotic = 0
+icon = "/img/useables/super_farsight.png"
+id = "super-farsight"
+item_type = "field"
+rarity = "rare"
+tier = 5
+useable_by = "all_classes"
+
+[entries."items/super-farsight".stats]
+view_distance = 200
+
 [entries."items/super-health-potion"]
 aura = "rare"
 category = "items"
@@ -73268,7 +73282,7 @@ tier = 6
 
 [entries."monsters/buggane"]
 category = "monsters"
-events = ["paths_of_fomoria__house_of_sumner"]
+events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
 family = "orc_horde"
 icon = "/img/monsters/buggane.png"
 id = "buggane"
@@ -73403,7 +73417,7 @@ tier = 7
 
 [entries."monsters/cernunnos"]
 category = "monsters"
-events = ["paths_of_fomoria__house_of_sumner"]
+events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
 family = "animal"
 icon = "/img/monsters/cernunnos.png"
 id = "cernunnos"
@@ -75060,7 +75074,7 @@ tier = 9
 
 [entries."monsters/glashtyn"]
 category = "monsters"
-events = ["paths_of_fomoria__house_of_sumner"]
+events = ["paths_of_fomoria__house_of_autumna", "paths_of_fomoria__house_of_nocturna", "paths_of_fomoria__house_of_sumner", "paths_of_fomoria__house_of_wintara"]
 family = "animal"
 icon = "/img/monsters/glashtyn.png"
 id = "glashtyn"

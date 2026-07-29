@@ -2147,6 +2147,12 @@ id = "orc-lord-aae6c979"
 language = "en"
 name = "Orc Lord"
 
+[entries."bosses/peluda-poison-quilled"]
+category = "bosses"
+id = "peluda-poison-quilled"
+language = "en"
+name = "Peluda, Poison Quilled"
+
 [entries."bosses/pollux"]
 category = "bosses"
 id = "pollux"
@@ -2440,6 +2446,12 @@ category = "bosses"
 id = "vampire-lord"
 language = "en"
 name = "Vampire Lord"
+
+[entries."bosses/velue"]
+category = "bosses"
+id = "velue"
+language = "en"
+name = "Velue"
 
 [entries."bosses/vritra-the-steadfast"]
 category = "bosses"
@@ -4514,6 +4526,13 @@ id = "pegasus"
 language = "en"
 name = "Pegasus"
 
+[entries."followers/peluda-poison-quilled"]
+category = "followers"
+description = "The Great Dragons will bring many skills to battle. Available for a limited time only."
+id = "peluda-poison-quilled"
+language = "en"
+name = "Peluda, Poison Quilled"
+
 [entries."followers/phoenix"]
 category = "followers"
 description = "The mighty Phoenix, arisen once again. Available for a limited time only."
@@ -4898,6 +4917,13 @@ description = "The untamed beast. Available for a limited time only."
 id = "untamed-cerus"
 language = "en"
 name = "Untamed Cerus"
+
+[entries."followers/velue"]
+category = "followers"
+description = "The Great Dragons will bring many skills to battle. Available for a limited time only."
+id = "velue"
+language = "en"
+name = "Velue"
 
 [entries."followers/very-scary-skeleton"]
 category = "followers"
@@ -6327,17 +6353,17 @@ id = "arisen-cursed-fomoria-plated-robe"
 language = "en"
 name = "Arisen Cursed Fomoria Plated Robe"
 
+[entries."items/arisen-cursed-fomoria-plated-robe-954d6525"]
+category = "items"
+description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
+id = "arisen-cursed-fomoria-plated-robe-954d6525"
+language = "en"
+name = "Arisen Cursed Fomoria Plated Robe"
+
 [entries."items/arisen-cursed-fomoria-plated-robe-9a5a1cdd"]
 category = "items"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
 id = "arisen-cursed-fomoria-plated-robe-9a5a1cdd"
-language = "en"
-name = "Arisen Cursed Fomoria Plated Robe"
-
-[entries."items/arisen-cursed-fomoria-plated-robe-ca4ddba5"]
-category = "items"
-description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "arisen-cursed-fomoria-plated-robe-ca4ddba5"
 language = "en"
 name = "Arisen Cursed Fomoria Plated Robe"
 
@@ -10947,10 +10973,10 @@ id = "cursed-fomoria-plated-robe"
 language = "en"
 name = "Cursed Fomoria Plated Robe"
 
-[entries."items/cursed-fomoria-plated-robe-5d09a4d7"]
+[entries."items/cursed-fomoria-plated-robe-49122feb"]
 category = "items"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "cursed-fomoria-plated-robe-5d09a4d7"
+id = "cursed-fomoria-plated-robe-49122feb"
 language = "en"
 name = "Cursed Fomoria Plated Robe"
 
@@ -12255,6 +12281,13 @@ description = "A fine blade crafted of a Dragon's talon"
 id = "dragon-dagger"
 language = "en"
 name = "Dragon Dagger"
+
+[entries."items/dragon-head"]
+category = "items"
+description = "Head of a Great Dragon, used in Event Crafting at the Monumental Guild Hall during the Wyrmhunt event."
+id = "dragon-head"
+language = "en"
+name = "Dragon Head"
 
 [entries."items/dragon-remains"]
 category = "items"
@@ -16925,10 +16958,10 @@ id = "kerberos-claws"
 language = "en"
 name = "Kerberos Claws"
 
-[entries."items/kerberos-claws-e7f61ea1"]
+[entries."items/kerberos-claws-81b67c8d"]
 category = "items"
 description = "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
-id = "kerberos-claws-e7f61ea1"
+id = "kerberos-claws-81b67c8d"
 language = "en"
 name = "Kerberos Claws"
 
@@ -17890,6 +17923,13 @@ description = "A scroll of Macha, offering secrets of her craft. It increases ma
 id = "machas-scroll"
 language = "en"
 name = "Macha's Scroll"
+
+[entries."items/magenta-spelunking-torch"]
+category = "items"
+description = "A torch carried by a great Spelunker. Using this item will increase rewards earned when completing dungeons for 6 hours."
+id = "magenta-spelunking-torch"
+language = "en"
+name = "Magenta Spelunking Torch"
 
 [entries."items/mages-boots"]
 category = "items"
@@ -19767,6 +19807,13 @@ id = "poison-dagger"
 language = "en"
 name = "Poison Dagger"
 
+[entries."items/poison-quill"]
+category = "items"
+description = "Aside: With the land constructed, Nature must come to be. Velue and Peluda extended their quills and shot them to the sky. As they fell, planted as trees, these quills became."
+id = "poison-quill"
+language = "en"
+name = "Poison Quill"
+
 [entries."items/polished-aegis"]
 category = "items"
 description = "A replica of Perseus's famous shield, gifted by Athena. It will protect one from petrification."
@@ -19899,6 +19946,13 @@ description = "A token issued by the Blades of Finesse to signify that one has w
 id = "proof-of-sparring"
 language = "en"
 name = "Proof of Sparring"
+
+[entries."items/proof-of-spelunking"]
+category = "items"
+description = "A token issued by the Spelunking Guild to signify that one has completed a dungeon."
+id = "proof-of-spelunking"
+language = "en"
+name = "Proof of Spelunking"
 
 [entries."items/proof-of-torment"]
 category = "items"
@@ -21887,13 +21941,6 @@ id = "spellswords-ring"
 language = "en"
 name = "Spellsword's Ring"
 
-[entries."items/spelunkers-torch"]
-category = "items"
-description = "A torch carried by a great Spelunker. Using this item will increase rewards earned when completing Battle Dungeons for 6 hours."
-id = "spelunkers-torch"
-language = "en"
-name = "Spelunker's Torch"
-
 [entries."items/spelunking-staff"]
 category = "items"
 description = "Staff of a lost dungeon explorer. It seems to have developed quite some power while resting deep within the land."
@@ -23623,6 +23670,13 @@ id = "wristwatch"
 language = "en"
 name = "Wristwatch"
 
+[entries."items/wyrmquill-ballista"]
+category = "items"
+description = "Aside: With the land constructed, Nature must come to be. Velue and Peluda extended their quills and shot them to the sky. As they fell, planted as trees, these quills became."
+id = "wyrmquill-ballista"
+language = "en"
+name = "Wyrmquill Ballista"
+
 [entries."items/wyvern-armor"]
 category = "items"
 description = "An exotic chest guard made of wyvern skin."
@@ -23825,6 +23879,13 @@ description = "Yelbeghen, a Dragon Titan, was created by the Draconians with the
 id = "yelmogus-cowl"
 language = "en"
 name = "Yelmogus Cowl"
+
+[entries."items/yelmogus-crucible"]
+category = "items"
+description = "A crucible holding the remains of Yelbeghen. Use it upon an Anguished item to receive a bonus unique to this item."
+id = "yelmogus-crucible"
+language = "en"
+name = "Yelmogus Crucible"
 
 [entries."items/yelmogus-cuirass"]
 category = "items"
@@ -32248,6 +32309,13 @@ id = "poison"
 language = "en"
 name = "Poison"
 
+[entries."spells/poison-quillstorm"]
+category = "spells"
+description = "Bombard all opponents with poison quills."
+id = "poison-quillstorm"
+language = "en"
+name = "Poison Quillstorm"
+
 [entries."spells/poison-volley"]
 category = "spells"
 description = "Deals damage thrice and may poison an opponent."
@@ -33849,6 +33917,13 @@ id = "summon-oslo"
 language = "en"
 name = "Summon Oslo"
 
+[entries."spells/summon-peluda-poison-quilled"]
+category = "spells"
+description = "Summon a beast to assist you. Requires 3 turns in battle."
+id = "summon-peluda-poison-quilled"
+language = "en"
+name = "Summon Peluda, Poison Quilled"
+
 [entries."spells/summon-phaethon"]
 category = "spells"
 description = "Summon a great beast to assist you. Requires 2 turns in battle."
@@ -35264,7 +35339,6 @@ dragon_damage = "Dragon Damage"
 dullahan_s_pursuit = "Dullahan's Pursuit"
 dungeon_cooldown = "Dungeon Cooldown"
 dungeon_horde_bonus = "Dungeon Horde Bonus"
-dungeon_rewards = "Dungeon Rewards"
 earthen_damage = "Earthen Damage"
 earthen_res = "Earthen Res"
 effect_chance = "Effect Chance"
@@ -35272,6 +35346,7 @@ effect_damage = "Effect Damage"
 elemental_damage_taken = "Elemental Damage Taken"
 elemental_immunity_damage = "Elemental Immunity Damage"
 elemental_weaknesses = "Elemental Weaknesses"
+end_of_dungeon_rewards = "End of Dungeon Rewards"
 event_encounters = "Event Encounters"
 exp_bonus = "EXP Bonus"
 exp_walk = "EXP Walk"
@@ -35296,6 +35371,7 @@ gifts = "Gifts"
 gives = "Gives"
 godforge_chance = "Godforge Chance"
 gold_bonus = "Gold Bonus"
+guild_proof_bonus = "Guild Proof Bonus"
 heal_rate = "Heal rate"
 healing = "Healing"
 holy_damage = "Holy Damage"
@@ -35444,6 +35520,7 @@ lightning_sigil_ = "Lightning Sigil+"
 mend_wall_ii = "Mend Wall II"
 natura_ii = "Natura II"
 physical = "Physical"
+poison_quillstorm = "Poison Quillstorm"
 ponder = "Ponder"
 pumpkin_gaze = "Pumpkin Gaze"
 rainsong = "Rainsong"
@@ -35464,6 +35541,8 @@ wildfire_ii = "Wildfire II"
 winter_wind_ii = "Winter Wind II"
 
 [msg.status]
+_pvp___bonded_defense = "(PvP): Bonded Defense"
+_pvp___bonded_resistance = "(PvP): Bonded Resistance"
 aegir = "Aegir"
 alfar = "Alfar"
 alfar_mage = "Alfar Mage"
@@ -35652,6 +35731,7 @@ ophion_of_olympia = "Ophion of Olympia"
 ortanite_golem = "Ortanite Golem"
 oslo = "Oslo"
 paralyzed = "Paralyzed"
+"peluda,_poison_quilled" = "Peluda, Poison Quilled"
 petrified = "Petrified"
 phaethon = "Phaethon"
 phoenix_s_pledge = "Phoenix's Pledge"

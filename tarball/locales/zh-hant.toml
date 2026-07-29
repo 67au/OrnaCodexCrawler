@@ -2147,6 +2147,12 @@ id = "orc-lord-aae6c979"
 language = "zh-hant"
 name = "半獸人君王"
 
+[entries."bosses/peluda-poison-quilled"]
+category = "bosses"
+id = "peluda-poison-quilled"
+language = "zh-hant"
+name = "Peluda, Poison Quilled"
+
 [entries."bosses/pollux"]
 category = "bosses"
 id = "pollux"
@@ -2440,6 +2446,12 @@ category = "bosses"
 id = "vampire-lord"
 language = "zh-hant"
 name = "吸血鬼領主"
+
+[entries."bosses/velue"]
+category = "bosses"
+id = "velue"
+language = "zh-hant"
+name = "Velue"
 
 [entries."bosses/vritra-the-steadfast"]
 category = "bosses"
@@ -4514,6 +4526,13 @@ id = "pegasus"
 language = "zh-hant"
 name = "天馬"
 
+[entries."followers/peluda-poison-quilled"]
+category = "followers"
+description = "遠古巨龍能使用諸多技能。限時特賣。"
+id = "peluda-poison-quilled"
+language = "zh-hant"
+name = "Peluda, Poison Quilled"
+
 [entries."followers/phoenix"]
 category = "followers"
 description = "崇偉的鳳凰再次降臨人間.期間限定."
@@ -4898,6 +4917,13 @@ description = "桀驁不馴的野獸.期間限定."
 id = "untamed-cerus"
 language = "zh-hant"
 name = "桀驁金牛凱魯斯"
+
+[entries."followers/velue"]
+category = "followers"
+description = "遠古巨龍能使用諸多技能。限時特賣。"
+id = "velue"
+language = "zh-hant"
+name = "Velue"
 
 [entries."followers/very-scary-skeleton"]
 category = "followers"
@@ -6327,17 +6353,17 @@ id = "arisen-cursed-fomoria-plated-robe"
 language = "zh-hant"
 name = "重生受詛咒的弗摩爾族板甲袍"
 
+[entries."items/arisen-cursed-fomoria-plated-robe-954d6525"]
+category = "items"
+description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
+id = "arisen-cursed-fomoria-plated-robe-954d6525"
+language = "zh-hant"
+name = "重生受詛咒的弗摩爾族板甲袍"
+
 [entries."items/arisen-cursed-fomoria-plated-robe-9a5a1cdd"]
 category = "items"
 description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
 id = "arisen-cursed-fomoria-plated-robe-9a5a1cdd"
-language = "zh-hant"
-name = "重生受詛咒的弗摩爾族板甲袍"
-
-[entries."items/arisen-cursed-fomoria-plated-robe-ca4ddba5"]
-category = "items"
-description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
-id = "arisen-cursed-fomoria-plated-robe-ca4ddba5"
 language = "zh-hant"
 name = "重生受詛咒的弗摩爾族板甲袍"
 
@@ -9696,10 +9722,10 @@ name = "堤豐之弓"
 
 [entries."items/branch-of-yggdrasil"]
 category = "items"
-description = "A branch of Yggdrasil."
+description = "世界樹的枝"
 id = "branch-of-yggdrasil"
 language = "zh-hant"
-name = "Branch of Yggdrasil"
+name = "世界樹之枝"
 
 [entries."items/bricrius-bow"]
 category = "items"
@@ -10947,10 +10973,10 @@ id = "cursed-fomoria-plated-robe"
 language = "zh-hant"
 name = "受詛咒的弗摩爾族板甲袍"
 
-[entries."items/cursed-fomoria-plated-robe-5d09a4d7"]
+[entries."items/cursed-fomoria-plated-robe-49122feb"]
 category = "items"
 description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
-id = "cursed-fomoria-plated-robe-5d09a4d7"
+id = "cursed-fomoria-plated-robe-49122feb"
 language = "zh-hant"
 name = "受詛咒的弗摩爾族板甲袍"
 
@@ -12255,6 +12281,13 @@ description = "使用龍爪打造的良質刀刃"
 id = "dragon-dagger"
 language = "zh-hant"
 name = "龍匕首"
+
+[entries."items/dragon-head"]
+category = "items"
+description = "遠古巨龍的頭，龍狩祭期間可以在紀念碑公會用來打造物品。"
+id = "dragon-head"
+language = "zh-hant"
+name = "Dragon Head"
 
 [entries."items/dragon-remains"]
 category = "items"
@@ -16925,10 +16958,10 @@ id = "kerberos-claws"
 language = "zh-hant"
 name = "刻耳柏洛斯之爪"
 
-[entries."items/kerberos-claws-e7f61ea1"]
+[entries."items/kerberos-claws-81b67c8d"]
 category = "items"
 description = "由刻耳柏洛斯那尖銳、強大、鋒利如刃的爪所製成。攻擊有機會造成流血及冰凍狀態。"
-id = "kerberos-claws-e7f61ea1"
+id = "kerberos-claws-81b67c8d"
 language = "zh-hant"
 name = "刻耳柏洛斯之爪"
 
@@ -17890,6 +17923,13 @@ description = "展現瑪查神秘工藝的卷軸.能提升魔法攻擊力及魔�
 id = "machas-scroll"
 language = "zh-hant"
 name = "瑪查之卷軸"
+
+[entries."items/magenta-spelunking-torch"]
+category = "items"
+description = "A torch carried by a great Spelunker. Using this item will increase rewards earned when completing dungeons for 6 hours."
+id = "magenta-spelunking-torch"
+language = "zh-hant"
+name = "Magenta Spelunking Torch"
 
 [entries."items/mages-boots"]
 category = "items"
@@ -19767,6 +19807,13 @@ id = "poison-dagger"
 language = "zh-hant"
 name = "毒匕首"
 
+[entries."items/poison-quill"]
+category = "items"
+description = "Aside: With the land constructed, Nature must come to be. Velue and Peluda extended their quills and shot them to the sky. As they fell, planted as trees, these quills became."
+id = "poison-quill"
+language = "zh-hant"
+name = "Poison Quill"
+
 [entries."items/polished-aegis"]
 category = "items"
 description = "一面柏修斯著名盾牌的複製品，來自雅典娜的餽贈。它會保護使用者免於石化。"
@@ -19899,6 +19946,13 @@ description = "由芬尼斯之刃所發行，象徵其在與公會內成員間�
 id = "proof-of-sparring"
 language = "zh-hant"
 name = "決鬥之證"
+
+[entries."items/proof-of-spelunking"]
+category = "items"
+description = "A token issued by the Spelunking Guild to signify that one has completed a dungeon."
+id = "proof-of-spelunking"
+language = "zh-hant"
+name = "Proof of Spelunking"
 
 [entries."items/proof-of-torment"]
 category = "items"
@@ -21887,13 +21941,6 @@ id = "spellswords-ring"
 language = "zh-hant"
 name = "魔劍士之戒"
 
-[entries."items/spelunkers-torch"]
-category = "items"
-description = "偉大挖穴者所持的蠟燭。使用後能在6小時內提升戰鬥地城的結算獎勵。"
-id = "spelunkers-torch"
-language = "zh-hant"
-name = "探穴者的火炬"
-
 [entries."items/spelunking-staff"]
 category = "items"
 description = "迷失的地城探險者所持有的法杖，長眠在地底時，它似乎已發展出相當強大的力量。"
@@ -23623,6 +23670,13 @@ id = "wristwatch"
 language = "zh-hant"
 name = "手錶"
 
+[entries."items/wyrmquill-ballista"]
+category = "items"
+description = "Aside: With the land constructed, Nature must come to be. Velue and Peluda extended their quills and shot them to the sky. As they fell, planted as trees, these quills became."
+id = "wyrmquill-ballista"
+language = "zh-hant"
+name = "Wyrmquill Ballista"
+
 [entries."items/wyvern-armor"]
 category = "items"
 description = "用飛龍皮做的高級胸甲."
@@ -23825,6 +23879,13 @@ description = "耶爾貝甘，是由德肯族用遠古巨龍遺骸打造的巨�
 id = "yelmogus-cowl"
 language = "zh-hant"
 name = "耶爾默古風帽"
+
+[entries."items/yelmogus-crucible"]
+category = "items"
+description = "A crucible holding the remains of Yelbeghen. Use it upon an Anguished item to receive a bonus unique to this item."
+id = "yelmogus-crucible"
+language = "zh-hant"
+name = "Yelmogus Crucible"
 
 [entries."items/yelmogus-cuirass"]
 category = "items"
@@ -32248,6 +32309,13 @@ id = "poison"
 language = "zh-hant"
 name = "下毒"
 
+[entries."spells/poison-quillstorm"]
+category = "spells"
+description = "Bombard all opponents with poison quills."
+id = "poison-quillstorm"
+language = "zh-hant"
+name = "Poison Quillstorm"
+
 [entries."spells/poison-volley"]
 category = "spells"
 description = "造成三次傷害且可能讓對手中毒。"
@@ -33849,6 +33917,13 @@ id = "summon-oslo"
 language = "zh-hant"
 name = "召喚奧斯陸"
 
+[entries."spells/summon-peluda-poison-quilled"]
+category = "spells"
+description = "召喚一隻野獸來協助你。召喚需要3回合。"
+id = "summon-peluda-poison-quilled"
+language = "zh-hant"
+name = "Summon Peluda, Poison Quilled"
+
 [entries."spells/summon-phaethon"]
 category = "spells"
 description = "召喚強大的野獸來幫助你。召喚需要2回合。"
@@ -35269,7 +35344,6 @@ dragon_damage = "龍系傷害"
 dullahan_s_pursuit = "無頭騎士的追殺"
 dungeon_cooldown = "地城冷卻"
 dungeon_horde_bonus = "地城浪潮加成"
-dungeon_rewards = "地城結算獎勵"
 earth_sigil_ = "+能力：地之印記+"
 earthen_damage = "土系傷害"
 earthen_res = "土系抗性"
@@ -35278,6 +35352,7 @@ effect_damage = "狀態傷害"
 elemental_damage_taken = "元素傷害承受度"
 elemental_immunity_damage = "元素免疫傷害"
 elemental_weaknesses = "元素弱點"
+end_of_dungeon_rewards = "End of Dungeon Rewards"
 event_encounters = "活動怪遭遇"
 exp_bonus = "經驗加成"
 exp_walk = "經驗之步"
@@ -35303,6 +35378,7 @@ gifts = "禮物"
 gives = "賦予"
 godforge_chance = "神賜機率"
 gold_bonus = "金幣加成"
+guild_proof_bonus = "公會證加成"
 heal_rate = "治癒機率"
 healing = "治療技能"
 holy_damage = "神聖傷害"
@@ -35370,7 +35446,7 @@ status_reflection = "狀態反射"
 stonefire = "+能力：石火"
 summon_pacts = "召喚契約之力"
 summon_protection = "召喚獸守護"
-summon_spell_start = "Summon Spell Start"
+summon_spell_start = "開場召喚"
 summon_stats = "召喚獸屬性"
 summon_turns = "召喚回合數"
 swap_defense_resistance = "物防/魔防交換"
@@ -35448,6 +35524,7 @@ level_2 = "等級 2"
 level_3 = "等級 3"
 lightning = "雷"
 physical = "物理"
+poison_quillstorm = "Poison Quillstorm"
 ponder = "沉思術"
 pumpkin_gaze = "南瓜凝視"
 rainsong = "雨之歌"
@@ -35465,6 +35542,8 @@ ward_of_ortanite = "歐坦尼護盾"
 water = "水"
 
 [msg.status]
+_pvp___bonded_defense = "(PvP): 羈絆物防"
+_pvp___bonded_resistance = "(PvP): 羈絆魔防"
 aegir = "埃吉爾"
 alfar = "古精靈"
 alfar_mage = "古精靈法師"
@@ -35653,6 +35732,7 @@ ophion_of_olympia = "奧林匹亞的俄菲翁"
 ortanite_golem = "歐坦尼魔像"
 oslo = "奧斯陸"
 paralyzed = "麻痺"
+"peluda,_poison_quilled" = "Peluda, Poison Quilled"
 petrified = "石化"
 phaethon = "法厄同"
 phoenix_s_pledge = "鳳凰之誓"

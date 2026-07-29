@@ -2147,6 +2147,12 @@ id = "orc-lord-aae6c979"
 language = "zh-hans"
 name = "半兽人领主"
 
+[entries."bosses/peluda-poison-quilled"]
+category = "bosses"
+id = "peluda-poison-quilled"
+language = "zh-hans"
+name = "Peluda, Poison Quilled"
+
 [entries."bosses/pollux"]
 category = "bosses"
 id = "pollux"
@@ -2440,6 +2446,12 @@ category = "bosses"
 id = "vampire-lord"
 language = "zh-hans"
 name = "吸血鬼领主"
+
+[entries."bosses/velue"]
+category = "bosses"
+id = "velue"
+language = "zh-hans"
+name = "Velue"
 
 [entries."bosses/vritra-the-steadfast"]
 category = "bosses"
@@ -4514,6 +4526,13 @@ id = "pegasus"
 language = "zh-hans"
 name = "天马"
 
+[entries."followers/peluda-poison-quilled"]
+category = "followers"
+description = "期间限定。远古巨龙能使用诸多技能。"
+id = "peluda-poison-quilled"
+language = "zh-hans"
+name = "Peluda, Poison Quilled"
+
 [entries."followers/phoenix"]
 category = "followers"
 description = "期间限定。崇伟的凤凰再次重生。"
@@ -4898,6 +4917,13 @@ description = "期间限定。桀骜不驯的野兽。"
 id = "untamed-cerus"
 language = "zh-hans"
 name = "桀骜金牛凯鲁斯"
+
+[entries."followers/velue"]
+category = "followers"
+description = "期间限定。远古巨龙能使用诸多技能。"
+id = "velue"
+language = "zh-hans"
+name = "Velue"
 
 [entries."followers/very-scary-skeleton"]
 category = "followers"
@@ -6327,17 +6353,17 @@ id = "arisen-cursed-fomoria-plated-robe"
 language = "zh-hans"
 name = "重生诅咒的弗摩尔镀金法袍"
 
+[entries."items/arisen-cursed-fomoria-plated-robe-954d6525"]
+category = "items"
+description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的链甲。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
+id = "arisen-cursed-fomoria-plated-robe-954d6525"
+language = "zh-hans"
+name = "重生诅咒的弗摩尔镀金法袍"
+
 [entries."items/arisen-cursed-fomoria-plated-robe-9a5a1cdd"]
 category = "items"
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的链甲。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
 id = "arisen-cursed-fomoria-plated-robe-9a5a1cdd"
-language = "zh-hans"
-name = "重生诅咒的弗摩尔镀金法袍"
-
-[entries."items/arisen-cursed-fomoria-plated-robe-ca4ddba5"]
-category = "items"
-description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的链甲。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
-id = "arisen-cursed-fomoria-plated-robe-ca4ddba5"
 language = "zh-hans"
 name = "重生诅咒的弗摩尔镀金法袍"
 
@@ -10947,10 +10973,10 @@ id = "cursed-fomoria-plated-robe"
 language = "zh-hans"
 name = "诅咒的弗摩尔镀金法袍"
 
-[entries."items/cursed-fomoria-plated-robe-5d09a4d7"]
+[entries."items/cursed-fomoria-plated-robe-49122feb"]
 category = "items"
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的链甲。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
-id = "cursed-fomoria-plated-robe-5d09a4d7"
+id = "cursed-fomoria-plated-robe-49122feb"
 language = "zh-hans"
 name = "诅咒的弗摩尔镀金法袍"
 
@@ -12255,6 +12281,13 @@ description = "使用龙爪打造的优良刀刃"
 id = "dragon-dagger"
 language = "zh-hans"
 name = "龙匕首"
+
+[entries."items/dragon-head"]
+category = "items"
+description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会打造物品。"
+id = "dragon-head"
+language = "zh-hans"
+name = "Dragon Head"
 
 [entries."items/dragon-remains"]
 category = "items"
@@ -16925,10 +16958,10 @@ id = "kerberos-claws"
 language = "zh-hans"
 name = "刻耳柏洛斯之爪"
 
-[entries."items/kerberos-claws-e7f61ea1"]
+[entries."items/kerberos-claws-81b67c8d"]
 category = "items"
 description = "由刻耳柏洛斯那尖锐锋利的爪所制成。攻击有机率对对手造成流血和冰冻。"
-id = "kerberos-claws-e7f61ea1"
+id = "kerberos-claws-81b67c8d"
 language = "zh-hans"
 name = "刻耳柏洛斯之爪"
 
@@ -17890,6 +17923,13 @@ description = "展现玛查工艺之秘的卷轴。能提升魔攻和魔力值�
 id = "machas-scroll"
 language = "zh-hans"
 name = "玛查卷轴"
+
+[entries."items/magenta-spelunking-torch"]
+category = "items"
+description = "A torch carried by a great Spelunker. Using this item will increase rewards earned when completing dungeons for 6 hours."
+id = "magenta-spelunking-torch"
+language = "zh-hans"
+name = "Magenta Spelunking Torch"
 
 [entries."items/mages-boots"]
 category = "items"
@@ -19767,6 +19807,13 @@ id = "poison-dagger"
 language = "zh-hans"
 name = "毒匕首"
 
+[entries."items/poison-quill"]
+category = "items"
+description = "Aside: With the land constructed, Nature must come to be. Velue and Peluda extended their quills and shot them to the sky. As they fell, planted as trees, these quills became."
+id = "poison-quill"
+language = "zh-hans"
+name = "Poison Quill"
+
 [entries."items/polished-aegis"]
 category = "items"
 description = "珀尔修斯盾牌的仿制品，闻名的原版盾牌由雅典娜赠与。能够保护穿戴者免疫石化。"
@@ -19899,6 +19946,13 @@ description = "由芬尼斯剑道公会发行的代币，象征一人于公会�
 id = "proof-of-sparring"
 language = "zh-hans"
 name = "斗技之证"
+
+[entries."items/proof-of-spelunking"]
+category = "items"
+description = "A token issued by the Spelunking Guild to signify that one has completed a dungeon."
+id = "proof-of-spelunking"
+language = "zh-hans"
+name = "Proof of Spelunking"
 
 [entries."items/proof-of-torment"]
 category = "items"
@@ -21887,13 +21941,6 @@ id = "spellswords-ring"
 language = "zh-hans"
 name = "魔剑士之戒"
 
-[entries."items/spelunkers-torch"]
-category = "items"
-description = "伟大探窟者所携带的火炬。使用该物品能在 6 小时内提升攻略战斗型地牢获得的奖励。"
-id = "spelunkers-torch"
-language = "zh-hans"
-name = "探险家的火炬"
-
 [entries."items/spelunking-staff"]
 category = "items"
 description = "迷失在地牢的探险者所持有的法杖。似乎长眠于地底之时获得更加强大的力量。"
@@ -23623,6 +23670,13 @@ id = "wristwatch"
 language = "zh-hans"
 name = "腕表"
 
+[entries."items/wyrmquill-ballista"]
+category = "items"
+description = "Aside: With the land constructed, Nature must come to be. Velue and Peluda extended their quills and shot them to the sky. As they fell, planted as trees, these quills became."
+id = "wyrmquill-ballista"
+language = "zh-hans"
+name = "Wyrmquill Ballista"
+
 [entries."items/wyvern-armor"]
 category = "items"
 description = "由飞龙皮所制成的独特胸甲。"
@@ -23825,6 +23879,13 @@ description = "叶尔贝根，是由德肯尼亚族利用远古巨龙残骸制�
 id = "yelmogus-cowl"
 language = "zh-hans"
 name = "叶尔贝根风帽"
+
+[entries."items/yelmogus-crucible"]
+category = "items"
+description = "A crucible holding the remains of Yelbeghen. Use it upon an Anguished item to receive a bonus unique to this item."
+id = "yelmogus-crucible"
+language = "zh-hans"
+name = "Yelmogus Crucible"
 
 [entries."items/yelmogus-cuirass"]
 category = "items"
@@ -32248,6 +32309,13 @@ id = "poison"
 language = "zh-hans"
 name = "下毒"
 
+[entries."spells/poison-quillstorm"]
+category = "spells"
+description = "Bombard all opponents with poison quills."
+id = "poison-quillstorm"
+language = "zh-hans"
+name = "Poison Quillstorm"
+
 [entries."spells/poison-volley"]
 category = "spells"
 description = "攻击三次并有机率使对手中毒。"
@@ -33849,6 +33917,13 @@ id = "summon-oslo"
 language = "zh-hans"
 name = "奥斯陆召唤"
 
+[entries."spells/summon-peluda-poison-quilled"]
+category = "spells"
+description = "召唤一只野兽来协助你。在战斗中需要 3 回合发动。"
+id = "summon-peluda-poison-quilled"
+language = "zh-hans"
+name = "Summon Peluda, Poison Quilled"
+
 [entries."spells/summon-phaethon"]
 category = "spells"
 description = "召唤一只强大的野兽来协助你。在战斗中需要 2 回合发动。"
@@ -35264,7 +35339,6 @@ dragon_damage = "龙属性伤害"
 dullahan_s_pursuit = "杜拉罕的追击"
 dungeon_cooldown = "地牢冷却时间"
 dungeon_horde_bonus = "地牢浪潮加成"
-dungeon_rewards = "地牢奖励"
 earthen_damage = "地属性伤害"
 earthen_res = "地属性抗性"
 effect_chance = "额外状态机率"
@@ -35272,6 +35346,7 @@ effect_damage = "状态效果伤害"
 elemental_damage_taken = "元素承伤"
 elemental_immunity_damage = "元素免疫伤害"
 elemental_weaknesses = "元素弱点"
+end_of_dungeon_rewards = "End of Dungeon Rewards"
 event_encounters = "活动遇怪"
 exp_bonus = "经验加成"
 exp_walk = "经验之步"
@@ -35296,6 +35371,7 @@ gifts = "礼物"
 gives = "赋予"
 godforge_chance = "神赐机率"
 gold_bonus = "金币加成"
+guild_proof_bonus = "公会之证加成"
 heal_rate = "治愈机率"
 healing = "治疗效果"
 holy_damage = "光属性伤害"
@@ -35444,6 +35520,7 @@ lightning_sigil_ = "雷之印记+"
 mend_wall_ii = "补墙术 II"
 natura_ii = "天然魔法 II"
 physical = "物理"
+poison_quillstorm = "Poison Quillstorm"
 ponder = "沉思术"
 pumpkin_gaze = "南瓜凝视"
 rainsong = "雨歌"
@@ -35464,6 +35541,8 @@ wildfire_ii = "野火 II"
 winter_wind_ii = "冬风 II"
 
 [msg.status]
+_pvp___bonded_defense = "(PvP): 物防羁绊"
+_pvp___bonded_resistance = "(PvP): 魔防羁绊"
 aegir = "埃吉尔"
 alfar = "古精灵"
 alfar_mage = "古精灵法师"
@@ -35652,6 +35731,7 @@ ophion_of_olympia = "奥林匹亚之俄菲翁"
 ortanite_golem = "欧坦尼魔像"
 oslo = "奥斯陆"
 paralyzed = "麻痹"
+"peluda,_poison_quilled" = "Peluda, Poison Quilled"
 petrified = "石化"
 phaethon = "法厄同"
 phoenix_s_pledge = "凤凰誓约"

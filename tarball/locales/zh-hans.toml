@@ -2151,7 +2151,7 @@ name = "半兽人领主"
 category = "bosses"
 id = "peluda-poison-quilled"
 language = "zh-hans"
-name = "Peluda, Poison Quilled"
+name = "毒刺之佩鲁达"
 
 [entries."bosses/pollux"]
 category = "bosses"
@@ -2451,7 +2451,7 @@ name = "吸血鬼领主"
 category = "bosses"
 id = "velue"
 language = "zh-hans"
-name = "Velue"
+name = "维鲁"
 
 [entries."bosses/vritra-the-steadfast"]
 category = "bosses"
@@ -4531,7 +4531,7 @@ category = "followers"
 description = "期间限定。远古巨龙能使用诸多技能。"
 id = "peluda-poison-quilled"
 language = "zh-hans"
-name = "Peluda, Poison Quilled"
+name = "毒刺之佩鲁达"
 
 [entries."followers/phoenix"]
 category = "followers"
@@ -4923,7 +4923,7 @@ category = "followers"
 description = "期间限定。远古巨龙能使用诸多技能。"
 id = "velue"
 language = "zh-hans"
-name = "Velue"
+name = "维鲁"
 
 [entries."followers/very-scary-skeleton"]
 category = "followers"
@@ -12287,7 +12287,7 @@ category = "items"
 description = "远古巨龙之首，能在猎龙活动期间于纪念碑公会打造物品。"
 id = "dragon-head"
 language = "zh-hans"
-name = "Dragon Head"
+name = "龙首"
 
 [entries."items/dragon-remains"]
 category = "items"
@@ -17926,10 +17926,10 @@ name = "玛查卷轴"
 
 [entries."items/magenta-spelunking-torch"]
 category = "items"
-description = "A torch carried by a great Spelunker. Using this item will increase rewards earned when completing dungeons for 6 hours."
+description = "伟大探窟者所携带的火炬。使用该物品能在 6 小时内提升攻略地牢获得的奖励。"
 id = "magenta-spelunking-torch"
 language = "zh-hans"
-name = "Magenta Spelunking Torch"
+name = "品红探窟者火炬"
 
 [entries."items/mages-boots"]
 category = "items"
@@ -19809,10 +19809,10 @@ name = "毒匕首"
 
 [entries."items/poison-quill"]
 category = "items"
-description = "Aside: With the land constructed, Nature must come to be. Velue and Peluda extended their quills and shot them to the sky. As they fell, planted as trees, these quills became."
+description = "旁白: 在大地形成后，自然亦随之而至。维鲁与佩鲁达伸展棘刺朝天空射去。落下棘刺之处，皆化作茂密森林。"
 id = "poison-quill"
 language = "zh-hans"
-name = "Poison Quill"
+name = "毒刺"
 
 [entries."items/polished-aegis"]
 category = "items"
@@ -19949,10 +19949,10 @@ name = "斗技之证"
 
 [entries."items/proof-of-spelunking"]
 category = "items"
-description = "A token issued by the Spelunking Guild to signify that one has completed a dungeon."
+description = "由探窟者公会发行的代币，代表一人已攻略完成地牢。"
 id = "proof-of-spelunking"
 language = "zh-hans"
-name = "Proof of Spelunking"
+name = "探窟者之证"
 
 [entries."items/proof-of-torment"]
 category = "items"
@@ -22373,7 +22373,7 @@ category = "items"
 description = "提升视野的药水。喝下它能在 1 小时内提升视野范围。"
 id = "super-farsight"
 language = "zh-hans"
-name = "Super Farsight"
+name = "超级远见"
 
 [entries."items/super-health-potion"]
 category = "items"
@@ -23672,10 +23672,10 @@ name = "腕表"
 
 [entries."items/wyrmquill-ballista"]
 category = "items"
-description = "Aside: With the land constructed, Nature must come to be. Velue and Peluda extended their quills and shot them to the sky. As they fell, planted as trees, these quills became."
+description = "旁白: 在大地形成后，自然亦随之而至。维鲁与佩鲁达伸展棘刺朝天空射去。落下棘刺之处，皆化作茂密森林。"
 id = "wyrmquill-ballista"
 language = "zh-hans"
-name = "Wyrmquill Ballista"
+name = "龙羽弩炮"
 
 [entries."items/wyvern-armor"]
 category = "items"
@@ -23882,10 +23882,10 @@ name = "叶尔贝根风帽"
 
 [entries."items/yelmogus-crucible"]
 category = "items"
-description = "A crucible holding the remains of Yelbeghen. Use it upon an Anguished item to receive a bonus unique to this item."
+description = "盛放叶尔贝根遗物的坩埚。对苦难物品使用会获得独特的加成。"
 id = "yelmogus-crucible"
 language = "zh-hans"
-name = "Yelmogus Crucible"
+name = "叶尔贝根坩埚"
 
 [entries."items/yelmogus-cuirass"]
 category = "items"
@@ -32311,10 +32311,10 @@ name = "下毒"
 
 [entries."spells/poison-quillstorm"]
 category = "spells"
-description = "Bombard all opponents with poison quills."
+description = "用毒刺轰击所有对手。"
 id = "poison-quillstorm"
 language = "zh-hans"
-name = "Poison Quillstorm"
+name = "毒刺风暴"
 
 [entries."spells/poison-volley"]
 category = "spells"
@@ -33922,7 +33922,7 @@ category = "spells"
 description = "召唤一只野兽来协助你。在战斗中需要 3 回合发动。"
 id = "summon-peluda-poison-quilled"
 language = "zh-hans"
-name = "Summon Peluda, Poison Quilled"
+name = "毒刺之佩鲁达召唤"
 
 [entries."spells/summon-phaethon"]
 category = "spells"
@@ -35346,7 +35346,7 @@ effect_damage = "状态效果伤害"
 elemental_damage_taken = "元素承伤"
 elemental_immunity_damage = "元素免疫伤害"
 elemental_weaknesses = "元素弱点"
-end_of_dungeon_rewards = "End of Dungeon Rewards"
+end_of_dungeon_rewards = "地牢攻略奖励"
 event_encounters = "活动遇怪"
 exp_bonus = "经验加成"
 exp_walk = "经验之步"
@@ -35520,7 +35520,7 @@ lightning_sigil_ = "雷之印记+"
 mend_wall_ii = "补墙术 II"
 natura_ii = "天然魔法 II"
 physical = "物理"
-poison_quillstorm = "Poison Quillstorm"
+poison_quillstorm = "毒刺风暴"
 ponder = "沉思术"
 pumpkin_gaze = "南瓜凝视"
 rainsong = "雨歌"
@@ -35731,7 +35731,7 @@ ophion_of_olympia = "奥林匹亚之俄菲翁"
 ortanite_golem = "欧坦尼魔像"
 oslo = "奥斯陆"
 paralyzed = "麻痹"
-"peluda,_poison_quilled" = "Peluda, Poison Quilled"
+"peluda,_poison_quilled" = "毒刺之佩鲁达"
 petrified = "石化"
 phaethon = "法厄同"
 phoenix_s_pledge = "凤凰誓约"

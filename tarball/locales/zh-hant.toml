@@ -2151,7 +2151,7 @@ name = "半獸人君王"
 category = "bosses"
 id = "peluda-poison-quilled"
 language = "zh-hant"
-name = "Peluda, Poison Quilled"
+name = "惡毒羽暴之佩魯達"
 
 [entries."bosses/pollux"]
 category = "bosses"
@@ -2451,7 +2451,7 @@ name = "吸血鬼領主"
 category = "bosses"
 id = "velue"
 language = "zh-hant"
-name = "Velue"
+name = "毛毛怪"
 
 [entries."bosses/vritra-the-steadfast"]
 category = "bosses"
@@ -4531,7 +4531,7 @@ category = "followers"
 description = "遠古巨龍能使用諸多技能。限時特賣。"
 id = "peluda-poison-quilled"
 language = "zh-hant"
-name = "Peluda, Poison Quilled"
+name = "惡毒羽暴之佩魯達"
 
 [entries."followers/phoenix"]
 category = "followers"
@@ -4923,7 +4923,7 @@ category = "followers"
 description = "遠古巨龍能使用諸多技能。限時特賣。"
 id = "velue"
 language = "zh-hant"
-name = "Velue"
+name = "毛毛怪"
 
 [entries."followers/very-scary-skeleton"]
 category = "followers"
@@ -12287,7 +12287,7 @@ category = "items"
 description = "遠古巨龍的頭，龍狩祭期間可以在紀念碑公會用來打造物品。"
 id = "dragon-head"
 language = "zh-hant"
-name = "Dragon Head"
+name = "龍頭"
 
 [entries."items/dragon-remains"]
 category = "items"
@@ -17926,10 +17926,10 @@ name = "瑪查之卷軸"
 
 [entries."items/magenta-spelunking-torch"]
 category = "items"
-description = "A torch carried by a great Spelunker. Using this item will increase rewards earned when completing dungeons for 6 hours."
+description = "偉大挖穴人的火炬。使用此道具能在6小時內提升地城踏破獎勵。"
 id = "magenta-spelunking-torch"
 language = "zh-hant"
-name = "Magenta Spelunking Torch"
+name = "洋紅挖穴火炬"
 
 [entries."items/mages-boots"]
 category = "items"
@@ -19812,7 +19812,7 @@ category = "items"
 description = "Aside: With the land constructed, Nature must come to be. Velue and Peluda extended their quills and shot them to the sky. As they fell, planted as trees, these quills became."
 id = "poison-quill"
 language = "zh-hant"
-name = "Poison Quill"
+name = "惡毒刺刺"
 
 [entries."items/polished-aegis"]
 category = "items"
@@ -19949,10 +19949,10 @@ name = "決鬥之證"
 
 [entries."items/proof-of-spelunking"]
 category = "items"
-description = "A token issued by the Spelunking Guild to signify that one has completed a dungeon."
+description = "挖穴公會所發行認證踏破地城的硬幣。"
 id = "proof-of-spelunking"
 language = "zh-hant"
-name = "Proof of Spelunking"
+name = "挖穴之證"
 
 [entries."items/proof-of-torment"]
 category = "items"
@@ -22373,7 +22373,7 @@ category = "items"
 description = "讓雙眼目明的藥水。使用後會在1小時內提升視野。"
 id = "super-farsight"
 language = "zh-hant"
-name = "Super Farsight"
+name = "超級遠見"
 
 [entries."items/super-health-potion"]
 category = "items"
@@ -23675,7 +23675,7 @@ category = "items"
 description = "Aside: With the land constructed, Nature must come to be. Velue and Peluda extended their quills and shot them to the sky. As they fell, planted as trees, these quills became."
 id = "wyrmquill-ballista"
 language = "zh-hant"
-name = "Wyrmquill Ballista"
+name = "龍羽努砲"
 
 [entries."items/wyvern-armor"]
 category = "items"
@@ -23882,10 +23882,10 @@ name = "耶爾默古風帽"
 
 [entries."items/yelmogus-crucible"]
 category = "items"
-description = "A crucible holding the remains of Yelbeghen. Use it upon an Anguished item to receive a bonus unique to this item."
+description = "承載耶爾貝甘殘骸的坩堝。在煎熬裝備使用時能獲得獨特的加成。"
 id = "yelmogus-crucible"
 language = "zh-hant"
-name = "Yelmogus Crucible"
+name = "耶爾默古坩堝"
 
 [entries."items/yelmogus-cuirass"]
 category = "items"
@@ -32311,10 +32311,10 @@ name = "下毒"
 
 [entries."spells/poison-quillstorm"]
 category = "spells"
-description = "Bombard all opponents with poison quills."
+description = "用惡毒的羽毛席捲所有敵人。"
 id = "poison-quillstorm"
 language = "zh-hant"
-name = "Poison Quillstorm"
+name = "惡毒羽暴"
 
 [entries."spells/poison-volley"]
 category = "spells"
@@ -33922,7 +33922,7 @@ category = "spells"
 description = "召喚一隻野獸來協助你。召喚需要3回合。"
 id = "summon-peluda-poison-quilled"
 language = "zh-hant"
-name = "Summon Peluda, Poison Quilled"
+name = "召喚惡毒羽刺之佩魯達"
 
 [entries."spells/summon-phaethon"]
 category = "spells"
@@ -35352,7 +35352,7 @@ effect_damage = "狀態傷害"
 elemental_damage_taken = "元素傷害承受度"
 elemental_immunity_damage = "元素免疫傷害"
 elemental_weaknesses = "元素弱點"
-end_of_dungeon_rewards = "End of Dungeon Rewards"
+end_of_dungeon_rewards = "踏破地城獎勵"
 event_encounters = "活動怪遭遇"
 exp_bonus = "經驗加成"
 exp_walk = "經驗之步"
@@ -35524,7 +35524,7 @@ level_2 = "等級 2"
 level_3 = "等級 3"
 lightning = "雷"
 physical = "物理"
-poison_quillstorm = "Poison Quillstorm"
+poison_quillstorm = "惡毒羽暴"
 ponder = "沉思術"
 pumpkin_gaze = "南瓜凝視"
 rainsong = "雨之歌"
@@ -35732,7 +35732,7 @@ ophion_of_olympia = "奧林匹亞的俄菲翁"
 ortanite_golem = "歐坦尼魔像"
 oslo = "奧斯陸"
 paralyzed = "麻痺"
-"peluda,_poison_quilled" = "Peluda, Poison Quilled"
+"peluda,_poison_quilled" = "惡毒羽暴之佩魯達"
 petrified = "石化"
 phaethon = "法厄同"
 phoenix_s_pledge = "鳳凰之誓"

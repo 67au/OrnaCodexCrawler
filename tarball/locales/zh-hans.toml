@@ -3714,13 +3714,6 @@ id = "death-worm"
 language = "zh-hans"
 name = "死亡蠕虫"
 
-[entries."followers/demeters-lotan"]
-category = "followers"
-description = "期间限定。远古巨龙能使用诸多技能。"
-id = "demeters-lotan"
-language = "zh-hans"
-name = "狄蜜特之罗坍"
-
 [entries."followers/dire-wolf"]
 category = "followers"
 description = "被驯服的野狼。在战斗中能使用提升攻击和敏捷的技能帮助你。"
@@ -3762,6 +3755,20 @@ description = "旅行者最好的朋友。"
 id = "dog"
 language = "zh-hans"
 name = "狗狗"
+
+[entries."followers/draconian-gorynych"]
+category = "followers"
+description = "期间限定。远古巨龙能使用诸多技能。"
+id = "draconian-gorynych"
+language = "zh-hans"
+name = "Draconian Gorynych"
+
+[entries."followers/draconian-lotan"]
+category = "followers"
+description = "期间限定。远古巨龙能使用诸多技能。"
+id = "draconian-lotan"
+language = "zh-hans"
+name = "Draconian Lotan"
 
 [entries."followers/drake"]
 category = "followers"
@@ -4238,6 +4245,13 @@ description = "被驯服的小恶魔。有时候会提升你的攻击力。"
 id = "imp"
 language = "zh-hans"
 name = "小恶魔"
+
+[entries."followers/jimothy-the-steadfast"]
+category = "followers"
+description = "期间限定。远古巨龙能使用诸多技能。"
+id = "jimothy-the-steadfast"
+language = "zh-hans"
+name = "Jimothy the Steadfast"
 
 [entries."followers/kady"]
 category = "followers"
@@ -15231,7 +15245,7 @@ name = "完美的熊皮肩"
 
 [entries."items/great-dowsing-rod"]
 category = "items"
-description = "为探寻稀罕之物的专业器具。在 6 小时内大幅提升物品发现机率。"
+description = "A strange apparatus suitable for finding that which cannot be easily found. This item brings your luck bonus to its max for 6 hours."
 id = "great-dowsing-rod"
 language = "zh-hans"
 name = "强化探测棒"
@@ -23675,7 +23689,7 @@ category = "items"
 description = "旁白: 在大地形成后，自然亦随之而至。维鲁与佩鲁达伸展棘刺朝天空射去。落下棘刺之处，皆化作茂密森林。"
 id = "wyrmquill-ballista"
 language = "zh-hans"
-name = "龙羽弩炮"
+name = "龙刺弩炮"
 
 [entries."items/wyvern-armor"]
 category = "items"

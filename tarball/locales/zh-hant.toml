@@ -3714,13 +3714,6 @@ id = "death-worm"
 language = "zh-hant"
 name = "死蟲"
 
-[entries."followers/demeters-lotan"]
-category = "followers"
-description = "遠古巨龍能使用諸多技能。限時特賣。"
-id = "demeters-lotan"
-language = "zh-hant"
-name = "狄蜜特的羅坍"
-
 [entries."followers/dire-wolf"]
 category = "followers"
 description = "被馴服的野狼.能用攻擊和提升敏捷的技能幫助你."
@@ -3762,6 +3755,20 @@ description = "旅者的最佳良伴."
 id = "dog"
 language = "zh-hant"
 name = "狗狗"
+
+[entries."followers/draconian-gorynych"]
+category = "followers"
+description = "遠古巨龍能使用諸多技能。限時特賣。"
+id = "draconian-gorynych"
+language = "zh-hant"
+name = "德肯尼亞族戈里尼奇"
+
+[entries."followers/draconian-lotan"]
+category = "followers"
+description = "遠古巨龍能使用諸多技能。限時特賣。"
+id = "draconian-lotan"
+language = "zh-hant"
+name = "德肯尼亞族羅坍"
 
 [entries."followers/drake"]
 category = "followers"
@@ -4238,6 +4245,13 @@ description = "被馴服的小惡魔.有時候會提升你的攻擊力."
 id = "imp"
 language = "zh-hant"
 name = "小惡魔"
+
+[entries."followers/jimothy-the-steadfast"]
+category = "followers"
+description = "遠古巨龍能使用諸多技能。限時特賣。"
+id = "jimothy-the-steadfast"
+language = "zh-hant"
+name = "堅毅的浣熊提莫西"
 
 [entries."followers/kady"]
 category = "followers"
@@ -15231,7 +15245,7 @@ name = "完美的熊皮肩"
 
 [entries."items/great-dowsing-rod"]
 category = "items"
-description = "適合尋找罕見物品的奇妙的探測儀器。6小時內大幅提升發現物品的機率。"
+description = "專門來探尋隱密之事的奇妙裝置。這道具能在6小時內把你的幸運加成拉到最高。"
 id = "great-dowsing-rod"
 language = "zh-hant"
 name = "大根探測棒"

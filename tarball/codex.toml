@@ -6059,21 +6059,6 @@ attack_rate = 2
 buff_rate = 30
 spell_rate = 5
 
-[entries."followers/demeters-lotan"]
-bestial_bond = [[{name = "lightning_res", value = 20, type = "BONUS"}], [{name = "bonded_attack", value = 10, type = "BOND"}, {name = "bonded_magic", value = 10, type = "BOND"}], [{name = "bonded_attack", value = 10, type = "BOND"}, {name = "bonded_magic", value = 10, type = "BOND"}]]
-category = "followers"
-events = ["wyrmhunt"]
-family = "dragons"
-icon = "/img/followers/lotan.png"
-id = "demeters-lotan"
-rarity = "steward"
-skills = ["spells/blightstrike", "spells/tremor-iii", "spells/drakeblight", "spells/earthblight", "spells/multi-tremor"]
-tier = 5
-
-[entries."followers/demeters-lotan".stats]
-debuff_rate = 15
-spell_rate = 15
-
 [entries."followers/dire-wolf"]
 bestial_bond = [[{name = "accuracy", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 12, type = "BOND"}, {name = "bonded_dexterity", value = 7, type = "BOND"}], [{name = "bonded_attack", value = 12, type = "BOND"}, {name = "bonded_dexterity", value = 15, type = "BOND"}]]
 category = "followers"
@@ -6167,6 +6152,38 @@ tier = 1
 attack_rate = 50
 heal_rate = 4
 spell_rate = 20
+
+[entries."followers/draconian-gorynych"]
+bestial_bond = [[{name = "dragon_damage", value = 20, type = "BONUS"}], [{name = "bonded_attack", value = 10, type = "BOND"}, {name = "bonded_magic", value = 10, type = "BOND"}], [{name = "bonded_attack", value = 10, type = "BOND"}, {name = "bonded_magic", value = 10, type = "BOND"}]]
+category = "followers"
+events = ["wyrmhunt"]
+family = "dragons"
+icon = "/img/followers/gorynych.png"
+id = "draconian-gorynych"
+rarity = "steward"
+skills = ["spells/darkblight", "spells/holyblight", "spells/divine-bastion", "spells/loststrike", "spells/sacrestrike", "spells/transference-iii"]
+tier = 10
+
+[entries."followers/draconian-gorynych".stats]
+attack_rate = 8
+buff_rate = 3
+debuff_rate = 6
+spell_rate = 8
+
+[entries."followers/draconian-lotan"]
+bestial_bond = [[{name = "lightning_res", value = 20, type = "BONUS"}], [{name = "bonded_attack", value = 10, type = "BOND"}, {name = "bonded_magic", value = 10, type = "BOND"}], [{name = "bonded_attack", value = 10, type = "BOND"}, {name = "bonded_magic", value = 10, type = "BOND"}]]
+category = "followers"
+events = ["wyrmhunt"]
+family = "dragons"
+icon = "/img/followers/lotan.png"
+id = "draconian-lotan"
+rarity = "steward"
+skills = ["spells/blightstrike", "spells/tremor-iii", "spells/drakeblight", "spells/earthblight", "spells/multi-tremor"]
+tier = 5
+
+[entries."followers/draconian-lotan".stats]
+debuff_rate = 15
+spell_rate = 15
 
 [entries."followers/drake"]
 bestial_bond = [[{name = "lightning_res", value = 20, type = "BONUS"}], [{name = "bonded_attack", value = 10, type = "BOND"}, {name = "bonded_magic", value = 10, type = "BOND"}], [{name = "bonded_attack", value = 10, type = "BOND"}, {name = "bonded_magic", value = 10, type = "BOND"}]]
@@ -7182,6 +7199,21 @@ tier = 3
 [entries."followers/imp".stats]
 attack_rate = 10
 buff_rate = 25
+
+[entries."followers/jimothy-the-steadfast"]
+bestial_bond = [[{name = "dragon_damage", value = 20, type = "BONUS"}], [{name = "bonded_attack", value = 10, type = "BOND"}, {name = "bonded_magic", value = 10, type = "BOND"}], [{name = "bonded_attack", value = 10, type = "BOND"}, {name = "bonded_magic", value = 10, type = "BOND"}]]
+category = "followers"
+events = ["wyrmhunt"]
+family = "dragons"
+icon = "/img/followers/jimothy.png"
+id = "jimothy-the-steadfast"
+rarity = "steward"
+skills = ["spells/sleep", "spells/darkstrike-ii", "spells/darkblight", "spells/drakeblight", "spells/blightstrike-ii"]
+tier = 6
+
+[entries."followers/jimothy-the-steadfast".stats]
+debuff_rate = 8
+spell_rate = 15
 
 [entries."followers/kady"]
 bestial_bond = [[{name = "accuracy", value = 7, type = "BONUS"}], [{name = "bonded_attack", value = 12, type = "BOND"}, {name = "bonded_dexterity", value = 7, type = "BOND"}], [{name = "bonded_attack", value = 12, type = "BOND"}, {name = "bonded_dexterity", value = 15, type = "BOND"}]]
@@ -70328,12 +70360,17 @@ useable_by = "thief_classes"
 chance = 5
 name = "drakeblight"
 
+[[entries."items/wyrmquill-ballista".gives]]
+chance = 5
+name = "dmg_u"
+
 [entries."items/wyrmquill-ballista".stats]
 adornment_slots = 4
-attack = 260
+attack = 295
 avidity = 5
 dexterity = 80
-magic = 260
+dragon_damage = 10
+magic = 150
 mana = 110
 status_protection = 5
 turn_reduction = 25
@@ -71124,7 +71161,7 @@ ward = 1
 aura = "legendary"
 category = "items"
 dropped_by = ["bosses/yelbeghen"]
-exotic = 0
+exotic = 1
 icon = "/img/useables/yelmogus_crucible.png"
 id = "yelmogus-crucible"
 item_type = "field"
@@ -71270,10 +71307,11 @@ useable_by = "warrior_classes"
 [entries."items/yelmogus-greatsword".stats]
 adornment_slots = 11
 attack = 290
+crit_damage = 5
 exp_bonus = 3
-frenzy = 15
 gold_bonus = 5
 memory_hunting_rewards = 5
+multi_target_damage = 5
 orn_bonus = 5
 quest_rewards = 5
 two_handed = true
@@ -71658,7 +71696,7 @@ resistance = 160
 aura = "legendary"
 category = "items"
 dropped_by = ["raids/yggdrasil"]
-exotic = 0
+exotic = 1
 icon = "/img/useables/yggdrasil_crucible.png"
 id = "yggdrasil-crucible"
 item_type = "field"
@@ -81090,7 +81128,7 @@ learned_by = ["classes/98", "classes/23"]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 4
-used_by = ["bosses/draugr-lord", "bosses/giant-basilisk", "bosses/giant-red-basilisk", "bosses/great-odok", "bosses/griffin", "bosses/lotan-coiled-one", "followers/aaru-cobra", "followers/charmed-mamba", "followers/demeters-lotan", "followers/lotan-coiled-one", "monsters/aaru-cobra", "monsters/basilisk", "monsters/green-tatzelwurm", "monsters/orichalcum-golem", "monsters/orichalcum-knight", "monsters/red-basilisk", "monsters/red-tatzelwurm", "monsters/rotten-slime", "monsters/stray-tatzelwurm", "monsters/swordbearer-of-finesse-3574bce3", "monsters/woodland-elf", "raids/dracon", "raids/orochi"]
+used_by = ["bosses/draugr-lord", "bosses/giant-basilisk", "bosses/giant-red-basilisk", "bosses/great-odok", "bosses/griffin", "bosses/lotan-coiled-one", "followers/aaru-cobra", "followers/charmed-mamba", "followers/draconian-lotan", "followers/lotan-coiled-one", "monsters/aaru-cobra", "monsters/basilisk", "monsters/green-tatzelwurm", "monsters/orichalcum-golem", "monsters/orichalcum-knight", "monsters/red-basilisk", "monsters/red-tatzelwurm", "monsters/rotten-slime", "monsters/stray-tatzelwurm", "monsters/swordbearer-of-finesse-3574bce3", "monsters/woodland-elf", "raids/dracon", "raids/orochi"]
 
 [[entries."spells/blightstrike".causes]]
 chance = 90
@@ -81129,7 +81167,7 @@ learned_by = ["classes/30"]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 7
-used_by = ["bosses/caoranach", "bosses/heimdall", "bosses/velue", "bosses/vritra-the-steadfast", "bosses/zaltys-friendly-one", "followers/griffin", "followers/naggeneen", "followers/vritra-the-steadfast", "followers/zaltys-friendly-one", "monsters/acolyte-of-the-great-dragons", "monsters/disciple-of-the-lost-arts-combined", "raids/arisen-kerberos", "raids/arisen-pumpkinhead", "raids/arisen-pumpkinless", "raids/kerberos", "raids/phoenix", "raids/pumpkinhead", "raids/pumpkinless"]
+used_by = ["bosses/caoranach", "bosses/heimdall", "bosses/velue", "bosses/vritra-the-steadfast", "bosses/zaltys-friendly-one", "followers/griffin", "followers/jimothy-the-steadfast", "followers/naggeneen", "followers/vritra-the-steadfast", "followers/zaltys-friendly-one", "monsters/acolyte-of-the-great-dragons", "monsters/disciple-of-the-lost-arts-combined", "raids/arisen-kerberos", "raids/arisen-pumpkinhead", "raids/arisen-pumpkinless", "raids/kerberos", "raids/phoenix", "raids/pumpkinhead", "raids/pumpkinless"]
 
 [[entries."spells/blightstrike-ii".causes]]
 chance = 90
@@ -82714,7 +82752,7 @@ id = "darkblight"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 6
-used_by = ["followers/gorynych-son-of-mountains", "followers/vritra-the-steadfast"]
+used_by = ["followers/draconian-gorynych", "followers/gorynych-son-of-mountains", "followers/jimothy-the-steadfast", "followers/vritra-the-steadfast"]
 
 [[entries."spells/darkblight".causes]]
 chance = 40
@@ -82767,7 +82805,7 @@ learned_by = ["classes/91", "classes/25"]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 5
-used_by = ["bosses/arisen-balor-king", "bosses/arisen-norn-uthr", "bosses/balor-king", "bosses/cavelord", "bosses/dokkalfar-lord", "bosses/mmmpizza", "bosses/racul", "bosses/shade-of-achlys-the-red-dagger-88eec645", "bosses/shadow-of-achlys-the-red-dagger", "followers/fafnir", "followers/vritra-the-steadfast", "followers/warg", "monsters/aries-zealot", "monsters/cerus-zealot", "monsters/dark-basilisk", "monsters/dark-dragon", "monsters/garm", "monsters/perseus-zealot", "monsters/shade-of-achlys-the-red-dagger", "monsters/swordbearer-of-finesse-3574bce3", "monsters/warg", "raids/apollyon", "raids/cerus", "raids/mmmpizza"]
+used_by = ["bosses/arisen-balor-king", "bosses/arisen-norn-uthr", "bosses/balor-king", "bosses/cavelord", "bosses/dokkalfar-lord", "bosses/mmmpizza", "bosses/racul", "bosses/shade-of-achlys-the-red-dagger-88eec645", "bosses/shadow-of-achlys-the-red-dagger", "followers/fafnir", "followers/jimothy-the-steadfast", "followers/vritra-the-steadfast", "followers/warg", "monsters/aries-zealot", "monsters/cerus-zealot", "monsters/dark-basilisk", "monsters/dark-dragon", "monsters/garm", "monsters/perseus-zealot", "monsters/shade-of-achlys-the-red-dagger", "monsters/swordbearer-of-finesse-3574bce3", "monsters/warg", "raids/apollyon", "raids/cerus", "raids/mmmpizza"]
 
 [[entries."spells/darkstrike-ii".causes]]
 chance = 15
@@ -83783,7 +83821,7 @@ learned_by = ["classes/36"]
 spell_type = "spell"
 targets = "yourself"
 tier = 8
-used_by = ["bosses/gorynych-son-of-mountains", "bosses/queen-of-dokkalfar", "bosses/ymir-amphiptere", "followers/bone-mammoth", "followers/gorynych-son-of-mountains", "followers/living-arch-armor", "followers/sif", "monsters/anteros-guard", "monsters/fallen-vanguard", "monsters/murk-066bec2c", "monsters/runeblade-of-finesse"]
+used_by = ["bosses/gorynych-son-of-mountains", "bosses/queen-of-dokkalfar", "bosses/ymir-amphiptere", "followers/bone-mammoth", "followers/draconian-gorynych", "followers/gorynych-son-of-mountains", "followers/living-arch-armor", "followers/sif", "monsters/anteros-guard", "monsters/fallen-vanguard", "monsters/murk-066bec2c", "monsters/runeblade-of-finesse"]
 
 [entries."spells/divine-bastion".stats]
 costs = 200
@@ -84116,7 +84154,7 @@ id = "drakeblight"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 6
-used_by = ["followers/agathodaemon", "followers/bashe-hungry-one", "followers/demeters-lotan", "followers/illuyanka-made-of-stone", "followers/lotan-coiled-one", "followers/vritra-the-steadfast"]
+used_by = ["followers/agathodaemon", "followers/bashe-hungry-one", "followers/draconian-lotan", "followers/illuyanka-made-of-stone", "followers/jimothy-the-steadfast", "followers/lotan-coiled-one", "followers/vritra-the-steadfast"]
 
 [[entries."spells/drakeblight".causes]]
 chance = 40
@@ -84226,7 +84264,7 @@ id = "earthblight"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 6
-used_by = ["followers/demeters-lotan", "followers/lotan-coiled-one", "followers/quetzalcoatl-feathered-one", "monsters/murk"]
+used_by = ["followers/draconian-lotan", "followers/lotan-coiled-one", "followers/quetzalcoatl-feathered-one", "monsters/murk"]
 
 [[entries."spells/earthblight".causes]]
 chance = 40
@@ -87451,7 +87489,7 @@ id = "holyblight"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 6
-used_by = ["followers/gorynych-son-of-mountains", "followers/zaltys-friendly-one"]
+used_by = ["followers/draconian-gorynych", "followers/gorynych-son-of-mountains", "followers/zaltys-friendly-one"]
 
 [[entries."spells/holyblight".causes]]
 chance = 40
@@ -88914,7 +88952,7 @@ learned_by = ["classes/58"]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 10
-used_by = ["followers/gorynych-son-of-mountains", "monsters/phaethon"]
+used_by = ["followers/draconian-gorynych", "followers/gorynych-son-of-mountains", "monsters/phaethon"]
 
 [[entries."spells/loststrike".causes]]
 chance = 5
@@ -90384,7 +90422,7 @@ learned_by = ["classes/88", "classes/27"]
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 6
-used_by = ["bosses/arisen-demeter-the-earth-magus", "bosses/cthulhu", "bosses/fallen-demeter-the-earth-magus", "bosses/hydra", "bosses/lotan-coiled-one", "followers/death-worm", "followers/demeters-lotan", "followers/lotan-coiled-one", "monsters/fallen-starseeker", "monsters/hydra-d754db90", "raids/arisen-fenja", "raids/fallen-king-arthus", "raids/fenja", "raids/menja", "raids/treeling-of-yggdrasil"]
+used_by = ["bosses/arisen-demeter-the-earth-magus", "bosses/cthulhu", "bosses/fallen-demeter-the-earth-magus", "bosses/hydra", "bosses/lotan-coiled-one", "followers/death-worm", "followers/draconian-lotan", "followers/lotan-coiled-one", "monsters/fallen-starseeker", "monsters/hydra-d754db90", "raids/arisen-fenja", "raids/fallen-king-arthus", "raids/fenja", "raids/menja", "raids/treeling-of-yggdrasil"]
 
 [[entries."spells/multi-tremor".causes]]
 chance = 20
@@ -91436,7 +91474,8 @@ chance = 100
 name = "drakeblight"
 
 [entries."spells/poison-quillstorm".stats]
-costs = 120
+costs = 80
+element = ["dragon"]
 power = "500-900 (x5)"
 
 [entries."spells/poison-volley"]
@@ -93137,7 +93176,7 @@ learned_by = ["classes/58"]
 spell_type = "skill"
 targets = "a_single_opponent"
 tier = 10
-used_by = ["followers/gorynych-son-of-mountains", "monsters/pegasus"]
+used_by = ["followers/draconian-gorynych", "followers/gorynych-son-of-mountains", "monsters/pegasus"]
 
 [[entries."spells/sacrestrike".causes]]
 chance = 20
@@ -93729,7 +93768,7 @@ id = "sleep"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 3
-used_by = ["bosses/carman-of-the-underworld", "bosses/great-odok", "bosses/oillipheist", "bosses/spooky-ghost", "bosses/terrifying-ghost", "bosses/vritra-the-steadfast", "followers/balor-worm", "followers/dark-dragon", "followers/gheist", "followers/ghost", "followers/greater-yokai", "followers/harpy", "followers/lily", "followers/sphinx-cub", "followers/spooky-ghost", "followers/vritra-the-steadfast", "followers/yokai", "monsters/gheist", "monsters/ghost", "monsters/greater-yokai", "monsters/lesser-sluagh", "monsters/midnight-gazer", "monsters/odok", "monsters/odok-brute", "monsters/onryo", "monsters/seer", "monsters/sphinx-cub", "monsters/yokai"]
+used_by = ["bosses/carman-of-the-underworld", "bosses/great-odok", "bosses/oillipheist", "bosses/spooky-ghost", "bosses/terrifying-ghost", "bosses/vritra-the-steadfast", "followers/balor-worm", "followers/dark-dragon", "followers/gheist", "followers/ghost", "followers/greater-yokai", "followers/harpy", "followers/jimothy-the-steadfast", "followers/lily", "followers/sphinx-cub", "followers/spooky-ghost", "followers/vritra-the-steadfast", "followers/yokai", "monsters/gheist", "monsters/ghost", "monsters/greater-yokai", "monsters/lesser-sluagh", "monsters/midnight-gazer", "monsters/odok", "monsters/odok-brute", "monsters/onryo", "monsters/seer", "monsters/sphinx-cub", "monsters/yokai"]
 
 [[entries."spells/sleep".causes]]
 chance = 50
@@ -97219,7 +97258,7 @@ spell_type = "spell"
 tags = ["found_in_arcanists"]
 targets = "a_single_opponent"
 tier = 10
-used_by = ["bosses/gorynych-son-of-mountains", "followers/arisen-stonewarg", "followers/arisen-stonewarg-f829d6e1", "followers/gorynych-son-of-mountains", "monsters/anteros-guard", "monsters/fey-stonewarg"]
+used_by = ["bosses/gorynych-son-of-mountains", "followers/arisen-stonewarg", "followers/arisen-stonewarg-f829d6e1", "followers/draconian-gorynych", "followers/gorynych-son-of-mountains", "monsters/anteros-guard", "monsters/fey-stonewarg"]
 
 [entries."spells/transference-iii".stats]
 costs = 220
@@ -97948,7 +97987,7 @@ id = "tremor-iii"
 spell_type = "spell"
 targets = "a_single_opponent"
 tier = 5
-used_by = ["bosses/arisen-demeter-the-earth-magus", "bosses/death-worm", "bosses/fallen-demeter-the-earth-magus", "bosses/hobgoblin-lord", "bosses/kin-of-kerberos-762be157", "bosses/lotan-coiled-one", "bosses/sumner-demeter", "followers/demeters-lotan", "followers/lotan-coiled-one", "monsters/beheaded-scholar", "monsters/high-draconian-mage", "monsters/lost-memory-567cc985", "raids/orochi", "raids/tatzelwurms", "raids/young-apollyon"]
+used_by = ["bosses/arisen-demeter-the-earth-magus", "bosses/death-worm", "bosses/fallen-demeter-the-earth-magus", "bosses/hobgoblin-lord", "bosses/kin-of-kerberos-762be157", "bosses/lotan-coiled-one", "bosses/sumner-demeter", "followers/draconian-lotan", "followers/lotan-coiled-one", "monsters/beheaded-scholar", "monsters/high-draconian-mage", "monsters/lost-memory-567cc985", "raids/orochi", "raids/tatzelwurms", "raids/young-apollyon"]
 
 [[entries."spells/tremor-iii".causes]]
 chance = 10

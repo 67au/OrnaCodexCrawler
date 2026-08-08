@@ -3714,13 +3714,6 @@ id = "death-worm"
 language = "en"
 name = "Death Worm"
 
-[entries."followers/demeters-lotan"]
-category = "followers"
-description = "The Great Dragons will bring many skills to battle. Available for a limited time only."
-id = "demeters-lotan"
-language = "en"
-name = "Demeter's Lotan"
-
 [entries."followers/dire-wolf"]
 category = "followers"
 description = "A tamed dire wolf. It can assist you in battle with attack and dexterity boosting skills."
@@ -3762,6 +3755,20 @@ description = "A traveler's best friend."
 id = "dog"
 language = "en"
 name = "Dog"
+
+[entries."followers/draconian-gorynych"]
+category = "followers"
+description = "The Great Dragons will bring many skills to battle. Available for a limited time only."
+id = "draconian-gorynych"
+language = "en"
+name = "Draconian Gorynych"
+
+[entries."followers/draconian-lotan"]
+category = "followers"
+description = "The Great Dragons will bring many skills to battle. Available for a limited time only."
+id = "draconian-lotan"
+language = "en"
+name = "Draconian Lotan"
 
 [entries."followers/drake"]
 category = "followers"
@@ -4238,6 +4245,13 @@ description = "A tamed imp. Will occasionally boost your attack."
 id = "imp"
 language = "en"
 name = "Imp"
+
+[entries."followers/jimothy-the-steadfast"]
+category = "followers"
+description = "The Great Dragons will bring many skills to battle. Available for a limited time only."
+id = "jimothy-the-steadfast"
+language = "en"
+name = "Jimothy the Steadfast"
 
 [entries."followers/kady"]
 category = "followers"
@@ -15231,7 +15245,7 @@ name = "Great Bearskin"
 
 [entries."items/great-dowsing-rod"]
 category = "items"
-description = "A strange apparatus suitable for finding that which cannot be easily found. Greatly boosts item and discovery rate for 6 hours."
+description = "A strange apparatus suitable for finding that which cannot be easily found. This item brings your luck bonus to its max for 6 hours."
 id = "great-dowsing-rod"
 language = "en"
 name = "Great Dowsing Rod"

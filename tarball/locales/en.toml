@@ -4673,12 +4673,33 @@ id = "shade-of-achlys-the-red-dagger"
 language = "en"
 name = "Shade of Achlys, the Red Dagger"
 
+[entries."followers/shade-of-achlys-the-red-dagger-a3add035"]
+category = "followers"
+description = "Available for a limited time only."
+id = "shade-of-achlys-the-red-dagger-a3add035"
+language = "en"
+name = "Shade of Achlys, the Red Dagger"
+
 [entries."followers/shade-of-rhada-the-great-shield"]
 category = "followers"
 description = "Available for a limited time only."
 id = "shade-of-rhada-the-great-shield"
 language = "en"
 name = "Shade of Rhada, the Great Shield"
+
+[entries."followers/shade-of-rhada-the-great-shield-be4e9c5a"]
+category = "followers"
+description = "Available for a limited time only."
+id = "shade-of-rhada-the-great-shield-be4e9c5a"
+language = "en"
+name = "Shade of Rhada, the Great Shield"
+
+[entries."followers/shade-of-zagreus"]
+category = "followers"
+description = "Available for a limited time only."
+id = "shade-of-zagreus"
+language = "en"
+name = "Shade of Zagreus"
 
 [entries."followers/shadow-of-achlys-the-red-dagger"]
 category = "followers"
@@ -10987,10 +11008,10 @@ id = "cursed-fomoria-plated-robe"
 language = "en"
 name = "Cursed Fomoria Plated Robe"
 
-[entries."items/cursed-fomoria-plated-robe-49122feb"]
+[entries."items/cursed-fomoria-plated-robe-5d09a4d7"]
 category = "items"
 description = "Mail of Fomor, Cursed King of Fomoria. This item grants a number of passive abilities known to be utilized by the Fomorian houses."
-id = "cursed-fomoria-plated-robe-49122feb"
+id = "cursed-fomoria-plated-robe-5d09a4d7"
 language = "en"
 name = "Cursed Fomoria Plated Robe"
 
@@ -11532,6 +11553,13 @@ description = "Armor of one of the Darkrift Council, fallen aides to Judge Zagre
 id = "darkrift-cowl"
 language = "en"
 name = "Darkrift Cowl"
+
+[entries."items/darkrift-crucible"]
+category = "items"
+description = "A crucible used to seal the Dark Rift. Use it upon an Anguished item to receive a bonus unique to this item."
+id = "darkrift-crucible"
+language = "en"
+name = "Darkrift Crucible"
 
 [entries."items/darkrift-dungeon-key"]
 category = "items"
@@ -16951,6 +16979,90 @@ id = "jotunheim-mnemonic"
 language = "en"
 name = "Jotunheim Mnemonic"
 
+[entries."items/judge-trifecta-armor"]
+category = "items"
+description = "Heavy armor of the Judge Trifecta Maximus. When wearing this armor, you will begin battle with both additional Ward turns and Ward absorption."
+id = "judge-trifecta-armor"
+language = "en"
+name = "Judge Trifecta Armor"
+
+[entries."items/judge-trifecta-boots"]
+category = "items"
+description = "Light armor of the Judge Trifecta Maximus. When wearing this armor, the maximum Avidity that one may possess is increased."
+id = "judge-trifecta-boots"
+language = "en"
+name = "Judge Trifecta Boots"
+
+[entries."items/judge-trifecta-chestplate"]
+category = "items"
+description = "Light armor of the Judge Trifecta Maximus. When wearing this armor, the maximum Avidity that one may possess is increased."
+id = "judge-trifecta-chestplate"
+language = "en"
+name = "Judge Trifecta Chestplate"
+
+[entries."items/judge-trifecta-falx"]
+category = "items"
+description = "A long, thin blade carried by the Judge Trifecta Maximus. When landing critical strikes with this sword, the chance of gaining an additional turn through Avidity is increased."
+id = "judge-trifecta-falx"
+language = "en"
+name = "Judge Trifecta Falx"
+
+[entries."items/judge-trifecta-greatsword"]
+category = "items"
+description = "Greatsword of the Judge Trifecta Maximus. When holding this sword and using skills that consume Ward, the chance and damage dealt of Collateral Damage will be increased."
+id = "judge-trifecta-greatsword"
+language = "en"
+name = "Judge Trifecta Greatsword"
+
+[entries."items/judge-trifecta-grimoire"]
+category = "items"
+description = "A massive tome carried by the Judge Trifecta Maximus. The tome grants one the ability to summon shades of the Judges into battle."
+id = "judge-trifecta-grimoire"
+language = "en"
+name = "Judge Trifecta Grimoire"
+
+[entries."items/judge-trifecta-headguard"]
+category = "items"
+description = "Light armor of the Judge Trifecta Maximus. The chance to automatically summon through Charon Ritual will be increased."
+id = "judge-trifecta-headguard"
+language = "en"
+name = "Judge Trifecta Headguard"
+
+[entries."items/judge-trifecta-helmet"]
+category = "items"
+description = "Heavy armor of the Judge Trifecta Maximus. When wearing this armor, you will begin battle with both additional Ward turns and Ward absorption."
+id = "judge-trifecta-helmet"
+language = "en"
+name = "Judge Trifecta Helmet"
+
+[entries."items/judge-trifecta-leggings"]
+category = "items"
+description = "Heavy armor of the Judge Trifecta Maximus. When wearing this armor, you will begin battle with both additional Ward turns and Ward absorption."
+id = "judge-trifecta-leggings"
+language = "en"
+name = "Judge Trifecta Leggings"
+
+[entries."items/judge-trifecta-legguards"]
+category = "items"
+description = "Light armor of the Judge Trifecta Maximus. The chance to automatically summon through Charon Ritual will be increased."
+id = "judge-trifecta-legguards"
+language = "en"
+name = "Judge Trifecta Legguards"
+
+[entries."items/judge-trifecta-robe"]
+category = "items"
+description = "Light armor of the Judge Trifecta Maximus. The chance to automatically summon through Charon Ritual will be increased."
+id = "judge-trifecta-robe"
+language = "en"
+name = "Judge Trifecta Robe"
+
+[entries."items/judge-trifecta-sallet"]
+category = "items"
+description = "Light armor of the Judge Trifecta Maximus. When wearing this armor, the maximum Avidity that one may possess is increased."
+id = "judge-trifecta-sallet"
+language = "en"
+name = "Judge Trifecta Sallet"
+
 [entries."items/kaladanda"]
 category = "items"
 description = "Staff of Mammon, the demon of hubris."
@@ -16972,10 +17084,10 @@ id = "kerberos-claws"
 language = "en"
 name = "Kerberos Claws"
 
-[entries."items/kerberos-claws-81b67c8d"]
+[entries."items/kerberos-claws-e7f61ea1"]
 category = "items"
 description = "Sharp, jagged blades forged of the mighty claws of Kerberos. They can cause an opponent to bleed or become frozen."
-id = "kerberos-claws-81b67c8d"
+id = "kerberos-claws-e7f61ea1"
 language = "en"
 name = "Kerberos Claws"
 
@@ -21171,6 +21283,13 @@ id = "scroll-of-rift-distortion"
 language = "en"
 name = "Scroll of Rift Distortion"
 
+[entries."items/scroll-of-the-judges-trifecta"]
+category = "items"
+description = "A scroll consisting of Elysian lore. Read this scroll to summon the Judge Trifecta Maximus super raid to your location."
+id = "scroll-of-the-judges-trifecta"
+language = "en"
+name = "Scroll of the Judges Trifecta"
+
 [entries."items/scroll-of-the-sapling"]
 category = "items"
 description = "A scroll consisting of the lore of the great Yggdrasil's saplings. Read this scroll to summon a Sapling of Yggdrasil to your location."
@@ -24106,21 +24225,21 @@ name = "Zagreus Bident"
 
 [entries."items/zagreus-chestplate"]
 category = "items"
-description = "Gear of Zagreus, fallen Judge of Elysium. Zagreus was once a Judge of Elysium, but fell within the Rift during Whiterift while flaunting his beastly antics. His followers followed him to the Underworld below."
+description = "Gear of Zagreus, fallen Judge of Elysium. Zagreus was once a Judge of Elysium, but was later banished to the Dark Rift. His followers followed him to the Underworld below."
 id = "zagreus-chestplate"
 language = "en"
 name = "Zagreus Chestplate"
 
 [entries."items/zagreus-headwrap"]
 category = "items"
-description = "Gear of Zagreus, fallen Judge of Elysium. Zagreus was once a Judge of Elysium, but fell within the Rift during Whiterift while flaunting his beastly antics. His followers followed him to the Underworld below."
+description = "Gear of Zagreus, fallen Judge of Elysium. Zagreus was once a Judge of Elysium, but was later banished to the Dark Rift. His followers followed him to the Underworld below."
 id = "zagreus-headwrap"
 language = "en"
 name = "Zagreus Headwrap"
 
 [entries."items/zagreus-legwraps"]
 category = "items"
-description = "Gear of Zagreus, fallen Judge of Elysium. Zagreus was once a Judge of Elysium, but fell within the Rift during Whiterift while flaunting his beastly antics. His followers followed him to the Underworld below."
+description = "Gear of Zagreus, fallen Judge of Elysium. Zagreus was once a Judge of Elysium, but was later banished to the Dark Rift. His followers followed him to the Underworld below."
 id = "zagreus-legwraps"
 language = "en"
 name = "Zagreus Legwraps"
@@ -24257,6 +24376,13 @@ description = "Rare weapon, fallen from an Olympian."
 id = "zeta-olympia-warsword"
 language = "en"
 name = "Zeta Olympia Warsword"
+
+[entries."items/zeta-riftlock"]
+category = "items"
+description = "A strange Riftlock of unknown origin. When carrying this Riftlock in Anguished content, less Ascension Levels will be forfeited when applying Ascension Shackles. Additionally, Ascension Shackles will provide more rewards and proofs."
+id = "zeta-riftlock"
+language = "en"
+name = "Zeta Riftlock"
 
 [entries."monsters/aaru-cobra"]
 category = "monsters"
@@ -27765,6 +27891,13 @@ id = "jormungandr"
 language = "en"
 name = "Jormungandr"
 
+[entries."raids/judge-trifecta-maximus"]
+category = "raids"
+description = "Rhada, the Great Shield.\nAchlys, the Red Dagger.\nCharon, the Grand Summoner."
+id = "judge-trifecta-maximus"
+language = "en"
+name = "Judge Trifecta Maximus"
+
 [entries."raids/kerberos"]
 category = "raids"
 description = "Arisen from the deep depths of the underworld."
@@ -29387,6 +29520,20 @@ id = "darkblight-ii"
 language = "en"
 name = "Darkblight II"
 
+[entries."spells/darkrift-seal"]
+category = "spells"
+description = "Removes up to 3 negative status effects from the caster, increasing damage to all targets for each status effect removed."
+id = "darkrift-seal"
+language = "en"
+name = "Darkrift Seal"
+
+[entries."spells/darkrift-transference"]
+category = "spells"
+description = "Deals non-elemental magic damage and recovers Ward. This spell will use either your magic or attack stat, depending on which is greater."
+id = "darkrift-transference"
+language = "en"
+name = "Darkrift Transference"
+
 [entries."spells/darkstrike"]
 category = "spells"
 description = "Imbue your weapon with the occult and attack the enemy."
@@ -29407,6 +29554,13 @@ description = "Imbue your weapon with the occult and attack the enemy."
 id = "darkstrike-iii"
 language = "en"
 name = "Darkstrike III"
+
+[entries."spells/darkveil"]
+category = "spells"
+description = "Consume Ward and 50% of your current HP every turn to boost your Attack, Avidity rate, and dexterity for 5 turns."
+id = "darkveil"
+language = "en"
+name = "Darkveil"
 
 [entries."spells/decay"]
 category = "spells"
@@ -33854,6 +34008,20 @@ id = "summon-ice-disciple"
 language = "en"
 name = "Summon Ice Disciple"
 
+[entries."spells/summon-judges"]
+category = "spells"
+description = "Summon a beast to assist you. Requires 2 turns in battle."
+id = "summon-judges"
+language = "en"
+name = "Summon Judges"
+
+[entries."spells/summon-judges-2"]
+category = "spells"
+description = "Summon shades of Elysian Judges to assist you. Requires 2 turns in battle."
+id = "summon-judges-2"
+language = "en"
+name = "Summon Judges (Off-hand)"
+
 [entries."spells/summon-kelpie"]
 category = "spells"
 description = "Summon a beast to assist you. Requires 3 turns in battle."
@@ -35305,8 +35473,7 @@ apex_used_r_stats = "Apex Used → Stats"
 arcane_damage = "Arcane Damage"
 attack = "Attack"
 attack_rate = "Attack rate"
-auto_summon = "Auto Summon"
-avidity = "Avidity"
+avidity_chance = "Avidity Chance"
 battle_animation_time = "Battle Animation Time"
 berserk_encounters = "Berserk Encounters"
 bestial_bond = "Bestial Bond"
@@ -35314,11 +35481,13 @@ bestial_bond_level = "Bestial Bond"
 blacksmith_material_cost = "Blacksmith Material Cost"
 blacksmith_time = "Blacksmith Time"
 bloodflasks = "Bloodflasks"
+bonus_shackled_ascension_levels = "Bonus Shackled Ascension Levels"
 buff_duration = "Buff Duration"
 buff_rate = "Buff rate"
 cats = "Cats"
 causes = "Causes"
 chain_damage_chance = "Chain Damage Chance"
+charon_ritual_chance = "Charon Ritual Chance"
 collateral_chance = "Collateral Chance"
 collateral_damage = "Collateral Damage"
 collateral_damage_hp_recovery = "Collateral Damage HP Recovery"
@@ -35326,6 +35495,7 @@ costs = "Costs"
 counter_chance__pve_ = "Counter Chance (PvE)"
 counter_damage = "Counter Damage"
 crit = "Crit"
+crit_chain_r_avidity_chance = "Crit Chain → Avidity Chance"
 crit_chance = "Crit Chance"
 crit_chance_bonus = "Crit Chance"
 crit_damage = "Crit Damage"
@@ -35414,6 +35584,8 @@ mana_ward_recovery = "Mana-Ward Recovery"
 manaflask_charge = "Manaflask Charge"
 manaflask_power = "Manaflask Power"
 manaflasks = "Manaflasks"
+max_apex_charge = "Max Apex Charge"
+max_avidity = "Max Avidity"
 max_dodge_chance = "Max Dodge Chance"
 memory_hunting_rewards = "Memory Hunting Rewards"
 monster_encounters = "Monster Encounters"
@@ -35436,6 +35608,7 @@ sacrifice_effects = "Sacrifice Effects"
 second_chance = "Second Chance"
 self_damage_reduction = "Self Damage Reduction"
 settlement_area_defense = "Settlement/Area Defense"
+shackled_rewards = "Shackled Rewards"
 sigils = "Sigils"
 souls_collected_r_stats = "Souls Collected → Stats"
 spell_casting_damage = "Spell Casting Damage"
@@ -35446,7 +35619,7 @@ status_effect_chance = "Status Effect Chance"
 status_effect_duration = "Status Effect Duration"
 status_protection = "Status Protection"
 status_reflection = "Status Reflection"
-summon_pacts = "Summon Pacts"
+summon_pact_power = "Summon Pact Power"
 summon_protection = "Summon Protection"
 summon_spell_start = "Summon Spell Start"
 summon_stats = "Summon Stats"
@@ -35465,6 +35638,7 @@ ward = "Ward"
 ward_absorption = "Ward Absorption"
 ward_bypass = "Ward Bypass"
 ward_power = "Ward Power"
+ward_power_r_collateral_damage = "Ward Power → Collateral Damage"
 ward_recovery = "Ward Recovery"
 ward_recovery_turn = "Ward Recovery/Turn"
 ward_start = "Ward Start"
@@ -35629,6 +35803,7 @@ darkblight = "Darkblight"
 darkrift_counsel = "Darkrift Counsel"
 darkrift_counsel_a9018f38 = "Darkrift Counsel"
 darkrift_counsel_ebe4a9c6 = "Darkrift Counsel"
+darkveil = "Darkveil"
 def_d = "Def ↓"
 def_dd = "Def ↓↓"
 def_u = "Def ↑"
@@ -35769,6 +35944,8 @@ rot = "Rot"
 sandstone_golem = "Sandstone Golem"
 scarecrow = "Scarecrow"
 selene = "Selene"
+"shade_of_achlys,_the_red_dagger" = "Shade of Achlys, the Red Dagger"
+"shade_of_rhada,_the_great_shield" = "Shade of Rhada, the Great Shield"
 shadowveil = "Shadowveil"
 skadi_u = "Skadi ↑"
 skadi_uu = "Skadi ↑↑"

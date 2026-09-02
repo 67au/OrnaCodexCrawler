@@ -4673,12 +4673,33 @@ id = "shade-of-achlys-the-red-dagger"
 language = "zh-hant"
 name = "赤刃艾柯呂斯之影"
 
+[entries."followers/shade-of-achlys-the-red-dagger-a3add035"]
+category = "followers"
+description = "期間限定。"
+id = "shade-of-achlys-the-red-dagger-a3add035"
+language = "zh-hant"
+name = "赤刃艾柯呂斯之影"
+
 [entries."followers/shade-of-rhada-the-great-shield"]
 category = "followers"
 description = "期間限定。"
 id = "shade-of-rhada-the-great-shield"
 language = "zh-hant"
 name = "大盾拉達之影"
+
+[entries."followers/shade-of-rhada-the-great-shield-be4e9c5a"]
+category = "followers"
+description = "期間限定。"
+id = "shade-of-rhada-the-great-shield-be4e9c5a"
+language = "zh-hant"
+name = "大盾拉達之影"
+
+[entries."followers/shade-of-zagreus"]
+category = "followers"
+description = "期間限定。"
+id = "shade-of-zagreus"
+language = "zh-hant"
+name = "扎格柔斯之影"
 
 [entries."followers/shadow-of-achlys-the-red-dagger"]
 category = "followers"
@@ -10987,10 +11008,10 @@ id = "cursed-fomoria-plated-robe"
 language = "zh-hant"
 name = "受詛咒的弗摩爾族板甲袍"
 
-[entries."items/cursed-fomoria-plated-robe-49122feb"]
+[entries."items/cursed-fomoria-plated-robe-5d09a4d7"]
 category = "items"
 description = "弗摩爾鏈甲，受詛咒的弗摩爾王。這個物品能賦予數個已知被弗摩爾家族所使用的被動能力。"
-id = "cursed-fomoria-plated-robe-49122feb"
+id = "cursed-fomoria-plated-robe-5d09a4d7"
 language = "zh-hant"
 name = "受詛咒的弗摩爾族板甲袍"
 
@@ -11532,6 +11553,13 @@ description = "判官扎格柔斯在暗黑裂痕議會的助理之裝備。"
 id = "darkrift-cowl"
 language = "zh-hant"
 name = "暗黑裂痕風帽"
+
+[entries."items/darkrift-crucible"]
+category = "items"
+description = "封印暗黑裂痕的坩堝。使用在煎熬裝備可獲得獨特的加成。"
+id = "darkrift-crucible"
+language = "zh-hant"
+name = "暗黑裂痕坩堝"
 
 [entries."items/darkrift-dungeon-key"]
 category = "items"
@@ -16951,6 +16979,90 @@ id = "jotunheim-mnemonic"
 language = "zh-hant"
 name = "約頓海姆追憶"
 
+[entries."items/judge-trifecta-armor"]
+category = "items"
+description = "三位一體審判官究極體的重裝甲。若穿著它在戰鬥開始時會額外獲得護盾回合跟護盾吸收率。"
+id = "judge-trifecta-armor"
+language = "zh-hant"
+name = "三位一體審判官盔甲"
+
+[entries."items/judge-trifecta-boots"]
+category = "items"
+description = "三位一體審判官究極體的輕裝甲。穿著它的時候可以提高貪慾機率的上限。"
+id = "judge-trifecta-boots"
+language = "zh-hant"
+name = "三位一體審判官長靴"
+
+[entries."items/judge-trifecta-chestplate"]
+category = "items"
+description = "三位一體審判官究極體的輕裝甲。穿著它的時候可以提高貪慾機率的上限。"
+id = "judge-trifecta-chestplate"
+language = "zh-hant"
+name = "三位一體審判官胸甲"
+
+[entries."items/judge-trifecta-falx"]
+category = "items"
+description = "三位一體審判官究極體攜帶的薄刃。使用此劍砍出暴擊時會提升貪慾獲得額外回合的機率。"
+id = "judge-trifecta-falx"
+language = "zh-hant"
+name = "三位一體審判官鐮刀劍"
+
+[entries."items/judge-trifecta-greatsword"]
+category = "items"
+description = "三位一體審判官究極體的巨劍。拿著它使用消耗護盾的技能時可以提升間接傷害的機率跟傷害。"
+id = "judge-trifecta-greatsword"
+language = "zh-hant"
+name = "三位一體審判官巨劍"
+
+[entries."items/judge-trifecta-grimoire"]
+category = "items"
+description = "三位一體審判官究極體持有的巨擘法典。賦予使用者召喚審判官幻影的能力。"
+id = "judge-trifecta-grimoire"
+language = "zh-hant"
+name = "三位一體審判官魔法書"
+
+[entries."items/judge-trifecta-headguard"]
+category = "items"
+description = "三位一體審判官的輕裝甲。會提升凱倫秘儀自動召喚的機率。"
+id = "judge-trifecta-headguard"
+language = "zh-hant"
+name = "三位一體審判官頭具"
+
+[entries."items/judge-trifecta-helmet"]
+category = "items"
+description = "三位一體審判官究極體的重裝甲。若穿著它在戰鬥開始時會額外獲得護盾回合跟護盾吸收率。"
+id = "judge-trifecta-helmet"
+language = "zh-hant"
+name = "三位一體審判官頭盔"
+
+[entries."items/judge-trifecta-leggings"]
+category = "items"
+description = "三位一體審判官究極體的重裝甲。若穿著它在戰鬥開始時會額外獲得護盾回合跟護盾吸收率。"
+id = "judge-trifecta-leggings"
+language = "zh-hant"
+name = "三位一體審判官腿甲"
+
+[entries."items/judge-trifecta-legguards"]
+category = "items"
+description = "三位一體審判官的輕裝甲。會提升凱倫秘儀自動召喚的機率。"
+id = "judge-trifecta-legguards"
+language = "zh-hant"
+name = "三位一體審判官護腿"
+
+[entries."items/judge-trifecta-robe"]
+category = "items"
+description = "三位一體審判官的輕裝甲。會提升凱倫秘儀自動召喚的機率。"
+id = "judge-trifecta-robe"
+language = "zh-hant"
+name = "三位一體審判官長袍"
+
+[entries."items/judge-trifecta-sallet"]
+category = "items"
+description = "三位一體審判官究極體的輕裝甲。穿著它的時候可以提高貪慾機率的上限。"
+id = "judge-trifecta-sallet"
+language = "zh-hant"
+name = "三位一體審判官戰盔"
+
 [entries."items/kaladanda"]
 category = "items"
 description = "傲慢的惡魔-瑪門的法杖."
@@ -16972,10 +17084,10 @@ id = "kerberos-claws"
 language = "zh-hant"
 name = "刻耳柏洛斯之爪"
 
-[entries."items/kerberos-claws-81b67c8d"]
+[entries."items/kerberos-claws-e7f61ea1"]
 category = "items"
 description = "由刻耳柏洛斯那尖銳、強大、鋒利如刃的爪所製成。攻擊有機會造成流血及冰凍狀態。"
-id = "kerberos-claws-81b67c8d"
+id = "kerberos-claws-e7f61ea1"
 language = "zh-hant"
 name = "刻耳柏洛斯之爪"
 
@@ -21171,6 +21283,13 @@ id = "scroll-of-rift-distortion"
 language = "zh-hant"
 name = "裂痕扭曲卷軸"
 
+[entries."items/scroll-of-the-judges-trifecta"]
+category = "items"
+description = "記載淨土民情的卷軸。使用此卷軸可以召喚超級副本三位一體審判官究極體到你的所在地。"
+id = "scroll-of-the-judges-trifecta"
+language = "zh-hant"
+name = "三位一體審判官的卷軸"
+
 [entries."items/scroll-of-the-sapling"]
 category = "items"
 description = "記載著偉大世界樹幼樹傳說的卷軸。閱讀此卷軸將在你的位置召喚世界樹的幼樹。"
@@ -23689,7 +23808,7 @@ category = "items"
 description = "Aside: With the land constructed, Nature must come to be. Velue and Peluda extended their quills and shot them to the sky. As they fell, planted as trees, these quills became."
 id = "wyrmquill-ballista"
 language = "zh-hant"
-name = "龍羽努砲"
+name = "龍羽弩砲"
 
 [entries."items/wyvern-armor"]
 category = "items"
@@ -24106,21 +24225,21 @@ name = "扎格柔斯雙叉戟"
 
 [entries."items/zagreus-chestplate"]
 category = "items"
-description = "墮落淨土判官扎格柔斯的裝甲。曾為淨土審判官的他在純白裂痕中炫耀其野性舉止之際墮入裂隙。他的追隨者也隨之進入地下冥府。"
+description = "淨土墮落判官扎格柔斯的裝備。扎格柔斯曾是極樂淨土的審判官，但後來被流放至暗黑裂痕。他的跟隨者們也隨他一同前往了地下的冥府。"
 id = "zagreus-chestplate"
 language = "zh-hant"
 name = "扎格柔斯胸甲"
 
 [entries."items/zagreus-headwrap"]
 category = "items"
-description = "墮落淨土判官扎格柔斯的裝甲。曾為淨土審判官的他在純白裂痕中炫耀其野性舉止之際墮入裂隙。他的追隨者也隨之進入地下冥府。"
+description = "淨土墮落判官扎格柔斯的裝備。扎格柔斯曾是極樂淨土的審判官，但後來被流放至暗黑裂痕。他的跟隨者們也隨他一同前往了地下的冥府。"
 id = "zagreus-headwrap"
 language = "zh-hant"
 name = "扎格柔斯頭飾"
 
 [entries."items/zagreus-legwraps"]
 category = "items"
-description = "墮落淨土判官扎格柔斯的裝甲。曾為淨土審判官的他在純白裂痕中炫耀其野性舉止之際墮入裂隙。他的追隨者也隨之進入地下冥府。"
+description = "淨土墮落判官扎格柔斯的裝備。扎格柔斯曾是極樂淨土的審判官，但後來被流放至暗黑裂痕。他的跟隨者們也隨他一同前往了地下的冥府。"
 id = "zagreus-legwraps"
 language = "zh-hant"
 name = "扎格柔斯裹腿"
@@ -24257,6 +24376,13 @@ description = "從某個奧林匹亞人掉落的稀有武器。"
 id = "zeta-olympia-warsword"
 language = "zh-hant"
 name = "ζ梅爾丁戰刃"
+
+[entries."items/zeta-riftlock"]
+category = "items"
+description = "一個來歷不明的神奇裂痕封印。在挑戰煎熬內容時攜帶此裂痕封印，套上通天枷鎖所犧牲的通天等級將會減少。此外，通天枷鎖也將提供更多的獎勵與證明。"
+id = "zeta-riftlock"
+language = "zh-hant"
+name = "Z裂痕封印"
 
 [entries."monsters/aaru-cobra"]
 category = "monsters"
@@ -27765,6 +27891,13 @@ id = "jormungandr"
 language = "zh-hant"
 name = "耶夢加德"
 
+[entries."raids/judge-trifecta-maximus"]
+category = "raids"
+description = "大盾拉達。\n赤刃艾柯呂斯。\n冠位召喚師凱倫。"
+id = "judge-trifecta-maximus"
+language = "zh-hant"
+name = "三位一體審判官究極體"
+
 [entries."raids/kerberos"]
 category = "raids"
 description = "從冥府深淵重生."
@@ -29387,6 +29520,20 @@ id = "darkblight-ii"
 language = "zh-hant"
 name = "暗黑疫病 II"
 
+[entries."spells/darkrift-seal"]
+category = "spells"
+description = "移除施術者身上最多 3 個負面狀態，且每移除一個狀態，便會提升對所有目標造成的傷害。"
+id = "darkrift-seal"
+language = "zh-hant"
+name = "暗黑裂痕封印"
+
+[entries."spells/darkrift-transference"]
+category = "spells"
+description = "造成非元素傷害且恢復護盾值。此法術傷害取決於你物攻或魔攻較高的一方。"
+id = "darkrift-transference"
+language = "zh-hant"
+name = "暗黑裂痕轉移"
+
 [entries."spells/darkstrike"]
 category = "spells"
 description = "讓超自然的力量滲入你的武器並攻擊敵人。"
@@ -29407,6 +29554,13 @@ description = "讓超自然的力量滲入你的武器並攻擊敵人。"
 id = "darkstrike-iii"
 language = "zh-hant"
 name = "黑暗之擊 III"
+
+[entries."spells/darkveil"]
+category = "spells"
+description = "每回合消耗護盾與 50% 的當前 HP 來提升你的攻擊力、貪慾機率和敏捷，持續 5 回合。"
+id = "darkveil"
+language = "zh-hant"
+name = "暗隱"
 
 [entries."spells/decay"]
 category = "spells"
@@ -33854,6 +34008,20 @@ id = "summon-ice-disciple"
 language = "zh-hant"
 name = "召喚冰之信徒"
 
+[entries."spells/summon-judges"]
+category = "spells"
+description = "召喚一隻野獸來協助你。召喚需要2回合。"
+id = "summon-judges"
+language = "zh-hant"
+name = "召喚審判官"
+
+[entries."spells/summon-judges-2"]
+category = "spells"
+description = "召喚淨土審判官的幻影來助陣。需要2回合施放。"
+id = "summon-judges-2"
+language = "zh-hant"
+name = "召喚審判官 (副手)"
+
 [entries."spells/summon-kelpie"]
 category = "spells"
 description = "召喚一隻野獸來協助你。召喚需要3回合。"
@@ -35305,8 +35473,7 @@ apex_used_r_stats = "使用Apex → 體質"
 arcane_damage = "奧術傷害"
 attack = "攻擊力"
 attack_rate = "攻擊機率"
-auto_summon = "自動召喚"
-avidity = "貪慾"
+avidity_chance = "貪慾機率"
 battle_animation_time = "戰鬥動畫時間"
 berserk = "+能力：狂暴"
 berserk_encounters = "狂暴遭遇者"
@@ -35315,6 +35482,7 @@ bestial_bond_level = "野獸羈絆"
 blacksmith_material_cost = "鐵匠材料花費"
 blacksmith_time = "鐵匠耗時"
 bloodflasks = "血禁瓶"
+bonus_shackled_ascension_levels = "通天等級枷鎖加成"
 buff_duration = "增益持續時間"
 buff_rate = "增益機率"
 build_tower = "+能力：建塔"
@@ -35322,6 +35490,7 @@ cats = "貓貓"
 causes = "造成"
 chain_damage_chance = "連鎖傷害機率"
 chain_lightning_ii = "+能力：連鎖閃電 II"
+charon_ritual_chance = "凱倫秘儀機率"
 cleanse = "+能力：淨化"
 collateral_chance = "間接傷害機率"
 collateral_damage = "間接傷害"
@@ -35330,6 +35499,7 @@ costs = "花費"
 counter_chance__pve_ = "反擊機率 (PvE)"
 counter_damage = "反擊傷害"
 crit = "暴擊"
+crit_chain_r_avidity_chance = "暴擊連鎖 → 貪慾機率"
 crit_chance = "暴擊機率"
 crit_chance_bonus = "暴擊機率"
 crit_damage = "暴擊傷害"
@@ -35423,6 +35593,8 @@ mana_ward_recovery = "護盾轉MP"
 manaflask_charge = "魔禁瓶充能"
 manaflask_power = "魔禁瓶威力"
 manaflasks = "魔禁瓶"
+max_apex_charge = "Apex 充能上限"
+max_avidity = "貪慾上限"
 max_dodge_chance = "最大閃避率"
 memory_hunting_rewards = "記憶追尋獎勵"
 mend_wall_ii = "+能力：補牆術 II"
@@ -35447,6 +35619,7 @@ sacrifice_effects = "獻祭效果"
 second_chance = "第二次機會"
 self_damage_reduction = "自我傷害減少"
 settlement_area_defense = "據點/領地保衛"
+shackled_rewards = "枷鎖後獎勵"
 sigils = "印記"
 souls_collected_r_stats = "吸魂 → 體質"
 spell_casting_damage = "施法中減傷"
@@ -35458,7 +35631,7 @@ status_effect_duration = "狀態效果持續"
 status_protection = "異常狀態防護"
 status_reflection = "狀態反射"
 stonefire = "+能力：石火"
-summon_pacts = "召喚契約之力"
+summon_pact_power = "召喚盟約威力"
 summon_protection = "召喚獸守護"
 summon_spell_start = "開場召喚"
 summon_stats = "召喚獸屬性"
@@ -35477,6 +35650,7 @@ ward = "護盾"
 ward_absorption = "護盾吸收率"
 ward_bypass = "繞過護盾"
 ward_power = "護盾之力"
+ward_power_r_collateral_damage = "護盾威力 → 間接傷害"
 ward_recovery = "護盾回復"
 ward_recovery_turn = "護盾回復/回合"
 ward_start = "開場護盾"
@@ -35630,6 +35804,7 @@ darkblight = "暗黑疫病"
 darkrift_counsel = "暗黑裂痕辯護人"
 darkrift_counsel_a9018f38 = "暗黑裂痕辯護人"
 darkrift_counsel_ebe4a9c6 = "暗黑裂痕辯護人"
+darkveil = "暗隱"
 def_d = "Def ↓"
 def_dd = "Def ↓↓"
 def_u = "Def ↑"
@@ -35770,6 +35945,8 @@ rot = "腐敗"
 sandstone_golem = "砂岩魔像"
 scarecrow = "稻草人"
 selene = "塞勒涅"
+"shade_of_achlys,_the_red_dagger" = "赤刃艾柯呂斯之影"
+"shade_of_rhada,_the_great_shield" = "大盾拉達之影"
 shadowveil = "影身"
 skadi_u = "斯卡蒂 ↑"
 skadi_uu = "斯卡蒂 ↑↑"

@@ -3761,14 +3761,14 @@ category = "followers"
 description = "期间限定。远古巨龙能使用诸多技能。"
 id = "draconian-gorynych"
 language = "zh-hans"
-name = "Draconian Gorynych"
+name = "德肯尼亚族之戈里尼奇"
 
 [entries."followers/draconian-lotan"]
 category = "followers"
 description = "期间限定。远古巨龙能使用诸多技能。"
 id = "draconian-lotan"
 language = "zh-hans"
-name = "Draconian Lotan"
+name = "德肯尼亚族之罗坍"
 
 [entries."followers/drake"]
 category = "followers"
@@ -4251,7 +4251,7 @@ category = "followers"
 description = "期间限定。远古巨龙能使用诸多技能。"
 id = "jimothy-the-steadfast"
 language = "zh-hans"
-name = "Jimothy the Steadfast"
+name = "坚毅之浣熊提莫西"
 
 [entries."followers/kady"]
 category = "followers"
@@ -4673,12 +4673,33 @@ id = "shade-of-achlys-the-red-dagger"
 language = "zh-hans"
 name = "赤刃艾柯吕斯之冥影"
 
+[entries."followers/shade-of-achlys-the-red-dagger-a3add035"]
+category = "followers"
+description = "期间限定。"
+id = "shade-of-achlys-the-red-dagger-a3add035"
+language = "zh-hans"
+name = "赤刃艾柯吕斯之冥影"
+
 [entries."followers/shade-of-rhada-the-great-shield"]
 category = "followers"
 description = "期间限定。"
 id = "shade-of-rhada-the-great-shield"
 language = "zh-hans"
 name = "巨盾拉达之冥影"
+
+[entries."followers/shade-of-rhada-the-great-shield-be4e9c5a"]
+category = "followers"
+description = "期间限定。"
+id = "shade-of-rhada-the-great-shield-be4e9c5a"
+language = "zh-hans"
+name = "巨盾拉达之冥影"
+
+[entries."followers/shade-of-zagreus"]
+category = "followers"
+description = "期间限定。"
+id = "shade-of-zagreus"
+language = "zh-hans"
+name = "扎格列欧斯之冥影"
 
 [entries."followers/shadow-of-achlys-the-red-dagger"]
 category = "followers"
@@ -10987,10 +11008,10 @@ id = "cursed-fomoria-plated-robe"
 language = "zh-hans"
 name = "诅咒的弗摩尔镀金法袍"
 
-[entries."items/cursed-fomoria-plated-robe-49122feb"]
+[entries."items/cursed-fomoria-plated-robe-5d09a4d7"]
 category = "items"
 description = "「诅咒的弗摩尔族之王」弗摩尔所穿戴的链甲。该物品能赋予多种弗摩尔各家族所拥有的被动能力。"
-id = "cursed-fomoria-plated-robe-49122feb"
+id = "cursed-fomoria-plated-robe-5d09a4d7"
 language = "zh-hans"
 name = "诅咒的弗摩尔镀金法袍"
 
@@ -11532,6 +11553,13 @@ description = "暗域裂隙评议会成员——判官扎格列欧斯的堕落�
 id = "darkrift-cowl"
 language = "zh-hans"
 name = "暗域裂隙风帽"
+
+[entries."items/darkrift-crucible"]
+category = "items"
+description = "封印暗域裂隙的坩埚。对苦难物品使用会获得独特的加成。"
+id = "darkrift-crucible"
+language = "zh-hans"
+name = "暗域裂隙坩埚"
 
 [entries."items/darkrift-dungeon-key"]
 category = "items"
@@ -15245,7 +15273,7 @@ name = "完美的熊皮肩"
 
 [entries."items/great-dowsing-rod"]
 category = "items"
-description = "A strange apparatus suitable for finding that which cannot be easily found. This item brings your luck bonus to its max for 6 hours."
+description = "为探寻稀罕之物的专业器具。在 6 小时内将幸运加成提升到最高。"
 id = "great-dowsing-rod"
 language = "zh-hans"
 name = "强化探测棒"
@@ -16951,6 +16979,90 @@ id = "jotunheim-mnemonic"
 language = "zh-hans"
 name = "约顿海姆追忆"
 
+[entries."items/judge-trifecta-armor"]
+category = "items"
+description = "裂隙判官三位一体究极形态的重甲。当穿戴该盔甲时，在战斗开始时将获得额外的护盾回合与护盾吸收率。"
+id = "judge-trifecta-armor"
+language = "zh-hans"
+name = "裂隙判官三位一体盔甲"
+
+[entries."items/judge-trifecta-boots"]
+category = "items"
+description = "裂隙判官三位一体究极形态的轻甲。当穿戴该盔甲时，将提升急切机率的上限。"
+id = "judge-trifecta-boots"
+language = "zh-hans"
+name = "裂隙判官三位一体长靴"
+
+[entries."items/judge-trifecta-chestplate"]
+category = "items"
+description = "裂隙判官三位一体究极形态的轻甲。当穿戴该盔甲时，将提升急切机率的上限。"
+id = "judge-trifecta-chestplate"
+language = "zh-hans"
+name = "裂隙判官三位一体板甲"
+
+[entries."items/judge-trifecta-falx"]
+category = "items"
+description = "裂隙判官三位一体究极形态所携带的细长锋刃。使用该锋刃造成暴击时，将能提升急切获得额外回合的机率。"
+id = "judge-trifecta-falx"
+language = "zh-hans"
+name = "裂隙判官三位一体太刀"
+
+[entries."items/judge-trifecta-greatsword"]
+category = "items"
+description = "裂隙判官三位一体究极形态的巨剑。当持有该巨剑时，使用消耗护盾的技能时，将提升附带伤害的机率与效果。"
+id = "judge-trifecta-greatsword"
+language = "zh-hans"
+name = "裂隙判官三位一体巨剑"
+
+[entries."items/judge-trifecta-grimoire"]
+category = "items"
+description = "裂隙判官三位一体究极形态所携带的巨型魔法书。该魔法书赋予能力在战斗中召唤裂隙判官的暗影。"
+id = "judge-trifecta-grimoire"
+language = "zh-hans"
+name = "裂隙判官三位一体魔法书"
+
+[entries."items/judge-trifecta-headguard"]
+category = "items"
+description = "裂隙判官三位一体究极形态的轻甲。能够提升卡戎仪式自动召唤的机率。"
+id = "judge-trifecta-headguard"
+language = "zh-hans"
+name = "裂隙判官三位一体面甲"
+
+[entries."items/judge-trifecta-helmet"]
+category = "items"
+description = "裂隙判官三位一体究极形态的重甲。当穿戴该盔甲时，在战斗开始时将获得额外的护盾回合与护盾吸收率。"
+id = "judge-trifecta-helmet"
+language = "zh-hans"
+name = "裂隙判官三位一体头盔"
+
+[entries."items/judge-trifecta-leggings"]
+category = "items"
+description = "裂隙判官三位一体究极形态的重甲。当穿戴该盔甲时，在战斗开始时将获得额外的护盾回合与护盾吸收率。"
+id = "judge-trifecta-leggings"
+language = "zh-hans"
+name = "裂隙判官三位一体腿甲"
+
+[entries."items/judge-trifecta-legguards"]
+category = "items"
+description = "裂隙判官三位一体究极形态的轻甲。能够提升卡戎仪式自动召唤的机率。"
+id = "judge-trifecta-legguards"
+language = "zh-hans"
+name = "裂隙判官三位一体护腿"
+
+[entries."items/judge-trifecta-robe"]
+category = "items"
+description = "裂隙判官三位一体究极形态的轻甲。能够提升卡戎仪式自动召唤的机率。"
+id = "judge-trifecta-robe"
+language = "zh-hans"
+name = "裂隙判官三位一体法袍"
+
+[entries."items/judge-trifecta-sallet"]
+category = "items"
+description = "裂隙判官三位一体究极形态的轻甲。当穿戴该盔甲时，将提升急切机率的上限。"
+id = "judge-trifecta-sallet"
+language = "zh-hans"
+name = "裂隙判官三位一体轻盔"
+
 [entries."items/kaladanda"]
 category = "items"
 description = "傲慢恶魔玛门的法杖。"
@@ -16972,10 +17084,10 @@ id = "kerberos-claws"
 language = "zh-hans"
 name = "刻耳柏洛斯之爪"
 
-[entries."items/kerberos-claws-81b67c8d"]
+[entries."items/kerberos-claws-e7f61ea1"]
 category = "items"
 description = "由刻耳柏洛斯那尖锐锋利的爪所制成。攻击有机率对对手造成流血和冰冻。"
-id = "kerberos-claws-81b67c8d"
+id = "kerberos-claws-e7f61ea1"
 language = "zh-hans"
 name = "刻耳柏洛斯之爪"
 
@@ -21171,6 +21283,13 @@ id = "scroll-of-rift-distortion"
 language = "zh-hans"
 name = "裂隙扭曲卷轴"
 
+[entries."items/scroll-of-the-judges-trifecta"]
+category = "items"
+description = "内含极乐净土传说的卷轴。阅读该卷轴能将超级副本裂隙判官究极形态重现于你所在的位置。"
+id = "scroll-of-the-judges-trifecta"
+language = "zh-hans"
+name = "裂隙判官三位一体之卷轴"
+
 [entries."items/scroll-of-the-sapling"]
 category = "items"
 description = "记载着伟大世界树树苗传说的卷轴。阅读该卷轴将召唤世界树树苗至附近。"
@@ -24106,21 +24225,21 @@ name = "扎格列欧斯双叉戟"
 
 [entries."items/zagreus-chestplate"]
 category = "items"
-description = "极乐净土的堕落判官扎格列欧斯所穿戴的装备。曾为极乐净土判官的扎格列欧斯在圣白裂隙期间因炫耀野兽般的行为而堕落。他的追随者也随他进入冥府之门。"
+description = "极乐净土的堕落判官扎格列欧斯所穿戴的装备。扎格列欧斯曾是极乐净土的判官，但他被放逐至暗域裂隙。他的追随者亦随他进入冥府。"
 id = "zagreus-chestplate"
 language = "zh-hans"
 name = "扎格列欧斯胸甲"
 
 [entries."items/zagreus-headwrap"]
 category = "items"
-description = "极乐净土的堕落判官扎格列欧斯所穿戴的装备。曾为极乐净土判官的扎格列欧斯在圣白裂隙期间因炫耀野兽般的行为而堕落。他的追随者也随他进入冥府之门。"
+description = "极乐净土的堕落判官扎格列欧斯所穿戴的装备。扎格列欧斯曾是极乐净土的判官，但他被放逐至暗域裂隙。他的追随者亦随他进入冥府。"
 id = "zagreus-headwrap"
 language = "zh-hans"
 name = "扎格列欧斯头饰"
 
 [entries."items/zagreus-legwraps"]
 category = "items"
-description = "极乐净土的堕落判官扎格列欧斯所穿戴的装备。曾为极乐净土判官的扎格列欧斯在圣白裂隙期间因炫耀野兽般的行为而堕落。他的追随者也随他进入冥府之门。"
+description = "极乐净土的堕落判官扎格列欧斯所穿戴的装备。扎格列欧斯曾是极乐净土的判官，但他被放逐至暗域裂隙。他的追随者亦随他进入冥府。"
 id = "zagreus-legwraps"
 language = "zh-hans"
 name = "扎格列欧斯裹腿"
@@ -24257,6 +24376,13 @@ description = "从奥林匹亚勇士上掉落的稀有武器。"
 id = "zeta-olympia-warsword"
 language = "zh-hans"
 name = "ζ奥林匹亚战刃"
+
+[entries."items/zeta-riftlock"]
+category = "items"
+description = "来历不明的神秘裂隙封印。当携带该裂隙封印参与苦难相关内容时，将减少通天枷锁的限制。此外，通天枷锁将提供更多的奖励与证章。"
+id = "zeta-riftlock"
+language = "zh-hans"
+name = "Ζ裂隙封印"
 
 [entries."monsters/aaru-cobra"]
 category = "monsters"
@@ -27765,6 +27891,13 @@ id = "jormungandr"
 language = "zh-hans"
 name = "耶梦加得"
 
+[entries."raids/judge-trifecta-maximus"]
+category = "raids"
+description = "巨盾拉达。\n赤刃艾柯吕斯。\n冠位召唤师卡戎。"
+id = "judge-trifecta-maximus"
+language = "zh-hans"
+name = "裂隙判官三位一体究极形态"
+
 [entries."raids/kerberos"]
 category = "raids"
 description = "从冥府深处重生。"
@@ -29387,6 +29520,20 @@ id = "darkblight-ii"
 language = "zh-hans"
 name = "暗黑疫病 II"
 
+[entries."spells/darkrift-seal"]
+category = "spells"
+description = "Removes up to 3 negative status effects from the caster, increasing damage to all targets for each status effect removed."
+id = "darkrift-seal"
+language = "zh-hans"
+name = "Darkrift Seal"
+
+[entries."spells/darkrift-transference"]
+category = "spells"
+description = "Deals non-elemental magic damage and recovers Ward. This spell will use either your magic or attack stat, depending on which is greater."
+id = "darkrift-transference"
+language = "zh-hans"
+name = "Darkrift Transference"
+
 [entries."spells/darkstrike"]
 category = "spells"
 description = "让超自然的力量渗入你的武器并攻击敌人。"
@@ -29407,6 +29554,13 @@ description = "让超自然的力量渗入你的武器并攻击敌人。"
 id = "darkstrike-iii"
 language = "zh-hans"
 name = "黑暗之击 III"
+
+[entries."spells/darkveil"]
+category = "spells"
+description = "Consume Ward and 50% of your current HP every turn to boost your Attack, Avidity rate, and dexterity for 5 turns."
+id = "darkveil"
+language = "zh-hans"
+name = "Darkveil"
 
 [entries."spells/decay"]
 category = "spells"
@@ -33854,6 +34008,20 @@ id = "summon-ice-disciple"
 language = "zh-hans"
 name = "冰之信徒召唤"
 
+[entries."spells/summon-judges"]
+category = "spells"
+description = "召唤一只野兽来协助你。在战斗中需要 2 回合发动。"
+id = "summon-judges"
+language = "zh-hans"
+name = "判官召唤"
+
+[entries."spells/summon-judges-2"]
+category = "spells"
+description = "召唤极乐净土判官的暗影来协助你。在战斗中需要 2 回合来发动。"
+id = "summon-judges-2"
+language = "zh-hans"
+name = "判官召唤 (副手)"
+
 [entries."spells/summon-kelpie"]
 category = "spells"
 description = "召唤一只野兽来协助你。在战斗中需要 3 回合发动。"
@@ -35305,8 +35473,7 @@ apex_used_r_stats = "APEX使用 → 属性"
 arcane_damage = "奥术伤害"
 attack = "物攻"
 attack_rate = "攻击机率"
-auto_summon = "自动召唤"
-avidity = "急切"
+avidity_chance = "急切机率"
 battle_animation_time = "战斗动画时间"
 berserk_encounters = "狂暴遇怪"
 bestial_bond = "野兽羁绊"
@@ -35314,11 +35481,13 @@ bestial_bond_level = "野兽羁绊"
 blacksmith_material_cost = "铁匠铺材料花费"
 blacksmith_time = "铁匠时间"
 bloodflasks = "汲血瓶"
+bonus_shackled_ascension_levels = "Bonus Shackled Ascension Levels"
 buff_duration = "增益持续时间"
 buff_rate = "增益机率"
 cats = "猫猫"
 causes = "造成"
 chain_damage_chance = "连锁伤害机率"
+charon_ritual_chance = "卡戎仪式机率"
 collateral_chance = "附带伤害机率"
 collateral_damage = "附带伤害"
 collateral_damage_hp_recovery = "附带伤害恢复 HP"
@@ -35326,6 +35495,7 @@ costs = "消耗"
 counter_chance__pve_ = "反击机率(PvE)"
 counter_damage = "反击伤害"
 crit = "暴击"
+crit_chain_r_avidity_chance = "暴击连锁 → 急切机率"
 crit_chance = "暴击机率"
 crit_chance_bonus = "暴击机率"
 crit_damage = "暴击伤害"
@@ -35414,6 +35584,8 @@ mana_ward_recovery = "护盾回收MP"
 manaflask_charge = "汲魔瓶充能"
 manaflask_power = "汲魔瓶威力"
 manaflasks = "汲魔瓶"
+max_apex_charge = "APEX充能上限"
+max_avidity = "急切上限"
 max_dodge_chance = "最大闪避机率"
 memory_hunting_rewards = "记忆追寻奖励"
 monster_encounters = "遇怪"
@@ -35436,6 +35608,7 @@ sacrifice_effects = "献祭状态效果"
 second_chance = "第二次机会"
 self_damage_reduction = "自损降低"
 settlement_area_defense = "据点/领地防御"
+shackled_rewards = "枷锁奖励"
 sigils = "印记"
 souls_collected_r_stats = "噬魂 → 属性"
 spell_casting_damage = "施法伤害"
@@ -35446,7 +35619,7 @@ status_effect_chance = "状态生效机率"
 status_effect_duration = "状态效果持续"
 status_protection = "异常状态保护"
 status_reflection = "状态反射"
-summon_pacts = "契约效果"
+summon_pact_power = "召唤契约威力"
 summon_protection = "召唤物保护"
 summon_spell_start = "开场召唤术"
 summon_stats = "召唤物属性"
@@ -35465,6 +35638,7 @@ ward = "护盾"
 ward_absorption = "护盾吸收率"
 ward_bypass = "护盾穿透"
 ward_power = "护盾技能效果"
+ward_power_r_collateral_damage = "护盾威力 → 附带伤害"
 ward_recovery = "护盾恢复"
 ward_recovery_turn = "护盾恢复/回合"
 ward_start = "开场护盾"
@@ -35629,6 +35803,7 @@ darkblight = "暗黑疫病"
 darkrift_counsel = "暗域裂隙辩护士"
 darkrift_counsel_a9018f38 = "暗域裂隙辩护士"
 darkrift_counsel_ebe4a9c6 = "暗域裂隙辩护士"
+darkveil = "Darkveil"
 def_d = "Def ↓"
 def_dd = "Def ↓↓"
 def_u = "Def ↑"
@@ -35769,6 +35944,8 @@ rot = "腐败"
 sandstone_golem = "砂岩魔像"
 scarecrow = "稻草人"
 selene = "塞勒涅"
+"shade_of_achlys,_the_red_dagger" = "赤刃艾柯吕斯之冥影"
+"shade_of_rhada,_the_great_shield" = "巨盾拉达之冥影"
 shadowveil = "影幕"
 skadi_u = "斯卡蒂 ↑"
 skadi_uu = "斯卡蒂 ↑↑"

@@ -29522,17 +29522,17 @@ name = "暗黑疫病 II"
 
 [entries."spells/darkrift-seal"]
 category = "spells"
-description = "Removes up to 3 negative status effects from the caster, increasing damage to all targets for each status effect removed."
+description = "移除施放者身上最多 3 个减益状态，且每移除一个状态，对所有目标造成的伤害就会提升。"
 id = "darkrift-seal"
 language = "zh-hans"
-name = "Darkrift Seal"
+name = "暗域之印"
 
 [entries."spells/darkrift-transference"]
 category = "spells"
-description = "Deals non-elemental magic damage and recovers Ward. This spell will use either your magic or attack stat, depending on which is greater."
+description = "造成无属性魔法伤害且恢复护盾。该法术的伤害取决于你的物攻或魔攻更高的一方。"
 id = "darkrift-transference"
 language = "zh-hans"
-name = "Darkrift Transference"
+name = "暗域转移"
 
 [entries."spells/darkstrike"]
 category = "spells"
@@ -29557,10 +29557,10 @@ name = "黑暗之击 III"
 
 [entries."spells/darkveil"]
 category = "spells"
-description = "Consume Ward and 50% of your current HP every turn to boost your Attack, Avidity rate, and dexterity for 5 turns."
+description = "每回合都会消耗护盾与 50% 的当前生命值来提升攻击、急切机率和敏捷，持续 5 回合。"
 id = "darkveil"
 language = "zh-hans"
-name = "Darkveil"
+name = "暗域潜影"
 
 [entries."spells/decay"]
 category = "spells"
@@ -35481,7 +35481,7 @@ bestial_bond_level = "野兽羁绊"
 blacksmith_material_cost = "铁匠铺材料花费"
 blacksmith_time = "铁匠时间"
 bloodflasks = "汲血瓶"
-bonus_shackled_ascension_levels = "Bonus Shackled Ascension Levels"
+bonus_shackled_ascension_levels = "通天等级枷锁加成"
 buff_duration = "增益持续时间"
 buff_rate = "增益机率"
 cats = "猫猫"
@@ -35803,7 +35803,7 @@ darkblight = "暗黑疫病"
 darkrift_counsel = "暗域裂隙辩护士"
 darkrift_counsel_a9018f38 = "暗域裂隙辩护士"
 darkrift_counsel_ebe4a9c6 = "暗域裂隙辩护士"
-darkveil = "Darkveil"
+darkveil = "暗域潜影"
 def_d = "Def ↓"
 def_dd = "Def ↓↓"
 def_u = "Def ↑"
